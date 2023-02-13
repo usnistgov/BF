@@ -1,0 +1,7 @@
+        <div align="center">
+            <object style="max-height:{{ .Get "height"}}px" type="image/svg+xml" data="{{ .Site.BaseURL }}{{ .Get "src" }}" >
+              <img style="max-height:{{ .Get "height"}}px" src="{{ .Site.BaseURL }}{{ .Get "src" }}"> <!-- fallback image in CSS -->
+            </object>
+        <p><i>{{ .Get "caption" }}</i></p>
+        
+        </div>
