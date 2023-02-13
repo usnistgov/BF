@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview on The Bugs Framework</title>
-    <link>https://ibojanova.BF-Website.github.io/</link>
+    <link>https://usnistgov.github.io/BF/</link>
     <description>Recent content in Overview on The Bugs Framework</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Background</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Organizational-Structures/</link>
+      <link>https://usnistgov.github.io/BF/Background/Organizational-Structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Organizational-Structures/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Organizational-Structures/</guid>
       <description>Background#The medical profession has an extensive, elaborate vocabulary to precisely name muscles, bones, organs, conditions and diseases. When a doctor says that a comatose patient has a left temporal lobe epidural hematoma, the intention is to enlighten, not to obfuscate.
 In the software profession, we have many efforts that have helped us develop terms to discuss software, faults, failures, attacks and vulnerabilities, such as the Common Weakness Enumeration (CWE) [1] and Landwehr et.</description>
     </item>
     
     <item>
       <title>Background</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Overview/</link>
+      <link>https://usnistgov.github.io/BF/Background/Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Overview/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Overview/</guid>
       <description>Background#The medical profession has an extensive, elaborate vocabulary to precisely name muscles, bones, organs, conditions and diseases. When a doctor says that a comatose patient has a left temporal lobe epidural hematoma, the intention is to enlighten, not to obfuscate.
 In the software profession, we have many efforts that have helped us develop terms to discuss software, faults, failures, attacks and vulnerabilities, such as the Common Weakness Enumeration (CWE) [1] and Landwehr et.</description>
     </item>
     
     <item>
       <title>BOF</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Classes/BOF/</link>
+      <link>https://usnistgov.github.io/BF/Old/Classes/BOF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/BOF/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Classes/BOF/</guid>
       <description>Buffer Overflow (BOF) Class#Definition#We define Buffer Overflow (BOF) as:
 The software accesses through an array a memory location that is outside the boundaries of that array. [1]
 Often referred to as a &amp;ldquo;buffer,&amp;rdquo; an array is a contiguously allocated set of objects [1], called elements. An array has a definite size, that is, a definite number of elements are allocated to it. The software should not use the array name to access anything outside the boundary of the allocated elements.</description>
@@ -38,73 +38,73 @@ Often referred to as a &amp;ldquo;buffer,&amp;rdquo; an array is a contiguously 
     
     <item>
       <title>BOF</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Examples/BOF/</link>
+      <link>https://usnistgov.github.io/BF/Old/Examples/BOF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/BOF/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Examples/BOF/</guid>
       <description>Buffer Overflow (BOF) Examples#CVE-2014-0160 (Heartbleed) BF Taxonomy Cause: Input not checked properly leads to Data Exceeds Array (specifically Too Much Data) Attributes: Access: Read Boundary: Above Location: Heap Data Size: Huge Excursion: Continuous Consequence: IEX (if not had been cleared - CWE-226) BF Description &#34;Input not checked properly leads to too much data, where huge data is read from the heap in a continuous excursion above the array boundary, which may be exploited for IEX (if not had been cleared).</description>
     </item>
     
     <item>
       <title>CVE-2001-1141</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2001-1141/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2001-1141/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2001-1141/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2001-1141/</guid>
       <description>CVE-2001-1141#BF Taxonomy Cause: Improper PRNG Algorithm (C md_rand - the secret PRNG state is updated with portion, as small as on byte, of the PRNG&#39;s previous output, which is not secret) Attributes: Function: Mixing (back into entropy pool) Algorithm: Hash Function ( SHA-1 used for PRNG output and to update its internal secret state) Used For: Generation (of cryptographic keying material - nonces, cryptographic keys) Pseudo-Randomness Requirement: Sufficicent Space Size and Unpredictability (can be predicted from previous value through brute force) Consequence: KMN&gt;Generate with IEX of future keying BF Description Use of improper PRNG algorithm (C md_rand uses SHA-1 for mixing back in the entropy pool portion, as small as one byte, of previous output to update PRNG’s state), allows generation of cryptographic keying material (nonces and cryptographic keys) that does not satisfy the sufficient space size and unpredictability (can be predicted from previous values through brute force) pseudo-randomness requirements, which leads to KMN&gt;Generate and IEX of future keying material.</description>
     </item>
     
     <item>
       <title>CVE-2001-1585</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2001-1585/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2001-1585/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2001-1585/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2001-1585/</guid>
       <description>CVE-2001-1585#BF Taxonomy Cause: Missing Verification Step (challenge-response) in public key authentication Attributes: Verified Data: Any Secret/Public Data State: Transferred (over network) Algorithm: Digital Signature (not using such allows private key not to be verified by public key) Security Service: Identity Authentication Consequence: IEX BF Description Missing verification step (challenge-response) in public key authentication allows private key for digital signature not to be verified by public key, which leads to identity authentication failure and may be exploited for IEX.</description>
     </item>
     
     <item>
       <title>CVE-2002-1697</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2002-1697/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2002-1697/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2002-1697/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2002-1697/</guid>
       <description>CVE-2002-1697#BF Taxonomy Causes: Insecure mode of operation (ECB) leads to Weak Encryption Algorithm(for same shared key produces same ciphertext from same plaintext) Attributes: Sensitive Data: Any (Credentials, Cryptographic, ...) Data State: Transferred (over network) Algorithm: Symmetric (that allows identifying patterns and data recovery) Security Service: Confidentiality Consequence: IEX of Sensitive Data BF Description Use of insecure mode of operation (ECB) leads to weak symmetric encryption algorithm (for same shared key produces same ciphertext from same plaintext) that allows identifying patterns and recovery of transferred (over network) sensitive data, which is confidentiality failure and IEX of that sensitive data.</description>
     </item>
     
     <item>
       <title>CVE-2007-5460</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2007-5460/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2007-5460/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2007-5460/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2007-5460/</guid>
       <description>CVE-2007-5460#BF Taxonomy Cause: Weak Encryption Algorithm (XOR xipher with fixed key) Attributes: Sensitive Data: Credentials (PINs/passwords) Data State: Transferred (over network) Algorithm: Symmetric (that allows obtaining shared key, by sniffing or spoofing the docking process, and decryption) Security Service: Confidentiality Consequence: IEX of Sensitive Data credentials BF Description Use of weak encryption algorithm (XOR cipher with fixed key) allows obtaining the shared symmetric key (by sniffing or spoofing the docking process) and decryption of transferred (over network) credentials (PINs/passwords), which is confidentiality failure and IEX of sensitive data (PINs/passwords).</description>
     </item>
     
     <item>
       <title>CVE-2008-0141</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2008-0141/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2008-0141/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2008-0141/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2008-0141/</guid>
       <description>CVE-2008-0141#BF Taxonomy Cause: Inadequate Entropy Sources (current date/time and user name) Attributes: Function: Mixing Algorithm: Concatenation Used For: Generation (of password) Randomness Requirement: Non-Inferable (time known from password reset time, name - from user register) Consequence: IEX leading to ATN (Authentication Fault) BF Description Inadequate entropy sources (date/time and user name) mixing using concatenation allow generation of passwords that do not satisfy the non-inferable randomness requirement (time known from password reset time, name - from user register), which may be exploited for IEX (of password), leading to ATN </description>
     </item>
     
     <item>
       <title>CVE-2008-4107</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2008-4107/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2008-4107/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2008-4107/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2008-4107/</guid>
       <description>CVE-2008-4107#BF Taxonomy Cause: Improper PRNG Algorithms (not cryptographically strong PHP 5 rand and mt_rand) Attributes: Function: Generate (pseudo-random numbers) Algorithms: e.g., LCG or LSFR, Mersenne Twister Used For: Generation (of passwords) Pseudo-Randomness Requirement: Unpredictability/Indistinguishability and Prediction Resistance Consequence: IEX (of password), leading to ATN BF Description Improper PRNG algorithms (not cryptographically strong PHP 5 rand&gt; and mt_rand, based on algorithms such as LCG or LFSR, and Mersenne Twister) used to generate pseudo-random numbers, allow generation of passwords that do not satisfy the unpredictability/ indistinguishability and prediction resistance pseudo-randomness requirements and may be exploited for IEX of password, leading to ATN.</description>
     </item>
     
     <item>
       <title>CVE-2014-0160</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2014-0160/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2014-0160/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2014-0160/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2014-0160/</guid>
       <description>CVE-2014-0160 – Heartbleed Buffer Overflow#BF Taxonomy#Fig 1. BF DVR bug from DVR–MAD–(MUS &amp;amp; MUS) chain of CVE-2014-0160 – Heartbleed Buffer Overflow - click on image for detailed view.
 DVR (Verify)
 Cause: Improper Operation - Missing Attributes: Mechanism: Quantity Source Code: Codebase (d1_both.c and t1_lib.c) Execution Space: Admin State: Transferred (via network) Consequence: Improper Data - Inconsistent Value (size) Brief Description:
@@ -113,37 +113,37 @@ Heartbleed is a vulnerability due to a bug in the OpenSSL that allows a server t
     
     <item>
       <title>CVE-2015-0204</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2015-0204/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2015-0204/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2015-0204/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2015-0204/</guid>
       <description>CVE-2015-0204, 1637, 1067 (FREAK - Factoring attack on RSA-Export Keys)#BF Taxonomy An inner KMN leads to an inner ENC, which leads to an outer ENC. Inner KMN: Cause: Improper Offer of Weak Protocol (Export RSA – offered from MITM-tricked server and accepted by client) Attributes: Cryptographic Data: Keying Material (pair of private and public keys) Data State: Transferred (over network) Algorithm: Export RSA (512-bits key generation based on prime numbers, such that private key can be obtained from public key through factorization) Operation: Generate Consequence: IEX Keying Material (private key) Inner ENC: Causes: KMN Fault leads to Exposed Private Key Attributes: Sensitive Data: Cryptographic (Pre-Master Secret) Data State: Transferred (over network) Algorithm: Asymmetric (RSA) (that allows decryption of Pre-Master Secret using exposed private key and computation of Master Secret) Security Service: Confidentiality Consequence: IEX of Sensitive Data (Master Secret) Outer ENC: Causes: KMN Fault leads to Exposed Secret Key (Master Secret) Attributes: Sensitive Data: Credentials (passwords, credit cards) Data State: Transferred (over network) Algorithm: Symmetric (key is known) Security Service: Confidentiality Consequence: IEX of Sensitive Data (credentials) BF Description An inner KMN leads to an inner ENC, which leads to an outer ENC.</description>
     </item>
     
     <item>
       <title>CVE-2015-2141</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2015-2141/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2015-2141/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2015-2141/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2015-2141/</guid>
       <description>CVE-2015-2141#BF Taxonomy Cause: Modification of Verification Algorithm by adding a step (blinding) Attributes: Verified Data: Any Secret/Public Data State: Transferred (over network) Algorithm: Digital Signature (Rabin-Williams) (that allows obtaining the private key in cases of incorrect unblinding) Security Service: Identity Authentication Consequence: IEX BF Description Modification of verification algorithm (digital signature, Rabin-Williams) by adding a step (blinding before signing) allows obtaining the private key in cases of incorrect unblinding, which leads to identity authentication failure and may be exploited for IEX.</description>
     </item>
     
     <item>
       <title>CVE-2016-1919</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2016-1919/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2016-1919/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2016-1919/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2016-1919/</guid>
       <description>CVE-2016-1919#BF Taxonomy To be added. BF Description A KMN leads to an ENC. KMN: Use of weak algorithm (eCryptFS-key from password and stored TIMA key) allows generation of keying material (secret key) that can be obtained through brute force, which may be exploited for IEX of keying material (secret key). ENC: KMN fault leads to exposed secret key that allows decryption of stored (on disk) sensitive data, which is confidentiality failure and may be exploited for IEX of sensitive data.</description>
     </item>
     
     <item>
       <title>CVE-2018-20991</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2018-20991/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2018-20991/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2018-20991/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2018-20991/</guid>
       <description>CVE-2018-20991 - Rust SmallVec Iterator Panic#BF Taxonomy#Fig 1. BF for CVE-2018-20991 – Rust Iterator Panic - click on image for detailed view.
 MUS (Deallocate)
 Cause: Improper Pointer - Dangling Pointer (to SmallVec) Attributes: Mechanism: Explicit Source Code: Standard Library (lib.rs) Execution Space: Userland Object Ownership: Shared Object Location: Heap Consequence: Memory Error - Double Free Fig 2. BF for the Bug in the Fix of CVE-2018-20991 - click on image for detailed view.</description>
@@ -151,10 +151,10 @@ Cause: Improper Pointer - Dangling Pointer (to SmallVec) Attributes: Mechanism: 
     
     <item>
       <title>CVE-2019-10748</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2019-10748/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2019-10748/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2019-10748/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2019-10748/</guid>
       <description>CVE-2019-10748 – Sequelize SQL Injection#BF Taxonomy#Fig 1. BF for CVE-2019-10748 – Sequelize SQL Injection - click on image for detailed view.
 DVL (Sanitize)
 Cause: Improper Operation - Missing Attributes: Mechanism: Format Source Code: Codebase (query-generator.js) Execution Space: Local State: Transferred (via network) Object Location: Heap Consequence: Injection Error - Query Injection (SQL Injection) Brief Description:
@@ -163,10 +163,10 @@ Sequelize is an Object-Relational Mapper for Node.js. It supports Postgres, MySQ
     
     <item>
       <title>CVE-2020-5902</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2020-5902/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2020-5902/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2020-5902/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2020-5902/</guid>
       <description>CVE-2020-5902 – BIG-IP TMUI RCE#BF Taxonomy#Fig 1. BF for CVE-2020-5902 – BIG-IP TMUI RCE - click on image for detailed view.
 DVL (Validate)
 Cause: Improper Operation - Missing Attributes: Mechanism: Format (e.g., via “.*\.\.;.*“ regular expression) Source Code: Codebase (login.jsp) Execution Space: Admin State: Transferred (via network) Consequence: Injection Error - File Injection (Path Traversal) Brief Description:
@@ -175,10 +175,10 @@ BIG-IP is a family of server-side products from F5 Inc.</description>
     
     <item>
       <title>CVE-2021-21834</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2021-21834/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2021-21834/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2021-21834/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2021-21834/</guid>
       <description>CVE-2021-21834 - Bad Allocation Chain#BF Taxonomy#Fig 1. BF for CVE-2021-21834. - click on image for detailed view.
 DVR (Verify)
 Cause: Improper Operation - Missing Attributes: Mechanism: Range Source Code: Third Party (Library box_code_base.c) Execution Space: Local Data State: Stored(“number of entries” read from file) Consequence: Improper Data Value - Inconsistent Value ( &gt; max 64-bit int ) TCM (Calculate)
@@ -187,10 +187,10 @@ Cause: Improper Data Value - Wrong Argument Value Attributes: Mechanism: Operato
     
     <item>
       <title>CVE-2021-23440</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CVE-2021-23440/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CVE-2021-23440/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CVE-2021-23440/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CVE-2021-23440/</guid>
       <description>CVE-2021-23440 - Type Mismatch bypassing Input Validation#BF Taxonomy#Fig 1. First BF chain: Loose comparison misuse. - click on image for detailed view.
 TCM (Evaluate)
 Cause: Improper Operation - Wrong Attributes: Mechanism: Operator Source Code: Codebase Data Value Kind: Boolean Data Type Kind: Structured Consequence: Improper Data Value - Wrong Result Fig 2. Second BF chain: Conversion missing before loose comparison. - click on image for detailed view.</description>
@@ -198,10 +198,10 @@ Cause: Improper Operation - Wrong Attributes: Mechanism: Operator Source Code: C
     
     <item>
       <title>CWE-468</title>
-      <link>https://ibojanova.BF-Website.github.io/Examples/CWE-468/</link>
+      <link>https://usnistgov.github.io/BF/Examples/CWE-468/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Examples/CWE-468/</guid>
+      <guid>https://usnistgov.github.io/BF/Examples/CWE-468/</guid>
       <description>CWE-468 - Incorrect Pointer Scaling#BF Taxonomy#Fig 1. BF for CWE-468. - click on image for detailed view.
 TCV (Cast)
 Cause: Improper Operation - Wrong Attributes: Mechanism: Pass In Source Code: Codebase Data Value Kind: Pointer Data Type Kind: Primitive Consequence: Improper Data Type - Wrong Type ( int instead of char ) NRS (Call)
@@ -210,56 +210,56 @@ Cause: Improper Data Type - Wrong Argument Type Attributes: Mechanism: Ad-hoc Bi
     
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/Model/</guid>
       <description>BF Model of Cryptographic Store or Transfer#Cryptography#Cryptography is a broad, complex, and subtle area. It incorporates many clearly separate processes, such as encryption/decryption, verification of data or source, and key management. There are bugs if the software does not properly transform data into unintelligible form, verify authenticity or correctness, manage keys, or perform other related operations. Some transformations require keys, for example encryption and decryption, while others do not, for example secret sharing.</description>
     </item>
     
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/Model/</guid>
       <description>BF Data Type Bugs Model#Data Type bugs could be introduced at any of the declaration, name resolution, data type conversion, or data type related computation phases. Each data type related bug or weakness involves one data type operation: Declare, Define, Refer, Call, Cast, Coerce, Calculate, or Evaluate.
 The BF Data Type Bugs model (Fig. 1) helped us identify the phases and the operations where such bugs could occur.</description>
     </item>
     
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/Model/</guid>
       <description>Data Checks Bug Model#Data should be checked to ensure proper results from its processing. It should adhere to object data types acceptable by the software. Bojanova and Galhardo, define an object as a piece of memory with well-defined size that is used to store primitive data or a data structure. As input, primitive data are checked and sanitized on string-of-characters level. A character – e.g., an ASCII (American Standard Code for Information Interchange) character – is a single symbol, such as an alphabet letter, a numeric digit, or a punctuation mark.</description>
     </item>
     
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/Model/</guid>
       <description>BF Memory Model#Each memory related bug or weakness involves one memory operation. Each operation is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has boundaries and it has size. We call this piece of memory, with a well-defined size, an object. It is used to store a primitive data or a data structure.</description>
     </item>
     
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_RND/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_RND/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_RND/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_RND/Model/</guid>
       <description>BF Randomness Model#Randomness#Randomness has application in many fields, including cryptography, simulation, statistics, politics, science, and gaming. Any specific use has its own requirements for randomness – e.g., random bit generation for cryptography or security purposes has stronger requirements than generation for other purposes. For cryptography or security purposes, the National Institute of Standards and Technology (NIST) recommends use of cryptographically secure Pseudo-Random Bit Generators (PRBGs). They are subject to the requirements in NIST SP 800-90A, NIST SP 800-90B and NIST SP 800-90C.</description>
     </item>
     
     <item>
       <title>Overview</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Overview/</link>
+      <link>https://usnistgov.github.io/BF/Home/Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Overview/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Overview/</guid>
       <description>Welcome to the NIST Bugs Framework (BF) Project!#We are classifying software bugs and weaknesses to allow precise descriptions of vulnerabilities that exploit them.
 The Bugs Framework (BF) is a …
 ➢ Structured
@@ -271,10 +271,10 @@ Structured means a weakness is described via one cause, one operation, one conse
     
     <item>
       <title>CIF</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Classes/CIF/</link>
+      <link>https://usnistgov.github.io/BF/Old/Classes/CIF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/CIF/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Classes/CIF/</guid>
       <description>Control of Interaction Frequency Bugs (CIF) Class#Definition#We define Control of Interaction Frequency Bugs (CIF) as:
 The software does not properly limit the number of repeating interactions per specified unit. In physics, frequency is the number of occurrences of a repeating event per unit time. Interactions in software could be also per event or per user.
 Type#High (semantic).
@@ -283,19 +283,19 @@ Taxonomy#Fig. 1 depicts CIF causes, attributes and consequences.</description>
     
     <item>
       <title>CIF</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Examples/CIF/</link>
+      <link>https://usnistgov.github.io/BF/Old/Examples/CIF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/CIF/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Examples/CIF/</guid>
       <description>Control of Interaction Frequency Bugs (CIF) Examples#CVE-2002-0628 BF Taxonomy Cause: Failure to Limit Attributes: Interaction: Authentication Attempt Number: Specificed Number Unit: Authentication Event Actor: User(s) Consequence: Credentials compromise (username or password) BF Description: &#34;Failure to limit to a specified number the authentication attempts per authentication event by same or different user(s) may be exploited for credentials compromise (username or password) via brute force.&#34; [2] CVE Description &#34;The Telnet service for Polycom ViewStation before 7.</description>
     </item>
     
     <item>
       <title>Concepts</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Concepts/</link>
+      <link>https://usnistgov.github.io/BF/Home/Concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Concepts/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Concepts/</guid>
       <description>#Software Security Concepts
 We can observe that a security vulnerability leads to a security failure. However, what are the building blocks of a vulnerability? What is the defect in software that triggers a vulnerability? How does it propagate through errors until a final, exploitable error is reached? How do the underlying weaknesses of a vulnerability relate to these propagating errors?
 We have developed the following definitions iteratively, while creating the BF software security vulnerability model.</description>
@@ -303,10 +303,10 @@ We have developed the following definitions iteratively, while creating the BF s
     
     <item>
       <title>ENC</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/ENC/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/ENC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/ENC/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/ENC/</guid>
       <description>Encryption/Decryption Bugs (ENC) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Encryption/Decryption Bugs (ENC) as follows:
@@ -317,49 +317,49 @@ Note that &amp;ldquo;transform&amp;rdquo; is for confidentiality.</description>
     
     <item>
       <title>Other Classifications</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Other-Classifications/</link>
+      <link>https://usnistgov.github.io/BF/Background/Other-Classifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Other-Classifications/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Other-Classifications/</guid>
       <description>Other Classifications#Common Weakness Enumeration (CWE)#Common Weakness Enumeration (CWE) is an encyclopedia of over 600 types of software weaknesses . Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.</description>
     </item>
     
     <item>
       <title>Validation</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/Validation/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/Validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/Validation/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/Validation/</guid>
       <description>Validation#In this section, we analyze the correspondence of the data type related CWEs, such as Numeric Errors , Type Errors, and String Errors, to the four newly developed BF Data Type Bugs classes. We show that DCL, NRS, TCV, and TCM cover all data type related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 We identified data type related CWEs in three steps: 1) CWE Filtering: Since different types of bugs/weaknesses are described in CWE, we filtered a set of CWEs which de- scriptions contain keywords such as ”type”, ”string”, ”class”, ”cast”, and ”compare”.</description>
     </item>
     
     <item>
       <title>Validation</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/Validation/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/Validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/Validation/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/Validation/</guid>
       <description>Validation#In this section, we analyze the correspondence of the input, output, and injection-related CWEs to the two new BF DVL and DVR classes. We show that the BF classes cover all related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses.</description>
     </item>
     
     <item>
       <title>Validation</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/Validation/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/Validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/Validation/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/Validation/</guid>
       <description>Validation#BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structured extension over memory-related CWEs. All Memory Error consequences from the BF classes relate to one or more CWEs.
 We have generated a digraph (Fig. 1) of all memory-related CWEs to show how they correspond to the possible BF Memory Error consequences. An edge starts at a child CWE and ends at a parent CWE.</description>
     </item>
     
     <item>
       <title>DCL</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/DCL/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/DCL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/DCL/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/DCL/</guid>
       <description>Declaration Bugs (DCL) Class#Definition#We define Declaration Bugs (DCL) as follows:
 An object, a function, a data type, or a namespace is declared or defined improperly. Taxonomy#Fig. 1 depicts DCL causes, attributes and consequences.
 Fig 1. Declaration Bugs (DCL) Class - click on image for detailed view.
@@ -368,10 +368,10 @@ Operations#The DCL operations are: Declare and Define. They reflect the improp
     
     <item>
       <title>DVL</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/DVL/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/DVL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/DVL/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/DVL/</guid>
       <description>Data Validation Bugs (DVL) Class#Definition#We define Data Validation Bugs (DVL) as follows:
 Data are validated (syntax check) or sanitized (escape, filter, repair) improperly. Taxonomy#Fig. 1 depicts DVL causes, attributes and consequences.
 Fig 1. Data Validation Bugs (DVL) Class - click on image for detailed view.
@@ -380,28 +380,28 @@ Operations#The DVL operations are: Validate and Sanitize. They reflect the imp
     
     <item>
       <title>IEX</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Examples/IEX/</link>
+      <link>https://usnistgov.github.io/BF/Old/Examples/IEX/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/IEX/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Examples/IEX/</guid>
       <description>Information Exposure (IEX) Examples#CVE-2007-5172 This vulnerability is listed in [1] and discussed in [2, 3]. BF Taxonomy IEX 1 of password leads to ATN leads to IEX 2. IEX 1 Cause: Improper Details (error message displays password) Attributes: Information: Credentials (password) Sensitivity: High Information State: Stored Information Size: Little Exposure: Selective Frequency: On-Demand Channel: Legitimate (connection error message) Use: Indirect Consequences: ATN. ATN (to be described in a subsequent publication) IEX 2 Cause: Failure to Properly Protect Sensitive Data (password) Attributes: Information: Any (user data) Sensitivity: Low/High Information State: Stored Information Size: Huge Exposure: Selective Frequency: On-Demand Channel: Legitimate Use: Direct (valuable on its own) Consequences: Any IEX consequence.</description>
     </item>
     
     <item>
       <title>IEX Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Classes/IEX-Model/</link>
+      <link>https://usnistgov.github.io/BF/Old/Classes/IEX-Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/IEX-Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Classes/IEX-Model/</guid>
       <description>BF Model of Information Exposure#Information and Data#The terms data and information are often used interchangeably. Data is “a set of values of qualitative or quantitative variables” [1]. Information is “any entity or form that provides the answer to a question of some kind or resolves uncertainty&amp;quot; [2]. To what extent data is informative to someone depends on how unexpected it is to that person. A difference between data and information is that data has no meaning, while information has meaning.</description>
     </item>
     
     <item>
       <title>KMN</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/KMN/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/KMN/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/KMN/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/KMN/</guid>
       <description>Key Management Bugs (KMN) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Key Management Bugs (KMN) as follows:
@@ -413,10 +413,10 @@ Taxonomy#Fig. 1 depicts KMN causes, attributes and consequences.</description>
     
     <item>
       <title>MAD</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/MAD/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/MAD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/MAD/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MAD/</guid>
       <description>Memory Addressing Bugs (MAD) Class#Definition#We define Memory Addressing Bugs (MAD) as follows:
 The pointer to an object is initialized, repositioned, or reassigned to an improper memory address. Taxonomy#Fig. 1 depicts MAD causes, attributes and consequences.
 Fig 1. Memory Addressing Bugs (MAD) Class - click on image for detailed view.
@@ -425,10 +425,10 @@ Operations#The MAD operations are: Initialize (Pointer), Reassign, Reposition.
     
     <item>
       <title>TRN</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_RND/TRN/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_RND/TRN/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_RND/TRN/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_RND/TRN/</guid>
       <description>True-Random Number Bugs (TRN) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define True-Random Number Bugs (TRN) as:
@@ -439,30 +439,30 @@ See also the BF Model of Cryptographic Store or Transfer.</description>
     
     <item>
       <title>Why BF?</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Why-BF/</link>
+      <link>https://usnistgov.github.io/BF/Home/Why-BF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Why-BF/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Why-BF/</guid>
       <description>Why BF?#The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
 Common Weakness Enumeration (CWE) – a community-developed list of software and hardware weaknesses types. Common Vulnerabilities and Exposures (CVE) – a catalog of publicly disclosed cybersecurity vulnerabilities.</description>
     </item>
     
     <item>
       <title> Approach</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Approach/</link>
+      <link>https://usnistgov.github.io/BF/Home/Approach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Approach/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Approach/</guid>
       <description>BF Approach#BF’s approach is different from CWE’s exhaustive list approach. BF is a classification. Each BF class is a taxonomic category of a weakness type. It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations.
 BF describes a bug or a weakness as an improper state and its transition. The transition is to another weakness or to a failure.</description>
     </item>
     
     <item>
       <title>DVR</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/DVR/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/DVR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/DVR/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/DVR/</guid>
       <description>Data Verification Bugs (DVR) Class#Definition#We define Data Verification Bugs (DVR) as follows:
 Data are verified (semantics check) or corrected (assign value, remove) improperly. Taxonomy#Fig. 1 depicts DVR causes, attributes and consequences.
 Fig 1. Data Verification Bugs (DVR) Class - click on image for detailed view.
@@ -471,10 +471,10 @@ Operations#The DVR operations are: Verify and Correct. They reflect the improp
     
     <item>
       <title>Grammar</title>
-      <link>https://ibojanova.BF-Website.github.io/Grammar/</link>
+      <link>https://usnistgov.github.io/BF/Grammar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Grammar/</guid>
+      <guid>https://usnistgov.github.io/BF/Grammar/</guid>
       <description>BF Grammar#LL1 Grammar of the developed for now BF Clusters: _CRY, _DAT, _INP, _MEM
 START := Vulnerability Converge
 Vulnerability:= Bug Operation OA_E
@@ -488,10 +488,10 @@ specification_defect := { Anonymous Scope, Inadequate Algorithm, Missing Modifie
     
     <item>
       <title>IEX</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Classes/IEX/</link>
+      <link>https://usnistgov.github.io/BF/Old/Classes/IEX/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/IEX/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Classes/IEX/</guid>
       <description>Information Exposure (IEX) Class#Definition#We define Information Exposure (IEX) as:
 Information is leaked through legitimate or side channels. Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.
 Type#High (semantic).
@@ -501,19 +501,19 @@ Fig 1. Information Exposure (IEX) Class - click on image for detailed view.</des
     
     <item>
       <title>INJ</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Examples/INJ/</link>
+      <link>https://usnistgov.github.io/BF/Old/Examples/INJ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/INJ/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Examples/INJ/</guid>
       <description>Injection (INJ) Examples#CVE 2007-3572 (Yoggie Pico) BF Taxonomy Cause: Input not checked properly (incomplete blacklist) Attributes: Language: CGI Special Element: Shell Metacharacters (back ticks `) Entry Point: Function Parameter (&#34;param&#34;) Invalid Construct: Command (command within a Ping command) Consequence: Add command, leading to arbitrary code execution and potentially complete host takeover (by adding a Ping command to change the root password) BF Description &#34;Input not checked properly (incomplete blacklist) allows Shell metacharacters (back ticks `( through a function parameter (&#34;</description>
     </item>
     
     <item>
       <title>MAL</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/MAL/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/MAL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/MAL/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MAL/</guid>
       <description>Memory Allocation Bugs (MAL) Class#Definition#We define Memory Allocation Bugs (MAL) as follows:
 An object is allocated, extended, or reallocated (while extending) improperly. Taxonomy#Fig. 1 depicts MAL causes, attributes and consequences.
 Fig 1. Memory Allocation Bugs (MAL) Class - click on image for detailed view.
@@ -523,10 +523,10 @@ Operation Value Definition Allocate Reserves space in memory for an object; defi
     
     <item>
       <title>NRS</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/NRS/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/NRS/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/NRS/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/NRS/</guid>
       <description>Name Resolution Bugs (NRS) Class#Definition#We define Name Resolution Bugs (NRS) as follows:
 The name of an object, a function, or a data type is resolved improperly or bound to an improper data type or implementation. Taxonomy#Fig. 1 depicts NRS causes, attributes and consequences.
 Fig 1. Name Resolution Bugs (NRS) Class - click on image for detailed view.
@@ -535,10 +535,10 @@ Operations#The NRS operations are: Refer and Call.</description>
     
     <item>
       <title>VRF</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/VRF/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/VRF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/VRF/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/VRF/</guid>
       <description>Verification Bugs (VRF) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Verification Bugs (VRF) as follws:
@@ -549,10 +549,10 @@ See also the Model of Cryptographic Store or Transfer.</description>
     
     <item>
       <title>INJ</title>
-      <link>https://ibojanova.BF-Website.github.io/Old/Classes/INJ/</link>
+      <link>https://usnistgov.github.io/BF/Old/Classes/INJ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/INJ/</guid>
+      <guid>https://usnistgov.github.io/BF/Old/Classes/INJ/</guid>
       <description>Injection (INJ) Class#Definition#We define Injection (INJ) as:
 Due to input with language-specific special elements, the software assembles a command string that is parsed into an invalid construct. In other words, the command string is interpreted to have unintended, queries, OS commands, markups, scripts, etc.
 Type#High (semantic).
@@ -562,19 +562,19 @@ Fig 1. Injection (INJ) Class - click on image for detailed view.</description>
     
     <item>
       <title>Methodology</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Methodology/</link>
+      <link>https://usnistgov.github.io/BF/Home/Methodology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Methodology/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Methodology/</guid>
       <description>BF Methodology#The methodology for developing a BF class is as follows (see Fig. 1): First, we identify the software execution phase, where a specific kind of bugs could occur. Then, we identify the operations for that phase. On step 3, we define a BF model showing operations flow. Then, we identify all causes. The initial causes are always improper operations. The intermediate causes are improper operands. On steps 5 and 6, we identify all consequences that propagate as causes to other weaknesses and all the final errors.</description>
     </item>
     
     <item>
       <title>MUS</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/MUS/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/MUS/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/MUS/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MUS/</guid>
       <description>Memory Use Bugs (MUS) CLass#Definition#We define Memory Use Bugs (MUS) as follows:
 An object is initialized, read. written, or cleared, improperly. Taxonomy#Fig. 1 depicts MUS causes, attributes and consequences.
 Fig 1. Memory Use Bugs (MUS) Class - click on image for detailed view.
@@ -584,10 +584,10 @@ Operation Value Definition Initialize (object) The first write into an object, a
     
     <item>
       <title>TCM</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/TCM/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/TCM/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/TCM/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/TCM/</guid>
       <description>Type Computation Bugs (TCM) Class#Definition#We define Type Computation Bugs (TCM) as follows:
 An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly. Taxonomy#Fig. 1 depicts TCM causes, attributes and consequences.
 Fig 1. Type Computation Bugs (TCM) Class - click on image for detailed view.
@@ -596,10 +596,10 @@ Operations#The TCM operations are: Calculate and Evaluate. They reflect the im
     
     <item>
       <title>Impact</title>
-      <link>https://ibojanova.BF-Website.github.io/Home/Impact/</link>
+      <link>https://usnistgov.github.io/BF/Home/Impact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/Impact/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/Impact/</guid>
       <description>BF Impact#BF will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
 ➢ Government could improve the descriptions in public vulnerability repositories and create policies and guidelines for software testing.
 ➢ Software companies could improve the testing tools and their bug reports and implement automatic bugs finding and fixing.
@@ -608,10 +608,10 @@ Operations#The TCM operations are: Calculate and Evaluate. They reflect the im
     
     <item>
       <title>MDL</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_MEM/MDL/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_MEM/MDL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_MEM/MDL/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MDL/</guid>
       <description>Memory Deallocation Bugs (MDL) Class#Definition#We define Memory Deallocation Bugs (MDL) as follows:
 An object is dealocated, reduced, or reallocated (while reducing) improperly. Taxonomy#Fig. 1 depicts MDL causes, attributes and consequences.
 Fig 1. Memory Deallocation Bugs (MDL) Class - click on image for detailed view.
@@ -621,10 +621,10 @@ Operation Value Definition Deallocate Releases the allocated memory of an object
     
     <item>
       <title>TCV</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_DAT/TCV/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_DAT/TCV/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_DAT/TCV/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_DAT/TCV/</guid>
       <description>Type Conversion Bugs (TCV) Class#Definition#We define Type Conversion Bugs (TCV) as follows:
 A data value is cast or coerced into another data type improperly. Taxonomy#Fig. 1 depicts TCV causes, attributes and consequences.
 Fig 1. Type Conversion Bugs (TCV) Class - click on image for detailed view.
@@ -633,40 +633,40 @@ Operations#The TCV operations are: Cast and Coerce. They reflect the improper 
     
     <item>
       <title></title>
-      <link>https://ibojanova.BF-Website.github.io/Home/hidden/</link>
+      <link>https://usnistgov.github.io/BF/Home/hidden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Home/hidden/</guid>
+      <guid>https://usnistgov.github.io/BF/Home/hidden/</guid>
       <description>This page is hidden in menu#Quondam non pater est dignior ille Eurotas#Latent te facies#Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
 Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor Cum honorum Latona#O fallor in sustinui iussorum equidem.</description>
     </item>
     
     <item>
       <title>CAPEC</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CAPEC/</link>
+      <link>https://usnistgov.github.io/BF/Background/CAPEC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CAPEC/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CAPEC/</guid>
       <description>Common Attack Pattern Enumeration and Classification (CAPEC)#The Common Attack Pattern Enumeration and Classification (CAPEC) &amp;ldquo;is a comprehensive dictionary and classification taxonomy of known attacks that can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses&amp;rdquo; [1].
 Examples#CAPEC-66: SQL Injection#&amp;ldquo;This attack exploits target software that constructs SQL statements based on user input. An attacker crafts input strings so that when the target software constructs SQL statements based on the input, the resulting SQL statement performs actions other than those the application intended&amp;hellip;&amp;rdquo; [2]</description>
     </item>
     
     <item>
       <title>CAS</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CAS/</link>
+      <link>https://usnistgov.github.io/BF/Background/CAS/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CAS/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CAS/</guid>
       <description>NSA Center for Assured Software (CAS)#The NSA Center for Assured Software (CAS) defines the following Weakness Classes in its &amp;ldquo;Static Analysis Tool Study - Methodology&amp;rdquo; [1]:
 Weakness Class Example Weakness (CWE Entry [2]) Authentication and Access Control CWE-620: Unverified Password Change Buffer Handling CWE-121: Stack-based Buffer Overflow Code Quality CWE-561: Dead Code Control Flow Management CWE-362: Race Condition Encryption and Randomness CWE-328: Reversible One-Way Hash Error Handling CWE-252: Unchecked Return Value File Handling CWE-23: Relative Path Traversal Information Leaks CWE-534: Information Leak Through Debug Log Files Initialization and Shutdown CWE-415: Double Free Injection CWE-89: SQL Injection Malicious Logic CWE-506: Embedded Malicious Code Miscellaneous CWE-480: Use of Incorrect Operator Number Handling CWE-369: Divide by Zero Pointer and Reference Handling CWE-476: Null Pointer Dereference References#[1] Center for Assured Software (CAS), National Security Agency (NSA).</description>
     </item>
     
     <item>
       <title>CERT C</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CERT-C/</link>
+      <link>https://usnistgov.github.io/BF/Background/CERT-C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CERT-C/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CERT-C/</guid>
       <description>CERT C Coding Standard#The SEI CERT C Coding Standard defines the following &amp;ldquo;rules for secure coding in the C programming language&amp;rdquo; with the goal to &amp;ldquo;to develop safe, reliable, and secure systems, for example by eliminating undefined behaviors that can lead to undefined program behaviors and exploitable vulnerabilities&amp;rdquo; [1].
 Preprocessor (PRE)
 PRE30-C. Do not create a universal character name through concatenation
@@ -675,59 +675,59 @@ PRE31-C. Avoid side effects in arguments to unsafe macros</description>
     
     <item>
       <title>CVE</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CVE/</link>
+      <link>https://usnistgov.github.io/BF/Background/CVE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CVE/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CVE/</guid>
       <description>Common Vulnerabilities and Exposures (CVE)#The Common Vulnerabilities and Exposures (CVE) is &amp;ldquo;a dictionary of publicly known information security vulnerabilities and exposures&amp;rdquo; [1]. &amp;ldquo;CVE&amp;rsquo;s common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services.&amp;rdquo; [1]
 Examples#CVE-2014-0160 (Heartbleed)#&amp;ldquo;The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.</description>
     </item>
     
     <item>
       <title>CWE</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CWE/</link>
+      <link>https://usnistgov.github.io/BF/Background/CWE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CWE/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CWE/</guid>
       <description>Common Weakness Enumeration (CWE)#The Common Weakness Enumeration (CWE) is an &amp;ldquo;encyclopedia&amp;rdquo; of over 600 types of software weaknesses [1]. Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.</description>
     </item>
     
     <item>
       <title>ISOIECJTCTR</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/ISOIECJTCTR/</link>
+      <link>https://usnistgov.github.io/BF/Background/ISOIECJTCTR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/ISOIECJTCTR/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/ISOIECJTCTR/</guid>
       <description>ISO/IEC JTC1/SC22/WG23 Technical Report &amp;ldquo;Guidance to Avoiding Vulnerabilities in Programming Languages#ISO/IEC/JTC 1/SC 22/WG 23 is working on a Technical Report (RT), which includes a &amp;ldquo;taxonomic hierarchy of vulnerabilities&amp;rdquo;, giving each vulnerability an arbitrary three-letter code [1]. The general part, TR 24772-1, is an and applies to all languages. There are many supplements, one for each language &amp;ndash; for example, TR24772-2 Ada, TR24772-3 C, and TR24772-9 C++.
 The heart of the TR is specific suggestions to avoid vulnerabilities that arise from &amp;ldquo;constructs that incompletely specified, exhibit undefined behavior, are implementation-dependent, or are difficult to use correctly.</description>
     </item>
     
     <item>
       <title>OWASP</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/OWASP/</link>
+      <link>https://usnistgov.github.io/BF/Background/OWASP/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/OWASP/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/OWASP/</guid>
       <description>Open Web Application Security Project (OWASP)#The Open Web Application Security Project (OWASP) defines the following categories of vulnerabilities [1].
 API Abuse Authentication Vulnerability Authorization Vulnerability Availability Vulnerability Code Permission Vulnerability Code Quality Vulnerability Configuration Vulnerability Cryptographic Vulnerability Encoding Vulnerability Environmental Vulnerability Error Handling Vulnerability General Logic Error Vulnerability Input Validation Vulnerability Logging and Auditing Vulnerability Password Management Vulnerability Path Vulnerability Sensitive Data Protection Vulnerability Session Management Vulnerability Unsafe Mobile Code Use of Dangerous API References</description>
     </item>
     
     <item>
       <title>SFP</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/SFP/</link>
+      <link>https://usnistgov.github.io/BF/Background/SFP/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/SFP/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/SFP/</guid>
       <description>Software Fault Patterns (SFP)#The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites (&amp;ldquo;footholds&amp;rdquo;), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.
 &amp;ldquo;Software Fault Patterns (SFP) is a generalized description of an identifiable family of computations that are:</description>
     </item>
     
     <item>
       <title>SOAR</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/SOAR/</link>
+      <link>https://usnistgov.github.io/BF/Background/SOAR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/SOAR/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/SOAR/</guid>
       <description>Software State-of-the-Art Resources (SOAR) Matrix#The Software State-of-the-Art Resources (SOAR) Matrix defines and describes a process for selecting and using appropriate analysis tools and techniques for evaluating software for software (security) assurance. In particular, it identifies types of tools and techniques available for evaluating software, as well as the following technical objectives those tools and techniques can meet. [1]
 Technical objective
 high-level

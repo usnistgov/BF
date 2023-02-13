@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Background on The Bugs Framework</title>
-    <link>https://ibojanova.BF-Website.github.io/Background/</link>
+    <link>https://usnistgov.github.io/BF/Background/</link>
     <description>Recent content in Background on The Bugs Framework</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/Background/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/Background/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Background</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Organizational-Structures/</link>
+      <link>https://usnistgov.github.io/BF/Background/Organizational-Structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Organizational-Structures/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Organizational-Structures/</guid>
       <description>Background#The medical profession has an extensive, elaborate vocabulary to precisely name muscles, bones, organs, conditions and diseases. When a doctor says that a comatose patient has a left temporal lobe epidural hematoma, the intention is to enlighten, not to obfuscate.
 In the software profession, we have many efforts that have helped us develop terms to discuss software, faults, failures, attacks and vulnerabilities, such as the Common Weakness Enumeration (CWE) [1] and Landwehr et.</description>
     </item>
     
     <item>
       <title>Background</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Overview/</link>
+      <link>https://usnistgov.github.io/BF/Background/Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Overview/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Overview/</guid>
       <description>Background#The medical profession has an extensive, elaborate vocabulary to precisely name muscles, bones, organs, conditions and diseases. When a doctor says that a comatose patient has a left temporal lobe epidural hematoma, the intention is to enlighten, not to obfuscate.
 In the software profession, we have many efforts that have helped us develop terms to discuss software, faults, failures, attacks and vulnerabilities, such as the Common Weakness Enumeration (CWE) [1] and Landwehr et.</description>
     </item>
     
     <item>
       <title>Other Classifications</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/Other-Classifications/</link>
+      <link>https://usnistgov.github.io/BF/Background/Other-Classifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/Other-Classifications/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/Other-Classifications/</guid>
       <description>Other Classifications#Common Weakness Enumeration (CWE)#Common Weakness Enumeration (CWE) is an encyclopedia of over 600 types of software weaknesses . Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.</description>
     </item>
     
     <item>
       <title>CAPEC</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CAPEC/</link>
+      <link>https://usnistgov.github.io/BF/Background/CAPEC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CAPEC/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CAPEC/</guid>
       <description>Common Attack Pattern Enumeration and Classification (CAPEC)#The Common Attack Pattern Enumeration and Classification (CAPEC) &amp;ldquo;is a comprehensive dictionary and classification taxonomy of known attacks that can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses&amp;rdquo; [1].
 Examples#CAPEC-66: SQL Injection#&amp;ldquo;This attack exploits target software that constructs SQL statements based on user input. An attacker crafts input strings so that when the target software constructs SQL statements based on the input, the resulting SQL statement performs actions other than those the application intended&amp;hellip;&amp;rdquo; [2]</description>
     </item>
     
     <item>
       <title>CAS</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CAS/</link>
+      <link>https://usnistgov.github.io/BF/Background/CAS/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CAS/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CAS/</guid>
       <description>NSA Center for Assured Software (CAS)#The NSA Center for Assured Software (CAS) defines the following Weakness Classes in its &amp;ldquo;Static Analysis Tool Study - Methodology&amp;rdquo; [1]:
 Weakness Class Example Weakness (CWE Entry [2]) Authentication and Access Control CWE-620: Unverified Password Change Buffer Handling CWE-121: Stack-based Buffer Overflow Code Quality CWE-561: Dead Code Control Flow Management CWE-362: Race Condition Encryption and Randomness CWE-328: Reversible One-Way Hash Error Handling CWE-252: Unchecked Return Value File Handling CWE-23: Relative Path Traversal Information Leaks CWE-534: Information Leak Through Debug Log Files Initialization and Shutdown CWE-415: Double Free Injection CWE-89: SQL Injection Malicious Logic CWE-506: Embedded Malicious Code Miscellaneous CWE-480: Use of Incorrect Operator Number Handling CWE-369: Divide by Zero Pointer and Reference Handling CWE-476: Null Pointer Dereference References#[1] Center for Assured Software (CAS), National Security Agency (NSA).</description>
     </item>
     
     <item>
       <title>CERT C</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CERT-C/</link>
+      <link>https://usnistgov.github.io/BF/Background/CERT-C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CERT-C/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CERT-C/</guid>
       <description>CERT C Coding Standard#The SEI CERT C Coding Standard defines the following &amp;ldquo;rules for secure coding in the C programming language&amp;rdquo; with the goal to &amp;ldquo;to develop safe, reliable, and secure systems, for example by eliminating undefined behaviors that can lead to undefined program behaviors and exploitable vulnerabilities&amp;rdquo; [1].
 Preprocessor (PRE)
 PRE30-C. Do not create a universal character name through concatenation
@@ -68,59 +68,59 @@ PRE31-C. Avoid side effects in arguments to unsafe macros</description>
     
     <item>
       <title>CVE</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CVE/</link>
+      <link>https://usnistgov.github.io/BF/Background/CVE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CVE/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CVE/</guid>
       <description>Common Vulnerabilities and Exposures (CVE)#The Common Vulnerabilities and Exposures (CVE) is &amp;ldquo;a dictionary of publicly known information security vulnerabilities and exposures&amp;rdquo; [1]. &amp;ldquo;CVE&amp;rsquo;s common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services.&amp;rdquo; [1]
 Examples#CVE-2014-0160 (Heartbleed)#&amp;ldquo;The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.</description>
     </item>
     
     <item>
       <title>CWE</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/CWE/</link>
+      <link>https://usnistgov.github.io/BF/Background/CWE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/CWE/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/CWE/</guid>
       <description>Common Weakness Enumeration (CWE)#The Common Weakness Enumeration (CWE) is an &amp;ldquo;encyclopedia&amp;rdquo; of over 600 types of software weaknesses [1]. Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.</description>
     </item>
     
     <item>
       <title>ISOIECJTCTR</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/ISOIECJTCTR/</link>
+      <link>https://usnistgov.github.io/BF/Background/ISOIECJTCTR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/ISOIECJTCTR/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/ISOIECJTCTR/</guid>
       <description>ISO/IEC JTC1/SC22/WG23 Technical Report &amp;ldquo;Guidance to Avoiding Vulnerabilities in Programming Languages#ISO/IEC/JTC 1/SC 22/WG 23 is working on a Technical Report (RT), which includes a &amp;ldquo;taxonomic hierarchy of vulnerabilities&amp;rdquo;, giving each vulnerability an arbitrary three-letter code [1]. The general part, TR 24772-1, is an and applies to all languages. There are many supplements, one for each language &amp;ndash; for example, TR24772-2 Ada, TR24772-3 C, and TR24772-9 C++.
 The heart of the TR is specific suggestions to avoid vulnerabilities that arise from &amp;ldquo;constructs that incompletely specified, exhibit undefined behavior, are implementation-dependent, or are difficult to use correctly.</description>
     </item>
     
     <item>
       <title>OWASP</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/OWASP/</link>
+      <link>https://usnistgov.github.io/BF/Background/OWASP/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/OWASP/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/OWASP/</guid>
       <description>Open Web Application Security Project (OWASP)#The Open Web Application Security Project (OWASP) defines the following categories of vulnerabilities [1].
 API Abuse Authentication Vulnerability Authorization Vulnerability Availability Vulnerability Code Permission Vulnerability Code Quality Vulnerability Configuration Vulnerability Cryptographic Vulnerability Encoding Vulnerability Environmental Vulnerability Error Handling Vulnerability General Logic Error Vulnerability Input Validation Vulnerability Logging and Auditing Vulnerability Password Management Vulnerability Path Vulnerability Sensitive Data Protection Vulnerability Session Management Vulnerability Unsafe Mobile Code Use of Dangerous API References</description>
     </item>
     
     <item>
       <title>SFP</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/SFP/</link>
+      <link>https://usnistgov.github.io/BF/Background/SFP/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/SFP/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/SFP/</guid>
       <description>Software Fault Patterns (SFP)#The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites (&amp;ldquo;footholds&amp;rdquo;), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.
 &amp;ldquo;Software Fault Patterns (SFP) is a generalized description of an identifiable family of computations that are:</description>
     </item>
     
     <item>
       <title>SOAR</title>
-      <link>https://ibojanova.BF-Website.github.io/Background/SOAR/</link>
+      <link>https://usnistgov.github.io/BF/Background/SOAR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Background/SOAR/</guid>
+      <guid>https://usnistgov.github.io/BF/Background/SOAR/</guid>
       <description>Software State-of-the-Art Resources (SOAR) Matrix#The Software State-of-the-Art Resources (SOAR) Matrix defines and describes a process for selecting and using appropriate analysis tools and techniques for evaluating software for software (security) assurance. In particular, it identifies types of tools and techniques available for evaluating software, as well as the following technical objectives those tools and techniques can meet. [1]
 Technical objective
 high-level

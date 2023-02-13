@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Input/Output Check Bugs on The Bugs Framework</title>
-    <link>https://ibojanova.BF-Website.github.io/Classes/_INP/</link>
+    <link>https://usnistgov.github.io/BF/Classes/_INP/</link>
     <description>Recent content in Input/Output Check Bugs on The Bugs Framework</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/Classes/_INP/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/Classes/_INP/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/Model/</guid>
       <description>Data Checks Bug Model#Data should be checked to ensure proper results from its processing. It should adhere to object data types acceptable by the software. Bojanova and Galhardo, define an object as a piece of memory with well-defined size that is used to store primitive data or a data structure. As input, primitive data are checked and sanitized on string-of-characters level. A character – e.g., an ASCII (American Standard Code for Information Interchange) character – is a single symbol, such as an alphabet letter, a numeric digit, or a punctuation mark.</description>
     </item>
     
     <item>
       <title>Validation</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/Validation/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/Validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/Validation/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/Validation/</guid>
       <description>Validation#In this section, we analyze the correspondence of the input, output, and injection-related CWEs to the two new BF DVL and DVR classes. We show that the BF classes cover all related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses.</description>
     </item>
     
     <item>
       <title>DVL</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/DVL/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/DVL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/DVL/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/DVL/</guid>
       <description>Data Validation Bugs (DVL) Class#Definition#We define Data Validation Bugs (DVL) as follows:
 Data are validated (syntax check) or sanitized (escape, filter, repair) improperly. Taxonomy#Fig. 1 depicts DVL causes, attributes and consequences.
 Fig 1. Data Validation Bugs (DVL) Class - click on image for detailed view.
@@ -38,10 +38,10 @@ Operations#The DVL operations are: Validate and Sanitize. They reflect the imp
     
     <item>
       <title>DVR</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_INP/DVR/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_INP/DVR/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_INP/DVR/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_INP/DVR/</guid>
       <description>Data Verification Bugs (DVR) Class#Definition#We define Data Verification Bugs (DVR) as follows:
 Data are verified (semantics check) or corrected (assign value, remove) improperly. Taxonomy#Fig. 1 depicts DVR causes, attributes and consequences.
 Fig 1. Data Verification Bugs (DVR) Class - click on image for detailed view.

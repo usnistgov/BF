@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cryptographic Store and Transfer Bugs on The Bugs Framework</title>
-    <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/</link>
+    <link>https://usnistgov.github.io/BF/Classes/_CRY/</link>
     <description>Recent content in Cryptographic Store and Transfer Bugs on The Bugs Framework</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/Classes/_CRY/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/Classes/_CRY/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Model</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/Model/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/Model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/Model/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/Model/</guid>
       <description>BF Model of Cryptographic Store or Transfer#Cryptography#Cryptography is a broad, complex, and subtle area. It incorporates many clearly separate processes, such as encryption/decryption, verification of data or source, and key management. There are bugs if the software does not properly transform data into unintelligible form, verify authenticity or correctness, manage keys, or perform other related operations. Some transformations require keys, for example encryption and decryption, while others do not, for example secret sharing.</description>
     </item>
     
     <item>
       <title>ENC</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/ENC/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/ENC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/ENC/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/ENC/</guid>
       <description>Encryption/Decryption Bugs (ENC) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Encryption/Decryption Bugs (ENC) as follows:
@@ -30,10 +30,10 @@ Note that &amp;ldquo;transform&amp;rdquo; is for confidentiality.</description>
     
     <item>
       <title>KMN</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/KMN/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/KMN/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/KMN/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/KMN/</guid>
       <description>Key Management Bugs (KMN) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Key Management Bugs (KMN) as follows:
@@ -45,10 +45,10 @@ Taxonomy#Fig. 1 depicts KMN causes, attributes and consequences.</description>
     
     <item>
       <title>VRF</title>
-      <link>https://ibojanova.BF-Website.github.io/Classes/_CRY/VRF/</link>
+      <link>https://usnistgov.github.io/BF/Classes/_CRY/VRF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibojanova.BF-Website.github.io/Classes/_CRY/VRF/</guid>
+      <guid>https://usnistgov.github.io/BF/Classes/_CRY/VRF/</guid>
       <description>Verification Bugs (VRF) Class#Note
 This class is still under development. The information will be updated soon.
 Definition#We define Verification Bugs (VRF) as follws:
