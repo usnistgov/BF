@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Data Validation Bugs (DVL) Class#Definition#We define Data Validation Bugs (DVL) as follows:
+Data are validated (syntax check) or sanitized (escape, filter, repair) improperly. Taxonomy#Fig. 1 depicts DVL causes, attributes and consequences.
+Fig 1. Data Validation Bugs (DVL) Class - click on image for detailed view.
+Operations#The DVL operations are: Validate and Sanitize. They reflect the improper check and modification of data syntax.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="DVL" />
+<meta property="og:description" content="Data Validation Bugs (DVL) Class#Definition#We define Data Validation Bugs (DVL) as follows:
+Data are validated (syntax check) or sanitized (escape, filter, repair) improperly. Taxonomy#Fig. 1 depicts DVL causes, attributes and consequences.
+Fig 1. Data Validation Bugs (DVL) Class - click on image for detailed view.
+Operations#The DVL operations are: Validate and Sanitize. They reflect the improper check and modification of data syntax." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ibojanova.BF-Website.github.io/Classes/_INP/DVL/" /><meta property="article:section" content="Classes" />
+
+
+<title>DVL | The Bugs Framework</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.cb95c677258073ab5f703ebc77482a3c28b76effd412d853ec2636d7d8672ed6.css" integrity="sha256-y5XGdyWAc6tfcD68d0gqPCi3bv/UEthT7CY219hnLtY=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.594dfd50b827f5b726aed27228eaa70cfb35cb85dec33196fa67986c7576b083.js" integrity="sha256-WU39ULgn9bcmrtJyKOqnDPs1y4XewzGW&#43;meYbHV2sIM=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link rel="stylesheet" href="https://ibojanova.BF-Website.github.io/css/styles.css">
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <span>The Bugs Framework</span>
+  <a class="flex align-center" href="/"><img src="/images/nist.png" alt="Logo" style="width:100%;height:100%;"/></a>
+  
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-009d7bf3fdb1853acda6424e4b316768" class="toggle"  />
+    <label for="section-009d7bf3fdb1853acda6424e4b316768" class="flex justify-between">
+      <a role="button" class="">BF Home</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Overview/" class="">Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Concepts/" class="">Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Why-BF/" class="">Why BF?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Approach/" class=""> Approach</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Methodology/" class="">Methodology</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Impact/" class="">Impact</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-df29f7b7abe8445924d7b6aba336accf" class="toggle" checked />
+    <label for="section-df29f7b7abe8445924d7b6aba336accf" class="flex justify-between">
+      <a role="button" class="">Classes</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-936f9877222666cb55419eec92b6156f" class="toggle"  />
+    <label for="section-936f9877222666cb55419eec92b6156f" class="flex justify-between">
+      <a role="button" class="">Data Type Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/DCL/" class="">DCL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/NRS/" class="">NRS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCM/" class="">TCM</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCV/" class="">TCV</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-33fb1d135f4163eae6e65e145d3f6223" class="toggle" checked />
+    <label for="section-33fb1d135f4163eae6e65e145d3f6223" class="flex justify-between">
+      <a role="button" class="">Input/Output Check Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVL/" class="active">DVL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVR/" class="">DVR</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1ec6442dadebd43af7b71b44cac6d8da" class="toggle"  />
+    <label for="section-1ec6442dadebd43af7b71b44cac6d8da" class="flex justify-between">
+      <a role="button" class="">Cryptographic Store and Transfer Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/ENC/" class="">ENC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/KMN/" class="">KMN</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/VRF/" class="">VRF</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47428afffbf30f386039d83f5728b99e" class="toggle"  />
+    <label for="section-47428afffbf30f386039d83f5728b99e" class="flex justify-between">
+      <a role="button" class="">Memory Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAD/" class="">MAD</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAL/" class="">MAL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MUS/" class="">MUS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MDL/" class="">MDL</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2d03f1f655a24bd4cd32fa2b855d2821" class="toggle"  />
+    <label for="section-2d03f1f655a24bd4cd32fa2b855d2821" class="flex justify-between">
+      <a role="button" class="">Random Number Generation Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/TRN/" class="">TRN</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-491f13d5203f89938118c00bc542ef22" class="toggle"  />
+    <label for="section-491f13d5203f89938118c00bc542ef22" class="flex justify-between">
+      <a role="button" class="">Examples</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1141/" class="">CVE-2001-1141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1585/" class="">CVE-2001-1585</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2002-1697/" class="">CVE-2002-1697</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2007-5460/" class="">CVE-2007-5460</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-0141/" class="">CVE-2008-0141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-4107/" class="">CVE-2008-4107</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2014-0160/" class="">CVE-2014-0160</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-0204/" class="">CVE-2015-0204</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-2141/" class="">CVE-2015-2141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2016-1919/" class="">CVE-2016-1919</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2018-20991/" class="">CVE-2018-20991</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2019-10748/" class="">CVE-2019-10748</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2020-5902/" class="">CVE-2020-5902</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-21834/" class="">CVE-2021-21834</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-23440/" class="">CVE-2021-23440</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CWE-468/" class="">CWE-468</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Grammar/" class="">Grammar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-83191925277756d7e251ccecfeaa62b1" class="toggle"  />
+    <label for="section-83191925277756d7e251ccecfeaa62b1" class="flex justify-between">
+      <a role="button" class="">Background</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Organizational-Structures/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Overview/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Other-Classifications/" class="">Other Classifications</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Publications/" class="">Publications</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Team/" class="">Team</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Contact/" class="">Contact Us</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>DVL</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="data-validation-bugs-dvl-class">
+  Data Validation Bugs (DVL) Class
+  <a class="anchor" href="#data-validation-bugs-dvl-class">#</a>
+</h1>
+<h3 id="definition">
+  Definition
+  <a class="anchor" href="#definition">#</a>
+</h3>
+<p>We define Data Validation Bugs (DVL) as follows:</p>
+<span class="text-primary"><i>Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.</i></span>
+<h3 id="taxonomy">
+  Taxonomy
+  <a class="anchor" href="#taxonomy">#</a>
+</h3>
+<p>Fig. 1 depicts DVL causes, attributes and consequences.</p>
+
+
+    
+    <div align="center">
+    <a target="_blank" href="https://ibojanova.BF-Website.github.ioimages/DVL.png" ><img src="https://ibojanova.BF-Website.github.ioimages/DVL.png" style="max-height:500px" ></a>
+    <p><em>Fig 1. Data Validation Bugs (DVL) Class<span class="text-info">
+          - click on image for detailed view</span>.</em></p>
+        </div>
+    
+
+
+<h3 id="operations">
+  Operations
+  <a class="anchor" href="#operations">#</a>
+</h3>
+<p>The DVL operations are: Validate and Sanitize. They reflect the improper check and modification of data syntax.</p>
+
+<table class="table">
+          <thead>
+            <tr>
+              <th class="w-25">Operation Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Validate</td>
+            <td>Check data syntax (proper form/grammar) in order to accept (and possibly sanitize) or reject it. Includes checking for missing symbols/elements.</td>
+          </tr>
+          <tr>
+            <td>Sanitize</td>
+            <td>Modify data (neutralize/escape, filter/remove, repair/add symbols) in order to make it valid (well-formed).</td>
+          </tr>
+          
+
+        </table>
+
+<h3 id="causes">
+  Causes
+  <a class="anchor" href="#causes">#</a>
+</h3>
+<p>The graph of causes shows that there are three main causes for data validation bugs: Improper Operation, Improper Data, and Improper Policy.</p>
+
+<table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="3">Improper Operation</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th >Definition</th>
+              <th class="w-50">Example</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Missing</td>
+            <td>The operation is absent.</td>
+            <td>Missing data sanitization.</td>
+          </tr>
+          
+          <tr>
+            <td>Erroneous</td>
+            <td>There is a bug in the implementation of the operation (incl. how it checks against a policy).</td>
+            <td><li>Using not equal to (!=) when
+                comparing to safelist values.</li>
+                <li>Using greater than (>) when
+                    checking for upper range.</li></td>
+          </tr>
+          <tr>
+            <td>Under-Restrictive Policy</td>
+            <td>Accepts bad data.</td>
+            <td><li>Permissive safelist or regular
+                expression.</li>
+            <li>Incomplete denylist.</li></td>
+          </tr>
+          <tr>
+            <td>Over-Restrictive Policy</td>
+            <td>Rejects good data.</td>
+            <td>Over-restrictive denylist or regular expression.</td>
+          </tr>
+        </table>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Data</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Corrupted Data</td>
+            <td>Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation) that if not sanitized would end-up as invalid data for next weakness.</td>
+          </tr>
+          <tr>
+            <td>Tampered Data</td>
+            <td>Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation) that would lead to injection error.</td>
+          </tr>
+          
+
+        </table>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Policy</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Corrupted Policy</td>
+            <td>Unintentionally modified policy due to a previous weakness (e.g., with a decompress operation).</td>
+          </tr>
+          <tr>
+            <td>Tampered Policy</td>
+            <td>Maliciously modified policy due to a previous weakness (e.g., with an authorize operation).</td>
+          </tr>
+        </table>
+
+<h3 id="consequences">
+  Consequences
+  <a class="anchor" href="#consequences">#</a>
+</h3>
+<p>The graph of consequences shows <em>Improper Data for Next Operation</em> and <em>Injection Error</em> as consequences.</p>
+
+<table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Data for Next Operation</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Invalid Data</td>
+            <td>Data with harmed syntax due to sanitization errors.</td>
+          </tr>
+          
+
+
+        </table>
+        <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th colspan="3">Injection Error</th>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th class="w-25">Value</th>
+                <th>Definition</th>
+                <th >Example</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Query Injection</td>
+              <td>Malicious insertion of condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
+            <td><li>SQL Injection</li>
+                <li>No SQL Injection</li>
+                <li>XPath Injection</li>
+                <li>XQuery Injection</li>
+                <li>LDAP Injection
+                </li></td>
+            </tr>
+            <tr>
+                <td>Command Injection</td>
+                <td>Malicious insertion of new commands into the input to a command that is sent to an operating system (OS) or to a server.</td>
+                <td><li>OS Command Injection</li>
+                    <li>Regular Expression Injection</li>
+                    <li>IMAP/SMTP Command Injection</li>
+                    <li>Object Injection (JSON server side)</li>
+                    </td>  
+            </tr>
+              <tr>
+                <td>Source Code Injection</td>
+                <td>Malicious insertion of new code (incl. with <> elements) into input used as part of an executing application code.</td>
+                <td><li>Cross Site Scripting (XSS)</li>
+                    <li>CSS Injection</li>
+                    <li>Eval Injection</li>
+                    <li>EL Injection</li>
+                    <li>JSON Injection (Client or Server Side)
+                    </li></td>  
+            </tr>
+              <tr>
+                <td>Parameter Injection</td>
+                <td>Malicious insertion of data (e.g., with & parameter separator) into input used as parameter/argument in other parts of code.</td>
+                <td><li>Argument Injection</li>
+                    <li>Format String Injection</li>
+                    <li>Email Injection</li>
+                    <li>HTTP Header Injection (incl.
+                        Server Header Injection)</li>
+                    <li>Reflection Injection</li>
+                <li>Flash Injection</li>
+            <li>CRLF Injection (incl. HTTP
+                Header Splitting)</li></td>  
+            </tr>
+              <tr>
+                <td>File Injection</td>
+                <td>Malicious insertion of data (e.g., with .. and / or with file entries) into input used to access/modify files or as file content.</td>
+                <td><li>CSV, Temp, etc. File Injection</li>
+                    <li>Log Entry Injection</li>
+                    <li>XML Injection</li>
+                    <li>CRLF Injection (incl. in as in
+                        log entry files)</li>
+                    <li>Relative Path Traversal</li>
+                <li>Absolute Path Traversal</li></td>  
+            </tr>
+          </table>
+
+<h3 id="attributes">
+  Attributes
+  <a class="anchor" href="#attributes">#</a>
+</h3>
+<p>The attributes of DVL are:</p>
+
+<table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td rowspan="4" style="vertical-align: middle;">Mechanism</td>
+            <td>Safelist</td>
+            <td>Policy based on a set of known good content.</td>
+          </tr>
+          <tr>
+            
+            <td>Denylist</td>
+            <td>Policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
+          </tr>
+          <tr>
+            <td>Format</td>
+            <td>Policy based on syntax format (e.g., defined via regular expression).</td>
+          </tr>
+          <tr>
+            <td>Length</td>
+            <td>Policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
+          </tr>
+          <tr>
+            <td rowspan="4" style="vertical-align: middle;">Source Code</td>
+            <td>Codebase</td>
+            <td>The operation is in programmer’s code – in the application itself.</td>
+          </tr>
+          <tr>
+            <td>Third Party</td>
+            <td>The operation is in a third party library.</td>
+          </tr>
+          <tr>
+            <td>Standard Library</td>
+            <td>The operation is in the standard library for a particular programming language.</td>
+          </tr>
+          <tr>
+            <td>Language Processor</td>
+            <td>The operation is in the tool that allows execution or creates executable (compiler, assembler,
+              interpreter).</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="vertical-align: middle;">Execution Space</td>
+            <td>Local</td>
+            <td>The bugged code runs in an environment with access control policy with limited (local user) permission.</td>
+          </tr>
+          <tr>
+            <td>Admin</td>
+            <td>The bugged code runs in an environment with access control policy with unlimited (admin user) permission.</td>
+          </tr>
+          <tr>
+            <td>Bare-Metal</td>
+            <td>The bugged code runs in an environment with-out privilege control. Usually, the program is the only
+              software running and has total access to the hardware.</td>
+          </tr>
+          <tr>
+            <td rowspan="4" style="vertical-align: middle;">State</td>
+            <td>Entered</td>
+            <td>Data comes from user interface (e.g., text field).</td>
+          </tr>
+          <tr>
+            <td>Stored</td>
+            <td>Data comes from permanent storage (e.g., file, database on a storage device).</td>
+          </tr>
+          <tr>
+            <td>In Use</td>
+            <td>Data comes from volatile storage (e.g., RAM, cache memory).</td>
+          </tr>
+
+          <tr>
+            <td>Transferred</td>
+            <td>Data comes via network (e.g., connecting analog device or another computer).</td>
+          </tr>
+          
+
+        </table>
+
+<h3 id="sites">
+  Sites
+  <a class="anchor" href="#sites">#</a>
+</h3>
+<p>A site for input/output check bugs is any part of the code that should check and sanitize data syntax or check and correct data semantics.</p>
+<h3 id="application">
+  Application
+  <a class="anchor" href="#application">#</a>
+</h3>
+<p>Application examples can be found here: 
+  <a href="/Examples/CVE-2020-5902/">CVE-2020-5902</a>, 
+  <a href="/Examples/CVE-2019-10748/">CVE-2019-10748</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+<footer class="sticky-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.usa.gov/">USA.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+</footer>
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

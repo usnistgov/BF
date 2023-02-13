@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on The Bugs Framework</title>
+    <link>https://ibojanova.BF-Website.github.io/Old/Examples/</link>
+    <description>Recent content in Examples on The Bugs Framework</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/Old/Examples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOF</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Examples/BOF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/BOF/</guid>
+      <description>Buffer Overflow (BOF) Examples#CVE-2014-0160 (Heartbleed) BF Taxonomy Cause: Input not checked properly leads to Data Exceeds Array (specifically Too Much Data) Attributes: Access: Read Boundary: Above Location: Heap Data Size: Huge Excursion: Continuous Consequence: IEX (if not had been cleared - CWE-226) BF Description &#34;Input not checked properly leads to too much data, where huge data is read from the heap in a continuous excursion above the array boundary, which may be exploited for IEX (if not had been cleared).</description>
+    </item>
+    
+    <item>
+      <title>CIF</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Examples/CIF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/CIF/</guid>
+      <description>Control of Interaction Frequency Bugs (CIF) Examples#CVE-2002-0628 BF Taxonomy Cause: Failure to Limit Attributes: Interaction: Authentication Attempt Number: Specificed Number Unit: Authentication Event Actor: User(s) Consequence: Credentials compromise (username or password) BF Description: &#34;Failure to limit to a specified number the authentication attempts per authentication event by same or different user(s) may be exploited for credentials compromise (username or password) via brute force.&#34; [2] CVE Description &#34;The Telnet service for Polycom ViewStation before 7.</description>
+    </item>
+    
+    <item>
+      <title>IEX</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Examples/IEX/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/IEX/</guid>
+      <description>Information Exposure (IEX) Examples#CVE-2007-5172 This vulnerability is listed in [1] and discussed in [2, 3]. BF Taxonomy IEX 1 of password leads to ATN leads to IEX 2. IEX 1 Cause: Improper Details (error message displays password) Attributes: Information: Credentials (password) Sensitivity: High Information State: Stored Information Size: Little Exposure: Selective Frequency: On-Demand Channel: Legitimate (connection error message) Use: Indirect Consequences: ATN. ATN (to be described in a subsequent publication) IEX 2 Cause: Failure to Properly Protect Sensitive Data (password) Attributes: Information: Any (user data) Sensitivity: Low/High Information State: Stored Information Size: Huge Exposure: Selective Frequency: On-Demand Channel: Legitimate Use: Direct (valuable on its own) Consequences: Any IEX consequence.</description>
+    </item>
+    
+    <item>
+      <title>INJ</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Examples/INJ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Examples/INJ/</guid>
+      <description>Injection (INJ) Examples#CVE 2007-3572 (Yoggie Pico) BF Taxonomy Cause: Input not checked properly (incomplete blacklist) Attributes: Language: CGI Special Element: Shell Metacharacters (back ticks `) Entry Point: Function Parameter (&#34;param&#34;) Invalid Construct: Command (command within a Ping command) Consequence: Add command, leading to arbitrary code execution and potentially complete host takeover (by adding a Ping command to change the root password) BF Description &#34;Input not checked properly (incomplete blacklist) allows Shell metacharacters (back ticks `( through a function parameter (&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

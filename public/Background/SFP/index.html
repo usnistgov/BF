@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Software Fault Patterns (SFP)#The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites (&ldquo;footholds&rdquo;), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.
+&ldquo;Software Fault Patterns (SFP) is a generalized description of an identifiable family of computations that are:">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="SFP" />
+<meta property="og:description" content="Software Fault Patterns (SFP)#The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites (&ldquo;footholds&rdquo;), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.
+&ldquo;Software Fault Patterns (SFP) is a generalized description of an identifiable family of computations that are:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ibojanova.BF-Website.github.io/Background/SFP/" /><meta property="article:section" content="Background" />
+
+
+<title>SFP | The Bugs Framework</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.cb95c677258073ab5f703ebc77482a3c28b76effd412d853ec2636d7d8672ed6.css" integrity="sha256-y5XGdyWAc6tfcD68d0gqPCi3bv/UEthT7CY219hnLtY=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.594dfd50b827f5b726aed27228eaa70cfb35cb85dec33196fa67986c7576b083.js" integrity="sha256-WU39ULgn9bcmrtJyKOqnDPs1y4XewzGW&#43;meYbHV2sIM=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link rel="stylesheet" href="https://ibojanova.BF-Website.github.io/css/styles.css">
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <span>The Bugs Framework</span>
+  <a class="flex align-center" href="/"><img src="/images/nist.png" alt="Logo" style="width:100%;height:100%;"/></a>
+  
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-009d7bf3fdb1853acda6424e4b316768" class="toggle"  />
+    <label for="section-009d7bf3fdb1853acda6424e4b316768" class="flex justify-between">
+      <a role="button" class="">BF Home</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Overview/" class="">Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Concepts/" class="">Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Why-BF/" class="">Why BF?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Approach/" class=""> Approach</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Methodology/" class="">Methodology</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Impact/" class="">Impact</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-df29f7b7abe8445924d7b6aba336accf" class="toggle"  />
+    <label for="section-df29f7b7abe8445924d7b6aba336accf" class="flex justify-between">
+      <a role="button" class="">Classes</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-936f9877222666cb55419eec92b6156f" class="toggle"  />
+    <label for="section-936f9877222666cb55419eec92b6156f" class="flex justify-between">
+      <a role="button" class="">Data Type Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/DCL/" class="">DCL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/NRS/" class="">NRS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCM/" class="">TCM</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCV/" class="">TCV</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-33fb1d135f4163eae6e65e145d3f6223" class="toggle"  />
+    <label for="section-33fb1d135f4163eae6e65e145d3f6223" class="flex justify-between">
+      <a role="button" class="">Input/Output Check Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVL/" class="">DVL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVR/" class="">DVR</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1ec6442dadebd43af7b71b44cac6d8da" class="toggle"  />
+    <label for="section-1ec6442dadebd43af7b71b44cac6d8da" class="flex justify-between">
+      <a role="button" class="">Cryptographic Store and Transfer Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/ENC/" class="">ENC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/KMN/" class="">KMN</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/VRF/" class="">VRF</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47428afffbf30f386039d83f5728b99e" class="toggle"  />
+    <label for="section-47428afffbf30f386039d83f5728b99e" class="flex justify-between">
+      <a role="button" class="">Memory Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAD/" class="">MAD</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAL/" class="">MAL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MUS/" class="">MUS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MDL/" class="">MDL</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2d03f1f655a24bd4cd32fa2b855d2821" class="toggle"  />
+    <label for="section-2d03f1f655a24bd4cd32fa2b855d2821" class="flex justify-between">
+      <a role="button" class="">Random Number Generation Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/TRN/" class="">TRN</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-491f13d5203f89938118c00bc542ef22" class="toggle"  />
+    <label for="section-491f13d5203f89938118c00bc542ef22" class="flex justify-between">
+      <a role="button" class="">Examples</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1141/" class="">CVE-2001-1141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1585/" class="">CVE-2001-1585</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2002-1697/" class="">CVE-2002-1697</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2007-5460/" class="">CVE-2007-5460</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-0141/" class="">CVE-2008-0141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-4107/" class="">CVE-2008-4107</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2014-0160/" class="">CVE-2014-0160</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-0204/" class="">CVE-2015-0204</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-2141/" class="">CVE-2015-2141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2016-1919/" class="">CVE-2016-1919</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2018-20991/" class="">CVE-2018-20991</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2019-10748/" class="">CVE-2019-10748</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2020-5902/" class="">CVE-2020-5902</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-21834/" class="">CVE-2021-21834</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-23440/" class="">CVE-2021-23440</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CWE-468/" class="">CWE-468</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Grammar/" class="">Grammar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-83191925277756d7e251ccecfeaa62b1" class="toggle" checked />
+    <label for="section-83191925277756d7e251ccecfeaa62b1" class="flex justify-between">
+      <a role="button" class="">Background</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Organizational-Structures/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Overview/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Other-Classifications/" class="">Other Classifications</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Publications/" class="">Publications</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Team/" class="">Team</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Contact/" class="">Contact Us</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>SFP</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="software-fault-patterns-sfp">
+  Software Fault Patterns (SFP)
+  <a class="anchor" href="#software-fault-patterns-sfp">#</a>
+</h1>
+<p>The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites (&ldquo;footholds&rdquo;), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.</p>
+<p>&ldquo;Software Fault Patterns (SFP) is a generalized description of an identifiable family of <em>computations</em> that are:</p>
+<ul>
+<li>Described as patterns with an invariant core and variant parts.</li>
+<li>Aligned with injury.</li>
+<li>Aligned with operational views and risk through events.</li>
+<li>Fully identifiable in code (discernable).</li>
+<li>Aligned with CWE.</li>
+<li>With formally defined characteristics.&rdquo; [2]</li>
+</ul>
+<p>SFP categorizes 632 CWEs plus there are 8 deprecated CWEs, so the CWEs defined as weaknesses total 640. In addition, there are: 21 primary clusters, 62 secondary clusters, 310 discernible CWEs, 36 unique SFPs. [3]</p>
+<h3 id="clusters-and-sfps">
+  Clusters and SFPs
+  <a class="anchor" href="#clusters-and-sfps">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Primary Clusters</th>
+<th>Secondary Cluster</th>
+<th>SFP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Risky Values</td>
+<td>1. Glitch in Computation</td>
+<td>SFP1</td>
+</tr>
+<tr>
+<td>2. Unused Entities</td>
+<td>1. Unused Entities</td>
+<td>SFP2</td>
+</tr>
+<tr>
+<td>3. API</td>
+<td>1. Use of an Improper API</td>
+<td>SFP3</td>
+</tr>
+<tr>
+<td>4. Exception Management</td>
+<td>1. Unchecked Status Condition  <br>2. Ambiguous Exception Type  <br>3. Incorrect exception Behavior</td>
+<td>SFP4  <br>SFP5  <br>SFP6</td>
+</tr>
+<tr>
+<td>5. Memory Access</td>
+<td>1. Faulty Pointer Use  <br>2. Faulty Buffer Access  <br>3. Faulty String Expansion  <br>4. Incorrect Buffer Length Computation  <br>5. Improper NULL Termination</td>
+<td>SFP7  <br>SFP8  <br>SFP9  <br>SFP10  <br>SFP11</td>
+</tr>
+<tr>
+<td>6. Memory Management</td>
+<td>1. Faulty Memory Release</td>
+<td>SFP12</td>
+</tr>
+<tr>
+<td>7. Resource Management</td>
+<td>1. Unrestricted Consumption  <br>2. Failure to release resource  <br>3. Faulty Resource Use  <br>4. Life Cycle</td>
+<td>SFP13  <br>SFP14  <br>SFP15</td>
+</tr>
+<tr>
+<td>8. Path Resolution</td>
+<td>1. Path Traversal  <br>2. Failed Chroot Jail  <br>3. Link in Resource Name Resolution</td>
+<td>SFP16  <br>SFP17  <br>SFP18</td>
+</tr>
+<tr>
+<td>9. Synchronization</td>
+<td>1. Missing Lock  <br>2. Race Condition Window  <br>3. Multiple Locks/Unlocks  <br>4. Unrestricted Lock</td>
+<td>SFP19  <br>SFP20  <br>SFP21  <br>SFP22</td>
+</tr>
+<tr>
+<td>10. Information Leak</td>
+<td>1. Exposed Data  <br>2. State Disclosure  <br>3. Exposure Through Temporary files  <br>4. Other Exposures  <br>5. Insecure Session Management</td>
+<td>SFP23</td>
+</tr>
+<tr>
+<td>11. Tainted Input</td>
+<td>1. Tainted Input to Command  <br>2. Tainted Input to Variable  <br>3. Composite Tainted Input  <br>4. Faulty input Transformation  <br>5. Incorrect Input Handling  <br>6. Tainted Input to Environment</td>
+<td>SFP24  <br>SFP25  <br>SFP26  <br>  <br>  <br>SFP27</td>
+</tr>
+<tr>
+<td>12. Entry Points</td>
+<td>1. Unexpected Access Points</td>
+<td>SFP28</td>
+</tr>
+<tr>
+<td>13. Authentication</td>
+<td>1. Authentication Bypass  <br>2. Faulty Endpoint Authentication  <br>3. Missing Endpoint Authentication  <br>4. Digital Certificate  <br>5. Missing Authentication  <br>6. Insecure Authentication Policy  <br>7. Multiple binds to the Same Port  <br>8. Hardcoded Sensitive Data  <br>9. Unrestricted Authentication</td>
+<td>SFP29  <br>SFP30  <br>  <br>SFP31  <br>  <br>SFP32  <br>SFP33  <br>SFP34</td>
+</tr>
+<tr>
+<td>14. Access Control</td>
+<td>1. Insecure Resource Access  <br>2. Insecure Resource Permissions  <br>3. Access Management</td>
+<td>SFP35</td>
+</tr>
+<tr>
+<td>15. Privilege</td>
+<td>1. Privilege</td>
+<td>SFP36</td>
+</tr>
+<tr>
+<td>16. Channel</td>
+<td>1. Channel Attack  <br>2. Protocol Error</td>
+<td></td>
+</tr>
+<tr>
+<td>17. Cryptography</td>
+<td>1. Broken Cryptography  <br>2. Weak Cryptography</td>
+<td></td>
+</tr>
+<tr>
+<td>18. Malware</td>
+<td>1. Malicious Code  <br>2. Covert Channel</td>
+<td></td>
+</tr>
+<tr>
+<td>19. Predictability</td>
+<td>1. Predictability</td>
+<td></td>
+</tr>
+<tr>
+<td>20. UI</td>
+<td>1. Feature  <br>2. Information Loss  <br>3. Security</td>
+<td></td>
+</tr>
+<tr>
+<td>21. Other</td>
+<td>1. Architecture  <br>2. Design  <br>3. Implementation  <br>4. Compiler</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="example">
+  Example
+  <a class="anchor" href="#example">#</a>
+</h3>
+<h4 id="sfp-8-faulty-buffer-access">
+  SFP 8 Faulty Buffer Access
+  <a class="anchor" href="#sfp-8-faulty-buffer-access">#</a>
+</h4>
+<ul>
+<p>&ldquo;Primary Cluster: Memory Access; Secondary Cluster: Faulty Buffer Access</p>
+<p>A weakness where the code path has all of the following:</p>
+<ul>
+<li>
+<p>an end statement that performs a Buffer Access Operation and where exactly one of the following is true:</p>
+</li>
+<li>
+<p>the access position of the Buffer Access Operation is outside of the buffer
+or* the access position of the Buffer access Operation is inside the buffer and the size of the data being accessed is greater than the remaining size of the buffer at the access position.</p>
+</li>
+</ul>
+<p>This is where the Buffer Access Operation is a statement that performs access to a data item of a certain size at access position. The access position of a Buffer access Operation is related to a certain buffer and can be either inside the buffer or outside of the buffer.</p>
+<p>Parameters:</p>
+<ul>
+<li>Access: Reads, Writes</li>
+<li>Buffer: Stack, Heap</li>
+<li>Access Position: Array with index, Pointer.&rdquo; 
+  <a href="/#ref">[3]</a></li>
+</ul>
+</ul>
+<h3 id="notes">
+  Notes
+  <a class="anchor" href="#notes">#</a>
+</h3>
+<p>SFP is an excellent advance. <em>However, SFP does not tie fault clusters to causes or chains of fault patterns nor to consequences of a particular vulnerability. In addition, since they were derived from CWEs, more work is needed for embedded or mobile concerns, such as, battery drain, physical sensors (e.g. Global Positioning System (GPS) location, gyroscope, microphone, camera) and wireless communications.</em></p>
+<h3 id="references">
+  References
+  <a class="anchor" href="#references">#</a>
+</h3>
+<p>[1] N. Mansourov and D. Campara, &ldquo;
+  <a href="https://www.elsevier.com/books/system-assurance/mansourov/978-0-12-381414-2">System Assurance: Beyond Detecting Vulnerabilities</a>.&rdquo; Morgan Kaufmann. 2010. pp. 176-188.</p>
+<p>[2] N. Mansourov. 
+  <a href="https://apps.dtic.mil/docs/citations/ADB381215">DoD Software Fault Patterns</a>. KDM Analytics, Inc. 2011.</p>
+<p>[3] B. A. Calloni, D. Campara, and N. Mansourov. White Box Definitions of Software Fault Patterns. Final Report. Lockheed Martin Corporation and KDM Analytics, Inc. 2011.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+<footer class="sticky-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.usa.gov/">USA.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+</footer>
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Information Exposure (IEX) Class#Definition#We define Information Exposure (IEX) as:
+Information is leaked through legitimate or side channels. Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.
+Type#High (semantic).
+Taxonomy#Fig. 1 depicts IEX causes, attributes and consequences.
+Fig 1. Information Exposure (IEX) Class - click on image for detailed view.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="IEX" />
+<meta property="og:description" content="Information Exposure (IEX) Class#Definition#We define Information Exposure (IEX) as:
+Information is leaked through legitimate or side channels. Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.
+Type#High (semantic).
+Taxonomy#Fig. 1 depicts IEX causes, attributes and consequences.
+Fig 1. Information Exposure (IEX) Class - click on image for detailed view." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ibojanova.BF-Website.github.io/Old/Classes/IEX/" /><meta property="article:section" content="Old" />
+
+
+<title>IEX | The Bugs Framework</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.cb95c677258073ab5f703ebc77482a3c28b76effd412d853ec2636d7d8672ed6.css" integrity="sha256-y5XGdyWAc6tfcD68d0gqPCi3bv/UEthT7CY219hnLtY=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.594dfd50b827f5b726aed27228eaa70cfb35cb85dec33196fa67986c7576b083.js" integrity="sha256-WU39ULgn9bcmrtJyKOqnDPs1y4XewzGW&#43;meYbHV2sIM=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link rel="stylesheet" href="https://ibojanova.BF-Website.github.io/css/styles.css">
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <span>The Bugs Framework</span>
+  <a class="flex align-center" href="/"><img src="/images/nist.png" alt="Logo" style="width:100%;height:100%;"/></a>
+  
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-009d7bf3fdb1853acda6424e4b316768" class="toggle"  />
+    <label for="section-009d7bf3fdb1853acda6424e4b316768" class="flex justify-between">
+      <a role="button" class="">BF Home</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Overview/" class="">Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Concepts/" class="">Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Why-BF/" class="">Why BF?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Approach/" class=""> Approach</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Methodology/" class="">Methodology</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Home/Impact/" class="">Impact</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-df29f7b7abe8445924d7b6aba336accf" class="toggle"  />
+    <label for="section-df29f7b7abe8445924d7b6aba336accf" class="flex justify-between">
+      <a role="button" class="">Classes</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-936f9877222666cb55419eec92b6156f" class="toggle"  />
+    <label for="section-936f9877222666cb55419eec92b6156f" class="flex justify-between">
+      <a role="button" class="">Data Type Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/DCL/" class="">DCL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/NRS/" class="">NRS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCM/" class="">TCM</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_DAT/TCV/" class="">TCV</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-33fb1d135f4163eae6e65e145d3f6223" class="toggle"  />
+    <label for="section-33fb1d135f4163eae6e65e145d3f6223" class="flex justify-between">
+      <a role="button" class="">Input/Output Check Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVL/" class="">DVL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_INP/DVR/" class="">DVR</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1ec6442dadebd43af7b71b44cac6d8da" class="toggle"  />
+    <label for="section-1ec6442dadebd43af7b71b44cac6d8da" class="flex justify-between">
+      <a role="button" class="">Cryptographic Store and Transfer Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/ENC/" class="">ENC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/KMN/" class="">KMN</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_CRY/VRF/" class="">VRF</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47428afffbf30f386039d83f5728b99e" class="toggle"  />
+    <label for="section-47428afffbf30f386039d83f5728b99e" class="flex justify-between">
+      <a role="button" class="">Memory Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAD/" class="">MAD</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MAL/" class="">MAL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MUS/" class="">MUS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_MEM/MDL/" class="">MDL</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2d03f1f655a24bd4cd32fa2b855d2821" class="toggle"  />
+    <label for="section-2d03f1f655a24bd4cd32fa2b855d2821" class="flex justify-between">
+      <a role="button" class="">Random Number Generation Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Classes/_RND/TRN/" class="">TRN</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-491f13d5203f89938118c00bc542ef22" class="toggle"  />
+    <label for="section-491f13d5203f89938118c00bc542ef22" class="flex justify-between">
+      <a role="button" class="">Examples</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1141/" class="">CVE-2001-1141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2001-1585/" class="">CVE-2001-1585</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2002-1697/" class="">CVE-2002-1697</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2007-5460/" class="">CVE-2007-5460</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-0141/" class="">CVE-2008-0141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2008-4107/" class="">CVE-2008-4107</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2014-0160/" class="">CVE-2014-0160</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-0204/" class="">CVE-2015-0204</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2015-2141/" class="">CVE-2015-2141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2016-1919/" class="">CVE-2016-1919</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2018-20991/" class="">CVE-2018-20991</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2019-10748/" class="">CVE-2019-10748</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2020-5902/" class="">CVE-2020-5902</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-21834/" class="">CVE-2021-21834</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CVE-2021-23440/" class="">CVE-2021-23440</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Examples/CWE-468/" class="">CWE-468</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Grammar/" class="">Grammar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-83191925277756d7e251ccecfeaa62b1" class="toggle"  />
+    <label for="section-83191925277756d7e251ccecfeaa62b1" class="flex justify-between">
+      <a role="button" class="">Background</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Organizational-Structures/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Overview/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Background/Other-Classifications/" class="">Other Classifications</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Publications/" class="">Publications</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Team/" class="">Team</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/Contact/" class="">Contact Us</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>IEX</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="information-exposure-iex-class">
+  Information Exposure (IEX) Class
+  <a class="anchor" href="#information-exposure-iex-class">#</a>
+</h1>
+<h3 id="definition">
+  Definition
+  <a class="anchor" href="#definition">#</a>
+</h3>
+<p>We define Information Exposure (IEX) as:</p>
+<span class="text-primary"><i>Information is leaked through legitimate or side channels.</i></span>
+<p>Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.</p>
+<h3 id="type">
+  Type
+  <a class="anchor" href="#type">#</a>
+</h3>
+<p>High (semantic).</p>
+<h3 id="taxonomy">
+  Taxonomy
+  <a class="anchor" href="#taxonomy">#</a>
+</h3>
+<p>Fig. 1 depicts IEX causes, attributes and consequences.</p>
+
+
+    
+    <div align="center">
+    <a target="_blank" href="https://ibojanova.BF-Website.github.ioimages/IEXModelv3.png" ><img src="https://ibojanova.BF-Website.github.ioimages/IEXModelv3.png" style="max-height:600px" ></a>
+    <p><em>Fig 1. Information Exposure (IEX) Class<span class="text-info">
+          - click on image for detailed view</span>.</em></p>
+        </div>
+    
+
+
+<h3 id="attributes">
+  Attributes
+  <a class="anchor" href="#attributes">#</a>
+</h3>
+<p>The attributes of IEX are:</p>
+<p><strong>Information</strong>– Credentials, System Data, State Data, Cryptographic Data, Digital Documents, Personally Identifiable Data, Business Data, etc.</p>
+<p><strong>Sensitivity</strong> – High, Low.</p>
+<p>This indicates the sensitivity level of leaked information. Highly sensitive information that is encrypted, or information that is non-sensitive would not result in harm if and exposed. Non-sensitive information includes public records, phone books, or online directories.</p>
+<p><strong>Information State</strong> – Stored, Used, Transferred.</p>
+<p>This reflects if the information is in rest, in use, or in transit. Information can be in rest in files (e.g. ini, temp, configuration, log server, debug, cleanup, email attachment, login buffer, executable, backup, core dump, access control list, private data index), directories (Web root, FTP root, CVS repository), or on discs. Information can be in use by functions/programs &ndash; source code (incl. comments); threads, registries, cookies, GUI, environmental variables. Data can be also in transit between processes or over a network.</p>
+<p><strong>Information Size</strong> – Little, Some, Huge.</p>
+<p>This indicates how much information is leaked.</p>
+<p>These distinctions are important in some cases. For instance, Heartbleed 
+  <a href="/#2">[2]</a> might not have been a severe problem if it just exfiltrated a little data. The fact that it may exfiltrate a huge amount of data greatly increases the chance that very important information will be leaked.</p>
+<p><strong>Exposure</strong> – Selective, Random.</p>
+<p>This reflects if an attacker can choose what information to expose or where. Selective means the attacker can choose where and what to read. Random is like going through the trash (e.g. Heartbleed 
+  <a href="/#2">[2]</a>).</p>
+<p><strong>Frequency</strong> – Once, On-demand, On-timing, Rare, Often, Fast.</p>
+<p>This indicates how often the exposure can/does occur. On-timing means depending on timing (e.g. in race condition). Note that Frequency * Size = Rate.</p>
+<p><strong>Channel</strong>– Legitimate, Diagnostic, Side, Covert.</p>
+<p>This indicates the medium by which information was leaked.</p>
+<p><strong>Use</strong> – Direct, Indirect**.**</p>
+<p>Direct means leaked information is valuable on its own. Indirect means it is only useful for launching other attacks.</p>
+<h3 id="causes">
+  Causes
+  <a class="anchor" href="#causes">#</a>
+</h3>
+<p>In the graph of causes, <em>Uncleared Before Release</em> means information going from one control sphere back to the general pool. <em>Cross-Boundary Removal</em> means information going from one control sphere to another control sphere. A control sphere is a set of resources and behaviors that are accessible to a single actor or a group of actors that all share the same security restrictions.</p>
+<p><em>Protect Sensitive Data</em> also covers preparing sensitive data.</p>
+<p><em>Software/Hardware Behavior</em> covers algorithms and execution. Observable behavior (time, power, cache lines) depends on the data.</p>
+<p><em>Improper Details</em> include passwords, paths, SQL query structure/logic, etc. in error/exception, etc. messages.</p>
+<p>ENC includes failure to encrypt (cleartext storage, recoverable format storage, cleartext transmission) and failure to properly encrypt (inadequate encryption strength, use of risky/broken cryptographic algorithm, missing required cryptographic step, use of hard-coded cryptographic key).</p>
+<p>ATN/AUT includes improper authentication, credentials compromise, account access.</p>
+<p>INJ includes adding commands and masking legitimate commands or information.</p>
+<p>CIF is control of interaction frequency, including limiting the number of failed log in attempts. If there is no limit on the number of attempts, account names or passwords may be discovered by brute force attacks.</p>
+<h3 id="consequences">
+  Consequences
+  <a class="anchor" href="#consequences">#</a>
+</h3>
+<p>One information exposure (IEX) fault may lead to another information exposure. For instance, an information exposure of all client credit cards may have been caused by earlier obtaining the password for a privileged account.</p>
+<h3 id="related-bf-classes">
+  Related BF Classes
+  <a class="anchor" href="#related-bf-classes">#</a>
+</h3>
+<p>BF classes related to IEX are: BOF, INJ, CIF, ENC, VRF, KMN, TRN, PRN.</p>
+<h3 id="related-cwes-and-sfp">
+  Related CWEs and SFP
+  <a class="anchor" href="#related-cwes-and-sfp">#</a>
+</h3>
+<p>CWEs related to IEX are: 
+  <a href="https://cwe.mitre.org/data/definitions/8.html">CWE-8</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/11.html">CWE-11</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/13.html">CWE-13</a>
+  <a href="https://cwe.mitre.org/data/definitions/200.html">, CWE-200</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/201.html">CWE-201</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/202.html">CWE-202</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/203.html">CWE-203</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/204.html">CWE-204</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/205.html">CWE-205</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/206.html">CWE-206</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/207.html">CWE-207</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/208.html">CWE-208</a>
+  <a href="https://cwe.mitre.org/data/definitions/209.html">, CWE-209</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/210.html">CWE-210</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/211.html">CWE-211</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/212.html">CWE-212</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/213.html">CWE-213</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/214.html">CWE-214</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/215.html">CWE-215</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/226.html">CWE-226</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/244.html">CWE-244</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/260.html">CWE-260</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/359.html">CWE-359</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/377.html">CWE-377</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/385.html">CWE-385</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/402.html">CWE-402</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/403.html">CWE-403</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/433.html">CWE-433</a>
+  <a href="https://cwe.mitre.org/data/definitions/488.html">, CWE-488</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/492.html">CWE-492</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/495.html">CWE-495</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/498.html">CWE-498</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/499.html">CWE-499</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/524.html">CWE-524</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/514.html">CWE-514</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/515.html">CWE-515</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/527.html">CWE-527</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/528.html">CWE-528</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/529.html">CWE-529</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/530.html">CWE-530</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/532.html">CWE-532</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/535.html">CWE-535</a>
+  <a href="https://cwe.mitre.org/data/definitions/536.html">, CWE-536</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/537.html">CWE-537</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/538.html">CWE-538</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/539.html">CWE-539</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/540.html">CWE-540</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/541.html">CWE-541</a>,
+  <a href="https://cwe.mitre.org/data/definitions/546.html">CWE-546</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/548.html">CWE-548</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/550.html">CWE-550</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/552.html">CWE-552</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/555.html">CWE-555</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/598.html">CWE-598</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/612.html">CWE-612</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/642.html">CWE-642</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/651.html">CWE-651</a>, 
+  <a href="https://cwe.mitre.org/data/definitions/668.html">CWE-668</a>.</p>
+<p>There are many related CWEs because information exposure can be the consequence of many weaknesses.</p>
+<p>The only related SFP cluster is SFP Primary Cluster: Information Leak.</p>
+<p>BF Descriptions of IEX Related CWEs are provided 
+  <a href="https://docs.google.com/document/d/1OEVDu_4NhQzTkUrZA9UoCfpVf2x8SlOnOq6_YA4N2Do/edit">here</a>.</p>
+<h3 id="application">
+  Application
+  <a class="anchor" href="#application">#</a>
+</h3>
+<p>Application examples are provided 
+  <a href="/Old/Examples/IEX/">here</a>.</p>
+<h3 id="references">
+  References
+  <a class="anchor" href="#references">#</a>
+</h3>
+<p>[1] I. Bojanova, P. E. Black, Y. Yesha, and Y. Wu, “The Bugs Framework (BF): A Structured approach to express bugs”, Proceedings of IEEE International Conference on Software Quality, Reliability and Security (QRS), 2016, , pp. 175-182.</p>
+<p>[2] “The Heartbleed Bug.” [Online]. Available: 
+  <a href="http://heartbleed.com/">http://heartbleed.com/</a>.</p>
+<p>[3] Common Weakness Enumeration. “CWE Glossary.” [Online]. Available: 
+  <a href="https://cwe.mitre.org/documents/glossary/index.html">https://cwe.mitre.org/documents/glossary/index.html#ControlSphere</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+<footer class="sticky-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.usa.gov/">USA.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+</footer>
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

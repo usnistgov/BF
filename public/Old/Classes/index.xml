@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on The Bugs Framework</title>
+    <link>https://ibojanova.BF-Website.github.io/Old/Classes/</link>
+    <description>Recent content in Classes on The Bugs Framework</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibojanova.BF-Website.github.io/Old/Classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOF</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Classes/BOF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/BOF/</guid>
+      <description>Buffer Overflow (BOF) Class#Definition#We define Buffer Overflow (BOF) as:
+The software accesses through an array a memory location that is outside the boundaries of that array. [1]
+Often referred to as a &amp;ldquo;buffer,&amp;rdquo; an array is a contiguously allocated set of objects [1], called elements. An array has a definite size, that is, a definite number of elements are allocated to it. The software should not use the array name to access anything outside the boundary of the allocated elements.</description>
+    </item>
+    
+    <item>
+      <title>CIF</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Classes/CIF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/CIF/</guid>
+      <description>Control of Interaction Frequency Bugs (CIF) Class#Definition#We define Control of Interaction Frequency Bugs (CIF) as:
+The software does not properly limit the number of repeating interactions per specified unit. In physics, frequency is the number of occurrences of a repeating event per unit time. Interactions in software could be also per event or per user.
+Type#High (semantic).
+Taxonomy#Fig. 1 depicts CIF causes, attributes and consequences.</description>
+    </item>
+    
+    <item>
+      <title>IEX Model</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Classes/IEX-Model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/IEX-Model/</guid>
+      <description>BF Model of Information Exposure#Information and Data#The terms data and information are often used interchangeably. Data is “a set of values of qualitative or quantitative variables” [1]. Information is “any entity or form that provides the answer to a question of some kind or resolves uncertainty&amp;quot; [2]. To what extent data is informative to someone depends on how unexpected it is to that person. A difference between data and information is that data has no meaning, while information has meaning.</description>
+    </item>
+    
+    <item>
+      <title>IEX</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Classes/IEX/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/IEX/</guid>
+      <description>Information Exposure (IEX) Class#Definition#We define Information Exposure (IEX) as:
+Information is leaked through legitimate or side channels. Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.
+Type#High (semantic).
+Taxonomy#Fig. 1 depicts IEX causes, attributes and consequences.
+Fig 1. Information Exposure (IEX) Class - click on image for detailed view.</description>
+    </item>
+    
+    <item>
+      <title>INJ</title>
+      <link>https://ibojanova.BF-Website.github.io/Old/Classes/INJ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibojanova.BF-Website.github.io/Old/Classes/INJ/</guid>
+      <description>Injection (INJ) Class#Definition#We define Injection (INJ) as:
+Due to input with language-specific special elements, the software assembles a command string that is parsed into an invalid construct. In other words, the command string is interpreted to have unintended, queries, OS commands, markups, scripts, etc.
+Type#High (semantic).
+Taxonomy#Fig. 1 depicts INJ causes, attributes and consequences.
+Fig 1. Injection (INJ) Class - click on image for detailed view.</description>
+    </item>
+    
+  </channel>
+</rss>
