@@ -19,13 +19,13 @@ title: "Team"
         <tr>
           <td>{{< img src="images/CG.jpg" height="530" >}}</td>
           <td>
-              Carlos E. C. Galhardo is is a researcher at Inmetro, Brazil. He earned his Ph.D in Physics from the Universidade Federal Fluminense. 
+              Carlos E. C. Galhardo is is a researcher at Inmetro, Brazil. He earned his Ph.D. in Physics from the Universidade Federal Fluminense. 
               His research interests include information science, cybersecurity, and mathematical modeling in interdisciplinary applications.
           </td>
         <tr>
           <td>{{< img src="images/FN.jpg" height="530" >}}</td>
           <td> 
-              Farhan Nadeem is a computer scientist at NIST. He earned his MS in Computer Engineering from the University of Maryland.
+              Farhan Nadeem is a computer scientist at NIST. He earned his BS in Computer Engineering from the University of Maryland. Currenlty he is majoring in Computer Science from Georgia Intitute of Technology.
           </td>
         </tr>
       </table>
@@ -51,7 +51,7 @@ title: "Team"
         </tr> 
         <tr>
           <td>{{< img src="images/SM.png" height="530" >}}</td>
-          <td>Sara Moshtari is a PhD student at Rochester Institute of Technology (RIT). She received her M.S. in software engineering
+          <td>Sara Moshtari is a Ph.D. student at Rochester Institute of Technology (RIT). She received her M.S. in Software Engineering
             from Shiraz University in 2013. Her research interests include software security, data-driven software
             analysis, software vulnerability detection, and machine learning. She is also a software developer and works
             with different programming languages.

@@ -3,6 +3,7 @@
 baseURL: https://usnistgov.github.io/BF/
 title: The Bugs Framework
 theme: hugo-book
+publishDir: docs
 
 # Book configuration
 disablePathToLower: true
