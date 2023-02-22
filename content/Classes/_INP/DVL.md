@@ -14,7 +14,7 @@ We define Data Validation Bugs (DVL) as follows:
 
 Fig. 1 depicts DVL causes, attributes and consequences.
 
-{{< img src="images/DVL.png" height="500" caption="Fig 1. Data Validation Bugs (DVL) Class" >}}
+{{< img src="figures/classes/DVL.png" height="500" caption="Fig 1. Data Validation Bugs (DVL) Class" >}}
 
 ### Operations
 
