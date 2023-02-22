@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="194.46875mm"
+   height="139.59415mm"
+   viewBox="0 0 194.46875 139.59415"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="DVL.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="DVR.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.914906"
+     inkscape:cx="375.99491"
+     inkscape:cy="-57.929448"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="797"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         x="-7"
+         y="0"
+         width="742"
+         height="574"
+         id="rect9" />
+    </clipPath>
+    <clipPath
+       id="clip0-5">
+      <rect
+         x="-7"
+         y="0"
+         width="742"
+         height="543"
+         id="rect555" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.3628009,-163.58342)">
+    <g
+       clip-path="url(#clip0-5)"
+       transform="matrix(0.26458333,0,0,0.26458333,5.3628009,161.405)"
+       id="g694">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(236.954,19)"
+         id="text564">BF Input/Output Check Bugs (_INP) Cluster<tspan
+   fill="#7d3368"
+   font-size="15px"
+   x="25.8333"
+   y="25"
+   id="tspan560">Data Verification Bugs (DVR) Class</tspan><tspan
+   font-size="15px"
+   x="-138.80299"
+   y="63"
+   id="tspan562">Causes</tspan></text>
+      <path
+         d="M 0,108.5 C 0,102.701 4.70106,98 10.5001,98 H 234.5 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 H 10.5001 C 4.70106,161 0,156.299 0,150.5 Z"
+         fill="#e8effc"
+         fill-rule="evenodd"
+         id="path566" />
+      <text
+         fill="#7d3368"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(5.1748,116)"
+         id="text572">Code Defect Bug<tspan
+   fill="#000000"
+   font-size="15px"
+   x="148.16701"
+   y="17"
+   id="tspan568">Missing Code</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="132"
+   y="35"
+   id="tspan570">Erroneous Code</tspan></text>
+      <path
+         d="m 0.0194114,-0.332768 7.4999986,0.4375 3.52189,0.439509 3.0879,0.629159 2.6428,0.69164 2.041,0.82614 c 0.0208,0.00846 0.0407,0.019 0.0594,0.03147 l 1.3125,0.875 c 0.0483,0.03218 0.0873,0.07639 0.1132,0.12828 l 0.4375,0.875 0.4375,0.875 -0.1132,-0.12828 1.3125,0.875 -0.0594,-0.03147 2,0.8125 2.584,0.67386 3.0447,0.62086 4.2649,0.44131 -0.0689,0.6631 L 29.8083,8.9516 26.728,8.32246 24.062,7.62132 l -2,-0.8125 C 22.0412,6.80036 22.0213,6.78982 22.0026,6.77735 l -1.3125,-0.875 C 20.6418,5.87017 20.6028,5.82596 20.5769,5.77407 l -0.4375,-0.875 -0.4375,-0.875 0.1132,0.12828 -1.3125,-0.875 L 18.562,3.30882 16.603,2.50996 13.9958,1.8266 10.9587,1.20576 7.48059,0.770268 -0.0194114,0.332768 Z M 33.0675,5.00217 40.8281,9.44882 32.6144,12.9893 Z"
+         transform="matrix(1,0,0,-1,245.5,129.949)"
+         id="path574" />
+      <path
+         d="M 0,186.5 C 0,180.701 4.70106,176 10.5001,176 H 234.5 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 H 10.5001 C 4.70106,239 0,234.299 0,228.5 Z"
+         fill="#e8effc"
+         fill-rule="evenodd"
+         id="path576" />
+      <text
+         fill="#7d3368"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(5.1748,195)"
+         id="text590">Specification Defect Bug<tspan
+   fill="#000000"
+   font-size="15px"
+   x="84.666702"
+   y="17"
+   id="tspan578">Under</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="121.833"
+   y="17"
+   id="tspan580">-</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="126.333"
+   y="17"
+   id="tspan582">Restrictive Policy</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="93"
+   y="35"
+   id="tspan584">Over</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="121.833"
+   y="35"
+   id="tspan586">-</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="126.333"
+   y="35"
+   id="tspan588">Restrictive Policy</tspan></text>
+      <path
+         d="M 0.0426571,-0.330593 1.98016,-0.0805926 c 0.02782,0.0035899 0.05509,0.010682 0.08114,0.0211004 l 1.875,0.7500002 c 0.01899,0.007598 0.03727,0.01694 0.05455,0.027886 l 1.875,1.187496 c 0.01562,0.0099 0.0304,0.02108 0.04417,0.03342 l 1.81249,1.625 1.83698,2.02435 1.70981,2.33985 3.0867,5.72599 2.6414,6.6602 2.0122,7.5369 1.3193,7.969 0.4415,8.2867 0.4375,8.25 1.3085,7.9008 1.993,7.4053 2.6134,6.6523 3.045,5.5874 1.6664,2.3413 1.7842,1.9029 -0.0775,-0.0614 1.4815,0.8502 -0.3318,0.5782 -1.4815,-0.8502 c -0.0288,-0.0165 -0.0549,-0.0372 -0.0775,-0.0614 l -1.8408,-1.9721 -1.7086,-2.4087 -3.08,-5.6626 -2.6366,-6.7227 -2.007,-7.4697 -1.3165,-7.9742 -0.4375,-8.25 -0.4335,-8.2133 -1.3057,-7.906 L 16.3776,20.5603 13.769,13.9705 10.7307,8.32149 9.0655,6.03634 7.27748,4.06069 l -1.8125,-1.625 0.04417,0.03342 -1.875,-1.1875 0.05455,0.02788 -1.875,-0.749998 0.08114,0.021101 -1.9374971,-0.25 z M 35.4404,81.0495 l 5.3877,7.1395 -8.9442,0.0264 z"
+         transform="matrix(1,0,0,-1,245.5,208.689)"
+         id="path592" />
+      <path
+         d="M 0,262.333 C 0,258.283 3.28327,255 7.33339,255 H 237.667 c 4.05,0 7.333,3.283 7.333,7.333 v 29.334 c 0,4.05 -3.283,7.333 -7.333,7.333 H 7.33339 C 3.28327,299 0,295.717 0,291.667 Z"
+         fill="#f4f2f8"
+         fill-rule="evenodd"
+         id="path594" />
+      <text
+         fill="#7d3368"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(4.25228,272)"
+         id="text598">Type Fault<tspan
+   fill="#000000"
+   font-size="15px"
+   x="158.33299"
+   y="17"
+   id="tspan596">Invalid Data</tspan></text>
+      <path
+         d="m 0.0734203,-0.325147 1.9374997,0.4375 c 0.04225,0.009541 0.08225,0.027228 0.11773,0.05207 l 1.875,1.312497 C 4.02526,1.49205 4.045,1.50969 4.06245,1.52946 l 1.875,2.125 c 0.01179,0.01336 0.02252,0.02769 0.03202,0.04277 l 1.8125,2.875 1.82762,3.58907 1.70021,4.2782 1.5693,4.7688 1.5042,5.3261 1.3784,5.7631 1.2524,6.1358 2.003,13.3297 1.3148,14.2689 0.4388,14.7082 0.4375,14.6875 1.3112,14.2294 1.9977,13.293 1.247,6.108 1.3726,5.739 1.4966,5.3 1.5583,4.736 1.6807,4.231 1.7998,3.535 -0.0411,-0.062 2.1946,2.632 -0.512,0.427 -2.1946,-2.633 c -0.016,-0.019 -0.0298,-0.04 -0.0411,-0.062 l -1.8252,-3.59 -1.6943,-4.269 -1.5667,-4.764 -1.5034,-5.325 -1.3774,-5.761 -1.253,-6.142 L 21.8556,107.718 20.5418,93.4474 20.1043,78.7599 19.6681,64.0931 18.3579,49.862 16.3609,36.5667 15.1133,30.4525 13.7417,24.7156 12.2459,19.4167 10.6902,14.6855 9.01541,10.4637 7.21802,6.92777 l -1.8125,-2.875 0.03203,0.04277 -1.875,-2.125 0.0588,0.05254 -1.875,-1.312503 0.11773,0.05207 -1.9375003,-0.4375 z M 36.9766,149.408 l 3.8515,8.072 -8.7689,-1.762 z"
+         transform="matrix(1,0,0,-1,245.5,277.98)"
+         id="path600" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(565.84,82)"
+         id="text602">Consequences</text>
+      <path
+         d="m 490,108.5 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 224 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -224 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+         fill="#f4f2f8"
+         fill-rule="evenodd"
+         id="path604" />
+      <text
+         fill="#7d3368"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(495.113,116)"
+         id="text610">Data Error<tspan
+   fill="#000000"
+   font-size="15px"
+   x="149.66701"
+   y="17"
+   id="tspan606">Wrong Value</tspan><tspan
+   fill="#000000"
+   font-size="15px"
+   x="117.833"
+   y="35"
+   id="tspan608">Inconsistent Value</tspan></text>
+      <path
+         d="m 456.189,120.584 4.346,0.46 3.094,0.629 2.643,0.692 2.041,0.826 c 0.021,0.009 0.041,0.019 0.059,0.032 l 1.313,0.875 c 0.048,0.032 0.087,0.076 0.113,0.128 l 0.438,0.875 0.437,0.875 -0.113,-0.128 1.312,0.875 -0.059,-0.032 2,0.813 2.584,0.674 3.045,0.62 3.474,0.434 7.43,0.384 -0.035,0.666 -7.477,-0.389 -3.526,-0.441 -3.08,-0.629 -2.666,-0.702 -2,-0.812 c -0.021,-0.009 -0.041,-0.019 -0.059,-0.032 l -1.313,-0.875 c -0.048,-0.032 -0.087,-0.076 -0.113,-0.128 l -0.438,-0.875 -0.437,-0.875 0.113,0.128 -1.312,-0.875 0.059,0.032 -1.959,-0.799 -2.607,-0.683 -3.031,-0.62 -4.346,-0.46 z m 1.047,4.406 -7.736,-4.49 8.234,-3.494 z"
+         id="path612" />
+      <path
+         d="m 490,183.333 c 0,-4.05 3.283,-7.333 7.333,-7.333 h 230.334 c 4.05,0 7.333,3.283 7.333,7.333 v 29.334 c 0,4.05 -3.283,7.333 -7.333,7.333 H 497.333 c -4.05,0 -7.333,-3.283 -7.333,-7.333 z"
+         fill="#f4f2f8"
+         fill-rule="evenodd"
+         id="path614" />
+      <text
+         fill="#7d3368"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(494.191,194)"
+         id="text618">Type Error<tspan
+   fill="#000000"
+   font-size="15px"
+   x="156.33299"
+   y="17"
+   id="tspan616">Wrong Type</tspan></text>
+      <path
+         d="m 455.745,122.893 1.401,0.682 c 0.038,0.019 0.073,0.045 0.101,0.077 l 3.5,3.875 c 0.015,0.015 0.027,0.032 0.038,0.051 l 3.063,5.062 2.644,5.975 2.015,6.727 1.321,7.097 0.442,7.416 0.438,7.375 1.307,7.022 1.992,6.653 2.61,5.898 3.043,5.025 -0.038,-0.051 3.5,3.875 -0.04,-0.038 1.813,1.437 -0.043,-0.028 1.875,1.062 -0.059,-0.026 1.875,0.625 -0.063,-0.015 1.89,0.241 -0.084,0.661 -1.89,-0.24 c -0.022,-0.003 -0.043,-0.008 -0.064,-0.015 l -1.875,-0.625 c -0.02,-0.007 -0.04,-0.015 -0.059,-0.026 l -1.875,-1.062 c -0.015,-0.009 -0.029,-0.019 -0.043,-0.029 l -1.812,-1.438 c -0.015,-0.011 -0.028,-0.024 -0.04,-0.038 l -3.5,-3.875 c -0.015,-0.015 -0.027,-0.032 -0.038,-0.05 l -3.082,-5.101 -2.64,-5.976 -2.008,-6.723 -1.318,-7.103 -0.437,-7.375 -0.433,-7.334 -1.304,-7.028 -1.985,-6.648 -2.606,-5.9 -3.062,-5.062 0.038,0.05 -3.5,-3.875 0.101,0.077 -1.401,-0.683 z m -0.542,4.497 -5.703,-6.89 8.934,-0.428 z"
+         id="path620" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(330.704,82)"
+         id="text622">Operations</text>
+      <rect
+         x="286.5"
+         y="98.500099"
+         width="163"
+         height="44"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="rect624" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(346.034,116)"
+         id="text630">Verify<tspan
+   font-size="15px"
+   x="-4.4133301"
+   y="17"
+   id="tspan626">Correct</tspan><tspan
+   font-size="15px"
+   x="-11.2467"
+   y="60"
+   id="tspan628">Operands</tspan></text>
+      <rect
+         x="286.5"
+         y="192.5"
+         width="163"
+         height="25"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="rect632" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(349.787,211)"
+         id="text676">Data<tspan
+   font-size="15px"
+   x="-15.9998"
+   y="123"
+   id="tspan634">Attributes</tspan><tspan
+   fill="#7d3368"
+   font-size="15px"
+   x="-347.68701"
+   y="157"
+   id="tspan636">Execution Space</tspan><tspan
+   font-size="15px"
+   x="-229.687"
+   y="174"
+   id="tspan638">Local</tspan><tspan
+   font-size="15px"
+   x="-238.187"
+   y="192"
+   id="tspan640">Admin</tspan><tspan
+   font-size="15px"
+   x="-266.354"
+   y="210"
+   id="tspan642">Bare</tspan>-Metal<tspan
+   fill="#7d3368"
+   font-size="15px"
+   x="-156.086"
+   y="157"
+   id="tspan644">Mechanism</tspan><tspan
+   font-size="15px"
+   x="-41.419601"
+   y="174"
+   id="tspan646">Value</tspan><tspan
+   font-size="15px"
+   x="-59.5863"
+   y="192"
+   id="tspan648">Quantity</tspan><tspan
+   font-size="15px"
+   x="-44.5863"
+   y="210"
+   id="tspan650">Range</tspan><tspan
+   font-size="15px"
+   x="-67.752998"
+   y="227"
+   id="tspan652">Data Type</tspan><tspan
+   font-size="15px"
+   x="-77.752998"
+   y="245"
+   id="tspan654">Other Rules</tspan><tspan
+   fill="#7d3368"
+   font-size="15px"
+   x="35.514801"
+   y="157"
+   id="tspan656">Source Code</tspan><tspan
+   font-size="15px"
+   x="125.681"
+   y="174"
+   id="tspan658">Codebase</tspan><tspan
+   font-size="15px"
+   x="118.348"
+   y="192"
+   id="tspan660">Third Party</tspan><tspan
+   font-size="15px"
+   x="130.181"
+   y="210"
+   id="tspan662">Standard</tspan><tspan
+   font-size="15px"
+   x="129.84801"
+   y="227"
+   id="tspan664">Compiler</tspan><tspan
+   fill="#7d3368"
+   font-size="15px"
+   x="227.116"
+   y="157"
+   id="tspan666">State</tspan><tspan
+   font-size="15px"
+   x="328.28299"
+   y="174"
+   id="tspan668">Entered</tspan><tspan
+   font-size="15px"
+   x="336.116"
+   y="192"
+   id="tspan670">Stored</tspan><tspan
+   font-size="15px"
+   x="338.44901"
+   y="210"
+   id="tspan672">In Use</tspan><tspan
+   font-size="15px"
+   x="305.616"
+   y="227"
+   id="tspan674">Transferred</tspan></text>
+      <path
+         d="M 0,514.167 C 0,511.866 1.86552,510 4.16675,510 H 37.8333 C 40.1345,510 42,511.866 42,514.167 v 16.666 C 42,533.134 40.1345,535 37.8333,535 H 4.16675 C 1.86552,535 0,533.134 0,530.833 Z"
+         fill="#e8effc"
+         fill-rule="evenodd"
+         id="path678" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(44.0945,529)"
+         id="text680">Bug</text>
+      <path
+         d="m 184,514.167 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 33.666 c 2.301,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.301 -1.866,4.167 -4.167,4.167 H 188.167 C 185.866,535 184,533.134 184,530.833 Z"
+         fill="#f4f2f8"
+         fill-rule="evenodd"
+         id="path682" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(227.822,529)"
+         id="text684">Fault/Error</text>
+      <path
+         d="m 367,514.167 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 33.666 c 2.301,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.301 -1.866,4.167 -4.167,4.167 H 371.167 C 368.866,535 367,533.134 367,530.833 Z"
+         fill="#dfdaea"
+         fill-rule="evenodd"
+         id="path686" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(411.549,529)"
+         id="text688">Final Error</text>
+      <rect
+         x="551.5"
+         y="510.5"
+         width="42"
+         height="25"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="rect690" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(595.276,529)"
+         id="text692">Operation/Operand</text>
+    </g>
+  </g>
+</svg>

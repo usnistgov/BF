@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Type Bugs on The Bugs Framework</title>
+    <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/</link>
+    <description>Recent content in Data Type Bugs on The Bugs Framework</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/BF-Classes/_DAT/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/Model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/Model/</guid>
+      <description>BF Data Type Bugs Model#Data Type bugs could be introduced at any of the declaration, name resolution, data type conversion, or data type related computation phases. Each data type related bug or weakness involves one data type operation: Declare, Define, Refer, Call, Cast, Coerce, Calculate, or Evaluate.
+The BF Data Type Bugs model (Fig. 1) helped us identify the phases and the operations where such bugs could occur.</description>
+    </item>
+    
+    <item>
+      <title>Validation</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/Validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/Validation/</guid>
+      <description>Validation#In this section, we analyze the correspondence of the data type related CWEs, such as Numeric Errors , Type Errors, and String Errors, to the four newly developed BF Data Type Bugs classes. We show that DCL, NRS, TCV, and TCM cover all data type related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
+We identified data type related CWEs in three steps: 1) CWE Filtering: Since different types of bugs/weaknesses are described in CWE, we filtered a set of CWEs which de- scriptions contain keywords such as ”type”, ”string”, ”class”, ”cast”, and ”compare”.</description>
+    </item>
+    
+    <item>
+      <title>DCL</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/DCL/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/DCL/</guid>
+      <description>Declaration Bugs (DCL) Class#Definition#We define Declaration Bugs (DCL) as follows:
+An object, a function, a data type, or a namespace is declared or defined improperly. Taxonomy#Fig. 1 depicts DCL causes, attributes and consequences.
+Fig 1. Declaration Bugs (DCL) Class - click on image for detailed view.
+Operations#The DCL operations are: Declare and Define. They reflect the improper declaration or definition of an object, a function, a data type, or a namespace.</description>
+    </item>
+    
+    <item>
+      <title>NRS</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/NRS/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/NRS/</guid>
+      <description>Name Resolution Bugs (NRS) Class#Definition#We define Name Resolution Bugs (NRS) as follows:
+The name of an object, a function, or a data type is resolved improperly or bound to an improper data type or implementation. Taxonomy#Fig. 1 depicts NRS causes, attributes and consequences.
+Fig 1. Name Resolution Bugs (NRS) Class - click on image for detailed view.
+Operations#The NRS operations are: Refer and Call.</description>
+    </item>
+    
+    <item>
+      <title>TCM</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/TCM/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/TCM/</guid>
+      <description>Type Computation Bugs (TCM) Class#Definition#We define Type Computation Bugs (TCM) as follows:
+An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly. Taxonomy#Fig. 1 depicts TCM causes, attributes and consequences.
+Fig 1. Type Computation Bugs (TCM) Class - click on image for detailed view.
+Operations#The TCM operations are: Calculate and Evaluate. They reflect the improper use of data types in arithmetic calculations and condition evaluations.</description>
+    </item>
+    
+    <item>
+      <title>TCV</title>
+      <link>https://usnistgov.github.io/BF/BF-Classes/_DAT/TCV/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usnistgov.github.io/BF/BF-Classes/_DAT/TCV/</guid>
+      <description>Type Conversion Bugs (TCV) Class#Definition#We define Type Conversion Bugs (TCV) as follows:
+A data value is cast or coerced into another data type improperly. Taxonomy#Fig. 1 depicts TCV causes, attributes and consequences.
+Fig 1. Type Conversion Bugs (TCV) Class - click on image for detailed view.
+Operations#The TCV operations are: Cast and Coerce. They reflect the improper use of data types in object data value conversion to another data type.</description>
+    </item>
+    
+  </channel>
+</rss>

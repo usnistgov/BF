@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Memory Addressing Bugs (MAD) Class#Definition#We define Memory Addressing Bugs (MAD) as follows:
+The pointer to an object is initialized, repositioned, or reassigned to an improper memory address. Taxonomy#Fig. 1 depicts MAD causes, attributes and consequences.
+Fig 1. Memory Addressing Bugs (MAD) Class - click on image for detailed view.
+Operations#The MAD operations are: Initialize (Pointer), Reassign, Reposition. They reflect improper formation of an address.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="MAD" />
+<meta property="og:description" content="Memory Addressing Bugs (MAD) Class#Definition#We define Memory Addressing Bugs (MAD) as follows:
+The pointer to an object is initialized, repositioned, or reassigned to an improper memory address. Taxonomy#Fig. 1 depicts MAD causes, attributes and consequences.
+Fig 1. Memory Addressing Bugs (MAD) Class - click on image for detailed view.
+Operations#The MAD operations are: Initialize (Pointer), Reassign, Reposition. They reflect improper formation of an address." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://usnistgov.github.io/BF/BF-Classes/_MEM/MAD/" /><meta property="article:section" content="BF Classes" />
+
+
+<title>MAD | The Bugs Framework</title>
+<link rel="manifest" href="/BF/manifest.json">
+<link rel="icon" href="/BF/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/BF/book.min.cb95c677258073ab5f703ebc77482a3c28b76effd412d853ec2636d7d8672ed6.css" integrity="sha256-y5XGdyWAc6tfcD68d0gqPCi3bv/UEthT7CY219hnLtY=" crossorigin="anonymous">
+  <script defer src="/BF/flexsearch.min.js"></script>
+  <script defer src="/BF/en.search.min.375a440e9e305b0cec660f2dd1663b5503c97f74d5756d407d2e24f1b158b946.js" integrity="sha256-N1pEDp4wWwzsZg8t0WY7VQPJf3TVdW1AfS4k8bFYuUY=" crossorigin="anonymous"></script>
+
+  <script defer src="/BF/sw.min.0c6c2e2aa29aa0061899a279179fa8cb8b7ffaf644fcf81d572e83b60e271871.js" integrity="sha256-DGwuKqKaoAYYmaJ5F5&#43;oy4t/&#43;vZE/PgdVy6Dtg4nGHE=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link rel="stylesheet" href="https://usnistgov.github.io/BF/css/styles.css">
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <span>The Bugs Framework</span>
+  <a class="flex align-center" href="/BF/"><img src="/BF/images/nist.png" alt="Logo" style="width:100%;height:100%;"/></a>
+  
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-009d7bf3fdb1853acda6424e4b316768" class="toggle"  />
+    <label for="section-009d7bf3fdb1853acda6424e4b316768" class="flex justify-between">
+      <a role="button" class="">BF Home</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Overview/" class="">Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Concepts/" class="">Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Why-BF/" class="">Why BF?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Approach/" class=""> Approach</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Methodology/" class="">Methodology</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Home/Impact/" class="">Impact</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cbdcd159b294e62c80e7f0c096743f1d" class="toggle" checked />
+    <label for="section-cbdcd159b294e62c80e7f0c096743f1d" class="flex justify-between">
+      <a role="button" class="">Classes</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-975ed7d79aa7146c782c8c004505c887" class="toggle"  />
+    <label for="section-975ed7d79aa7146c782c8c004505c887" class="flex justify-between">
+      <a role="button" class="">Data Type Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/DCL/" class="">DCL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/NRS/" class="">NRS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/TCM/" class="">TCM</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_DAT/TCV/" class="">TCV</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-783a7e62afc6d9364ebff8b5086980ac" class="toggle"  />
+    <label for="section-783a7e62afc6d9364ebff8b5086980ac" class="flex justify-between">
+      <a role="button" class="">Input/Output Check Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_INP/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_INP/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_INP/DVL/" class="">DVL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_INP/DVR/" class="">DVR</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2aad238bd0fc6815056c8e91b5a75778" class="toggle"  />
+    <label for="section-2aad238bd0fc6815056c8e91b5a75778" class="flex justify-between">
+      <a role="button" class="">Cryptographic Store and Transfer Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_CRY/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_CRY/ENC/" class="">ENC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_CRY/KMN/" class="">KMN</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_CRY/VRF/" class="">VRF</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-470ae94df8838eadbeb83c5fd36d1c59" class="toggle" checked />
+    <label for="section-470ae94df8838eadbeb83c5fd36d1c59" class="flex justify-between">
+      <a role="button" class="">Memory Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/Validation/" class="">Validation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/MAD/" class="active">MAD</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/MAL/" class="">MAL</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/MUS/" class="">MUS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_MEM/MDL/" class="">MDL</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fecb405a6d1e20fcb2a52b236b3bb4d8" class="toggle"  />
+    <label for="section-fecb405a6d1e20fcb2a52b236b3bb4d8" class="flex justify-between">
+      <a role="button" class="">Random Number Generation Bugs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_RND/Model/" class="">Model</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-Classes/_RND/TRN/" class="">TRN</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-771ea1e9557e873ea93409a1f4545f71" class="toggle"  />
+    <label for="section-771ea1e9557e873ea93409a1f4545f71" class="flex justify-between">
+      <a role="button" class="">Examples</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2001-1141/" class="">CVE-2001-1141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2001-1585/" class="">CVE-2001-1585</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2002-1697/" class="">CVE-2002-1697</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2007-5460/" class="">CVE-2007-5460</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2008-0141/" class="">CVE-2008-0141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2008-4107/" class="">CVE-2008-4107</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2014-0160/" class="">CVE-2014-0160</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2015-0204/" class="">CVE-2015-0204</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2015-2141/" class="">CVE-2015-2141</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2016-1919/" class="">CVE-2016-1919</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2018-20991/" class="">CVE-2018-20991</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2019-10748/" class="">CVE-2019-10748</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2020-5902/" class="">CVE-2020-5902</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2021-21834/" class="">CVE-2021-21834</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CVE-2021-23440/" class="">CVE-2021-23440</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/BF-CVE-Descriptions/CWE-468/" class="">CWE-468</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Grammar/" class="">Grammar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-83191925277756d7e251ccecfeaa62b1" class="toggle"  />
+    <label for="section-83191925277756d7e251ccecfeaa62b1" class="flex justify-between">
+      <a role="button" class="">Background</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Background/Organizational-Structures/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Background/Overview/" class="">Background</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Background/Other-Classifications/" class="">Other Classifications</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Publications/" class="">Publications</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Team/" class="">Team</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/BF/Contact/" class="">Contact Us</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/BF/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>MAD</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="memory-addressing-bugs-mad-class">
+  Memory Addressing Bugs (MAD) Class
+  <a class="anchor" href="#memory-addressing-bugs-mad-class">#</a>
+</h1>
+<h3 id="definition">
+  Definition
+  <a class="anchor" href="#definition">#</a>
+</h3>
+<p>We define Memory Addressing Bugs (MAD) as follows:</p>
+<span class="text-primary"><i>The pointer to an object is initialized, repositioned, or reassigned to an improper memory address.</i></span>
+<h3 id="taxonomy">
+  Taxonomy
+  <a class="anchor" href="#taxonomy">#</a>
+</h3>
+<p>Fig. 1 depicts MAD causes, attributes and consequences.</p>
+
+
+    
+    <div align="center">
+    <a target="_blank" href="https://usnistgov.github.io/BF/images/BF%20classes/_MEM-MAD.png" ><img src="https://usnistgov.github.io/BF/images/BF%20classes/_MEM-MAD.png" style="max-height:470px" ></a>
+    <p><em>Fig 1. Memory Addressing Bugs (MAD) Class<span class="text-info">
+          - click on image for detailed view</span>.</em></p>
+        </div>
+    
+
+
+<h3 id="operations">
+  Operations
+  <a class="anchor" href="#operations">#</a>
+</h3>
+<p>The MAD operations are: Initialize (Pointer), Reassign, Reposition. They reflect improper formation of an address.</p>
+
+<table class="table">
+          <thead>
+            <tr>
+              <th class="w-25">Operation Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Initialize (pointer)</td>
+            <td>The first assign of an object address to a pointer; positions the pointer at the start of the object.
+            </td>
+          </tr>
+          <tr>
+            <td>Reposition</td>
+            <td>Changes the pointer to another position inside its object.</td>
+          </tr>
+          <tr>
+            <td>Reassign</td>
+            <td>
+              Changes the pointer to a different object.</td>
+          </tr>
+
+        </table>
+
+<h3 id="causes">
+  Causes
+  <a class="anchor" href="#causes">#</a>
+</h3>
+<p>The graph of causes shows that there are three main causes for memory addressing bugs: Improper Operation, Improper Pointer, and Improper Object.</p>
+
+<table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Operation</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Missing</td>
+            <td>The operation is absent.</td>
+          </tr>
+          <tr>
+            <td>Mismatched</td>
+            <td>The deallocation function does not match the allocation function used for the same object.</td>
+          </tr>
+          <tr>
+            <td>Erroneous</td>
+            <td>There is a bug in the implementation of the operation.</td>
+          </tr>
+
+        </table>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Pointer</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>NULL Pointer</td>
+            <td>Points to the zero address, a specific invalid address.</td>
+          </tr>
+          <tr>
+            <td>Wild Pointer</td>
+            <td>Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine
+              is used.</td>
+          </tr>
+          <tr>
+            <td>Dangling Pointer</td>
+            <td>Still points to the address of its successfully deallo- cated object.</td>
+          </tr>
+          <tr>
+            <td>Over Bounds</td>
+            <td>Points over the bounds of its object.</td>
+          </tr>
+          <tr>
+            <td>Under Bounds</td>
+            <td>Points under the bounds of its object.</td>
+          </tr>
+          <tr>
+            <td>Untrusted Pointer</td>
+            <td>The pointer is modified to an improperly checked address.</td>
+          </tr>
+          <tr>
+            <td>Wrong Position</td>
+            <td>Points to a miscalculated position inside object bounds.</td>
+          </tr>
+          <tr>
+            <td>Hardcoded Address</td>
+            <td>The pointer points a wrong specific address.</td>
+          </tr>
+          <tr>
+            <td>Casted Pointer</td>
+            <td>The pointer does not match the type of the object, due to wrong type casting.</td>
+          </tr>
+
+        </table>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Object</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Wrong Size Used</td>
+            <td>The value used as size does not match the real size of the object.</td>
+          </tr>
+          <tr>
+            <td>Not Enough Allocated</td>
+            <td>The allocated memory is too little for the data it should store.</td>
+          </tr>
+
+        </table>
+
+<h3 id="consequences">
+  Consequences
+  <a class="anchor" href="#consequences">#</a>
+</h3>
+<p>The graph of consequences shows <em>Improper Pointer for Next Operation</em> as a consequence which means a MAD bug is always followed by another memory bug (such as 
+  <a href="/Classes/_MEM/MAL.md">MAL</a>, 
+  <a href="/Classes/_MEM/MUS.md">MUS</a>, 
+  <a href="/Classes/_MEM/MDL.md">MDL</a>)</p>
+
+<table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th colspan="2">Improper Pointer for Next Operation</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="w-25">Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>NULL Pointer</td>
+            <td>Points to the zero address, a specific invalid address.</td>
+          </tr>
+          <tr>
+            <td>Wild Pointer</td>
+            <td>Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine
+              is used.</td>
+          </tr>
+          <tr>
+            <td>Dangling Pointer</td>
+            <td>Still points to the address of its successfully deallo- cated object.</td>
+          </tr>
+          <tr>
+            <td>Over Bounds</td>
+            <td>Points over the bounds of its object.</td>
+          </tr>
+          <tr>
+            <td>Under Bounds</td>
+            <td>Points under the bounds of its object.</td>
+          </tr>
+          <tr>
+            <td>Untrusted Pointer</td>
+            <td>The pointer is modified to an improperly checked address.</td>
+          </tr>
+          <tr>
+            <td>Wrong Position</td>
+            <td>Points to a miscalculated position inside object bounds.</td>
+          </tr>
+          <tr>
+            <td>Casted Pointer</td>
+            <td>The pointer does not match the type of the object, due to wrong type casting.</td>
+          </tr>
+          <tr>
+            <td>Forbidden Address</td>
+            <td>The pointer points to an OS protected or non-existing address.</td>
+          </tr>
+
+        </table>
+
+<h3 id="attributes">
+  Attributes
+  <a class="anchor" href="#attributes">#</a>
+</h3>
+<p>The attributes of MAD are:</p>
+
+<table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tr>
+            <td rowspan="2" style="vertical-align: middle;">Mechanism</td>
+            <td>Direct</td>
+            <td>The operation is performed over a particular object element.</td>
+          </tr>
+          <tr>
+            <td>Sequential</td>
+            <td>The operation is performed after iterating over the object elements.</td>
+          </tr>
+          <tr>
+            <td rowspan="4" style="vertical-align: middle;">Source Code</td>
+            <td>Codebase</td>
+            <td>The operation is in programmer’s code – in the application itself.</td>
+          </tr>
+          <tr>
+            <td>Third Party</td>
+            <td>The operation is in a third party library.</td>
+          </tr>
+          <tr>
+            <td>Standard Library</td>
+            <td>The operation is in the standard library for a particular programming language.</td>
+          </tr>
+          <tr>
+            <td>Language Processor</td>
+            <td>The operation is in the tool that allows execution or creates executable (compiler, assembler,
+              interpreter).</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="vertical-align: middle;">Execution Space</td>
+            <td>Userland</td>
+            <td>The bugged code runs in an environment with privilege levels, but in unprivileged mode (e.g., ring 3 in
+              x86 architecture).</td>
+          </tr>
+          <tr>
+            <td>Kernel</td>
+            <td>The bugged code runs in an environment with privilege levels with access privileged instruc- tions
+              (e.g., ring 0 in x86 architecture).</td>
+          </tr>
+          <tr>
+            <td>Bare-Metal</td>
+            <td>The bugged code runs in an environment with-out privilege control. Usually, the program is the only
+              software running and has total access to the hardware.</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="vertical-align: middle;">Location</td>
+            <td>Stack</td>
+            <td>The object is a non-static local variable (defined in a function, a passed parameters, or a function
+              return address).</td>
+          </tr>
+          <tr>
+            <td>Heap</td>
+            <td>The object is a dynamically allocated data structure (e.g., via malloc() and new).</td>
+          </tr>
+
+        </table>
+
+<h3 id="sites">
+  Sites
+  <a class="anchor" href="#sites">#</a>
+</h3>
+<p>MAD sites are any changes to an owner via assignment (<code>=</code>) or repositioning via an index (<code>[]</code>) or pointer arithmetics (e.g., <code>p++</code> and <code>p--</code>).</p>
+<h3 id="application">
+  Application
+  <a class="anchor" href="#application">#</a>
+</h3>
+<p>Application examples can be found here: 
+  <a href="/Examples/CVE-2014-0160">CVE-2014-0160</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+<footer class="sticky-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="http://www.usa.gov/">USA.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   
+</footer>
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
