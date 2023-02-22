@@ -14,7 +14,7 @@ We define Name Resolution Bugs (NRS) as follows:
 
 Fig. 1 depicts NRS causes, attributes and consequences.
 
-{{< img src="images/NRS.png" height="500" caption="Fig 1. Name Resolution Bugs (NRS) Class" >}}
+{{< img src="images/classes/_DAT-NRS.png" height="500" caption="Fig 1. Name Resolution Bugs (NRS) Class" >}}
 
 ### Operations
 

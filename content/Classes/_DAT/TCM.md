@@ -14,7 +14,7 @@ We define Type Computation Bugs (TCM) as follows:
 
 Fig. 1 depicts TCM causes, attributes and consequences.
 
-{{< img src="images/TCM.png" height="500" caption="Fig 1. Type Computation Bugs (TCM) Class" >}}
+{{< img src="images/classes/_DAT-TCM.png" height="500" caption="Fig 1. Type Computation Bugs (TCM) Class" >}}
 
 ### Operations
 

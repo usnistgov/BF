@@ -16,7 +16,7 @@ An object, a function, a data type, or a namespace is declared or defined improp
 
 Fig. 1 depicts DCL causes, attributes and consequences.
 
-{{< img src="images/DCL.png" height="500" caption="Fig 1. Declaration Bugs (DCL) Class" >}}
+{{< img src="images/classes/_DAT-DCL.png" height="500" caption="Fig 1. Declaration Bugs (DCL) Class" >}}
 
 ### Operations
 

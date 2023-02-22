@@ -14,7 +14,7 @@ We define Memory Allocation Bugs (MAL) as follows:
 
 Fig. 1 depicts MAL causes, attributes and consequences.
 
-{{< img src="images/MAL.png" height="530" caption="Fig 1. Memory Allocation Bugs (MAL) Class" >}}
+{{< img src="images/classes/_MEM-MAL.png" height="530" caption="Fig 1. Memory Allocation Bugs (MAL) Class" >}}
 
 ### Operations
 
