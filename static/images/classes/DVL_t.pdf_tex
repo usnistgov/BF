@@ -1,0 +1,84 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'DVL_t.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{551.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.76136048)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.32238639,0.74671205){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BF Input/Output Check Bugs (_INP) ClusterData Validation Bugs (DVL) ClassCauses\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{DVL_t.pdf}}%
+    \put(0.00704054,0.61473926){\color[rgb]{0.49019608,0.2,0.40784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Code Defect BugMissing CodeErroneous Code\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{DVL_t.pdf}}%
+    \put(0.00704054,0.50725627){\color[rgb]{0.49019608,0.2,0.40784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Specification Defect BugUnder-Restrictive PolicyOver-Restrictive Policy\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{DVL_t.pdf}}%
+    \put(0.00955067,0.39841273){\color[rgb]{0.49019608,0.2,0.40784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Data FaultCorrupted DataTampered DataCorrupted Policy DataTampered Policy Data\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{DVL_t.pdf}}%
+    \put(0.76985033,0.66099776){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Consequences\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{DVL_t.pdf}}%
+    \put(0.6723687,0.6160998){\color[rgb]{0.49019608,0.2,0.40784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Data ErrorInvalid Data\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{DVL_t.pdf}}%
+    \put(0.67738911,0.53038552){\color[rgb]{0.49019608,0.2,0.40784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Injection Final ErrorQuery InjectionCommand InjectionSource Code InjectionParameter InjectionFile Injection\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{DVL_t.pdf}}%
+    \put(0.44993741,0.66099776){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Operations\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{DVL_t.pdf}}%
+    \put(0.46161496,0.61473926){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ValidateSanitizeOperands\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{DVL_t.pdf}}%
+    \put(0.47590067,0.48548756){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DataAttributesExecution SpaceLocalAdminBare-MetalMechanismSafelistDenylistFormatLengthSource CodeCodebaseThird PartyStandardCompilerStateEnteredStoredIn UseTransferred\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{DVL_t.pdf}}%
+    \put(0.05999252,0.00929709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bug\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{DVL_t.pdf}}%
+    \put(0.3099619,0.00929709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fault/Error\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{DVL_t.pdf}}%
+    \put(0.55993061,0.00929709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Final Error\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{DVL_t.pdf}}%
+    \put(0.80989931,0.00929709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Operation/Operand\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
