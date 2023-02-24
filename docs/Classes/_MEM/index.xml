@@ -1,79 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Memory Bugs on The Bugs Framework</title>
-    <link>https://usnistgov.github.io/BF/Classes/_MEM/</link>
-    <description>Recent content in Memory Bugs on The Bugs Framework</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://usnistgov.github.io/BF/Classes/_MEM/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Model</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/Model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/Model/</guid>
-      <description>BF Memory Model#Each memory related bug or weakness involves one memory operation. Each operation is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has boundaries and it has size. We call this piece of memory, with a well-defined size, an object. It is used to store a primitive data or a data structure.</description>
-    </item>
-    
-    <item>
-      <title>Validation</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/Validation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/Validation/</guid>
-      <description>Validation#BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structured extension over memory-related CWEs. All Memory Error consequences from the BF classes relate to one or more CWEs.
-We have generated a digraph (Fig. 1) of all memory-related CWEs to show how they correspond to the possible BF Memory Error consequences. An edge starts at a child CWE and ends at a parent CWE.</description>
-    </item>
-    
-    <item>
-      <title>MAD</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/MAD/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MAD/</guid>
-      <description>Memory Addressing Bugs (MAD) Class#Definition#We define Memory Addressing Bugs (MAD) as follows:
-The pointer to an object is initialized, repositioned, or reassigned to an improper memory address. Taxonomy#Fig. 1 depicts MAD causes, attributes and consequences.
-Fig 1. Memory Addressing Bugs (MAD) Class - click on image for detailed view.
-Operations#The MAD operations are: Initialize (Pointer), Reassign, Reposition. They reflect improper formation of an address.</description>
-    </item>
-    
-    <item>
-      <title>MAL</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/MAL/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MAL/</guid>
-      <description>Memory Allocation Bugs (MAL) Class#Definition#We define Memory Allocation Bugs (MAL) as follows:
-An object is allocated, extended, or reallocated (while extending) improperly. Taxonomy#Fig. 1 depicts MAL causes, attributes and consequences.
-Fig 1. Memory Allocation Bugs (MAL) Class - click on image for detailed view.
-Operations#The MAL operations are: Allocate, Extend, and Reallocate–Extend. They reflect improper formation of an object.
-Operation Value Definition Allocate Reserves space in memory for an object; defines its initial boundaries and size.</description>
-    </item>
-    
-    <item>
-      <title>MUS</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/MUS/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MUS/</guid>
-      <description>Memory Use Bugs (MUS) CLass#Definition#We define Memory Use Bugs (MUS) as follows:
-An object is initialized, read. written, or cleared, improperly. Taxonomy#Fig. 1 depicts MUS causes, attributes and consequences.
-Fig 1. Memory Use Bugs (MUS) Class - click on image for detailed view.
-Operations#The MUS operations are: Initialize (Object), Dereference, Read, Write, Clear. They reflect improper use of an object.
-Operation Value Definition Initialize (object) The first write into an object, after it is allocated.</description>
-    </item>
-    
-    <item>
-      <title>MDL</title>
-      <link>https://usnistgov.github.io/BF/Classes/_MEM/MDL/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usnistgov.github.io/BF/Classes/_MEM/MDL/</guid>
-      <description>Memory Deallocation Bugs (MDL) Class#Definition#We define Memory Deallocation Bugs (MDL) as follows:
-An object is dealocated, reduced, or reallocated (while reducing) improperly. Taxonomy#Fig. 1 depicts MDL causes, attributes and consequences.
-Fig 1. Memory Deallocation Bugs (MDL) Class - click on image for detailed view.
-Operations#The MDL operations are: Deallocate, Reduce, Reallocate–Reduce. They reflect improper release of an object.
-Operation Value Definition Deallocate Releases the allocated memory of an object.</description>
-    </item>
-    
-  </channel>
-</rss>
