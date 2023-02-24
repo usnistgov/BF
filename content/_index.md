@@ -23,3 +23,6 @@ Each BF class has:
 *   A set of attributes with values – for the operations and the operands.
 
 Please watch our short intro presentation:
+
+
+{{< button href="https://forms.gle/WUnrHcuZEZ9431hv8" >}}Register Here{{< /button >}}
