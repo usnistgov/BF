@@ -14,7 +14,7 @@ We define Type Conversion Bugs (TCV) as follows:
 
 Fig. 1 depicts TCV causes, attributes and consequences.
 
-{{< img src="images/BF classes/_DAT-TCV.png" height="500" caption="Fig 1. Type Conversion Bugs (TCV) Class" >}}
+{{< img src="images/BF classes/_DAT-TCV.png" caption="Fig 1. Type Conversion Bugs (TCV) Class" >}}
 
 ### Operations
 

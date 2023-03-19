@@ -1,8 +1,8 @@
 ---
 weight: 1
-title: "Background"
+title: "Organizational Structures"
 ---
-# Background
+# Organizational Structures
 
 The medical profession has an extensive, elaborate vocabulary to precisely name muscles, bones, organs, conditions and diseases. When a doctor says that a comatose patient has a left temporal lobe epidural hematoma, the intention is to enlighten, not to obfuscate.
 
@@ -19,7 +19,7 @@ However obvious the Mendeleev's Periodic Table seems today, it required extensiv
 * Greeks used element and atom to name differences between materials and smallest parts of matter.
 * In 330 BC, Aristotle proposed that everything is a mixture of "root elements": Earth, Fire, Air, Water.
 
-{{< customimg src="images/4elements.gif" height="500" >}}
+{{< customimg src="images/4elements.gif">}}
 <p><em>Aristotle's Root Elements (Source: <a href="https://www2.chem.wisc.edu/areas/reich/group/index.htm"
                 target="_blank">Reich Chemistry</a>)</em></p>
 {{< /customimg >}}
