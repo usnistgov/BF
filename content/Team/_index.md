@@ -44,12 +44,6 @@ title: "Team"
           </td>
         </tr>
         <tr>
-          <td>{{< img src="images/MS.jpg" height="500" >}}</td>
-          <td>Markus Schordan is a Software Engeneer at Google. Throughout his career, he has been working on aspects of software verification,
-            compiler construction, high-performance computing, and reversible computation. Dr. Schordan is the Editor of
-            the Software Technology column of the IEEE IT Professional magazine.</td>
-        </tr> 
-        <tr>
           <td>{{< img src="images/SM.png" height="530" >}}</td>
           <td>Sara Moshtari is a Ph.D. student at Rochester Institute of Technology (RIT). She received her M.S. in Software Engineering
             from Shiraz University in 2013. Her research interests include software security, data-driven software
