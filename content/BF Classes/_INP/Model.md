@@ -16,7 +16,7 @@ Data check bugs could be introduced at any of the _data validation_ and _data ve
 
 The BF Data Check Bugs model (Fig. 1) helped us identify the phases and the operations where such bugs could occur. The phases correspond to the BF Data Check Bugs classes: Data Validation Bugs (DVL) and Data Verification Bugs (DVR). All data check operations are grouped by phase.
 
-{{< img src="images/Data-Check-Model.png" height="300" caption="Fig 1. The BF Data Check Bugs model. Comprises phases, corresponding to the BF classes DVL and DVR. Shows the data check operations flow." >}}
+{{< img src="images/Data-Check-Model.png" caption="Fig 1. The BF Data Check Bugs model. Comprises phases, corresponding to the BF classes DVL and DVR. Shows the data check operations flow." >}}
 
 The operations under DVL (Fig. 1) are on checking data syntax: Validate and Sanitize. The operations under DVR (Fig. 1) are on checking data semantics: Verify and Correct.
 

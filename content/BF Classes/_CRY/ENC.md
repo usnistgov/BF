@@ -30,7 +30,7 @@ High (semantic).
 
 Fig. 1 depicts ENC causes, attributes and consequences.
 
-{{< img src="images/ENCSample2.png" height="300" caption="Fig 1. Encryption/Decryption Bugs (ENC) Class" >}}
+{{< img src="images/ENCSample2.png" caption="Fig 1. Encryption/Decryption Bugs (ENC) Class" >}}
 
 ### Attributes
 

@@ -14,7 +14,7 @@ We define Data Verification Bugs (DVR) as follows:
 
 Fig. 1 depicts DVR causes, attributes and consequences.
 
-{{< img src="images/BF classes/_INP-DVR.png" height="400" caption="Fig 1. Data Verification Bugs (DVR) Class" >}}
+{{< img src="images/BF classes/_INP-DVR.png" caption="Fig 1. Data Verification Bugs (DVR) Class" >}}
 
 ### Operations
 

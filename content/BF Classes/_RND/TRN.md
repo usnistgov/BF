@@ -28,7 +28,7 @@ High (semantic).
 
 Fig. 1 depicts TRN causes, attributes and consequences.
 
-{{< img src="images/TRNSample2.png" height="400" caption="Fig 1. True-Random Number Bugs (TRN) Class" >}}
+{{< img src="images/TRNSample2.png" caption="Fig 1. True-Random Number Bugs (TRN) Class" >}}
 
 ### Attributes
 

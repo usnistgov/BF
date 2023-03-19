@@ -14,7 +14,7 @@ We define Memory Deallocation Bugs (MDL) as follows:
 
 Fig. 1 depicts MDL causes, attributes and consequences.
 
-{{< img src="images/BF classes/_MEM-MUS.png" height="530" caption="Fig 1. Memory Deallocation Bugs (MDL) Class" >}}
+{{< img src="images/BF classes/_MEM-MUS.png" caption="Fig 1. Memory Deallocation Bugs (MDL) Class" >}}
 
 ### Operations
 

@@ -14,7 +14,7 @@ We define Memory Use Bugs (MUS) as follows:
 
 Fig. 1 depicts MUS causes, attributes and consequences.
 
-{{< img src="images/BF classes/_MEM-MUS.png" height="600" caption="Fig 1. Memory Use Bugs (MUS) Class" >}}
+{{< img src="images/BF classes/_MEM-MUS.png" caption="Fig 1. Memory Use Bugs (MUS) Class" >}}
 
 ### Operations
 

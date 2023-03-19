@@ -22,4 +22,4 @@ After an object is allocated and its pointer is initialized, it can be used via 
 
 If an object is owned by more than one pointer, Reallocate (in MAL or MDL) should be followed by Reposition over all these owners. A Deallocate an object operation should properly be followed by Reassign of all its pointers to either `NULL` or another object.
 
-{{< img src="images/MEM.png" height="700" caption="Fig 1. The BF Memory Bugs Model. Comprises four phases, corresponding to the BF classes MAD, MAL, MUS, and MDL. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation." >}}
+{{< img src="images/MEM.png" caption="Fig 1. The BF Memory Bugs Model. Comprises four phases, corresponding to the BF classes MAD, MAL, MUS, and MDL. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation." >}}

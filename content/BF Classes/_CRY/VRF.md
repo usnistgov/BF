@@ -28,7 +28,7 @@ High (semantic).
 
 Fig. 1 depicts VRF causes, attributes and consequences.
 
-{{< img src="images/VRFSample2.png" height="300" caption="Fig 1. Verification Bugs (VRF) Class" >}}
+{{< img src="images/VRFSample2.png" caption="Fig 1. Verification Bugs (VRF) Class" >}}
 
 ### Attributes
 

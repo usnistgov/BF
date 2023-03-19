@@ -14,7 +14,7 @@ We define Memory Addressing Bugs (MAD) as follows:
 
 Fig. 1 depicts MAD causes, attributes and consequences.
 
-{{< img src="images/BF classes/_MEM-MAD.png" height="470" caption="Fig 1. Memory Addressing Bugs (MAD) Class" >}}
+{{< img src="images/BF classes/_MEM-MAD.png" caption="Fig 1. Memory Addressing Bugs (MAD) Class" >}}
 
 ### Operations
 
