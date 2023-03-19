@@ -7,6 +7,7 @@ title: "Publications"
 
 |     |
 | --- |
+| I. Bojanova and C. E. Galhardo, "[Heartbleed Revisited: Is it just a Buffer Over-Read?](/BF_Heartbleed____IT_Pro__PREPRINT_.pdf)," in IT Professional, vol. 25, no. 2, pp. xx-xx, PREPRINT, 1 Mar.-Apr. 2023, doi: 10.1109/MITP.2023.0000000. |
 | I. Bojanova and C. E. Galhardo, "[Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities](/Bug__Fault__Error__or_Weakness__Demystifying_Software_Security_Vulnerabilities____IT_Pro__PREPRINT_.pdf)," in IT Professional, vol. 25, no. 1, pp. xx-xx, PREPRINT, 1 Jan.-Feb. 2023, doi: 10.1109/MITP.2023.0000000. |
 | I. Bojanova, C. E. Galhardo and S. Moshtari, "Data Type Bugs Taxonomy: Integer Overflow, Juggling, and Pointer Arithmetics in Spotlight," _2022 IEEE 29th Annual Software Technology Conference (STC)_, 2022, pp. 192-205, doi: [10.1109/STC55697.2022.00035](https://doi.org/10.1109/STC55697.2022.00035), CWE-BF di-graphs with links: [https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=935220](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=935220) |
 | I. Bojanova, C. E. Galhardo and S. Moshtari, "Input/Output Check Bugs Taxonomy: Injection Errors in Spotlight," _2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)_, 2021, pp. 111-120 , doi: [10.1109/ISSREW53611.2021.00052](https://doi.org/10.1109/ISSREW53611.2021.00052), CWE-BF di-graph with links: [https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=933193](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933193) |
