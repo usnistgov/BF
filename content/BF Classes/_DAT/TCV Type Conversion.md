@@ -10,7 +10,7 @@ title: "TCV"
 ### TCV Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/TCV.png" caption="Fig 1. Type Conversion (TCV) Class" >}}
+{{< img src="images/BF Classes/_DAT/TCV.png" caption="Fig 1. Type Conversion (TCV) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

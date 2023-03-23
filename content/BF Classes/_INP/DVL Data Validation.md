@@ -10,7 +10,7 @@ title: "DVL"
 ### DVL Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVL.png" caption="Fig 1. Data Validation (DVL) Class" >}}
+{{< img src="images/BF Classes/_INP/DVL.png" caption="Fig 1. Data Validation (DVL) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

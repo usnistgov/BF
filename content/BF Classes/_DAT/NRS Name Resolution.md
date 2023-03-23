@@ -10,7 +10,7 @@ title: "NRS"
 ### NRS Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/NRS.png" caption="Fig 1. Name Resolution (NRS) Class" >}}
+{{< img src="images/BF Classes/_DAT/NRS.png" caption="Fig 1. Name Resolution (NRS) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

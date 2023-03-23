@@ -10,7 +10,7 @@ title: "MDL"
 ### MDL Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MDL.png" caption="Fig 1. Memory Deallocation (MDL) Class" >}}
+{{< img src="images/BF Classes/_MEM/MDL.png" caption="Fig 1. Memory Deallocation (MDL) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

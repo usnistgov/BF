@@ -10,7 +10,7 @@ title: "MAL"
 ### MAL Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MAL.png" caption="Fig 1. Memory Allocation (MAL) Class" >}}
+{{< img src="images/BF Classes/_MEM/MAL.png" caption="Fig 1. Memory Allocation (MAL) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

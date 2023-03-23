@@ -10,7 +10,7 @@ title: "ENC"
 ### ENC Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/ENC.png" caption="Fig 1. Encryption (ENC) Class" >}}
+{{< img src="images/BF Classes/_CRY/ENC.png" caption="Fig 1. Encryption (ENC) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

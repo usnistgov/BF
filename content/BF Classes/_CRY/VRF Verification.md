@@ -10,7 +10,7 @@ title: "VRF"
 ### VRF Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/VRF.png" caption="Fig 1. Verification (VRF) Class" >}}
+{{< img src="images/BF Classes/_CRY/VRF.png" caption="Fig 1. Verification (VRF) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

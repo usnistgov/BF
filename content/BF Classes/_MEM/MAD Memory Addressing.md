@@ -10,7 +10,7 @@ title: "MAD"
 ### MAD Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MAD.png" caption="Fig 1. Memory Addressing (MAD) Class" >}}
+{{< img src="images/BF Classes/_MEM/MAD.png" caption="Fig 1. Memory Addressing (MAD) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

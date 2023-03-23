@@ -10,7 +10,7 @@ title: "DVR"
 ### DVR Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVR.png" caption="Fig 1. Data Verification (DVR) Class" >}}
+{{< img src="images/BF Classes/_INP/DVR.png" caption="Fig 1. Data Verification (DVR) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

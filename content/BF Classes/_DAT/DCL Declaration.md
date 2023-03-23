@@ -10,7 +10,7 @@ title: "DCL"
 ### DCL Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/DCL.png" caption="Fig 1. Declaration (DCL) Class" >}}
+{{< img src="images/BF Classes/_DAT/DCL.png" caption="Fig 1. Declaration (DCL) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

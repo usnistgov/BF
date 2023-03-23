@@ -10,7 +10,7 @@ title: "KMN"
 ### KMN Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/KMN.png" caption="Fig 1. Key Management (KMN) Class" >}}
+{{< img src="images/BF Classes/_CRY/KMN.png" caption="Fig 1. Key Management (KMN) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

@@ -10,7 +10,7 @@ title: "TCM"
 ### TCM Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/TCM.png" caption="Fig 1. Type Computation (TCM) Class" >}}
+{{< img src="images/BF Classes/_DAT/TCM.png" caption="Fig 1. Type Computation (TCM) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}

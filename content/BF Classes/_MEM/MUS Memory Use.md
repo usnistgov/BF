@@ -10,7 +10,7 @@ title: "MUS"
 ### MUS Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.png" caption="Fig 1. Memory Use (MUS) Class" >}}
+{{< img src="images/BF Classes/_MEM/MUS.png" caption="Fig 1. Memory Use (MUS) Class." >}}
 
 ### Taxons Definitions
 {{< rawhtml >}}
