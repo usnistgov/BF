@@ -13,7 +13,7 @@
   {{ errorf "Invalid image processing command: Must be one of Crop, Fit, Fill or Resize."}}
 {{ end }}
 <figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
-  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  <img class="img-fluid lazyload blur-up" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
   <figcaption>
   <small>
     {{ with .Inner }}

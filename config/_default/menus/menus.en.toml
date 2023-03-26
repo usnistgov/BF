@@ -1,0 +1,122 @@
+[[docs]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/docs/home/"
+
+[[docs]]
+  name = "Help"
+  weight = 60
+  identifier = "help"
+  url = "/docs/help/"
+
+# [[docs]]
+#   name = "Lorem"
+#   weight = 70
+#   identifier = "lorem"
+#   url = "/docs/lorem/"
+
+[[guide]]
+  name = "Lorem"
+  weight = 10
+  identifier = "lorem"
+  url = "/guide/lorem/"
+
+[[tutorial]]
+  name = "Lorem"
+  weight = 10
+  identifier = "lorem"
+  url = "/tutorial/lorem/"
+
+
+# [[main]]
+#   name = "Tutorial"
+#   url = "/tutorial/lorem/ipsum/"
+#   weight = 15
+
+
+
+[[main]]
+  name = "Home"
+  weight = 30
+  identifier = "Home"
+  #url = "/docs/Classes/"
+
+[[main]]
+  name = "Overview"
+  weight = 40
+  identifier = "Overview"
+  url = "/"
+  parent = "Home"
+
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
+  url = "https://github.com/usnistgov/BF"
+  post = "v0.1.0"
+  weight = 10
+
+ [[footer]]
+   name = "Site Privacy"
+   url = "https://www.nist.gov/privacy-policy"
+   weight = 1
+
+[[footer]]
+   name = "Accessibility"
+   url = "https://www.nist.gov/oism/accessibility"
+   weight = 2
+
+[[footer]]
+   name = "Privacy Program"
+   url = "https://www.nist.gov/privacy"
+   weight = 3
+
+[[footer]]
+   name = "Copyrights"
+   url = "https://www.nist.gov/oism/copyrights"
+   weight = 3
+
+[[footer]]
+   name = "Vulnerability Disclosure"
+   url = "https://www.commerce.gov/vulnerability-disclosure-policy"
+   weight = 3
+
+[[footer]]
+   name = "No Fear Act Policy"
+   url = "https://www.nist.gov/no-fear-act-policy"
+   weight = 3
+
+[[footer]]
+   name = "FOIA"
+   url = "https://www.nist.gov/foia"
+   weight = 3
+
+[[footer]]
+   name = "Environmental Policy"
+   url = "https://www.nist.gov/environmental-policy-statement"
+   weight = 3
+
+[[footer]]
+   name = "Scientific Integrity"
+   url = "https://www.nist.gov/summary-report-scientific-integrity"
+   weight = 3
+
+[[footer]]
+   name = "Information Quality Standards"
+   url = "https://www.nist.gov/nist-information-quality-standards"
+   weight = 3
+
+[[footer]]
+   name = "Commerce.gov"
+   url = "https://www.commerce.gov/"
+   weight = 3
+
+[[footer]]
+   name = "Science.gov"
+   url = "http://www.science.gov/"
+   weight = 3
+
+[[footer]]
+   name = "USA.gov"
+   url = "http://www.usa.gov/"
+   weight = 3

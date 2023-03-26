@@ -7,6 +7,6 @@
 {{ with .Get "relref" }}
   {{ $ref = relref $ . }}
 {{ end }}
-<p><a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" rel="noopener" {{ end }} class="book-btn{{ with .Get "class" }} {{ . }}{{ end }}">
+<p><a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" rel="noopener" {{ end }} class="btn btn-primary{{ with .Get "class" }} {{ . }}{{ end }}">
   {{ .Inner | .Page.RenderString }}
 </a></p>

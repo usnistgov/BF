@@ -2,15 +2,16 @@
 
     {{if .Get "caption"}}
     <div align="center">
-    <a target="_blank" href="{{ .Site.BaseURL }}{{ .Get "src" }}" ><img src="{{ .Site.BaseURL }}{{ .Get "src" }}" style="max-height:{{ .Get "height"}}px" ></a>
-    <p><em>{{ .Get "caption" }}<span class="text-info"><!-- - click on image for detailed view --></span></em></p>
+    <a target="_blank" href="{{ .Site.BaseURL }}{{ .Get "src" }}" ><img class="img-fluid lazyload blur-up" src="{{ .Site.BaseURL }}{{ .Get "src" }}" style="max-height:{{ .Get "height"}}px" ></a>
+    <p><em>{{ .Get "caption" }}<span class="text-info">
+          - click on image for detailed view</span>.</em></p>
         </div>
     {{ else }}
     <div align="center">
-    <a target="_blank" href="{{ .Site.BaseURL }}{{ .Get "src" }}" ><img src="{{ .Site.BaseURL }}{{ .Get "src" }}" style="max-height:{{ .Get "height"}}px" ></a>
+    <a target="_blank" href="{{ .Site.BaseURL }}{{ .Get "src" }}" ><img class="img-fluid lazyload blur-up" src="{{ .Site.BaseURL }}{{ .Get "src" }}" style="max-height:{{ .Get "height"}}px" ></a>
 </div>
     {{ end }}
 
 {{ else }}
-<img src="{{ .Get 0 }}" max-height="{{ .Get 1}}" alt="">
+<img class="img-fluid lazyload blur-up" src="{{ .Get 0 }}" max-height="{{ .Get 1}}" alt="">
 {{ end }}
