@@ -5,7 +5,7 @@ title: "Overview"
 url: /
 ---
 # Welcome to the NIST Bugs Framework (BF) Project!
-_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Irena Bojanova, PI & Lead)_
+_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Irena Bojanova, Primary Investigator & Technical Lead)_
 
 
 We are classifying software bugs and weaknesses to allow precise descriptions of vulnerabilities that exploit them.

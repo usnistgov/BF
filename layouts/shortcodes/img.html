@@ -3,8 +3,7 @@
     {{if .Get "caption"}}
     <div align="center">
     <a target="_blank" href="{{ .Site.BaseURL }}{{ .Get "src" }}" ><img class="img-fluid lazyload blur-up" src="{{ .Site.BaseURL }}{{ .Get "src" }}" style="max-height:{{ .Get "height"}}px" ></a>
-    <p><em>{{ .Get "caption" }}<span class="text-info">
-          - click on image for detailed view</span>.</em></p>
+    <p><em>{{ .Get "caption" }}.</em></p>
         </div>
     {{ else }}
     <div align="center">
