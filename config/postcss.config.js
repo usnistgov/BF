@@ -27,6 +27,10 @@ module.exports = {
         'lazyload',
         'blur-up',
         'figcaption',
+        'carousel',
+        'slide',
+        'carousel-inner',
+        'carousel-item',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           './assets/scss/components/_buttons.scss',
@@ -37,6 +41,7 @@ module.exports = {
           './assets/scss/common/_dark.scss',
           './node_modules/bootstrap/scss/_dropdown.scss',
           './node_modules/katex/dist/katex.css',
+          './node_modules/bootstrap/scss/_carousel.scss',
         ]),
       ],
     }),
