@@ -23,7 +23,7 @@ title: "Team"
               His research interests include information science, cybersecurity, and mathematical modeling in interdisciplinary applications.
           </td>
         <tr>
-          <td>{{< img src="images/FN.jpg" height="530" >}}</td>
+          <td>{{< img src="images/FN.jpeg" height="530" >}}</td>
           <td> 
               Farhan Nadeem is a computer scientist at NIST. He earned his BS in Computer Engineering from the University of Maryland. Currenlty he is majoring in Computer Science from Georgia Intitute of Technology.
           </td>
