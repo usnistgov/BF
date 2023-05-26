@@ -40,15 +40,145 @@
   name = "Home"
   weight = 30
   identifier = "Home"
-  #url = "/docs/Classes/"
 
 [[main]]
   name = "Overview"
-  weight = 40
+  weight = 1
   identifier = "Overview"
   url = "/"
   parent = "Home"
+[[main]]
+  name = "Concepts"
+  weight = 2
+  identifier = "Concepts"
+  url = "/info/BF Home/concepts"
+  parent = "Home"
+[[main]]
+  name = "Why BF?"
+  weight = 3
+  identifier = "Why BF?"
+  url = "/info/BF Home/Why BF"
+  parent = "Home"
+[[main]]
+  name = "Approach"
+  weight = 4
+  identifier = "Approach"
+  url = "/info/BF Home/Approach"
+  parent = "Home"
+[[main]]
+  name = "Methodology"
+  weight = 5
+  identifier = "Methodology"
+  url = "/info/BF Home/Methodology"
+  parent = "Home"
+[[main]]
+  name = "Impact"
+  weight = 6
+  identifier = "Impact"
+  url = "/info/BF Home/Impact"
+  parent = "Home"
 
+[[main]]
+  name = "APIs"
+  weight = 40
+  identifier = "APIs"
+[[main]]
+  name = "Overview"
+  weight = 1
+  identifier = "Overview"
+  url = "/info/BF APIs/Overview"
+  parent = "APIs"
+[[main]]
+  name = "BF API"
+  weight = 2
+  identifier = "BF API"
+  url = "/info/BF APIs/BF API"
+  parent = "APIs"
+[[main]]
+  name = "BF CVE APIs"
+  weight = 3
+  identifier = "BF CVE APIs"
+  url = "/info/BF APIs/BFCVE API"
+  parent = "APIs"
+[[main]]
+  name = "Tools"
+  weight = 50
+  identifier = "Tools"
+[[main]]
+  name = "BF-NVD-KEV-EPSS Tool"
+  weight = 1
+  identifier = "BF-NVD-KEV-EPSS Tool"
+  url = "/info/BF Tools/BF-NVD-KEV-EPSS Tool"
+  parent = "Tools"
+[[main]]
+  name = "Overview"
+  weight = 2
+  identifier = "Overview"
+  url = "/info/BF Tools/Overview"
+  parent = "Tools"
+[[main]]
+  name = "BF-CVE Tool"
+  weight = 3
+  identifier = "BF-CVE Tool"
+  url = "/info/BF Tools/BF-CVE Tool"
+  parent = "Tools"
+[[main]]
+  name = "BF-CWE Tool"
+  weight = 4
+  identifier = "BF-CWE Tool"
+  url = "/info/BF Tools/BF-CWE Tool"
+  parent = "Tools"
+[[main]]
+  name = "BF Tool"
+  weight = 5
+  identifier = "BF Tool"
+  url = "/info/BF Tools/BF Tool"
+  parent = "Tools"
+
+[[main]]
+  name = "Background"
+  weight = 60
+  identifier = "BackgroundMenu"
+[[main]]
+  name = "Background"
+  weight = 1
+  identifier = "Background"
+  url = "/info/Background/Overview"
+  parent = "BackgroundMenu"
+[[main]]
+  name = "Organizational Structures"
+  weight = 2
+  identifier = "Organizational Structures"
+  url = "/info/Background/Organizational Structures"
+  parent = "BackgroundMenu"
+[[main]]
+  name = "Other Classifications"
+  weight = 2
+  identifier = "Other Classifications"
+  url = "/info/Background/Other Classifications"
+  parent = "BackgroundMenu"
+
+[[main]]
+  name = "Publications"
+  weight = 70
+  url = "/info/Publications/Publications"
+
+[[main]]
+  name = "About"
+  weight = 80
+  identifier = "About"
+[[main]]
+  name = "Team"
+  weight = 1
+  identifier = "Team"
+  url = "/info/About/Team"
+  parent = "About"
+[[main]]
+  name = "Contact Us"
+  weight = 1
+  identifier = "Contact Us"
+  url = "/info/About/Contact Us"
+  parent = "About"
 [[social]]
   name = "GitHub"
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
