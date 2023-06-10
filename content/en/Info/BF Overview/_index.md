@@ -1,6 +1,6 @@
 ---
-weight: 6
+weight: 1
 bookHidden: true
 bookCollapseSection: true
-title: "Publications"
+title: "BF Overview"
 ---

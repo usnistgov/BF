@@ -1,5 +1,6 @@
 ---
 weight: 3
 bookCollapseSection: true
-title: "BF CVE Examples"
+title: "BFCVE Examples"
 ---
+BF Descriptions of CVEs
