@@ -10,12 +10,20 @@ title: "NRS"
 ### NRS Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/NRS.png" caption="Fig 1. Name Resolution (NRS) Class" >}}
+{{< img src="images/BF Classes/_DAT/NRS.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -37,7 +45,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type </td>
-	<td>The data type of an object -- the set or a range of values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
+	<td>The data type of an object -- the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -53,7 +61,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material, domain parameter) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
 	</tr>
 	<tr>
 			<td>   Missing Qualifier </td>
@@ -81,19 +89,19 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
-	<td>Specific constructor, method, or overloaded function is missing.</td>
+	<td>A specific constructor, method, or overloaded function is missing.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Generic Type </td>
-	<td>Generic object instantiated via wrong type argument.</td>
+	<td>A generic object is instantiated via wrong type argument.</td>
 	</tr>
 	<tr>
 			<td>   Confused Subtype </td>
-	<td>Object invoking an overridden function is of wrong subtype data type.</td>
+	<td>The object invoking an overridden function is of wrong subtype data type.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Argument Type </td>
-	<td>Argument to an overloaded function is of wrong data type.</td>
+	<td>An argument to an overloaded function is of incorrect data type.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -129,19 +137,19 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Wrong Type Resolved </td>
-	<td>zzzxxx Data type is resolved from wrong scope.</td>
+	<td>A data type is resolved from a wrong scope.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Resolve </td>
-	<td>Look up a name and if needed determine its data type (infer from value, through hierarchy, via generic type attribute).</td>
+	<td>Looking up a name and if needed determining its data type (infer from value, through hierarchy, via generic type attribute).</td>
 	</tr>
 	<tr>
 			<td>   Bind </td>
@@ -149,18 +157,18 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Early Bind </td>
-	<td>Resolve subtype and set generic function implementation.</td>
+	<td>Resolving subtype and set generic function implementation.</td>
 	</tr>
 	<tr>
 			<td>   Late Bind </td>
-	<td>Resolve overridden function via subtype object and set implementation.</td>
+	<td>Resolving overridden function via subtype object and set implementation.</td>
 	</tr>
 	<tr>
 			<td>   Ad-hoc Bind </td>
 	<td>Resolve overloaded function via signature and set implementation.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -180,8 +188,8 @@ title: "NRS"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -201,7 +209,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Shows what kind the named entity is.</td>
+	<td>Shows what the named entity is.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>
@@ -221,7 +229,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>         Type Kind </td>
-	<td>Shows what kind the data type composition is.</td>
+	<td>Shows what the data type composition is.</td>
 	</tr>
 	<tr>
 			<td>            Primitive </td>
@@ -233,18 +241,6 @@ title: "NRS"
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

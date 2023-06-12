@@ -1,43 +1,39 @@
 ﻿---
 weight: 3
-title: "KMN"
+title: "VRF"
 ---
-# BF Key Management (KMN) Class
+# BF Verification (VRF) Class
 
-### KMN Definition
-{{< definition >}}Cryptographic keys and Keying Material are generated, stored, distributed, used, or destroyed improperly.{{< /definition >}}
+### VRF Definition
+{{< definition >}}Data crypto authenticated or crypto verified improperly.{{< /definition >}}
 
-### KMN Taxonomy
+### VRF Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/KMN.png" caption="Fig 1. Key Management (KMN) Class" >}}
+{{< img src="images/BF Classes/_CRY/VRF.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Generate/Select </td>
-	<td>yyyddd.</td>
+			<td>Crypto Authenticate </td>
+	<td>Sing plainttext data digitally with a source private key, or using MAC with a key.</td>
 	</tr>
 	<tr>
-			<td>Store </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>Distribute </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>Use </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>Destroy </td>
-	<td>yyyddd.</td>
+			<td>Crypto Verify </td>
+	<td>Check signed data are not altered or prove source using source public key or MAC with a key.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -57,7 +53,11 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
+	</tr>
+	<tr>
+			<td>   Added Code </td>
+	<td>The operation implementation adds a step to its specification.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -65,34 +65,30 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material, domain parameter) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
 	</tr>
 	<tr>
-			<td>   Modified Algorithm </td>
-	<td>A cryptographic step is removed, changed, or added.</td>
+			<td>   Wrong Algorithm </td>
+	<td>An inadequate, weak (incl. due to Insecure Mode of Operation), risky, or broken cryptographic algorithm or step.</td>
 	</tr>
 	<tr>
-			<td>   Inadequate Algorithm </td>
+			<td>   Weak Protocol </td>
 	<td>xxx.</td>
-	</tr>
-	<tr>
-			<td>   Weak Algorithm </td>
-	<td>xxx (incl. due to Insecure Mode of Operation) encryption algorithm or step</td>
-	</tr>
-	<tr>
-			<td>   Risky/Broken Algorithm </td>
-	<td>xxx</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
 	<td>Has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
-			<td>   Weak Key </td>
-	<td>The key is known, too small, xxx.</td>
+			<td>   Weak Ciphertext </td>
+	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Weak Keying Material </td>
+			<td>   Weak Key </td>
+	<td>The key is of an insufficiant length.</td>
+	</tr>
+	<tr>
+			<td>   Weak Random Bits </td>
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
@@ -104,11 +100,11 @@ title: "KMN"
 	<td>Has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
-			<td>   Weak Key </td>
-	<td>The key is known, too small, xxx.</td>
+			<td>   Unverified Data </td>
+	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Weak Keying Material </td>
+			<td>   Unverified Key </td>
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
@@ -117,18 +113,22 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>   Revealed Key </td>
-	<td>yyyddd</td>
+	<td>An initialization vectors (IVs) is exposed.</td>
 	</tr>
 	<tr>
-			<td>   Revealed Keying Material </td>
-	<td>Cryptographic keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g. pre-master secrets), domain parameters, RBG seeds/random bits (numbers, inlc. salts, nonces), passwords. </td>
+			<td>   Forged Signature </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>   Spoofed Identity </td>
+	<td>yyyddd</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
@@ -144,7 +144,7 @@ title: "KMN"
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -164,8 +164,8 @@ title: "KMN"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -185,54 +185,38 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Shows what kind the data value is.</td>
+	<td>Shows what the data value is.</td>
 	</tr>
 	<tr>
-			<td>            Hashes </td>
-	<td>xxx Hash functions are used for integrity authentication. They are cryptographic data.</td>
+			<td>            Secret </td>
+	<td>Known only by its more than one owners.</td>
 	</tr>
 	<tr>
-			<td>            Keying Material </td>
-	<td>Cryptographic keys, initialization vectors, shared secrets, domain parameters, random bits (seeds, salts, nonces). They are cryptographic data.</td>
+			<td>            Private </td>
+	<td>Known only by its only owner.</td>
 	</tr>
 	<tr>
-			<td>            Digital Certificate </td>
-	<td>yyyddd They are sensitive data.</td>
+			<td>            Public </td>
+	<td>Published for all the world to see.</td>
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Shows where the data is or where the data is coming from.</td>
-	</tr>
-	<tr>
-			<td>            Entered </td>
-	<td>Data comes from user interface (e.g., text field).</td>
+	<td>Shows where the data come from.</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Data comes from permanent storage (e.g., file, database on a storage device).</td>
+	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>Data comes from volatile storage (e.g., RAM, cache memory).</td>
+	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Data comes via network (e.g., connecting analog device or another computer).</td>
+	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

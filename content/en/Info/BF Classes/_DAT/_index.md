@@ -1,6 +1,5 @@
 ---
-weight: 3
+weight: 4
 bookCollapseSection: true
-title: "Data Type"
+title: "Type"
 ---
-Data Type (_DAT) Bugs

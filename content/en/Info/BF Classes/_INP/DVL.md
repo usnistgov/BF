@@ -10,12 +10,20 @@ title: "DVL"
 ### DVL Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVL.png" caption="Fig 1. Data Validation (DVL) Class" >}}
+{{< img src="images/BF Classes/_INP/DVL.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -45,7 +53,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -53,7 +61,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material, domain parameter) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -97,7 +105,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>Undefined or exploitable system behavior caused by 'code separation' data validation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by 'code separation' data validation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
@@ -124,27 +132,27 @@ title: "DVL"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Safelist </td>
-	<td>Policy based on a set of known good content.</td>
+	<td>A policy based on a set of known good content.</td>
 	</tr>
 	<tr>
 			<td>   Denylist </td>
-	<td>Policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
+	<td>A policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
 	</tr>
 	<tr>
 			<td>   Format </td>
-	<td>Policy based on syntax format (e.g., defined via regular expression).</td>
+	<td>A policy based on syntax format (e.g., defined via regular expression).</td>
 	</tr>
 	<tr>
 			<td>   Length </td>
-	<td>Policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
+	<td>A policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -164,8 +172,8 @@ title: "DVL"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -185,38 +193,26 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Shows where the data is or where the data is coming from.</td>
+	<td>Shows where the data come from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Data comes from user interface (e.g., text field).</td>
+	<td>The data are from a user via a user interface (e.g., text field).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Data comes from permanent storage (e.g., file, database on a storage device).</td>
+	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>Data comes from volatile storage (e.g., RAM, cache memory).</td>
+	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Data comes via network (e.g., connecting analog device or another computer).</td>
+	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

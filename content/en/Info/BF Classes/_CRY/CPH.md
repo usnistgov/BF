@@ -1,31 +1,39 @@
 ﻿---
 weight: 3
-title: "ENC"
+title: "CPH"
 ---
-# BF Encryption (ENC) Class
+# BF Cipher (CPH) Class
 
-### ENC Definition
+### CPH Definition
 {{< definition >}}Sensitive data are improperly encrypted or ciphertext is improperly decrypted.{{< /definition >}}
 
-### ENC Taxonomy
+### CPH Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/ENC.png" caption="Fig 1. Encryption (ENC) Class" >}}
+{{< img src="images/BF Classes/_CRY/CPH.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
 			<td>Encrypt </td>
-	<td>Transform sensitive data (plaintext) into unintelligible form (ciphertext) using a cryptographic algorithm and key(s). The goal is to ensyre confidentiality.</td>
+	<td>Transform (encipher) intelligible data (plaintext) into unintelligible form (ciphertext) using a cryptographic algorithm and key(s). The goal is to ensure confidentiality.</td>
 	</tr>
 	<tr>
 			<td>Decrypt </td>
-	<td>Transform encripted data (ciphertext) into plaintext using a cryptographic algorithm and key(s).</td>
+	<td>Transform(decipher) encripted data (ciphertext) into plaintext using a cryptographic algorithm and key(s).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -45,7 +53,11 @@ title: "ENC"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
+	</tr>
+	<tr>
+			<td>   Added Code </td>
+	<td>The operation implementation adds a step to its specification.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -53,23 +65,15 @@ title: "ENC"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material, domain parameter) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
 	</tr>
 	<tr>
-			<td>   Inadequate Algorithm </td>
-	<td>xxx.</td>
+			<td>   Hardcoded Key </td>
+	<td></td>
 	</tr>
 	<tr>
-			<td>   Weak Algorithm </td>
-	<td>xxx (incl. due to Insecure Mode of Operation) encryption algorithm or step</td>
-	</tr>
-	<tr>
-			<td>   Risky/Broken Algorithm </td>
-	<td>xxx</td>
-	</tr>
-	<tr>
-			<td>   Modified Algorithm </td>
-	<td>A cryptographic step is removed, changed, or added.</td>
+			<td>   Wrong Algorithm </td>
+	<td>An inadequate, weak (incl. due to Insecure Mode of Operation), risky, or broken cryptographic algorithm or step.</td>
 	</tr>
 	<tr>
 			<td>   Weak Protocol </td>
@@ -80,7 +84,7 @@ title: "ENC"
 	<td>Has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
-			<td>   Weak Cyphertext </td>
+			<td>   Weak Ciphertext </td>
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
@@ -88,19 +92,11 @@ title: "ENC"
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Hardcoded Key </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
 			<td>   Weak Key </td>
-	<td>The key is known, too small, xxx.</td>
+	<td>The key is of an insufficiant length.</td>
 	</tr>
 	<tr>
-			<td>   Weak Keying Material </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>   Random Bits </td>
+			<td>   Weak Random Bits </td>
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
@@ -108,8 +104,12 @@ title: "ENC"
 	<td>The initialization vector (IV) -- the starting nonce of an encryption cryptographic algorithm -- is not unique.</td>
 	</tr>
 	<tr>
-			<td>   Shared Secrets </td>
+			<td>   Weak Shared Secrets </td>
 	<td>yyyddd.</td>
+	</tr>
+	<tr>
+			<td>   Revealed Key </td>
+	<td></td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -128,8 +128,12 @@ title: "ENC"
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Weak Cyphertext </td>
+			<td>   Weak Ciphertext </td>
 	<td>yyyddd.</td>
+	</tr>
+	<tr>
+			<td>   Revealed Key </td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>Data Security Final Error</td>
@@ -137,30 +141,26 @@ title: "ENC"
 	</tr>
 	<tr>
 			<td>   Revealed Plaintext </td>
-	<td>yyyddd</td>
-	</tr>
-	<tr>
-			<td>   Revealed Key </td>
-	<td>yyyddd</td>
+	<td>Intelligible data that has meaning and can be understood without the application of decryption is exposed.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Symmetric Algorithm </td>
-	<td>yyyddd.</td>
+	<td>A key encryption scheme that uses one shared key. Known also as 'secret key algorithm' (e.g. Serpent, Blowfish).</td>
 	</tr>
 	<tr>
 			<td>   Asymmetric Algorithm </td>
-	<td>yyyddd.</td>
+	<td>A key encryption scheme that uses two keys: public and private. Known also as 'public key algorithm' (e.g. Diffie-Hellman, RSA).</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -180,8 +180,8 @@ title: "ENC"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -201,50 +201,46 @@ title: "ENC"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Shows what kind the data value is.</td>
+	<td>Shows what the data value is.</td>
 	</tr>
 	<tr>
-			<td>            Secret </td>
-	<td>xxx A secret key used to both encrypt and decrypt -- known only by its owners.</td>
+			<td>            Credentials </td>
+	<td>Passwords, tokens, smart cards, digital certificates, biometrics (fingerprint, hand configuration, retina, iris, voice.) They are sensitive data.</td>
 	</tr>
 	<tr>
-			<td>            Private </td>
-	<td>xxx A private key used to encrypt -- known only by its owner.</td>
+			<td>            System Data </td>
+	<td>OS's configurations, logs, Web usage. They are sensitive data.</td>
 	</tr>
 	<tr>
-			<td>            Public </td>
-	<td>xxx A public key used to decrypt -- published for all the world to see.</td>
+			<td>            State Data </td>
+	<td>A snapshot of software behavior. They are sensitive data.</td>
+	</tr>
+	<tr>
+			<td>            Cryptographic </td>
+	<td>Hashes, keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g. pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). They are sensitive data.</td>
+	</tr>
+	<tr>
+			<td>            Digital Document </td>
+	<td>yyyddd They are sensitive data.</td>
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Shows where the data is or where the data is coming from.</td>
+	<td>Shows where the data come from.</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Data comes from permanent storage (e.g., file, database on a storage device).</td>
+	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Data comes via network (e.g., connecting analog device or another computer).</td>
+	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>Data comes from volatile storage (e.g., RAM, cache memory).</td>
+	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

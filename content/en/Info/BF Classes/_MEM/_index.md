@@ -1,6 +1,5 @@
 ---
-weight: 1
+weight: 3
 bookCollapseSection: true
 title: "Memory"
 ---
-Memory Corruption/Disclosure (_MEM) Bugs

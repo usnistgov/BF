@@ -1,6 +1,5 @@
 ---
 weight: 2
 bookCollapseSection: true
-title: "Input/Output"
+title: "Inp/Out"
 ---
-Input/Output Check (_INP) Bugs

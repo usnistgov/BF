@@ -1,21 +1,29 @@
 ﻿---
 weight: 3
-title: "MAL"
+title: "MMN"
 ---
-# BF Memory Allocation (MAL) Class
+# BF Memory Management (MMN) Class
 
-### MAL Definition
-{{< definition >}}An object is allocated, extended, or reallocated (while extending) improperly.{{< /definition >}}
+### MMN Definition
+{{< definition >}}An object is allocated, deallocated, or resized improperly.{{< /definition >}}
 
-### MAL Taxonomy
+### MMN Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MAL.png" caption="Fig 1. Memory Allocation (MAL) Class" >}}
+{{< img src="images/BF Classes/_MEM/MMN.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -24,12 +32,12 @@ title: "MAL"
 	<td>Reserve space in memory for an object; defines its initial boundaries and size.</td>
 	</tr>
 	<tr>
-			<td>Extend </td>
-	<td>Reserve additional memory for an object in the same space; changes its boundaries and size.</td>
+			<td>Resize </td>
+	<td>Extend or reduce the memory for an object with or without reallocation.</td>
 	</tr>
 	<tr>
-			<td>Reallocate-Extend </td>
-	<td>Reserve a new larger piece of memory for an object at a new address, copy the object content there, reassign its pointer, and deallocate the previous piece of memory.</td>
+			<td>Deallocate </td>
+	<td>Release the allocated memory of an object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -53,7 +61,7 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
 	</tr>
 	<tr>
 			<td>   Mismatched Operation </td>
@@ -77,7 +85,7 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>   Single Owned Address </td>
-	<td>yyyddd.</td>
+	<td>Exactly one pointer owns of the object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
@@ -100,6 +108,14 @@ title: "MAL"
 	<td>Points to a miscalculated position inside its object bounds.</td>
 	</tr>
 	<tr>
+			<td>Size Fault</td>
+	<td>The used object size is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Not Enough Memory Allocated </td>
+	<td>The allocated memory is too little for the data it should store.</td>
+	</tr>
+	<tr>
 			<td><strong>Consequences</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -116,6 +132,10 @@ title: "MAL"
 	<td>Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
 	</tr>
 	<tr>
+			<td>   Dangling Pointer </td>
+	<td>Still points to the address of its successfully deallocated object.</td>
+	</tr>
+	<tr>
 			<td>Size Error</td>
 	<td>The used object size is wrong.</td>
 	</tr>
@@ -125,7 +145,7 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Overflow </td>
@@ -133,7 +153,7 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>   Memory Leak </td>
-	<td>These is an object with no pointer pointing to it.</td>
+	<td>An object has no pointer pointing to it.</td>
 	</tr>
 	<tr>
 			<td>   Double Free </td>
@@ -141,26 +161,26 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
-	<td>The object's data value is unintentionally altered.</td>
+	<td>An object's data value is unintentionally altered.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Implicit </td>
-	<td>The operation is performed without a function call.</td>
+	<td>The operation is performed without a function/method call.</td>
 	</tr>
 	<tr>
 			<td>   Explicit </td>
-	<td>The operation is performed by a function/ method) call.</td>
+	<td>The operation is performed by a function/method call.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -180,8 +200,8 @@ title: "MAL"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -213,22 +233,10 @@ title: "MAL"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>yyyddd.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

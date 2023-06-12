@@ -1,35 +1,43 @@
 ﻿---
 weight: 3
-title: "MDL"
+title: "MAD"
 ---
-# BF Memory Deallocation (MDL) Class
+# BF Memory Addressing (MAD) Class
 
-### MDL Definition
-{{< definition >}}An object is deallocated, reduced, or reallocated (while reducing) improperly.{{< /definition >}}
+### MAD Definition
+{{< definition >}}The pointer to an object is initialized, repositioned, or reassigned to an improper memory address.{{< /definition >}}
 
-### MDL Taxonomy
+### MAD Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MDL.png" caption="Fig 1. Memory Deallocation (MDL) Class" >}}
+{{< img src="images/BF Classes/_MEM/MAD.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Deallocate </td>
-	<td>Release the allocated memory of an object.</td>
+			<td>Initialize (pointer) </td>
+	<td>Change the undefined data value a pointer to a meaningful object address; and positions the pointer at the start of the object.</td>
 	</tr>
 	<tr>
-			<td>Reduce </td>
-	<td>Deallocates part of the object memory; redefines its boundaries and size.</td>
+			<td>Reposition </td>
+	<td>Change the pointer to another position inside its object.</td>
 	</tr>
 	<tr>
-			<td>Reallocate-Reduce </td>
-	<td>Reserve a new smaller space in memory for an object at a new address, copy part of the object content there, reassign the pointer, and deallocate the previous piece of memory.</td>
+			<td>Reassign </td>
+	<td>Direct the pointer to a different object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -38,6 +46,10 @@ title: "MDL"
 	<tr>
 			<td>Data </td>
 	<td>The data value of an object -- stored in object's memory.</td>
+	</tr>
+	<tr>
+			<td>Type </td>
+	<td>The data type of an object -- the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td>Address </td>
@@ -57,7 +69,7 @@ title: "MDL"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
 	</tr>
 	<tr>
 			<td>   Mismatched Operation </td>
@@ -76,16 +88,32 @@ title: "MDL"
 	<td>The pointer points a wrong specific address.</td>
 	</tr>
 	<tr>
-			<td>   Forbidden Address </td>
-	<td>The pointer points to an OS protected or non-existing address.</td>
+			<td>   Wrong Index </td>
+	<td>Incorrect position.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
 	<td>The value used as size does not match the actual size of the object.</td>
 	</tr>
 	<tr>
+			<td>Type Fault</td>
+	<td>The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Index Type </td>
+	<td>An index is of incorrect data type.</td>
+	</tr>
+	<tr>
+			<td>   Casted Pointer </td>
+	<td>The pointer does not match the type of the object, due to wrong type casting.</td>
+	</tr>
+	<tr>
 			<td>Address Fault</td>
 	<td>The used object address is wrong.</td>
+	</tr>
+	<tr>
+			<td>   NULL Pointer </td>
+	<td>Points to the zero address, a specific invalid address.</td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
@@ -94,6 +122,18 @@ title: "MDL"
 	<tr>
 			<td>   Dangling Pointer </td>
 	<td>Still points to the address of its successfully deallocated object.</td>
+	</tr>
+	<tr>
+			<td>   Untrusted Pointer </td>
+	<td>The pointer is modified to an improperly checked address.</td>
+	</tr>
+	<tr>
+			<td>   Over Bounds Pointer </td>
+	<td>Points above the upper boundary of its object.</td>
+	</tr>
+	<tr>
+			<td>   Under Bounds Pointer </td>
+	<td>Points below the lower boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
@@ -112,6 +152,22 @@ title: "MDL"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
+			<td>Data Error</td>
+	<td>Has harmed semantics or inconsistent or wrong value</td>
+	</tr>
+	<tr>
+			<td>   Forbidden Address </td>
+	<td>The pointer points to an OS protected or non-existing address.</td>
+	</tr>
+	<tr>
+			<td>Type Error</td>
+	<td>The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Casted Pointer </td>
+	<td>The pointer does not match the type of the object, due to wrong type casting.</td>
+	</tr>
+	<tr>
 			<td>Address Error</td>
 	<td>The used object address is wrong.</td>
 	</tr>
@@ -120,47 +176,47 @@ title: "MDL"
 	<td>Points to the zero address, a specific invalid address.</td>
 	</tr>
 	<tr>
-			<td>Size Error</td>
-	<td>The used object size is wrong.</td>
+			<td>   Wild Pointer </td>
+	<td>Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
 	</tr>
 	<tr>
-			<td>   Not Enough Memory Allocated </td>
-	<td>The allocated memory is too little for the data it should store.</td>
+			<td>   Dangling Pointer </td>
+	<td>Still points to the address of its successfully deallocated object.</td>
 	</tr>
 	<tr>
-			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+			<td>   Untrusted Pointer </td>
+	<td>The pointer is modified to an improperly checked address.</td>
 	</tr>
 	<tr>
-			<td>   Memory Leak </td>
-	<td>These is an object with no pointer pointing to it.</td>
+			<td>   Over Bounds Pointer </td>
+	<td>Points above the upper boundary of its object.</td>
 	</tr>
 	<tr>
-			<td>   Double Free </td>
-	<td>An attempt to deallocate a deallocated an object or via an uninitialized pointer.</td>
+			<td>   Under Bounds Pointer </td>
+	<td>Points below the lower boundary of its object.</td>
 	</tr>
 	<tr>
-			<td>   Object Corruption </td>
-	<td>The object's data value is unintentionally altered.</td>
+			<td>   Wrong Position Pointer </td>
+	<td>Points to a miscalculated position inside its object bounds.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
-			<td>   Implicit </td>
-	<td>The operation is performed without a function call.</td>
+			<td>   Direct </td>
+	<td>The operation is performed over a particular object element.</td>
 	</tr>
 	<tr>
-			<td>   Explicit </td>
-	<td>The operation is performed by a function/ method) call.</td>
+			<td>   Sequential </td>
+	<td>The operation is performed after iterating over the object elements.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -180,8 +236,8 @@ title: "MDL"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -213,22 +269,22 @@ title: "MDL"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>yyyddd.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
+	</tr>
+	<tr>
+			<td>         Size Kind </td>
+	<td>Shows what the limit for iteration over object's elements is.</td>
+	</tr>
+	<tr>
+			<td>            Actual </td>
+	<td>The real size of an object.</td>
+	</tr>
+	<tr>
+			<td>            Used </td>
+	<td>A supplied size for an object.</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

@@ -10,12 +10,20 @@ title: "MUS"
 ### MUS Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.png" caption="Fig 1. Memory Use (MUS) Class" >}}
+{{< img src="images/BF Classes/_MEM/MUS.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -49,7 +57,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Type </td>
-	<td>The data type of an object -- the set or a range of values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
+	<td>The data type of an object -- the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td>Address </td>
@@ -69,7 +77,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
 	</tr>
 	<tr>
 			<td>   Mismatched Operation </td>
@@ -145,15 +153,15 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Object </td>
-	<td>The object's data value is non-meaningful.</td>
+	<td>An object's data value is non-meaningful.</td>
 	</tr>
 	<tr>
 			<td>   Not Cleared Object </td>
-	<td>The object's data value is not changed to a non-meaningful one before deallocation.</td>
+	<td>An object's data value is not changed to a non-meaningful one before deallocation.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer Dereference </td>
@@ -165,11 +173,11 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
-	<td>The object's data value is unintentionally altered.</td>
+	<td>An object's data value is unintentionally altered.</td>
 	</tr>
 	<tr>
 			<td>   Type Confusion </td>
-	<td>The object and its pointer have different types.</td>
+	<td>An object and its pointer have different types.</td>
 	</tr>
 	<tr>
 			<td>   Use After Free </td>
@@ -200,7 +208,7 @@ title: "MUS"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
@@ -212,7 +220,7 @@ title: "MUS"
 	<td>The operation is performed after iterating over the object elements.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -232,8 +240,8 @@ title: "MUS"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -253,7 +261,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>         Address Kind </td>
-	<td>Shows how much memory is accessed outside object's bounds.</td>
+	<td>Shows what the accessed outside object's bounds memory is.</td>
 	</tr>
 	<tr>
 			<td>            Huge </td>
@@ -281,34 +289,22 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>yyyddd.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
 	</tr>
 	<tr>
 			<td>         Size Kind </td>
-	<td>Shows what kind the size this is.</td>
+	<td>Shows what the limit for iteration over object's elements is.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>
-	<td>The size of the object.</td>
+	<td>The real size of an object.</td>
 	</tr>
 	<tr>
 			<td>            Used </td>
-	<td>The maximum limit for iteration over object's elements.</td>
+	<td>A supplied size for an object.</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

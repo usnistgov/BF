@@ -10,12 +10,20 @@ title: "DVR"
 ### DVR Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVR.png" caption="Fig 1. Data Verification (DVR) Class" >}}
+{{< img src="images/BF Classes/_INP/DVR.png" >}}
 
-### Taxons Definitions
+<table>
+<tr>
+<td>
+<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+</td>
+</tr>
+</table>
+	
 {{< rawhtml >}}
-<table class="table">
-		<tr>
+<div class="collapse" id="collapseTable">
+<table>
+<tr>
 			<td><strong>Operations</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -45,7 +53,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation or part of it is absent.</td>
+	<td>The entire operation implementation or a part of its specification is absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -53,7 +61,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material, domain parameter) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -93,38 +101,38 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
-	<td>Data type range or structure is not correct.</td>
+	<td>A data type range or structure is not correct.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Mechanism Attribute</td>
+			<td>Mechanism </td>
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Value </td>
-	<td>Check data for a specific value (incl. NULL or list of values).</td>
+	<td>Checking data for a specific value (incl. NULL or list of values).</td>
 	</tr>
 	<tr>
 			<td>   Quantity </td>
-	<td>Check data for a specific measurable value (e.g., size, time, rate, frequency).</td>
+	<td>Checking data for a specific measurable value (e.g., size, time, rate, frequency).</td>
 	</tr>
 	<tr>
 			<td>   Range </td>
-	<td>Check data are within a (min, max) interval.</td>
+	<td>Checking data are within a (min, max) interval.</td>
 	</tr>
 	<tr>
 			<td>   Data Type </td>
-	<td>xxx.</td>
+	<td>A set of allowed values and the operations allowed over them.</td>
 	</tr>
 	<tr>
 			<td>   Other Rules </td>
 	<td>Check data against other business logic.</td>
 	</tr>
 	<tr>
-			<td>Source Code Attribute</td>
+			<td>Source Code </td>
 	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
 	</tr>
 	<tr>
@@ -144,8 +152,8 @@ title: "DVR"
 	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
-			<td>Execution Space Attribute</td>
-	<td>Shows where buggy/faulty operation code is running or with what privilege level).</td>
+			<td>Execution Space </td>
+	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -165,38 +173,26 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Shows where the data is or where the data is coming from.</td>
+	<td>Shows where the data come from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Data comes from user interface (e.g., text field).</td>
+	<td>The data are from a user via a user interface (e.g., text field).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Data comes from permanent storage (e.g., file, database on a storage device).</td>
+	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>Data comes from volatile storage (e.g., RAM, cache memory).</td>
+	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Data comes via network (e.g., connecting analog device or another computer).</td>
+	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>
+</div>
 {{< /rawhtml >}}
 
-
-### Sites
-
-{{< rawhtml >}}
-<table class="table">
-		<tr>
-			<td><strong></strong></td>
-	<td><strong>Definition</strong></td>
-	</tr>
-	
-</table>
-{{< /rawhtml >}}
-	

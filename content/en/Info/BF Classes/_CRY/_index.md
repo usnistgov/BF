@@ -1,6 +1,5 @@
 ---
-weight: 4
+weight: 3
 bookCollapseSection: true
 title: "Crypto"
 ---
-Cryptographic Store and Transfer (_CRY) Bugs
