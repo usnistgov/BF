@@ -189,7 +189,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Buffer Underflow </td>
-	<td>Writes below the upper bound of an object -- aka Buffer Under-Write.</td>
+	<td>Writes below the lower bound of an object -- aka Buffer Under-Write.</td>
 	</tr>
 	<tr>
 			<td>   Buffer Over-Read </td>
@@ -197,7 +197,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Buffer Under-Read </td>
-	<td>Reads below the upper bound of an object.</td>
+	<td>Reads below the lower bound of an object.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Pointer Dereference </td>
