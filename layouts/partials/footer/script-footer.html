@@ -5,6 +5,9 @@
 {{ $bs := $bs | js.Build -}}
 
 {{ $highlight := resources.Get "js/highlight.js" -}}
+{{ $imagemap := resources.Get "js/imagemap.js" -}}
+{{ $imagemap := $imagemap | js.Build -}}
+
 {{ $highlight := $highlight | js.Build -}}
 
 {{ $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
@@ -91,6 +94,9 @@
   {{ if $showFlexSearch -}}
     <script src="{{ $index.RelPermalink }}" defer></script>
   {{ end -}}
+  {{ if eq .Params.carousel true -}}
+  <script src="{{ $imagemap.RelPermalink }}" defer></script>
+  {{ end }}
 {{ else -}}
   {{ $js := $js | minify | fingerprint "sha512" -}}
   {{ $index := $index | minify | fingerprint "sha512" -}}
@@ -116,4 +122,6 @@
   {{ if $showFlexSearch -}}
     <script src="{{ $index.Permalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
+    <script src="{{ $imagemap.RelPermalink }}" integrity="{{ $imagemap.Data.Integrity }}" crossorigin="anonymous" defer></script>
+
 {{ end -}}
