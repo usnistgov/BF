@@ -85,7 +85,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Single Owned Address </td>
-	<td>Exactly one pointer owns of the object.</td>
+	<td>Exactly one pointer owns the object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>

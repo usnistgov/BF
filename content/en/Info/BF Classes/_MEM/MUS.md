@@ -105,7 +105,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
-	<td>The pointer does not match the type of the object, due to wrong type casting.</td>
+	<td>The pointer does not match the type of the object due to wrong type casting.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -213,7 +213,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Direct </td>
-	<td>The operation is performed over a particular object element.</td>
+	<td>The operation is performed on a particular object element.</td>
 	</tr>
 	<tr>
 			<td>   Sequential </td>

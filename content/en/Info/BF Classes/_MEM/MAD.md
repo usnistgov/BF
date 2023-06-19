@@ -29,7 +29,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Initialize (pointer) </td>
-	<td>Change the undefined data value a pointer to a meaningful object address; and positions the pointer at the start of the object.</td>
+	<td>Change the undefined data value of a pointer to a meaningful object address; and position the pointer at the start of the object.</td>
 	</tr>
 	<tr>
 			<td>Reposition </td>
@@ -105,7 +105,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
-	<td>The pointer does not match the type of the object, due to wrong type casting.</td>
+	<td>The pointer does not match the type of the object due to wrong type casting.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -165,7 +165,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
-	<td>The pointer does not match the type of the object, due to wrong type casting.</td>
+	<td>The pointer does not match the type of the object due to wrong type casting.</td>
 	</tr>
 	<tr>
 			<td>Address Error</td>
@@ -209,7 +209,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Direct </td>
-	<td>The operation is performed over a particular object element.</td>
+	<td>The operation is performed on a particular object element.</td>
 	</tr>
 	<tr>
 			<td>   Sequential </td>

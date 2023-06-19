@@ -1,5 +1,5 @@
 ---
 weight: 4
 bookCollapseSection: true
-title: "Type"
+title: "Data Type Bugs"
 ---

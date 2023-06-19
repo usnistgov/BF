@@ -1,5 +1,5 @@
 ---
 weight: 3
 bookCollapseSection: true
-title: "Crypto"
+title: "Cryptographic Store and Transfer Bugs"
 ---
