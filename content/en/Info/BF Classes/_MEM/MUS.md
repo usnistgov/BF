@@ -109,7 +109,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Address Fault</td>
-	<td>The used object address is wrong.</td>
+	<td>The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
@@ -141,10 +141,10 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Size Fault</td>
-	<td>The used object size is wrong.</td>
+	<td>The object size in use is wrong.</td>
 	</tr>
 	<tr>
-			<td>   Not Enough Memory Allocated </td>
+			<td>   Not Enough Memory </td>
 	<td>The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
@@ -273,7 +273,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            Little </td>
-	<td>Afew bites of memory.</td>
+	<td>A few bytes of memory.</td>
 	</tr>
 	<tr>
 			<td>         Address State </td>

@@ -89,7 +89,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Wrong Index </td>
-	<td>Incorrect position.</td>
+	<td>Incorrect index position.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
@@ -98,6 +98,10 @@ title: "MAD"
 	<tr>
 			<td>Type Fault</td>
 	<td>The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Type </td>
+	<td>A data type range or structure is not correct.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Index Type </td>
@@ -109,7 +113,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Address Fault</td>
-	<td>The used object address is wrong.</td>
+	<td>The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
@@ -141,10 +145,10 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Size Fault</td>
-	<td>The used object size is wrong.</td>
+	<td>The object size in use is wrong.</td>
 	</tr>
 	<tr>
-			<td>   Not Enough Memory Allocated </td>
+			<td>   Not Enough Memory </td>
 	<td>The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
@@ -169,7 +173,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Address Error</td>
-	<td>The used object address is wrong.</td>
+	<td>The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
@@ -198,6 +202,14 @@ title: "MAD"
 	<tr>
 			<td>   Wrong Position Pointer </td>
 	<td>Points to a miscalculated position inside its object bounds.</td>
+	</tr>
+	<tr>
+			<td>Memory Corruption/Disclosure Final Error</td>
+	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	</tr>
+	<tr>
+			<td>   Memory Leak </td>
+	<td>An object has no pointer pointing to it.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

@@ -76,4 +76,4 @@ lastMod = false
   [menu.section]
     auto = true
     collapsibleSidebar = true
-    homeDirectory = "/BF/info/home/"
+    homeDirectory = "/BF/info/"

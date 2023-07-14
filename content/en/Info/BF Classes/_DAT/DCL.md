@@ -33,7 +33,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Define </td>
-	<td>Specify the data of an object; the implementation of a function; or the member objects and functions of a type.</td>
+	<td>Specify the implementation of a function; or the member objects and functions of a type. (The data of an object is specified at its initialization -- see MAD and MUS.)</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>

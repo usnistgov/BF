@@ -4,18 +4,14 @@ title: "Contact Us"
 ---
 # Contact Us
 
-<div align="center">
+_`Irena Bojanova, PI & Lead`_</br>
+_`irena.bojanova@nist.gov `_ 
+</br>
 
-Irena Bojanova
+_`Software Systems Division (SSD)`_</br>
+_`Information Technology Laboratory (ITL)`_</br>
+_`National Institute of Standards and Technology (NIST)`_
+</br>
 
-Email: irena.bojanova@nist.gov  
-Phone: 301-975-2794
-
-Software Systems Division (SSD)  
-Information Technology Laboratory (ITL)  
-National Institute of Standards and Technology (NIST)  
-100 Bureau Dr, Stop 8930  
-Chemistry 222, Room A307  
-Gaithersburg, MD 20899
-
-</div>
+_`100 Bureau Dr, Stop 8930`_</br>
+_`Gaithersburg, MD 20899`_

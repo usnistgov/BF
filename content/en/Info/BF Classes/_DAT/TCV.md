@@ -205,15 +205,15 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>         Name State </td>
-	<td>Shows the state of the name.</td>
+	<td>Shows at what stage the entity name is.</td>
 	</tr>
 	<tr>
 			<td>            Resolved </td>
-	<td>The scope of an entity name is known to the The Type System.</td>
+	<td>The name scope is known to the The Type System.</td>
 	</tr>
 	<tr>
 			<td>            Bound </td>
-	<td>An entity name is linked to a declared (or inferred) data type and a defined object's data or a called function implementation.</td>
+	<td>The name is linked to a declared (or inferred) data type and a defined object's data or a called function implementation.</td>
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
