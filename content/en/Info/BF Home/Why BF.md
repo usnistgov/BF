@@ -8,7 +8,7 @@ title: "Why BF?"
 The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
 
 *   [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) – a community-developed list of software and hardware weaknesses types.
-*   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 18 000 were documented in 2020 only.
+*   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 25,000 were documented in 2022 only.
 *   [National Vulnerabilities Database (NVD)](https://nvd.nist.gov/) – the US government repository that links all CVEs to CWEs.
 
 ## Repository Problems

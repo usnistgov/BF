@@ -4,10 +4,10 @@ title: "TCV"
 ---
 # BF Type Conversion (TCV) Class
 
-### TCV Definition
+### Definition
 {{< definition >}}Data are converted or coerced into other type improperly.{{< /definition >}}
 
-### TCV Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_DAT/TCV.png" >}}

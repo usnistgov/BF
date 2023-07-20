@@ -4,10 +4,10 @@ title: "MUS"
 ---
 # BF Memory Use (MUS) Class
 
-### MUS Definition
+### Definition
 {{< definition >}}An object is initialized, read, written, or cleared improperly.{{< /definition >}}
 
-### MUS Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_MEM/MUS.png" >}}
@@ -153,7 +153,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Object </td>
@@ -181,7 +181,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Use After Free </td>
-	<td>An attempt to use a deallocated object.</td>
+	<td>An attempt to use (dereference, read, write, or clear) a deallocated object.</td>
 	</tr>
 	<tr>
 			<td>   Buffer Overflow </td>
@@ -289,7 +289,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
 	</tr>
 	<tr>
 			<td>         Size Kind </td>

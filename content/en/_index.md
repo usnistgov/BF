@@ -1,5 +1,5 @@
 ---
-title : "xxxThe Bugs Framework"
+title : "The Bugs Framework"
 description: ""
 lead: ""
 

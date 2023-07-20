@@ -4,10 +4,10 @@ title: "MMN"
 ---
 # BF Memory Management (MMN) Class
 
-### MMN Definition
+### Definition
 {{< definition >}}An object is allocated, deallocated, or resized improperly.{{< /definition >}}
 
-### MMN Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_MEM/MMN.png" >}}
@@ -32,12 +32,24 @@ title: "MMN"
 	<td>Reserve space in memory for an object; defines its initial boundaries and size.</td>
 	</tr>
 	<tr>
-			<td>Resize </td>
-	<td>Extend or reduce the memory for an object with or without reallocation.</td>
+			<td>Extend </td>
+	<td>Reserve additional memory for an object in the same space; changes its boundaries and size.</td>
+	</tr>
+	<tr>
+			<td>Reallocate-Extend </td>
+	<td>Reserve a new larger piece of memory for an object at a new address, copy the object content there, reassign its pointer, and deallocate the previous piece of memory.</td>
 	</tr>
 	<tr>
 			<td>Deallocate </td>
 	<td>Release the allocated memory of an object.</td>
+	</tr>
+	<tr>
+			<td>Reduce </td>
+	<td>Deallocates part of the object memory; redefines its boundaries and size.</td>
+	</tr>
+	<tr>
+			<td>Reallocate-Reduce </td>
+	<td>Reserve a new smaller space in memory for an object at a new address, copy part of the object content there, reassign the pointer, and deallocate the previous piece of memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -145,7 +157,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Overflow </td>
@@ -233,7 +245,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
 	</tr>
 	
 </table>

@@ -4,10 +4,10 @@ title: "KMN"
 ---
 # BF Key Management (KMN) Class
 
-### KMN Definition
+### Definition
 {{< definition >}}Cryptographic Keying Material is generated, stored, distributed, used, or destroyed improperly.{{< /definition >}}
 
-### KMN Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_CRY/KMN.png" >}}
@@ -77,7 +77,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Algorithm </td>

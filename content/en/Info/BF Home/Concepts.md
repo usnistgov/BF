@@ -38,7 +38,7 @@ Using our definitions, we formalize at a high-level a vulnerability description 
 `Error := Fault Operation Error | FinalError `  
 `Converge :=  Vulnerability Converge | Failure END`
 
--<div style="text-align:right">_`Irena Bojanova, PI & Lead`_</div>
+-<div style="text-align:right">_`Irena Bojanova, BF PI & Lead`_</div>
 
 | I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) | 
 

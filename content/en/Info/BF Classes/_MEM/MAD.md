@@ -4,10 +4,10 @@ title: "MAD"
 ---
 # BF Memory Addressing (MAD) Class
 
-### MAD Definition
+### Definition
 {{< definition >}}The pointer to an object is initialized, repositioned, or reassigned to an improper memory address.{{< /definition >}}
 
-### MAD Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_MEM/MAD.png" >}}
@@ -205,7 +205,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>An undefined or exploitable system behavior caused by memory allocation, use, and deallocation bugs.</td>
+	<td>An undefined or exploitable system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Leak </td>
@@ -281,7 +281,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C.</td>
+	<td>Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
 	</tr>
 	<tr>
 			<td>         Size Kind </td>

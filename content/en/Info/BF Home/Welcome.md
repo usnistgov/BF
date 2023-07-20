@@ -5,7 +5,7 @@ title: "Welcome"
 url: /
 ---
 # Welcome to the NIST Bugs Framework (BF) Project!
-<!-- _`---  Irena Bojanova, PI & Lead  ---`_ -->
+<!-- _`---  Irena Bojanova, BF PI & Lead  ---`_ -->
 
 
 We are classifying software bugs and weaknesses to allow precise descriptions of vulnerabilities that exploit them.
@@ -32,7 +32,7 @@ final errors (that become exploits)
 *   A set of attributes for the operations and the operands
 *   A set of attributes with values – for the operations and the operands.
 
--<div style="text-align:right">_`Irena Bojanova, PI & Lead`_</div>
+-<div style="text-align:right">_`Irena Bojanova, BF PI & Lead`_</div>
 
 Please watch the BF intro presentation:
 

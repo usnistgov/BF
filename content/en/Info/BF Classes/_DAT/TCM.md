@@ -4,10 +4,10 @@ title: "TCM"
 ---
 # BF Type Computation (TCM) Class
 
-### TCM Definition
+### Definition
 {{< definition >}}An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly.{{< /definition >}}
 
-### TCM Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_DAT/TCM.png" >}}

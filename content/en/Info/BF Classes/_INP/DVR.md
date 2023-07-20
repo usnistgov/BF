@@ -4,10 +4,10 @@ title: "DVR"
 ---
 # BF Data Verification (DVR) Class
 
-### DVR Definition
+### Definition
 {{< definition >}}Data are verified (semantics check) or corrected (assign, remove) improperly.{{< /definition >}}
 
-### DVR Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_INP/DVR.png" >}}
@@ -61,7 +61,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>

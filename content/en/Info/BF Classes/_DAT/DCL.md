@@ -4,10 +4,10 @@ title: "DCL"
 ---
 # BF Declaration (DCL) Class
 
-### DCL Definition
+### Definition
 {{< definition >}}An object, a function, a type, or a namespace is declared or defined improperly.{{< /definition >}}
 
-### DCL Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_DAT/DCL.png" >}}
@@ -69,7 +69,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>

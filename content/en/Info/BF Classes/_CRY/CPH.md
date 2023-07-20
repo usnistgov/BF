@@ -4,10 +4,10 @@ title: "CPH"
 ---
 # BF Cipher (CPH) Class
 
-### CPH Definition
+### Definition
 {{< definition >}}Sensitive data are improperly encrypted or ciphertext is improperly decrypted.{{< /definition >}}
 
-### CPH Taxonomy
+###  Taxonomy
 
 
 {{< img src="images/BF Classes/_CRY/CPH.png" >}}
@@ -65,7 +65,7 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerab</td>
+	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Hardcoded Key </td>

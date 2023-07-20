@@ -41,7 +41,7 @@ $('.carousel').on('slide.bs.carousel', function (e) {
         $('.carousel-control-prev').show();
     }
   
-  })
+})
      $(document).ready(function() {
          $('map').imageMapResize();
      });
