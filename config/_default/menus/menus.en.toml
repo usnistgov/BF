@@ -42,28 +42,28 @@
   identifier = "Home"
 
 [[main]]
-  name = "Overview"
+  name = "Welcome"
   weight = 1
-  identifier = "Overview"
-  url = "/"
+  identifier = "Welcome"
+  url = "/info/BF Home/Welcome"
   parent = "Home"
 [[main]]
   name = "Concepts"
   weight = 2
   identifier = "Concepts"
-  url = "/info/BF Home/concepts"
-  parent = "Home"
-[[main]]
-  name = "Why BF?"
-  weight = 3
-  identifier = "Why BF?"
-  url = "/info/BF Home/Why BF"
+  url = "/info/BF Home/Concepts"
   parent = "Home"
 [[main]]
   name = "Approach"
-  weight = 4
+  weight = 3
   identifier = "Approach"
   url = "/info/BF Home/Approach"
+  parent = "Home"
+[[main]]
+  name = "Vulnerability Model"
+  weight = 4
+  identifier = "Vulnerability Model"
+  url = "/info/BF Home/Vulnerability Model"
   parent = "Home"
 [[main]]
   name = "Methodology"
@@ -72,8 +72,14 @@
   url = "/info/BF Home/Methodology"
   parent = "Home"
 [[main]]
-  name = "Impact"
+  name = "Why BF?"
   weight = 6
+  identifier = "Why BF?"
+  url = "/info/BF Home/Why BF"
+  parent = "Home"
+[[main]]
+  name = "Impact"
+  weight = 7
   identifier = "Impact"
   url = "/info/BF Home/Impact"
   parent = "Home"

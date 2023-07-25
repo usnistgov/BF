@@ -2,9 +2,9 @@
 weight: 3
 title: "KMN"
 ---
-# BF Key Management (KMN) Class
+# BF Key Management (KMN) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Definition
+		### Definition
 {{< definition >}}Cryptographic Keying Material is generated, stored, distributed, used, or destroyed improperly.{{< /definition >}}
 
 ###  Taxonomy

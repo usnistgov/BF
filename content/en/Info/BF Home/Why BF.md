@@ -1,9 +1,9 @@
 ---
-weight: 3
+weight: 7
 bookCollapseSection: false
 title: "Why BF?"
 ---
-# Why BF?
+# Why BF? <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework Project`_
 
 The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
 
@@ -30,6 +30,6 @@ NVD labels it with CWE-190 – Integer Overflow or Wraparound, while the cause i
 The full chain is: CWE 20 – CWE 190 – CWE 119, the last one being – Improper Restriction of Operations within the Bounds of a Memory Buffer.
 
 *   Gaps and overlaps in CWEs lead to confusion. As an example, if we arrange buffer overflow CWEs by read or write, over or under the bounds, on the stack or heap, the gaps and overlaps can be easily spotted.
-
-{{< img src="images/BOFtable.png" height="150">}}
+<br/><br/>
+{{< img src="images/Home/BOFtable.png" height="150">}}
 

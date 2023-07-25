@@ -1,8 +1,9 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BFCVE APIs"
+title: "BFCVE API"
 ---
-# BF CVE API
+# BFCVE API <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-[https://samate.nist.gov/BF/api/CVE/](https://samate.nist.gov/BF/CVE/api/)
+[https://samate.nist.gov/BF/api/bfcve/](https://samate.nist.gov/BF/api/bfcve/)
+<!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->

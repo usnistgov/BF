@@ -2,9 +2,9 @@
 weight: 3
 title: "VRF"
 ---
-# BF Verification (VRF) Class
+# BF Verification (VRF) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Definition
+		### Definition
 {{< definition >}}Data crypto authenticated or crypto verified improperly.{{< /definition >}}
 
 ###  Taxonomy

@@ -3,11 +3,11 @@ weight: 2
 bookCollapseSection: false
 title: "Definitions"
 ---
-# Software Security Concepts
+# Software Security Concepts <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework Project`_
 
 We can observe that a security vulnerability leads to a security failure. However, what are the building blocks of a vulnerability? What is the defect in software that triggers a vulnerability? How does it propagate through errors until a final, exploitable error is reached? How do the underlying weaknesses of a vulnerability relate to these propagating errors? 
 
-We have developed the following definitions iteratively, while creating the BF software security vulnerability model. They help us reason about and create weakness taxonomies, allowing precise descriptions of existing vulnerabilities. We model a software security vulnerability as a chain of weaknesses that leads to a security failure. A security bug causes the first weakness, leading to an error. This error becomes the cause (i.e., the fault) for a next weakness and propagates through subsequent weaknesses until a final error is reached, causing the security failure.
+We have developed the following definitions iteratively, while creating the BF software security vulnerability model. They help us reason about and create weakness taxonomies, allowing precise descriptions of existing vulnerabilities. 
 
 *   A _software security vulnerability_ is a chain of weaknesses linked by causality. It starts with a bug and ends with a final error, which if exploited leads to a security failure.
 
@@ -30,15 +30,12 @@ The bug must be fixed to resolve the vulnerability; while, in most cases, fixing
 A security failure may be caused by the converging final errors of several vulnerabilities. The bug in at least one of the chains must be fixed to avoid the failure.
 
 Using our definitions, we formalize at a high-level a vulnerability description with the following rules (the complete current BF LL1 grammar is available xxxhere).
+<br/>
 
-`START := Vulnerability Converge`
+    START := Vulnerability Converge
+    Vulnerability := Bug Operation Error
+    Error := Fault Operation Error | FinalError
+    Converge :=  Vulnerability Converge | Failure END
 
-`Vulnerability := Bug Operation Error`
-
-`Error := Fault Operation Error | FinalError `  
-`Converge :=  Vulnerability Converge | Failure END`
-
--<div style="text-align:right">_`Irena Bojanova, BF PI & Lead`_</div>
-
-| I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) | 
+I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) .
 

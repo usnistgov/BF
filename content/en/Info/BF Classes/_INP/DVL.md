@@ -2,9 +2,9 @@
 weight: 3
 title: "DVL"
 ---
-# BF Data Validation (DVL) Class
+# BF Data Validation (DVL) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Definition
+		### Definition
 {{< definition >}}Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.{{< /definition >}}
 
 ###  Taxonomy

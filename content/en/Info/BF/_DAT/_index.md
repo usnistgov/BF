@@ -1,6 +1,5 @@
 ---
 weight: 2
 bookCollapseSection: true
-title: "BF Classes"
+title: "Data Type"
 ---
-BF Clusters of Classes

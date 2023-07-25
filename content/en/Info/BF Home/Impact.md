@@ -3,7 +3,7 @@ weight: 6
 bookCollapseSection: false
 title: "BF Impact"
 ---
-# BF Impact
+# BF Impact <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework Project`_
 
 BF will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
 

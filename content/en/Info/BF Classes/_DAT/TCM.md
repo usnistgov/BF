@@ -1,10 +1,10 @@
 ﻿---
-weight: 3
+weight: 4
 title: "TCM"
 ---
-# BF Type Computation (TCM) Class
+# BF Type Computation (TCM) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Definition
+		### Definition
 {{< definition >}}An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly.{{< /definition >}}
 
 ###  Taxonomy
