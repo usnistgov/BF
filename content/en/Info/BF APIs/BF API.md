@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF API"
 ---
-# BF API <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF API <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
 The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_MEM/)
 <!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->
