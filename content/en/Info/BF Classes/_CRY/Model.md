@@ -4,15 +4,11 @@ title: "Model"
 ---
 # BF Cryptographic Store or Transfer Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Cryptography
-
 Cryptography is a broad, complex, and subtle area. It incorporates many clearly separate processes, such as encryption/decryption, verification of data or source, and key management. There are bugs if the software does not properly transform data into unintelligible form, verify authenticity or correctness, manage keys, or perform other related operations. Some transformations require keys, for example encryption and decryption, while others do not, for example secret sharing. Authenticity covers integrity of data, identity of data source, origin for non-repudiation, and content of secret sharing. Correctness is verified for uses such as zero-knowledge proofs. Cryptographic processes use particular algorithms to achieve particular security services.
 
 Examples of attacks are spoofing messages, brute force attack, replaying instructions, timing attack, chosen plaintext attack, chosen ciphertext attack, and exploiting use of weak or insecure keys.
 
 We use cryptographic store or transfer to illustrate our ENC, VRF, and KMN classes of bugs. Note that these classes may appear in many other situations such as self-sovereign identities, block ciphers, and threshold cryptography. We focus on transfer (or store) because it is well known and it is what most people think of when "cryptography" is mentioned. We define bugs in cryptographic store or transfer as: The software does not properly encrypt/decrypt, verify, or manage keys for data to be securely stored or transferred.
-
-### Our Model
 
 A modern, secure, flexible cryptographic storage or transfer protocol likely involves subtle interaction between encryption, verification, and key management processes. It may involve multiple stages of agreeing on encryption algorithms, establishing public and private keys, creating session keys, and digitally signing texts for verification. Thus, encryption may use key management, which itself uses encryption and verification. The following figure presents a model of these recursive interactions and where potentially the corresponding ENC, VRF, KMN, and other BF bugs could happen. The rounded rectangles indicate the boundaries of the classes. The dashed ones show sending and receiving entities.
 
