@@ -2,7 +2,7 @@
 weight: 1
 title: "Model"
 ---
-# BF Model of Cryptographic Store or Transfer <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework Project`_
+# BF Model of Cryptographic Store or Transfer <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 ### Cryptography
 

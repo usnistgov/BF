@@ -35,8 +35,18 @@ Please watch the BF intro presentation:
 
 {{< rawhtml >}} 
 
+<!-- <video width=100% controls autoplay>
+    <source src="https://youtu.be/v5Ne1fu72hE" type="video/mp4">
+</video> -->
+
+
+{{< /rawhtml >}}
+
+{{< rawhtml >}} 
+
 <video width=100% controls autoplay>
-    <source src="https://drive.google.com/file/d/1EAey8j6bLzQ1ut9lPYenw3c6WZdklrCg/view" type="video/mp4">
+    <source src="//cfscloud.nist.gov/midas_uploads/3048\BF/videos/BF - Website - IB.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
 </video>
 
 {{< /rawhtml >}}
