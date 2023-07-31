@@ -10,7 +10,7 @@ We identified data type related CWEs in three steps: 1) _CWE Filtering_: Since d
 
 We mapped each of the identified CWEs to a BF _Data Type Bugs_ class based on the operations that are defined in DCL, NRS, TCV, and TCM and identified an operation for the CWE. Then, we generated digraphs of all data type related CWEs to show their correspondence to the BF _Data Type Bugs_ classes by operation (Figure 1) and by consequence (Figure 2). In the digraphs, each node is a CWE weakness, shown by its CWE ID, and the edges show the parent/child relationship. The outline style of a CWE node indicates the abstraction level: pillar, class, base, or variant.
 <br/><br/>
-{{< svg src="images/CWE-graph--DCL-NRS-TCV-TCM-class.svg" height="650" caption="Figure 1: A digraph of the data type related CWEs, mapped by DCL, NRS, TCV, and TCM operations. Each node represents a CWE ID. Each arrow represents a parent-child relationship." >}}
+{{< svg src="images/CWE2BF/BF _DAT - CWE2BF by Operation.svg" height="650" caption="Figure 1: A digraph of the data type related CWEs, mapped by DCL, NRS, TCV, and TCM operations. Each node represents a CWE ID. Each arrow represents a parent-child relationship." >}}
 <br/>
 In Figure 1, the outline color of a CWE node indicates the BF class(es) and operation(s) associated with that CWE: DCL Declare, DCL Define, NRS Refer, NRS Call, TCV Cast, TCV Coerce, TCM Calculate, and TCM Evaluate.
 
@@ -22,11 +22,11 @@ The CWEs covered by TCV are under CWE-704 (_Incorrect Type Conversion or Cast_).
 
 Only a few CWEs are partly related to the NRS class, which is surprising as bugs related to polymorphic calls are not rare. Our explanation is that CWE considers improper name referring/resolving and improper function calling/binding to be part of a computation weakness. For in- stance, CWE-468 is under CWE-682 (_Incorrect Calculation_), but it lists an example that starts with a TCV bug leading to an NRS weakness, and is actually a five weaknesses chain.
 <br/><br/>
-{{< svg src="images/CWE-graph--DCL-NRS-TCV-TCM-consequence.svg" height="800" caption="Figure 2: A digraph of the data type related CWEs, mapped by BF DCL, NRS, TCV, and TCM consequences. Each node represents a CWE ID. Each arrow represents a parent-child relationship." >}}
+{{< svg src="images/CWE2BF/BF _DAT - CWE2BF by Consequence.svg" height="800" caption="Figure 2: A digraph of the data type related CWEs, mapped by BF DCL, NRS, TCV, and TCM consequences. Each node represents a CWE ID. Each arrow represents a parent-child relationship." >}}
 <br/>
 Figure 3 shows the percentages of data type related CWEs by BF class operation. It shows that most of these CWEs are about weaknesses that occur at declara- tion and definition (47.8% combined) of objects, types, and functions. Next are weaknesses related to performing data type related calculations or evaluations (28.9% combined). The least represented are the name resolution (at refer and call) and type conversion (at cast and coerce) weaknesses.
 <br/><br/>
-{{< img src="images/piechart.png" height="300" caption="Figure 3. A diagram of the percentages of data type related CWEs by the operations of the BF Data Type Bugs classes." >}}
+{{< img src="images/CWE2BF/BF _DAT - CWE2BF Piechart.png" height="250" caption="Figure 3. A diagram of the percentages of data type related CWEs by the operations of the BF Data Type Bugs classes." >}}
 <br/>
 While the CWEs only enumerate weaknesses, the _Data Type Bugs_ classes ensure precise descriptions, as a weakness is described via one cause, one operation, and one consequence. The CWEs exhaustive list is prone to gaps in coverage and some weakness types may be missing. For example, in the type related categorization the CWEs are mainly focused on primitive data type errors, such as _Numeric Errors_ and _String Errors_, while our developed BF classes consider both primitive and structured data types. Besides that, the data type related CWEs focus mostly on types of errors that happen during arithmetic calculations and comparison evaluations, while the BF Data Type Bugs classes define type related bugs based on different stages of the data types development: from declaration and definition to resolution and usage.
 

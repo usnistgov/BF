@@ -26,7 +26,7 @@ To ground information exposure, we have developed a general model. “Exposure�
 
 Fig. 1 presents our BF information exposure bugs model, showing through what channels software could expose information.
 
-{{< img src="images/IEXModel.png" height="400" caption="Fig 1. BF Model of Information Exposure" >}}
+{{< img src="images/IEXModel.png" height="400" caption="Figure 1. BF Model of Information Exposure" >}}
 
 Information is stored on disks in files or in databases. Programs (source code and executables) are also stored on a disk in files and do not require any other resources. [4] A program is comprised of functions’ invocations. Most functions process input data into output information or data. However, some functions receive only control flow, e.g. to display information, error messages, dialogs; or to act on a global data value or when a state variable has changed or needs to be assessed. [5] A process is a program in execution and holds resources such as CPU, memory, disk, and input/output. A program can involve more than one process. [4] A session is a temporary, interactive information interchange between two or more devices, or between a computer and a user (e.g. login session). [6]
 

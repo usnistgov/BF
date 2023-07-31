@@ -20,7 +20,7 @@ High (semantic).
 
 Fig. 1 depicts INJ causes, attributes and consequences.
 
-{{< img src="images/INJModelv3.png" caption="Fig 1. Injection (INJ) Class" >}}
+{{< img src="images/INJModelv3.png" caption="Figure 1. Injection (INJ) Class" >}}
 
 ### Attributes
 

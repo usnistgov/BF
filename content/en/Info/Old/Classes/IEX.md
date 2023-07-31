@@ -20,7 +20,7 @@ High (semantic).
 
 Fig. 1 depicts IEX causes, attributes and consequences.
 
-{{< img src="images/IEXModelv3.png" height="600" caption="Fig 1. Information Exposure (IEX) Class" >}}
+{{< img src="images/IEXModelv3.png" height="600" caption="Figure 1. Information Exposure (IEX) Class" >}}
 
 ### Attributes
 

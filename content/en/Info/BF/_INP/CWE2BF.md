@@ -10,6 +10,9 @@ The BF classes ensure precise causal descriptions, as a weakness is described vi
 
 The BF Data Check Bugs classes relate to particular CWEs by BF DVL and DVR operations and/or consequences. We generated a digraph of all input- and output-check-related CWEs, including the injection-related CWEs, to show this correspondence both by operation (Figure 1) and by conse- quence (Figure 2). In the digraph, an edge starts at a parent CWE and ends at a child CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant.
 
+<br/><br/>
+{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Operation.svg" height="800" caption="Figure 1: A digraph of the input- and output-check-related CWEs (including injection-related CWEs), mapped by BF DVL and BF DVR operations. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
+
 Almost all of the 162 CWEs, visualized on the digraph, can be tracked as descendants of the pillar CWE-707; exceptions are CWEs 15, 73 (its child 114), 98, 134, 183, 184, 185 (and its children 186 and 625), 428, 472, 565, and 913.
 
 Analyzing the digraph, we see that the pillar CWE- 707 reflects neutralization of malformed messages; it is quite broad. It is the parent of several CWEs that are not strictly input/output check related.
@@ -21,6 +24,8 @@ Most CWEs are about input check. CWEs-116 and its children, CWEs 117 and 644, ar
 In Figure 1, the outline color of a CWE node indicates the BF class(es) and operation(s) associated with that CWE: DVL Validate, DVL Sanitize, DVR Verify, and DVL Validate and DVR Verify. There are no CWEs that relate to DVR Correct. The CWE-20 cluster is the only one that corresponds to DVR Verify. However, some of its descendants correspond also to DVL Validate. The CWE-41 and CWE-228 (except 3 nodes) clusters correspond to DVL Validate. The rest of the clusters, CWE-22, CWE-74, CWE-116, and CWE-138, correspond to DVL Sanitize.
 
 The digraph on Figure 2 illustrates how the CWEs map to BF DVL and DVR by consequence.
+<br/>
+{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Consequence.svg" height="800" caption="Figure 2: A digraph of the input- and output-check-related CWEs (including the injection-related CWEs), mapped by BF DVL and BF DVR consequences. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
 
 In Figure 2, the outline color of a CWE node indicates the BF class consequence associated with that CWE: Query Injection, Command Injection, Source Code Injection, Pa- rameter Injection, File Injection, Invalid Data, Wrong Value, Inconsistent Value, or Wrong Type.
 
@@ -45,7 +50,3 @@ All relationships to input, output, and injection CWEs (Figure 2) by BF DVL and 
 The BF Data Check Bugs classes present a taxonomy with structured cause/consequence relations that is complete and orthogonal. It could be viewed as a structured extension over the CWEs related to Injection Errors, Invalid Data, Wrong Value, Inconsistent Value, and Wrong Type (Figure 2). It is a taxonomy that explains the causal relationships between weaknesses and would be easier to use than the nested hierarchical CWEs.
 
 Many bug reporting tools use the CWE to describe found bugs/weaknesses. As a structured extension over the input, output, and injection CWEs, the BF Data Check taxonomy can be used to report found data check bugs/weaknesses (including those leading to injection errors). Figure 1 shows how input/output and injection CWEs translate to BF DVL and BF DVR by operation; Figure 2 shows how they translate by consequences.
-<br/><br/>
-{{< svg src="images/dvldvrclass.svg" height="800" caption="Figure 1: A digraph of the input- and output-check-related CWEs (including injection-related CWEs), mapped by BF DVL and BF DVR operations. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
-<br/>
-{{< svg src="images/dvldvrcons.svg" height="800" caption="Figure 2: A digraph of the input- and output-check-related CWEs (including the injection-related CWEs), mapped by BF DVL and BF DVR consequences. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}

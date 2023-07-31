@@ -22,7 +22,7 @@ Low-level (language related).
 
 Fig. 1 depicts BOF causes, attributes and consequences.
 
-{{< img src="images/BOFModelv4.png" height="400" caption="Fig 1. Buffer Overflow (BOF) Class" >}}
+{{< img src="images/BOFModelv4.png" height="400" caption="Figure 1. Buffer Overflow (BOF) Class" >}}
 
 ### Attributes
 

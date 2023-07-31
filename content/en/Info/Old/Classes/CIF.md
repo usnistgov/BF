@@ -20,7 +20,7 @@ High (semantic).
 
 Fig. 1 depicts CIF causes, attributes and consequences.
 
-{{< img src="images/CIFModelv4.png" height="400" caption="Fig 1. Control of Interaction Frequency Bugs (CIF) Class" >}}
+{{< img src="images/CIFModelv4.png" height="400" caption="Figure 1. Control of Interaction Frequency Bugs (CIF) Class" >}}
 
 ### Attributes
 

@@ -4,8 +4,6 @@ title: "Model"
 ---
 # BF Model of Cryptographic Store or Transfer <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-### Cryptography
-
 Cryptography is a broad, complex, and subtle area. It incorporates many clearly separate processes, such as encryption/decryption, verification of data or source, and key management. There are bugs if the software does not properly transform data into unintelligible form, verify authenticity or correctness, manage keys, or perform other related operations. Some transformations require keys, for example encryption and decryption, while others do not, for example secret sharing. Authenticity covers integrity of data, identity of data source, origin for non-repudiation, and content of secret sharing. Correctness is verified for uses such as zero-knowledge proofs. Cryptographic processes use particular algorithms to achieve particular security services.
 
 Examples of attacks are spoofing messages, brute force attack, replaying instructions, timing attack, chosen plaintext attack, chosen ciphertext attack, and exploiting use of weak or insecure keys.
