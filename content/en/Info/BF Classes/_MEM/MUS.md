@@ -4,7 +4,7 @@ title: "MUS"
 ---
 # BF Memory Use (MUS) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-		### Definition
+### Definition
 {{< definition >}}An object is initialized, read, written, or cleared improperly.{{< /definition >}}
 
 ###  Taxonomy
