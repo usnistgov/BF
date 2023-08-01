@@ -30,7 +30,7 @@ final errors (that become exploits)
 *   A set of attributes for the operations and the operands
 *   A set of attributes with values – for the operations and the operands.
 <br/><br/>
-Please watch the BF intro presentation:
+Please watch the following BF intro presentations:
 <br/><br/>
 
 {{< rawhtml >}} 
@@ -44,9 +44,24 @@ Please watch the BF intro presentation:
 
 {{< rawhtml >}} 
 
-<video width=100% controls autoplay>
+* BF Terminology and Existing Repositories
+<br/><br/>
+{{< youtube TYoJAfo3Mu0 >}}
+
+<br/><br/>
+* BF Goals, Features, and Taxonomy
+<br/><br/>
+{{< youtube QnCPXHLi7JQ >}}
+
+<br/><br/>
+* BF Hands On and Potential Impacts
+<br/><br/>
+{{< youtube XfAuRp5GcrE >}}
+
+<!-- <video width=100% controls autoplay>
     <source src="//cfscloud.nist.gov/midas_uploads/3048\BF/videos/BF - Website - IB.mp4" type="video/mp4">
+    <source src="https://youtu.be/287mCQOj87w" type="video/mp4">
     Your browser does not support the video tag.  
-</video>
+</video> -->
 
 {{< /rawhtml >}}
