@@ -1,9 +1,9 @@
 ---
-weight: 4
+weight: 1
 bookCollapseSection: false
 title: "Approach"
 ---
-# BF Approach <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Approach <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The Bugs Framework (BF) approach is different from the CWE exhaustive list approach. BF is a classification. Each BF class is a taxonomic category of a weakness type. It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations.
 

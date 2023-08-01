@@ -1,6 +1,6 @@
 ---
-weight: 1
+weight: 100
 bookHidden: true
 bookCollapseSection: true
-title: "Tools"
+title: "Welcome"
 ---

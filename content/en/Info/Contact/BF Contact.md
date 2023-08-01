@@ -1,15 +1,13 @@
 ---
 weight: 7
-title: "Contact Us"
+title: "BF Contact Us"
 ---
-# Contact Information
-
-[Irena Bojanova](https://www.nist.gov/people/irena-bojanova)</br>
+## BF Contact
+##### [Irena Bojanova](https://www.nist.gov/people/irena-bojanova)
 Primary Investigator and Lead</br>
-Bugs Framework (BF) Project</br></br>
-E-mail: [irena.bojanova@nist.gov](mail:irena.bojanova@nist.gov)</br>
+Bugs Framework (BF) Project</br>
+[irena.bojanova@nist.gov](mail:irena.bojanova@nist.gov)</br>
 </br>
-Mail:
 Software Systems Division (SSD)</br>
 Information Technology Laboratory (ITL)</br>
 National Institute of Standards and Technology (NIST)</br>

@@ -1,11 +1,11 @@
 ---
-weight: 2
+weight: 1
 bookCollapseSection: false
-title: "Definitions"
+title: "BF Concepts"
 ---
-# Software Security Concepts <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Software Security Concepts <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-One can observe that a security vulnerability leads to a security failure. However, what are the building blocks of a vulnerability? What is the defect in software that triggers a vulnerability? How does it propagate through errors until a final, exploitable error is reached? How do the underlying weaknesses of a vulnerability relate to these propagating errors? 
+We can observe a security vulnerability leads to a security failure. However, what are the building blocks of a vulnerability? What is the defect in software that triggers a vulnerability? How does it propagate through errors until a final, exploitable error is reached? How do the underlying weaknesses of a vulnerability relate to these propagating errors? 
 
 The following software security concepts definitions were developed iteratively, while creating the BF software security vulnerability model. They facilitated the reasoning about and the creation of the BF weakness taxonomies, allowing precise descriptions of existing vulnerabilities. 
 

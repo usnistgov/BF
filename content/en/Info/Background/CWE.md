@@ -2,21 +2,21 @@
 title: "CWE"
 bookHidden: true
 ---
-# Common Weakness Enumeration (CWE)
+## Common Weakness Enumeration (CWE)
 
 The Common Weakness Enumeration (CWE) is an "encyclopedia" of over 600 types of software weaknesses [\[1\]](#ref). Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.
 
-### Examples
+#### Examples
 
-#### CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+##### CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
 
 > "The software constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component." [2]
 
-#### CWE-226: Sensitive Information Uncleared Before Release
+##### CWE-226: Sensitive Information Uncleared Before Release
 
 > "The software does not fully clear previously used information in a data structure, file, or other resource, before making that resource available to a party in another control sphere." [3]
 
-### Notes
+#### Notes
 
 CWEs are a rich source of material for software developers and superior to anything that existed before. _However, for very formal, exacting work, CWE definitions are often inaccurate, imprecise or ambiguous, and the various definitions within one CWE can be inconsistent. Each CWE bundles many stages, such as likely attacks, resources affected and consequences. The coverage is uneven, with some combinations of attributes well represented and others not appearing at all._
 
@@ -30,7 +30,7 @@ The description summary of [CWE-119: Improper Restriction of Operations within t
 
 </i></ul>
 
-### References
+#### References
 
 \[1\] The MITRE Corporation. [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/).
 

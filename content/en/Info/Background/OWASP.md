@@ -2,7 +2,7 @@
 title: "OWASP"
 bookHidden: true
 ---
-# Open Web Application Security Project (OWASP)
+## Open Web Application Security Project (OWASP)
 
 The Open Web Application Security Project (OWASP) defines the following categories of vulnerabilities [1].
 

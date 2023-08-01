@@ -2,7 +2,7 @@
 weight: 4
 title: "CWE2BF"
 ---
-# Mapping Input/Output Check Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+## Mapping Input/Output Check Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
 In this section, we analyze the correspondence of the input, output, and injection-related CWEs to the two new BF DVL and DVR classes. We show that the BF classes cover all related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 

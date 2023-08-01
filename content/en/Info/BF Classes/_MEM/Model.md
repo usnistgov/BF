@@ -2,7 +2,7 @@
 weight: 1
 title: "Model"
 ---
-# BF Memory Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Memory Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 Each memory related bug or weakness involves one memory operation. Each _operation_ is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has _boundaries_ and it has _size_. We call this piece of memory, with a well-defined size, an _object_. It is used to store a primitive data or a data structure. The memory address should be held by at least one _pointer_pointer or determined as an offset on the stack, otherwise the object will be unreachable. The object and the pointer are the operands of the memory operation.
 

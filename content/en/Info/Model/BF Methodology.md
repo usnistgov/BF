@@ -1,7 +1,7 @@
 ---
-weight: 5
+weight: 3
 bookCollapseSection: false
-title: "Methodology"
+title: "BF Methodology"
 ---
 # BF Methodology <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 

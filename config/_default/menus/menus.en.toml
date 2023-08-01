@@ -1,89 +1,68 @@
-[[docs]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/docs/home/"
-
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
-
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
-
-[[main]]
-  name = "Home"
-  weight = 30
-  identifier = "Home"
 [[main]]
   name = "Welcome"
-  weight = 1
-  identifier = "Welcome"
-  url = "/Info/Home/Welcome"
-  parent = "Home"
-[[main]]
-  name = "Concepts"
-  weight = 2
-  identifier = "Concepts"
-  url = "/Info/Home/Concepts"
-  parent = "Home"
+  weight = 10
+  url = "/Info/Welcome/BF Welcome"
+  
 [[main]]
   name = "Approach"
-  weight = 3
+  weight = 20
   identifier = "Approach"
-  url = "/Info/Home/Approach"
-  parent = "Home"
 [[main]]
-  name = "Vulnerability Model"
-  weight = 4
-  identifier = "Vulnerability Model"
-  url = "/Info/Home/Vulnerability Model"
-  parent = "Home"
-[[main]]
-  name = "Methodology"
-  weight = 5
-  identifier = "Methodology"
-  url = "/Info/Home/Methodology"
-  parent = "Home"
+  name = "BF Approach"
+  weight = 1
+  identifier = "BF Approach"
+  url = "/Info/Approach/BF Approach"
+  parent = "Approach"
 [[main]]
   name = "Why BF?"
-  weight = 6
+  weight = 2
   identifier = "Why BF?"
-  url = "/Info/Home/Why BF"
-  parent = "Home"
+  url = "/Info/Approach/Why BF?"
+  parent = "Approach"
 [[main]]
   name = "Impact"
-  weight = 7
+  weight = 3
   identifier = "Impact"
-  url = "/Info/Home/Impact"
-  parent = "Home"
+  url = "/Info/Approach/Impact"
+  parent = "Approach"
+
+  [[main]]
+  name = "Model"
+  weight = 30
+  identifier = "Model"
+[[main]]
+  name = "BF Concepts"
+  weight = 1
+  identifier = "BF Concepts"
+  url = "/Info/Model/BF Concepts"
+  parent = "Model"
+[[main]]
+  name = "BF Vulnerability Model"
+  weight = 2
+  identifier = "BF Vulnerability Model"
+  url = "/Info/Model/BF Vulnerability Model"
+  parent = "Model"
+[[main]]
+  name = "BF Methodology"
+  weight = 3
+  identifier = "BF Methodology"
+  url = "/Info/Model/BF Methodology"
+  parent = "Model"
+
+[[main]]
+  name = "Tools"
+  weight = 40
+  identifier = "Tools"
+[[main]]
+  name = "BF Tool"
+  weight = 1
+  identifier = "BF Tool"
+  url = "/Info/Tools/BF Tool"
+  parent = "Tools"
 
 [[main]]
   name = "APIs"
-  weight = 40
+  weight = 50
   identifier = "APIs"
 [[main]]
   name = "BF API"
@@ -97,33 +76,20 @@
   identifier = "BF CVE APIs"
   url = "/Info/APIs/BFCVE API"
   parent = "APIs"
-[[main]]
-  name = "CWE2BF API"
-  weight = 3
-  identifier = "CWE2BF API"
-  url = "/Info/APIs/CWE2BF API"
-  parent = "APIs"
 
 [[main]]
-  name = "Tools"
-  weight = 50
-  identifier = "Tools"
+  name = "Publications"
+  weight = 60
+  url = "/Info/Publications/BF Publications"
+
 [[main]]
-  name = "BF Tool"
-  weight = 1
-  identifier = "BF Tool"
-  url = "/Info/Tools/BF Tool"
-  parent = "Tools"
-[[main]]
-  name = "CWE2BF Tool"
-  weight = 2
-  identifier = "BF-CWE Tool"
-  url = "/Info/Tools/BF-CWE Tool"
-  parent = "Tools"
+  name = "Contact"
+  weight = 70
+  url = "/Info/Contact/BF Contact"
 
 [[main]]
   name = "Background"
-  weight = 60
+  weight = 80
   identifier = "BackgroundMenu"
 [[main]]
   name = "Organizational Structures"
@@ -137,16 +103,6 @@
   identifier = "Other Classifications"
   url = "/Info/Background/Other Classifications"
   parent = "BackgroundMenu"
-
-[[main]]
-  name = "Publications"
-  weight = 70
-  url = "/Info/Publications/Publications"
-
-[[main]]
-  name = "Contact"
-  weight = 80
-  url = "/Info/Contact/Contact"
 
 [[social]]
   name = "GitHub"

@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF API"
 ---
-# BF API <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+## BF API <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
 //to be added//
 

@@ -2,7 +2,7 @@
 title: "SFP"
 bookHidden: true
 ---
-# Software Fault Patterns (SFP)
+## Software Fault Patterns (SFP)
 
 The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites ("footholds"), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.
 
@@ -17,7 +17,7 @@ The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weak
 
 SFP categorizes 632 CWEs plus there are 8 deprecated CWEs, so the CWEs defined as weaknesses total 640. In addition, there are: 21 primary clusters, 62 secondary clusters, 310 discernible CWEs, 36 unique SFPs. [3]
 
-### Clusters and SFPs
+#### Clusters and SFPs
 
 | Primary Clusters | Secondary Cluster | SFP |
 | --- | --- | --- |
@@ -43,9 +43,9 @@ SFP categorizes 632 CWEs plus there are 8 deprecated CWEs, so the CWEs defined a
 | 20\. UI | 1\. Feature  <br>2\. Information Loss  <br>3\. Security |     |
 | 21\. Other | 1\. Architecture  <br>2\. Design  <br>3\. Implementation  <br>4\. Compiler |     |
 
-### Example
+#### Example
 
-#### SFP 8 Faulty Buffer Access
+##### SFP 8 Faulty Buffer Access
 
 <ul>
 
@@ -68,11 +68,11 @@ Parameters:
 
 </ul>
 
-### Notes
+#### Notes
 
 SFP is an excellent advance. _However, SFP does not tie fault clusters to causes or chains of fault patterns nor to consequences of a particular vulnerability. In addition, since they were derived from CWEs, more work is needed for embedded or mobile concerns, such as, battery drain, physical sensors (e.g. Global Positioning System (GPS) location, gyroscope, microphone, camera) and wireless communications._
 
-### References
+#### References
 
 \[1\] N. Mansourov and D. Campara, "[System Assurance: Beyond Detecting Vulnerabilities](https://www.elsevier.com/books/system-assurance/mansourov/978-0-12-381414-2)." Morgan Kaufmann. 2010. pp. 176-188.
 

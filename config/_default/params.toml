@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
-## Homepage
-title = "The Bugs Framework"
+# Homepage
+title = "Bugs Framework!"
 titleSeparator = "-"
 titleAddition = "Modern Documentation Theme"
 description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
@@ -16,7 +16,7 @@ siteLinksSearchBox = false
 themeColor = "#fff"
 
 # Images
-quality = 85
+quality = 100
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
@@ -76,4 +76,4 @@ lastMod = false
   [menu.section]
     auto = true
     collapsibleSidebar = true
-    homeDirectory = "/BF/info/"
+    homeDirectory = "/BF/Info/"

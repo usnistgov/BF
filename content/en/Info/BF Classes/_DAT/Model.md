@@ -2,7 +2,7 @@
 weight: 1
 title: "Model"
 ---
-# BF Data Type Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Data Type Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 Data Type bugs could be introduced at any of the declaration, name resolution, data type conversion, or data type related computation phases. Each data type related bug or weakness involves one data type operation: _Declare_, _Define_, _Refer_, _Call_, _Cast_, _Coerce_, _Calculate_, or _Evaluate_.
 
