@@ -12,8 +12,6 @@ Please register here to download the BF tool. We ask you only for an email addre
 <div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register Here{{< /button >}}</div>
 
 
-Downloadable Tools
-
-Research tools to support Bugs Framework (BF) use. No license is required and there are no restrictions on distribution or use. All software is provided free of charge and will remain free in the future. NIST is an agency of the US Government, so this software is public domain. You are free to include it and redistribute it in commercial products if desired. BF is in C#, and will run on any platform.  There are users running current Windows, Mac OS, and Linux systems. 
+No license is required and there are no restrictions on distribution or use. NIST is an agency of the US Government, so this software is public domain. The BF Tool is in C#, and will run on any platform.  There are users running current Windows, Mac OS, and Linux systems. 
 
 To obtain the BF tool, please register above or send a request to Irena Bojanova - irena.bojanova@nist.gov including name of your organization. No other information is required, but we like to have a list of organizations to show our management where the software is being used. We will send you a download link.
