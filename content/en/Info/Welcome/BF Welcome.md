@@ -35,40 +35,34 @@ final errors (that become exploits)
 *   A matrix of valid cause–operation–consequence relations
 *   A set of attributes for the operations and the operands
 *   A set of attributes with values – for the operations and the operands.
-<br/><br/>
-Please watch the following BF intro presentations:
-<br/><br/>
 
+## BF intro presentations
+<br/>
 {{< rawhtml >}} 
-
-<!-- <video width=100% controls autoplay>
-    <source src="https://youtu.be/QnCPXHLi7JQ">
-</video> -->
-
-
-{{< /rawhtml >}}
-
-{{< rawhtml >}} 
-
-
+BF Terminology and Existing Repositories:
+<br/><br/>
+<div class="row">
+<div class="col-9">
+{{< youtube TYoJAfo3Mu0 >}}
+</div>
+</div>
 
 <div class="row">
 <div class="col-9">
-<div>
-* BF Terminology and Existing Repositories
 <br/><br/>
-{{< youtube TYoJAfo3Mu0 >}}
-<br/><br/>
-<div>
-* BF Goals, Features, and Taxonomy
+BF Goals, Features, and Taxonomy:
 <br/><br/>
 {{< youtube QnCPXHLi7JQ >}}
+</div>
+</div>
+
+<div class="row">
+<div class="col-9">
 <br/><br/>
-<div>
-* BF Hands On and Potential Impacts
+BF Hands On and Potential Impacts:
 <br/><br/>
 {{< youtube XfAuRp5GcrE >}}
 </div>
 </div>
-</div>
-</div>
+
+{{< /rawhtml >}}

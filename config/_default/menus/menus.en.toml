@@ -1,9 +1,4 @@
 [[main]]
-  name = "Welcome"
-  weight = 10
-  url = "/Info/Welcome/BF Welcome"
-  
-[[main]]
   name = "Approach"
   weight = 20
   identifier = "Approach"
@@ -103,6 +98,11 @@
   identifier = "Other Classifications"
   url = "/Info/Background/Other Classifications"
   parent = "BackgroundMenu"
+
+ [[header]]
+   name = "Home"
+   url = "/Info/Welcome/BF Welcome"
+   weight = 1
 
 [[social]]
   name = "GitHub"
