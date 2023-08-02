@@ -6,7 +6,7 @@ url: /
 ---
 # Welcome to Bugs Framework! <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-The NIST Bugs Framework (BF) is a language and domain independent,
+The NIST Bugs Framework (BF – _Software developers "Best Friend"_) is a language and domain independent,
 
      ➢ Structured  
 
@@ -50,7 +50,8 @@ BF Terminology and Existing Repositories:
 <div class="row">
 <div class="col-9">
 <br/><br/>
-BF Goals, Features, and Taxonomy:
+BF Goals, Features, and Taxonomy <br/>
+(contuniation of the previous presentation):
 <br/><br/>
 {{< youtube QnCPXHLi7JQ >}}
 </div>
@@ -59,7 +60,8 @@ BF Goals, Features, and Taxonomy:
 <div class="row">
 <div class="col-9">
 <br/><br/>
-BF Hands On and Potential Impacts:
+BF Hands On and Potential Impacts <br/>
+(contuniation of the previous presentation):
 <br/><br/>
 {{< youtube XfAuRp5GcrE >}}
 </div>
