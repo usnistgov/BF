@@ -11,7 +11,7 @@ Each BF class is a taxonomic category of a weakness type. It relates to a distin
 
 BF describes a _bug_ or a _weakness_ as an improper state and its transition. The transition is to another weakness or to a failure. 
 
-An improper state is defined by the tuple (`operation`, `operand1`, `···`, `operandn`), where at least one element is improper. 
+An improper state is defined by the tuple (`operation`, `operand{{< sub "1" >}}`, `···`, `operand{{< sub "n" >}}`), where at least one element is improper. 
 
 The initial state is always caused by a bug; a coding error within the operation, which if fixed will resolve the vulnerability. 
 

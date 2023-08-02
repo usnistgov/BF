@@ -15,10 +15,10 @@
   url = "/Info/Approach/Why BF?"
   parent = "Approach"
 [[main]]
-  name = "Impact"
+  name = "BF Impact"
   weight = 3
-  identifier = "Impact"
-  url = "/Info/Approach/Impact"
+  identifier = "BF Impact"
+  url = "/Info/Approach/BF Impact"
   parent = "Approach"
 
   [[main]]
