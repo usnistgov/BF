@@ -11,6 +11,18 @@ The methodology for developing a BF class is as follows (see Figure 1): First, w
 <br/>
 We create bugs models to help us identify the BF classes. They show the phases, where particular types of bugs could occur, and the possible flow of operations. For example, the [Memory Bugs Model] (/Info/BF/_MEM/Model.md) shows the identifies phases and operations for memory addressing, allocation, use, and deallocation bugs. It assures the corresponding BF classes MAD, MAL, MUS, and MDL do not overlap in operations.
 
+<!-- Methodology for Developing a BF Class 
+Identify a software phase in which a kind of bugs may be introduced– this would define the new BF class.
+Identify the operations for that phase– these would define the values of the main attribute Operation. 
+Identify the operands (inputs) for those operations– these would define the main input_i attributes, where input_i are class specific.
+Identify all improper results from the operations– these would define the consequences 
+Define a BF model of operations flow – could include closely related BF classes. 
+Identify all improper operation states– these would define the “Improper Operation” list of causes.
+Identify all improper states of operands– these would define the “Improper input_i” list of causes.
+Identify  all  consequences  that  propagate  as  causes  to another bug (all improper results that are input to operations in next bugs)– these would define the “Improper input_i” list of consequences.
+Identify  all  consequences that do not propagate to other bugs– these would define the “Software Collapse” list of consequences, and other class specific consequences that may lead to other consequences, but are not causes of other bugs.
+Identify specific Descriptive Attributes for operations and inputs.
+Define the BF class graph. -->
 
 
 <!-- The methodology for developing a BF class is as follows (see Figure 1): 

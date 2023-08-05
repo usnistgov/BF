@@ -1,16 +1,16 @@
 ﻿---
 weight: 3
-title: "CPH"
+title: "DSV"
 ---
-## BF Cipher (CPH) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Data Integrity and Source Verification (DSV) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 #### Definition
-{{< definition >}}Sensitive data are improperly encrypted or ciphertext is improperly decrypted.{{< /definition >}}
+{{< definition >}}Data/Source is crypto verified improperly.{{< /definition >}}
 
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_CRY/CPH.png" >}}
+{{< img src="images/BF Classes/_CDS/DSV.png" >}}
 
 <table>
 <tr>
@@ -28,12 +28,12 @@ title: "CPH"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Encrypt </td>
-	<td>Transform (encipher) intelligible data (plaintext) into unintelligible form (ciphertext) using a cryptographic algorithm and key(s). The goal is to ensure confidentiality.</td>
+			<td>Crypto Authenticate </td>
+	<td>Sing plainttext data digitally with a source private key, or using MAC with a key.</td>
 	</tr>
 	<tr>
-			<td>Decrypt </td>
-	<td>Transform(decipher) encripted data (ciphertext) into plaintext using a cryptographic algorithm and key(s).</td>
+			<td>Crypto Verify </td>
+	<td>Check signed data are not altered or prove source using source public key or MAC with a key.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -68,10 +68,6 @@ title: "CPH"
 	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
-			<td>   Hardcoded Key </td>
-	<td></td>
-	</tr>
-	<tr>
 			<td>   Wrong Algorithm </td>
 	<td>An inadequate, weak (incl. due to Insecure Mode of Operation), risky, or broken cryptographic algorithm or step.</td>
 	</tr>
@@ -88,28 +84,12 @@ title: "CPH"
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Unverified Data </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
 			<td>   Weak Key </td>
 	<td>The key is of an insufficiant length.</td>
 	</tr>
 	<tr>
 			<td>   Weak Random Bits </td>
 	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>   Repeated IV </td>
-	<td>The initialization vector (IV) -- the starting nonce of an encryption cryptographic algorithm -- is not unique.</td>
-	</tr>
-	<tr>
-			<td>   Weak Shared Secrets </td>
-	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>   Revealed Key </td>
-	<td></td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -120,28 +100,28 @@ title: "CPH"
 	<td>Has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
-			<td>   Corrupted Data </td>
-	<td>Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
-	</tr>
-	<tr>
-			<td>   Meaningless Data </td>
+			<td>   Unverified Data </td>
 	<td>yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Weak Ciphertext </td>
+			<td>   Unverified Key </td>
 	<td>yyyddd.</td>
-	</tr>
-	<tr>
-			<td>   Revealed Key </td>
-	<td></td>
 	</tr>
 	<tr>
 			<td>Data Security Final Error</td>
 	<td>yyyddd</td>
 	</tr>
 	<tr>
-			<td>   Revealed Plaintext </td>
-	<td>Intelligible data that has meaning and can be understood without the application of decryption is exposed.</td>
+			<td>   Revealed Key </td>
+	<td>An initialization vectors (IVs) is exposed.</td>
+	</tr>
+	<tr>
+			<td>   Forged Signature </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>   Spoofed Identity </td>
+	<td>yyyddd</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -152,12 +132,16 @@ title: "CPH"
 	<td>Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
-			<td>   Symmetric Algorithm </td>
-	<td>A key encryption scheme that uses one shared key. Known also as 'secret key algorithm' (e.g. Serpent, Blowfish).</td>
+			<td>   Hash + RND </td>
+	<td>Hash Function + Random Numbers.</td>
 	</tr>
 	<tr>
-			<td>   Asymmetric Algorithm </td>
-	<td>A key encryption scheme that uses two keys: public and private. Known also as 'public key algorithm' (e.g. Diffie-Hellman, RSA).</td>
+			<td>   MAC </td>
+	<td>Message Authentication Code.</td>
+	</tr>
+	<tr>
+			<td>   Digital Signature </td>
+	<td>yyyddd.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
@@ -204,24 +188,16 @@ title: "CPH"
 	<td>Shows what the data value is.</td>
 	</tr>
 	<tr>
-			<td>            Credentials </td>
-	<td>Passwords, tokens, smart cards, digital certificates, biometrics (fingerprint, hand configuration, retina, iris, voice.) They are sensitive data.</td>
+			<td>            Secret </td>
+	<td>Known only by its more than one owners.</td>
 	</tr>
 	<tr>
-			<td>            System Data </td>
-	<td>OS's configurations, logs, Web usage. They are sensitive data.</td>
+			<td>            Private </td>
+	<td>Known only by its only owner.</td>
 	</tr>
 	<tr>
-			<td>            State Data </td>
-	<td>A snapshot of software behavior. They are sensitive data.</td>
-	</tr>
-	<tr>
-			<td>            Cryptographic </td>
-	<td>Hashes, keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g. pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). They are sensitive data.</td>
-	</tr>
-	<tr>
-			<td>            Digital Document </td>
-	<td>yyyddd They are sensitive data.</td>
+			<td>            Public </td>
+	<td>Published for all the world to see.</td>
 	</tr>
 	<tr>
 			<td>         Data State </td>
@@ -232,12 +208,12 @@ title: "CPH"
 	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
-			<td>            Transferred </td>
-	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
-	</tr>
-	<tr>
 			<td>            In Use </td>
 	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
+	</tr>
+	<tr>
+			<td>            Transferred </td>
+	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>

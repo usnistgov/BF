@@ -297,7 +297,7 @@ $navbar-dark-active-color:          $link-color-dark;
 @include media-breakpoint-up(lg) {
   [data-dark-mode] body .docs-sidebar {
     order: 0;
-    border-right: 1px solid $border-dark;
+    border-right: 1px solid $border-dark; 
   }
 }
 

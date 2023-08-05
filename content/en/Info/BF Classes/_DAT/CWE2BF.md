@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 6
 title: "CWE2BF"
 ---
 ## Mapping Data Type Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_

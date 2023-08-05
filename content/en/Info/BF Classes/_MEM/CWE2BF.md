@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 title: "CWE2BF"
 ---
 ## Mapping Memory Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
