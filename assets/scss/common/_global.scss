@@ -139,7 +139,6 @@ body {
   .docs-sidebar {
     order: 0;
     border-right: 1px solid $gray-200;
-    // width: 500px;
   }
 
   @supports ((position:-webkit-sticky) or (position:sticky)) {
@@ -157,9 +156,10 @@ body {
   }
 }
 
+//IB: left menu width -- was 320px
 @include media-breakpoint-up(xl) {
   .docs-sidebar {
-    flex: 0 1 320px;
+    flex: 0 1 220px;
   }
 }
 
