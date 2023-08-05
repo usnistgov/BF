@@ -4,7 +4,7 @@ title: "IEX Model"
 ---
 # BF Model of Information Exposure
 
-### Information and Data
+## Information and Data
 
 The terms data and information are often used interchangeably. Data is “a set of values of qualitative or quantitative variables” [1]. Information is “any entity or form that provides the answer to a question of some kind or resolves uncertainty" [2]. To what extent data is informative to someone depends on how unexpected it is to that person. A difference between data and information is that data has no meaning, while information has meaning. Information and data are on a continuum. Bits in memory are data. Without external context (meaning), the bits might represent an integer, an address, a set of flags or other low-level information. At a higher level, the integer could be someone’s age, the number of characters in a document, or a temperature. Typically, a person’s age is considered information, whereas “temperature” may be considered data, since it may be yesterday’s high temperature (where?) or the current temperature in a furnace. Without further meaning, it is unclear whether the temperature is in Centigrade, Fahrenheit, Kelvin, or something else!
 
@@ -20,7 +20,7 @@ Personally identifiable data corresponds to personally identifiable information 
 
 Business data covers intellectual property and trade secrets, operational and inventory data, and industry-specific data, in addition to customer and employee data.
 
-### Information Exposure Model
+## Information Exposure Model
 
 To ground information exposure, we have developed a general model. “Exposure” is to any entity that should not have that information, not just information that is a security concern.
 
@@ -44,7 +44,7 @@ In a side channel, it is common for an attacker to control both the part that in
 
 could be two collaborating attackers: an unauthorized user controlling the part that induces the side effect and a third party controlling the part that measures it. There could be also only a passive attacker, who observes an existing (not induced) behavioral inconsistency. Usually, statistical analysis of the measurements is involved. [15] describes creating covert channels using TCP/IP. Examples of side/covert attacks are Meltdown and Spectre [16], as well as the inference attacks [17].
 
-### References
+## References
 
 \[1\] Wikipedia. Data. [https://en.wikipedia.org/wiki/Data](https://en.wikipedia.org/wiki/Data).
 

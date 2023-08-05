@@ -3,7 +3,7 @@ weight: 3
 bookCollapseSection: false
 title: "Why BF?"
 ---
-## Why BF? <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# Why BF? <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
 
@@ -11,7 +11,7 @@ The Bugs Framework aims to have the expressiveness power to clearly describe any
 *   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 25,000 were documented in 2022 only.
 *   [National Vulnerabilities Database (NVD)](https://nvd.nist.gov/) – the US government repository that links all CVEs to CWEs.
 
-#### Repository Problems
+## Repository Problems
 
 CWE and CVE are widely used, but they have some problems. Many CWEs and CVEs have imprecise descriptions and unclear causality. CWE also has gaps and overlaps in coverage.
 

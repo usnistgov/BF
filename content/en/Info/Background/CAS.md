@@ -2,7 +2,7 @@
 title: "CAS"
 bookHidden: true
 ---
-## NSA Center for Assured Software (CAS)
+# NSA Center for Assured Software (CAS)
 
 The NSA Center for Assured Software (CAS) defines the following Weakness Classes in its "Static Analysis Tool Study - Methodology" [1]:
 
@@ -23,7 +23,7 @@ The NSA Center for Assured Software (CAS) defines the following Weakness Classes
 | Number Handling | CWE-369: Divide by Zero |
 | Pointer and Reference Handling | CWE-476: Null Pointer Dereference |
 
-### References
+## References
 
 \[1\] Center for Assured Software (CAS), National Security Agency (NSA). [CAS Static Analysis Tool Study - Methodology](https://samate.nist.gov/docs/CAS_2011_SA_Tool_Method.pdf). 2011.
 

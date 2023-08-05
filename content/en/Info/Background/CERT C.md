@@ -2,7 +2,7 @@
 title: "CERT C"
 bookHidden: true
 ---
-## CERT C Coding Standard
+# CERT C Coding Standard
 
 The SEI CERT C Coding Standard defines the following "rules for secure coding in the C programming language" with the goal to "to develop safe, reliable, and secure systems, for example by eliminating undefined behaviors that can lead to undefined program behaviors and exploitable vulnerabilities" [1].
 
@@ -145,6 +145,6 @@ MSC38-C. Do not treat a predefined identifier as an object if it might only be i
 MSC39-C. Do not call va\_arg() on a va\_ list that has an indeterminate value  
 MSC40-C. Do not violate constraints
 
-### References
+## References
 
 \[1\] SEI CERT. [C Coding Standard: Rules for Developing Safe, Reliable, and Secure Systems](https://www.sei.cmu.edu/downloads/sei-cert-c-coding-standard-2016-v01.pdf). 2016.  

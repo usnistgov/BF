@@ -2,7 +2,7 @@
 weight: 6
 title: "CWE2BF"
 ---
-## Mapping Data Type Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+# Mapping Data Type Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
 In this section, we analyze the correspondence of the data type related CWEs, such as _Numeric Errors_ , _Type Errors_, and _String Errors_, to the four newly developed BF Data Type Bugs classes. We show that DCL, NRS, TCV, and TCM cover all data type related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 

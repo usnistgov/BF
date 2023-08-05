@@ -3,7 +3,7 @@ weight: 4
 bookCollapseSection: false
 title: "BF Tool"
 ---
-## The BF Tool <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# The BF Tool <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The Bugs Framework (BF) Tool facilitates the use of the BF taxonomy in describing software security vulnerabilities according to the BF Vulnerability Model. You will be able to create BF vulnerabilities decryptions as those showcased from the "BFCVE" menu on the left and the  "APIs>BFCWE API" menu above, and graphical representations as those showcased under the BFCVE menu on the left of this webpage.
 

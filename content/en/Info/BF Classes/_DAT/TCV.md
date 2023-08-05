@@ -2,12 +2,12 @@
 weight: 3
 title: "TCV"
 ---
-## BF Type Conversion (TCV) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Type Conversion (TCV) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-#### Definition
+## Definition
 {{< definition >}}Data are converted or coerced into other type improperly.{{< /definition >}}
 
-####  Taxonomy
+##  Taxonomy
 
 
 {{< img src="images/BF Classes/_DAT/TCV.png" >}}

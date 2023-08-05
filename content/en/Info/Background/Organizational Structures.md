@@ -2,13 +2,13 @@
 weight: 1
 title: "Organizational Structures"
 ---
-## Organizational Structures
+# Organizational Structures
 
 There have beem many efforts to create organizational structures about software security bugs and weaknesses. Such examples are the [Landwehr et. al. Taxonomy of Computer Program Security Flaws](https://apps.dtic.mil/sti/pdfs/ADA465587.pdf) and the [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/), and the [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/). However, we need more formal approaches to produce precise, machine readable descriptions of all software security vulnerabilities underligned by such weaknesses leading, that eventually lead to software security failures. This would alllow the creation of labeled datasets for diverse related ML and AI research. 
 
 Just as the structure of the periodic table reflects the underlying atomic structure, we are developing the Bugs Framework (BF) as a structured, complete, orthogonal, classification systems following the _natural_ organization of software bugs and weaknesses, while verifying it towards widely used bugs/weaknesses enumerations, compendia, and collections. We get out inspiration also from organizational structures in science, such as the Periodic Table of Elements, the Tree of Life, the Geographic Coordinate System, and the Dewey Decimal Classification System.
 
-#### Mendeleev's Periodic Table
+## Mendeleev's Periodic Table
 
 However obvious the Mendeleev's Periodic Table seems today, it required extensive thought and investigation:
 
@@ -36,7 +36,7 @@ However obvious the Mendeleev's Periodic Table seems today, it required extensiv
                 Commons</a>)</em></p>
 {{< /customimg >}}
 
-#### Tree of Life
+## Tree of Life
 
 Discoveries of more than 1,000 new types of bacteria and Archaea over the past 15 years have dramatically rejiggered the Tree of Life to account for these microscopic life forms. The new Tree of Life divides life into three domains: Bacteria, Archaea and Eukaryotes. It clearly shows that "life we see around us - plants, animals, humans and other so-called eukaryotes - represent a tiny percentage of the world's biodiversity."
 
@@ -46,7 +46,7 @@ Discoveries of more than 1,000 new types of bacteria and Archaea over the past 1
                 target="_blank">Berkeley</a>)</em></p>
 {{< /customimg >}}
 
-#### Geographic Coordinate System
+## Geographic Coordinate System
 
 The Geographic Coordinate System allows to specify any location on the Earth using Latitude, Longitude and Elevation. Longitude lines are perpendicular and latitude lines are parallel to the equator.
 {{< rawhtml >}}
@@ -68,7 +68,7 @@ _Geographic Coordinate System (Source: [Wikipedia](https://en.wikipedia.org/wiki
 </div>
 {{< /rawhtml >}}
 
-#### Dewey Decimal Classification System
+## Dewey Decimal Classification System
 
 The Dewey Decimal Classification System allows new books and whole new subjects to be placed in reasonable locations in a library, for easy retrieval based on subject.
 

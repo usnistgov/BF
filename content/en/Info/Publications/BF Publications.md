@@ -3,7 +3,7 @@ weight: 6
 bookCollapseSection: false
 title: "BF Publications"
 ---
-## BF Publications <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Publications <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 
 |     |

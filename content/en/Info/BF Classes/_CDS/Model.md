@@ -2,7 +2,7 @@
 weight: 1
 title: "Model"
 ---
-## BF Crypto Data Security Model<br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Crypto Data Security Model<br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 A modern, secure, flexible cryptographic storage or transfer protocol may involve multiple stages of agreeing on encryption algorithms, establishing public and private keys, creating session keys, and digitally signing texts for verification. 
 

@@ -2,7 +2,7 @@
 title: "SOAR"
 bookHidden: true
 ---
-## Software State-of-the-Art Resources (SOAR) Matrix
+# Software State-of-the-Art Resources (SOAR) Matrix
 
 The Software State-of-the-Art Resources (SOAR) Matrix defines and describes a process for selecting and using appropriate analysis tools and techniques for evaluating software for software (security) assurance. In particular, it identifies types of tools and techniques available for evaluating software, as well as the following technical objectives those tools and techniques can meet. [1]
 
@@ -995,7 +995,7 @@ text-align:center;line-height:normal"><span style="color:black">Excessive
         </table>
       </div>
 
-#### References
+## References
 
 \[1\] Larsen, G., Kenneth Hong Fong, E., Wheeler, D. A., Moorthy. R. S. [State-of-the-Art Resources (SOAR) for Software Vulnerability Detection, Test, and Evaluation](https://www.ida.org/idamedia/Corporate/Files/Publications/IDA_Documents/ITSD/2014/P-5061.ashx). 2014.
 

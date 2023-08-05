@@ -4,7 +4,7 @@ title: "IEX"
 ---
 # Information Exposure (IEX) Class
 
-### Definition
+## Definition
 
 We define Information Exposure (IEX) as:
 
@@ -12,17 +12,17 @@ We define Information Exposure (IEX) as:
 
 Note that leakage to an entity that should not have information is included, not just leakage that is a security concern.
 
-### Type
+## Type
 
 High (semantic).
 
-### Taxonomy
+## Taxonomy
 
 Fig. 1 depicts IEX causes, attributes and consequences.
 
 {{< img src="images/IEXModelv3.png" height="600" caption="Figure 1. Information Exposure (IEX) Class" >}}
 
-### Attributes
+## Attributes
 
 The attributes of IEX are:
 
@@ -58,7 +58,7 @@ This indicates the medium by which information was leaked.
 
 Direct means leaked information is valuable on its own. Indirect means it is only useful for launching other attacks.
 
-### Causes
+## Causes
 
 In the graph of causes, _Uncleared Before Release_ means information going from one control sphere back to the general pool. _Cross-Boundary Removal_ means information going from one control sphere to another control sphere. A control sphere is a set of resources and behaviors that are accessible to a single actor or a group of actors that all share the same security restrictions.
 
@@ -76,15 +76,15 @@ INJ includes adding commands and masking legitimate commands or information.
 
 CIF is control of interaction frequency, including limiting the number of failed log in attempts. If there is no limit on the number of attempts, account names or passwords may be discovered by brute force attacks.
 
-### Consequences
+## Consequences
 
 One information exposure (IEX) fault may lead to another information exposure. For instance, an information exposure of all client credit cards may have been caused by earlier obtaining the password for a privileged account.
 
-### Related BF Classes
+## Related BF Classes
 
 BF classes related to IEX are: BOF, INJ, CIF, ENC, VRF, KMN, TRN, PRN.
 
-### Related CWEs and SFP
+## Related CWEs and SFP
 
 CWEs related to IEX are: [CWE-8](https://cwe.mitre.org/data/definitions/8.html), [CWE-11](https://cwe.mitre.org/data/definitions/11.html), [CWE-13](https://cwe.mitre.org/data/definitions/13.html)[, CWE-200](https://cwe.mitre.org/data/definitions/200.html), [CWE-201](https://cwe.mitre.org/data/definitions/201.html), [CWE-202](https://cwe.mitre.org/data/definitions/202.html), [CWE-203](https://cwe.mitre.org/data/definitions/203.html), [CWE-204](https://cwe.mitre.org/data/definitions/204.html), [CWE-205](https://cwe.mitre.org/data/definitions/205.html), [CWE-206](https://cwe.mitre.org/data/definitions/206.html), [CWE-207](https://cwe.mitre.org/data/definitions/207.html), [CWE-208](https://cwe.mitre.org/data/definitions/208.html)[, CWE-209](https://cwe.mitre.org/data/definitions/209.html), [CWE-210](https://cwe.mitre.org/data/definitions/210.html), [CWE-211](https://cwe.mitre.org/data/definitions/211.html), [CWE-212](https://cwe.mitre.org/data/definitions/212.html), [CWE-213](https://cwe.mitre.org/data/definitions/213.html), [CWE-214](https://cwe.mitre.org/data/definitions/214.html), [CWE-215](https://cwe.mitre.org/data/definitions/215.html), [CWE-226](https://cwe.mitre.org/data/definitions/226.html), [CWE-244](https://cwe.mitre.org/data/definitions/244.html), [CWE-260](https://cwe.mitre.org/data/definitions/260.html), [CWE-359](https://cwe.mitre.org/data/definitions/359.html), [CWE-377](https://cwe.mitre.org/data/definitions/377.html), [CWE-385](https://cwe.mitre.org/data/definitions/385.html), [CWE-402](https://cwe.mitre.org/data/definitions/402.html), [CWE-403](https://cwe.mitre.org/data/definitions/403.html), [CWE-433](https://cwe.mitre.org/data/definitions/433.html)[, CWE-488](https://cwe.mitre.org/data/definitions/488.html), [CWE-492](https://cwe.mitre.org/data/definitions/492.html), [CWE-495](https://cwe.mitre.org/data/definitions/495.html), [CWE-497](https://cwe.mitre.org/data/definitions/497.html), [CWE-498](https://cwe.mitre.org/data/definitions/498.html), [CWE-499](https://cwe.mitre.org/data/definitions/499.html), [CWE-524](https://cwe.mitre.org/data/definitions/524.html), [CWE-514](https://cwe.mitre.org/data/definitions/514.html), [CWE-515](https://cwe.mitre.org/data/definitions/515.html), [CWE-525](https://cwe.mitre.org/data/definitions/525.html), [CWE-527](https://cwe.mitre.org/data/definitions/527.html), [CWE-528](https://cwe.mitre.org/data/definitions/528.html), [CWE-529](https://cwe.mitre.org/data/definitions/529.html), [CWE-530](https://cwe.mitre.org/data/definitions/530.html), [CWE-532](https://cwe.mitre.org/data/definitions/532.html), [CWE-535](https://cwe.mitre.org/data/definitions/535.html)[, CWE-536](https://cwe.mitre.org/data/definitions/536.html), [CWE-537](https://cwe.mitre.org/data/definitions/537.html), [CWE-538](https://cwe.mitre.org/data/definitions/538.html), [CWE-539](https://cwe.mitre.org/data/definitions/539.html), [CWE-540](https://cwe.mitre.org/data/definitions/540.html), [CWE-541](https://cwe.mitre.org/data/definitions/541.html),[CWE-546](https://cwe.mitre.org/data/definitions/546.html), [CWE-548](https://cwe.mitre.org/data/definitions/548.html), [CWE-550](https://cwe.mitre.org/data/definitions/550.html), [CWE-552](https://cwe.mitre.org/data/definitions/552.html), [CWE-555](https://cwe.mitre.org/data/definitions/555.html), [CWE-598](https://cwe.mitre.org/data/definitions/598.html), [CWE-612](https://cwe.mitre.org/data/definitions/612.html), [CWE-615](https://cwe.mitre.org/data/definitions/615.html), [CWE-642](https://cwe.mitre.org/data/definitions/642.html), [CWE-651](https://cwe.mitre.org/data/definitions/651.html), [CWE-668](https://cwe.mitre.org/data/definitions/668.html).
 
@@ -94,11 +94,11 @@ The only related SFP cluster is SFP Primary Cluster: Information Leak.
 
 BF Descriptions of IEX Related CWEs are provided [here](https://docs.google.com/document/d/1OEVDu_4NhQzTkUrZA9UoCfpVf2x8SlOnOq6_YA4N2Do/edit).
 
-### Application
+## Application
 
 Application examples are provided [here](/Info/Old/Examples/IEX.md).
 
-### References
+## References
 
 \[1\] I. Bojanova, P. E. Black, Y. Yesha, and Y. Wu, “The Bugs Framework (BF): A Structured approach to express bugs”, Proceedings of IEEE International Conference on Software Quality, Reliability and Security (QRS), 2016, , pp. 175-182.
 

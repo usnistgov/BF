@@ -3,7 +3,7 @@ weight: 1
 bookCollapseSection: false
 title: "Approach"
 ---
-## BF Approach <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Approach <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The Bugs Framework (BF) approach is different from the CWE exhaustive list approach. BF is a classification. 
 

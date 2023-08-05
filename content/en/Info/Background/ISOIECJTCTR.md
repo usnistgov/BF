@@ -2,13 +2,13 @@
 title: "ISOIECJTCTR"
 bookHidden: true
 ---
-## ISO/IEC JTC1/SC22/WG23 Technical Report "Guidance to Avoiding Vulnerabilities in Programming Languages
+# ISO/IEC JTC1/SC22/WG23 Technical Report "Guidance to Avoiding Vulnerabilities in Programming Languages
 
 ISO/IEC/JTC 1/SC 22/WG 23 is working on a Technical Report (RT), which includes a "taxonomic hierarchy of vulnerabilities", giving each vulnerability an arbitrary three-letter code [1]. The general part, TR 24772-1, is an and applies to all languages. There are many supplements, one for each language -- for example, TR24772-2 Ada, TR24772-3 C, and TR24772-9 C++.
 
 The heart of the TR is specific suggestions to avoid vulnerabilities that arise from "constructs that incompletely specified, exhibit undefined behavior, are implementation-dependent, or are difficult to use correctly." The classes of vulnerabilities can also be used to "select source code evaluation tools that can discover and eliminate some constructs that could lead to vulnerabilities". Some suggestions are, "Assume all input is malicious", "Use appropriate combinations of black-lists and white-lists ...", "Use sanitizers to scrub input ...", "Compare multiple attributes of the file to improve the likelihood that the file is the expected one", and "Restrict the use of shared directories".
 
-#### A.2 Outline of Programming Language Vulnerabilities
+## A.2 Outline of Programming Language Vulnerabilities
 
 A.2.1. Types  
 A.2.1.1. Representation  
@@ -61,6 +61,6 @@ A.3.5.2. Authentication
 A.3.5.2.1. \[XZR\] Improperly Verified Signature  
 A.3.5.2.2. \[XYM\] Insufficiently Protected Credentials  
 
-#### References
+## References
 
 \[1\] [ISO/IEC/JTC 1/SC 22/WG 23 DOCUMENT REGISTER](http://www.open-std.org/JTC1/SC22/WG23/docs/documents).

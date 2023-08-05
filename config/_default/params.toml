@@ -6,13 +6,13 @@ titleSeparator = "-"
 titleAddition = "Modern Documentation Theme"
 description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 
-## Documentation
+# Documentation
 # docsVersion = "0.3"
 
-## Sitelinks Search Box
+# Sitelinks Search Box
 siteLinksSearchBox = false
 
-## Chrome Browser
+# Chrome Browser
 themeColor = "#fff"
 
 # Images
@@ -30,7 +30,7 @@ imageImageSizes = ["480","720","1080","1280","1600","2048"]
 singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
-### Image template
+## Image template
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
