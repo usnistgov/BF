@@ -30,13 +30,12 @@ Each BF class has a strict definition and a taxonomy. The taxonomy of a class co
 
 *   A set of operations – where such bugs could happen
 *   A set of causes – the possible improper operations (bugs) and improper operands (faults)
-*   A set of consequences – the possible errors (that become faults for next weaknesses) and the possible
-final errors (that become exploits)
+*   A set of consequences – the possible errors (that become faults for next weaknesses) and the possible final errors (that become exploits)
 *   A matrix of valid cause–operation–consequence relations
 *   A set of attributes for the operations and the operands
 *   A set of attributes with values – for the operations and the operands.
 
-# BF intro presentations
+# BF Intro Presentations
 <br/>
 {{< rawhtml >}} 
 BF Terminology and Existing Repositories:

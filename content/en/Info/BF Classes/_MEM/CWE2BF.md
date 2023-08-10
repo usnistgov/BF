@@ -6,14 +6,26 @@ title: "CWE2BF"
 
 BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structured extension over memory-related CWEs. All Memory Error consequences from the BF classes relate to one or more CWEs.
 
-We have generated a digraph (Figure 1) of all memory-related CWEs to show how they correspond to the possible BF Memory Error consequences. An edge starts at a child CWE and ends at a parent CWE. The outline of a CWE node indicates the CWE abstraction level: dashed triple line is for variant, double line is for base, single line is for class, and thick red line is for pillar. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE.
+The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses. The CWEs exhaustive list approach is prone to gaps in coverage: some weakness types may be missing. The CWEs also have overlaps in coverage, including via over detailing (e.g., CWE-118 children’s buffer overflow variations). While by their nature, the BF classes are complete and orthogonal, assuring no gaps and no overlaps in coverage. We map a CWE to a BF class by an operation and/or a consequence from the lists defining the BF class. Through these relationships, the BF classes can be viewed as structured extensions to the memory-related CWEs.
 
-The digraph helped us identify four clusters of memory- related CWEs. All these CWEs can be tracked as children of the pillar CWE-664, with the only exception of CWE-476 (NULL Pointer Dereference). The largest cluster comprises the children of CWE-119, which are weaknesses associated with reading and writing outside the boundaries of an object. The second-largest cluster comprises the children of CWE- 400 and CWE-665, which are mainly weaknesses related to memory allocation and object initialization. The children of CWE-404, which are weaknesses associated with improper memory release, form the third cluster. The smallest cluster comprises CWE-704, CWE-588 and CWE-843, which are memory use or deallocation weaknesses due to the mismatch between pointer and object types.
+The BF Memory Bugs classes relate to particular CWEs by BF MAD, MMN, and MUS operations and/or consequences. 
 
-The color of a CWE node (Figure 1) indicates the BF memory class associated with that CWE. A BF class is associated with a CWE if the BF class has a Memory Error consequence covered by the CWE description. CWEs related to the BF MUS memory errors are presented in blue, CWEs related only to MAL are presented in pink, and CWEs related to both MAL and MDL are presented in green.
+The generated digraphs (see Figure 1 and Figure 2) of all memory-related show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
+
+The digraphs demonstrate that the MAD, MMN, and MUS classes  cover all memory-related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
+
 <br/><br/>
 {{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Operation.svg" height="650" caption="Figure 1. A digraph of memory related CWEs mapped by MAD, MMN, and MUS operations." >}}
 <br/>
+
+The digraph helps identify four clusters of memory-related CWEs. Most of these memory-related CWEs can be tracked as children of the pillar CWE-664; exceptions are CWE-476 (NULL Pointer Dereference), CWE-xxx, CWE-596 (Explicit Call to Finalize()), CWE-587(Assignment of a Fixed Address to a Pointer), and CWE-588(Attempt to Access Child of a Non-structure Pointer). The largest cluster comprises the children of CWE-119, which are weaknesses associated with reading and writing outside the boundaries of an object. The second-largest cluster comprises the children of CWE- 400 and CWE-665, which are mainly weaknesses related to memory allocation and object initialization. The children of CWE-404, which are weaknesses associated with improper memory release, form the third cluster. The smallest cluster comprises CWE-704, CWE-588 and CWE-843, which are memory use or deallocation weaknesses due to the mismatch between pointer and object types.
+
+The color of a CWE node (Figure 1) indicates the BF memory class associated with that CWE. A BF class is associated with a CWE if the BF class has a Memory Error consequence covered by the CWE description. CWEs related to the BF MUS memory errors are presented in blue, CWEs related only to MAL are presented in pink, and CWEs related to both MAL and MDL are presented in green.
+
+<br/><br/>
+{{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Conseqeuence.svg" height="650" caption="Figure 1. A digraph of memory related CWEs mapped by MAD, MMN, and MUS operations." >}}
+<br/>
+
 Most of the BF MUS Memory Error consequences relate to CWEs from the first cluster. The Memory Error consequences from BF MAL and BF MDL relate to CWEs across clusters. Note that the BF MAD class has no Memory Error consequences, so it does not directly relate to any CWE.
 
 The BF Memory Bugs model reflects the lifecycle of an object. The pillar CWE-664 also reflects the “lifetime of creation, use, and release” of a resource. However, it is quite broad; it is the parent of many CWEs that are not strictly memory-related. We use asterisks (*) to denote CWEs that are about any resource. CWE-704 is not a memory-related CWE, but is visualized on the digraph to show all the child-parent relationships.

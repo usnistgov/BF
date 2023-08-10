@@ -4,11 +4,15 @@ title: "CWE2BF"
 ---
 # Mapping Input/Output Check Related CWEs to BF Classes <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
-In this section, we analyze the correspondence of the input, output, and injection-related CWEs to the two new BF DVL and DVR classes. We show that the BF classes cover all related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
+BF Input/Output Check taxonomy can be used by bug reporting tools, as it is a structured extension over input, output, and injection-related CWEs. All Input/Output Check Error consequences from the BF classes relate to one or more CWEs.
 
 The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses. The CWEs exhaustive list approach is prone to gaps in coverage: some weakness types may be missing. The CWEs also have overlaps in coverage, including via over detailing (e.g., CWE-23 children’s path traversal variations). While by their nature, the BF classes are complete and orthogonal, assuring no gaps and no overlaps in coverage. We map a CWE to a BF class by an operation and/or a consequence from the lists defining the BF class. Through these relationships, the BF classes can be viewed as structured extensions to the input, output, and injection-related CWEs.
 
-The BF Data Check Bugs classes relate to particular CWEs by BF DVL and DVR operations and/or consequences. We generated a digraph of all input- and output-check-related CWEs, including the injection-related CWEs, to show this correspondence both by operation (Figure 1) and by conse- quence (Figure 2). In the digraph, an edge starts at a parent CWE and ends at a child CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant.
+The BF Data Check Bugs classes relate to particular CWEs by BF DVL and DVR operations and/or consequences. 
+
+The generated digraphs (see Figure 1 and Figure 2) of all input- and output-check-related CWEs, including the injection-related CWEs, show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
+
+The digraphs demonstrate that the DVL and DVR classes cover all input/output check-related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 
 <br/><br/>
 {{< svg src="images/CWE2BF/BF _INP - CWE2BF by Operation.svg" height="800" caption="Figure 1: A digraph of the input- and output-check-related CWEs (including injection-related CWEs), mapped by BF DVL and BF DVR operations. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}

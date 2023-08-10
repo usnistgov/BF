@@ -2,7 +2,7 @@
 weight: 3
 title: "DSV"
 ---
-## BF Data Integrity and Source Verification (DSV) Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Data Integrity and Source Verification (DSV) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}Data/Source is crypto verified improperly.{{< /definition >}}
