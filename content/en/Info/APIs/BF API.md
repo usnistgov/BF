@@ -7,7 +7,7 @@ title: "BF API"
 
 //to be added//
 
-<!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_MEM/) -->
+<!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_mem/) -->
 <!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->
 
 <!-- [BF%20_MEM.xml] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/XML/BF.xml)

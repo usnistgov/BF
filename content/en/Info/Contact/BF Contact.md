@@ -6,7 +6,7 @@ title: "BF Contact Us"
 ### [Irena Bojanova](https://www.nist.gov/people/irena-bojanova)
 Primary Investigator and Lead</br>
 Bugs Framework (BF) Project</br>
-[irena.bojanova@nist.gov](mail:irena.bojanova@nist.gov)</br>
+irena.bojanova@nist.gov</br>
 </br>
 Software Systems Division (SSD)</br>
 Information Technology Laboratory (ITL)</br>
