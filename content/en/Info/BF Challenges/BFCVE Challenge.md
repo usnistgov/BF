@@ -2,27 +2,26 @@
 weight: 1
 title: "BF CVE Challenge"
 ---
-## BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## Memory Related BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) repository has 228K+ software vulnerability entrees (as of August 2023) and 25K+ are being added each year. Systematic labeling of this huge set of CVEs benefits greatly the  advances in modern artificial intelligence (AI) Cybersecurity research. The [National Vulnerability Database (NVD)](https://nvd.nist.gov/), with input from the security community, labels CVEs with [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) entries. However, this has proven to be difficult as CWE has imprecise descriptions, gaps and overlaps in covarage.
 
-The Bugs Framework taxonomies are precisely defined and being an LL1 grammer, BF provides a formal methos for describing software security vulnerabilities. Let's together start contributing the the creation of a labeled dataset of software security vulnerability descriptions via BF. 
+The BF memory bugs taxonomy are precisely defined (see [BF Memory Corruption/Disclosure classes](Info/BF%20Classes/_MEM)) and being an LL1 grammer, BF provides a formal structure for describing software security vulnerabilities. Let's together  contribute to the creation of a labeled dataset of software security vulnerability descriptions via BF. 
 
-There are 60,426 memory related CVEs (as of August 2023). We query the CVE for entries with CWEs assigned by NVD, where the CWEs also map to BF Memory Corruption and Disclosure classes by operations. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum ten CVEs per operation -- thus reducing the count to 68 most severe CVEs per BF operation to start with. 
+There are 60,426 memory related CVEs (as of August 2023). We query the CVE for entries with CWEs assigned by NVD, where the CWEs also map to BF Memory Corruption and Disclosure classes by operation. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum ten CVEs per operation -- thus reducing the count to 68 most severe CVEs per BF operation to start with. 
 
-The steps for this challenge are as follows:
+The steps for this _Memory BFCVE Challenge_ are as follows:
 
 1. Explore the CVEs from the CVE list below. They have memory related underlying weaknesses and were identified through the corresponding [CWE2BF mappings](Info\BF%20Classes\_MEM\CWE2BF) and the CWE to CVE assignments by NVD.
 2. Identify at least one CVE for wchich you can find the Bug Report, the Code with Bug, and the Code with Fix (preferably in a GitHub repository). See examples in [BFCVE](Info/BFCVE) on the left. 
 2. While exploring the CVEs, request the [BF Tool download](Info/Tools/BF%20Tool). 
-3. Get to know [BF Memory Bugs Model](/Info/BF%20Classes/_MEM/Model).
+3. Get to know the [BF Memory Bugs Model](/Info/BF%20Classes/_MEM/Model).
 4. Get to know the taxonomies of the [BF Memory Corruption/Disclosure classes](Info/BF%20Classes/_MEM).
 5. Get to know the [BF Tool doenload](/BF/Info/Tools/BF Tool).
 6. Describe the chains of weaknesses underlying your selected CVE usign the BF Tool.
 7. Submit your generate .bfcve content here <br/><br/>
-<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your BF CVE Description{{< /button >}}</div>.
-<table>
-<tr><td>
+<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your BF CVE Description{{< /button >}}</div>
+<table><tr><td>
 
 [CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)<br/></td><td>
 [CVE-2021-1275](https://nvd.nist.gov/vuln/detail/CVE-2021-1275)<br/></td><td>
