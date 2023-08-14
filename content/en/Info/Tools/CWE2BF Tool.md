@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 2
 bookCollapseSection: false
 title: "CWE2BF Tool"
 ---

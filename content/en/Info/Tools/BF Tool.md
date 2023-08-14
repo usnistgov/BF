@@ -1,20 +1,25 @@
 ---
-weight: 4
+weight: 1
 bookCollapseSection: false
 title: "BF Tool"
 ---
-# The BF Tool <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Tool <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-The Bugs Framework (BF) Tool facilitates the use of the BF taxonomy in describing software security vulnerabilities according to the BF Vulnerability Model. You will be able to create BF vulnerabilities decryptions as those showcased from the "BFCVE" menu on the left and the  "APIs>BFCWE API" menu above, and graphical representations as those showcased under the BFCVE menu on the left of this webpage.
+BF is a classification system of software bugs and weaknesses that allows precise descriptions of security vulnerabilities exploiting such weaknesses.
 
-Please register here to download the BF tool. We ask you only for an email address to which to send you a unique download link and for the name of your organization to informa our management about the interest in BF.
-<br/><br/>
-<div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register Here{{< /button >}}</div>
-
-
-No license is required and there are no restrictions on distribution or use. NIST is an agency of the US Government, so this software is public domain. 
-
-The BF Tool is in C#, and will run on current MS Windows OS. 
+The BF Tool facilitates the use of the BF taxonomy in describing security vulnerabilities according to the BF Vulnerability Model. It guides the creation of BF vulnerability decryptions and graphical representations (e.g. in [BFCVE](Info/BFCVE) on the left). The BF Tool is in C#, and will run on current MS Windows OS. 
 <!-- The BF Tool is in C#, and will run on any platform.  There are users running current Windows, Mac OS, and Linux systems.  -->
 
-To obtain the BF tool, please register above or send a request to Irena Bojanova - irena.bojanova@nist.gov including name of your organization. No other information is required, but we like to have a list of organizations to show our management where the software is being used. We will send you a download link.
+To obtain the BF tool, please register here. We ask you only for an email address to which to send you a unique download link and for the name of your organization to informa our management about the interest in BF. Alternatively, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov) including the name of your organization.
+
+<br/>
+<div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register to Download the BF Tool{{< /button >}}</div>
+<br/>
+
+NIST is an agency of the US Government and this  software is public domain in the United States. <br/>
+Please explicitly acknowledge the source of the Bugs Framework (BF) and the Bugs Framework (BF) Tool.
+
+Irena Bojanova, NIST<br/>
+Bugs Framework (BF), 2014-2023<br/>
+Bugs Framework (BF) Tool, 2020-2023<br/>
+[irena.bojanova@nist.gov](irena.bojanova@nist.gov)
