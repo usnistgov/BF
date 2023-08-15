@@ -12,88 +12,87 @@ There are 60,426 memory related CVEs (as of August 2023). We query the CVE for e
 
 ##### The first set of steps for this _Memory BFCVE Challenge_:
 
-1. Explore the CVEs from the CVE list below. They have memory related underlying weaknesses and were identified through the corresponding [CWE2BF mappings](Info\BF%20Classes\_MEM\CWE2BF) and the CWE to CVE assignments by NVD.
-2. Identify at least one CVE for wchich you can find the Bug Report, the Code with Bug, and the Code with Fix (in a GitHub repository). See how these are listed for the examples in [BFCVE](Info/BFCVE) on the left. 
-3. Submit the identified by you links here: <br/><br/>
-<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}</div>
+1. Explore the CVEs listed below. Each one has memory related underlying weaknesses and was identified via the corresponding [CWE2BF mappings](Info\BF%20Classes\_MEM\CWE2BF) and the CWE to CVE assignments by NVD.
+2. Identify at least one CVE for wchich you can find the Bug Report, the Code with Bug, and the Code with Fix (locate the specific GitHub repository with the Diffs). See how these are listed for the examples in [BFCVE](Info/BFCVE) on the left. 
+3. Submit the Bug Report, the Code with Bug, and the Code with Fix links here: 
+
+    {{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}
 
 ##### The second set of steps for this _Memory BFCVE Challenge_:
 
 1. Get to know the [BF Memory Bugs Model](/Info/BF%20Classes/_MEM/Model).
 4. Get to know the taxonomies of the [BF Memory Corruption/Disclosure classes](Info/BF%20Classes/_MEM).
 5. Get to know the [BF Tool](/BF/info/tools/bf-tool).
-6. Collaborate on desribing the chains of weaknesses for your selected CVEs.
-
+6. Collaborate on creating BF descriptions of your CVEs.
 <table><tr><td>
 
-Most Severe Memory Related CVEs </td><td>By BF Operation</td></tr><tr><td>
-[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>Allocate</td></tr><tr><td>
-[CVE-2021-1275](https://nvd.nist.gov/vuln/detail/CVE-2021-1275)</td><td>Allocate</td></tr><tr><td>
-[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td></tr><tr><td>
-[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-19282](https://nvd.nist.gov/vuln/detail/CVE-2018-19282)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-16492](https://nvd.nist.gov/vuln/detail/CVE-2018-16492)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-16491](https://nvd.nist.gov/vuln/detail/CVE-2018-16491)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-16486](https://nvd.nist.gov/vuln/detail/CVE-2018-16486)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-11936](https://nvd.nist.gov/vuln/detail/CVE-2018-11936)</td><td>Allocate</td></tr><tr><td>
-[CVE-2017-9119](https://nvd.nist.gov/vuln/detail/CVE-2017-9119)</td><td>Allocate</td></tr><tr><td>
-[CVE-2017-6713](https://nvd.nist.gov/vuln/detail/CVE-2017-6713)</td><td>Allocate</td></tr><tr><td>
-[CVE-2018-18924](https://nvd.nist.gov/vuln/detail/CVE-2018-18924)</td><td>Clear</td></tr><tr><td>
-[CVE-2021-37089](https://nvd.nist.gov/vuln/detail/CVE-2021-37089)</td><td>Clear</td></tr><tr><td>
-[CVE-2018-19961](https://nvd.nist.gov/vuln/detail/CVE-2018-19961)</td><td>Clear</td></tr><tr><td>
-[CVE-2018-18281](https://nvd.nist.gov/vuln/detail/CVE-2018-18281)</td><td>Clear</td></tr><tr><td>
-[CVE-2021-45706](https://nvd.nist.gov/vuln/detail/CVE-2021-45706)</td><td>Clear</td></tr><tr><td>
-[CVE-2021-45330](https://nvd.nist.gov/vuln/detail/CVE-2021-45330)</td><td>Clear</td></tr><tr><td>
-[CVE-2021-32928](https://nvd.nist.gov/vuln/detail/CVE-2021-32928)</td><td>Clear</td></tr><tr><td>
-[CVE-2020-13451](https://nvd.nist.gov/vuln/detail/CVE-2020-13451)</td><td>Clear</td></tr><tr><td>
-[CVE-2019-11514](https://nvd.nist.gov/vuln/detail/CVE-2019-11514)</td><td>Clear</td></tr><tr><td>
-[CVE-2017-17090](https://nvd.nist.gov/vuln/detail/CVE-2017-17090)</td><td>Clear</td></tr><tr><td>
-[CVE-2022-22086](https://nvd.nist.gov/vuln/detail/CVE-2022-22086)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2022-20127](https://nvd.nist.gov/vuln/detail/CVE-2022-20127)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2021-37120](https://nvd.nist.gov/vuln/detail/CVE-2021-37120)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2021-1910](https://nvd.nist.gov/vuln/detail/CVE-2021-1910)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2020-8432](https://nvd.nist.gov/vuln/detail/CVE-2020-8432)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2020-6016](https://nvd.nist.gov/vuln/detail/CVE-2020-6016)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2020-0103](https://nvd.nist.gov/vuln/detail/CVE-2020-0103)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2019-15504](https://nvd.nist.gov/vuln/detail/CVE-2019-15504)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2018-20961](https://nvd.nist.gov/vuln/detail/CVE-2018-20961)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2018-0101](https://nvd.nist.gov/vuln/detail/CVE-2018-0101)</td><td>Deallocate</td></tr><tr><td>
-[CVE-2022-28350](https://nvd.nist.gov/vuln/detail/CVE-2022-28350)</td><td>Dereference</td></tr><tr><td>
-[CVE-2022-28349](https://nvd.nist.gov/vuln/detail/CVE-2022-28349)</td><td>Dereference</td></tr><tr><td>
-[CVE-2022-28348](https://nvd.nist.gov/vuln/detail/CVE-2022-28348)</td><td>Dereference</td></tr><tr><td>
-[CVE-2022-21806](https://nvd.nist.gov/vuln/detail/CVE-2022-21806)</td><td>Dereference</td></tr><tr><td>
-[CVE-2021-37045](https://nvd.nist.gov/vuln/detail/CVE-2021-37045)</td><td>Dereference</td></tr><tr><td>
-[CVE-2021-21941](https://nvd.nist.gov/vuln/detail/CVE-2021-21941)</td><td>Dereference</td></tr><tr><td>
-[CVE-2021-1976](https://nvd.nist.gov/vuln/detail/CVE-2021-1976)</td><td>Dereference</td></tr><tr><td>
-[CVE-2021-1946](https://nvd.nist.gov/vuln/detail/CVE-2021-1946)</td><td>Dereference</td></tr><tr><td>
-[CVE-2021-1829](https://nvd.nist.gov/vuln/detail/CVE-2021-1829)</td><td>Dereference</td></tr><tr><td>
-[CVE-2020-9633](https://nvd.nist.gov/vuln/detail/CVE-2020-9633)</td><td>Dereference</td></tr><tr><td>
-[CVE-2022-28350](https://nvd.nist.gov/vuln/detail/CVE-2022-28350)</td><td>Read</td></tr><tr><td>
-[CVE-2022-28349](https://nvd.nist.gov/vuln/detail/CVE-2022-28349)</td><td>Read</td></tr><tr><td>
-[CVE-2022-28348](https://nvd.nist.gov/vuln/detail/CVE-2022-28348)</td><td>Read</td></tr><tr><td>
-[CVE-2022-21806](https://nvd.nist.gov/vuln/detail/CVE-2022-21806)</td><td>Read</td></tr><tr><td>
-[CVE-2022-20238](https://nvd.nist.gov/vuln/detail/CVE-2022-20238)</td><td>Read</td></tr><tr><td>
-[CVE-2021-40393](https://nvd.nist.gov/vuln/detail/CVE-2021-40393)</td><td>Read</td></tr><tr><td>
-[CVE-2021-40050](https://nvd.nist.gov/vuln/detail/CVE-2021-40050)</td><td>Read</td></tr><tr><td>
-[CVE-2021-39708](https://nvd.nist.gov/vuln/detail/CVE-2021-39708)</td><td>Read</td></tr><tr><td>
-[CVE-2021-37045](https://nvd.nist.gov/vuln/detail/CVE-2021-37045)</td><td>Read</td></tr><tr><td>
-[CVE-2021-27692](https://nvd.nist.gov/vuln/detail/CVE-2021-27692)</td><td>Read</td></tr><tr><td>
-[CVE-2022-41837](https://nvd.nist.gov/vuln/detail/CVE-2022-41837)</td><td>Reassign</td></tr><tr><td>
-[CVE-2021-21798](https://nvd.nist.gov/vuln/detail/CVE-2021-21798)</td><td>Reassign</td></tr><tr><td>
-[CVE-2021-34720](https://nvd.nist.gov/vuln/detail/CVE-2021-34720)</td><td>Reassign</td></tr><tr><td>
-[CVE-2021-28216](https://nvd.nist.gov/vuln/detail/CVE-2021-28216)</td><td>Reassign</td></tr><tr><td>
-[CVE-2020-8974](https://nvd.nist.gov/vuln/detail/CVE-2020-8974)</td><td>Reassign</td></tr><tr><td>
-[CVE-2021-3319](https://nvd.nist.gov/vuln/detail/CVE-2021-3319)</td><td>Reassign</td></tr><tr><td>
-[CVE-2021-3510](https://nvd.nist.gov/vuln/detail/CVE-2021-3510)</td><td>Reassign</td></tr><tr><td>
-[CVE-2022-32454](https://nvd.nist.gov/vuln/detail/CVE-2022-32454)</td><td>Write</td></tr><tr><td>
-[CVE-2022-32032](https://nvd.nist.gov/vuln/detail/CVE-2022-32032)</td><td>Write</td></tr><tr><td>
-[CVE-2022-31209](https://nvd.nist.gov/vuln/detail/CVE-2022-31209)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30926](https://nvd.nist.gov/vuln/detail/CVE-2022-30926)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30925](https://nvd.nist.gov/vuln/detail/CVE-2022-30925)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30924](https://nvd.nist.gov/vuln/detail/CVE-2022-30924)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30923](https://nvd.nist.gov/vuln/detail/CVE-2022-30923)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30922](https://nvd.nist.gov/vuln/detail/CVE-2022-30922)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30921](https://nvd.nist.gov/vuln/detail/CVE-2022-30921)</td><td>Write</td></tr><tr><td>
-[CVE-2022-30920](https://nvd.nist.gov/vuln/detail/CVE-2022-30920)</td><td>Write</td></tr>
+Most Resent Severe Memory Related CVEs</td><td>by BF Operation</td><td>CVSS</td></tr><tr><td>
+[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>Allocate</td><td>9.9</td></tr><tr><td>
+[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-19282](https://nvd.nist.gov/vuln/detail/CVE-2018-19282)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-16492](https://nvd.nist.gov/vuln/detail/CVE-2018-16492)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-16491](https://nvd.nist.gov/vuln/detail/CVE-2018-16491)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-16486](https://nvd.nist.gov/vuln/detail/CVE-2018-16486)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-11936](https://nvd.nist.gov/vuln/detail/CVE-2018-11936)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2017-9119](https://nvd.nist.gov/vuln/detail/CVE-2017-9119)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2017-6713](https://nvd.nist.gov/vuln/detail/CVE-2017-6713)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+[CVE-2018-18924](https://nvd.nist.gov/vuln/detail/CVE-2018-18924)</td><td>Clear</td><td>8.8</td></tr><tr><td>
+[CVE-2021-37089](https://nvd.nist.gov/vuln/detail/CVE-2021-37089)</td><td>Clear</td><td>7.8</td></tr><tr><td>
+[CVE-2018-19961](https://nvd.nist.gov/vuln/detail/CVE-2018-19961)</td><td>Clear</td><td>7.8</td></tr><tr><td>
+[CVE-2018-18281](https://nvd.nist.gov/vuln/detail/CVE-2018-18281)</td><td>Clear</td><td>7.8</td></tr><tr><td>
+[CVE-2021-45706](https://nvd.nist.gov/vuln/detail/CVE-2021-45706)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2021-45330](https://nvd.nist.gov/vuln/detail/CVE-2021-45330)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2021-32928](https://nvd.nist.gov/vuln/detail/CVE-2021-32928)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2020-13451](https://nvd.nist.gov/vuln/detail/CVE-2020-13451)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2019-11514](https://nvd.nist.gov/vuln/detail/CVE-2019-11514)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2017-17090](https://nvd.nist.gov/vuln/detail/CVE-2017-17090)</td><td>Clear</td><td>7.5</td></tr><tr><td>
+[CVE-2022-22086](https://nvd.nist.gov/vuln/detail/CVE-2022-22086)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2022-20127](https://nvd.nist.gov/vuln/detail/CVE-2022-20127)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2021-37120](https://nvd.nist.gov/vuln/detail/CVE-2021-37120)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2021-1910](https://nvd.nist.gov/vuln/detail/CVE-2021-1910)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2020-8432](https://nvd.nist.gov/vuln/detail/CVE-2020-8432)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2020-6016](https://nvd.nist.gov/vuln/detail/CVE-2020-6016)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2020-0103](https://nvd.nist.gov/vuln/detail/CVE-2020-0103)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2019-15504](https://nvd.nist.gov/vuln/detail/CVE-2019-15504)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2018-20961](https://nvd.nist.gov/vuln/detail/CVE-2018-20961)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2018-0101](https://nvd.nist.gov/vuln/detail/CVE-2018-0101)</td><td>Deallocate</td><td>10</td></tr><tr><td>
+[CVE-2022-28350](https://nvd.nist.gov/vuln/detail/CVE-2022-28350)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2022-28349](https://nvd.nist.gov/vuln/detail/CVE-2022-28349)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2022-28348](https://nvd.nist.gov/vuln/detail/CVE-2022-28348)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2022-21806](https://nvd.nist.gov/vuln/detail/CVE-2022-21806)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2021-37045](https://nvd.nist.gov/vuln/detail/CVE-2021-37045)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2021-21941](https://nvd.nist.gov/vuln/detail/CVE-2021-21941)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2021-1976](https://nvd.nist.gov/vuln/detail/CVE-2021-1976)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2021-1946](https://nvd.nist.gov/vuln/detail/CVE-2021-1946)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2021-1829](https://nvd.nist.gov/vuln/detail/CVE-2021-1829)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2020-9633](https://nvd.nist.gov/vuln/detail/CVE-2020-9633)</td><td>Dereference</td><td>10</td></tr><tr><td>
+[CVE-2022-28350](https://nvd.nist.gov/vuln/detail/CVE-2022-28350)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2022-28349](https://nvd.nist.gov/vuln/detail/CVE-2022-28349)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2022-28348](https://nvd.nist.gov/vuln/detail/CVE-2022-28348)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2022-21806](https://nvd.nist.gov/vuln/detail/CVE-2022-21806)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2022-20238](https://nvd.nist.gov/vuln/detail/CVE-2022-20238)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2021-40393](https://nvd.nist.gov/vuln/detail/CVE-2021-40393)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2021-40050](https://nvd.nist.gov/vuln/detail/CVE-2021-40050)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2021-39708](https://nvd.nist.gov/vuln/detail/CVE-2021-39708)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2021-37045](https://nvd.nist.gov/vuln/detail/CVE-2021-37045)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2021-27692](https://nvd.nist.gov/vuln/detail/CVE-2021-27692)</td><td>Read</td><td>10</td></tr><tr><td>
+[CVE-2022-41837](https://nvd.nist.gov/vuln/detail/CVE-2022-41837)</td><td>Reassign</td><td>9.8</td></tr><tr><td>
+[CVE-2021-21798](https://nvd.nist.gov/vuln/detail/CVE-2021-21798)</td><td>Reassign</td><td>8.8</td></tr><tr><td>
+[CVE-2021-34720](https://nvd.nist.gov/vuln/detail/CVE-2021-34720)</td><td>Reassign</td><td>8.6</td></tr><tr><td>
+[CVE-2021-28216](https://nvd.nist.gov/vuln/detail/CVE-2021-28216)</td><td>Reassign</td><td>4.6</td></tr><tr><td>
+[CVE-2020-8974](https://nvd.nist.gov/vuln/detail/CVE-2020-8974)</td><td>Reassign</td><td>n/a</td></tr><tr><td>
+[CVE-2021-3319](https://nvd.nist.gov/vuln/detail/CVE-2021-3319)</td><td>Reposition</td><td>7.5</td></tr><tr><td>
+[CVE-2021-3510](https://nvd.nist.gov/vuln/detail/CVE-2021-3510)</td><td>Reposition</td><td>5</td></tr><tr><td>
+[CVE-2022-32454](https://nvd.nist.gov/vuln/detail/CVE-2022-32454)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-32032](https://nvd.nist.gov/vuln/detail/CVE-2022-32032)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-31209](https://nvd.nist.gov/vuln/detail/CVE-2022-31209)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30926](https://nvd.nist.gov/vuln/detail/CVE-2022-30926)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30925](https://nvd.nist.gov/vuln/detail/CVE-2022-30925)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30924](https://nvd.nist.gov/vuln/detail/CVE-2022-30924)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30923](https://nvd.nist.gov/vuln/detail/CVE-2022-30923)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30922](https://nvd.nist.gov/vuln/detail/CVE-2022-30922)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30921](https://nvd.nist.gov/vuln/detail/CVE-2022-30921)</td><td>Write</td><td>10</td></tr><tr><td>
+[CVE-2022-30920](https://nvd.nist.gov/vuln/detail/CVE-2022-30920)</td><td>Write</td><td>10</td></tr>
 
 </table>
