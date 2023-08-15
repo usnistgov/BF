@@ -4,7 +4,7 @@ bookCollapseSection: false
 title: "BF Welcome"
 url: /
 ---
-# Welcome to Bugs Framework! <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# Welcome to Bugs Framework (BF)! <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The NIST Bugs Framework (BF – _Software developers "Best Friend"_) is a language and domain independent,
 
@@ -35,7 +35,7 @@ Each BF class has a strict definition and a taxonomy. The taxonomy of a class co
 *   A set of attributes for the operations and the operands
 *   A set of attributes with values – for the operations and the operands.
 
-# BF Intro Presentations
+## BF Intro Presentations
 <br/>
 {{< rawhtml >}} 
 BF Terminology and Existing Repositories:
