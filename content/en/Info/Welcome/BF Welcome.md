@@ -4,27 +4,28 @@ bookCollapseSection: false
 title: "BF Welcome"
 url: /
 ---
-# Welcome to Bugs Framework (BF)! <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+<!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
+# Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'<l/><l style="color: black">!<l/><br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-The NIST Bugs Framework (BF – _Software developers "Best Friend"_) is a language and domain independent,
+The NIST Bugs Framework (BF) is a language and domain independent, 
+<div style="text-indent: 40px">➢ structured,</div></br>
+<div style="text-indent: 80px">➢ orthogonal,</div><br/>
+<div style="text-indent: 120px">➢ complete classification system of software security bugs and weaknesses that allows precise descriptions of vulnerabilities that exploit them.</div>
 
-     ➢ Structured  
+<br/>'Structured' means a weakness is described via one 'cause', one 'operation', one 'consequence', and 'attributes' from the lists defining a BF class -- '(bug, operation, error)' and '(fault, operation, error)' triples are used to create precise causal descriptions (see [BF definitions](/BF/info/model/bf-concepts/)).This assures precise causal descriptions.
+<br/><br/>
+_Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures BF  weakness types do not overlap. 
+<br/><br/>
+_Complete_ means once BF is fully developed, it will have the expressiveness power to describe any software bug or weakness. This assures there are no gaps in coverage. 
+<br/><br/>
+_Classification system_ means bugs and weaknesses chain via cause–consequence–cause transitions. This assures back-tracking from the failure through errors to the bug. 
+<br/><br/>
+_Language and domain independent_ means BF is applicable for source code in any programming language and is technology independent.
+<br/><br/>
 
-               ➢ Orthogonal
+All the above together allow creation of precise weakness and vulnerability descriptions. 
 
-                              ➢ Complete
-
-classification system of software security bugs and weaknesses that allows precise descriptions of vulnerabilities that exploit such weaknesses.
-
-_Structured_ means a weakness is described via one cause, one operation, one consequence, and one value per attribute from the lists defining a BF class. This assures precise causal descriptions.
-
-_Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures there are no overlaps in coverage. 
-
-_Complete_ means BF will have the expressiveness power to describe any software bug or weakness. This assures there are no gaps in coverage. _Classification system_ means bugs and weaknesses chain via cause–consequence–cause transitions. This assures back-tracking from the failure through errors to the bug. All these together resolve the imprecise descriptions problem. BF is also applicable for source code in any programming language and is technology independent. 
-
-Each BF class is a taxonomic  category  of  a  weakness type. It relates to a distinct phase of software execution, the operations specific for that phase and 
-the operands required as input to those operations. Operations or operands improperness define the causes. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or is a final error, leading to a failure. The attributes describe the operations and the operands. 
-They help us understand the severity of the bug or the weakness.
+Each BF class is a taxonomic  category  of  a  weakness type. It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations. Operations or operands improperness define the causes. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or is a final error, leading to a failure. The attributes describe the operations and the operands. They help in understanding the severity of the bug/weakness.
 
 Each BF class has a strict definition and a taxonomy. The taxonomy of a class comprises:
 
@@ -36,6 +37,7 @@ Each BF class has a strict definition and a taxonomy. The taxonomy of a class co
 *   A set of attributes with values – for the operations and the operands.
 
 ## BF Intro Presentations
+
 <br/>
 {{< rawhtml >}} 
 BF Terminology and Existing Repositories:
@@ -67,3 +69,7 @@ BF Hands On and Potential Impacts <br/>
 </div>
 
 {{< /rawhtml >}}
+
+<br/><br/>
+
+*Important Note: <br/> `Any BF application publication that list classes not listed on this website is a misrepresentation of BF.`

@@ -2,14 +2,18 @@
 weight: 7
 title: "BF Contact Us"
 ---
-# BF Contact
-### [Irena Bojanova](https://www.nist.gov/people/irena-bojanova)
-Primary Investigator and Lead</br>
-Bugs Framework (BF) Project</br>
+
+# BF Contact <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+</br>
+If you are using or plan to use the Bugs Framewrok (BF), please do not hesitate to reach out for guidance and tool demonstrations.
+
+#### [Irena Bojanova](https://www.nist.gov/people/irena-bojanova)
+Primary Investigator and Lead, Bugs Framework (BF) Project</br>
 irena.bojanova@nist.gov</br>
 </br>
-Software Systems Division (SSD)</br>
-Information Technology Laboratory (ITL)</br>
+Software Systems Division (SSD), Information Technology Laboratory (ITL)</br>
 National Institute of Standards and Technology (NIST)</br>
-100 Bureau Dr, Stop 8930</br>
-Gaithersburg, MD 20899
+100 Bureau Dr, Stop 8930, Gaithersburg, MD 20899
+</br></br>
+
+`Important Note: Any BF application publication that list classes not listed on this website is a misrepresentation of BF.`

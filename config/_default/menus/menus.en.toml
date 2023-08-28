@@ -114,7 +114,13 @@
   post = "v0.1.0"
   weight = 10
 
- [[footer]]
+
+[[footer]]
+   name = "NIST"
+   url = "https://www.nist.gov"
+   weight = 1
+
+[[footer]]
    name = "Site Privacy"
    url = "https://www.nist.gov/privacy-policy"
    weight = 1

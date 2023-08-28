@@ -11,7 +11,7 @@ The following software security concepts definitions were developed iteratively,
 
 *   A _software security vulnerability_ is a chain of weaknesses linked by causality. It starts with a bug and ends with a final error, which if exploited leads to a security failure.
 
-*   A _software security weakness_ is a \code{(bug, operation, error)} or \code{(fault, operation, error)} triple. It is an instance of a weakness type that relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations.
+*   A _software security weakness_ is a _'(bug, operation, error)'_ or '(fault, operation, error)' triple. It is an instance of a weakness type that relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations.
 
 *   A _software security bug_ is a code or specification defect -- an operation defect. 
 
