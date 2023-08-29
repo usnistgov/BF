@@ -16,4 +16,5 @@ National Institute of Standards and Technology (NIST)</br>
 100 Bureau Dr, Stop 8930, Gaithersburg, MD 20899
 </br></br>
 
-`Important Note: Any BF application publication that list classes not listed on this website is a misrepresentation of BF.`
+`Important Note:`</br> 
+Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. When I doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.

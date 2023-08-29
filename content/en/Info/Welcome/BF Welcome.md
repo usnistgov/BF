@@ -14,7 +14,8 @@ The NIST Bugs Framework (BF) is a language and domain independent,
 <br/>
 <div style="text-indent: 120px">
 
-`Note: Any BF application publication that list classes not listed on this website is a misrepresentation of BF.` </div>
+`Important Note:`</br>
+Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. When I doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.
 
 <br/>_Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class -- _(bug, operation, error)_ and _(fault, operation, error)_ triples are used to create precise causal descriptions (see [BF definitions](/BF/info/model/bf-concepts/)).This assures precise causal descriptions.
 <br/><br/>
