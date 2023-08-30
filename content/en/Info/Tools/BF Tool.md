@@ -17,7 +17,7 @@ To obtain the BF tool, please register here. We ask you only for an email addres
 <br/>
 
 `Important Note:`</br>
-Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. When I doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.
+Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.
 
 NIST is an agency of the US Government and this  software is public domain in the United States. <br/>
 Please explicitly acknowledge the source of the Bugs Framework (BF) and the Bugs Framework (BF) Tool.

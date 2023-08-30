@@ -17,4 +17,4 @@ National Institute of Standards and Technology (NIST)</br>
 </br></br>
 
 `Important Note:`</br> 
-Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. When I doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.
+Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation.
