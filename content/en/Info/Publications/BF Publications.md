@@ -5,7 +5,7 @@ title: "BF Publications"
 ---
 # BF Publications <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-Please, reference BF publications `from year 2020 up`, as they start reveiling the _BF formalism_ . 
+Please, reference BF publications `recent than year 2021`, as they start revealing my ideas about `BF's formalism` . 
 If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 |     |
 | --- |
@@ -17,9 +17,9 @@ If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 | I. Bojanova, C. E. Galhardo and S. Moshtari, "Input/Output Check Bugs Taxonomy: Injection Errors in Spotlight," _2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)_, 2021, pp. 111-120 , doi: [10.1109/ISSREW53611.2021.00052](https://doi.org/10.1109/ISSREW53611.2021.00052), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933193) |
 | A. Gueye, C. E. Galhardo, I. Bojanova and P. Mell, "A Decade of Reoccurring Software Weaknesses," in _IEEE Security & Privacy_, vol. 19, no. 6, pp. 74-82, Nov.-Dec. 2021, doi: [10.1109/MSEC.2021.3082757](https://doi.org/10.1109/MSEC.2021.3082757), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=932064) |
 | I. Bojanova and C. Eduardo Galhardo, "Classifying Memory Bugs Using Bugs Framework Approach," _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021), pp. 1157-1164, doi: [10.1109/COMPSAC51774.2021.00159](https://doi.org/10.1109/COMPSAC51774.2021.00159), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930038) |
+||
+||
 | C. E. Galhardo, P. Mell, I. Bojanova and A. Gueye, “Measurements of the Most Significant Software Security Weaknesses,” _Annual Computer Security Applications Conference (ACSAC)_, pp. _154–164, Dec._ 2020, doi: [10.1145/3427228.3427257](https://doi.org/10.1145/3427228.3427257), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930459) |
-||
-||
 | I. Bojanova, Y. Yesha, P. E. Black and Y. Wu, "Information Exposure (IEX): A New Class in the Bugs Framework (BF)," _2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)_, 2019, pp. 559-564, doi: [10.1109/COMPSAC.2019.00086](https://doi.org/10.1109/COMPSAC.2019.00086), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=927491) |
 | I. Bojanova, Y. Yesha and P. E. Black, "Randomness Classes in Bugs Framework (BF): True-Random Number Bugs (TRN) and Pseudo-Random Number Bugs (PRN)," _2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC)_, 2018, pp. 738-745, doi: [10.1109/COMPSAC.2018.00110](https://doi.org/10.1109/COMPSAC.2018.00110), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=925123) |
 | I. Bojanova, P. E. Black and Y. Yesha, "Cryptography classes in bugs framework (BF): Encryption bugs (ENC), verification bugs (VRF), and key management bugs (KMN)," _2017 IEEE 28th Annual Software Technology Conference (STC)_, 2017, pp. 1-8, doi:[10.1109/STC.2017.8234453](https://doi.org/10.1109/STC.2017.8234453), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=923663) |
