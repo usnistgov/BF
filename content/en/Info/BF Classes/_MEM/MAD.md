@@ -28,7 +28,7 @@ title: "MAD"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Initialize (pointer) </td>
+			<td>Initialize Pointer </td>
 	<td>Change the undefined data value of a pointer to a meaningful object address; and position the pointer at the start of the object.</td>
 	</tr>
 	<tr>

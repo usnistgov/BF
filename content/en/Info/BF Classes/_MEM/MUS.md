@@ -28,12 +28,12 @@ title: "MUS"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Initialize (object) </td>
+			<td>Initialize Object </td>
 	<td>Change the undefined data value of an object to a meaningful one -- e.g., after an object is allocated.</td>
 	</tr>
 	<tr>
 			<td>Dereference </td>
-	<td>Access object for reading or for writing. It is relevant to the operations Initialize (object), Read, Write, and Clear.</td>
+	<td>Access object for reading or for writing. It is relevant to the operations Initialize Object, Read, Write, and Clear.</td>
 	</tr>
 	<tr>
 			<td>Read </td>
