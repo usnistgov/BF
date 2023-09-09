@@ -34,12 +34,12 @@ Each BF class is a taxonomic  category  of  a  weakness type. It relates to a di
 
 Each BF class has a strict definition and a taxonomy. The taxonomy of a class comprises:
 
-*   A set of operations – where such bugs could happen
-*   A set of causes – the possible improper operations (bugs) and improper operands (faults)
-*   A set of consequences – the possible errors (that become faults for next weaknesses) and the possible final errors (that become exploits)
-*   A matrix of valid cause–operation–consequence relations
-*   A set of attributes for the operations and the operands
-*   A set of attributes with values – for the operations and the operands.
+* A set of operations – where such bugs could happen
+* A set of causes – the possible improper operations (bugs) and improper operands (faults)
+* A set of consequences – the possible errors (that become faults for next weaknesses) and the possible final errors (that become exploits)
+* A matrix of valid cause–operation–consequence relations
+* A set of attributes for the operations and the operands
+* A set of attributes with values – for the operations and the operands.
 
 `Citation: I. Bojanova, NIST, The Bugs Framework (BF), Accessed: 2023-08-29, 2023. [Online]. Available: https://samate.nist.gov/BF/.` 
 
