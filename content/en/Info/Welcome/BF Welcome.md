@@ -8,15 +8,17 @@ url: /
 <!-- <div style="text-indent: 40px"> </div>-->
 # Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_</l>
 
-The Bugs Framework (BF) comprises:
+Bugs Framework (BF) is a classification system of software security bugs and weaknesses that comprises:
 
 <div style="text-indent: 40px">
 
-➢ a structured, complete, orthogonal, language independent _[taxonomy](/BF/info/bf-classes)_ of software security bugs and weaknesses 
+➢ a structured, complete, orthogonal, language independent bug/weakness _[taxonomy](/BF/info/bf-classes)_
 
-➢ a software security _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_, and 
+➢ a software security _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_
 
-➢ a _formal language_ for specification of software security weaknesses and vulnerabilities.
+➢ a _formal language_ for specification of software security weaknesses and vulnerabilities
+
+➢ tools/databases for creating and visualizing BF classes, CWE2BF mappings, BF CWE and BF CVE formal specifications.
 
 </div>
 
