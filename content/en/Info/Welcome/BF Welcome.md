@@ -8,35 +8,27 @@ url: /
 <!-- <div style="text-indent: 40px"> </div>-->
 # Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_</l>
 
-<l style="font-size: 15px; color: #7D3368">_BF Citation: I. Bojanova, NIST, The Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: https://samate.nist.gov/BF/._</l>
-
 The NIST Bugs Framework (BF) comprises:
 
 <div style="text-indent: 40px">
 
-➢ a structured, complete, orthogonal, language independent  [taxonomy](/BF/info/bf-classes) of software security bugs and weaknesses
+➢ a structured, complete, orthogonal, language independent _[taxonomy](/BF/info/bf-classes)_ of software security bugs and weaknesses 
 
-➢ a software security [vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/), and 
+➢ a software security _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_, and 
 
 ➢ a _formal language_ for specification of software security weaknesses and vulnerabilities.
 
 </div>
 
-_Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class (see [BF concepts](/BF/info/vulnerability-model/bf-concepts/)).This assures precise causal descriptions as _(bug, operation, error)_ and _(fault, operation, error)_ triples.
+_Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class (see [BF concepts](/BF/info/vulnerability-model/bf-concepts/)).This assures precise causal descriptions as _(bug, operation, error)_ and _(fault, operation, error)_ triples. _Complete_ means BF has the expressivness power to describe any software security bug and weakness. This assures the BF weakness types have no gaps in coverage. _Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures the BF weakness types do not overlap. _Language independent_ means BF is applicable for source code in any programming language.
 
-_Complete_ means BF has the expressivness power to describe any software security bug and weakness. This assures the BF weakness types have no gaps in coverage. 
+The BF _vulnerability model_ defines how software security weaknesses chain via cause–consequence–cause transitions to form a vulnerability ending with a software security failure. This assures back-tracking from the failure through the errors to the bug. 
 
-_Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures the BF weakness types do not overlap. 
+The BF _formal language_ is generated from the BF LL(1) context-free formal grammar with lexicon defined by the [BF Taxonomy](/BF/info/bf-classes) and syntax defined by the BF [Vulnerability Model](/BF/info/vulnerability-model/bf-vulnerability-model/). This assures the BF specifications are unambiqous!
 
-_Language independent_ means BF is applicable for source code in any programming language.
+<l style="font-size: 15px; color: #0428AE">_BF Citation: I. Bojanova, NIST, The Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: https://samate.nist.gov/BF/._</l>
 
-The BF _vulnerability model_ defines how bugs and weaknesses chain via cause–consequence–cause transitions to form a vulnerability ending in a failure. This assures back-tracking from the failure through the errors to the bug. 
-
-The BF _formal language_ is generated from the BF LL(1) context-free formal grammar with lexocal tokens based on the [BF Taxonomy](/BF/info/bf-classes) and syntax based on the BF [Vulnerability Model](/BF/info/vulnerability-model/bf-vulnerability-model/). This assures the BF specifications are unambiqous!
-
-
-`Important Note:`</br>
-Any BF application publication that lists classes not futured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact) to avoid spreading misinformation. 
+<l style="font-size: 15px; color: #7D3368">Note: Any BF-application publications that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 
 
 ## BF Intro Presentations
 
