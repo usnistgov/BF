@@ -24,4 +24,4 @@ Bugs Framework (BF), 2014-2023<br/>
 Bugs Framework (BF) Tool, 2020-2023<br/>
 [irena.bojanova@nist.gov](irena.bojanova@nist.gov)
 
-<l style="font-size: 15px; color: #7D3368">Important Note: Any BF-application publications that list classes not featured on this website are misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 
+<l style="font-size: 15px; color: #7D3368">Important Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 
