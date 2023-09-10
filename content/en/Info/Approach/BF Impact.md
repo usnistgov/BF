@@ -5,7 +5,7 @@ title: "BF Potential Impact"
 ---
 # BF Impact <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-The NIST Bugs Framework (BF) will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
+The Bugs Framework (BF) will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
 
 * Government could improve the descriptions in public vulnerability repositories and create policies and guidelines for software testing.
 

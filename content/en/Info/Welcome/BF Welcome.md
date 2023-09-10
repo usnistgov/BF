@@ -8,7 +8,7 @@ url: /
 <!-- <div style="text-indent: 40px"> </div>-->
 # Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_</l>
 
-The NIST Bugs Framework (BF) comprises:
+The Bugs Framework (BF) comprises:
 
 <div style="text-indent: 40px">
 
