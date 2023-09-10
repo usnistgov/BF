@@ -1,5 +1,3 @@
-
-
 html {
  position: relative;
  min-height: 100%; }
@@ -15,6 +13,7 @@ html {
  padding-top: 5rem;
 
 }
+
 .nist-footer__menu-item {
   display: inline-block;
   font-size: 14px;
@@ -110,42 +109,41 @@ html {
 }
 fontL{
 color:#d8d7e2 ;
-
-
-
 }
- fontTT {
-   font-family: 'Cinzel', serif;
-   font-size: x-large;
-   text-align:center;
-   color: #000066;
- font-weight:bold;}
- fontT {
-   font-family: 'Roboto', serif;
-   font-size: x-large;
-   color: #000066;}
- fontST {
-   font-family: 'Cinzel', serif;
-   font-size: x-large;
-   color: #000066;
-   font-weight:bold;}
- fontS {
-   font-family: 'Cinzel', serif;
-   font-size: large;
-   color: #000066;
- font-weight:bold;}
- fontSS {
-   font-family: 'Cinzel', serif;
-   font-size: medium;
-   color: #000066;
-   font-weight:bold;;
- }
- fontCode {
-   font-family: 'Source Code Pro', serif;
-   font-size: small;
-   color: #000066;}
- fontR {
-   font-size: small}
+
+fontTT {
+  font-family: 'Cinzel', serif;
+  font-size: x-large;
+  text-align:center;
+  color: #000066;
+font-weight:bold;}
+fontT {
+  font-family: 'Roboto', serif;
+  font-size: x-large;
+  color: #000066;}
+fontST {
+  font-family: 'Cinzel', serif;
+  font-size: x-large;
+  color: #000066;
+  font-weight:bold;}
+fontS {
+  font-family: 'Cinzel', serif;
+  font-size: large;
+  color: #000066;
+font-weight:bold;}
+fontSS {
+  font-family: 'Cinzel', serif;
+  font-size: medium;
+  color: #000066;
+  font-weight:bold;;
+}
+fontCode {
+  font-family: 'Source Code Pro', serif;
+  font-size: small;
+  color: #000066;}
+fontR {
+  font-size: small}
+
  fontD {
    color: #0066ff;}
  fontN {
@@ -156,8 +154,8 @@ color:#d8d7e2 ;
        font-family: 'Cinzel';
        font-size: medium;
        color: #000066;
-
      }
+
  blue {color: #2471a3}
  darkblue {font-weight: bold; color: #0000DD}
  purple {color: #6c3483}

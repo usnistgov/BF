@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 2
 bookHidden: true
 bookCollapseSection: true
 title: "Tools"

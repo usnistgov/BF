@@ -9,6 +9,6 @@ Each memory related bug or weakness involves one memory operation. Each _operati
 
 Memory bugs could be introduced at any of the phases of an object’s lifecycle: _address formation_, _allocation_, _use_, and _deallocation_. The [BF Memory Bugs Model](/Info/BF%20Classes/_MEM/Model) helps identify where in these phases bugs could occur: 
 
-The phases correspond to the BF memory bugs classes: [Memory Addressing Bugs (MAD)](/Info/BF%20Classes/_MEM/MAD), [Memory Management Bugs (MMN)](/Info/BF%20Classes/_MEM/MMN) -- covers both the Memory Allocation (MAL) and the Memory Deallocation (MDL phases), and [Memory Use Bugs (MUS)](/Info/BF%20Classes/_MEM/MUS).
+The phases correspond to the BF memory bugs classes: [Memory Addressing Bugs (MAD)](/Info/BF%20Classes/_mem/mad), [Memory Management Bugs (MMN)](/Info/BF%20Classes/_mem/mmn) -- covers both the Memory Allocation (MAL) and the Memory Deallocation (MDL phases), and [Memory Use Bugs (MUS)](/Info/BF%20Classes/_mem/mus).
 
 For navigation to the _MEM model and classes use the BF>_MEM menu on the left.
