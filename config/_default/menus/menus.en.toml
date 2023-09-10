@@ -6,7 +6,7 @@
   parent = "Welcome"
   
 [[main]]
-  name = "Model"
+  name = "Vulnerability Model"
   weight = 30
   identifier = "Model"
 [[main]]
