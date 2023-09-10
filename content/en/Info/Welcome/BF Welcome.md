@@ -8,17 +8,17 @@ url: /
 <!-- <div style="text-indent: 40px"> </div>-->
 # Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_</l>
 
-Bugs Framework (BF) is a classification system of software security bugs and weaknesses that comprises:
+The Bugs Framework (BF) is a classification system of software security bugs and weaknesses that comprises:
 
 <div style="text-indent: 40px">
 
-➢ a structured, complete, orthogonal, language independent bug/weakness _[taxonomy](/BF/info/bf-classes)_
+➢ A structured, complete, orthogonal, language independent bug/weakness _[taxonomy](/BF/info/bf-classes)_.
 
-➢ a software security _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_
+➢ A software security _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_.
 
-➢ a _formal language_ for specification of software security weaknesses and vulnerabilities
+➢ A _formal language_ for specification of software security weaknesses and vulnerabilities.
 
-➢ tools/databases for creating and visualizing BF classes, CWE2BF mappings, BF CWE and BF CVE formal specifications.
+➢ Tools and databases for creating and visualizing BF classes, CWE2BF mappings, BF CWE and BF CVE formal specifications.
 
 </div>
 
@@ -26,11 +26,11 @@ _Structured_ means a weakness is described via one _cause_, one _operation_, one
 
 The BF _vulnerability model_ defines how software security weaknesses chain via cause–consequence–cause transitions to form a vulnerability ending with a software security failure. This assures back-tracking from the failure through the errors to the bug. 
 
-The BF _formal language_ is generated from the BF LL(1) context-free formal grammar with lexicon defined by the [BF Taxonomy](/BF/info/bf-classes) and syntax defined by the BF [Vulnerability Model](/BF/info/vulnerability-model/bf-vulnerability-model/). This assures the BF specifications are unambiqous!
+The BF _formal language_ is generated from the BF LL(1) context-free formal grammar with lexicon defined by the [BF Taxonomy](/BF/info/bf-classes) and syntax defined by the BF [Vulnerability Model](/BF/info/vulnerability-model/bf-vulnerability-model/). This assures the BF specifications are unambiguous!
 
 <l style="font-size: 15px; color: #0428AE">_BF Citation: I. Bojanova, NIST, The Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: https://samate.nist.gov/BF/._</l>
 
-<l style="font-size: 15px; color: #7D3368">Note: Any BF-application publications that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 
+<l style="font-size: 15px; color: #7D3368">Note: Any BF-application publications that list classes not featured on this website are misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 
 
 ## BF Intro Presentations
 
