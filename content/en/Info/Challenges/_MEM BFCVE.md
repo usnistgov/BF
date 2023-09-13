@@ -40,9 +40,7 @@ There are 60 426 memory related CVEs (as of August 2023). We query the CVE for e
 [CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>9.9</td><td>MMN</td><td>Allocate</td><td rowspan="3" valign="middle">[CWE-400](https://cwe.mitre.org/data/definitions/400.html)</td><td rowspan="3" valign="middle"><ul><li>(Missing Code, Verify, Wrong Value) → (Wrong Size, Allocate, Memory Overflow)<br><li>(SingleOwnedAddress, Reassign, MemoryLeak)<br><li>(MissingCode, Deallocate, MemoryLeak)</ul></td></tr><tr><td>
 [CVE-2022-2259](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>9.8</td><td>MMN</td><td>Allocate</td><tr><td>
 [CVE-2022-19282](https://nvd.nist.gov/vuln/detail/CVE-2022-16492)</td><td>9.8</td><td>MMN</td><td>Allocate</td><tr><td>
-
 [CVE-2017-6713](https://nvd.nist.gov/vuln/detail/CVE-2017-6713)</td><td>9.8</td><td>MMN</td><td>Allocate</td><td>[CWE-770](https://cwe.mitre.org/data/definitions/770.html)</td><td>(Missing Code, Verify, Wrong Value) → (Wrong Size, Allocate, Memory Overflow)/td></tr><tr><td>
-
 [CVE-2018-16492](https://nvd.nist.gov/vuln/detail/CVE-2018-16492)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
 [CVE-2018-16491](https://nvd.nist.gov/vuln/detail/CVE-2018-16491)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
 [CVE-2018-16486](https://nvd.nist.gov/vuln/detail/CVE-2018-16486)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
