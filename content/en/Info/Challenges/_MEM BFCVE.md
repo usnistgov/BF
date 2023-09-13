@@ -2,7 +2,7 @@
 weight: 2
 title: "_MEM BFCVE"
 ---
-# Memory Related BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 The [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) repository has 228 000 software vulnerability entrees (as of August 2023) and 25K+ are being added each year. Systematic labeling of this huge set of CVEs benefits greatly the  advances in modern artificial intelligence (AI) Cybersecurity research. The [National Vulnerability Database (NVD)](https://nvd.nist.gov/), with input from the security community, labels CVEs with [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) entries. However, this has proven to be difficult as CWE has imprecise descriptions, gaps and overlaps in covarage.
 
@@ -28,13 +28,21 @@ There are 60 426 memory related CVEs (as of August 2023). We query the CVE for e
     {{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}
 
 
+<!-- |\_MEM CVEs|CVSS|BF Operation|CWE|BF Chain(s)|
+|----------|----|------------|---|-----------|
+[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)|9.9|Allocate|
+[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)|9.9|Allocate|^ |^ | -->
+
+<!-- <td style="color: purple"> -->
 <table><tr><td>
 
-Most Resent Severe Memory Related CVEs</td><td>by BF Operation</td><td>CVSS</td></tr><tr><td>
-[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>Allocate</td><td>9.9</td></tr><tr><td>
-[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
-[CVE-2019-2259](https://nvd.nist.gov/vuln/detail/CVE-2019-2259)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
-[CVE-2018-19282](https://nvd.nist.gov/vuln/detail/CVE-2018-19282)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
+\_MEM CVEs</td><td>CVSS</td><td>BF Class</td><td>BF Operation</td><td>NVD CWE</td><td>BF Chain(s) Indentifiable from NVD CWE</td></tr><tr><td>
+[CVE-2022-1699](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>9.9</td><td>MMN</td><td>Allocate</td><td rowspan="3" valign="middle">[CWE-400](https://cwe.mitre.org/data/definitions/400.html)</td><td rowspan="3" valign="middle"><ul><li>(Missing Code, Verify, Wrong Value) → (Wrong Size, Allocate, Memory Overflow)<br><li>(SingleOwnedAddress, Reassign, MemoryLeak)<br><li>(MissingCode, Deallocate, MemoryLeak)</ul></td></tr><tr><td>
+[CVE-2022-2259](https://nvd.nist.gov/vuln/detail/CVE-2022-1699)</td><td>9.8</td><td>MMN</td><td>Allocate</td><tr><td>
+[CVE-2022-19282](https://nvd.nist.gov/vuln/detail/CVE-2022-16492)</td><td>9.8</td><td>MMN</td><td>Allocate</td><tr><td>
+
+[CVE-2017-6713](https://nvd.nist.gov/vuln/detail/CVE-2017-6713)</td><td>9.8</td><td>MMN</td><td>Allocate</td><td>[CWE-770](https://cwe.mitre.org/data/definitions/770.html)</td><td>(Missing Code, Verify, Wrong Value) → (Wrong Size, Allocate, Memory Overflow)/td></tr><tr><td>
+
 [CVE-2018-16492](https://nvd.nist.gov/vuln/detail/CVE-2018-16492)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
 [CVE-2018-16491](https://nvd.nist.gov/vuln/detail/CVE-2018-16491)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
 [CVE-2018-16486](https://nvd.nist.gov/vuln/detail/CVE-2018-16486)</td><td>Allocate</td><td>9.8</td></tr><tr><td>
