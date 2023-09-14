@@ -19,6 +19,9 @@ There are 70 736 input/output check related CVEs (as of August 2023). To start w
 4. Get to know the taxonomies of the [BF Input/Output Check Classes](/BF/info/bf-classes/_inp/).
 5. Get to know the [BF Tool](/BF/info/tools/bf-tool).
 6. Collaborate on creating BF descriptions of your CVEs.
+</br>
+`Important Note:` Use the "NVD CWE" and "BF Chain(s) Indentifiable from NVD CWE" columns only as possibly useful guidance. In some cases, a listed CWE may be a wrongly assigned one by NVD, so please notify us if you encounter such. In some cases, the listed chains may be wrong or not the only possible, as the CWE information may be wrong or limited. 
+
 
 ##### Third set of steps:
 7. Open in a text editor the .bfcve file where you saved the BF CVE description usign the BF Tool. 
