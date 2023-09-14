@@ -4,7 +4,7 @@ title: "_MEM BFCVE"
 ---
 # \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
-Let's together start creating of a labeled dataset of memory related software security vulnerability specifications using BF's [memory bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_mem/).
+Let's start creating of a labeled dataset of memory related software security vulnerability specifications using BF's [memory bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_mem/).
 
 There are 60 426 memory related CVEs (as of August 2023). To start with, we query the CVE for entries with CWEs assigned by NVD, where the CWEs also map by operation to BF Memory Corruption and Disclosure classes. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum ten CVEs per operation -- thus reducing the count to 91 most severe CVEs per _MEM BF operation. 
 
@@ -23,7 +23,7 @@ There are 60 426 memory related CVEs (as of August 2023). To start with, we quer
 8. Copy the entire content of the .bfcve file. This is your BF CVE specification in XML format.
 9. Submit the the copied .bfcve content and the links to the Bug Report, the Code with Bug, and the Code with Fix here: 
 
-    {{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}
+<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}</div>
 
 <!-- <td style="color: purple"> -->
 <table><tr><td>

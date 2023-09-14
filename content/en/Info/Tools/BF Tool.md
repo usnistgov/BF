@@ -12,9 +12,7 @@ The BF Tool facilitates the use of the BF taxonomy in describing security vulner
 
 To obtain the BF tool, please register here. We ask you only for an email address to which to send you a unique download link and for the name of your organization to informa our management about the interest in BF. Alternatively, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov) including the name of your organization.
 
-<br/>
 <div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register to Download the BF Tool{{< /button >}}</div>
-<br/>
 
 NIST is an agency of the US Government and this  software is public domain in the United States. <br/>
 Please explicitly acknowledge the source of the Bugs Framework (BF) and the Bugs Framework (BF) Tool.
