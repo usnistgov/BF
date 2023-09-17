@@ -115,7 +115,7 @@ There are 60 426 memory related CVEs (as of August 2023). To start with, we quer
 [CVE-2021-3889](https://nvd.nist.gov/vuln/detail/CVE-2021-3889)</td><td>7.1</td><td>MAD</td><td>Reposition</td></tr><td>																										
 [CVE-2021-3319](https://nvd.nist.gov/vuln/detail/CVE-2021-3319)</td><td>7.5</td><td>MAD</td><td>Reposition</td><td>[CWE-588](https://cwe.mitre.org/data/definitions/588.html)</td><td>(Erroneous Code, Cast, Wrong Type) →<br>→
 (Casted Pointer, Read/Write/Dereference, Type Confusion)</td></tr><tr><td>																																			
-[CVE-2022-32032](https://nvd.nist.gov/vuln/detail/CVE-2022-32032)</td><td>10</td><td>MUS</td><td>Write</td><td rowspan="7" valign="middle">[CWE-787](https://cwe.mitre.org/data/definitions/787.html)</td><td rowspan="7" valign="middle">(Hard Coded Address, Initialize/Reassign, Wild Pointer)</td></tr><tr><td>
+[CVE-2022-32032](https://nvd.nist.gov/vuln/detail/CVE-2022-32032)</td><td>10</td><td>MUS</td><td>Write</td><td rowspan="8" valign="middle">[CWE-787](https://cwe.mitre.org/data/definitions/787.html)</td><td rowspan="8" valign="middle">(Hard Coded Address, Initialize/Reassign, Wild Pointer)</td></tr><tr><td>
 [CVE-2022-30926](https://nvd.nist.gov/vuln/detail/CVE-2022-30926)</td><td>10</td><td>MUS</td><td>Write</td></tr><td>
 [CVE-2022-30925](https://nvd.nist.gov/vuln/detail/CVE-2022-30925)</td><td>10</td><td>MUS</td><td>Write</td></tr><td>
 [CVE-2022-30924](https://nvd.nist.gov/vuln/detail/CVE-2022-30924)</td><td>10</td><td>MUS</td><td>Write</td></tr><td>
