@@ -1,5 +1,5 @@
 ﻿---
-weight: 4
+weight: 6
 title: "BFAI"
 ---
 # BFAI Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_

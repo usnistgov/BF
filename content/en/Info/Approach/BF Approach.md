@@ -36,3 +36,9 @@ A BF class is a taxonomic category of a weakness type, defined by:
 *   A set of attributes.
 
 The taxonomy of a particular bug or weakness is based on one BF class. Its description is an instance of a taxonomic BF class with one cause, one operation, one consequence, and their attributes. The operation binds the cause→consequence relation – e.g., deallocation via a dangling pointer leads to a failure known as double free.
+
+In some cases, several vulnerabilities must be present for an exploit to be harmful. The final errors resulting from different chains converge to cause a failure (see  Figure 2). The bug in at least one of the chains must be fixed to avoid that failure.  
+
+<br/>
+ {{< img src="images/BF Models/ConvergingChains.svg" height="350" caption="Figure 2. Converging software security vulnerabilities, leading to a security failure." >}}
+<br/>

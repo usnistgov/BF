@@ -1,5 +1,5 @@
 ﻿---
-weight: 3
+weight: 5
 title: "CWE2BF"
 ---
 # CWE2BF Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
