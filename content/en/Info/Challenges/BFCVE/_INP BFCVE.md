@@ -1,5 +1,5 @@
 ﻿---
-weight: 3
+weight: 2
 title: "_INP BFCVE"
 ---
 # \_INP BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
@@ -11,7 +11,7 @@ There are 70 736 input/output check related CVEs (as of August 2023). To start w
 ##### First set of steps:
 
 1. Explore the CVEs listed below. Each one has input/output check related underlying weaknesses and was identified via the corresponding [CWE2BF mappings](/BF/info/bf-classes/_inp/cwe2bf/) and the CWE to CVE assignments by NVD.
-2. Identify at least one CVE for wchich you can find the Bug Report, the Code with Bug, and the Code with Fix (locate the specific GitHub repository with the Diffs). See how these are listed for the examples in [BFCVE](/BF/info/bfcve/) on the left. 
+2. Identify at least one CVE for wchich you can find the Bug Report, the Code with Bug, and the Code with Fix (locate the specific GitHub repository with the Diffs). See how these are listed for the examples in [BFCVE](BF/info/bf-cve/overview/) on the left. 
 
 ##### Second set of steps:
 
@@ -28,7 +28,7 @@ There are 70 736 input/output check related CVEs (as of August 2023). To start w
 8. Copy the entire content of the .bfcve file. This is your BF CVE specification in XML format.
 9. Submit the the copied .bfcve content and the links to the Bug Report, the Code with Bug, and the Code with Fix here: 
 
-<div style="text-align:center">{{{< button href="https://forms.gle/8gL4pev5XHqbpX6t5">}}Submit your Findings{{< /button >}}</div>
+<div style="text-align:center">{{< button href="https://forms.gle/8gL4pev5XHqbpX6t5">}}Submit your Findings{{< /button >}}</div>
 
 
-//90 CVEs list to be added//
+//91 CVEs list to be added//

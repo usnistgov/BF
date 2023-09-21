@@ -1,5 +1,5 @@
 ﻿---
-weight: 4
+weight: 3
 title: "_MEM BFCVE"
 ---
 # \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
