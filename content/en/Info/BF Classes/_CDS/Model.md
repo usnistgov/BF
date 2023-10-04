@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Model"
+title: "Bugs Model"
 ---
 # BF Crypto Data Security Model<br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 

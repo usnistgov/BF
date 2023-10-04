@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Model"
+title: "Bugs Model"
 ---
 # BF Memory Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
