@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="219.25139mm"
+   height="150.88174mm"
+   viewBox="0 0 219.25139 150.88175"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="_CDS.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0520974"
+     inkscape:cx="-48.474601"
+     inkscape:cy="241.89776"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="859"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0">
+      <rect
+         x="201"
+         y="20"
+         width="837"
+         height="549"
+         id="rect1" />
+    </clipPath>
+    <clipPath
+       id="clip0-7">
+      <rect
+         x="201"
+         y="140"
+         width="837"
+         height="587"
+         id="rect1-6" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-117.82778,-84.541613)">
+    <g
+       clip-path="url(#clip0-7)"
+       transform="matrix(0.26458333,0,0,0.26458333,62.485763,45.313517)"
+       id="g71">
+      <path
+         d="m 297.5,572.001 c 0,-11.323 9.178,-20.501 20.501,-20.501 H 929 c 11.322,0 20.5,9.178 20.5,20.501 v 81.998 c 0,11.323 -9.178,20.501 -20.5,20.501 H 318.001 c -11.323,0 -20.501,-9.178 -20.501,-20.501 z"
+         stroke="#deebf7"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f6f8fc"
+         fill-rule="evenodd"
+         id="path1" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(610.902,574)"
+         id="text1">DSV</text>
+      <path
+         d="m 429.5,589.5 c 0,-1.657 1.343,-3 3,-3 h 36 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -36 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path2" />
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(436.093,600)"
+         id="text2">Hash</text>
+      <path
+         d="m 297.5,419.167 c 0,-10.862 8.805,-19.667 19.667,-19.667 h 612.666 c 10.862,0 19.667,8.805 19.667,19.667 v 78.666 c 0,10.862 -8.805,19.667 -19.667,19.667 H 317.167 c -10.862,0 -19.667,-8.805 -19.667,-19.667 z"
+         stroke="#deebf7"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f6f8fc"
+         fill-rule="evenodd"
+         id="path3" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(610.569,422)"
+         id="text3">CPH</text>
+      <path
+         d="m 334.5,217.5 c 0,-16.016 12.984,-29 29,-29 h 501 c 16.016,0 29,12.984 29,29 v 116 c 0,16.016 -12.984,29 -29,29 h -501 c -16.016,0 -29,-12.984 -29,-29 z"
+         stroke="#deebf7"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f6f8fc"
+         fill-rule="evenodd"
+         id="path4" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(600.413,213)"
+         id="text4">KMN</text>
+      <path
+         d="m 0.0360197,-0.331381 2.9027603,0.315517 2.93215,0.828651 2.92398,1.461993 2.84869,1.9624 2.8379,2.5226 2.832,2.95791 2.7661,3.45751 2.7622,3.955 2.6345,4.3282 2.6321,4.8254 2.5681,5.199 2.5057,5.5751 4.8187,12.2033 4.5054,13.5787 4.1289,14.7014 3.7532,15.7632 3.2524,16.7005 2.7518,17.386 2.2513,17.948 1.6886,18.387 1.0007,18.762 0.3751,18.818 0.1875,9.437 -6e-4,-0.013 0.5625,9.438 -0.0016,-0.019 2.1875,18.687 -0.0039,-0.024 3.5625,18.375 -0.0049,-0.022 4.75,18 -0.0069,-0.023 5.9375,17.375 -0.0082,-0.021 7,16.625 -0.0095,-0.021 7.9375,15.75 -0.0121,-0.022 8.8754,14.75 -0.014,-0.021 9.562,13.5 -0.016,-0.021 10.25,12.25 -0.016,-0.018 5.375,5.563 -0.011,-0.011 5.438,5.125 -0.012,-0.011 5.625,4.813 -0.016,-0.013 5.688,4.313 -0.015,-0.011 5.813,3.938 -0.02,-0.012 5.937,3.437 -0.019,-0.01 5.938,2.937 -0.023,-0.01 6,2.438 -0.022,-0.008 6.125,2 -0.029,-0.009 6.062,1.375 -0.026,-0.005 6.125,0.876 -0.031,-0.003 6.188,0.312 h -0.032 l 12.25,-0.563 -0.032,0.004 12.187,-1.75 -0.027,0.005 12,-2.75 -0.025,0.006 11.75,-3.687 -0.027,0.009 11.313,-4.625 -0.024,0.011 10.813,-5.437 -0.023,0.012 10.25,-6.187 -0.021,0.014 9.625,-6.875 -0.022,0.016 8.813,-7.437 -0.022,0.02 7.938,-8 -0.02,0.022 7,-8.438 -0.019,0.025 6,-8.812 -0.02,0.033 4.75,-9.063 -0.016,0.037 3.562,-9.375 -0.013,0.043 2.188,-9.438 -0.007,0.045 0.271,-2.927 0.664,0.061 -0.274,2.95 -2.197,9.481 -3.578,9.415 -4.768,9.097 -6.02,8.842 -7.019,8.461 -7.959,8.021 -8.834,7.455 -9.646,6.891 -10.272,6.2 -10.836,5.45 -11.337,4.635 -11.776,3.695 -12.026,2.756 -12.218,1.755 -12.282,0.564 -6.219,-0.314 -6.153,-0.879 -6.091,-1.382 -6.151,-2.008 -6.022,-2.447 -5.958,-2.948 -5.957,-3.448 -5.83,-3.95 -5.702,-4.323 -5.639,-4.824 -5.449,-5.136 -5.389,-5.577 -10.266,-12.269 -9.577,-13.522 -8.8881,-14.771 -7.9482,-15.771 -7.0089,-16.646 -5.9451,-17.397 -4.7558,-18.023 -3.567,-18.398 -2.1901,-18.709 -0.5634,-9.454 -0.1877,-9.444 -0.375,-18.812 4e-4,0.011 -1,-18.75 0.001,0.012 -1.6875,-18.375 0.0012,0.011 -2.25,-17.937 0.0015,0.011 -2.75,-17.375 0.002,0.011 -3.25,-16.6873 0.0029,0.0135 -3.75,-15.75 0.0034,0.0129 -4.125,-14.6875 0.0045,0.0149 -4.5,-13.5625 0.0064,0.0174 -4.8125,-12.1875 0.006,0.0142 -2.5,-5.5625 0.0051,0.011 -2.5625,-5.1875 0.0063,0.012 -2.625,-4.8125 0.0079,0.0137 -2.625,-4.3125 0.0114,0.0176 -2.75,-3.9375 0.013,0.0173 -2.75,-3.4375 0.0195,0.0223 -2.8125,-2.93748 0.0193,0.01862 -2.8125,-2.5 0.0324,0.02536 -2.8125,-1.9375 0.04003,0.02364 -2.875,-1.4375 0.05842,0.02263 -2.875,-0.8125 0.05463,0.010611 -2.8749997,-0.3125 z M 319.132,308.336 l 4.501,-7.729 3.483,8.239 z"
+         transform="matrix(0,1,1,0,623.5,309.5)"
+         id="path5" />
+      <path
+         d="m 307.5,460.333 c 0,-1.564 1.269,-2.833 2.833,-2.833 h 134.334 c 1.565,0 2.833,1.269 2.833,2.833 v 11.334 c 0,1.565 -1.268,2.833 -2.833,2.833 H 310.333 c -1.564,0 -2.833,-1.268 -2.833,-2.833 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(312.564,470)"
+         id="text6">Asymmetric</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(378.564,470)"
+         id="text7">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(385.231,470)"
+         id="text8">Symmetric</text>
+      <path
+         d="m 623.604,309.537 -0.316,2.844 -0.892,2.867 -1.399,2.862 -2.027,2.787 -2.459,2.775 -3.024,2.771 -3.518,2.701 -3.892,2.7 -4.392,2.572 -4.823,2.568 -5.199,2.569 -5.64,2.443 -12.327,4.694 -13.578,4.38 -14.826,4.066 -15.888,3.628 -16.762,3.189 -17.448,2.752 -18.075,2.189 -18.573,1.564 -18.824,1 -18.943,0.375 -9.5,0.188 0.014,-0.001 -9.438,0.563 0.019,-0.002 -18.813,2.188 0.025,-0.004 -18.5,3.562 0.023,-0.005 -18.063,4.813 0.022,-0.007 -17.5,6 0.021,-0.008 -16.687,7 0.021,-0.01 -15.875,8 0.021,-0.012 -14.812,8.875 0.021,-0.014 -13.562,9.625 0.021,-0.016 -12.313,10.313 0.018,-0.016 -5.563,5.375 0.01,-0.01 -5.25,5.5 0.014,-0.015 -4.75,5.625 0.01,-0.013 -4.375,5.75 0.012,-0.016 -3.938,5.875 0.01,-0.015 -3.5,5.875 0.013,-0.024 -2.938,6 0.009,-0.02 -2.5,6.063 0.01,-0.027 -1.938,6.125 0.007,-0.024 -1.438,6.125 0.006,-0.03 -0.875,6.188 0.003,-0.03 -0.313,6.187 v -0.032 l 0.563,12.375 -0.003,-0.028 1.625,12.25 -0.005,-0.029 2.688,12 -0.007,-0.024 3.563,11.813 -0.009,-0.025 4.438,11.375 -0.01,-0.024 5.25,10.875 -0.012,-0.021 5.938,10.312 -0.014,-0.022 6.625,9.688 -0.015,-0.021 7.125,8.875 -0.02,-0.022 7.688,8 -0.023,-0.022 8.125,7 -0.025,-0.019 8.5,6 -0.032,-0.02 8.75,4.812 -0.037,-0.017 8.937,3.562 -0.045,-0.014 9.125,2.187 -0.047,-0.007 2.576,0.244 -0.063,0.663 -2.599,-0.246 -9.171,-2.198 -8.979,-3.579 -8.785,-4.832 -8.528,-6.02 -8.149,-7.021 -7.709,-8.022 -7.142,-8.896 -6.64,-9.709 -5.95,-10.334 -5.26,-10.898 -4.447,-11.399 -3.57,-11.837 -2.694,-12.026 -1.628,-12.279 -0.564,-12.405 0.314,-6.219 0.879,-6.217 1.444,-6.152 1.945,-6.151 2.51,-6.085 2.948,-6.022 3.512,-5.894 3.947,-5.891 4.387,-5.765 4.762,-5.639 5.261,-5.512 5.576,-5.388 12.332,-10.329 13.584,-9.64 14.834,-8.888 15.896,-8.01 16.709,-7.009 17.521,-6.008 18.085,-4.818 18.524,-3.567 18.834,-2.19 9.454,-0.564 9.506,-0.187 18.938,-0.375 h -0.011 l 18.812,-1 -0.01,0.001 18.562,-1.563 -0.012,0.002 18.063,-2.188 -0.012,0.002 17.437,-2.75 -0.01,0.002 16.75,-3.188 -0.012,0.003 15.875,-3.625 -0.014,0.003 14.813,-4.062 -0.015,0.004 13.563,-4.375 -0.016,0.005 12.312,-4.687 -0.014,0.006 5.625,-2.438 -0.015,0.007 5.188,-2.562 -0.009,0.004 4.812,-2.562 -0.012,0.006 4.375,-2.562 -0.021,0.014 3.875,-2.688 -0.013,0.01 3.5,-2.688 -0.022,0.019 3,-2.75 -0.025,0.024 2.438,-2.75 -0.02,0.025 2,-2.75 -0.03,0.05 1.375,-2.812 -0.019,0.047 0.875,-2.813 -0.013,0.063 0.313,-2.813 z M 308.79,628.6 l 7.71,4.533 -8.253,3.449 z"
+         id="path8" />
+      <path
+         d="m 427.5,626.5 c 0,-1.657 1.343,-3 3,-3 h 64 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -64 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path9" />
+      <text
+         fill="#008080"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(431.656,637)"
+         id="text9">Hash+RND</text>
+      <path
+         d="m 368.5,643.333 c 0,-1.564 1.269,-2.833 2.833,-2.833 h 37.334 c 1.565,0 2.833,1.269 2.833,2.833 v 11.334 c 0,1.565 -1.268,2.833 -2.833,2.833 h -37.334 c -1.564,0 -2.833,-1.268 -2.833,-2.833 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path10" />
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(376.915,653)"
+         id="text10">CPH</text>
+      <path
+         d="m 316.5,626.5 c 0,-1.657 1.343,-3 3,-3 h 80 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -80 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path11" />
+      <text
+         fill="#3333cc"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(321.073,637)"
+         id="text11">DigSgn</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(363.74,637)"
+         id="text12">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(370.406,637)"
+         id="text13">MAC</text>
+      <path
+         d="m 822.5,643.333 c 0,-1.564 1.269,-2.833 2.833,-2.833 h 36.334 c 1.565,0 2.833,1.269 2.833,2.833 v 11.334 c 0,1.565 -1.268,2.833 -2.833,2.833 h -36.334 c -1.564,0 -2.833,-1.268 -2.833,-2.833 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path13" />
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(830.592,653)"
+         id="text14">DSV</text>
+      <path
+         d="m 429.5,312.5 c 0,-1.657 1.343,-3 3,-3 h 65 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -65 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path14" />
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(435.822,323)"
+         id="text15">CPH, DSV</text>
+      <path
+         d="m 552.5,254.5 c 0,-1.657 1.343,-3 3,-3 h 37 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -37 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path15" />
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(561.124,265)"
+         id="text16">CPH</text>
+      <path
+         d="m 346.5,253.5 c 0,-1.657 1.343,-3 3,-3 h 63 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -63 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path16" />
+      <text
+         fill="#008080"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(349.896,264)"
+         id="text17">Hash+RND</text>
+      <path
+         d="m 365.5,605.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 82.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -82.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path17" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(398.368,618)"
+         id="text18">Sign</text>
+      <path
+         d="m 577.5,233.5 c 0,-2.209 1.791,-4 4,-4 h 84 c 2.209,0 4,1.791 4,4 v 16 c 0,2.209 -1.791,4 -4,4 h -84 c -2.209,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path18" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(608.902,246)"
+         id="text19">Store</text>
+      <path
+         d="m 381.5,233.5 c 0,-2.209 1.791,-4 4,-4 h 104 c 2.209,0 4,1.791 4,4 v 16 c 0,2.209 -1.791,4 -4,4 h -104 c -2.209,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path19" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(391.892,246)"
+         id="text20">Generate/ Select</text>
+      <path
+         d="m 493.5,241.167 h 77.63 v 0.666 H 493.5 Z m 76.297,-3.667 8,4 -8,4 z"
+         id="path20" />
+      <path
+         d="M 0.333333,-3.40438e-7 0.333431,96.1294 H -0.333235 L -0.333333,3.40438e-7 Z M 4.0001,94.796 l -3.999995013,8 -4.000004987,-8 z"
+         fill="#920000"
+         transform="matrix(1,0,0,-1,832.5,601.296)"
+         id="path21" />
+      <path
+         d="m 497.5,305.5 c 0,-1.657 1.343,-3 3,-3 h 79 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -79 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path22" />
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(501.468,316)"
+         id="text22">DigSgn</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(544.134,316)"
+         id="text23">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(550.801,316)"
+         id="text24">MAC</text>
+      <path
+         d="m 754.5,233.5 c 0,-2.209 1.791,-4 4,-4 h 84 c 2.209,0 4,1.791 4,4 v 16 c 0,2.209 -1.791,4 -4,4 h -84 c -2.209,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path24" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(779.188,246)"
+         id="text25">Destroy</text>
+      <path
+         d="m 669.5,241.167 h 77.63 v 0.666 H 669.5 Z m 76.297,-3.667 8,4 -8,4 z"
+         id="path25" />
+      <path
+         d="m 577.5,288.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 83.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -83.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path26" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(597.902,301)"
+         id="text26">Distribute</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(237.961,534)"
+         id="text27">plaintext</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(597.221,498)"
+         id="text28">ciphertext</text>
+      <path
+         d="m 456.5,486.167 h 322.687 v 0.666 H 456.5 Z m 321.353,-3.667 8,4 -8,4 z"
+         id="path28" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(961.324,534)"
+         id="text29">plaintext</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(512.885,233)"
+         id="text30">key</text>
+      <rect
+         x="209.5"
+         y="342.5"
+         width="307"
+         height="346"
+         stroke="#a6a6a6"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         stroke-dasharray="5.33333, 2"
+         fill="none"
+         id="rect30" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(218.437,359)"
+         id="text31">Source</text>
+      <rect
+         x="730.5"
+         y="342.5"
+         width="307"
+         height="346"
+         stroke="#a6a6a6"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         stroke-dasharray="5.33333, 2"
+         fill="none"
+         id="rect31" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(1002.4,359)"
+         id="text32">User</text>
+      <path
+         d="m 456.5,617.167 h 322.687 v 0.666 H 456.5 Z m 321.353,-3.667 8,4 -8,4 z"
+         id="path32" />
+      <path
+         d="M 0.0304531,-0.331939 6.86993,0.295536 13.67,2.05853 l 6.6676,2.83055 6.5341,3.83253 6.3416,4.70909 6.0243,5.585 5.7074,6.3346 5.329,7.0845 4.8886,7.6462 4.3866,8.1465 3.8846,8.6465 3.3206,9.0221 2.6946,9.337 1.9428,9.5884 1.1906,9.7134 0.1334,3.0682 -0.6661,0.0289 -0.1327,-3.055 0.0021,0.0261 -1.1875,-9.6875 0.0042,0.0256 -1.9375,-9.5625 0.0064,0.0262 -2.6875,-9.3125 0.0075,0.0227 -3.3125,-9 0.0087,0.0215 -3.875,-8.625 0.0106,0.0214 -4.375,-8.125 0.0127,0.0216 -4.875,-7.625 0.0144,0.0208 -5.3125,-7.0625 0.0188,0.0227 -5.6875,-6.3125 0.021,0.0213 -6,-5.5625 0.0279,0.0232 -6.3125,-4.68748 0.0301,0.0199 -6.5,-3.8125 0.0383,0.01931 -6.625,-2.8125 0.0466,0.01584 -6.74995,-1.750004 0.0532,0.009273 -6.8125031,-0.625 z M 76.3211,96.1118 l -3.649,8.1662 -4.3435,-7.8189 z"
+         transform="matrix(0,1,1,0,260.5,541.5)"
+         id="path33" />
+      <path
+         d="M 410.167,594.629 V 498.5 h 0.666 l 10e-4,96.129 z m 4.334,-1.333 -4,8 -4,-8 z"
+         fill="#920000"
+         id="path34" />
+      <path
+         d="m 260.174,514.175 0.637,-2.927 1.736,-2.958 2.86,-2.861 3.788,-2.777 4.779,-2.641 5.522,-2.573 6.331,-2.382 6.953,-2.255 7.576,-2.066 8.138,-1.878 8.574,-1.627 8.951,-1.44 18.708,-1.94 12.645,-0.447 0.024,0.666 -12.634,0.447 0.022,-0.001 -18.687,1.937 0.018,-0.002 -8.937,1.437 0.009,-10e-4 -8.562,1.625 0.013,-0.003 -8.125,1.875 0.012,-0.003 -7.562,2.062 0.015,-0.004 -6.938,2.25 0.015,-0.005 -6.313,2.375 0.024,-0.01 -5.5,2.562 0.02,-0.01 -4.75,2.625 0.036,-0.023 -3.75,2.75 0.039,-0.033 -2.813,2.812 0.052,-0.067 -1.687,2.875 0.038,-0.098 -0.625,2.875 z m 95.736,-34.389 8.137,3.714 -7.854,4.281 z"
+         id="path35" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(560.005,631)"
+         id="text35">signed/hashed plaintext</text>
+      <path
+         d="m 623.833,253.5 v 23.82 h -0.666 V 253.5 Z m 3.667,22.486 -4,8 -4,-8 z"
+         id="path36" />
+      <path
+         d="m 878.512,482.167 19.761,0.688 19.145,1.939 9.138,1.44 8.761,1.627 8.325,1.878 7.764,2.066 7.14,2.255 6.393,2.382 5.71,2.572 4.779,2.641 3.928,2.788 2.143,2.683 -0.521,0.416 -2.113,-2.646 0.067,0.063 -3.875,-2.75 0.032,0.02 -4.75,-2.625 0.024,0.012 -5.687,-2.562 0.02,0.008 -6.375,-2.375 0.016,0.006 -7.125,-2.25 0.015,0.004 -7.75,-2.062 0.012,0.003 -8.312,-1.875 0.012,0.002 -8.75,-1.625 0.009,0.002 -9.125,-1.438 0.018,0.003 -19.125,-1.938 0.022,0.002 -19.75,-0.688 z m 105.657,22.136 0.151,8.943 -7.245,-5.245 z"
+         id="path37" />
+      <path
+         d="M 0.0146609,-0.333011 9.96489,0.10505 l 9.83891,1.1907 9.7122,2.00508 9.4607,2.63147 9.1478,3.32078 8.7708,3.88422 8.3347,4.3867 7.7719,4.9515 7.1466,5.3285 6.3963,5.7066 5.7096,6.0233 4.7723,6.2793 3.8953,6.5345 2.896,6.6726 1.602,6.9498 -0.649,0.1497 -1.596,-6.9199 0.019,0.0578 -2.875,-6.625 0.02,0.038 -3.8753,-6.5 0.0209,0.031 -4.75,-6.25 0.0235,0.0276 -5.6875,-6 0.02,0.0194 -6.375,-5.6875 0.0226,0.0185 -7.125,-5.3125 0.0202,0.0139 -7.75,-4.9375 0.0238,0.0139 -8.3125,-4.375 0.0203,0.0098 -8.75,-3.87502 0.0213,0.00855 -9.125,-3.3125 0.0244,0.00781 -9.4375,-2.625 0.0219,0.00531 -9.6875,-2 L 19.71,1.95592 9.89745,0.768419 9.92284,0.770511 -0.0146609,0.333011 Z M 108.927,64.2848 l -3.107,8.3873 -4.846,-7.5179 z"
+         transform="matrix(1,0,0,-1,878.5,614.172)"
+         id="path38" />
+      <text
+         fill="#920000"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(554.6,603)"
+         id="text38">signed/hashed ciphertext</text>
+      <path
+         d="m 623.837,309.533 -0.691,6.97 -2.08,6.932 -3.334,6.795 -4.525,6.662 -5.587,6.403 -6.587,6.147 -7.522,5.767 -8.271,5.451 -9.021,5.013 -9.646,4.446 -10.207,4.008 -10.647,3.319 -11.02,2.693 -11.272,2.004 -11.46,1.252 -11.512,0.438 -11.5,0.438 0.024,-0.002 -11.438,1.25 0.022,-0.003 -11.25,2 0.021,-0.005 -11,2.688 0.021,-0.006 -10.563,3.313 0.022,-0.008 -10.187,4 0.018,-0.008 -9.625,4.438 0.022,-0.012 -9,5 0.022,-0.013 -8.25,5.438 0.019,-0.014 -7.5,5.75 0.025,-0.021 -6.563,6.125 0.024,-0.024 -5.563,6.375 0.025,-0.032 -4.5,6.625 0.023,-0.041 -3.312,6.75 0.023,-0.061 -1.908,7.158 -0.644,-0.171 1.916,-7.19 3.337,-6.8 4.525,-6.661 5.587,-6.403 6.586,-6.148 7.523,-5.767 8.27,-5.451 9.022,-5.012 9.645,-4.447 10.208,-4.008 10.584,-3.319 11.02,-2.693 11.272,-2.004 11.46,-1.252 11.512,-0.438 11.5,-0.438 -0.024,0.002 11.438,-1.25 -0.022,0.003 11.25,-2 -0.021,0.005 11,-2.688 -0.02,0.006 10.625,-3.313 -0.023,0.008 10.188,-4 -0.018,0.008 9.625,-4.438 -0.022,0.012 9,-5 -0.022,0.013 8.25,-5.438 -0.019,0.014 7.5,-5.75 -0.025,0.021 6.563,-6.125 -0.024,0.024 5.562,-6.375 -0.024,0.032 4.5,-6.625 -0.024,0.041 3.313,-6.75 -0.02,0.051 2.062,-6.875 -0.012,0.063 0.687,-6.938 z m -241.422,140.46 -4.915,7.473 -3.03,-8.416 z"
+         id="path39" />
+      <path
+         d="m 0.032872,-0.331709 6.969558,0.690677 6.93167,2.079492 6.858,3.33463 6.5984,4.46181 6.4654,5.5866 6.1479,6.5242 5.7672,7.4599 5.4512,8.2081 5.0124,8.9596 4.4468,9.5827 4.008,10.1452 3.3192,10.5839 2.6926,10.8955 2.0039,11.2093 1.2525,11.3981 0.438,11.449 0.4375,11.438 -0.0018,-0.024 1.25,11.375 -0.0032,-0.022 2,11.187 -0.0045,-0.021 2.6875,10.875 -0.0055,-0.02 3.3125,10.563 -0.0081,-0.023 4,10.125 -0.0076,-0.018 4.4375,9.563 -0.0115,-0.023 5,8.938 -0.0132,-0.022 5.4378,8.188 -0.014,-0.02 5.75,7.438 -0.021,-0.025 6.125,6.5 -0.024,-0.023 6.375,5.563 -0.034,-0.026 6.625,4.438 -0.038,-0.023 6.75,3.313 -0.061,-0.023 7.147,1.905 -0.172,0.644 -7.178,-1.913 -6.8,-3.337 -6.661,-4.462 -6.403,-5.587 -6.148,-6.524 -5.767,-7.46 -5.4512,-8.208 -5.0124,-8.959 -4.4468,-9.583 -4.0081,-10.145 -3.3191,-10.584 -2.6926,-10.896 -2.0039,-11.209 -1.2525,-11.398 -0.438,-11.449 -0.4375,-11.438 0.0018,0.024 -1.25,-11.3751 0.0032,0.0223 -2,-11.1875 0.0045,0.0213 -2.6875,-10.875 0.0055,0.0197 -3.3125,-10.5625 0.0081,0.0228 -4,-10.125 0.0076,0.0178 -4.4375,-9.5625 0.0115,0.0224 -5,-8.9375 0.0132,0.0217 -5.4375,-8.1875 0.014,0.0195 -5.75,-7.4375 0.0211,0.0247 -6.125,-6.5 0.0247,0.0236 -6.4375,-5.5625 0.0312,0.0239 -6.5625,-4.43747 0.0409,0.02364 -6.8125,-3.3125 0.05,0.01951 L 6.84172,1.00678 6.90463,1.01921 -0.032872,0.331709 Z M 140.547,239.525 l 7.47,4.92 -8.418,3.024 z"
+         transform="matrix(0,1,1,0,623.5,309.5)"
+         id="path40" />
+      <path
+         d="m 577.5,346.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 83.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -83.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path41" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(612.635,359)"
+         id="text41">Use</text>
+      <path
+         d="m 745.5,626.5 c 0,-1.657 1.343,-3 3,-3 h 64 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -64 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path42" />
+      <text
+         fill="#008080"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(749.643,637)"
+         id="text42">Hash+RND</text>
+      <path
+         d="m 839.5,626.5 c 0,-1.657 1.343,-3 3,-3 h 79 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -79 c -1.657,0 -3,-1.343 -3,-3 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path43" />
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(843.233,637)"
+         id="text43">DigSgn</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(885.9,637)"
+         id="text44">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(892.567,637)"
+         id="text45">MAC</text>
+      <path
+         d="m 798.5,460.333 c 0,-1.564 1.269,-2.833 2.833,-2.833 h 134.334 c 1.565,0 2.833,1.269 2.833,2.833 v 11.334 c 0,1.565 -1.268,2.833 -2.833,2.833 H 801.333 c -1.564,0 -2.833,-1.268 -2.833,-2.833 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path45" />
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(803.014,470)"
+         id="text46">Asymmetric</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(869.014,470)"
+         id="text47">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(875.681,470)"
+         id="text48">Symmetric</text>
+      <path
+         d="m 786.5,605.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 83.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -83.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path48" />
+      <text
+         fill="#002060"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(816.343,618)"
+         id="text49">Verify</text>
+      <path
+         d="m 364.5,478.5 c 0,-2.209 1.791,-4 4,-4 h 84 c 2.209,0 4,1.791 4,4 v 16 c 0,2.209 -1.791,4 -4,4 h -84 c -2.209,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path49" />
+      <text
+         fill="#002060"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(389.669,491)"
+         id="text50">Encrypt</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(221.545,618)"
+         id="text51">prKey</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="8px"
+         transform="translate(252.878,620)"
+         id="text52">Src</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(268.212,618)"
+         id="text53">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(274.878,618)"
+         id="text54">key</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(346.949,424)"
+         id="text55">pbKey</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="8px"
+         transform="translate(380.949,426)"
+         id="text56">Usr</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(396.782,424)"
+         id="text57">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(403.449,424)"
+         id="text58">shKey</text>
+      <text
+         fill="#3333cc"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(921.906,618)"
+         id="text59">pbKey</text>
+      <text
+         fill="#3333cc"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="8px"
+         transform="translate(955.906,620)"
+         id="text60">Src</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(971.239,618)"
+         id="text61">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(977.906,618)"
+         id="text62">key</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(799.341,424)"
+         id="text63">prKey</text>
+      <text
+         fill="#0000ff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="8px"
+         transform="translate(830.675,426)"
+         id="text64">Usr</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(846.508,424)"
+         id="text65">/</text>
+      <text
+         fill="#7030a0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(853.175,424)"
+         id="text66">shKey</text>
+      <path
+         d="m 878.512,489.167 19.761,0.688 19.145,1.939 9.138,1.44 8.761,1.627 8.325,1.878 7.764,2.066 7.14,2.255 6.393,2.382 5.71,2.572 4.779,2.641 3.928,2.788 2.143,2.683 -0.521,0.416 -2.113,-2.646 0.067,0.063 -3.875,-2.75 0.032,0.02 -4.75,-2.625 0.024,0.012 -5.687,-2.562 0.02,0.008 -6.375,-2.375 0.016,0.006 -7.125,-2.25 0.015,0.004 -7.75,-2.062 0.012,0.003 -8.312,-1.875 0.012,0.002 -8.75,-1.625 0.009,0.002 -9.125,-1.438 0.018,0.003 -19.125,-1.938 0.022,0.002 -19.75,-0.688 z m 105.657,22.136 0.151,8.943 -7.245,-5.245 z"
+         fill="#920000"
+         id="path66" />
+      <path
+         d="m 260.174,520.175 0.637,-2.927 1.736,-2.958 2.86,-2.861 3.788,-2.777 4.779,-2.641 5.522,-2.573 6.331,-2.382 6.953,-2.255 7.576,-2.066 8.138,-1.878 8.574,-1.627 8.951,-1.44 18.708,-1.94 12.645,-0.447 0.024,0.666 -12.634,0.447 0.022,-0.001 -18.687,1.937 0.018,-0.002 -8.937,1.437 0.009,-10e-4 -8.562,1.625 0.013,-0.003 -8.125,1.875 0.012,-0.003 -7.562,2.062 0.015,-0.004 -6.938,2.25 0.015,-0.005 -6.313,2.375 0.024,-0.01 -5.5,2.562 0.02,-0.01 -4.75,2.625 0.036,-0.023 -3.75,2.75 0.039,-0.033 -2.813,2.812 0.052,-0.067 -1.687,2.875 0.038,-0.098 -0.625,2.875 z m 95.736,-34.389 8.137,3.714 -7.854,4.281 z"
+         fill="#920000"
+         id="path67" />
+      <path
+         d="m 786.5,478.5 c 0,-2.209 1.791,-4 4,-4 h 84 c 2.209,0 4,1.791 4,4 v 16 c 0,2.209 -1.791,4 -4,4 h -84 c -2.209,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path68" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(811.01,491)"
+         id="text68">Decrypt</text>
+      <path
+         d="m 456.5,611.167 h 322.687 v 0.666 H 456.5 Z m 321.353,-3.667 8,4 -8,4 z"
+         fill="#920000"
+         id="path69" />
+      <text
+         fill="#1d2d35"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(525.085,157)"
+         id="text69">BF Crypto Data Security Bugs Model</text>
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(855.91,716)"
+         id="text70">I. Bojanova,</text>
+      <text
+         fill="#7f7f7f"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(922.576,716)"
+         id="text71">2017</text>
+    </g>
+  </g>
+</svg>
