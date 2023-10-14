@@ -2,7 +2,7 @@
 weight: 1
 title: "Bugs Model"
 ---
-# BF Memory Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Memory Corruption/Disclosure Bugs Model <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 Each memory related bug or weakness involves one memory operation. Each _operation_ is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has _boundaries_ and it has _size_. We call this piece of memory, with a well-defined size, an _object_. It is used to store a primitive data or a data structure. The memory address should be held by at least one _pointer_ or determined as an offset on the stack, otherwise the object will be unreachable. The object and the pointer are the operands of the memory operation.
 
@@ -11,7 +11,7 @@ Memory bugs could be introduced at any of the phases of an object’s lifecycle:
 The BF Memory Bugs Model helps identify where in these phases bugs could occur (Figure 1). The phases correspond to the BF memory bugs classes: Memory Addressing Bugs (MAD), Memory Allocation Bugs (MAL), Memory Use Bugs (MUS), and , Memory Deallocation Bugs (MDL). All possible memory operations are grouped by phase. The presented operations flow helps in identifying possible chains of bugs/weaknesses. <br/><br/>_`For simplicity, BF combines MAL and MDL in one Memory Management Bugs (MMN) class.`_ 
 <br/><br/>
 
-{{< img src="images/BF Models/_MEM.svg" caption="Figure 1. BF Memory Bugs Model. Comprises the MAD, MAL, MUS, and MDL phases, corresponding to the BF classes MAD, MMN (combining the MAL and MDL phases), and MUS. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation. (Note that for simplicity, BF combines MAL and MDL in one Memory Management Bugs (MMN) class)" >}}
+{{< img src="images/BF Models/_MEM.svg" caption="Figure 1. BF Memory Corruption/Disclosure Bugs Model. Comprises the MAD, MAL, MUS, and MDL phases, corresponding to the BF classes MAD, MMN (combining the MAL and MDL phases), and MUS. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation. (Note that for simplicity, BF combines MAL and MDL in one Memory Management Bugs (MMN) class)" >}}
 <br/>
 The operations under MAD (Figure 1) are on forming or modifying a pointer: _Initialize_, _Reposition_, and _Reassign_. Bugs in pointer initialization could result in pointers to meaningless objects. Moving a pointer via a bugged Reposition could get it pointing outside the object bounds. Bugs in Reassign could connect a pointer to a wrong object.
 
