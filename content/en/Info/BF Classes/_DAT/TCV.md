@@ -57,7 +57,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Code Defect Bug</td>
-	<td>A bug is in the operation. It is the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>The operation has a bug, which is the first cause for the chain of weaknesses underlying a software security vulnerability. The bug must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Code </td>
@@ -85,7 +85,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Under Range </td>
@@ -125,7 +125,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Wrong Value </td>
@@ -209,11 +209,11 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>            Resolved </td>
-	<td>The name scope is known to the The Type System.</td>
+	<td>The name scope is known to the Type System.</td>
 	</tr>
 	<tr>
 			<td>            Bound </td>
-	<td>The name is linked to a declared (or inferred) data type and a defined object's data or a called function implementation.</td>
+	<td>The name is linked to a declared (or inferred) data type, a defined object's data, or a called function implementation.</td>
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
@@ -233,7 +233,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>            Boolean </td>
-	<td>A truth value -- true or false; 1 or 0.</td>
+	<td>A truth/falcity value -- true or false; 1 or 0.</td>
 	</tr>
 	<tr>
 			<td>         Type Kind </td>

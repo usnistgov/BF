@@ -53,7 +53,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Code Defect Bug</td>
-	<td>A bug is in the operation. It is the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>The operation has a bug, which is the first cause for the chain of weaknesses underlying a software security vulnerability. The bug must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -69,7 +69,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>A specification (algorithm, protocol) of an operation an error or a rule (policy, keying material) used by the operation has an error, which when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to fix the bug and to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>
@@ -137,7 +137,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Access Final Error</td>
-	<td>An undefined or exploitable system behavior caused by 'name access' declaration bugs.</td>
+	<td>An exploitable or undefined  system behavior caused by 'name access' declaration bugs.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Object </td>
@@ -217,7 +217,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Shows what the named entity is.</td>
+	<td>Shows what the entity with this name is.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>

@@ -18,14 +18,14 @@ There are 60 426 memory related CVEs (as of August 2023). To start with, we quer
 5. Get to know the [BF Tool](/BF/info/tools/bf-tool).
 6. Collaborate on creating a BF specification of your CVE.
 </br>
-`Important Note:` Use the "NVD CWE" and "BF Chain(s) Indentifiable from NVD CWE" columns only as possibly useful guidance. In some cases, a listed CWE may be a wrongly assigned one by NVD, so please notify us if you encounter such. In some cases, the listed chains may be wrong or not the only possible, as the CWE information may be wrong or limited. 
+`Important Note:` Use the "NVD CWE" and "BF Chain(s) Indentifiable from NVD CWE" columns only as possibly useful guidance. In some cases, a listed CWE may be a wrongly assigned one by NVD, so please notify us if you encounter such. In some cases, the listed chains may be wrong or not the only possible, as the CWE information (from which they are retrieved) may be wrong or limited. 
 
 ##### Third set of steps:
 7. Open in a text editor the .bfcve file where you saved the BF CVE description usign the BF Tool. 
 8. Copy the entire content of the .bfcve file. This is your BF CVE specification in XML format.
-9. Submit the the copied .bfcve content and the links to the Bug Report, the Code with Bug, and the Code with Fix here: 
+9. Submit the copied .bfcve content and the links to the Bug Report, the Code with Bug, and the Code with Fix here: 
 
-<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your Findings{{< /button >}}</div>
+<div style="text-align:center">{{< button href="https://forms.gle/RoLYtEQwq3u3wieKA">}}Submit your BF CVE Specification{{< /button >}}</div>
 
 <!-- <td style="color: purple"> -->
 <table border-collapse="collapse" border-left="1px solid black" border-right="1px solid black"><tr><td>

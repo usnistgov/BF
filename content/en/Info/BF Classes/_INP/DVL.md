@@ -49,7 +49,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Code Defect Bug</td>
-	<td>A bug is in the operation. It is the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>The operation has a bug, which is the first cause for the chain of weaknesses underlying a software security vulnerability. The bug must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -61,7 +61,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Specification Defect Bug</td>
-	<td>An error in the rules (policy, algorithm, keying material) used by the operation, that when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>A specification (algorithm, protocol) of an operation an error or a rule (policy, keying material) used by the operation has an error, which when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to fix the bug and to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -73,7 +73,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
@@ -97,7 +97,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
@@ -105,7 +105,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>An undefined or exploitable system behavior caused by 'code separation' data validation bugs.</td>
+	<td>An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>

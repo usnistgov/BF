@@ -53,7 +53,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Address </td>
-	<td>The memory region allocated for an object. Its value is contained by (is data of) another object (a pointer).</td>
+	<td>The memory address for an object. Its value is data of another object, the object's pointer, used to reference and traverce the object.</td>
 	</tr>
 	<tr>
 			<td>Size </td>
@@ -65,7 +65,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Code Defect Bug</td>
-	<td>A bug is in the operation. It is the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>The operation has a bug, which is the first cause for the chain of weaknesses underlying a software security vulnerability. The bug must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -81,7 +81,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Hardcoded Address </td>
@@ -161,7 +161,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Has harmed semantics or inconsistent or wrong value</td>
+	<td>The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Forbidden Address </td>
@@ -209,7 +209,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>An undefined or exploitable system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
+	<td>An exploitable or undefined  system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Leak </td>
@@ -273,7 +273,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>         Address State </td>
-	<td>Shows where the allocated memory is.</td>
+	<td>Shows where the address is in the memory layout.</td>
 	</tr>
 	<tr>
 			<td>            Stack </td>
@@ -289,7 +289,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>         Size Kind </td>
-	<td>Shows what the limit for iteration over object's elements is.</td>
+	<td>Shows what the limit for traversal of the object is.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>
