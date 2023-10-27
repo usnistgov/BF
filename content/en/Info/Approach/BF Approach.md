@@ -13,11 +13,13 @@ BF describes a _bug_ or a _weakness_ as an improper state and its transition. Th
 
 An improper state is defined by the tuple (`operation`, `operand{{< sub "1" >}}`, `···`, `operand{{< sub "n" >}}`), where at least one element is improper. 
 
-The initial state is always caused by a bug; a coding error within the operation, which if fixed will resolve the vulnerability. 
+The initial state is always caused by a bug; a code or specification defect within the operation, which if fixed will resolve the vulnerability. 
 
-An intermediate state is caused by ill-formed data; it has at least one improper operand. Rarely an intermediate state may also have a bug, which if fixed will also resolve the vulnerability. 
+An intermediate state is caused by a fault; at least one ill-formed operand.  
 
-The final state, the failure, is caused by a final error (undefined or exploitable system behavior), which usually directly relates to a CWE. A transition is the result of the operation over the operands.
+The final state, the failure, is caused by a final error (undefined or exploitable system behavior), which usually directly relates to a CWE. 
+
+A transition is the result of the operation over the operands.
 
 BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 1). 
 
