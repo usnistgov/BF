@@ -6,7 +6,7 @@ title: "_MEM BFCVE"
 
 Let's start creating of a labeled dataset of memory related software security vulnerability specifications using BF's [memory bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_mem/).
 
-There are 60 426 memory related CVEs (as of August 2023). To start with, we query the CVE for entries with CWEs assigned by NVD, where the CWEs also map by operation to BF Memory Corruption and Disclosure classes. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum ten CVEs per operation -- thus reducing the count to 91 most severe CVEs per _MEM BF operation. 
+There are 60 426 memory related CVEs (as of August 2023). To start with, we query the CVE for entries with CWEs assigned by NVD, where the CWEs also map by operation to BF Memory Corruption and Disclosure classes. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum ten CVEs per operation -- thus reducing the count to the most severe CVEs per _MEM BF operation. 
 
 ##### First set of steps:
 1. Explore the 91 CVEs listed below. Each one has a memory related underlying weakness identified via our [CWE2BF mappings](/BF/info/bf-classes/_mem/cwe2bf/) and the NVD CWE to CVE assignments.

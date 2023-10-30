@@ -6,7 +6,7 @@ title: "_INP BFCVE"
 
 Let's start creating of a labeled dataset of input/output check related software security vulnerability specifications using BF's [input/output check bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_inp/).
 
-There are 70 736 input/output check related CVEs (as of August 2023). To start with, we query the CVE for entries with CWEs assigned by NVD, where the CWEs also map by operation to BF Input/Output Check classes. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum thirty CVEs per operation -- thus reducing the count to 91 most severe CVEs per _INP BF operation . 
+There are 70 736 input/output check related CVEs (as of August 2023). To start with, we query the CVE for entries with CWEs assigned by NVD, where the CWEs also map by operation to BF Input/Output Check classes. We then order them by their severity scores according to the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) and select maximum thirty CVEs per operation -- thus reducing the count to the most severe CVEs per _INP BF operation . 
 
 ##### First set of steps:
 
