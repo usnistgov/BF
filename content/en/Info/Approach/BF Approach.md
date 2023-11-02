@@ -9,23 +9,23 @@ The Bugs Framework (BF) approach is different from the CWE exhaustive list appro
 
 Each BF class is a taxonomic category of a weakness type. It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations.
 
-BF describes a _bug_ or a _weakness_ as an improper state and its transition. The transition is to another weakness or to a failure. 
+BF describes a _bug_ or a _weakness_ as an improper state and its transition. The transitions is to another weakness or to a failure. 
 
 An improper state is defined by the tuple (`operation`, `operand{{< sub "1" >}}`, `···`, `operand{{< sub "n" >}}`), where at least one element is improper. 
 
 The initial state is always caused by a bug; a code or specification defect within the operation, which if fixed will resolve the vulnerability. 
 
-An intermediate state is caused by a fault; at least one ill-formed operand.  
+An transition state is caused by a fault; at least one faulty (ill-formed) operand.  
 
 The final state, the failure, is caused by a final error (undefined or exploitable system behavior), which usually directly relates to a CWE. 
 
-A transition is the result of the operation over the operands.
+An error is the result of an improper state from the operation over the operands. It propagates to an improper operand for a next improper state.
 
 BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 1). 
 
-Each improper state is an instance of a BF class. The transition from the initial state is by improper operation over proper operands. The transitions from intermediate states are by proper operations with at least one improper operand.
+Each improper state is an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state.
 <br/><br/>
-{{< img src="images/BF Models/BF Chain.svg" height="350" caption="Figure 1. A vulnerability as a chain of weaknesses" >}}
+{{< img src="images/BF Models/BF Vulnerability Model.svg" height="350" caption="Figure 1. A vulnerability as a chain of improper states and their transitions" >}}
 <br/>
 Operations or operands improperness define the causes. 
 
