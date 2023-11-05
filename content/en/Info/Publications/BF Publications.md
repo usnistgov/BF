@@ -9,7 +9,7 @@ Please, reference BF publications `recent than year 2020`, as they start reveali
 If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 |     |
 | --- |
-| I. Bojanova and J. J. Guerrerio, "Labeling Software Security Vulnerabilities," in IT Professional, vol. 25, no. 5, pp. xx-xx, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.xxxxxxx), [[Preprint]](../../../Labeling_Software_Security_Vulnerabilities____IT_Pro__PREPRINT_.pdf) |
+| I. Bojanova and J. J. Guerrerio, "Labeling Software Security Vulnerabilities," in IT Professional, vol. 25, no. 5, pp. 64-70, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.3314368), [[Preprint]](../../../Labeling_Software_Security_Vulnerabilities____IT_Pro__PREPRINT_.pdf) |
 | A. Gueye, C. Galhardo and I. Bojanova, "Critical Software Security Weaknesses" in IT Professional, vol. 25, no. 04, pp. 11-16, 2023. doi: [10.1109/MITP.2023.3297387](https://doi.org/10.1109/MITP.2023.3297387), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956331) |
 | I. Bojanova and C. E. Galhardo, "Heartbleed Revisited: Is it just a Buffer Over-Read?," in IT Professional, vol. 25, no. 2, pp. 83-89, Mar.-Apr. 2023, doi: [10.1109/MITP.2023.3259119](https://doi.org/10.1109/MITP.2023.3259119), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936519) |
 | I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) | 
