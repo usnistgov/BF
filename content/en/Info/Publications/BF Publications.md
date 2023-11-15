@@ -31,10 +31,18 @@ If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 | Wu, Y., Bojanova, I., Yesha, Y. , "They Know Your Weaknesses - Do You?: Reintroducing Common Weakness Enumeration. Supply Chain Assurance," September/October 2015, _CrossTalk (The Journal of Defense Software Engineering)_, [https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D](https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D). <br/>`Author Contributions -->  IB Conceptualization; Writing- Original draft preparation; Visualization; Supervision. All authors: Writing- Reviewing and Editing.` |
 ||
 ||
+|NIST, ITL, Science Day Posters|
+
+|I. Bojanova, [Bug, Fault, Error, Weakness, or Vulnerability](../../../Posters/Bug-Fault-Error-Weakness-or-Vulnerability--11072023.pdf), NIST, ITL, Science Day, 11/07/2023.
+|I. Bojanova, [Bugs Framework](../../../Posters/Bugs-Framework--11072023.pdf), NIST, ITL, Science Day, 11/07/2023.
+|I. Bojanova, [Labeling Software Security Vulnerabilities](../../../Posters/Labeling-Software-Security-Vulnerabilities--11072023.pdf), NIST, ITL, Science Day, 11/07/2023.
+...
+||
+||
 |Historic Presentations|
-|I. Bojanova, P. E. Black, Y. Yesha, and Y. Wu, [Towards a “Periodic Table” of Bugs](../../../Towards_a_Periodic_Table_of_Bugs--04092015.pdf), NIST, ITL, SSD, SAMATE meeting, NIST 222/A318, 2:00pm, 04/16/2015. <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` Note: Slides were reused by PB in June, 2015 for OWASP Northern Virginia Chapter in November, 2015. |
+|I. Bojanova, P. E. Black, Y. Yesha, and Y. Wu, [Towards a “Periodic Table” of Bugs](../../../Presentations/Towards_a_Periodic_Table_of_Bugs--04092015.pdf), NIST, ITL, SSD, SAMATE meeting, NIST 222/A318, 2:00pm, 04/16/2015. <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` Note: Slides were reused by PB in June, 2015 for OWASP Northern Virginia Chapter in November, 2015. |
 <!-- https://www.nist.gov/publications/towards-147periodic-table148-bugs -->
  <!-- - all figures/tables, except PB provided those on slides 11 an 16; YW -- dissertation figure on slide 13  -->
-|I. Bojanova, [Formalizing Software Bugs](../../../Formalizing_Software_Bugs--12092014.pdf), NIST, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, 9:00am, 12/08/2014. <br/> `Author Contributions -->  IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation; Visualization, Writing- Reviewing and Editing.` |
+|I. Bojanova, [Formalizing Software Bugs](../../../Presentations/Formalizing_Software_Bugs--12092014.pdf), NIST, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, 9:00am, 12/08/2014. <br/> `Author Contributions -->  IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation; Visualization, Writing- Reviewing and Editing.` |
 ||
 ||
