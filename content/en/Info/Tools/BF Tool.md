@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF Tool"
 ---
-# BF Tool <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+# BF Tool <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
 
 BF is a classification system of software bugs and weaknesses that allows precise descriptions of security vulnerabilities exploiting such weaknesses.
 
