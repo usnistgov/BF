@@ -3,7 +3,7 @@ weight: 3
 bookCollapseSection: false
 title: "Why BF?"
 ---
-# Why BF? <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+# Why BF? <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
 

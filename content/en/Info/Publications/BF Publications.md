@@ -3,14 +3,14 @@ weight: 6
 bookCollapseSection: false
 title: "BF Publications"
 ---
-# BF Publications <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+# BF Publications <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 Please, reference BF publications `recent than year 2020`, as they start developing my ideas `BF formalism` ideas -- originally shared in my 2014/2015 preseantations. 
 If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 |     |
 | --- |
 | I. Bojanova and J. J. Guerrerio, "Labeling Software Security Vulnerabilities," in IT Professional, vol. 25, no. 5, pp. 64-70, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.3314368), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956539) <br/> 
-`Author Contributions --> IB: Original ideas on BF CWEs specification as (bug/fault, operation, error/final error) triples and on labeling CVEs utilizing BF's taxonomy (formal language vocabulary); Conceptualization; Visualization; Software; Writing- Original Draft preparation; Supervision. IB and JG: Investigation -- identifying CWE-BF associations, CWEs triples and causing triples, CWEs similarities and overlaps; analyzing and specifying CWEs and CVEs; Writing- Reviewing and Editing.` |
+`Author Contributions --> IB: Original ideas on BF CWEs specification as (bug/fault, operation, error/final error) triples and on labeling CVEs utilizing BF's taxonomy (formal language vocabulary); Conceptualization; Methodology; Visualization; Software; Writing- Original Draft preparation; Supervision. IB and JJG: Investigation -- analyzing and specifying CWEs and CVEs (incl. identifying CWE-BF associations, CWEs triples and causing triples, CWEs similarities and overlaps); Writing- Reviewing and Editing.` |
 | A. Gueye, C. Galhardo and I. Bojanova, "Critical Software Security Weaknesses" in IT Professional, vol. 25, no. 04, pp. 11-16, 2023. doi: [10.1109/MITP.2023.3297387](https://doi.org/10.1109/MITP.2023.3297387), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956331) |
 | I. Bojanova and C. E. Galhardo, "Heartbleed Revisited: Is it just a Buffer Over-Read?," in IT Professional, vol. 25, no. 2, pp. 83-89, Mar.-Apr. 2023, doi: [10.1109/MITP.2023.3259119](https://doi.org/10.1109/MITP.2023.3259119), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936519) |
 | I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) | 
@@ -32,13 +32,13 @@ If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 NIST, ITL, Science Day Posters
 |I. Bojanova, [Bug, Fault, Error, Weakness, or Vulnerability](../../../Posters/Bug-Fault-Error-Weakness-or-Vulnerability--11072023.pdf), NIST, ITL, Science Day, 11/07/2023. |
 |I. Bojanova, [Bugs Framework](../../../Posters/Bugs-Framework--11072023.pdf), NIST, ITL, Science Day, 11/07/2023. |
-|I. Bojanova, [Labeling Software Security Vulnerabilities](../../../Posters/Labeling-Software-Security-Vulnerabilities--11072023.pdf), NIST, ITL, Science Day, 11/07/2023. |
+|I. Bojanova, J. J. Guerrerio, Eduard Pinconschi [Labeling Software Security Vulnerabilities](../../../Posters/Labeling-Software-Security-Vulnerabilities--11072023.pdf), NIST, ITL, Science Day, 11/07/2023.  <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology; Writing- Original draft preparation; Visualization; Supervision. IB and JJG: Investigation -- analyzing and specifying momory related CWEs and CVEs, Writing- Reviewing and Editing. IB: Investigation- analyzing and specifying  CVE-2023-38435. EP: Investigation- Reviweing CVE-2023-38435.`|
 |... |
 ||
 ||
 |Presentations|
 |... | <!-- |https://www.nitrd.gov/nitrdgroups/images/e/e2/BugsFramework_Bojanova.pdf| -->
 |I. Bojanova, P. E. Black, Y. Yesha, and Y. Wu, [Towards a “Periodic Table” of Bugs](../../../Presentations/Towards_a_Periodic_Table_of_Bugs--04092015.pdf), NIST, ITL, SSD, SAMATE meeting, Apr. 8, 2015. <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` | <!-- Reused by PEB on 8/10 (NIST), 9/2 (OWASP DC) and 11/18 (OWASP NOVA). https://www.nist.gov/publications/towards-147periodic-table148-bugs --><!-- - from figures/tables, PEB provided those on slides 11 and 16; YW -- dissertation figure on slide 13  -->
-|I. Bojanova, [Formalizing Software Bugs](../../../Presentations/Formalizing_Software_Bugs--12082014.pdf), NIST, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, Dec. 9, 2014. <br/> `Author Contributions -->  IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation; Visualization, Writing- Reviewing and Editing.` |
+<!-- |I. Bojanova, [Formalizing Software Bugs](../../../Presentations/Formalizing_Software_Bugs--12082014.pdf), NIST, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, Dec. 9, 2014. <br/> `Author Contributions -->  IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation; Visualization, Writing- Reviewing and Editing.` | -->
 ||
 ||

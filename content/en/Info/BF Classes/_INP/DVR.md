@@ -2,7 +2,7 @@
 weight: 3
 title: "DVR"
 ---
-## BF Data Verification (DVR) Bugs Class <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+## BF Data Verification (DVR) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}Data are verified (semantics check) or corrected (assign, remove) improperly.{{< /definition >}}

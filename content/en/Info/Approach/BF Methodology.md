@@ -3,7 +3,7 @@ weight: 3
 bookCollapseSection: false
 title: "BF Methodology"
 ---
-# BF Methodology <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+# BF Methodology <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 The methodology for developing a BF class is as follows (see Figure 1): First, we identify the software execution phase, where a specific kind of bugs could occur. Then, we identify the operations for that phase. On step 3, we define a BF model showing operations flow. Then, we identify all causes. The initial causes are always improper operations. The intermediate causes are improper operands. On steps 5 and 6, we identify all consequences that propagate as causes to other weaknesses and all the final errors. Then we identify the possible failures. On step 8, we identify the attributes helpful to describe such a bug or weakness. On step 9, we try to identify possible sites in code. This step is applicable mainly for low level bugs.
 <br/><br/>

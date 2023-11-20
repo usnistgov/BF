@@ -2,7 +2,7 @@
 weight: 2
 title: "_INP BFCVE"
 ---
-# \_INP BFCVE Challenge <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+# \_INP BFCVE Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 Let's start creating of a labeled dataset of input/output check related software security vulnerability specifications using BF's [input/output check bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_inp/).
 

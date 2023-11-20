@@ -2,7 +2,7 @@
 weight: 3
 title: "NRS"
 ---
-## BF Name Resolution (NRS) Bugs Class <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+## BF Name Resolution (NRS) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}The name of an object, a function, or a type is resolved improperly or bound to an improper type or implementation.{{< /definition >}}

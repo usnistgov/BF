@@ -2,7 +2,7 @@
 weight: 3
 title: "_MEM BFCVE"
 ---
-# \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+# \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 Let's start creating of a labeled dataset of memory related software security vulnerability specifications using BF's [memory bugs formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/_mem/).
 

@@ -2,7 +2,7 @@
 weight: 3
 title: "MMN"
 ---
-## BF Memory Management (MMN) Bugs Class <br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_
+## BF Memory Management (MMN) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}An object is allocated, deallocated, or resized improperly.{{< /definition >}}

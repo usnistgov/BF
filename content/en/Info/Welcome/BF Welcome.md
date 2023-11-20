@@ -6,7 +6,7 @@ url: /
 ---
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
-# Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor/Creator, PI, Bugs Framework (BF)`_</l>
+# Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_</l>
 
 The Bugs Framework (BF) is being created as is a classification system of software security bugs, faults, and weaknesses that allows unambiguous formal descriptions of the software security vulnerabilities that exploit them. It comprises:
 
