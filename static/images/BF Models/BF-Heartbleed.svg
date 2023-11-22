@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="228.29131mm"
+   height="124.85439mm"
+   viewBox="0 0 228.2913 124.85439"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="BF-Heartbleed-bubbles.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect3713"
+         height="983"
+         width="1505"
+         y="29"
+         x="-69" />
+    </clipPath>
+    <clipPath
+       id="clip0-6">
+      <rect
+         id="rect4245"
+         height="983"
+         width="1505"
+         y="29"
+         x="-69" />
+    </clipPath>
+    <clipPath
+       id="clip0-1">
+      <rect
+         id="rect4777"
+         height="491"
+         width="872"
+         y="217"
+         x="89" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.66"
+     inkscape:cx="962.11171"
+     inkscape:cy="113.49437"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="859"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(422.25499,-54.007663)">
+    <g
+       id="g4916"
+       transform="matrix(0.26458333,0,0,0.26458333,-448.18416,-6.0816915)"
+       clip-path="url(#clip0-1)">
+      <path
+         id="path4782"
+         d="m 510,631.5 c 0,-37.279 32.235,-67.5 72,-67.5 39.764,0 72,30.221 72,67.5 0,37.279 -32.236,67.5 -72,67.5 -39.765,0 -72,-30.221 -72,-67.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dfdaea;fill-rule:evenodd" />
+      <path
+         id="path4784"
+         d="m 98,383 c 0,-37.003 32.235,-67 72,-67 39.764,0 72,29.997 72,67 0,37.003 -32.236,67 -72,67 -39.765,0 -72,-29.997 -72,-67 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e8effc;fill-rule:evenodd" />
+      <text
+         id="text4786"
+         transform="translate(116.635,369)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Data Verification</text>
+      <text
+         id="text4788"
+         transform="translate(98.5021,388)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">(</text>
+      <text
+         id="text4790"
+         transform="translate(103.335,388)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Verify: Missing Code</text>
+      <text
+         id="text4792"
+         transform="translate(233.302,388)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">,</text>
+      <text
+         id="text4794"
+         transform="translate(152.422,407)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Data)</text>
+      <path
+         id="path4796"
+         transform="matrix(0,1,1,0,393.5,316.5)"
+         d="m 0.0452396,0.330249 -4.5624996,0.625 0.08297,-0.022557 -4.5,1.874998 0.05579,-0.02974 -4.4375,2.9375 0.0427,-0.03356 -4.3125,4 0.0289,-0.03037 -4.1875,4.99998 0.0199,-0.0264 -4,5.875 0.0141,-0.0225 -3.8125,6.6875 0.011,-0.0211 -3.5625,7.4375 0.0082,-0.0185 -3.25,8 0.0067,-0.018 -2.9375,8.625 0.0048,-0.0153 -2.625,9.125 0.0045,-0.0174 -2.1875,9.5 0.003,-0.0143 -1.8125,9.8125 0.0027,-0.0174 -1.3125,10.0625 0.0018,-0.0168 -0.8125,10.25 9e-4,-0.0182 -0.25,10.3124 v -0.016 l 0.25,10.312 -9e-4,-0.018 0.8125,10.25 -0.0018,-0.017 1.3125,10.063 -0.0027,-0.018 1.8125,9.813 -0.003,-0.014 2.1875,9.5 -0.0045,-0.018 2.625,9.125 -0.0048,-0.015 2.9375,8.625 -0.0063,-0.017 3.25,8.062 -0.009,-0.02 3.5625,7.375 -0.0106,-0.02 3.8125,6.687 -0.0131,-0.021 4,5.938 -0.0223,-0.03 4.1875,4.938 -0.0274,-0.029 4.375,4.063 -0.0428,-0.034 4.4375,2.938 -0.07938,-0.039 2.58729,0.855 -0.20923,0.633 -2.62956,-0.869 -4.49742,-2.977 -4.4096,-4.095 -4.2122,-4.966 -4.0173,-5.964 -3.8243,-6.708 -3.5723,-7.395 -3.2576,-8.081 -2.943,-8.642 -2.6297,-9.141 -2.1912,-9.516 -1.8154,-9.828 -1.3147,-10.08 -0.8139,-10.267 -0.2504,-10.33 0.2504,-10.3297 0.8139,-10.2676 1.3147,-10.0796 1.8154,-9.8283 2.1912,-9.5158 2.6297,-9.1414 2.9432,-8.6417 3.2574,-8.0183 3.572,-7.4573 3.825,-6.7094 4.0168,-5.8997 4.2116,-5.02882 4.3479,-4.0328 4.48668,-2.97006 4.56933,-1.903886 4.6054504,-0.630883 z M -6.75731,214.465 l 6.8203021,5.787 -8.7213721,1.984 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4798"
+         transform="matrix(0,1,1,0,170.5,316.5)"
+         d="m 0.0458561,0.330164 -4.4999961,0.625 0.08235,-0.022472 -4.5,1.874998 0.05848,-0.03154 -4.43749,3 0.0419,-0.03352 -4.3125,4.0625 0.0283,-0.03017 -4.1875,5.06254 0.0205,-0.0276 -4,6 0.0128,-0.021 -3.8125,6.75 0.0109,-0.0209 -3.5625,7.5 0.0087,-0.02 -3.25,8.1875 0.006,-0.0162 -2.9375,8.6875 0.0054,-0.0178 -2.5625,9.25 0.0038,-0.0151 -2.1875,9.625 0.0029,-0.0141 -1.8125,9.9375 0.0027,-0.0172 -1.3125,10.1875 0.0017,-0.0166 -0.8125,10.375 9e-4,-0.018 -0.25,10.437 v -0.015 l 0.25,10.437 -9e-4,-0.018 0.8125,10.375 -0.0017,-0.017 1.3125,10.188 -0.0027,-0.017 1.8125,9.937 -0.0029,-0.014 2.1875,9.625 -0.0039,-0.016 2.5625,9.188 -0.0051,-0.017 2.9375,8.75 -0.007,-0.019 3.3125,8.188 -0.0074,-0.017 3.5,7.438 -0.0107,-0.021 3.8125,6.812 -0.0144,-0.023 4,5.937 -0.0196,-0.026 4.1875,5.063 -0.0283,-0.031 4.3125,4.063 -0.0419,-0.034 4.43749,3 -0.08164,-0.04 2.59133,0.861 -0.21011,0.632 -2.63491,-0.875 -4.49786,-3.04 -4.3471,-4.096 -4.2112,-5.091 -4.0168,-5.962 -3.825,-6.835 -3.5089,-7.456 -3.3198,-8.206 -2.9435,-8.768 -2.5669,-9.203 -2.1909,-9.64 -1.8154,-9.953 -1.3147,-10.205 -0.8138,-10.392 -0.2504,-10.455 0.2504,-10.454 0.8138,-10.3923 1.3147,-10.2044 1.8154,-9.9532 2.1908,-9.6396 2.5671,-9.2665 2.9432,-8.7045 3.2572,-8.2056 3.5723,-7.5206 3.8243,-6.771 4.0164,-6.0245 4.2117,-5.09172 4.3471,-4.09516 4.48747,-3.03377 4.57055,-1.904394 4.5426239,-0.63092 z M -6.74266,217.22 l 6.8056521,5.804 -8.7263621,1.962 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4800"
+         d="m 321,383 c 0,-37.003 32.236,-67 72,-67 39.764,0 72,29.997 72,67 0,37.003 -32.236,67 -72,67 -39.764,0 -72,-29.997 -72,-67 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f4f2f8;fill-rule:evenodd" />
+      <text
+         id="text4802"
+         transform="translate(328.597,359)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Mamery Addressing</text>
+      <text
+         id="text4804"
+         transform="translate(352.59,378)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">(Reposition,</text>
+      <text
+         id="text4806"
+         transform="translate(334.63,397)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Data: Wrong Size</text>
+      <text
+         id="text4808"
+         transform="translate(443.237,397)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">,</text>
+      <text
+         id="text4810"
+         transform="translate(330.01,417)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Type, Address, Size)</text>
+      <text
+         id="text4812"
+         transform="translate(250.622,294)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Inconsistent</text>
+      <text
+         id="text4814"
+         transform="translate(271.916,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Value</text>
+      <path
+         id="path4816"
+         d="m 496,632 c 0,-37.003 32.235,-67 72,-67 39.764,0 72,29.997 72,67 0,37.003 -32.236,67 -72,67 -39.765,0 -72,-29.997 -72,-67 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e8effc;fill-rule:evenodd" />
+      <text
+         id="text4818"
+         transform="translate(525.96,609)"
+         font-size="16"
+         font-weight="400"
+         style="font-weight:400;font-size:16px;font-family:Calibri, Calibri_MSFontService, sans-serif">Memory Use</text>
+      <text
+         id="text4820"
+         transform="translate(498.833,628)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">(</text>
+      <text
+         id="text4822"
+         transform="translate(503.667,628)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Clear: Missing Code</text>
+      <text
+         id="text4824"
+         transform="translate(629.667,628)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">,</text>
+      <text
+         id="text4826"
+         transform="translate(530.707,647)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Data, Type,</text>
+      <text
+         id="text4828"
+         transform="translate(524.06,667)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Address, Size)</text>
+      <path
+         id="path4830"
+         d="m 568.17,565.045 0.63,-4.73 1.903,-4.693 2.97,-4.612 4.094,-4.473 5.028,-4.336 5.9,-4.143 6.71,-3.888 7.458,-3.698 8.08,-3.32 8.643,-3.068 9.142,-2.63 9.578,-2.254 9.829,-1.878 10.143,-1.315 10.266,-0.814 10.321,-0.312 h -0.008 l 10.312,-0.563 -0.03,0.003 10.25,-1.5 -0.031,0.007 10.125,-2.5 -0.031,0.009 9.813,-3.438 -0.024,0.009 9.563,-4.187 -0.026,0.013 9.063,-4.938 -0.022,0.013 8.687,-5.625 -0.023,0.016 8.063,-6.25 -0.021,0.018 7.375,-6.75 -0.02,0.02 6.688,-7.25 -0.02,0.023 5.875,-7.687 -0.018,0.026 5,-8 -0.017,0.03 4.063,-8.313 -0.016,0.037 2.938,-8.437 -0.011,0.039 1.875,-8.625 -0.007,0.047 0.142,-2.002 0.665,0.048 -0.144,2.025 -1.884,8.668 -2.951,8.475 -4.079,8.346 -5.017,8.028 -5.894,7.712 -6.707,7.272 -7.396,6.769 -8.084,6.267 -8.71,5.639 -9.087,4.951 -9.587,4.198 -9.839,3.447 -10.156,2.508 -10.281,1.504 -10.332,0.564 -10.316,0.312 h 0.016 l -10.25,0.812 0.016,-0.002 -10.125,1.313 0.02,-0.003 -9.812,1.875 0.013,-0.003 -9.562,2.25 0.016,-0.004 -9.125,2.625 0.019,-0.007 -8.625,3.063 0.015,-0.006 -8.062,3.313 0.021,-0.01 -7.437,3.687 0.019,-0.01 -6.688,3.875 0.025,-0.015 -5.875,4.125 0.026,-0.021 -5,4.313 0.028,-0.028 -4.063,4.438 0.035,-0.045 -2.938,4.563 0.029,-0.055 -1.875,4.625 0.021,-0.082 -0.625,4.688 z m 216.45,-134.849 4.557,-7.696 3.423,8.263 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4832"
+         transform="translate(673.891,294)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Buffer</text>
+      <text
+         id="text4834"
+         transform="translate(659.771,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Over</text>
+      <text
+         id="text4836"
+         transform="translate(690.451,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">-</text>
+      <text
+         id="text4838"
+         transform="translate(695.285,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Read</text>
+      <text
+         id="text4840"
+         transform="translate(619.659,548)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Not Cleared</text>
+      <text
+         id="text4842"
+         transform="translate(619.659,567)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Object</text>
+      <text
+         id="text4844"
+         transform="translate(468.109,294)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Over Bounds</text>
+      <text
+         id="text4846"
+         transform="translate(486.116,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Pointer</text>
+      <path
+         id="path4848"
+         stroke-miterlimit="10"
+         d="m 789,393.5 v 29 M 775.5,408 h 27"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#44546a;stroke-linejoin:round;stroke-miterlimit:10" />
+      <path
+         id="path4850"
+         stroke-miterlimit="10"
+         d="m 775.5,408 c 0,-8.008 6.044,-14.5 13.5,-14.5 7.456,0 13.5,6.492 13.5,14.5 0,8.008 -6.044,14.5 -13.5,14.5 -7.456,0 -13.5,-6.492 -13.5,-14.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#44546a;stroke-linejoin:round;stroke-miterlimit:10" />
+      <path
+         id="path4852"
+         transform="matrix(0,1,1,0,613.5,316.5)"
+         d="m 0.0368105,0.331295 -4.5000005,0.5 0.0686,-0.015067 -4.5,1.500002 0.05362,-0.02328 -4.37503,2.375 0.0391,-0.02489 -4.3125,3.1875 0.0339,-0.02876 -4.125,4 0.0216,-0.0229 -4,4.6875 0.0187,-0.0242 -3.75,5.3125 0.0141,-0.0216 -3.5,5.875 0.0112,-0.0204 -3.25,6.4375 0.0089,-0.0192 -2.9375,6.875 0.0078,-0.0199 -2.5625,7.25 0.0061,-0.0192 -2.1875,7.625 0.0049,-0.019 -1.75,7.8125 0.0037,-0.0193 -1.3125,8.0625 0.0027,-0.0204 -0.8125,8.125 0.0015,-0.0231 -0.25,8.25 -0.0012,-0.0403 0.75,8.25 -0.0089,-0.0518 2.0625,8.125 -0.0165,-0.049 3.4375,8.063 -0.0188,-0.038 4.5625,7.813 -0.0206,-0.031 5.6875,7.625 -0.0232,-0.028 6.75,7.25 -0.0208,-0.021 7.625,6.875 -0.021,-0.017 8.43749,6.437 -0.02261,-0.015 9.187496,5.875 -0.021653,-0.013 9.874977,5.312 -0.0207,-0.01 10.375,4.688 -0.0221,-0.009 10.875,4 -0.0242,-0.008 11.25,3.187 -0.0235,-0.005 11.5,2.375 -0.025,-0.005 11.6875,1.5 -0.0285,-0.002 5.0412,0.21 -0.0278,0.667 -5.0555,-0.212 -11.7143,-1.503 -11.5242,-2.38 -11.2739,-3.194 -10.8982,-4.009 -10.3965,-4.697 -9.89619,-5.324 -9.20972,-5.889 -8.45939,-6.454 -7.6459,-6.894 -6.7723,-7.274 -5.7096,-7.655 -4.5825,-7.846 -3.4558,-8.106 -2.0754,-8.1756 -0.7542,-8.2963 0.251,-8.2818 0.8146,-8.1467 1.3158,-8.0824 1.7543,-7.8317 2.193,-7.6441 2.5694,-7.2696 2.9458,-6.8945 3.2601,-6.4574 3.5125,-5.8961 3.7663,-5.3355 4.0202,-4.7111 4.1522,-4.02651 4.3492,-3.21456 4.42116,-2.40008 4.56133,-1.520445 4.5350995,-0.5039 z M 69.8134,171.408 l 7.8262,4.331 -8.1599,3.662 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4854"
+         transform="translate(460.59,606)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">…</text>
+      <path
+         id="path4856"
+         d="m 802.516,408.167 4.015,0.188 4.038,0.568 8.047,2.263 7.857,3.646 7.661,4.898 7.403,6.086 7.085,7.147 6.768,8.085 6.266,9.022 5.762,9.771 5.198,10.459 4.572,11.083 3.882,11.584 3.13,11.897 2.317,12.273 1.441,12.4 0.208,5.838 -0.667,0.023 -0.207,-5.824 0.002,0.027 -1.438,-12.375 0.004,0.023 -2.313,-12.25 0.006,0.023 -3.125,-11.875 0.006,0.021 -3.875,-11.562 0.008,0.021 -4.563,-11.062 0.01,0.021 -5.187,-10.438 0.011,0.021 -5.75,-9.75 0.013,0.021 -6.25,-9 0.018,0.024 -6.75,-8.062 0.019,0.02 -7.062,-7.125 0.025,0.023 -7.375,-6.062 0.032,0.023 -7.625,-4.875 0.039,0.021 -7.812,-3.625 0.05,0.019 -8,-2.25 0.044,0.009 -4,-0.562 0.03,0.003 -4,-0.188 z m 89.266,125.745 -3.712,8.137 -4.282,-7.853 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4858"
+         d="m 544,381.5 c 0,-36.175 30.892,-65.5 69,-65.5 38.108,0 69,29.325 69,65.5 0,36.175 -30.892,65.5 -69,65.5 -38.108,0 -69,-29.325 -69,-65.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dfdaea;fill-rule:evenodd" />
+      <text
+         id="text4860"
+         transform="translate(571.565,355)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Memory Use</text>
+      <text
+         id="text4862"
+         transform="translate(555.385,374)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">(Read, Data, Type,</text>
+      <text
+         id="text4864"
+         transform="translate(568.132,393)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Address: Over</text>
+      <text
+         id="text4866"
+         transform="translate(562.758,413)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#660066">Bounds Pointer</text>
+      <text
+         id="text4868"
+         transform="translate(659.278,413)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">,</text>
+      <text
+         id="text4870"
+         transform="translate(598.298,432)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Size)</text>
+      <path
+         id="path4872"
+         stroke-miterlimit="10"
+         d="m 816.5,676.5 72,-135 72,135 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dfdaea;fill-rule:evenodd;stroke:#660066;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4874"
+         transform="translate(849.901,631)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Information</text>
+      <text
+         id="text4876"
+         transform="translate(858.454,650)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Exposure</text>
+      <text
+         id="text4878"
+         transform="translate(182.858,586)"
+         font-size="14"
+         font-weight="300"
+         style="font-weight:300;font-size:14px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Fault</text>
+      <text
+         id="text4880"
+         transform="translate(182.858,543)"
+         font-size="14"
+         font-weight="300"
+         style="font-weight:300;font-size:14px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Bug</text>
+      <text
+         id="text4882"
+         transform="translate(182.858,670)"
+         font-size="14"
+         font-weight="300"
+         style="font-weight:300;font-size:14px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Failure</text>
+      <path
+         id="path4884"
+         d="m 134,579 c 0,-11.046 8.73,-20 19.5,-20 10.77,0 19.5,8.954 19.5,20 0,11.046 -8.73,20 -19.5,20 -10.77,0 -19.5,-8.954 -19.5,-20 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f4f2f8;fill-rule:evenodd" />
+      <path
+         id="path4886"
+         d="m 134,536 c 0,-11.046 8.73,-20 19.5,-20 10.77,0 19.5,8.954 19.5,20 0,11.046 -8.73,20 -19.5,20 -10.77,0 -19.5,-8.954 -19.5,-20 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e8effc;fill-rule:evenodd" />
+      <path
+         id="path4888"
+         stroke-miterlimit="8"
+         d="m 136.5,682.5 17.5,-36 17.5,36 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dfdaea;fill-rule:evenodd;stroke:#660066;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4890"
+         transform="translate(182.858,628)"
+         font-size="14"
+         font-weight="300"
+         style="font-weight:300;font-size:14px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Final Error</text>
+      <path
+         id="path4892"
+         d="m 134,621.5 c 0,-10.77 8.954,-19.5 20,-19.5 11.046,0 20,8.73 20,19.5 0,10.77 -8.954,19.5 -20,19.5 -11.046,0 -20,-8.73 -20,-19.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dfdaea;fill-rule:evenodd" />
+      <text
+         id="text4894"
+         transform="translate(794.766,695)"
+         font-size="13"
+         font-weight="300"
+         style="font-weight:300;font-size:13px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#7f7f7f">BF, I. Bojanova</text>
+      <text
+         id="text4896"
+         transform="translate(873.766,695)"
+         font-size="13"
+         font-weight="300"
+         style="font-weight:300;font-size:13px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#7f7f7f">, 2014</text>
+      <text
+         id="text4898"
+         transform="translate(907.433,695)"
+         font-size="13"
+         font-weight="300"
+         style="font-weight:300;font-size:13px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#7f7f7f">-</text>
+      <text
+         id="text4900"
+         transform="translate(911.433,695)"
+         font-size="13"
+         font-weight="300"
+         style="font-weight:300;font-size:13px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#7f7f7f">2023</text>
+      <text
+         id="text4902"
+         transform="translate(420.818,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF CVE</text>
+      <text
+         id="text4904"
+         transform="translate(465.485,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">-</text>
+      <text
+         id="text4906"
+         transform="translate(470.318,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">2014</text>
+      <text
+         id="text4908"
+         transform="translate(502.985,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">-</text>
+      <text
+         id="text4910"
+         transform="translate(507.818,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">0160</text>
+      <text
+         id="text4912"
+         transform="translate(544.151,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">–</text>
+      <text
+         id="text4914"
+         transform="translate(555.818,238)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Heartbleed</text>
+    </g>
+  </g>
+</svg>

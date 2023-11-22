@@ -25,7 +25,7 @@ BF describes a _vulnerability_ as a chain of improper states and their transitio
 
 Each improper state is an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state.
 <br/><br/>
-{{< img src="images/BF Models/BF Vulnerability Model.svg" height="350" caption="Figure 1. A vulnerability as a chain of improper states and their transitions" >}}
+{{< img src="images/BF Models/BF Vulnerability Model - simple.svg" height="350" caption="Figure 1. A vulnerability as a chain of improper states and their transitions" >}}
 <br/>
 Operations or operands improperness define the causes. 
 

@@ -5,5 +5,24 @@ title: "BF Formal Language"
 ---
 # BF Formal Language <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
 
-//to be added//
+The BF software security vulnerability specification model is presented on Figure 1. Following the [BF definitions](/BF/info/vulnerability-model/bf-concepts/) of bug, fault, error, and weakness, a software security vulnerability is modeled as a causal chain of underlying weaknesses that leads to a security failure. A security bug causes the first weakness, leading to an error. This error becomes the cause (i.e., the fault) for a next weakness and propagates through subsequent weaknesses until a final/exploitable error is reached, causing the security failure.
 
+<!-- In some cases, several vulnerabilities must be present for an exploit to be harmful. The final errors resulting from different chains converge to cause a failure (see  Figure 2). The bug in at least one of the chains must be fixed to avoid that failure.   -->
+<!-- <br/>
+ {{< img src="images/BF Models/BF Converging Vulnerabilities Model.svg" height="1100" caption="Figure 2. Converging software security vulnerabilities, leading to a security failure." >}}
+<br/> -->
+
+<!-- The detailed model of a formal BF specification of a software security vulnerability with N underlying weaknesses is presented on Figure 2.  -->
+
+ The bug is an improper opration. A fault is an improper operand. The operation defect type can be code or specification. The operand fault type can be name, data, type, address, or size. ‘Name’ is about a resolved or bound object, function, data type, or namespace; ‘data’, ‘type’, ‘address’, and ‘size’ are about an object.
+
+<br/>
+{{< img src="images/BF Models/BF Vulnerability Specification Model.svg" height="750" caption="Figure 1. The BF Vulnerability Specification Model -- a chain of underlying weaknesses, leading to a security failure." >}}
+
+<!-- 
+I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) . -->
+
+Exploitation of a vulnerability may result in a fault causing a next vulnerability of only fault type weaknesses. The bug in the first vulnerability must be fixed to avoid the failure. 
+Occasionally, for an exploit to be harmful, several vulnerabilities must converge at their final errors. The bug in at least one of the chains must be fixed to avoid the failure.
+
+//more to be added//
