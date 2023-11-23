@@ -2,7 +2,7 @@
 weight: 1
 title: "Bugs Model"
 ---
-# BF Crypto Data Security Model<br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
+# BF Crypto Data Security Model<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
 
 Cryptography comprises techniques for scrambling or disguising data so it is available only to whom can restore them to their original form. Cryptography provides a strong basis for keeping data secret, for verifying data integrity, and for verifying data source. Two main types of cryptographic algorithms are: 
 

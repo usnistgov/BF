@@ -3,9 +3,9 @@ weight: 6
 bookCollapseSection: false
 title: "BF Publications"
 ---
-# BF Publications <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
+# BF Publications <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
 
-Please, reference BF publications `recent than year 2020`, as they start developing my ideas `BF formalism` ideas -- originally shared in my 2014/2015 preseantations. 
+Please, reference BF publications `recent than year 2020`, as they start developing my ideas on `BF;s formalism` -- originally shared in my 2014/2015 preseantations. 
 If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 |     |
 | --- |
@@ -42,3 +42,7 @@ NIST, ITL, Science Day Posters
 |I. Bojanova, [Formalizing Software Bugs](../../../Presentations/Formalizing_Software_Bugs--12082014.pdf), NIST, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, Dec. 9, 2014. <br/> `Author Contributions IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation; Visualization, Writing- Reviewing and Editing.` |
 ||
 ||
+
+<!-- https://iln.ieee.org/public/searchresults?q=&at=T&ty=ML.BASE.DV.SearchAnyWords&ln=&CRWPRV_PROVIDER_ID=88721CC1A29F412CAE2BED1733ADD6D7
+
+or go to https://iln.ieee.org  and search for Reliability Society as course provider on left panel -->

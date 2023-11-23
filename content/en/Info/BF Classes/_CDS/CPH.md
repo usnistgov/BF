@@ -2,7 +2,7 @@
 weight: 3
 title: "CPH"
 ---
-## BF Cipher (CPH) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI Bugs Framework (BF)`_
+## BF Cipher (CPH) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}Sensitive data are improperly encrypted or ciphertext is improperly decrypted.{{< /definition >}}
