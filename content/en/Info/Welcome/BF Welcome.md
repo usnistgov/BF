@@ -8,7 +8,7 @@ url: /
 <!-- <div style="text-indent: 40px"> </div>-->
 # Welcome to Bugs Framework (BF) -- <l style="color: #0428AE">Software Developers 'Best Friend'</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_</l>
 
-The Bugs Framework (BF) is being created as is a classification system of software security bugs, faults, and weaknesses that allows unambiguous formal descriptions of the software security vulnerabilities that exploit them. It comprises:
+The Bugs Framework (BF) is being created as a classification system of software security bugs, faults, and weaknesses that allows unambiguous formal specification of the software security vulnerabilities that exploit them. It comprises:
 
 <div style="text-indent: 40px">
 

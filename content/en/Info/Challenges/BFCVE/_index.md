@@ -1,5 +1,5 @@
 ---
 weight: 2
 bookCollapseSection: true
-title: "BFCVE"
+title: "BF CVE Challenge"
 ---

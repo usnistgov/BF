@@ -2,7 +2,7 @@
 weight: 3
 title: "DCL"
 ---
-## BF Declaration (DCL) Bugs Class <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+## BF Declaration (DCL) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 #### Definition
 {{< definition >}}An object, a function, a type, or a namespace is declared or defined improperly.{{< /definition >}}
