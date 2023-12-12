@@ -1,5 +1,5 @@
 ﻿---
-weight: 3
+weight: 7
 title: "_MEM BFCVE"
 ---
 # \_MEM BFCVE Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_

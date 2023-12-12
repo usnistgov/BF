@@ -1,5 +1,5 @@
 ﻿---
-weight: 5
+weight: 8
 title: "BFAI"
 ---
 # BFAI Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_

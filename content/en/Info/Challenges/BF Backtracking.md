@@ -1,5 +1,5 @@
 ﻿---
-weight: 3
+weight: 4
 title: "BF Backtracking"
 ---
 # BF Backtracking -- from Failure to Bug<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
@@ -11,5 +11,26 @@ BF describes a _vulnerability_ as a chain of improper states and their transitio
 <br/>
  {{< img src="images/BF Models/BF Backtracking.svg" caption="Figure 1. BF features: Backtracking from a failure to the bug – knowing the failure, go backwards by improper operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability." >}}
 <br/>
+
+and the following video from May 2021:
+<div class="row">
+<div class="col-9">
+<br/><br/>
+BF Goals, Features, and Taxonomy <br/>
+<br/><br/>
+{{< youtube QnCPXHLi7JQ >}}
+</div>
+</div>
+<br/><br/>
+
+<l style="font-size: 15px; color: #0428AE">_BF Citation: I. Bojanova, NIST, BF Goals, Features, and Taxonomy. Video. Accessed: <span id="currentDate"></span> [Online]. Available: [https://usnistgov.github.io/BF/info/challenges/bf-backtracking/](https://usnistgov.github.io/BF/info/challenges/bf-backtracking/)_.</l>
+
+
+
+I. Bojanova, C. E. Galhardo and S. Moshtari, "Data Type Bugs Taxonomy: Integer Overflow, Juggling, and Pointer Arithmetics in Spotlight," _2022 IEEE 29th Annual Software Technology Conference (STC)_, 2022, pp. 192-205, doi: [10.1109/STC55697.2022.00035](https://doi.org/10.1109/STC55697.2022.00035), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=935220)
+
+I. Bojanova and C. Eduardo Galhardo, "Classifying Memory Bugs Using Bugs Framework Approach," _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021), pp. 1157-1164, doi: [10.1109/COMPSAC51774.2021.00159](https://doi.org/10.1109/COMPSAC51774.2021.00159), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930038) 
+
+I. Bojanova, [The Bugs Framework (BF)](../../../Presentations/Bugs_Framework-COMPSAC_2021-287-0614202.pdf);  [The Bugs Framework (BF) - with notes](../../../Presentations/Bugs_Framework-COMPSAC_2021-287-notes--06142021.ppt); and video from 06/14/2021, _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021)
 
 //more to be added//
