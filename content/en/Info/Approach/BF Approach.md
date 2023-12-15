@@ -33,7 +33,7 @@ The initial state (depicted in blue on Figure 1) is always caused by a bug; a co
 BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 2). Each improper state corresponds to an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state. I other words, the transition from the initial state is by improper operation (an operation that has a bug) over proper operands; the transitions from intermediate states are by proper operations with at least one improper operand (the operand is at fault).
 
 <br/><br/>
-{{<img src="images/BF Models/BF Vulnerability Model - simple.svg" caption="Figure 2. BF features: Chaining weaknesses – A vulnerability as a chain of improper states and their transitions" >}}
+{{<img src="images/BF Models/BF Vulnerability.svg" caption="Figure 2. BF features: Chaining weaknesses – A vulnerability as a chain of improper states and their transitions" >}}
 <br/>
 
 ### Backtracking
