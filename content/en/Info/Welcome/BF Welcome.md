@@ -13,6 +13,8 @@ Bugs Framework (BF) is being created as a formal classification system of softwa
 
 <div style="text-indent: 40px">
 
+➢ Software security _[concepts definitions](/BF/info/vulnerability-model/bf-concepts/)_
+
 ➢ _Bugs models_ with possible flow of operations
 
 ➢ A structured, complete, orthogonal, language and domain independent weakness _[taxonomy](/BF/info/bf-classes)_
