@@ -5,7 +5,7 @@ title: "Why BF?"
 ---
 # Why BF? <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
 
-The Bugs Framework aims to have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It builds on the following commonly used repositories of software weaknesses and vulnerabilities, while considering the problems that they have.
+Once fully developed, the Bugs Framework will have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It is being built as a formal classification system that aims to address the of the current state or the art weakness and vulnerability repositories problems:
 
 *   [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) – a community-developed list of software and hardware weaknesses types.
 *   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 25,000 were documented in 2022 only.
@@ -32,6 +32,3 @@ It’s not clear here what “sufficiently” means. “Verifying that data is v
 NVD labels it with CWE-190 – Integer Overflow or Wraparound, while the cause is CWE-20 – Improper Input Validation.
 
 The full chain is: CWE 20 – CWE 190 – CWE 119, the last one being – Improper Restriction of Operations within the Bounds of a Memory Buffer.
-
-
-

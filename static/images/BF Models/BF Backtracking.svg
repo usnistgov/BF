@@ -4,7 +4,7 @@
 <svg
    width="276.71005mm"
    height="106.59814mm"
-   viewBox="0 0 276.71003 106.59818"
+   viewBox="0 0 276.71004 106.59815"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0146815"
-     inkscape:cx="269.04993"
-     inkscape:cy="94.1182"
+     inkscape:cx="523.3169"
+     inkscape:cy="201.54107"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -37,112 +37,112 @@
     <clipPath
        id="clip0">
       <rect
-         x="177"
-         y="234"
-         width="943"
-         height="407"
+         x="34"
+         y="5"
+         width="992"
+         height="381"
          id="rect1" />
     </clipPath>
     <clipPath
-       id="clip0-0">
+       id="clip0-5">
       <rect
-         x="45"
-         y="738"
-         width="714"
-         height="451"
-         id="rect1-4" />
+         x="34"
+         y="5"
+         width="992"
+         height="381"
+         id="rect1-5" />
     </clipPath>
     <clipPath
-       id="clip0-6">
+       id="clip0-1">
       <rect
-         x="158"
-         y="966"
-         width="714"
-         height="497"
+         x="48"
+         y="451"
+         width="947"
+         height="499"
          id="rect1-6" />
     </clipPath>
     <clipPath
-       id="clip0-3">
+       id="clip0-58">
       <rect
-         x="177"
-         y="171"
-         width="943"
-         height="470"
-         id="rect1-2" />
+         x="6"
+         y="1144"
+         width="1980"
+         height="633"
+         id="rect1-51" />
+    </clipPath>
+    <clipPath
+       id="clip0-59">
+      <rect
+         x="120"
+         y="1881"
+         width="1066"
+         height="1213"
+         id="rect1-9" />
     </clipPath>
     <clipPath
        id="clip0-9">
       <rect
-         x="36"
-         y="62"
-         width="981"
-         height="352"
-         id="rect1-5" />
+         x="177"
+         y="186"
+         width="943"
+         height="455"
+         id="rect1-2" />
     </clipPath>
     <clipPath
-       id="clip0-66">
+       id="clip0-52">
       <rect
-         x="36"
-         y="62"
-         width="981"
-         height="352"
-         id="rect1-64" />
+         x="139"
+         y="1987"
+         width="842"
+         height="172"
+         id="rect1-8" />
+    </clipPath>
+    <clipPath
+       id="clip0-8">
+      <rect
+         x="34"
+         y="5"
+         width="992"
+         height="381"
+         id="rect1-7" />
     </clipPath>
     <clipPath
        id="clip0-2">
       <rect
-         x="-39"
-         y="600"
-         width="1970"
-         height="678"
-         id="rect1-7" />
+         x="48"
+         y="451"
+         width="947"
+         height="499"
+         id="rect1-97" />
     </clipPath>
     <clipPath
-       id="clip0-65">
+       id="clip0-6">
       <rect
          x="177"
-         y="171"
+         y="186"
          width="943"
-         height="470"
-         id="rect1-55" />
+         height="455"
+         id="rect1-0" />
     </clipPath>
     <clipPath
-       id="clip0-20">
-      <rect
-         x="45"
-         y="928"
-         width="1055"
-         height="352"
-         id="rect1-23" />
-    </clipPath>
-    <clipPath
-       id="clip0-7">
+       id="clip0-60">
       <rect
          x="45"
          y="863"
          width="1055"
          height="417"
-         id="rect1-54" />
-    </clipPath>
-    <clipPath
-       id="clip0-75">
-      <rect
-         x="45"
-         y="863"
-         width="1055"
-         height="417"
-         id="rect1-3" />
+         id="rect1-1" />
     </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-33.768862,-123.71129)">
+     transform="translate(33.235703,-95.031359)">
     <g
-       clip-path="url(#clip0-75)"
-       transform="matrix(0.26458333,0,0,0.26458333,19.481362,-108.35723)"
-       id="g91">
+       clip-path="url(#clip0-60)"
+       transform="matrix(0.26458333,0,0,0.26458333,-47.523203,-137.03716)"
+       id="g90">
       <text
          fill="#660066"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
@@ -262,305 +262,303 @@
          font-weight="300"
          font-size="16px"
          transform="translate(473.454,1020)"
-         id="text17">Improper</text>
-      <text
-         fill="#7d3368"
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(537.14,1020)"
-         id="text18">Operand</text>
+         id="text17">Improper Operand</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(593.16,1023)"
-         id="text19">3k</text>
+         id="text18">3k</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(283.334,1020)"
-         id="text20">Improper</text>
-      <text
-         fill="#7d3368"
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(347.02,1020)"
-         id="text21">Operand</text>
+         id="text19">Improper Operand</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(403.04,1023)"
-         id="text22">2j</text>
+         id="text20">2j</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(640.89,1020)"
-         id="text23">Improper</text>
+         id="text21">Improper</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(704.577,1020)"
-         id="text24">Operand</text>
+         id="text22">Operand</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(760.597,1023)"
-         id="text25">np</text>
+         id="text23">np</text>
       <path
          d="m 381,1101.5 c 0,-41.15 33.355,-74.5 74.5,-74.5 41.145,0 74.5,33.35 74.5,74.5 0,41.15 -33.355,74.5 -74.5,74.5 -41.145,0 -74.5,-33.35 -74.5,-74.5 z"
          fill="#f4f2f8"
          fill-rule="evenodd"
-         id="path25" />
+         id="path23" />
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(404.641,1083)"
-         id="text26">Improper State</text>
+         id="text24">Improper State</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(500.955,1086)"
-         id="text27">2</text>
+         id="text25">2</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(402.881,1110)"
-         id="text28">(</text>
+         id="text26">(</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(409.215,1110)"
-         id="text29">operation</text>
+         id="text27">operation</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(475.415,1113)"
-         id="text30">2</text>
+         id="text28">2</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(480.748,1110)"
-         id="text31">,</text>
+         id="text29">,</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(411.035,1129)"
-         id="text32">operand</text>
+         id="text30">operand</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(468.555,1132)"
-         id="text33">2j</text>
+         id="text31">2j</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(478.721,1129)"
-         id="text34">,</text>
+         id="text32">,</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(486.221,1129)"
-         id="text35">... )</text>
+         id="text33">... )</text>
       <path
          d="m 621.169,1035.95 0.503,-4.72 1.455,-4.62 2.273,-4.61 3.151,-4.48 3.901,-4.34 4.586,-4.08 5.209,-3.95 5.71,-3.64 6.272,-3.327 6.706,-3.008 7.019,-2.695 7.396,-2.257 7.646,-1.817 7.834,-1.316 7.896,-0.815 8.023,-0.314 8.021,0.251 7.893,0.689 7.831,1.128 7.646,1.504 14.401,4.007 6.711,2.509 6.269,2.821 5.707,3.01 5.21,3.2 4.588,3.46 3.902,3.59 3.164,3.73 2.564,5.03 -0.594,0.3 -2.546,-4.99 0.042,0.06 -3.125,-3.69 0.029,0.03 -3.875,-3.56 0.025,0.02 -4.563,-3.44 0.027,0.02 -5.188,-3.19 0.019,0.01 -5.687,-2.995 0.018,0.009 -6.25,-2.813 0.02,0.009 -6.687,-2.5 0.027,0.009 -14.375,-4 0.025,0.006 -7.625,-1.5 0.017,0.003 -7.812,-1.126 0.018,0.003 -7.875,-0.688 0.019,0.001 -8,-0.25 h 0.023 l -8,0.313 0.021,-0.002 -7.875,0.813 0.021,-0.003 -7.812,1.312 0.022,-0.004 -7.625,1.812 0.02,-0.005 -7.375,2.25 0.022,-0.008 -7,2.688 0.017,-0.007 -6.688,3 0.02,-0.01 -6.25,3.313 0.023,-0.01 -5.687,3.62 0.022,-0.01 -5.187,3.93 0.02,-0.01 -4.563,4.06 0.026,-0.03 -3.875,4.32 0.025,-0.04 -3.125,4.44 0.027,-0.04 -2.25,4.56 0.018,-0.05 -1.437,4.57 0.014,-0.07 -0.5,4.69 z m 172.741,-17.19 -1.918,8.74 -5.838,-6.78 z"
-         id="path35" />
+         id="path33" />
       <path
          d="m 0.0426571,0.330593 -3.8749971,0.5 0.07043,-0.017029 -3.8125,1.374996 0.05487,-0.02563 -3.74996,2.1875 0.045,-0.0315 -3.6875,3.0625 0.0287,-0.02685 -3.5625,3.75002 0.0222,-0.026 -3.375,4.375 0.0166,-0.0235 -3.25,5.0625 0.0129,-0.0219 -3,5.5625 0.0096,-0.0193 -2.75,6 0.0081,-0.0192 -2.5,6.5 0.0089,-0.0264 -4.0625,13.9375 0.0066,-0.0269 -1.5,7.375 0.0031,-0.0174 -1.125,7.5625 0.0023,-0.0193 -0.6875,7.6875 0.0012,-0.019 -0.25,7.75 -10e-5,-0.0241 0.3125,7.75 -0.0016,-0.0216 0.8125,7.6875 -0.0031,-0.022 1.3125,7.562 -0.0047,-0.022 1.8125,7.375 -0.0058,-0.021 2.25,7.125 -0.0074,-0.021 2.6875,6.875 -0.0084,-0.019 3,6.437 -0.0109,-0.021 3.375,6.062 -0.0119,-0.02 3.625,5.563 -0.0158,-0.022 3.875,5 -0.021,-0.025 4.125,4.375 -0.022,-0.021 4.25004,3.75 -0.03121,-0.024 4.4375,3.062 -0.04522,-0.026 4.5625,2.187 -0.065328,-0.023 2.679198,0.652 -0.15757,0.648 -2.713076,-0.66 -4.617584,-2.214 -4.47541,-3.089 -4.27634,-3.773 -4.1466,-4.398 -3.8932,-5.024 -3.6388,-5.583 -3.3865,-6.083 -3.0095,-6.458 -2.6954,-6.896 -2.2566,-7.145 -1.8179,-7.397 -1.3163,-7.5849 -0.8148,-7.7093 -0.3134,-7.773 0.2506,-7.7715 0.6893,-7.7067 1.1277,-7.5809 1.5045,-7.3972 4.0703,-13.9642 2.5087,-6.5227 2.7589,-6.0193 3.0111,-5.5832 3.2647,-5.0853 3.3942,-4.4 3.5879,-3.77665 3.7238,-3.09269 3.80011,-2.21671 3.87539,-1.397679 3.9111429,-0.504664 z M 1.35297,159.975 l 7.12955,5.401 -8.598435,2.463 z"
          transform="matrix(0,1,1,0,456.5,1027.5)"
-         id="path36" />
+         id="path34" />
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="19px"
          transform="translate(614.566,1057)"
-         id="text36">…</text>
+         id="text34">…</text>
       <path
          d="m 717,1101.5 c 0,-41.15 33.355,-74.5 74.5,-74.5 41.145,0 74.5,33.35 74.5,74.5 0,41.15 -33.355,74.5 -74.5,74.5 -41.145,0 -74.5,-33.35 -74.5,-74.5 z"
          fill="#dfdaea"
          fill-rule="evenodd"
-         id="path37" />
+         id="path35" />
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(740.423,1083)"
-         id="text37">Improper State</text>
+         id="text35">Improper State</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(836.736,1086)"
-         id="text38">n</text>
+         id="text36">n</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(738.75,1110)"
-         id="text39">(</text>
+         id="text37">(</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(745.083,1110)"
-         id="text40">operation</text>
+         id="text38">operation</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(811.283,1113)"
-         id="text41">n</text>
+         id="text39">n</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(816.783,1110)"
-         id="text42">,</text>
+         id="text40">,</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(824.283,1110)"
-         id="text43">…</text>
+         id="text41">…</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(745.323,1129)"
-         id="text44">operand</text>
+         id="text42">operand</text>
       <text
          fill="#7d3368"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(802.843,1132)"
-         id="text45">np</text>
+         id="text43">np</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(816.176,1129)"
-         id="text46">,</text>
+         id="text44">,</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(823.676,1129)"
-         id="text47">... )</text>
+         id="text45">... )</text>
       <path
          d="m 791.171,1027.46 0.633,-3.86 1.913,-3.82 2.976,-3.8 4.099,-3.66 4.967,-3.52 5.963,-3.33 6.706,-3.19 7.393,-3.011 8.08,-2.756 8.64,-2.442 9.139,-2.191 9.514,-1.815 9.888,-1.502 10.077,-1.064 10.263,-0.688 10.328,-0.251 10.327,0.251 10.263,0.625 10.077,1.064 9.888,1.44 9.514,1.815 9.138,2.128 8.64,2.379 8.079,2.693 7.392,2.885 6.708,3.07 5.962,3.32 4.962,3.4 4.11,3.6 3.27,4.77 -0.55,0.38 -3.24,-4.74 0.05,0.07 -4.06,-3.57 0.03,0.03 -4.936,-3.38 0.026,0.02 -5.937,-3.31 0.023,0.01 -6.687,-3.06 h 0.017 l -7.375,-2.871 0.016,0.006 -8.062,-2.688 0.016,0.006 -8.625,-2.375 0.013,0.003 -9.125,-2.125 0.014,0.003 -9.5,-1.813 0.014,0.003 -9.875,-1.438 0.013,0.002 -10.063,-1.063 0.015,10e-4 -10.25,-0.625 0.012,10e-4 -10.312,-0.25 h 0.016 l -10.312,0.25 0.014,-10e-4 -10.25,0.688 0.012,-10e-4 -10.062,1.062 0.015,-0.002 -9.875,1.5 0.012,-0.002 -9.5,1.813 0.016,-0.004 -9.125,2.188 0.013,-0.004 -8.625,2.438 0.017,-0.005 -8.063,2.75 0.018,-0.007 -7.375,3 0.018,-0.01 -6.688,3.19 0.019,-0.01 -5.937,3.31 0.03,-0.02 -4.937,3.5 0.029,-0.02 -4.063,3.62 0.041,-0.04 -2.938,3.75 0.036,-0.05 -1.875,3.75 0.031,-0.1 -0.625,3.81 z m 221.989,-9.82 -1.2,8.86 -6.37,-6.28 z"
-         id="path47" />
+         id="path45" />
       <path
          d="m 0.0530775,0.32908 -3.8749975,0.625 0.09004,-0.028035 -3.8125,1.812495 0.06243,-0.03863 -3.74995,2.9375 0.0377,-0.03456 -3.6875,3.9375 0.027,-0.03281 -3.5625,4.93746 0.018,-0.0276 -3.375,5.8125 0.0104,-0.0195 -3.25,6.5625 0.0097,-0.0214 -3,7.3125 0.0066,-0.0174 -2.75,7.9375 0.0048,-0.015 -2.5,8.5 0.0041,-0.0154 -2.1875,9 0.0029,-0.0129 -1.875,9.3125 0.0026,-0.0148 -1.5,9.6875 0.0018,-0.0135 -1.125,9.9375 0.0014,-0.0148 -0.6875,10.0625 6e-4,-0.0145 -0.25,10.1878 v -0.017 l 0.25,10.188 -6e-4,-0.015 0.6875,10.063 -0.0014,-0.015 1.125,9.938 -0.0018,-0.014 1.5,9.625 -0.0025,-0.014 1.875,9.375 -0.003,-0.014 2.1875,9 -0.0041,-0.015 2.5,8.5 -0.0048,-0.015 2.75,7.937 -0.0079,-0.02 3.0625,7.25 -0.0067,-0.015 3.1875,6.625 -0.0143,-0.027 3.4375,5.75 -0.0158,-0.024 3.5625,4.938 -0.027,-0.033 3.6875,3.938 -0.0377,-0.035 3.74995,2.938 -0.10493,-0.056 1.28238,0.406 -0.20123,0.636 -1.33986,-0.424 -3.81771,-2.991 -3.7196,-3.972 -3.5833,-4.966 -3.4526,-5.775 -3.1976,-6.646 -3.07,-7.268 -2.7562,-7.955 -2.5044,-8.516 -2.191,-9.014 -1.8778,-9.389 -1.5021,-9.639 -1.1267,-9.951 -0.6885,-10.078 -0.2503,-10.203 0.2503,-10.2025 0.6885,-10.0771 1.1267,-9.9517 1.5021,-9.7016 1.8778,-9.3264 2.191,-9.0141 2.5044,-8.5152 2.7557,-7.9538 3.008,-7.332 3.2601,-6.5829 3.3888,-5.8364 3.5846,-4.96811 3.7196,-3.97177 3.79932,-2.97611 3.88888,-1.848806 3.9220225,-0.632584 z M -6.41151,210.815 l 6.4270481,6.221 -8.8325281,1.409 z"
          transform="matrix(0,1,1,0,238.5,1027.5)"
-         id="path48" />
+         id="path46" />
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(104.146,1263)"
-         id="text48">Transition State</text>
+         id="text46">Transition State</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(191.812,1263)"
-         id="text49">–</text>
+         id="text47">–</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(201.479,1263)"
-         id="text50">caused by a Fault</text>
+         id="text48">caused by a Fault</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(104.146,1222)"
-         id="text51">Initial State</text>
+         id="text49">Initial State</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(167.812,1222)"
-         id="text52">–</text>
+         id="text50">–</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(177.479,1222)"
-         id="text53">caused by the Bug</text>
+         id="text51">caused by the Bug</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(377.609,1263)"
-         id="text54">Failure</text>
+         id="text52">Failure</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(417.442,1263)"
-         id="text55">–</text>
+         id="text53">–</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(427.109,1263)"
-         id="text56">caused by exploitation of the Final Error</text>
+         id="text54">caused by exploitation of the Final Error</text>
       <path
          d="m 54,1260 c 0,-11.05 8.7304,-20 19.5,-20 10.7695,0 19.5,8.95 19.5,20 0,11.05 -8.7305,20 -19.5,20 -10.7696,0 -19.5,-8.95 -19.5,-20 z"
          fill="#f4f2f8"
          fill-rule="evenodd"
-         id="path56" />
+         id="path54" />
       <path
          d="m 54,1216 c 0,-11.05 8.7304,-20 19.5,-20 10.7695,0 19.5,8.95 19.5,20 0,11.05 -8.7305,20 -19.5,20 -10.7696,0 -19.5,-8.95 -19.5,-20 z"
          fill="#e8effc"
          fill-rule="evenodd"
-         id="path57" />
+         id="path55" />
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(377.609,1222)"
-         id="text57">Final State</text>
+         id="text55">Final State</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(436.775,1222)"
-         id="text58">–</text>
+         id="text56">–</text>
       <text
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="13px"
          transform="translate(446.442,1222)"
-         id="text59">results in the Final/Exploitable Error</text>
+         id="text57">results in</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(498.442,1222)"
+         id="text58">an Exploitable</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(577.109,1222)"
+         id="text59">Error</text>
       <path
          d="m 329,1216 c 0,-11.05 8.954,-20 20,-20 11.046,0 20,8.95 20,20 0,11.05 -8.954,20 -20,20 -11.046,0 -20,-8.95 -20,-20 z"
          fill="#dfdaea"
@@ -579,34 +577,35 @@
          font-weight="300"
          font-size="16px"
          transform="translate(526.773,888)"
-         id="text60">BF</text>
-      <text
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(546.273,888)"
-         id="text61">Backtracking</text>
+         id="text60">BF Backtracking</text>
       <text
          fill="#7f7f7f"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="12px"
          transform="translate(950.452,1220)"
-         id="text62">BF,</text>
+         id="text61">BF,</text>
       <text
          fill="#7f7f7f"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="12px"
          transform="translate(968.118,1220)"
-         id="text63">I.</text>
+         id="text62">I.</text>
       <text
          fill="#7f7f7f"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="12px"
          transform="translate(976.785,1220)"
-         id="text64">Bojanova, 2014</text>
+         id="text63">Bojanova,</text>
+      <text
+         fill="#7f7f7f"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="12px"
+         transform="translate(1027.29,1220)"
+         id="text64">2014</text>
       <text
          fill="#7f7f7f"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
@@ -620,7 +619,7 @@
          font-weight="300"
          font-size="12px"
          transform="translate(1054.95,1220)"
-         id="text66">2023</text>
+         id="text66">2024</text>
       <path
          d="m 54.5049,984.167 17.2543,0.25 17.0718,0.688 16.821,1.188 16.446,1.501 15.885,1.938 15.196,2.314 14.448,2.564 13.448,2.878 12.387,3.062 11.205,3.32 9.83,3.57 4.324,1.82 4.013,1.82 3.582,1.88 3.143,1.95 2.771,1.95 2.3,1.98 1.229,1.95 -0.564,0.36 -1.202,-1.91 0.065,0.08 -2.25,-1.94 0.025,0.02 -2.75,-1.94 0.016,0.01 -3.125,-1.94 0.021,0.02 -3.563,-1.88 0.018,0.01 -4,-1.81 h 0.008 l -4.312,-1.81 h 0.015 l -9.812,-3.56 0.019,0.01 -11.188,-3.32 0.015,0.01 -12.375,-3.064 0.01,0.002 -13.437,-2.875 0.011,0.003 -14.437,-2.563 0.008,0.002 -15.188,-2.313 0.01,10e-4 -15.875,-1.937 0.01,10e-4 -16.437,-1.5 0.007,10e-4 -16.8129,-1.188 0.01,10e-4 -17.0625,-0.688 h 0.0086 l -17.25,-0.25 z m 184.0881,33.853 -0.104,8.95 -7.093,-5.45 z"
          id="path66" />
@@ -701,105 +700,98 @@
          font-weight="300"
          font-size="16px"
          transform="translate(483.04,928)"
-         id="text77">back to</text>
-      <text
-         fill="#002060"
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(533.554,928)"
-         id="text78">Improper</text>
+         id="text77">back to Improper</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(506.38,947)"
-         id="text79">Operand</text>
+         id="text78">Operand</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(562.4,950)"
-         id="text80">2j</text>
+         id="text79">2j</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(279.254,928)"
-         id="text81">back to</text>
-      <text
-         fill="#002060"
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(329.767,928)"
-         id="text82">the Improper</text>
+         id="text80">back to the Improper</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(314.754,947)"
-         id="text83">Operation</text>
+         id="text81">Operation</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(650.977,928)"
-         id="text84">back to</text>
-      <text
-         fill="#002060"
-         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
-         font-weight="300"
-         font-size="16px"
-         transform="translate(701.49,928)"
-         id="text85">Improper</text>
+         id="text82">back to Improper</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(668.404,947)"
-         id="text86">Operand</text>
+         id="text83">Operand</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(724.424,950)"
-         id="text87">np</text>
+         id="text84">np</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(735.424,950)"
-         id="text88">-</text>
+         id="text85">-</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="11px"
          transform="translate(738.757,950)"
-         id="text89">2</text>
+         id="text86">2</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(54.6014,932)"
-         id="text90">to the Bug in the</text>
+         id="text87">back</text>
+      <text
+         fill="#002060"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="16px"
+         transform="translate(87.9347,932)"
+         id="text88">to</text>
+      <text
+         fill="#002060"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="16px"
+         transform="translate(105.115,932)"
+         id="text89">the Bug in the</text>
       <text
          fill="#002060"
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
          transform="translate(54.6014,951)"
-         id="text91">Improper Operation</text>
+         id="text90">Improper Operation</text>
     </g>
   </g>
 </svg>

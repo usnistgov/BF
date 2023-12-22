@@ -10,7 +10,7 @@ The BF classes ensure precise causal descriptions, as a weakness is described vi
 
 The BF Memory Bugs classes relate to particular CWEs by BF MAD, MMN, and MUS operations and/or consequences. 
 
-The generated digraphs (see Figure 1 and Figure 2) of all memory-related show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
+The generated digraphs (see Figure 1 and Figure 2) of all memory-related CWEs show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
 
 The digraphs demonstrate that the MAD, MMN, and MUS classes  cover all memory-related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 
@@ -23,7 +23,7 @@ The digraph helps identify four clusters of memory-related CWEs. Most of these m
 The color of a CWE node (Figure 1) indicates the BF memory class associated with that CWE. A BF class is associated with a CWE if the BF class has a Memory Error consequence covered by the CWE description. CWEs related to the BF MUS memory errors are presented in blue, CWEs related only to MAL are presented in pink, and CWEs related to both MAL and MDL are presented in green.
 
 <br/><br/>
-{{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Conseqeuence.svg" height="650" caption="Figure 1. A digraph of memory related CWEs mapped by MAD, MMN, and MUS operations." >}}
+{{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Conseqeuence.svg" height="650" caption="Figure 2. A digraph of memory related CWEs mapped by MAD, MMN, and MUS conseqeunces." >}}
 <br/>
 
 Most of the BF MUS Memory Error consequences relate to CWEs from the first cluster. The Memory Error consequences from BF MAL and BF MDL relate to CWEs across clusters. Note that the BF MAD class has no Memory Error consequences, so it does not directly relate to any CWE.
