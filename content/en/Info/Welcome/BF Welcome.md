@@ -6,7 +6,7 @@ url: /
 ---
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
-# The Bugs Framework (BF): <l style="color: #0428AE">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities<l/><br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_</l>
+# The Bugs Framework (BF): <l style="color: #0428AE">Formalizing Software Security Weaknesses, and Vulnerabilities<l/><br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_</l>
 <!-- ## <l style="color: #0428AE">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_</l> -->
 <!-- Software Developers 'Best Friend' -->
 Bugs Framework (BF) is being created as a formal classification system of software security bugs, faults, and weaknesses that allows unambiguous formal specification of the software security vulnerabilities that exploit them. It comprises:
@@ -15,7 +15,7 @@ Bugs Framework (BF) is being created as a formal classification system of softwa
 
 ➢ Software security _[concepts definitions](/BF/info/vulnerability-model/bf-concepts/)_
 
-➢ _Bugs models_ with possible flow of operations
+➢ A _Bugs model_ with possible flow of operations
 
 ➢ A structured, complete, orthogonal, language and domain independent weakness _[taxonomy](/BF/info/bf-classes)_
 
@@ -31,7 +31,7 @@ Bugs Framework (BF) is being created as a formal classification system of softwa
 
 _Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class (see [BF concepts](/BF/info/vulnerability-model/bf-concepts/)).This assures precise causal descriptions as _(bug, operation, error)_ and _(fault, operation, error)_ triples. _Complete_ means BF has the expressive power to describe precisely any software security bug and weakness. This assures the BF weakness types have no gaps in coverage. _Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures the BF weakness types do not overlap,  as there is no operation with different meanings. _Language and domain independent_ means BF is applicable for source code in any programming language for any platform, operating environment, or application technology. This assures BF is context-free, as an operation cannot have different meanings depending on the context.
 
-The BF _bugs models_ reveals possible chains of weaknesses within a particular BF cluster of classes.
+The BF _bug model_ combines the _bug models_ of particular BF cluster of classes that reveal possible chains of weaknesses within a particular BF cluster of classes.
 
 The BF _vulnerability model_ defines how software security weaknesses chain via cause–consequence–cause transitions to form a vulnerability that ends with a software security failure. This assures back-tracking from the failure through the errors to the bug. 
 
