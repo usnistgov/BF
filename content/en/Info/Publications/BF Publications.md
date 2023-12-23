@@ -3,7 +3,7 @@ weight: 6
 bookCollapseSection: false
 title: "BF Publications"
 ---
-# BF Publications <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# BF Publications <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 Please, reference BF publications `recent than year 2020`, as they start developing my ideas on `BF;s formalism` -- originally shared in my 2014/2015 preseantations. 
 If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).

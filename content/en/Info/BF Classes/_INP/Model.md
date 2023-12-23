@@ -2,7 +2,7 @@
 weight: 1
 title: "Bugs Model"
 ---
-# BF Input/Output Check Bug Model <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# BF Input/Output Check Bug Model <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 Data should be checked to ensure proper results from its processing. It should adhere to object data types acceptable by the software. Bojanova and Galhardo, define an object as a piece of memory with well-defined size that is used to store primitive data or a data structure. As input, primitive data are checked and sanitized on string-of-characters level. A character – e.g., an ASCII (American Standard Code for Information Interchange) character – is a single symbol, such as an alphabet letter, a numeric digit, or a punctuation mark. Data structures in turn are built on primitive data but can also have a higher level of syntax and semantics rules.
 

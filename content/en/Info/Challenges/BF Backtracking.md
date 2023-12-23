@@ -2,7 +2,7 @@
 weight: 4
 title: "BF Backtracking"
 ---
-# BF Backtracking -- from Failure to Bug<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# BF Backtracking -- from Failure to Bug<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 Create tools bactracking from failure to bug utilizing the BE taxonomy, and causation and propagation rules - including BF matrices of meaningful (cause, operation, conseqeunce) weakness triples.
 

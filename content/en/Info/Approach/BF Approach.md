@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF Approach and Features"
 ---
-# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 ## Current State of the Art
 
@@ -21,7 +21,7 @@ To solve the CWE and CVE problems of imprecise descriptions and unclear causalit
 
 BF describes a _bug_ or a _weakness_ as an improper state and its transition. The transitions is to another weakness or to a failure. An improper state is defined by an (`operation`, `operand{{< sub "1" >}}`, `···`, `operand{{< sub "n" >}}`) tuple, for which at least one element is improper. 
 
-The initial state (depicted in blue on Figure 1) is always caused by a bug; a code or specification defect within the operation, which if fixed will resolve the vulnerability. A propagation (intermediate) state (in light purple) is caused by at least one faulty (ill-formed) operand. The final state (in dark purple) -- the failure -- is caused by a final, exploitable error (a undefined system behavior), which usually directly relates to a CWE. An error is the result of an improper state from the operation over the operands. It propagates to an improper operand for a next improper state. For example, on Figure 1, Operation 1 from Improper State 1 is improper, due to a Bug, and results in Improper Operand 2i, leading to Improper State 2. The last operation results in an Exploitable Error, leading to a failure.
+The initial state (depicted in blue on Figure 1) is always caused by a bug; a code or specification defect within the operation, which if fixed will resolve the vulnerability. A propagation (intermediate) state (in light purple) is caused by at least one faulty (ill-formed) operand. The final state results in a final exploitable error (usually directly relates to a CWE) that leads to a failure. An error is the result of an improper state from the operation over the operands. It propagates to an improper operand for a next improper state. For example, on Figure 1, Operation 1 from Improper State 1 is improper, due to a Bug, and results in Improper Operand 2i, leading to Improper State 2. The last operation results in an Exploitable Error, leading to a failure.
 
 <br/>
  {{<img src="images/BF Models/BF Causation.svg" caption="Figure 1. BF Causality -- a bug or a weakness relates an improper state and its transition. The improper state is defined by an (`operation`, `operand 1`, `···`, `operand n`) tuple, for which at least one element is improper.The transition from that state is to another weakness or to a failure." >}}
@@ -45,7 +45,7 @@ In some cases, several vulnerabilities must be present for an exploit to be harm
 
 ### Backtracking
 
-The improper operation or improper operand is the cause for that weakness. The improper result from an operation over its operands is the consequence from that weakness, and it becomes a cause for a next weakness or a failure. Knowing the failure and all the transitions at execution, we should be able to find the bug (see Figure 3)– simply go backwards by operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability.
+The improper operation or improper operand is the cause for that weakness. The improper result from an operation over its operands is the consequence from that weakness, and it becomes a cause for a next weakness or a failure. Knowing the failure and all the transitions at execution, we should be able to find the bug (see Figure 3) – simply go backwards by operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability.
 
 <br/>
  {{<img src="images/BF Models/BF Backtracking.svg" caption="Figure 3. BF features: Backtracking from a failure to the bug – knowing the failure, go backwards by improper operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability." >}}

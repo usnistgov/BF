@@ -2,7 +2,7 @@
 weight: 3
 title: "CWE2BF"
 ---
-# CWE2BF Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# CWE2BF Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 Create CWE2BF mappings and unambigous BFCWE specifications. Start creating matrices of meaningful (cause, operation, consequence) BF weakness triples.
 

@@ -3,7 +3,7 @@ weight: 3
 bookCollapseSection: false
 title: "BF Tool Help"
 ---
-# BF Tool Help<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF)`_
+# BF Tool Help<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
 //mode details to be added//
 
