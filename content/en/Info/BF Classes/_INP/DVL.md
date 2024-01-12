@@ -5,7 +5,7 @@ title: "DVL"
 ## BF Data Validation (DVL) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
 
 #### Definition
-{{< definition >}}Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.{{< /definition >}}
+{{< definition >}}Data Validation (DVL) class – Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.{{< /definition >}}
 
 ####  Taxonomy
 
@@ -29,11 +29,11 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Validate </td>
-	<td>Check data syntax (proper form/grammar) in order to accept (and possibly sanitize) or reject it (incl. check for missing symbols/elements).</td>
+	<td>Validate operation – Check data syntax (proper form/grammar, incl. check for missing symbols/elements) in order to accept (and possibly sanitize) or reject it.</td>
 	</tr>
 	<tr>
 			<td>Sanitize </td>
-	<td>Modify data (neutralize/escape, filter/remove, repair/add symbols) to make it valid (well-formed).</td>
+	<td>Sanitize operation – Modify data (neutralize/escape, filter/remove, repair/add symbols) to make it valid (well-formed).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -41,55 +41,55 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>The data value of an object -- stored in object's memory.</td>
+	<td>Data operand – The data value of an object – stored in object's memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Code Defect Bug</td>
-	<td>The operation has a bug, which is the first cause for the chain of weaknesses underlying a software security vulnerability. The bug must be fixed to resolve the vulnerability.</td>
+			<td>Code Bug</td>
+	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>The entire operation implementation or a part of its specification is absent.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td>The operation implementation has a bug.</td>
+	<td></td>
 	</tr>
 	<tr>
-			<td>Specification Defect Bug</td>
-	<td>A specification (algorithm, protocol) of an operation an error or a rule (policy, keying material) used by the operation has an error, which when implemented becomes the bug causing the chain of weaknesses underlying a software security vulnerability. It must be fixed to fix the bug and to resolve the vulnerability.</td>
+			<td>Specification Bug</td>
+	<td>Specification Bug Type – A specification operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
-	<td>Accepts bad data.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Over-Restrictive Policy </td>
-	<td>Rejects good data.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
-	<td>Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
+	<td>Corrupted Data fault/error – Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Data </td>
-	<td>Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation); would lead to injection.</td>
+	<td>Tampered Data fault/error – Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation); would lead to injection.</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Policy Data </td>
-	<td>Unintentionally modified policy data (the values the policy checks for) due to a previous weakness.</td>
+	<td>Corrupted Policy Data fault/error – Unintentionally modified policy data (the values the policy checks for) due to a previous weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Policy Data </td>
-	<td>Maliciously modified policy data (the values the policy checks for) due to a previous weakness.</td>
+	<td>Tampered Policy Data fault/error – Maliciously modified policy data (the values the policy checks for) due to a previous weakness.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -97,35 +97,35 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Data with harmed syntax due to sanitization errors.</td>
+	<td>Invalid Data fault/error – Data with harmed syntax due to sanitization errors.</td>
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
+	<td>Injection exploitable error type – An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
-	<td>Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
+	<td>Query Injection exploitable error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
 	</tr>
 	<tr>
 			<td>   Command Injection </td>
-	<td>Maliciously inserted new commands into the input to a command sent to an OS or a server.</td>
+	<td>Command Injection exploitable error – Maliciously inserted new commands into the input to a command sent to an OS or a server.</td>
 	</tr>
 	<tr>
 			<td>   Source Code Injection </td>
-	<td>Maliciously inserted new code (incl. with <> elements) into an input used as a part of an executing application code.</td>
+	<td>Source Code Injection exploitable error – Maliciously inserted new code (incl. with <> elements) into an input used as a part of an executing application code.</td>
 	</tr>
 	<tr>
 			<td>   Parameter Injection </td>
-	<td>Maliciously inserted of data (e.g., with & parameter separator) into an input used as a parameter/argument in other parts of the code.</td>
+	<td>Parameter Injection exploitable error – Maliciously inserted data (e.g., with & parameter separator) into an input used as a parameter/argument in other parts of the code.</td>
 	</tr>
 	<tr>
 			<td>   File Injection </td>
-	<td>Maliciously inserted data (e.g., with .. and / or with file entries) into an input used to access/modify files or as a file content.</td>
+	<td>File Injection exploitable error – Maliciously inserted data (e.g., with .. and / or with file entries) into an input used to access/modify files or as a file content.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -133,59 +133,59 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Safelist </td>
-	<td>A policy based on a set of known good content.</td>
+	<td>Safelist operation attribute – A policy based on a set of known good content.</td>
 	</tr>
 	<tr>
 			<td>   Denylist </td>
-	<td>A policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
+	<td>Denylist operation attribute – A policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
 	</tr>
 	<tr>
 			<td>   Format </td>
-	<td>A policy based on syntax format (e.g., defined via regular expression).</td>
+	<td>Format operation attribute – A policy based on syntax format (e.g., defined via regular expression).</td>
 	</tr>
 	<tr>
 			<td>   Length </td>
-	<td>A policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
+	<td>Length operation attribute – A policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Shows where the buggy/faulty operation code is in the program -- in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
-	<td>The operation is in the programmer's code - in the application itself.</td>
+	<td>Codebase operation attribute – The operation is in the programmer's code - in the application itself.</td>
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Shows where the buggy/faulty operation code is running or with what privilege level).</td>
+	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
-	<td>The bugged code runs in an environment with access control policy with limited (local user) permission.</td>
+	<td>Local operation attribute – The bugged code runs in an environment with access control policy with limited (local user) permission.</td>
 	</tr>
 	<tr>
 			<td>   Admin </td>
-	<td>The bugged code runs in an environment with access control policy with unlimited (admin user) permission.</td>
+	<td>Admin operation attribute – The bugged code runs in an environment with access control policy with unlimited (admin user) permission.</td>
 	</tr>
 	<tr>
 			<td>   Bare-Metal </td>
-	<td>The bugged code runs in an environment without privilege control. Usually, the program is the only software running and has total access to the hardware.</td>
+	<td>Bare-Metal operation attribute – The bugged code runs in an environment without privilege control. Usually, the program is the only software running and has total access to the hardware.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands Attributes</strong></td>
@@ -193,23 +193,23 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Shows where the data come from.</td>
+	<td>Data State operand attribute type operand attribute – Shows where the data come from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>The data are from a user via a user interface (e.g., text field).</td>
+	<td>Entered operand attribute – The data are from a user via a user interface (e.g., text field).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>The data are from a permanent storage (e.g., file, database on a storage device).</td>
+	<td>Stored operand attribute – The data are from a permanent storage (e.g., file, database on a storage device).</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>The data are from a volatile storage (e.g., RAM, cache memory).</td>
+	<td>In Use operand attribute – The data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>The data are from another device via a network (e.g., connecting analog device or another computer).</td>
+	<td>Transferred operand attribute – The data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>

@@ -21,7 +21,7 @@ To solve the CWE and CVE problems of imprecise descriptions and unclear causalit
 
 The Bugs Framework (BF) approach is different from the CWE exhaustive list approach. BF is a classification system! 
 
-The taxonomy of a particular bug or weakness is based on one BF class. Its description is an instance of a taxonomic BF class with one cause, one operation, one consequence, and their attributes. The operation binds the cause→consequence relation – e.g., deallocation via a dangling pointer leads to a failure known as double free.
+The taxonomy of a particular bug or weakness is based on one BF class. Its description is an instance of a taxonomic BF class with one cause, one operation, one consequence, and their attributes. The operation binds the cause→consequence relation – e.g., deallocation via a dangling pointer leads to a failure known as Double Free.
 
 So, each BF class is a taxonomic  category  of  a  weakness type, defined by:
 
