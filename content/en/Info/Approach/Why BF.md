@@ -5,7 +5,7 @@ title: "Why BF?"
 ---
 # Why BF? <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
 
-Once fully developed, the Bugs Framework will have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It is being built as a formal classification system that aims to address the of the current state or the art weakness and vulnerability repositories problems:
+Once fully developed, the Bugs Framework will have the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability. It is being built as a formal classification system that aims to augment the current state or the art weakness and vulnerability repositories:
 
 *   [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) – a community-developed list of software and hardware weaknesses types.
 *   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 25,000 were documented in 2022 only.
@@ -13,13 +13,13 @@ Once fully developed, the Bugs Framework will have the expressiveness power to c
 
 ## Repository Problems
 
-CWE and CVE are widely used, but they have some problems. Many CWEs and CVEs have imprecise descriptions and unclear causality. CWE also has gaps and overlaps in coverage.
+CWE and CVE are widely used, but maybe difficult to use for comprehensive labeling of vulnerabilities. Thier descritions are in natural English language; they are not formal and may be imprecise or luck unclear causality. CWE also has gaps and overlaps in coverage.
 
 *   The following is an example of an imprecise CWE definition.
 
 CWE-502: Deserialization of Untrusted Data: The application deserializes untrusted data without sufficiently verifying that the resulting data will be valid.
 
-It’s not clear here what “sufficiently” means. “Verifying that data is valid” is also confusing. It should say “... without validating and verifying it”.
+It’s not clear here what “sufficiently” means. “Verifying that data is valid” is also confusing. It should say “... without validating and verifying it”, as the validation and verification operations relate to syntax an semantics, correspondingly.
 
 *   Gaps and overlaps in CWEs lead to confusion. As an example, if we arrange buffer overflow CWEs by read or write, over or under the bounds, on the stack or heap, the gaps and overlaps can be easily spotted.
 <br/><br/>
