@@ -14,9 +14,10 @@ To obtain the BF tool, please send a request to Irena Bojanova at [irena.bojanov
 
 <!-- or directly download it from here: [BF Tool](https://github.com/usnistgov/BF/tree/main/static/BF%20Tool) -->
 
-<!-- To obtain the BF tool, please register here. We ask you only for an email address to which to send you a unique download link and for the name of your organization to informa our management about the interest in BF. Alternatively, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov) including the name of your organization. -->
+Alternatively, please register here. We ask you only for an email address to which to send you a unique download link.
+<!-- and for the name of your organization to informa our management about the interest in BF. Alternatively, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov) including the name of your organization. --> -->
 
-<!-- <div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register to Download the BF Tool{{< /button >}}</div> -->
+<div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register to Download the BF Tool{{< /button >}}</div>
 
 NIST is an agency of the US Government and this  software is public domain in the United States. <br/>
 Please explicitly acknowledge the source of the Bugs Framework (BF) and the Bugs Framework (BF) Tool.
