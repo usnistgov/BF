@@ -13,7 +13,7 @@ Once fully developed, the Bugs Framework will have the expressiveness power to c
 
 ## Repository Problems
 
-CWE and CVE are widely used, but maybe difficult to use for comprehensive labeling of vulnerabilities. Thier descritions are in natural English language; they are not formal and may be imprecise or luck unclear causality. CWE also has gaps and overlaps in coverage.
+CWE and CVE are widely used, but maybe difficult to use for comprehensive labeling of vulnerabilities. Their descriptions are in natural English language; they are not formal and may be imprecise or luck unclear causality. CWE also has gaps and overlaps in coverage.
 
 *   The following is an example of an imprecise CWE definition.
 
