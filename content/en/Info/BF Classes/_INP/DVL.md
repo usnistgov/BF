@@ -197,7 +197,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Entered operand attribute – The data are from a user via a user interface (e.g., text field).</td>
+	<td>Entered operand attribute – The data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>

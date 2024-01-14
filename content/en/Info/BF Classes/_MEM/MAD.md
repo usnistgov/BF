@@ -72,10 +72,6 @@ title: "MAD"
 	<td></td>
 	</tr>
 	<tr>
-			<td>   Mismatched Operation </td>
-	<td></td>
-	</tr>
-	<tr>
 			<td>   Erroneous Code </td>
 	<td></td>
 	</tr>
@@ -85,7 +81,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Hardcoded Address </td>
-	<td>Hardcoded Address fault/error – The pointer points a wrong specific address.</td>
+	<td>Hardcoded Address fault/error – The pointer holds a wrong specific address.</td>
 	</tr>
 	<tr>
 			<td>   Single Owned Address </td>
@@ -121,15 +117,15 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
-	<td>NULL Pointer fault/error – Points to the zero address, a specific invalid address.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
-	<td>Wild Pointer fault/error – Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
+	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still points to the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -137,15 +133,15 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Over Bounds Pointer </td>
-	<td>Over Bounds Pointer fault/error – Points above the upper boundary of its object.</td>
+	<td>Over Bounds Pointer fault/error – Holds an address above the upper boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Under Bounds Pointer </td>
-	<td>Under Bounds Pointer fault/error – Points below the lower boundary of its object.</td>
+	<td>Under Bounds Pointer fault/error – Holds an address below the lower boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
-	<td>Wrong Position Pointer fault/error – Points to a miscalculated position inside its object bounds.</td>
+	<td>Wrong Position Pointer fault/error – Holds the address of a miscalculated position inside its object bounds.</td>
 	</tr>
 	<tr>
 			<td>Size Fault</td>
@@ -164,8 +160,12 @@ title: "MAD"
 	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
 	</tr>
 	<tr>
+			<td>   NULL Pointer </td>
+	<td>NULL Pointer fault/error – Does not point to a valid object; usually holds the zero memory address.</td>
+	</tr>
+	<tr>
 			<td>   Forbidden Address </td>
-	<td>Forbidden Address fault/error – The pointer points to an OS protected or non-existing address.</td>
+	<td>Forbidden Address fault/error – The pointer holds an OS protected address (including the zero address -- a NULL pointer) or non-existing address.</td>
 	</tr>
 	<tr>
 			<td>Type Error</td>
@@ -180,16 +180,12 @@ title: "MAD"
 	<td>Address Fault/Error Type – The object address in use is wrong.</td>
 	</tr>
 	<tr>
-			<td>   NULL Pointer </td>
-	<td>NULL Pointer fault/error – Points to the zero address, a specific invalid address.</td>
-	</tr>
-	<tr>
 			<td>   Wild Pointer </td>
-	<td>Wild Pointer fault/error – Points to an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
+	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still points to the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -197,15 +193,15 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Over Bounds Pointer </td>
-	<td>Over Bounds Pointer fault/error – Points above the upper boundary of its object.</td>
+	<td>Over Bounds Pointer fault/error – Holds an address above the upper boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Under Bounds Pointer </td>
-	<td>Under Bounds Pointer fault/error – Points below the lower boundary of its object.</td>
+	<td>Under Bounds Pointer fault/error – Holds an address below the lower boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
-	<td>Wrong Position Pointer fault/error – Points to a miscalculated position inside its object bounds.</td>
+	<td>Wrong Position Pointer fault/error – Holds the address of a miscalculated position inside its object bounds.</td>
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
