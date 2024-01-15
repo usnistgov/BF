@@ -165,7 +165,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Forbidden Address </td>
-	<td>Forbidden Address fault/error – The pointer holds an OS protected address (including the zero address -- a NULL pointer) or non-existing address.</td>
+	<td>Forbidden Address fault/error – The pointer holds an OS protected address (includs the zero address -- a NULL pointer) or non-existing address.</td>
 	</tr>
 	<tr>
 			<td>Type Error</td>
