@@ -1,8 +1,8 @@
 ---
 weight: 1
 bookCollapseSection: true
-title: "BF Taxonomy"
+title: "Taxonomy"
 ---
-Bugs Framework (BF) Taxonomy <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+Bugs Framework (BF) Taxonomy <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 //to be added//

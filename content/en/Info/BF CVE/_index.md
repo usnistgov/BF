@@ -3,4 +3,6 @@ weight: 2
 bookCollapseSection: true
 title: "BF CVE"
 ---
-# BF CVE Descriptions  <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+# BF CVE Specifications  <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
+
+//to be added//

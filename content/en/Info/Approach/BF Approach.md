@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF Approach and Features"
 ---
-# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
+# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 ## Current State of the Art
 

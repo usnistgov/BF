@@ -2,7 +2,7 @@
 weight: 4
 title: "BF Bug Detection"
 ---
-# BF Bug Detection -- from Failure to Bug<br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
+# BF Bug Detection -- from Failure to Bug<br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 Create tools detcting bugs from a failure(s) through backwards fault-error transitions utilizing the BE taxonomy, and causation and propagation rules - including BF matrices of meaningful (cause, operation, conseqeunce) weakness triples.
 

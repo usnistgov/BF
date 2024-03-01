@@ -1,6 +1,6 @@
 ---
-weight: 1
+weight: 3
 bookCollapseSection: true
 title: "Challenges"
 ---
-# BF Challenges <br/>_`Irena Bojanova, PI and Lead, Bugs Framework (BF)`_
+# BF Challenges <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_

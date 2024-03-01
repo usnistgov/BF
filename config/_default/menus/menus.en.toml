@@ -4,10 +4,109 @@
   identifier = "Welcome"
   url = "/Info/Welcome/BF Welcome"
   parent = "Welcome"
+
+[[main]]
+  name = "Models"
+  weight = 20
+  identifier = "Models"
+[[main]]
+  name = "BF Concepts"
+  weight = 1
+  identifier = "BF Concepts"
+  url = "/Info/Models/BF Concepts"
+  parent = "Models"
+[[main]]
+  name = "BF Vulnerability State Model"
+  weight = 2
+  identifier = "BF Vulnerability State Model"
+  url = "/Info/Models/BF Vulnerability State Model"
+  parent = "Models"
+[[main]]
+  name = "BF Vulnerability Specification Model"
+  weight = 3
+  identifier = "BF Vulnerability Specification Model"
+  url = "/Info/Models/BF Vulnerability Specification Model"
+  parent = "Models"
+
+
+[[main]]
+  name = "Formalism"
+  weight = 30
+  identifier = "Formalism"
+[[main]]
+  name = "BF Concepts Formalized"
+  weight = 1
+  identifier = "BF Concepts Formalized"
+  url = "/Info/Formalism/BF Concepts Formalized"
+  parent = "Formalism"
+[[main]]
+  name = "BF Formal Grammar"
+  weight = 2
+  identifier = "BF Formal Grammar"
+  url = "/Info/Formalism/BF Formal Grammar"
+  parent = "Formalism"
+[[main]]
+  name = "BF Formal Language"
+  weight = 2
+  identifier = "BF Formal Language"
+  url = "/Info/Formalism/BF Formal Language"
+  parent = "Formalism"
+
+[[main]]
+  name = "Tools"
+  weight = 40
+  identifier = "Tools"
+[[main]]
+  name = "BF Tool"
+  weight = 1
+  identifier = "BF Tool"
+  url = "/Info/Tools/BF Tool"
+  parent = "Tools"
+[[main]]
+  name = "BFCWE Tool"
+  weight = 2
+  identifier = "BFCWE Tool"
+  url = "/Info/Tools/BFCWE Tool"
+  parent = "Tools"
+[[main]]
+  name = "BFCVE Tool"
+  weight = 3
+  identifier = "BFCVE Tool"
+  url = "/Info/Tools/BFCVE Tool"
+  parent = "Tools"
+
+[[main]]
+  name = "APIs"
+  weight = 50
+  identifier = "APIs"
+[[main]]
+  name = "BF API"
+  weight = 1
+  identifier = "BF API"
+  url = "/Info/APIs/BF API"
+  parent = "APIs"
+[[main]]
+  name = "BFCWE API"
+  weight = 2
+  identifier = "BFCWE API"
+  url = "/Info/APIs/BFCWE API"
+  parent = "APIs"
+[[main]]
+  name = "BFCVE API"
+  weight = 3
+  identifier = "BFCVE API"
+  url = "/Info/APIs/BFCVE API"
+  parent = "APIs"
+[[main]]
+  name = "BFVul API"
+  weight = 4
+  identifier = "BFVul API"
+  url = "/Info/APIs/BFVul API"
+  parent = "APIs"
   
 [[main]]
   name = "Approach"
-  weight = 20
+  weight = 60
   identifier = "Approach"
 [[main]]
   name = "BF Approach"
@@ -33,57 +132,6 @@
   identifier = "BF Impact"
   url = "/Info/Approach/BF Impact"
   parent = "Approach"
-
-[[main]]
-  name = "Vulnerability Model"
-  weight = 30
-  identifier = "Model"
-[[main]]
-  name = "BF Concepts"
-  weight = 1
-  identifier = "BF Concepts"
-  url = "/Info/Model/BF Concepts"
-  parent = "Model"
-[[main]]
-  name = "BF Vulnerability Model"
-  weight = 2
-  identifier = "BF Vulnerability Model"
-  url = "/Info/Model/BF Vulnerability Model"
-  parent = "Model"
-[[main]]
-  name = "BF Formal Language"
-  weight = 3
-  identifier = "BF Formal Language"
-  url = "/Info/Model/BF Formal Language"
-  parent = "Model"
-
-[[main]]
-  name = "Tools"
-  weight = 40
-  identifier = "Tools"
-[[main]]
-  name = "BF Tool"
-  weight = 1
-  identifier = "BF Tool"
-  url = "/Info/Tools/BF Tool"
-  parent = "Tools"
-
-[[main]]
-  name = "APIs"
-  weight = 50
-  identifier = "APIs"
-[[main]]
-  name = "BF API"
-  weight = 1
-  identifier = "BF API"
-  url = "/Info/APIs/BF API"
-  parent = "APIs"
-[[main]]
-  name = "BFCVE API"
-  weight = 2
-  identifier = "BF CVE APIs"
-  url = "/Info/APIs/BFCVE API"
-  parent = "APIs"
 
 [[main]]
   name = "Background"

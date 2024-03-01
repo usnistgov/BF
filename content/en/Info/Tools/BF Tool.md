@@ -1,9 +1,9 @@
 ---
-weight: 2
+weight: 1
 bookCollapseSection: false
 title: "BF Tool"
 ---
-# BF GUI Tool for Formal Vulnerability Specification <br/>_`Irena Bojanova, Inventor, Creator, PI,  Bugs Framework (BF), 2014 – ~~~~`_
+# BF GUI Tool for Formal Vulnerability Specification <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 BF is a classification system of software bugs and weaknesses that allows precise descriptions of security vulnerabilities exploiting such weaknesses.
 
