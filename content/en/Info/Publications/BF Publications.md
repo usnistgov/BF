@@ -57,6 +57,10 @@ I. Bojanova, "[Information Exposure (IEX) Class in the Bugs Framework (BF)](http
 ||
 ||
 
+
+<!-- I. Bojanova, "[NIST_SP_800_231_ipd -- Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Papers/draft-Bugs_Framework__BF_____NIST_SP_800_231_ipd.pdf)”, Office of the National Cyber Director ( ONCD), 04/04/2024.
+https://usnistgov.github.io/BF/Presentations/draft-Bugs_Framework__BF_____NIST_SP_800_231_ipd.pdf -->
+
 <!-- I. Bojanova, "[Towards a &apos;Periodic Table&apos; of Bugs](https://www.nist.gov/publications/towards-periodic-table-bugs)", NIST, ITL, SSD, SAMATE meeting, Apr. 8, 2015. `Author Contributions -- IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` Reused by PEB on 8/10 (NIST), 9/2 (OWASP DC) and 11/18 (OWASP NOVA). https://www.nist.gov/publications/towards-147periodic-table148-bugs - from figures/tables, PEB provided those on slides 11 and 16; YW -- dissertation figure on slide 13' --> 
 
 <!-- https://iln.ieee.org/public/searchresults?q=&at=T&ty=ML.BASE.DV.SearchAnyWords&ln=&CRWPRV_PROVIDER_ID=88721CC1A29F412CAE2BED1733ADD6D7
