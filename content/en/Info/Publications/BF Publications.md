@@ -7,11 +7,11 @@ title: "BF Publications"
 
 Please, reference BF publications `recent than year 2020`, as some old BF classes are now covered by new more comprehensive classes and some -- are withdrawn. They also start developing my ideas on `BF's formalism` -- originally shared in my 2014/2015 presentations. Please use as source about the BF class taxonomies this website and the publications listed here -- any other publications may provide misleading information. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 
-# Papers
-|     |
+## Papers
+|  |
 | --- |
 | I. Bojanova, "Comprehensively Labeled Weakness and Vulnerability Datasets via Unambiguous Formal Bugs Framework (BF) Specifications," in IT Professional, vol. 26, no. 1, pp. 60-68, Jan.-Feb. 2024, doi: [10.1109/MITP.2024.3358970](https://doi.org/10.1109/MITP.2024.3358970), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=957238) |
-| I. Bojanova and J. J. Guerrerio, "Labeling Software Security Vulnerabilities," in IT Professional, vol. 25, no. 5, pp. 64-70, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.3314368), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956539) <br/> `Author Contributions --> IB: Original ideas on BF CWEs specification as (bug/fault, operation, error/final error) triples and on labeling CVEs utilizing BF's formal language; Conceptualization; Methodology; Visualization; Software; Writing- Original Draft preparation; Supervision; Mentoring. IB and JJG: Investigation -- analyzing and specifying CWEs and CVEs (incl. identifying CWE2BF mappings, CWEs triples and causing triples, CWEs similarities and overlaps); Writing- Reviewing and Editing.` |
+| I. Bojanova and J. J. Guerrerio, "Labeling Software Security Vulnerabilities," in IT Professional, vol. 25, no. 5, pp. 64-70, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.3314368), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956539) <br/> `Author Contributions -- IB: Original ideas on BF CWEs specification as (bug/fault, operation, error/final error) triples and on labeling CVEs utilizing BF's formal language; Conceptualization; Methodology; Visualization; Software; Writing- Original Draft preparation; Supervision; Mentoring. IB and JJG: Investigation -- analyzing and specifying CWEs and CVEs (incl. identifying CWE2BF mappings, CWEs triples and causing triples, CWEs similarities and overlaps); Writing- Reviewing and Editing.` |
 | A. Gueye, C. Galhardo and I. Bojanova, "Critical Software Security Weaknesses" in IT Professional, vol. 25, no. 04, pp. 11-16, 2023. doi: [10.1109/MITP.2023.3297387](https://doi.org/10.1109/MITP.2023.3297387), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956331) |
 | I. Bojanova and C. E. Galhardo, "Heartbleed Revisited: Is it just a Buffer Over-Read?," in IT Professional, vol. 25, no. 2, pp. 83-89, Mar.-Apr. 2023, doi: [10.1109/MITP.2023.3259119](https://doi.org/10.1109/MITP.2023.3259119), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936519) |
 | I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) | 
@@ -19,7 +19,7 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 | I. Bojanova, C. E. Galhardo and S. Moshtari, "Input/Output Check Bugs Taxonomy: Injection Errors in Spotlight," _2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)_, 2021, pp. 111-120 , doi: [10.1109/ISSREW53611.2021.00052](https://doi.org/10.1109/ISSREW53611.2021.00052), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933193) |
 | A. Gueye, C. E. Galhardo, I. Bojanova and P. Mell, "A Decade of Reoccurring Software Weaknesses," in _IEEE Security & Privacy_, vol. 19, no. 6, pp. 74-82, Nov.-Dec. 2021, doi: [10.1109/MSEC.2021.3082757](https://doi.org/10.1109/MSEC.2021.3082757), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=932064) |
 | I. Bojanova and C. Eduardo Galhardo, "Classifying Memory Bugs Using Bugs Framework Approach," _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021), pp. 1157-1164, doi: [10.1109/COMPSAC51774.2021.00159](https://doi.org/10.1109/COMPSAC51774.2021.00159), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930038) | 
-| I. Bojanova, [The Bugs Framework (BF)](../../../Presentations/Bugs_Framework-COMPSAC_2021-287--06012021.pdf);  [The Bugs Framework (BF) - with notes](../../../Presentations/Bugs_Framework-COMPSAC_2021-287-notes--06012021.pdf), _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021) |
+| I. Bojanova, [The Bugs Framework (BF)](../../../Presentations/Bugs_Framework-COMPSAC_2021-287--06012021.pdf); [The Bugs Framework (BF) - with notes](../../../Presentations/Bugs_Framework-COMPSAC_2021-287-notes--06012021.pdf), _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021) |
 | C. E. Galhardo, P. Mell, I. Bojanova and A. Gueye, “Measurements of the Most Significant Software Security Weaknesses,” _Annual Computer Security Applications Conference (ACSAC)_, pp. _154–164, Dec._ 2020, doi: [10.1145/3427228.3427257](https://doi.org/10.1145/3427228.3427257), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930459) |
 ||
 ||
@@ -27,60 +27,44 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 | I. Bojanova, Y. Yesha and P. E. Black, "Randomness Classes in Bugs Framework (BF): True-Random Number Bugs (TRN) and Pseudo-Random Number Bugs (PRN)," _2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC)_, 2018, pp. 738-745, doi: [10.1109/COMPSAC.2018.00110](https://doi.org/10.1109/COMPSAC.2018.00110), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=925123) |
 | I. Bojanova, P. E. Black and Y. Yesha, "Cryptography classes in bugs framework (BF): Encryption bugs (ENC), verification bugs (VRF), and key management bugs (KMN)," _2017 IEEE 28th Annual Software Technology Conference (STC)_, 2017, pp. 1-8, doi:[10.1109/STC.2017.8234453](https://doi.org/10.1109/STC.2017.8234453), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=923663) |
 | P. E. Black and I. Bojanova, "Defeating Buffer Overflow: A Trivial but Dangerous Bug," in _IT Professional_, vol. 18, no. 6, pp. 58-61, Nov.-Dec. 2016, doi: [0.1109/MITP.2016.117](https://doi.org/10.1109/MITP.2016.117)1, [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=921507) |
-| I. Bojanova, P. E. Black, Y. Yesha and Y. Wu, "The Bugs Framework (BF): A Structured Approach to Express Bugs," _2016 IEEE International Conference on Software Quality, Reliability and Security (QRS)_, 2016, pp. 175-182, doi: [10.1109/QRS.2016.29](https://doi.org/10.1109/QRS.2016.29), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=920564). <br/> `Author Contributions -->  IB: Original Ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation and Reviewing; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Editing.` | <!-- IB and PEB wrote and revised introduction and conclusion original draft. IB wrote and revised the BF, BF classes, and CVE descriptions original draft.  -->
-| Wu, Y., Bojanova, I., Yesha, Y. , "They Know Your Weaknesses - Do You?: Reintroducing Common Weakness Enumeration. Supply Chain Assurance," September/October 2015, _CrossTalk (The Journal of Defense Software Engineering)_, [https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D](https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D), [Local Download](../../../Papers/They-Know-Your-Weaknesses-Do-You.pdf), [Local Download - Sept/Oct Issue](../../../Papers/Crosstalk-2015.pdf). <br/> `Author Contributions -->  IB Conceptualization; Writing- Original draft preparation; Visualization; Supervision. All authors: Writing- Reviewing and Editing.` |
+| I. Bojanova, P. E. Black, Y. Yesha and Y. Wu, "The Bugs Framework (BF): A Structured Approach to Express Bugs," _2016 IEEE International Conference on Software Quality, Reliability and Security (QRS)_, 2016, pp. 175-182, doi: [10.1109/QRS.2016.29](https://doi.org/10.1109/QRS.2016.29), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=920564). <br/> `Author Contributions -- IB: Original Ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation and Reviewing; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Editing.` | <!-- IB and PEB wrote and revised introduction and conclusion original draft. IB wrote and revised the BF, BF classes, and CVE descriptions original draft. -->
+| Wu, Y., Bojanova, I., Yesha, Y. , "They Know Your Weaknesses - Do You?: Reintroducing Common Weakness Enumeration. Supply Chain Assurance," September/October 2015, _CrossTalk (The Journal of Defense Software Engineering)_, [https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D](https://web.archive.org/web/20180425211828id_/http://static1.1.sqspcdn.com/static/f/702523/26523304/1441780301827/201509-Wu.pdf?token=WJEmDLgmpr3rIZHriubA20L%2F1%2F4%3D), [Local Download](../../../Papers/They-Know-Your-Weaknesses-Do-You.pdf), [Local Download - Sept/Oct Issue](../../../Papers/Crosstalk-2015.pdf). <br/> `Author Contributions -- IB Conceptualization; Writing- Original draft preparation; Visualization; Supervision. All authors: Writing- Reviewing and Editing.` |
 ||
 ||
-# Presentations
-
-| I. Bojanova, "[Bugs Framework](../../../Presentations/ONCD-Bugs-Framework-Irena-Bojanova-04042024.pdf)”, Office of the National Cyber Director ( ONCD), 04/04/2024. |
-
-| I. Bojanova, “[Bugs Framework](../../../Presentations/NDIA-T&AC-Bugs-Framework-Irena-Bojanova-03282024.pdf)”, National Defense Industrial Association (NDIA) Trust & Assurance Committee (T&AC), 03/28/2024. |
-
+## Presentations
+|  |
+| --- |
+| I. Bojanova, "[Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/Bugs-Framework-Irena-Bojanova-ONCD-04042024.pdf)”, Office of the National Cyber Director ( ONCD), 04/04/2024. |
+| I. Bojanova, “[Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/Bugs-Framework-Irena-Bojanova-NDIA-T&AC-03282024.pdf)”, National Defense Industrial Association (NDIA) Trust & Assurance Committee (T&AC), 03/28/2024. |
 | I. Bojanova, “Bugs Framework”, NIST - Inmetro Discussion with Brasilian Government officials, 11/07/2023. |
-
-| I. Bojanova, "[Bugs Framework](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956984)", NIST, ITL, Science Day, 11/07/2023. |
-
-| I. Bojanova, "[Bug, Fault, Error, Weakness, or Vulnerability](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=957025)", NIST, ITL, Science Day, 11/07/2023. |
-
-<!-- ../../../Posters/Bug-Fault-Error-Weakness-or-Vulnerability--11072023.pdf -->
-
-| I. Bojanova, J. J. Guerrerio, Eduard Pinconschi "[Labeling Software Security Vulnerabilities](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=957025)", NIST, ITL, Science Day, 11/07/2023.  <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology; Writing- Original draft preparation and Reviewing; Visualization; Supervision. IB and JJG: Investigation -- analyzing and specifying memory related CWEs and CVEs, Writing- Editing. IB: Investigation- analyzing and specifying  CVE-2023-38435. EP: Investigation- Reviewing CVE-2023-38435.`|
-
+| I. Bojanova, "[Bugs Framework](https://www.nist.gov/publications/bugs-framework-bf-poster)", NIST, ITL, Science Day, 11/07/2023. |
+| I. Bojanova, "[Bug, Fault, Error, Weakness, or Vulnerability](https://www.nist.gov/publications/bug-fault-error-weakness-or-vulnerability-poster)", NIST, ITL, Science Day, 11/07/2023. |
+| I. Bojanova, J. J. Guerrerio, Eduard Pinconschi "[Labeling Software Security Vulnerabilities](https://www.nist.gov/publications/labeling-software-security-vulnerabilities-poster)", NIST, ITL, Science Day, 11/07/2023. <br/> `Author Contributions -- IB: Original ideas, Conceptualization, and Methodology; Writing- Original draft preparation and Reviewing; Visualization; Supervision. IB and JJG: Investigation -- analyzing and specifying memory related CWEs and CVEs, Writing- Editing. IB: Investigation- analyzing and specifying CVE-2023-38435. EP: Investigation- Reviewing CVE-2023-38435.`|
 | I. Bojanova, [Keynote]((https://sites.google.com/view/iwsfshift2022/keynotes?authuser=0) "[Explainable Vulnerabilities Descriptions with NIST BF](xxx)", ISSRE 2022. |
-
 | I. Bojanova, "Understanding Software Security Vulnerabilities using NIST Bugs Framework (BF)", IEEE Reliability Society (RS) Certificate Program, 07/15//2022. |
-
 | I. Bojanova, ... "[Bugs Framework](xxx)", NIST, ITL, SSD, Division Chief, Ram Sriram, meeting with Vint Cerf, Google, 07242020 |
-
-<!-- _MEM poster - abstract - https://sos-vo.org/sites/sos-vo.org/files/sos_files/2020_High_Confidence_Software_and_Systems_HCSS_Program_Booklet.pdf -->
-
 | I. Bojanova, "[Bugs Framework](https://www.nitrd.gov/nitrdgroups/images/e/e2/BugsFramework_Bojanova.pdf), Networking and Information Technology Research and Development (NITRD) Program, National Coordination Office (NCO), [NITRD Spotlight](https://www.nitrd.gov/pubs/newsletter/NITRDNewsletter04162018.pdf), 02/01/2018. |
-
-<!-- | I. Bojanova, “Bugs Framework”, European project BIECO, 2021??? | -->
-
 | I. Bojanova, “Bugs Framework”, Invited Talk, MS CYB Spring 2021 Spring Research Seminary, St. John's University, 05042021 |
-
 I. Bojanova, "[Memory Bugs Classes in the NIST Bugs Framework (BF)](xxx), High Confidence Software and Systems Conference (HCSS), 09/14/2020.
-
 | I. Bojanova, ... "[Bugs Framework](xxx)", Software and Systems Research Seminar (SSR), SSD, NIST, organizer Irena Bojanova, 09/03/2019. |
-
 I. Bojanova, "[Information Exposure (IEX) Class in the Bugs Framework (BF)](https://sos-vo.org/sites/sos-vo.org/files/sos_files/Information_Exposure_IEX_Class_in_the_Bugs_Framework_BF.pdf), High Confidence Software and Systems Conference (HCSS), 04/29/2019.
-
 | I. Bojanova, "[The new Cryptographic Store/Transfer (CST) Class from Bugs Framework (BF)](https://sos-vo.org/sites/sos-vo.org/files/sos_files/The_New_Cryptographic_StoreTransfer_CST_Class_from_Bugs_Framework_BF.pdf)", High Confidence Software and Systems Conference (HCSS), 05/08/2017.
-
 | I. Bojanova, "[The Bug Framework (BF): A Taxonomy for Precise and Accurate Software Bug Descriptions](https://sos-vo.org/sites/sos-vo.org/files/sos_files/The_Bug_Framework_BF_A_Taxonomy_For_Precise_and_Accurate_Software_Bug_Descriptions.pdf), High Confidence Software and Systems Conference (HCSS), 05/10/2016.
-
 | I. Bojanova, ... "[Bugs Framework](https://www.nitrd.gov/nitrdgroups/images/e/e2/BugsFramework_Bojanova.pdf), Networking and Information Technology Research and Development (NITRD) Program, National Coordination Office (NCO), 07/10/2016???. |
-
 | I. Bojanova, ... "[Bugs Framework](https://nistgov.sharepoint.com/:p:/r/sites/securityresearchreview/_layouts/15/Doc.aspx?sourcedoc=%7B8386F6B3-2B95-4441-A4B3-5E1D1CCDF14A%7D&file=2016-11-02%20Bug%20Framework.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&login_hint=ivb%40NIST.GOV&ct=1712492929322&wdOrigin=OFFICECOM-WEB.MAIN.CONTENTACTIONS&cid=dea502b7-86cd-4374-9924-e3b95096506b&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=8c500a5f-0b30-423d-a0b2-22c6d43e2e54)", Security Research Review (SRR), CSD, NIST, organizer Peter Mell, 11/02/2016. |
-
-| I. Bojanova, "[Towards a &apos;Periodic Table&apos; of Bugs](https://www.nist.gov/publications/towards-periodic-table-bugs)", NIST, ITL, SSD, SAMATE meeting, Apr. 8, 2015. <br/> `Author Contributions -->  IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` Reused by PEB on 8/10 (NIST), 9/2 (OWASP DC) and 11/18 (OWASP NOVA). https://www.nist.gov/publications/towards-147periodic-table148-bugs - from figures/tables, PEB provided those on slides 11 and 16; YW -- dissertation figure on slide 13'
-
+| I. Bojanova, "[Towards a &apos;Periodic Table&apos; of Bugs](https://www.nist.gov/publications/towards-periodic-table-bugs)", NIST, ITL, SSD, SAMATE meeting, Apr. 8, 2015. | 
 | I. Bojanova, "[Formalizing Software Bugs](https://www.nist.gov/publications/formalizing-software-bugs)", NIST, ITL, SSD, Division Chief, Ram Sriram, meeting with the Information-technology Promotion Agency (IPA), Japan delegation, NIST 222/A318, Dec. 9, 2014. <br/> <!--`Author Contributions IB: Original Ideas, Conceptualization, Methodology; Writing- Original draft preparation, Reviewing and Editing; Visualization.`--> |
 ||
 ||
 
+<!-- I. Bojanova, "[Towards a &apos;Periodic Table&apos; of Bugs](https://www.nist.gov/publications/towards-periodic-table-bugs)", NIST, ITL, SSD, SAMATE meeting, Apr. 8, 2015. `Author Contributions -- IB: Original ideas, Conceptualization, and Methodology for creating BF classes; Writing- Original draft preparation; Visualization; Supervision. IB, YY: Development- Creating the BF BOF, INJ, and CIF classes. IB, YY, PEB: Investigation- Analyzing CWEs and CVEs. All authors: Writing- Reviewing and Editing.` Reused by PEB on 8/10 (NIST), 9/2 (OWASP DC) and 11/18 (OWASP NOVA). https://www.nist.gov/publications/towards-147periodic-table148-bugs - from figures/tables, PEB provided those on slides 11 and 16; YW -- dissertation figure on slide 13' --> 
+
 <!-- https://iln.ieee.org/public/searchresults?q=&at=T&ty=ML.BASE.DV.SearchAnyWords&ln=&CRWPRV_PROVIDER_ID=88721CC1A29F412CAE2BED1733ADD6D7
 
-or go to https://iln.ieee.org  and search for Reliability Society as course provider on left panel -->
+or go to https://iln.ieee.org and search for Reliability Society as course provider on left panel -->
+
+<!-- ../../../Posters/Bug-Fault-Error-Weakness-or-Vulnerability--11072023.pdf -->
+
+<!-- _MEM poster - abstract - https://sos-vo.org/sites/sos-vo.org/files/sos_files/2020_High_Confidence_Software_and_Systems_HCSS_Program_Booklet.pdf -->
+
+<!-- | I. Bojanova, “Bugs Framework”, European project BIECO, 2021??? | -->
