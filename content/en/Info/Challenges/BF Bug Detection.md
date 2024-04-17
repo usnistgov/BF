@@ -23,7 +23,7 @@ BF Goals, Features, and Taxonomy <br/>
 </div>
 <br/><br/>
 
-<l style="font-size: 15px; color: #0428AE">_BF Citation: I. Bojanova, NIST, BF Goals, Features, and Taxonomy. Video. Accessed: <span id="currentDate"></span> [Online]. Available: [https://usnistgov.github.io/BF/info/challenges/bf-backtracking/](https://usnistgov.github.io/BF/info/challenges/bf-backtracking/)_.</l>
+<l style="font-size: 15px; color: #0428AE">_BF CITATION: Irena Bojanova, NIST Bugs Framework (BF) Goals, Features, and Taxonomy. Video. Accessed: <span id="currentDate"></span> [Online]. Available: [https://usnistgov.github.io/BF/info/challenges/bf-backtracking/](https://usnistgov.github.io/BF/info/challenges/bf-backtracking/)_.</l>
 
 
 
