@@ -2,7 +2,7 @@
 weight: 8
 title: "BFAI"
 ---
-# BFAI Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# BFAI Challenge <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 Create ML & AI tools for automated generation of unambiguous BFCVE vulnerability specifications.
 

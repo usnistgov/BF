@@ -3,7 +3,7 @@ weight: 1
 bookCollapseSection: false
 title: "BF Concepts"
 ---
-# BF Software Security Concepts <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# BF Software Security Concepts <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
 
 We can observe a security vulnerability leads to a security failure. However, what are the building blocks of a vulnerability? What is the defect in software that triggers a vulnerability? How does it propagate through errors until a final, exploitable error is reached? How do the underlying weaknesses of a vulnerability relate to these propagating errors? 
 

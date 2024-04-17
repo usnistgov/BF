@@ -3,7 +3,7 @@ weight: 7
 title: "BF Contact Us"
 ---
 
-# BF Contact <br/>_`Irena Bojanova, Inventor, Creator, PI, Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# BF Contact <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
 </br>
 If you are using or plan to use the Bugs Framewrok (BF), please do not hesitate to reach out for guidance and tool demonstrations. Pleas be encouraged also to provide feedback on BF at any time, especially while utilizing it within your own software security development and research pojects -- having your inputs will be particularly helpful in refining the BF's evolution. 
 
