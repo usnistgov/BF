@@ -80,6 +80,12 @@
   weight = 50
   identifier = "APIs"
 [[main]]
+  name = "BF Backwards API"
+  weight = 1
+  identifier = "BF Backwards API"
+  url = "/Info/APIs/BF Backwards API"
+  parent = "APIs"
+[[main]]
   name = "BF API"
   weight = 1
   identifier = "BF API"
