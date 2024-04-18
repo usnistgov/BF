@@ -9,7 +9,7 @@ BF Version 1.0, comprizes the BF Data Type (_DAT), Input/Output check(_INP), and
 
 The BF Backwards API allows quering the BF taxonomy for acyclic graphs with the possible chains from a particular Failure (IEX, DOS, ACE, TPR) and the Final Weakness as (Fault, Operation, Final Error) leading ot the Failure -- e.g.,:
 
-[https://samate.nist.gov/services/BF/Backwards/apiIEX/xml?operation=Read&finalError=Buffer%20Over-Read](https://samate.nist.gov/services/BF/Backwards/api/IEX/xml?cause=Overbounds=Pointer&operation=Read&finalError=Buffer%20Over-Read)
+[https://samate.nist.gov/services/BF/Backwards/api/IEX/xml?cause=Over%20Bounds%20Pointer&operation=Read&finalError=Buffer%20Over-Read](https://samate.nist.gov/services/BF/Backwards/api/IEX/xml?cause=Over%20Bounds%20Pointer&operation=Read&finalError=Buffer%20Over-Read)
 
 Could be only by Failure and Final Operation and Final Error -- e.g.,:
 

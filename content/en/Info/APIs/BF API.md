@@ -21,7 +21,7 @@ Patrameters -- allow filtering by any BF taxon value -- e.g.,:
 
 [https://samate.nist.gov/services/BF/Taxonomy/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/Taxonomy/api?Fault=NULL+Pointer)
 
-[https://samate.nist.gov/services/BF/Taxonomy/api?Attribute=Sequential](https://samate.nist.gov/services/BF/Taxonomy/api?Attribute=Sequentialr)
+[https://samate.nist.gov/services/BF/Taxonomy/api?Attribute=Sequential](https://samate.nist.gov/services/BF/Taxonomy/api?Attribute=Sequential)
 
 </br>
 CITATION </br>
