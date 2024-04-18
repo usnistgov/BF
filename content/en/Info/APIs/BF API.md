@@ -11,7 +11,7 @@ The BF API queries the BF taxonomy by BF taxon values -- e.g., ClassType, Class,
 
 Base URL -- retrieves all BF classes:
 
-[https://samate.nist.gov/services/BF/Taxonomy](https://samate.nist.gov/services/BF/Taxonomy)
+[https://samate.nist.gov/services/BF/Taxonomy/api](https://samate.nist.gov/services/BF/Taxonomy/api)
 
 Patrameters -- allow filtering by any BF taxon value -- e.g.,:
 
