@@ -53,27 +53,27 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug Type – A specification operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Qualifier </td>
-	<td></td>
+	<td>A namespace include is absent; or a scope is not specified i na fully qualified name.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Qualifier </td>
-	<td></td>
+	<td>A wrongn amespace is included, or a wrong scope is specified in a fully qualified name.</td>
 	</tr>
 	<tr>
 			<td>Name Fault</td>
-	<td>Name Fault/Error Type – The resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
@@ -85,7 +85,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
@@ -109,11 +109,11 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Name Error</td>
-	<td>Name Fault/Error Type – The resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
-	<td>Wrong Object Resolved fault/error – zzzxxx Object is resolved from wrong scope.</td>
+	<td>Wrong Object Resolved fault/error – Object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Function Resolved </td>
@@ -133,7 +133,11 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Object Type Resolved </td>
+	<td>Wrong Object Type Resolved fault/error – An object is resolved from a wrong scope, so its data type might be wrong (e.g. a parent vs a child data type).</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type Resolved </td>
@@ -149,27 +153,27 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Resolve </td>
-	<td>Resolve operation attribute – Looking up a name and if needed determining its data type (infer from value, through hierarchy, via generic type attribute).</td>
+	<td>Resolve operation attribute – The operation is via looking up a name and if needed determining its data type (infer from value, through hierarchy, via generic type attribute).</td>
 	</tr>
 	<tr>
 			<td>   Bind </td>
-	<td>Bind operation attribute – Connect object data type, function return type, parameter data type, or simple function implementation.</td>
+	<td>Bind operation attribute – The operation connects object data type, function return type, parameter data type, or simple function implementation.</td>
 	</tr>
 	<tr>
 			<td>   Early Bind </td>
-	<td>Early Bind operation attribute – Resolve a subtype and set a generic function implementation.</td>
+	<td>Early Bind operation attribute – The operation resolves a subtype and set a generic function implementation.</td>
 	</tr>
 	<tr>
 			<td>   Late Bind </td>
-	<td>Late Bind operation attribute – Resolve an overridden function via subtype object and set implementation.</td>
+	<td>Late Bind operation attribute – The operation resolves an overridden function via subtype object and set implementation.</td>
 	</tr>
 	<tr>
 			<td>   Ad-hoc Bind </td>
-	<td>Ad-hoc Bind operation attribute – Resolve an overloaded function via signature and set implementation.</td>
+	<td>Ad-hoc Bind operation attribute – The operation resolves an overloaded function via signature and set implementation.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -177,15 +181,15 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -209,7 +213,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Name Kind operand attribute type – Shows what the entity with this name is.</td>
+	<td>Name Kind operand attribute type – Shows the entity with this name.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>

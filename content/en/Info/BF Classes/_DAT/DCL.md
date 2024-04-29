@@ -53,35 +53,35 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td></td>
+	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Code </td>
-	<td></td>
+	<td>Wrong Code bug - An incorrect operator or function is used, or an incorrect data type is specified.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug Type – A specification operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>
-	<td></td>
+	<td>A required behavioral restriction is absent.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Modifier </td>
-	<td></td>
+	<td>A wrong behavioral restriction is specified.</td>
 	</tr>
 	<tr>
 			<td>   Anonymous Scope </td>
-	<td></td>
+	<td>The declaration is in an unnamed scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Scope </td>
@@ -89,7 +89,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type Resolved </td>
@@ -101,7 +101,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Name Error</td>
-	<td>Name Fault/Error Type – The resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
@@ -113,7 +113,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -161,23 +161,23 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>   Simple </td>
-	<td>Simple operation attribute – Non-polymorphic.</td>
+	<td>Simple operation attribute – The operation is via non-polymorphic types.</td>
 	</tr>
 	<tr>
 			<td>   Generics </td>
-	<td>Generics operation attribute – Parameterizing by type.</td>
+	<td>Generics operation attribute – The operation is via parameterization by types.</td>
 	</tr>
 	<tr>
 			<td>   Overriding </td>
-	<td>Overriding operation attribute – Functions with the same name as one in the base type but implemented in different subtypes.</td>
+	<td>Overriding operation attribute – The operation is via functions with the same name as one in the base type but implemented in different subtypes.</td>
 	</tr>
 	<tr>
 			<td>   Overloading </td>
-	<td>Overloading operation attribute – Functions with the same name in the same declaration scope, but implemented with different signature.</td>
+	<td>Overloading operation attribute – The operation is via functions with the same name in the same declaration scope, but implemented with different signature.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -185,15 +185,15 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -217,7 +217,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Name Kind operand attribute type – Shows what the entity with this name is.</td>
+	<td>Name Kind operand attribute type – Shows the entity with this name.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>

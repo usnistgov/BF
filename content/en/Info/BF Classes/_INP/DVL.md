@@ -49,31 +49,31 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td></td>
+	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug Type – A specification operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
-	<td></td>
+	<td>Accepts bad data.</td>
 	</tr>
 	<tr>
 			<td>   Over-Restrictive Policy </td>
-	<td></td>
+	<td>Rejectsgooddata.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
@@ -97,7 +97,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
@@ -137,23 +137,23 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Safelist </td>
-	<td>Safelist operation attribute – A policy based on a set of known good content.</td>
+	<td>Safelist operation attribute – The operation is via a policy based on a set of known good content.</td>
 	</tr>
 	<tr>
 			<td>   Denylist </td>
-	<td>Denylist operation attribute – A policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
+	<td>Denylist operation attribute – The operation is via a policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
 	</tr>
 	<tr>
 			<td>   Format </td>
-	<td>Format operation attribute – A policy based on syntax format (e.g., defined via regular expression).</td>
+	<td>Format operation attribute – The operation is via a policy based on syntax format (e.g., defined via regular expression).</td>
 	</tr>
 	<tr>
 			<td>   Length </td>
-	<td>Length operation attribute – A policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
+	<td>Length operation attribute – The operation uses a policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -161,15 +161,15 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -197,19 +197,19 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Entered operand attribute – The data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
+	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Stored operand attribute – The data are from a permanent storage (e.g., file, database on a storage device).</td>
+	<td>Stored operand attribute – Data are from a permanent storage (e.g., file, database on a storage device); they are at rest.</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>In Use operand attribute – The data are from a volatile storage (e.g., RAM, cache memory).</td>
+	<td>In Use operand attribute – Data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Transferred operand attribute – The data are from another device via a network (e.g., connecting analog device or another computer).</td>
+	<td>Transferred operand attribute – Data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>

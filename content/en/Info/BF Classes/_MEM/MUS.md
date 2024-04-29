@@ -73,19 +73,19 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td></td>
+	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Forbidden Address </td>
@@ -97,7 +97,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
@@ -105,7 +105,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Address Fault</td>
-	<td>Address Fault/Error Type – The object address in use is wrong.</td>
+	<td>Address Fault/Error type – The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
@@ -137,7 +137,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Size Fault</td>
-	<td>Size Fault/Error Type – The object size in use is wrong.</td>
+	<td>Size Fault/Error type – The object size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Not Enough Memory </td>
@@ -149,11 +149,11 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Object </td>
-	<td></td>
+	<td>Uninitialized Object fault/error – The object was never assigned a meaningful value.</td>
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
@@ -213,15 +213,15 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Direct </td>
-	<td>Direct operation attribute – The operation is performed on a particular object element.</td>
+	<td>Direct operation attribute – The operation is on a particular object element.</td>
 	</tr>
 	<tr>
 			<td>   Sequential </td>
-	<td>Sequential operation attribute – The operation is performed after iterating over the object elements.</td>
+	<td>Sequential operation attribute – The operation is via iterating over the object elements.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -229,15 +229,15 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -261,7 +261,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>         Address Kind </td>
-	<td>Address Kind operand attribute type - Shows what the accessed outside object's bounds memory is.</td>
+	<td>Address Kind operand attribute type - Shows how much memory is accessed outside object's bounds.</td>
 	</tr>
 	<tr>
 			<td>            Huge </td>
@@ -277,7 +277,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>         Address State </td>
-	<td>Address State operand attribute type - State operand attribute type – Shows where the address is in the memory layout.</td>
+	<td>Address State operand attribute type - Shows where the address is in the memory layout.</td>
 	</tr>
 	<tr>
 			<td>            Stack </td>
@@ -293,7 +293,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>         Size Kind </td>
-	<td>Size Kind operand attribute type – Shows what the limit for traversal of the object is.</td>
+	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>

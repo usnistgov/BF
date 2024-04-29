@@ -49,23 +49,23 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td></td>
+	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Added Code </td>
-	<td></td>
+	<td>Added Code bug - An inappropriate code is added to the implementation of an algorithm.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug Type – A specification operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Algorithm </td>
@@ -77,7 +77,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Weak Ciphertext </td>
@@ -97,7 +97,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Unverified Data </td>
@@ -133,19 +133,19 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>   Hash + RND </td>
-	<td>Hash + RND operation attribute – Hash Function + Random Numbers.</td>
+	<td>Hash + RND operation attribute – The operation uses Hash Function + Random Numbers.</td>
 	</tr>
 	<tr>
 			<td>   MAC </td>
-	<td>MAC operation attribute – Message Authentication Code.</td>
+	<td>MAC operation attribute – The operation is via Message Authentication Code.</td>
 	</tr>
 	<tr>
 			<td>   Digital Signature </td>
-	<td>Digital Signature operation attribute – yyyddd.</td>
+	<td>Digital Signature operation attribute – The operation is via digital signature.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -153,15 +153,15 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -185,7 +185,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows what the data value is.</td>
+	<td>Data Kind operand attribute type – Shows the category or type of data.</td>
 	</tr>
 	<tr>
 			<td>            Secret </td>
@@ -205,15 +205,15 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>            Stored </td>
-	<td>Stored operand attribute – The data are from a permanent storage (e.g., file, database on a storage device).</td>
+	<td>Stored operand attribute – Data are from a permanent storage (e.g., file, database on a storage device); they are at rest.</td>
 	</tr>
 	<tr>
 			<td>            In Use </td>
-	<td>In Use operand attribute – The data are from a volatile storage (e.g., RAM, cache memory).</td>
+	<td>In Use operand attribute – Data are from a volatile storage (e.g., RAM, cache memory).</td>
 	</tr>
 	<tr>
 			<td>            Transferred </td>
-	<td>Transferred operand attribute – The data are from another device via a network (e.g., connecting analog device or another computer).</td>
+	<td>Transferred operand attribute – Data are from another device via a network (e.g., connecting analog device or another computer).</td>
 	</tr>
 	
 </table>

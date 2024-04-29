@@ -57,23 +57,23 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Code </td>
-	<td></td>
+	<td>Wrong Code bug - An incorrect operator or function is used, or an incorrect data type is specified.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Name Fault</td>
-	<td>Name Fault/Error Type – The resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
-	<td>Wrong Object Resolved fault/error – zzzxxx Object is resolved from wrong scope.</td>
+	<td>Wrong Object Resolved fault/error – Object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Function Resolved </td>
@@ -93,7 +93,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Argument </td>
@@ -105,7 +105,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error Type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -121,7 +121,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Result </td>
@@ -161,27 +161,27 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Function </td>
-	<td>Function operation attribute – An organized block of code that when called takes in data, processes it, and produces a result(s).</td>
+	<td>Function operation attribute – The operation is via a function.</td>
 	</tr>
 	<tr>
 			<td>   Operator </td>
-	<td>Operator operation attribute – A function with a symbolic name that implements a mathematical, relational or logical operation.</td>
+	<td>Operator operation attribute – The operation is via a function with a symbolic name that implements a mathematical, relational or logical operation.</td>
 	</tr>
 	<tr>
 			<td>   Method </td>
-	<td>Method operation attribute – A member function of an OOP class.</td>
+	<td>Method operation attribute – The operation is via a member function of an OOP class.</td>
 	</tr>
 	<tr>
 			<td>   Lambda Expression </td>
-	<td>Lambda Expression operation attribute – An anonymous function, implemented within another function.</td>
+	<td>Lambda Expression operation attribute – The operation is performed via an anonymous function, implemented within another function.</td>
 	</tr>
 	<tr>
 			<td>   Procedure </td>
-	<td>Procedure operation attribute – A function with a void return type.</td>
+	<td>Procedure operation attribute – The operation is via a function with a void return type.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -189,15 +189,15 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -221,7 +221,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>         Name State </td>
-	<td>Name State operand attribute type – Shows at what stage the entity name is.</td>
+	<td>Name State operand attribute type – Shows the stage of the entity name.</td>
 	</tr>
 	<tr>
 			<td>            Resolved </td>
@@ -233,7 +233,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows what the data value is.</td>
+	<td>Data Kind operand attribute type – Shows the category or type of data.</td>
 	</tr>
 	<tr>
 			<td>            Numeric </td>

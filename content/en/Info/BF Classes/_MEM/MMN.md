@@ -69,23 +69,23 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug Type – A code operation defect – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td></td>
+	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Mismatched Operation </td>
-	<td></td>
+	<td>Mismatched Operation bug - The deallocation function does not match the allocation function used for the same object.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
-	<td></td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Hardcoded Address </td>
@@ -105,7 +105,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Address Fault</td>
-	<td>Address Fault/Error Type – The object address in use is wrong.</td>
+	<td>Address Fault/Error type – The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
@@ -121,7 +121,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Size Fault</td>
-	<td>Size Fault/Error Type – The object size in use is wrong.</td>
+	<td>Size Fault/Error type – The object size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Not Enough Memory </td>
@@ -133,7 +133,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error Type – The object data has harmed semantics or inconsistent or wrong value</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
@@ -141,7 +141,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Address Error</td>
-	<td>Address Fault/Error Type – The object address in use is wrong.</td>
+	<td>Address Fault/Error type – The object address in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
@@ -153,7 +153,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Size Error</td>
-	<td>Size Fault/Error Type – The object size in use is wrong.</td>
+	<td>Size Fault/Error type – The object size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Not Enough Memory </td>
@@ -193,11 +193,11 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Explicit </td>
-	<td>Explicit operation attribute – The operation is performed by a function/method call.</td>
+	<td>Explicit operation attribute – The operation is via a function/method call.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in the program – in what kind of software.</td>
+	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -205,15 +205,15 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
-	<td>Standard Library operation attribute – The operation is in the standard library for a particular programming language.</td>
+	<td>Standard Library operation attribute – The operation code is in the standard library for a particular programming language.</td>
 	</tr>
 	<tr>
 			<td>   Compiler/Interpreter </td>
-	<td>Compiler/Interpreter operation attribute – The operation is in the language processor that allows execution or creates executables (compiler, assembler, interpreter).</td>
+	<td>Compiler/Interpreter operation attribute – The operation code is in the language processor that allows execution or creates executables (interpreter, compiler, assembler).</td>
 	</tr>
 	<tr>
 			<td>Execution Space </td>
@@ -237,7 +237,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>         Address State </td>
-	<td>Address State operand attribute type - State operand attribute type – Shows where the address is in the memory layout.</td>
+	<td>Address State operand attribute type - Shows where the address is in the memory layout.</td>
 	</tr>
 	<tr>
 			<td>            Stack </td>
