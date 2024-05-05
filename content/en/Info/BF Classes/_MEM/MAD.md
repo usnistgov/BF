@@ -2,7 +2,7 @@
 weight: 3
 title: "MAD"
 ---
-## BF Memory Addressing (MAD) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Memory Addressing (MAD) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Addressing (MAD) class – The pointer to an object is initialized, repositioned, or reassigned to an improper memory address.{{< /definition >}}

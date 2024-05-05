@@ -2,7 +2,7 @@
 weight: 3
 title: "MUS"
 ---
-## BF Memory Use (MUS) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Memory Use (MUS) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.{{< /definition >}}

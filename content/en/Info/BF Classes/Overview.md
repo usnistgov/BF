@@ -3,7 +3,7 @@ weight: 1
 bookCollapseSection: true
 title: "Overview"
 ---
-# Bugs Framework (BF) Taxonomy <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# Bugs Framework (BF) Taxonomy <br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 Please use the menu on the left to browse the BF Class Types: [_INP](/BF/info/bf-classes/_inp/), [_DAT](/BF/info/bf-classes/_dat/), [_MEM](/BF/info/bf-classes/_mem/), [_CDS](/BF/info/bf-classes/_cds/), ...
 

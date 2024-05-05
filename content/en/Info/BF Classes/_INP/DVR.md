@@ -2,7 +2,7 @@
 weight: 3
 title: "DVR"
 ---
-## BF Data Verification (DVR) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Data Verification (DVR) Bugs Class 
 
 #### Definition
 {{< definition >}}Data Verification (DVR) class – Data are verified (semantics check) or corrected (assign, remove) improperly.{{< /definition >}}

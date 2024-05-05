@@ -4,7 +4,7 @@ bookCollapseSection: true
 title: "Overview"
 ---
 # BFCVE Challenges 
-## Towards a BF Labeled Dataset of Software Security Vulnerabilities<br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
+## Towards a BF Labeled Dataset of Software Security Vulnerabilities<br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 Create a comprehensively labeled dataset of software security vulnerability specifications using BF's [formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/).
 

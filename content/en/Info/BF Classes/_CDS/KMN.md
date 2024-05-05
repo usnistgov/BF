@@ -2,7 +2,7 @@
 weight: 3
 title: "KMN"
 ---
-## BF Key Management (KMN) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Key Management (KMN) Bugs Class 
 
 #### Definition
 {{< definition >}}Key Management (KMN) class – Cryptographic keying material is generated, stored, distributed, used, or destroyed improperly.{{< /definition >}}

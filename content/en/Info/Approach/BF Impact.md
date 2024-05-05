@@ -3,7 +3,7 @@ weight: 3
 bookCollapseSection: false
 title: "BF Potential Impact"
 ---
-# BF Impact <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# BF Impact <br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 The Bugs Framework (BF) will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
 

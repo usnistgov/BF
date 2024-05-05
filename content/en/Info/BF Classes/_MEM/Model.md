@@ -2,13 +2,13 @@
 weight: 1
 title: "Bugs Model"
 ---
-# BF Memory Bugs Model <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# BF Memory Bugs Model <br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 Each memory related bug or weakness involves one memory operation. Each _operation_ is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has _boundaries_ and it has _size_. We call this piece of memory, with a well-defined size, an _object_. It is used to store a primitive data or a data structure. The memory address should be held by at least one _pointer (owner)_ or determined as an offset on the stack, otherwise the object will be unreachable. The object and the pointer are the operands of the memory operation.
 
 Memory bugs could be introduced at any of the phases of an object’s lifecycle: _address formation_, _allocation_, _use_, and _deallocation_. The phases correspond to the BF memory bugs classes: Memory Addressing Bugs (MAD), Memory Management Bugs (MMN) -- cover both the Memory Allocation (MAL) and the Memory Deallocation (MDL phases), and Memory Use Bugs (MUS). 
 
-The BF Memory Bugs Model helps identify where in these phases bugs could occur (Figure 1). The phases correspond to the BF memory bugs classes: Memory Addressing Bugs (MAD), Memory Allocation Bugs (MAL), Memory Use Bugs (MUS), and , Memory Deallocation Bugs (MDL). All possible memory operations are grouped by phase. The presented operations flow helps in identifying possible chains of bugs/weaknesses. <br/><br/>_`For simplicity, BF noe combines MAL and MDL sre now combined in one Memory Management Bugs (MMN) class.`_ 
+The BF Memory Bugs Model helps identify where in these phases bugs could occur (Figure 1). The phases correspond to the BF memory bugs classes: Memory Addressing Bugs (MAD), Memory Allocation Bugs (MAL), Memory Use Bugs (MUS), and , Memory Deallocation Bugs (MDL). All possible memory operations are grouped by phase. The presented operations flow helps in identifying possible chains of bugs/weaknesses. <br/><br/>_`For simplicity, BF now combines MAL and MDL in one Memory Management Bugs (MMN) class.`_ 
 <br/><br/>
 
 {{< img src="images/BF Models/_MEM.svg" caption="Figure 1. BF Memory Bugs Model. Comprises the MAD, MAL, MUS, and MDL phases, corresponding to the BF classes MAD, MMN (combining the MAL and MDL phases), and MUS. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation. (Note that for simplicity, BF combines MAL and MDL in one Memory Management Bugs (MMN) class)" >}}

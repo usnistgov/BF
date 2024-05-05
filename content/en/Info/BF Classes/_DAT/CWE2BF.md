@@ -2,7 +2,7 @@
 weight: 6
 title: "CWE2BF"
 ---
-# Mapping Data Type Related CWEs to BF Classes <br/>_`Irena Bojanova, Inventor, Creator, PI & Lead, Bugs Framework (BF), 2014 – ~~~~`_
+# Mapping Data Type Related CWEs to BF Classes <br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 BF Data Type taxonomy can be used by bug reporting tools, as it is a structured extension over data type-related CWEs, such as _Numeric Errors_ , _Type Errors_, and _String Errors_. All Data Type Error consequences from the BF classes relate to one or more CWEs.
 

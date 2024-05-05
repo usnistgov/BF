@@ -2,7 +2,7 @@
 weight: 3
 title: "MMN"
 ---
-## BF Memory Management (MMN) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Memory Management (MMN) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Management (MMN) class – An object is allocated, deallocated, or resized improperly.{{< /definition >}}

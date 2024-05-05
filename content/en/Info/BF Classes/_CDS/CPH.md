@@ -2,7 +2,7 @@
 weight: 3
 title: "CPH"
 ---
-## BF Cipher (CPH) Bugs Class <br/>_`Irena Bojanova, Primary Investigator and Lead, Bugs Framework (BF)`_
+## BF Cipher (CPH) Bugs Class 
 
 #### Definition
 {{< definition >}}Cipher (CPH) class – Sensitive data are improperly encrypted or ciphertext is improperly decrypted.{{< /definition >}}
