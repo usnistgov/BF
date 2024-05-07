@@ -29,8 +29,9 @@ The bug must be fixed to resolve the vulnerability; while, in most cases, fixing
 
 A security failure may be caused by the converging final errors of several vulnerabilities. The bug in at least one of the chains must be fixed to avoid the failure.
 
-Using the BF software security concepts definitions, a vulnerability description can be formalize at a high-level with the following rules (the complete current BF LL1 grammar is available xxxhere).
+Using the BF software security concepts definitions, a vulnerability description can be formalized at a high-level with the following rules (the complete current BF LL1 grammar is available here: [BF Formal Language)](/BF/info/formalism/bf-formal-language/)).
 <br/>
+
 
     START := Vulnerability Converge
     Vulnerability := Bug Operation Error
@@ -39,4 +40,3 @@ Using the BF software security concepts definitions, a vulnerability description
     
 
 I. Bojanova and C. E. Galhardo, "Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities," IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631), [Local Download](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936191) .
-

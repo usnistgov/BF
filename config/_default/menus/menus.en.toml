@@ -16,6 +16,12 @@
   url = "/Info/Models/BF Concepts"
   parent = "Models"
 [[main]]
+  name = "BF Concepts Bottom-Up"
+  weight = 1
+  identifier = "BF Concepts Bottom-Up"
+  url = "/Info/Models/BF Concepts Bottom-Up"
+  parent = "Models"
+[[main]]
   name = "BF Vulnerability State Model"
   weight = 2
   identifier = "BF Vulnerability State Model"
