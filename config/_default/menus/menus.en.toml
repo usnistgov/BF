@@ -46,10 +46,10 @@
   url = "/Info/Formalism/BF Concepts Formalized"
   parent = "Formalism"
 [[main]]
-  name = "BF Formal Grammar"
+  name = "BF Bugs Models Formalized"
   weight = 2
-  identifier = "BF Formal Grammar"
-  url = "/Info/Formalism/BF Formal Grammar"
+  identifier = "BF Bugs Models Formalized"
+  url = "/Info/Formalism/BF Bugs Models Formalized"
   parent = "Formalism"
 [[main]]
   name = "BF Formal Language"
