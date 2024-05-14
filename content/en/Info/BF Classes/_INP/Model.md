@@ -22,3 +22,9 @@ Validation is about accepting or rejecting data based on its syntax: it checks i
 Verification is about accepting or rejecting data based on its semantics: it checks if data have proper value (meaning). For example, checking if a start date is before an end date, or checking the type of an XML document against a PowerPoint XSD (XML Schema Definition) is data verification. Once data semantics is checked, it may be corrected via assigning a new value or via removing data. An example of data correction would be setting the size to the buffer’s upper bound when the size that is supplied is larger than that upper bound. The verify and correct operations use specific policies to, for example, check data against a value (incl. NULL or list of values), quantity, range, type, or other business rules.
 
 Data check bugs could be introduced at any of the _data validation_ and _data verification_ phases. Each bug or weakness involves one data check operation: validate, sanitize, verify, or correct. Each operation is over already-canonicalized1 data and the policy (the rules) against which it gets checked.
+
+## BF Input/Output Safety
+
+The BF Input/Output (_INP) Bugs Model addresses temporal input/output safety by defining the proper flow of operations along the x-axis. For example, input data must be validated and sanitized to aviod injection. 
+
+The[Data Validation (DVL)](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.

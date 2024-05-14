@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Bugs Model"
+title: "Model"
 ---
 # BF Crypto Data Security (\_CDS) Bugs Model<br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
@@ -25,3 +25,9 @@ The operations under CPH are on encrypting plain text and decrypting cipher text
 The operations under DSV are on signing and verifying. Verification takes a key and either plaintext or ciphertext, signs or hashes it, then passes the result to the user. The user uses the same key or the other key from the key-pair to verify data integrity or source. Note that hash alone without any other mechanism cannot be used to verify source or to protect data integrity against attackers. However, it can be used to protect data integrity against channel errors.
 
 In the cases of symmetric encryption (see Figure 1), one secretly shared key (shKey) is used. The source encrypts with shKey, and the user decrypts also with shKey. In the cases of asymmetric encryption, pairs of mathematically related keys are used. The source pair is a public key (pbKeySrc) and a private key (prKeySrc); the user pair is pbKeyUsr and prKeyUsr. The source encrypts with pbKeyUsr and signs with prKeySrc. The user decrypts with prKeyUsr and verifies with pbKeySrc.
+
+## BF Crypto Data Safety
+
+The BF Crypto Data Security (_CDS)  Bugs Model addresses temporal type safety by defining the proper flow of operations along the x-axis. For example, data must declared propely to aviod wrap-around (e.g., integer overflow). 
+
+The[Data Validation (DVL)](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.
