@@ -32,6 +32,14 @@ If an object is owned by more than one pointer, MMN Reallocate (i.e., MAL Reallo
 
 ## BF Memory Safety
 
-The BF Memory (_MEM) Bugs Model addresses temporal memory safety by defining the proper flow of operations over the owner (pointer) or the object along the x-axis. It also addresses spatial memory safety via the operations that affect object boundaries along the y-axis. For example, an object must be allocated before use and deallcated before its pointer is reassigned, it must not be read before it is initialized and must be cleared before it is deallocated, and it must not be used after it is deallocated. These correspond to unintialized/uncleared object, memory leaks, and use after free/return safety. The size of the object is always strictly defined, and the pointer must not exceed its boundaries. This corresponds to buffer overflow/underflow safety. 
+The BF Memory (_MEM) Bugs Model addresses temporal memory safety by defining the proper flow of operations over the owner (pointer) or the object along the x-axis. It also addresses spatial memory safety via the operations that affect object boundaries along the y-axis. 
+
+The BF Memory Bugs Model captures temporal memory safety by defining the proper flow of operations over the owner (pointer) or the object along the x-axis. It also captures spatial memory safety via the operations that affect object boundaries along the y-axis. 
+
+For example, a pointer must be initialized before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to Wild Pointer and  Dangling Pointer.
+
+An object must be allocated before use and deallocated before its pointer is reassigned, it must not be read before it is initialized and must be cleared before it is deallocated, and it must not be used after it is deallocated. These correspond to uninitialized/uncleared object, memory leaks, and use after free/return safety. 
+
+The size of the object is always strictly defined, and the pointer must not exceed its boundaries. This corresponds to buffer overflow/underflow safety. 
 
 The BF [Memory Addressing Bugs (MAD)](/BF/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/BF/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/BF/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
