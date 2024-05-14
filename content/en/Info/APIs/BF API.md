@@ -27,9 +27,9 @@ To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fa
 </br>
 CITATION </br>
 _____________________________________________________________</br></br>
-Irena Bojanova, NIST Bugs Framework (BF) API, Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
+
+Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
 </br></br>
-//more explanations to be added//
 
 <!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_mem/) -->
 <!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->

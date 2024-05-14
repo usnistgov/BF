@@ -30,8 +30,5 @@ Could be in JSON format:
 </br>
 CITATION </br>
 _____________________________________________________________</br></br>
-Irena Bojanova, NIST Bugs Framework (BF) Backwards API, Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-backwards-api](https://usnistgov.github.io/BF/info/apis/bf-backwards-api).
 
-
-//explanations to be added//
-
+Bojanova, I., Bugs Framework (BF) -- BF Backwards API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-backwards-api](https://usnistgov.github.io/BF/info/apis/bf-backwards-api).

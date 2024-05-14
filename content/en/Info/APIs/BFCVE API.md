@@ -31,9 +31,8 @@ BFCVE could be quesried alsby by programming language, CVSS score (//to be added
 </br>
 CITATION </br>
 _____________________________________________________________</br></br>
-Irena Bojanova, NIST Bugs Framework (BF) API, Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
-</br></br>
-//more explanations to be added//
+
+Bojanova, I., Bugs Framework (BF) -- BFCVE API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
 
 
 

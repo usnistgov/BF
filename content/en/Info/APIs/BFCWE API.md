@@ -7,4 +7,11 @@ title: "BFCWE API"
 
 Start on BFCWE Dataset: [https://github.com/ibojanova/BFCWE-Dataset](https://github.com/ibojanova/BFCWE-Dataset)
 
-//BFCWE API to be added//
+//more to be added//
+
+</br>
+CITATION </br>
+_____________________________________________________________</br></br>
+
+Bojanova, I., Bugs Framework (BF) -- BFCWE API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
+</br></br>
