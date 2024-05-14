@@ -13,7 +13,7 @@ A cryptographic storage or transfer protocol may involve multiple stages of agre
 
 Crypto Data Security bugs could be introduced at any of the _key management_, _encryption/decryption_, and _crypto verification of data or source_ phases. It important to note though, that encryption may use key management, which itself uses encryption and verification.
 
-The BF Data Security Bugs Model helps identify where in these phases bugs could occur (Figure 1). The phases correspond to the BF crypto bugs classes: Key Management Bugs (KMN), Cipher Bugs (CPH), and Data/Source Crypto Verification Bugs (DSV). All crypto operations are grouped by phase. The presented operations flow helps in identifying possible chains of bugs/weaknesses.
+The BF Data Security Bugs Model helps identify where in these phases bugs could occur (Figure 1). The phases correspond to the BF crypto bugs classes: Key Management Bugs (KMN), Cipher Bugs (CPH), and Data/Source Crypto Verification Bugs (DSV). All crypto operations are grouped by phase. The presented proper flow of operations helps bugs/weaknesses caused by a missing operation.
 
 <br/><br/>
 {{< img src="images/BF Models/_CDS.svg" caption="BF Crypto Data Security Bugs Model. Comprises phases, corresponding to the BF classes KMN, CPH, and DSV. Shows the crypto operations flow: black arrows – the main flow; red arrows – flow for when plaintext is signed or hashed and then encrypted. Encryption may occur with verification, or it may precede verification, if the ciphertext is signed or hashed. Encryption uses key management, and key management may use encryption and verification to handle keys. The dashed blocks show sending and receiving entities" >}}
