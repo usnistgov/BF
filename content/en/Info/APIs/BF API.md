@@ -25,8 +25,9 @@ To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fa
 [https://samate.nist.gov/services/BF/BFTaxonomy/api?classType=_FLR](https://samate.nist.gov/services/BF/BFTaxonomy/api?ClassType=_FLR)
 
 </br>
-CITATION </br>
-_____________________________________________________________</br></br>
+CITATION 
+
+_____________________________________________________________
 
 Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
 </br></br>
