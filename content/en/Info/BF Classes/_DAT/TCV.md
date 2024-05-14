@@ -73,7 +73,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
-	<td>Wrong Object Resolved fault/error – Object is resolved from wrong scope.</td>
+	<td>Wrong Object Resolved fault/error – The object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overloaded Function </td>
@@ -85,11 +85,11 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Under Range </td>
-	<td>Under Range fault/error – Data value is smaller than type's lower range.</td>
+	<td>Under Range fault/error – The data value is smaller than the lower range of its type.</td>
 	</tr>
 	<tr>
 			<td>   Over Range </td>
-	<td>Over Range fault/error – Data value is larger than type's upper range.</td>
+	<td>Over Range fault/error – The data value is larger than the upper range of its type.</td>
 	</tr>
 	<tr>
 			<td>   Flipped Sign </td>
@@ -116,14 +116,6 @@ title: "TCV"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Type Error</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
-	</tr>
-	<tr>
-			<td>   Wrong Type </td>
-	<td>Wrong Type fault/error – A data type range or structure is not correct.</td>
-	</tr>
-	<tr>
 			<td>Data Error</td>
 	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
@@ -141,11 +133,19 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Distorted Value </td>
-	<td>Distorted Value fault/error – Incorrect value (although fits type size) due to sign flip or signed/unsigned and vice versa cast.</td>
+	<td>Distorted Value fault/error – The data value is incorrect (although is fits the type size) due to a sign flip or signed/unsigned or vice versa cast.</td>
 	</tr>
 	<tr>
 			<td>   Rounded Value </td>
-	<td>Rounded Value fault/error – Real number value precision loss.</td>
+	<td>Rounded Value fault/error – Precision loss of a real number.</td>
+	</tr>
+	<tr>
+			<td>Type Error</td>
+	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Type </td>
+	<td>Wrong Type fault/error – A data type range or structure is not correct.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

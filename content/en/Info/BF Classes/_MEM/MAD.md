@@ -9,7 +9,6 @@ title: "MAD"
 
 ####  Taxonomy
 
-
 {{< img src="images/BF Classes/_MEM/MAD.png" >}}
 
 <table>

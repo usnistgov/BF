@@ -121,7 +121,7 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
-	<td>Corrupted Data fault/error – Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
+	<td>Corrupted Data fault/error – The data is modified unintentionally due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
 	</tr>
 	<tr>
 			<td>   Meaningless Data </td>

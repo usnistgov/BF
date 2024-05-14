@@ -88,6 +88,14 @@ title: "DCL"
 	<td></td>
 	</tr>
 	<tr>
+			<td>Data Fault</td>
+	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Name </td>
+	<td>Wrong Name fault/error – Inaccurate name is constructed dynamically for use at run time.</td>
+	</tr>
+	<tr>
 			<td>Type Fault</td>
 	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
@@ -105,7 +113,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
-	<td>Missing Overridden Function fault/error – Function implementation in a particular subclass is absent.</td>
+	<td>Missing Overridden Function fault/error – The function implementation in a particular subclass is absent.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overloaded Function </td>

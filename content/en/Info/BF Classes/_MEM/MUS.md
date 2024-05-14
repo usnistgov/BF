@@ -185,19 +185,19 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Buffer Overflow </td>
-	<td>Buffer Overflow exploitable error – Writing above the upper bound of an object – aka Buffer Over-Write.</td>
+	<td>Buffer Overflow exploitable error – Write data above the upper bound of an object (i.e., buffer overwrite).</td>
 	</tr>
 	<tr>
 			<td>   Buffer Underflow </td>
-	<td>Buffer Underflow exploitable error – Writing below the lower bound of an object – aka Buffer Under-Write.</td>
+	<td>Buffer Underflow exploitable error – Write data below the lower bound of an object (i.e., buffer under-write).</td>
 	</tr>
 	<tr>
 			<td>   Buffer Over-Read </td>
-	<td>Buffer Over-Read exploitable error – Reading above the upper bound of an object.</td>
+	<td>Buffer Over-Read exploitable error – Read data above the upper bound of an object.</td>
 	</tr>
 	<tr>
 			<td>   Buffer Under-Read </td>
-	<td>Buffer Under-Read exploitable error – Reading below the lower bound of an object.</td>
+	<td>Buffer Under-Read exploitable error – Read data below the lower bound of an object.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Pointer Dereference </td>

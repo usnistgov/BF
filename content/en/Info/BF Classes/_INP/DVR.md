@@ -29,11 +29,11 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Verify </td>
-	<td>Verify operation – Check data semantics (proper value/meaning) in order to accept (and possibly correct) or reject it.</td>
+	<td>Verify operation – Check data semantics (e.g., proper value/meaning) in order to accept (and possibly correct) or reject it.</td>
 	</tr>
 	<tr>
 			<td>Correct </td>
-	<td>Correct operation – Modify data (assign new value, remove) to make it accurate.</td>
+	<td>Correct operation – Modify data (e.g., assign new value, remove) to make it accurate.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -77,7 +77,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – Data with harmed syntax due to sanitization errors.</td>
+	<td>Invalid Data fault/error – The data has harmed syntax due to sanitization errors.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -93,7 +93,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Inconsistent Value </td>
-	<td>Inconsistent Value fault/error – Data value does not correspond to the value of a related data (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
+	<td>Inconsistent Value fault/error – The sata value does not correspond to the value of a related data (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
 	</tr>
 	<tr>
 			<td>Type Error</td>

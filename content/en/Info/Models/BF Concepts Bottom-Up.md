@@ -15,7 +15,7 @@ The BF defines the concepts of bug, fault, error, final error, weakness, vulnera
 
 *   A _fault_ is a name, data, type, address, or size error (i.e., an operand error) --- that is, an improper operand over a proper operation. 'Name' is the identifier of a resolved or bound object, function, data type, or namespace. 'Data,' 'type,' 'address,' and 'size' are properties of an object. A fault could result from a bug or be induced by a hardware defect. 
 
-*   An _error_ is a result of an operation with a bug or faulty operand that propagates to a faulty operand of another operation.
+*   An _error_ is a result of an operation with a bug or faulty operand that propagates to a fault for another operation.
 
 *   A _security final error_ is an exploitable or undefined system behavior that results from an operation with a bug or faulty operand introducing an exploit vector. 
 

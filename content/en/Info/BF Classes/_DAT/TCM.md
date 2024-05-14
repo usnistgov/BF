@@ -48,10 +48,6 @@ title: "TCM"
 	<td>Data operand – The data value of an object – stored in object's memory.</td>
 	</tr>
 	<tr>
-			<td>Type </td>
-	<td>Type operand – The data type of an object – the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
-	</tr>
-	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -73,11 +69,11 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
-	<td>Wrong Object Resolved fault/error – Object is resolved from wrong scope.</td>
+	<td>Wrong Object Resolved fault/error – The object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Function Resolved </td>
-	<td>Wrong Function Resolved fault/error – Function is resolved from wrong scope.</td>
+	<td>Wrong Function Resolved fault/error – The function is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Generic Function Bound </td>
@@ -129,11 +125,11 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Under Range </td>
-	<td>Under Range fault/error – Data value is smaller than type's lower range.</td>
+	<td>Under Range fault/error – The data value is smaller than the lower range of its type.</td>
 	</tr>
 	<tr>
 			<td>   Over Range </td>
-	<td>Over Range fault/error – Data value is larger than type's upper range.</td>
+	<td>Over Range fault/error – The data value is larger than the upper range of its type.</td>
 	</tr>
 	<tr>
 			<td>   Flipped Sign </td>
@@ -250,18 +246,6 @@ title: "TCM"
 	<tr>
 			<td>            Boolean </td>
 	<td>Boolean operand attribute – A truth/falcity value – true or false; 1 or 0.</td>
-	</tr>
-	<tr>
-			<td>         Type Kind </td>
-	<td>Type Kind operand attribute type – Shows what the data type composition is.</td>
-	</tr>
-	<tr>
-			<td>            Primitive </td>
-	<td>Primitive operand attribute – A scalar data type that mimics the hardware units - e.g., int (long, short, signed), float, double, string, Boolean. A primitive data type is only language defined and is not built from other data types.</td>
-	</tr>
-	<tr>
-			<td>            Structure </td>
-	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
 	</tr>
 	
 </table>

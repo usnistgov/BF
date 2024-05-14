@@ -5,6 +5,6 @@ title: "_DAT"
 ---
 # BF Data Type (_DAT) Class Type <br/> _`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-Please use the menu on the left to browse the BF _DAT [model](/BF/info/bf-classes/_dat/model/), [DCL](/BF/info/bf-classes/_dat/dcl), [NRS](/BF/info/bf-classes/_dat/nrs), [TCM](/BF/info/bf-classes/_dat/tcm), and [TCV](/BF/info/bf-classes/_dat/tcv) classes, and [CWE2BF](/BF/info/bf-classes/_dat/cwe2bf) mapping.
+Please use the Taxonomy menu on the left or the following links to browse the BF [Data Type (_DAT) model](/BF/info/bf-classes/_dat/model/) and [DCL](/BF/info/bf-classes/_dat/dcl), [NRS](/BF/info/bf-classes/_dat/nrs), [TCM](/BF/info/bf-classes/_dat/tcm), and [TCV](/BF/info/bf-classes/_dat/tcv) classes.
 
-//more to be added//
+

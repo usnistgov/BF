@@ -77,7 +77,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
-	<td>Missing Overridden Function fault/error – Function implementation in a particular subclass is absent.</td>
+	<td>Missing Overridden Function fault/error – The function implementation in a particular subclass is absent.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overloaded Function </td>
@@ -113,11 +113,11 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
-	<td>Wrong Object Resolved fault/error – Object is resolved from wrong scope.</td>
+	<td>Wrong Object Resolved fault/error – The object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Function Resolved </td>
-	<td>Wrong Function Resolved fault/error – Function is resolved from wrong scope.</td>
+	<td>Wrong Function Resolved fault/error – The function is resolved from wrong scope.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Generic Function Bound </td>

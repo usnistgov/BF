@@ -29,11 +29,11 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Validate </td>
-	<td>Validate operation – Check data syntax (proper form/grammar, incl. check for missing symbols/elements) in order to accept (and possibly sanitize) or reject it.</td>
+	<td>Validate operation – Check data syntax (e.g., proper form or grammar, including missing symbols or elements) in order to accept (and possibly sanitize) or reject it.</td>
 	</tr>
 	<tr>
 			<td>Sanitize </td>
-	<td>Sanitize operation – Modify data (neutralize/escape, filter/remove, repair/add symbols) to make it valid (well-formed).</td>
+	<td>Sanitize operation – Modify data (e.g., neutralize/escape, filter/remove, repair/add symbols) to make it valid (well-formed).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -77,7 +77,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
-	<td>Corrupted Data fault/error – Unintentionally modified data due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
+	<td>Corrupted Data fault/error – The data is modified unintentionally due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Data </td>
@@ -85,7 +85,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Corrupted Policy Data </td>
-	<td>Corrupted Policy Data fault/error – Unintentionally modified policy data (the values the policy checks for) due to a previous weakness.</td>
+	<td>Corrupted Policy Data fault/error –  Policy data is modified unintentionally (the values the policy checks for) due to a previous weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Policy Data </td>
@@ -101,7 +101,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – Data with harmed syntax due to sanitization errors.</td>
+	<td>Invalid Data fault/error – The data has harmed syntax due to sanitization errors.</td>
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>

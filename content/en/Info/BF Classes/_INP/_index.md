@@ -5,6 +5,6 @@ title: "_INP"
 ---
 # BF Input/Output Check (_INP) Class Type <br/> _`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-Please use the menu on the left to browse the BF _INP [model](/BF/info/bf-classes/_inp/model/), [DVL](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) classes, and [CWE2BF](/BF/info/bf-classes/_inp/cwe2bf) mapping.
+Please use the Taxonomy menu on the left or the following links to browse the BF [Input/Output Check (_INP) Model](/BF/info/bf-classes/_inp/model/) and [Data Validation (DVL)](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) BF classes.
 
-//more to be added//
+

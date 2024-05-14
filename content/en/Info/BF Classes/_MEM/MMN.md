@@ -33,11 +33,11 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Extend </td>
-	<td>Extend operation – Reserve additional memory for an object in the same space; changes its boundaries and size.</td>
+	<td>Extend operation – Reserve additional memory for an object in the same space; redefines its boundaries and size.</td>
 	</tr>
 	<tr>
 			<td>Reallocate-Extend </td>
-	<td>Reallocate-Extend operation – Reserve a new larger piece of memory for an object at a new address, copy the object content there, reassign its pointer, and deallocate the previous piece of memory.</td>
+	<td>Reallocate-Extend operation – Reserve a new larger piece of memory for an object at a new address, reassign its pointer, and release the previous piece of memory.</td>
 	</tr>
 	<tr>
 			<td>Deallocate </td>
@@ -45,11 +45,11 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Reduce </td>
-	<td>Reduce operation – Deallocates part of the object memory; redefines its boundaries and size.</td>
+	<td>Reduce operation – Release part of the object memory; redefines its boundaries and size.</td>
 	</tr>
 	<tr>
 			<td>Reallocate-Reduce </td>
-	<td>Reallocate-Reduce operation – Reserve a new smaller space in memory for an object at a new address, copy part of the object content there, reassign the pointer, and deallocate the previous piece of memory.</td>
+	<td>Reallocate-Reduce operation – Reserve a new smaller space in memory for an object at a new address, reassign the pointer, and release the previous piece of memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -62,6 +62,10 @@ title: "MMN"
 	<tr>
 			<td>Address </td>
 	<td>Address operand attribute – The memory address for an object. It is data of another object, the object's pointer, used to reference and traverse the object.</td>
+	</tr>
+	<tr>
+			<td>Size </td>
+	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
