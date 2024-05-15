@@ -34,7 +34,7 @@ If an object is owned by more than one pointer, MMN Reallocate (i.e., MAL Reallo
 
 The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. The BF [Memory Addressing Bugs (MAD)](/BF/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/BF/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/BF/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
 
-For example, a pointer may be initialized before or after allocation of its object but before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to the Wild Pointer and  Dangling Pointer errors.
+For example, a pointer may be initialized before or after allocation of its object but must be initialized before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to the Wild Pointer and  Dangling Pointer errors.
 
 An object must be allocated before use and deallocated before its pointer is reassigned, it must not be read before it is initialized and must be cleared before it is deallocated, and it must not be used after it is deallocated. These correspond to the Uninitialized Object error and the Uncleared Object, Memory Leak, and Use After Deallocate (use after free/return) final errors. 
 
