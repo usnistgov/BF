@@ -32,12 +32,12 @@ If an object is owned by more than one pointer, MMN Reallocate (i.e., MAL Reallo
 
 ## BF Memory Safety
 
-The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. 
+The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. The BF [Memory Addressing Bugs (MAD)](/BF/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/BF/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/BF/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
 
-For example, a pointer may be initialized before or after allocation of its object but before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to Wild Pointer and  Dangling Pointer.
+For example, a pointer may be initialized before or after allocation of its object but before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to the Wild Pointer and  Dangling Pointer errors.
 
-An object must be allocated before use and deallocated before its pointer is reassigned, it must not be read before it is initialized and must be cleared before it is deallocated, and it must not be used after it is deallocated. These correspond to uninitialized/uncleared object, memory leaks, and use after free/return safety. 
+An object must be allocated before use and deallocated before its pointer is reassigned, it must not be read before it is initialized and must be cleared before it is deallocated, and it must not be used after it is deallocated. These correspond to the Uninitialized Object error and the Uncleared Object, Memory Leak, and Use After Deallocate (use after free/return) final errors. 
 
-The size of the object is always strictly defined, and the pointer must not exceed its boundaries. This corresponds to buffer overflow/underflow safety. 
+The size of the object is always strictly defined, and the pointer must not exceed its boundaries. This corresponds to Buffer Overflow, Buffer Underflow, Buffer Over-Read, and Buffer Under-Read  final errors. But there is also more that relates to type safety and the corresponding to it BF Bugs Model and Classes.
 
-The BF [Memory Addressing Bugs (MAD)](/BF/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/BF/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/BF/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
+
