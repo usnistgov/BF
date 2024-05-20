@@ -129,7 +129,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Hash + RND </td>
@@ -145,7 +145,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -165,7 +165,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -193,7 +193,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>            Keying Material </td>
-	<td>Keying Material operand attribute – Cryptographic keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g. pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). </td>
+	<td>Keying Material operand attribute – Cryptographic keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g., pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). </td>
 	</tr>
 	<tr>
 			<td>            Digital Certificate </td>

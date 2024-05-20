@@ -109,7 +109,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Wrong Object Type Resolved </td>
-	<td>Wrong Object Type Resolved fault/error – An object is resolved from a wrong scope, so its data type might be wrong (e.g. a parent vs a child data type).</td>
+	<td>Wrong Object Type Resolved fault/error – An object is resolved from a wrong scope, so its data type might be wrong (e.g., a parent vs a child data type).</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -137,7 +137,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Wrap Around </td>
-	<td>Wrap Around fault/error – A moved around-the-clock value over its data type upper or lower range, as it exceeds that range. (Integer Over-/Under-flow is a wrapped-around the upper/lower range integer value; may become very small/large and change to the opposite sign.</td>
+	<td>Wrap Around fault/error – A moved around-the-clock value over its data type upper or lower range, as it exceeds that range. (Integer Over-/Under-flow is a wrapped-around the upper/lower range integer value; may become very small/large and change to the opposite sign.)</td>
 	</tr>
 	<tr>
 			<td>Type Compute Final Error</td>
@@ -145,7 +145,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>   Undefined </td>
-	<td>Undefined exploitable error – The Type System cannon represent the calculated result (e.g. division by 0).</td>
+	<td>Undefined exploitable error – The Type System cannon represent the calculated result (e.g., division by 0).</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -153,7 +153,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Function </td>
@@ -177,7 +177,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -197,7 +197,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>

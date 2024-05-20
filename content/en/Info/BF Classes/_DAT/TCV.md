@@ -105,7 +105,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Wrong Object Type Resolved </td>
-	<td>Wrong Object Type Resolved fault/error – An object is resolved from a wrong scope, so its data type might be wrong (e.g. a parent vs a child data type).</td>
+	<td>Wrong Object Type Resolved fault/error – An object is resolved from a wrong scope, so its data type might be wrong (e.g., a parent vs a child data type).</td>
 	</tr>
 	<tr>
 			<td>   Mismatched Argument </td>
@@ -121,7 +121,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Wrong Value </td>
-	<td>Wrong Value fault/error – The value of the data is not accurate (e.g., outside of a range).</td>
+	<td>Wrong Value fault/error – The data value is not accurate (e.g., outside of a range).</td>
 	</tr>
 	<tr>
 			<td>   Flipped Sign </td>
@@ -153,7 +153,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Pass In </td>
@@ -165,7 +165,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -185,7 +185,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>

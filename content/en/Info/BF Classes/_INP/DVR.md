@@ -89,11 +89,11 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Wrong Value </td>
-	<td>Wrong Value fault/error – The value of the data is not accurate (e.g., outside of a range).</td>
+	<td>Wrong Value fault/error – The data value is not accurate (e.g., outside of a range).</td>
 	</tr>
 	<tr>
 			<td>   Inconsistent Value </td>
-	<td>Inconsistent Value fault/error – The sata value does not correspond to the value of a related data (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
+	<td>Inconsistent Value fault/error – The data value does not correspond to related data value (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
 	</tr>
 	<tr>
 			<td>Type Error</td>
@@ -109,7 +109,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Value </td>
@@ -133,7 +133,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -153,7 +153,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>

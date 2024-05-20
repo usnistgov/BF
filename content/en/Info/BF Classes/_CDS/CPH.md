@@ -149,19 +149,19 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Symmetric Algorithm </td>
-	<td>Symmetric Algorithm operation attribute – The operation is via a key encryption scheme that uses one shared key. Known also as 'secret key algorithm' (e.g. Serpent, Blowfish).</td>
+	<td>Symmetric Algorithm operation attribute – The operation is via a key encryption scheme that uses one shared key. Known also as 'secret key algorithm' (e.g., Serpent, Blowfish).</td>
 	</tr>
 	<tr>
 			<td>   Asymmetric Algorithm </td>
-	<td>Asymmetric Algorithm operation attribute – The operation is via a key encryption scheme with two keys: public and private. Known also as 'public key algorithm' (e.g. Diffie-Hellman, RSA).</td>
+	<td>Asymmetric Algorithm operation attribute – The operation is via a key encryption scheme with two keys: public and private. Known also as 'public key algorithm' (e.g., Diffie-Hellman, RSA).</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -181,7 +181,7 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -217,7 +217,7 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>            Cryptographic </td>
-	<td>Cryptographic operand attribute – Hashes, keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g. pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). They are sensitive data.</td>
+	<td>Cryptographic operand attribute – Hashes, keys (secret, public, private) and other crypto algorithm parameters (initialization vectors (IVs), shared secrets (e.g., pre-master secrets), domain parameters, and random bits (eandom number - RBG seeds, salt, nonce). They are sensitive data.</td>
 	</tr>
 	<tr>
 			<td>            Digital Document </td>

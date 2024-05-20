@@ -45,7 +45,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Clear </td>
-	<td>Clear operation – Change the meaningful value of an object to a non-meaningful one (e.g. via zeroization) – e.g. before object deallocation.</td>
+	<td>Clear operation – Change the meaningful value of an object to a non-meaningful one (e.g., via zeroization) – e.g., before object deallocation.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -93,7 +93,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object (e.g., to restrict pointer repositioning or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -209,7 +209,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the buggy/faulty operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
 	</tr>
 	<tr>
 			<td>   Direct </td>
@@ -221,7 +221,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the buggy/faulty operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -241,7 +241,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the buggy/faulty operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -289,7 +289,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            /other/ </td>
-	<td>/other/ – Other kinds of memory layout (e.g. Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
+	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
 	</tr>
 	<tr>
 			<td>         Size Kind </td>
