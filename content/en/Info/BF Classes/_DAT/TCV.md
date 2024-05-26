@@ -133,7 +133,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Distorted Value </td>
-	<td>Distorted Value fault/error – The data value is incorrect (although is fits the type size) due to a sign flip or signed/unsigned or vice versa cast.</td>
+	<td>Distorted Value fault/error – The data value is incorrect (although is fits the type size) due to a sign flip or signed/unsigned or unsigned/signed cast.</td>
 	</tr>
 	<tr>
 			<td>   Rounded Value </td>
@@ -144,8 +144,28 @@ title: "TCV"
 	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
+			<td>   Casted Pointer </td>
+	<td>Casted Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
+	</tr>
+	<tr>
+			<td>   Downcasted Pointer </td>
+	<td>Downcasted Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
+	</tr>
+	<tr>
 			<td>   Wrong Type </td>
 	<td>Wrong Type fault/error – A data type range or structure is not correct.</td>
+	</tr>
+	<tr>
+			<td>Type Conversion Final Error</td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>   Type Confusion </td>
+	<td>Type Confusion final error – A casted pointer and its object have incompatible data types.</td>
+	</tr>
+	<tr>
+			<td>   Subtype Confusion </td>
+	<td>Subtype Confusion final error – A downcasted pointer and its object have incompatible data types.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

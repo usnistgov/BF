@@ -105,27 +105,27 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>Injection exploitable error type – An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
+	<td>Injection final error type – An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
-	<td>Query Injection exploitable error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
+	<td>Query Injection final error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
 	</tr>
 	<tr>
 			<td>   Command Injection </td>
-	<td>Command Injection exploitable error – Maliciously inserted new commands into the input to a command sent to an OS or a server.</td>
+	<td>Command Injection final error – Maliciously inserted new commands into the input to a command sent to an OS or a server.</td>
 	</tr>
 	<tr>
 			<td>   Source Code Injection </td>
-	<td>Source Code Injection exploitable error – Maliciously inserted new code (incl. with <> elements) into an input used as a part of an executing application code.</td>
+	<td>Source Code Injection final error – Maliciously inserted new code (incl. with <> elements) into an input used as a part of an executing application code.</td>
 	</tr>
 	<tr>
 			<td>   Parameter Injection </td>
-	<td>Parameter Injection exploitable error – Maliciously inserted data (e.g., with & parameter separator) into an input used as a parameter/argument in other parts of the code.</td>
+	<td>Parameter Injection final error – Maliciously inserted data (e.g., with & parameter separator) into an input used as a parameter/argument in other parts of the code.</td>
 	</tr>
 	<tr>
 			<td>   File Injection </td>
-	<td>File Injection exploitable error – Maliciously inserted data (e.g., with .. and / or with file entries) into an input used to access/modify files or as a file content.</td>
+	<td>File Injection final error – Maliciously inserted data (e.g., with .. and / or with file entries) into an input used to access/modify files or as a file content.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

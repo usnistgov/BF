@@ -109,11 +109,11 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Data Security Final Error</td>
-	<td>Data Security exploitable error type – xxx</td>
+	<td>Data Security final error type – xxx</td>
 	</tr>
 	<tr>
 			<td>   Revealed Key </td>
-	<td>Revealed Key exploitable error – An initialization vectors (IVs) is exposed.</td>
+	<td>Revealed Key final error – An initialization vectors (IVs) is exposed.</td>
 	</tr>
 	<tr>
 			<td>   Forged Signature </td>
@@ -121,7 +121,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>   Spoofed Identity </td>
-	<td>Spoofed Identity exploitable error – yyyddd</td>
+	<td>Spoofed Identity final error – yyyddd</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

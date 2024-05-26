@@ -137,11 +137,11 @@ title: "CPH"
 	</tr>
 	<tr>
 			<td>Data Security Final Error</td>
-	<td>Data Security exploitable error type – xxx</td>
+	<td>Data Security final error type – xxx</td>
 	</tr>
 	<tr>
 			<td>   Revealed Plaintext </td>
-	<td>Revealed Plaintext exploitable error – Intelligible data that has meaning and can be understood without the application of decryption is exposed.</td>
+	<td>Revealed Plaintext final error – Intelligible data that has meaning and can be understood without the application of decryption is exposed.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

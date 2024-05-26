@@ -105,23 +105,23 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Data Security Final Error</td>
-	<td>Data Security exploitable error type – xxx</td>
+	<td>Data Security final error type – xxx</td>
 	</tr>
 	<tr>
 			<td>   Revealed IV </td>
-	<td>Revealed IV exploitable error – A secret, public, or private key is exposed.</td>
+	<td>Revealed IV final error – A secret, public, or private key is exposed.</td>
 	</tr>
 	<tr>
 			<td>   Revealed Shared Secrets </td>
-	<td>Revealed Shared Secrets exploitable error – A pre-master or other secret is exposed.</td>
+	<td>Revealed Shared Secrets final error – A pre-master or other secret is exposed.</td>
 	</tr>
 	<tr>
 			<td>   Revealed Domain Parameter </td>
-	<td>Revealed Domain Parameter exploitable error – A xxx is exposed.</td>
+	<td>Revealed Domain Parameter final error – A xxx is exposed.</td>
 	</tr>
 	<tr>
 			<td>   Revealed Random Bits </td>
-	<td>Revealed Random Bits exploitable error – A random number (inlc. a salt or a nonce) is exposed.</td>
+	<td>Revealed Random Bits final error – A random number (inlc. a salt or a nonce) is exposed.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

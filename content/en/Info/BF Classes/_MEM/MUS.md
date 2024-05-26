@@ -33,7 +33,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Dereference </td>
-	<td>Dereference operation – Access object for reading or for writing, which are relevant to the operations Initialize Object, Read, Write, and Clear.</td>
+	<td>Dereference operation – Access the object at a pointer address.</td>
 	</tr>
 	<tr>
 			<td>Read </td>
@@ -101,7 +101,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
-	<td>Casted Pointer fault/error – The pointer does not match the type of the object due to wrong type casting.</td>
+	<td>Casted Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -117,7 +117,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -157,51 +157,47 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Memory Corruption/Disclosure exploitable error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
+	<td>Memory Corruption/Disclosure final error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Not Cleared Object </td>
-	<td>Not Cleared Object exploitable error – An object's data value is not changed to a non-meaningful one before deallocation.</td>
+	<td>Not Cleared Object final error – An object's data value is not changed to a non-meaningful one before deallocation.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer Dereference </td>
-	<td>NULL Pointer Dereference exploitable error – An attempt to access an object for reading or writing via a NULL pointer.</td>
+	<td>NULL Pointer Dereference final error – An attempt to access an object for reading or writing via a NULL pointer.</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer Dereference </td>
-	<td>Untrusted Pointer Dereference exploitable error – An attempt to access an object via an altered pointer (not legitimate dereference of a tainted pointer).</td>
+	<td>Untrusted Pointer Dereference final error – An attempt to access an object via an altered pointer (not legitimate dereference of a tainted pointer).</td>
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
-	<td>Object Corruption exploitable error – An object's data value is unintentionally altered.</td>
-	</tr>
-	<tr>
-			<td>   Type Confusion </td>
-	<td>Type Confusion exploitable error – An object and its pointer have different types.</td>
+	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
 	</tr>
 	<tr>
 			<td>   Use After Deallocate </td>
-	<td>Use After Deallocate (Use After Free/Return) exploitable error – An attempt to use (dereference, read, write, or clear) a deallocated object (e.g., a freed heap object -- Use After Free) or out of scope object (e.g., returned by a function address of a stack object -- Use After Return).</td>
+	<td>use after free or use after return) final error – An attempt to use (dereference, read, write, or clear) a deallocated object (e.g., via a pointer to a freed or reallocated heap object -- use after free) or out of scope object (e.g., via a returned by a function pointer to a stack object -- use after return).</td>
 	</tr>
 	<tr>
 			<td>   Buffer Overflow </td>
-	<td>Buffer Overflow exploitable error – Write data above the upper bound of an object (i.e., buffer overwrite).</td>
+	<td>Buffer Overflow final error – Write data above the upper bound of an object (i.e., buffer overwrite).</td>
 	</tr>
 	<tr>
 			<td>   Buffer Underflow </td>
-	<td>Buffer Underflow exploitable error – Write data below the lower bound of an object (i.e., buffer under-write).</td>
+	<td>Buffer Underflow final error – Write data below the lower bound of an object (i.e., buffer under-write).</td>
 	</tr>
 	<tr>
 			<td>   Buffer Over-Read </td>
-	<td>Buffer Over-Read exploitable error – Read data above the upper bound of an object.</td>
+	<td>Buffer Over-Read final error – Read data above the upper bound of an object.</td>
 	</tr>
 	<tr>
 			<td>   Buffer Under-Read </td>
-	<td>Buffer Under-Read exploitable error – Read data below the lower bound of an object.</td>
+	<td>Buffer Under-Read final error – Read data below the lower bound of an object.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Pointer Dereference </td>
-	<td>Uninitialized Pointer Dereference exploitable error – An attempt to access an object for reading or writing via an uninitialized pointer.</td>
+	<td>Uninitialized Pointer Dereference final error – An attempt to access an object for reading or writing via an uninitialized pointer.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

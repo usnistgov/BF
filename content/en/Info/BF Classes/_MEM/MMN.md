@@ -117,7 +117,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
@@ -153,7 +153,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
 	</tr>
 	<tr>
 			<td>Size Error</td>
@@ -165,23 +165,23 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Memory Corruption/Disclosure exploitable error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
+	<td>Memory Corruption/Disclosure final error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Overflow </td>
-	<td>Memory Overflow exploitable error – More memory is requested than available.</td>
+	<td>Memory Overflow final error – More memory is requested than available.</td>
 	</tr>
 	<tr>
 			<td>   Memory Leak </td>
-	<td>Memory Leak exploitable error – An object has no pointer pointing to it.</td>
+	<td>Memory Leak final error – An object has no pointer pointing to it.</td>
 	</tr>
 	<tr>
 			<td>   Double Deallocate </td>
-	<td>Double Deallocate exploitable error – An attempt to deallocate a deallocated (freed) object or via an uninitialized pointer.</td>
+	<td>Double Deallocate final error – An attempt to deallocate a deallocated (freed) object or via an uninitialized pointer.</td>
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
-	<td>Object Corruption exploitable error – An object's data value is unintentionally altered.</td>
+	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

@@ -29,7 +29,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Refer </td>
-	<td>Refer operation – Use a name in local or remote scopes of source code. The Type System resolves the name and binds a data type to it.</td>
+	<td>Refer operation – Use a name to access an entity in local or remote scopes of source code. The Type System resolves the name and binds a data type to it.</td>
 	</tr>
 	<tr>
 			<td>Call </td>
@@ -96,8 +96,8 @@ title: "NRS"
 	<td>Wrong Generic Type fault/error – A generic object is instantiated via wrong type argument.</td>
 	</tr>
 	<tr>
-			<td>   Confused Subtype </td>
-	<td>Confused Subtype fault/error – The object invoking an overridden function is of wrong subtype data type.</td>
+			<td>   Downcasted Pointer </td>
+	<td>Downcasted Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Argument Type </td>
@@ -161,15 +161,15 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Early Bind </td>
-	<td>Early Bind operation attribute – The operation resolves a subtype and set a generic function implementation.</td>
+	<td>Early Bind operation attribute – The operation resolves a subtype and sets its a generic function implementation.</td>
 	</tr>
 	<tr>
 			<td>   Late Bind </td>
-	<td>Late Bind operation attribute – The operation resolves an overridden function via subtype object and set implementation.</td>
+	<td>Late Bind operation attribute – The operation resolves an overridden function via subtype object and sets its implementation.</td>
 	</tr>
 	<tr>
 			<td>   Ad-hoc Bind </td>
-	<td>Ad-hoc Bind operation attribute – The operation resolves an overloaded function via signature and set implementation.</td>
+	<td>Ad-hoc Bind operation attribute – The operation resolves an overloaded function via signature and sets its implementation.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>

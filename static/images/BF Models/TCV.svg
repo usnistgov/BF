@@ -4,7 +4,7 @@
 <svg
    width="277.8125mm"
    height="189.4411mm"
-   viewBox="0 0 277.8125 189.44109"
+   viewBox="0 0 277.8125 189.4411"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0289025"
-     inkscape:cx="65.603882"
-     inkscape:cy="150.16"
+     inkscape:zoom="1.0307169"
+     inkscape:cx="3.3956948"
+     inkscape:cy="-170.26984"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -33,43 +33,15 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1">
-    <clipPath
-       id="clip0">
-      <rect
-         x="356"
-         y="415"
-         width="3571"
-         height="3658"
-         id="rect1" />
-    </clipPath>
-    <clipPath
-       id="clip0-0">
-      <rect
-         x="356"
-         y="415"
-         width="3571"
-         height="3658"
-         id="rect1-9" />
-    </clipPath>
-    <clipPath
-       id="clip0-4">
-      <rect
-         x="356"
-         y="415"
-         width="4501"
-         height="3658"
-         id="rect1-5" />
-    </clipPath>
-  </defs>
+     id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-304.13896,-495.1513)">
+     transform="translate(-104.26963,-193.59413)">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,304.13896,492.81359)"
-       id="g67">
+       transform="matrix(0.26458333,0,0,0.26458333,104.26963,191.25642)"
+       id="g72">
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
@@ -281,7 +253,7 @@
          d="m 642.529,156.168 5.439,0.472 c 0.018,0.001 0.036,0.004 0.053,0.009 l 5.269,1.332 c 0.016,0.004 0.032,0.01 0.048,0.016 l 4.926,2.071 c 0.016,0.007 0.03,0.014 0.045,0.023 l 4.414,2.686 c 0.015,0.009 0.029,0.02 0.043,0.031 l 3.731,3.178 c 0.015,0.014 0.029,0.028 0.042,0.044 l 2.877,3.548 c 0.016,0.019 0.029,0.041 0.04,0.063 l 1.852,3.794 c 0.014,0.029 0.024,0.059 0.029,0.091 l 0.655,3.916 0.655,3.917 -0.029,-0.091 1.851,3.793 -0.041,-0.064 2.877,3.548 -0.043,-0.044 3.731,3.178 -0.043,-0.031 4.414,2.687 -0.044,-0.023 4.927,2.071 -0.059,-0.018 4.105,0.887 -0.141,0.652 -4.105,-0.888 c -0.02,-0.004 -0.039,-0.01 -0.058,-0.018 l -4.927,-2.071 c -0.016,-0.007 -0.03,-0.014 -0.044,-0.023 l -4.415,-2.686 c -0.015,-0.009 -0.029,-0.02 -0.043,-0.031 l -3.73,-3.178 c -0.016,-0.014 -0.03,-0.028 -0.043,-0.044 l -2.877,-3.548 c -0.016,-0.019 -0.029,-0.041 -0.04,-0.063 l -1.851,-3.794 c -0.014,-0.029 -0.024,-0.059 -0.03,-0.091 l -0.655,-3.917 -0.655,-3.916 0.029,0.091 -1.851,-3.793 0.041,0.063 -2.876,-3.547 0.042,0.044 -3.731,-3.179 0.043,0.031 -4.414,-2.686 0.044,0.023 -4.927,-2.071 0.048,0.016 -5.269,-1.333 0.053,0.009 -5.44,-0.472 z m 50.923,37.265 7.374,5.062 -8.474,2.862 z"
          id="path25" />
       <path
-         d="m 700,288.167 c 0,-4.511 3.656,-8.167 8.167,-8.167 h 333.663 c 4.51,0 8.17,3.656 8.17,8.167 v 32.666 c 0,4.511 -3.66,8.167 -8.17,8.167 H 708.167 C 703.656,329 700,325.344 700,320.833 Z"
+         d="M 700,295.167 C 700,286.791 706.791,280 715.167,280 h 319.663 c 8.38,0 15.17,6.791 15.17,15.167 v 60.666 c 0,8.376 -6.79,15.167 -15.17,15.167 H 715.167 C 706.791,371 700,364.209 700,355.833 Z"
          fill="#f4f2f8"
          fill-rule="evenodd"
          id="path26" />
@@ -289,24 +261,66 @@
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(704.37,299)"
+         transform="translate(706.42,301)"
          id="text26">Type Error</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(960.323,318)"
-         id="text27">Wrong Type</text>
+         transform="translate(941.246,320)"
+         id="text27">Casted Pointer</text>
+      <text
+         fill="#660066"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(904.94,339)"
+         id="text28">Downcasted Pointer</text>
+      <text
+         fill="#660066"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(958.206,359)"
+         id="text29">Wrong Type</text>
       <path
-         d="m 642.551,156.171 2.731,0.424 c 0.03,0.005 0.059,0.014 0.087,0.027 l 2.709,1.237 c 0.022,0.01 0.042,0.022 0.061,0.037 l 2.667,1.996 c 0.014,0.011 0.028,0.023 0.04,0.036 l 2.602,2.702 2.544,3.383 2.428,3.974 2.294,4.514 2.142,4.998 1.969,5.429 1.774,5.808 2.883,12.527 1.856,13.401 0.658,13.836 0.655,13.806 1.849,13.342 2.871,12.475 1.763,5.769 1.956,5.396 2.125,4.961 2.273,4.47 2.397,3.926 2.499,3.326 2.576,2.67 -0.08,-0.061 1.963,1.068 -0.319,0.586 -1.963,-1.069 c -0.03,-0.016 -0.057,-0.037 -0.081,-0.061 l -2.629,-2.733 -2.535,-3.379 -2.422,-3.971 -2.291,-4.51 -2.14,-4.996 -1.967,-5.428 -1.775,-5.814 -2.882,-12.534 -1.854,-13.402 -0.655,-13.805 -0.652,-13.776 -1.846,-13.343 -2.87,-12.482 -1.764,-5.775 -1.955,-5.395 -2.123,-4.958 -2.269,-4.468 -2.392,-3.922 -2.491,-3.321 -2.602,-2.701 0.04,0.035 -2.666,-1.997 0.061,0.037 -2.709,-1.238 0.087,0.026 -2.73,-0.425 z m 52.458,141.566 5.817,6.795 -8.925,0.576 z"
-         id="path27" />
+         d="m 642.558,156.172 2.731,0.485 c 0.033,0.006 0.066,0.017 0.096,0.032 l 2.709,1.414 c 0.022,0.011 0.043,0.026 0.062,0.042 l 2.667,2.28 c 0.013,0.012 0.026,0.025 0.038,0.038 l 2.602,3.085 2.541,3.859 2.425,4.535 2.293,5.149 2.14,5.703 1.967,6.196 1.773,6.627 2.882,14.299 1.855,15.294 0.657,15.791 0.655,15.764 1.849,15.242 2.872,14.253 1.765,6.592 1.957,6.165 2.127,5.669 2.274,5.109 2.4,4.486 2.501,3.802 2.579,3.053 -0.076,-0.067 2.082,1.322 -0.357,0.563 -2.082,-1.322 c -0.029,-0.018 -0.055,-0.041 -0.077,-0.066 l -2.626,-3.117 -2.532,-3.853 -2.421,-4.53 -2.289,-5.146 -2.138,-5.701 -1.966,-6.194 -1.774,-6.634 -2.881,-14.304 -1.853,-15.295 -0.655,-15.764 -0.653,-15.737 -1.847,-15.243 -2.872,-14.258 -1.765,-6.599 -1.955,-6.163 -2.125,-5.666 -2.272,-5.106 -2.394,-4.482 -2.493,-3.796 -2.603,-3.085 0.038,0.039 -2.666,-2.28 0.062,0.042 -2.709,-1.414 0.096,0.033 -2.73,-0.485 z m 52.754,162.315 5.514,7.042 -8.942,0.186 z"
+         id="path29" />
+      <path
+         d="M 700,397.667 C 700,391.224 705.224,386 711.667,386 h 326.663 c 6.45,0 11.67,5.224 11.67,11.667 v 46.666 c 0,6.443 -5.22,11.667 -11.67,11.667 H 711.667 C 705.224,456 700,450.776 700,444.333 Z"
+         fill="#dfdaea"
+         fill-rule="evenodd"
+         id="path30" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(705.395,406)"
+         id="text30">Type Conversion Final Error</text>
+      <text
+         fill="#660066"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(937.215,425)"
+         id="text31">Type Confusion</text>
+      <text
+         fill="#660066"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(915.061,444)"
+         id="text32">Subtype Confusion</text>
+      <path
+         d="m 642.546,156.17 1.367,0.192 c 0.028,0.004 0.055,0.011 0.082,0.022 l 1.364,0.567 c 0.029,0.013 0.057,0.029 0.082,0.05 l 2.71,2.212 c 0.021,0.017 0.039,0.037 0.056,0.059 l 2.666,3.568 c 0.01,0.014 0.019,0.027 0.027,0.042 l 2.602,4.828 2.531,6.02 2.418,7.078 2.287,8.042 2.136,8.911 1.964,9.684 1.771,10.361 1.557,10.941 1.322,11.425 1.065,11.813 0.788,12.103 0.655,24.687 0.655,24.674 0.787,12.082 1.063,11.795 1.32,11.409 1.555,10.923 1.768,10.342 1.959,9.662 2.13,8.886 2.279,8.012 2.404,7.04 2.509,5.97 2.589,4.799 -0.051,-0.07 2.607,2.771 -0.486,0.456 -2.607,-2.771 c -0.019,-0.021 -0.037,-0.044 -0.05,-0.07 l -2.616,-4.857 -2.525,-6.012 -2.416,-7.074 -2.285,-8.038 -2.135,-8.909 -1.963,-9.683 -1.771,-10.36 -1.557,-10.941 -1.322,-11.425 -1.065,-11.812 -0.787,-12.108 -0.655,-24.674 -0.654,-24.661 -0.787,-12.086 -1.063,-11.796 -1.32,-11.408 -1.554,-10.923 -1.767,-10.341 -1.959,-9.661 -2.129,-8.884 -2.277,-8.009 -2.402,-7.035 -2.503,-5.962 -2.602,-4.828 0.026,0.041 -2.666,-3.568 0.056,0.058 -2.709,-2.212 0.083,0.05 -1.364,-0.567 0.081,0.022 -1.366,-0.192 z m 53.943,257.075 4.337,7.822 -8.86,-1.223 z"
+         id="path32" />
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(485.254,115)"
-         id="text28">Operations</text>
+         id="text33">Operations</text>
       <rect
          x="408.5"
          y="132.5"
@@ -317,27 +331,27 @@
          stroke-linejoin="round"
          stroke-miterlimit="10"
          fill="none"
-         id="rect28" />
+         id="rect33" />
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(507.354,152)"
-         id="text29">Cast</text>
+         id="text34">Cast</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(498.634,171)"
-         id="text30">Coerce</text>
+         id="text35">Coerce</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(489.764,216)"
-         id="text31">Operands</text>
+         id="text36">Operands</text>
       <rect
          x="408.5"
          y="233.5"
@@ -348,257 +362,257 @@
          stroke-linejoin="round"
          stroke-miterlimit="10"
          fill="none"
-         id="rect31" />
+         id="rect36" />
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(501.767,253)"
-         id="text32">Name</text>
+         id="text37">Name</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(506.101,272)"
-         id="text33">Data</text>
+         id="text38">Data</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(505.881,291)"
-         id="text34">Type</text>
+         id="text39">Type</text>
       <text
          fill="#7f7f7f"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(960.6,518)"
-         id="text35">BF, I. Bojanova</text>
+         id="text40">BF, I. Bojanova</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(488.838,534)"
-         id="text36">Attributes</text>
+         id="text41">Attributes</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(2.09974,571)"
-         id="text37">Mechanism</text>
+         id="text42">Mechanism</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(2.09974,590)"
-         id="text38">Pass In</text>
+         id="text43">Pass In</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(2.09974,609)"
-         id="text39">Pass Out</text>
+         id="text44">Pass Out</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(180.577,571)"
-         id="text40">Source Code</text>
+         id="text45">Source Code</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(180.577,590)"
-         id="text41">Codebase</text>
+         id="text46">Codebase</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(180.577,609)"
-         id="text42">Third</text>
+         id="text47">Third</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(214.024,609)"
-         id="text43">-</text>
+         id="text48">-</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(218.857,609)"
-         id="text44">Party</text>
+         id="text49">Party</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(180.577,629)"
-         id="text45">Standard Library</text>
+         id="text50">Standard Library</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(180.577,648)"
-         id="text46">Compiler/Interpreter</text>
+         id="text51">Compiler/Interpreter</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(359.055,571)"
-         id="text47">Execution Space</text>
+         id="text52">Execution Space</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(359.055,590)"
-         id="text48">Local</text>
+         id="text53">Local</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(359.055,609)"
-         id="text49">Admin</text>
+         id="text54">Admin</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(359.055,629)"
-         id="text50">Bare</text>
+         id="text55">Bare</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(388.675,629)"
-         id="text51">-</text>
+         id="text56">-</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(393.508,629)"
-         id="text52">Metal</text>
+         id="text57">Metal</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(537.533,571)"
-         id="text53">Name State</text>
+         id="text58">Name State</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(537.533,590)"
-         id="text54">Resolved</text>
+         id="text59">Resolved</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(537.533,609)"
-         id="text55">Bound</text>
+         id="text60">Bound</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(716.01,571)"
-         id="text56">Data Kind</text>
+         id="text61">Data Kind</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(716.01,590)"
-         id="text57">Numeric</text>
+         id="text62">Numeric</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(716.01,609)"
-         id="text58">Text</text>
+         id="text63">Text</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(716.01,629)"
-         id="text59">Pointer</text>
+         id="text64">Pointer</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(716.01,648)"
-         id="text60">Boolean</text>
+         id="text65">Boolean</text>
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(894.488,571)"
-         id="text61">Type Kind</text>
+         id="text66">Type Kind</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(894.488,590)"
-         id="text62">Primitive</text>
+         id="text67">Primitive</text>
       <text
          fill="#660066"
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(894.488,609)"
-         id="text63">Structure</text>
+         id="text68">Structure</text>
       <path
          d="M 0,701.5 C 0,699.015 2.01475,697 4.50007,697 H 37.4999 C 39.9852,697 42,699.015 42,701.5 v 18 c 0,2.485 -2.0148,4.5 -4.5001,4.5 H 4.50007 C 2.01475,724 0,721.985 0,719.5 Z"
          fill="#e8effc"
          fill-rule="evenodd"
-         id="path63" />
+         id="path68" />
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(44.0945,717)"
-         id="text64">Bug</text>
+         id="text69">Bug</text>
       <path
          d="m 262,701.5 c 0,-2.485 2.015,-4.5 4.5,-4.5 h 33 c 2.485,0 4.5,2.015 4.5,4.5 v 18 c 0,2.485 -2.015,4.5 -4.5,4.5 h -33 c -2.485,0 -4.5,-2.015 -4.5,-4.5 z"
          fill="#f4f2f8"
          fill-rule="evenodd"
-         id="path64" />
+         id="path69" />
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(306.562,717)"
-         id="text65">Fault/Error</text>
+         id="text70">Fault/Error</text>
       <path
          d="m 525,701.5 c 0,-2.485 2.015,-4.5 4.5,-4.5 h 33 c 2.485,0 4.5,2.015 4.5,4.5 v 18 c 0,2.485 -2.015,4.5 -4.5,4.5 h -33 c -2.485,0 -4.5,-2.015 -4.5,-4.5 z"
          fill="#dfdaea"
          fill-rule="evenodd"
-         id="path65" />
+         id="path70" />
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(569.029,717)"
-         id="text66">Final Error</text>
+         id="text71">Final Error</text>
       <rect
          x="787.5"
          y="697.5"
@@ -609,13 +623,13 @@
          stroke-linejoin="round"
          stroke-miterlimit="10"
          fill="none"
-         id="rect66" />
+         id="rect71" />
       <text
          font-family="Calibri, Calibri_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
          transform="translate(831.496,717)"
-         id="text67">Operation/Operand</text>
+         id="text72">Operation/Operand</text>
     </g>
   </g>
 </svg>

@@ -136,28 +136,24 @@ title: "DCL"
 	<td>Wrong Generic Type fault/error – A generic object is instantiated via wrong type argument.</td>
 	</tr>
 	<tr>
-			<td>   Confused Subtype </td>
-	<td>Confused Subtype fault/error – The object invoking an overridden function is of wrong subtype data type.</td>
-	</tr>
-	<tr>
 			<td>   Wrong Argument Type </td>
 	<td>Wrong Argument Type fault/error – An argument to an overloaded function is of incorrect data type.</td>
 	</tr>
 	<tr>
-			<td>Access Final Error</td>
-	<td>Access exploitable error type – An exploitable or undefined  system behavior caused by 'name access' declaration bugs.</td>
+			<td>Entity Access Final Error</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Object </td>
-	<td>Wrong Access Object exploitable error – An unauthorized access to an object; allows access to sensitive data or to member functions.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Type </td>
-	<td>Wrong Access Type exploitable error – An unauthorized access to a data type; allows access to member objects and functions.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Function </td>
-	<td>Wrong Access Function exploitable error – An unauthorized access to a function; allows its execution.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

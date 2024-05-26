@@ -109,7 +109,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
-	<td>Casted Pointer fault/error – The pointer does not match the type of the object due to wrong type casting.</td>
+	<td>Casted Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -125,7 +125,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -168,14 +168,6 @@ title: "MAD"
 	<td>Forbidden Address fault/error – The pointer holds an OS protected address (includs the zero address -- a NULL pointer) or non-existing address.</td>
 	</tr>
 	<tr>
-			<td>Type Error</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
-	</tr>
-	<tr>
-			<td>   Casted Pointer </td>
-	<td>Casted Pointer fault/error – The pointer does not match the type of the object due to wrong type casting.</td>
-	</tr>
-	<tr>
 			<td>Address Error</td>
 	<td>Address Fault/Error type – The object address in use is wrong.</td>
 	</tr>
@@ -185,7 +177,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., pointer to a freed heap object or with a returned by a function stack object address).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -205,11 +197,11 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Memory Corruption/Disclosure exploitable error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
+	<td>Memory Corruption/Disclosure final error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Memory Leak </td>
-	<td>Memory Leak exploitable error – An object has no pointer pointing to it.</td>
+	<td>Memory Leak final error – An object has no pointer pointing to it.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

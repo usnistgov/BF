@@ -96,8 +96,8 @@ title: "TCM"
 	<td>Wrong Argument fault/error – Inaccurate input data value, i.e., non-verified for harmed semantics.</td>
 	</tr>
 	<tr>
-			<td>   Reference vs. Object </td>
-	<td>Reference vs. Object fault/error – Object's address instead of object's data value.</td>
+			<td>   Reference vs. Dereference </td>
+	<td>Reference vs. Dereference fault/error – Using the address of an entity instead of its data value.</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -140,12 +140,12 @@ title: "TCM"
 	<td>Wrap Around fault/error – A moved around-the-clock value over its data type upper or lower range, as it exceeds that range. (Integer Over-/Under-flow is a wrapped-around the upper/lower range integer value; may become very small/large and change to the opposite sign.)</td>
 	</tr>
 	<tr>
-			<td>Type Compute Final Error</td>
-	<td>Type Compute exploitable error type – An exploitable or undefined system behavior caused by 'arithmetic' type computation bugs.</td>
+			<td>Type Computation Final Error</td>
+	<td>Type Computation final error type – An exploitable or undefined system behavior caused by 'arithmetic' type computation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Undefined </td>
-	<td>Undefined exploitable error – The Type System cannon represent the calculated result (e.g., division by 0).</td>
+	<td>Undefined final error – The Type System cannon represent the calculated result (e.g., division by 0).</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
