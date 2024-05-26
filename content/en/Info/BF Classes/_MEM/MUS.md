@@ -176,6 +176,10 @@ title: "MUS"
 	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
 	</tr>
 	<tr>
+			<td>   Type Confusion </td>
+	<td>Type Confusion final error – A casted pointer and its object have incompatible data types.</td>
+	</tr>
+	<tr>
 			<td>   Use After Deallocate </td>
 	<td>use after free or use after return) final error – An attempt to use (dereference, read, write, or clear) a deallocated object (e.g., via a pointer to a freed or reallocated heap object -- use after free) or out of scope object (e.g., via a returned by a function pointer to a stack object -- use after return).</td>
 	</tr>

@@ -160,10 +160,6 @@ title: "TCV"
 	<td></td>
 	</tr>
 	<tr>
-			<td>   Type Confusion </td>
-	<td>Type Confusion final error – A casted pointer and its object have incompatible data types.</td>
-	</tr>
-	<tr>
 			<td>   Subtype Confusion </td>
 	<td>Subtype Confusion final error – A downcasted pointer and its object have incompatible data types.</td>
 	</tr>
