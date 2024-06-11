@@ -53,7 +53,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -77,7 +77,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Algorithm </td>
@@ -129,7 +129,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Hash + RND </td>
@@ -145,7 +145,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -165,7 +165,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -185,7 +185,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows the category or type of data.</td>
+	<td>Data Kind operand attribute type – Shows the type or category of data.</td>
 	</tr>
 	<tr>
 			<td>            Hashes </td>
@@ -201,7 +201,7 @@ title: "KMN"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Data State operand attribute type operand attribute – Shows where the data come from.</td>
+	<td>Data State operand attribute type – Shows where the data came from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>

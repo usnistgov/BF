@@ -21,8 +21,8 @@ NIST is an agency of the US Government and this  software is public domain in th
 Please explicitly acknowledge the source of the Bugs Framework (BF) and the Bugs Framework (BF) Tool.
 
 Irena Bojanova, NIST<br/>
-Bugs Framework (BF), 2014-2023<br/>
-Bugs Framework (BF) Tool, 2020-2023<br/>
+Bugs Framework (BF), 2014-2024<br/>
+Bugs Framework (BF) Tool, 2020-2024<br/>
 [irena.bojanova@nist.gov](irena.bojanova@nist.gov)
 
 <l style="font-size: 15px; color: #7D3368">Important Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact). 

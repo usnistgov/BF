@@ -41,11 +41,11 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Name </td>
-	<td>Name operand – The declared identifier for an entity.</td>
+	<td>Name operand – The identifier of an object, function, or data type entity used to reference it.</td>
 	</tr>
 	<tr>
 			<td>Type </td>
-	<td>Type operand – The data type of an object – the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -61,7 +61,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Qualifier </td>
@@ -69,7 +69,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Wrong Qualifier </td>
-	<td>A wrongn amespace is included, or a wrong scope is specified in a fully qualified name.</td>
+	<td>A wrong namespace is included, or a wrong scope is specified in a fully qualified name.</td>
 	</tr>
 	<tr>
 			<td>Name Fault</td>
@@ -85,7 +85,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
@@ -133,7 +133,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Type Resolved </td>
@@ -149,7 +149,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Resolve </td>
@@ -173,7 +173,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -193,7 +193,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>

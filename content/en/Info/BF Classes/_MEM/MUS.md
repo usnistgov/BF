@@ -32,20 +32,16 @@ title: "MUS"
 	<td>Initialize Object operation – Change the undefined data value of an object to a meaningful one – e.g., after an object is allocated.</td>
 	</tr>
 	<tr>
-			<td>Dereference </td>
-	<td>Dereference operation – Access the object at a pointer address.</td>
-	</tr>
-	<tr>
 			<td>Read </td>
-	<td>Read operation – Use the value of an object's data.</td>
+	<td>Read operation – Retrieve the data value of an object from memory.</td>
 	</tr>
 	<tr>
 			<td>Write </td>
-	<td>Write operation – Change the data value of an object to another meaningful value.</td>
+	<td>Write operation – Change the data value of an object stored in memory to another meaningful value.</td>
 	</tr>
 	<tr>
 			<td>Clear </td>
-	<td>Clear operation – Change the meaningful value of an object to a non-meaningful one (e.g., via zeroization) – e.g., before object deallocation.</td>
+	<td>Clear operation – Change the meaningful data value of an object to a non-meaningful one (e.g., via zeroization) – e.g., before object deallocation.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -53,19 +49,19 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td>Type </td>
-	<td>Type operand – The data type of an object – the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td>Address </td>
-	<td>Address operand attribute – The memory address for an object. It is data of another object, the object's pointer, used to reference and traverse the object.</td>
+	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
 	<tr>
 			<td>Size </td>
-	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
+	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -88,8 +84,12 @@ title: "MUS"
 	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
+			<td>   NULL Pointer </td>
+	<td>NULL Pointer fault/error – Does not point to a valid object; usually holds the zero memory address.</td>
+	</tr>
+	<tr>
 			<td>   Forbidden Address </td>
-	<td>Forbidden Address fault/error – The pointer holds an OS protected address (includs the zero address -- a NULL pointer) or non-existing address.</td>
+	<td>Forbidden Address fault/error – The pointer holds an OS protected address or a non-existing address.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
@@ -97,7 +97,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
@@ -106,10 +106,6 @@ title: "MUS"
 	<tr>
 			<td>Address Fault</td>
 	<td>Address Fault/Error type – The object address in use is wrong.</td>
-	</tr>
-	<tr>
-			<td>   NULL Pointer </td>
-	<td></td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
@@ -164,14 +160,6 @@ title: "MUS"
 	<td>Not Cleared Object final error – An object's data value is not changed to a non-meaningful one before deallocation.</td>
 	</tr>
 	<tr>
-			<td>   NULL Pointer Dereference </td>
-	<td>NULL Pointer Dereference final error – An attempt to access an object for reading or writing via a NULL pointer.</td>
-	</tr>
-	<tr>
-			<td>   Untrusted Pointer Dereference </td>
-	<td>Untrusted Pointer Dereference final error – An attempt to access an object via an altered pointer (not legitimate dereference of a tainted pointer).</td>
-	</tr>
-	<tr>
 			<td>   Object Corruption </td>
 	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
 	</tr>
@@ -200,16 +188,12 @@ title: "MUS"
 	<td>Buffer Under-Read final error – Read data below the lower bound of an object.</td>
 	</tr>
 	<tr>
-			<td>   Uninitialized Pointer Dereference </td>
-	<td>Uninitialized Pointer Dereference final error – An attempt to access an object for reading or writing via an uninitialized pointer.</td>
-	</tr>
-	<tr>
 			<td><strong>Operations Attributes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Direct </td>
@@ -221,7 +205,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -241,7 +225,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>

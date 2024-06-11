@@ -41,15 +41,15 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Name </td>
-	<td>Name operand – The declared identifier for an entity.</td>
+	<td>Name operand – The identifier of an object, function, or data type entity used to reference it.</td>
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td>Type </td>
-	<td>Type operand – The data type of an object – the set of allowed values (e.g., char is within [-128, 127]) and the operations allowed over them (e.g., +, *, mod).</td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -97,7 +97,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -129,7 +129,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Truncated Value </td>
-	<td>Truncated Value fault/error – Rightmost bits of value that won’t fit type size are cut off.</td>
+	<td>Truncated Value fault/error – The rightmost bits of a data value that won’t fit the data type size are cut off.</td>
 	</tr>
 	<tr>
 			<td>   Distorted Value </td>
@@ -141,7 +141,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Casted Pointer </td>
@@ -169,19 +169,19 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Pass In </td>
-	<td>Pass In operation attribute – The operation is via "in" arguments' values to a function/ operator.</td>
+	<td>Pass In operation attribute – The operation is via in arguments' values to a function/ operator.</td>
 	</tr>
 	<tr>
 			<td>   Pass Out </td>
-	<td>Pass Out operation attribute – The operation is via "out" or "in/out" arguments' values or a return value to a function/ operator.</td>
+	<td>Pass Out operation attribute – The operation is via out or in/out arguments' values or a return value to a function/ operator.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -201,7 +201,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -233,7 +233,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows the category or type of data.</td>
+	<td>Data Kind operand attribute type – Shows the type or category of data.</td>
 	</tr>
 	<tr>
 			<td>            Numeric </td>
@@ -249,7 +249,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>            Boolean </td>
-	<td>Boolean operand attribute – A truth/falcity value – true or false; 1 or 0.</td>
+	<td>Boolean operand attribute – A truth/falsity value – true or false; 1 or 0.</td>
 	</tr>
 	<tr>
 			<td>         Type Kind </td>

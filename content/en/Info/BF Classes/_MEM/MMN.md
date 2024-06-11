@@ -5,7 +5,7 @@ title: "MMN"
 ## BF Memory Management (MMN) Bugs Class 
 
 #### Definition
-{{< definition >}}Memory Management (MMN) class – An object is allocated, deallocated, or resized improperly.{{< /definition >}}
+{{< definition >}}Memory Management (MMN) class – An object is allocated, resized, or deallocated improperly.{{< /definition >}}
 
 ####  Taxonomy
 
@@ -40,16 +40,16 @@ title: "MMN"
 	<td>Reallocate-Extend operation – Reserve a new larger piece of memory for an object at a new address, reassign its pointer, and release the previous piece of memory.</td>
 	</tr>
 	<tr>
-			<td>Deallocate </td>
-	<td>Deallocate operation – Release the allocated memory of an object.</td>
+			<td>Reallocate-Reduce </td>
+	<td>Reallocate-Reduce operation – Reserve a new smaller space in memory for an object at a new address, reassign the pointer, and release the previous piece of memory.</td>
 	</tr>
 	<tr>
 			<td>Reduce </td>
 	<td>Reduce operation – Release part of the object memory; redefines its boundaries and size.</td>
 	</tr>
 	<tr>
-			<td>Reallocate-Reduce </td>
-	<td>Reallocate-Reduce operation – Reserve a new smaller space in memory for an object at a new address, reassign the pointer, and release the previous piece of memory.</td>
+			<td>Deallocate </td>
+	<td>Deallocate operation – Release the allocated memory of an object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -57,15 +57,15 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td>Address </td>
-	<td>Address operand attribute – The memory address for an object. It is data of another object, the object's pointer, used to reference and traverse the object.</td>
+	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
 	<tr>
 			<td>Size </td>
-	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
+	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -97,7 +97,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Forbidden Address </td>
-	<td>Forbidden Address fault/error – The pointer holds an OS protected address (includs the zero address -- a NULL pointer) or non-existing address.</td>
+	<td>Forbidden Address fault/error – The pointer holds an OS protected address or a non-existing address.</td>
 	</tr>
 	<tr>
 			<td>   Single Owned Address </td>
@@ -177,7 +177,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Double Deallocate </td>
-	<td>Double Deallocate final error – An attempt to deallocate a deallocated (freed) object or via an uninitialized pointer.</td>
+	<td>Double Deallocate final error – An attempt to deallocate a deallocated (freed) object.</td>
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
@@ -189,7 +189,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Implicit </td>
@@ -201,7 +201,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -221,7 +221,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>

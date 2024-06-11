@@ -41,7 +41,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -61,7 +61,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the design of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -69,7 +69,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Over-Restrictive Policy </td>
-	<td>Rejectsgooddata.</td>
+	<td>Rejects good data.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
@@ -109,7 +109,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
-	<td>Query Injection final error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a database query.</td>
+	<td>Query Injection final error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a query.</td>
 	</tr>
 	<tr>
 			<td>   Command Injection </td>
@@ -133,7 +133,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Safelist </td>
@@ -153,7 +153,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -173,7 +173,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -193,7 +193,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Data State operand attribute type operand attribute – Shows where the data come from.</td>
+	<td>Data State operand attribute type – Shows where the data came from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>

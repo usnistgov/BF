@@ -41,11 +41,11 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Name </td>
-	<td>Name operand – The declared identifier for an entity.</td>
+	<td>Name operand – The identifier of an object, function, or data type entity used to reference it.</td>
 	</tr>
 	<tr>
 			<td>Data </td>
-	<td>Data operand – The data value of an object – stored in object's memory.</td>
+	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -101,7 +101,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The the set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -153,7 +153,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation code is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
 	</tr>
 	<tr>
 			<td>   Function </td>
@@ -177,7 +177,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code is in software or firmware.</td>
+	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -197,7 +197,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation code is running or with what privilege level.</td>
+	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -229,7 +229,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows the category or type of data.</td>
+	<td>Data Kind operand attribute type – Shows the type or category of data.</td>
 	</tr>
 	<tr>
 			<td>            Numeric </td>
@@ -245,7 +245,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>            Boolean </td>
-	<td>Boolean operand attribute – A truth/falcity value – true or false; 1 or 0.</td>
+	<td>Boolean operand attribute – A truth/falsity value – true or false; 1 or 0.</td>
 	</tr>
 	
 </table>
