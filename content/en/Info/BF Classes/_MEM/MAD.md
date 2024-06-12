@@ -101,7 +101,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object memory (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -297,11 +297,11 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>            Actual </td>
-	<td>Actual operand attribute – The real size of an object.</td>
+	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
 	</tr>
 	<tr>
 			<td>            Used </td>
-	<td>Used operand attribute – A supplied size for an object.</td>
+	<td>Used operand attribute – A supplied size of an object.</td>
 	</tr>
 	
 </table>

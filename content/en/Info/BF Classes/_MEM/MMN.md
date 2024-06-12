@@ -105,7 +105,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object memory (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -254,6 +254,14 @@ title: "MMN"
 	<tr>
 			<td>            /other/ </td>
 	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
+	</tr>
+	<tr>
+			<td>         Size Kind </td>
+	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
+	</tr>
+	<tr>
+			<td>            Actual </td>
+	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
 	</tr>
 	
 </table>

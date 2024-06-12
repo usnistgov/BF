@@ -48,6 +48,10 @@ title: "DCL"
 	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
+			<td>Size </td>
+	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
+	</tr>
+	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -69,7 +73,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>
@@ -138,6 +142,14 @@ title: "DCL"
 	<tr>
 			<td>   Wrong Argument Type </td>
 	<td>Wrong Argument Type fault/error – An argument to an overloaded function is of incorrect data type.</td>
+	</tr>
+	<tr>
+			<td>Size Error</td>
+	<td>Size Fault/Error type – The object size in use is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Not Enough Memory </td>
+	<td>Not Enough Memory fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td>Entity Access Final Error</td>
@@ -250,6 +262,14 @@ title: "DCL"
 	<tr>
 			<td>            Structure </td>
 	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
+	</tr>
+	<tr>
+			<td>         Size Kind </td>
+	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
+	</tr>
+	<tr>
+			<td>            Actual </td>
+	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
 	</tr>
 	
 </table>
