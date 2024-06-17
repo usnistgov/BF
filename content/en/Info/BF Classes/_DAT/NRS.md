@@ -85,7 +85,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
@@ -96,8 +96,8 @@ title: "NRS"
 	<td>Wrong Generic Type fault/error – A generic object is instantiated via wrong type argument.</td>
 	</tr>
 	<tr>
-			<td>   Downcasted Pointer </td>
-	<td>Downcasted Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
+			<td>   Downcast Pointer </td>
+	<td>Downcast Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Argument Type </td>
@@ -133,7 +133,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Type Resolved </td>

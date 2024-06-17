@@ -60,10 +60,6 @@ title: "MAD"
 	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
 	<tr>
-			<td>Size </td>
-	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
-	</tr>
-	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -105,7 +101,11 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Cast Pointer </td>
+	<td>Cast Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -116,8 +116,8 @@ title: "MAD"
 	<td>Wrong Index Type fault/error – An index is of incorrect data type.</td>
 	</tr>
 	<tr>
-			<td>   Casted Pointer </td>
-	<td>Casted Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -129,7 +129,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -146,14 +146,6 @@ title: "MAD"
 	<tr>
 			<td>   Wrong Position Pointer </td>
 	<td>Wrong Position Pointer fault/error – Holds the address of a miscalculated position inside its object bounds.</td>
-	</tr>
-	<tr>
-			<td>Size Fault</td>
-	<td>Size Fault/Error type – The object size in use is wrong.</td>
-	</tr>
-	<tr>
-			<td>   Not Enough Memory </td>
-	<td>Not Enough Memory fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -181,7 +173,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
 	</tr>
 	<tr>
 			<td>   Untrusted Pointer </td>
@@ -276,8 +268,20 @@ title: "MAD"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>         Address State </td>
-	<td>Address State operand attribute type - Shows where the address is in the memory layout.</td>
+			<td>         Type Size </td>
+	<td>Type Size operand attribute type – Shows what is used as size or lenght (of number of elements) of an object - e.g., the length of an array object used as limit for traversal over its elements.</td>
+	</tr>
+	<tr>
+			<td>            Actual </td>
+	<td>Actual operand attribute – The real size or length (number of elements) of the allocated memory for an object.</td>
+	</tr>
+	<tr>
+			<td>            Used </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>         Address Location </td>
+	<td>Address Location operand attribute type - Shows where the address is in the memory layout.</td>
 	</tr>
 	<tr>
 			<td>            Stack </td>
@@ -290,18 +294,6 @@ title: "MAD"
 	<tr>
 			<td>            /other/ </td>
 	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
-	</tr>
-	<tr>
-			<td>         Size Kind </td>
-	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
-	</tr>
-	<tr>
-			<td>            Actual </td>
-	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
-	</tr>
-	<tr>
-			<td>            Used </td>
-	<td>Used operand attribute – A supplied size of an object.</td>
 	</tr>
 	
 </table>

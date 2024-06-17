@@ -48,10 +48,6 @@ title: "DCL"
 	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
-			<td>Size </td>
-	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
-	</tr>
-	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -101,7 +97,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type Resolved </td>
@@ -125,7 +121,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -136,20 +132,16 @@ title: "DCL"
 	<td>Incomplete Type fault/error – A specific constructor, method, or overloaded function is missing.</td>
 	</tr>
 	<tr>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
+	</tr>
+	<tr>
 			<td>   Wrong Generic Type </td>
 	<td>Wrong Generic Type fault/error – A generic object is instantiated via wrong type argument.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Argument Type </td>
 	<td>Wrong Argument Type fault/error – An argument to an overloaded function is of incorrect data type.</td>
-	</tr>
-	<tr>
-			<td>Size Error</td>
-	<td>Size Fault/Error type – The object size in use is wrong.</td>
-	</tr>
-	<tr>
-			<td>   Not Enough Memory </td>
-	<td>Not Enough Memory fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td>Entity Access Final Error</td>
@@ -264,12 +256,16 @@ title: "DCL"
 	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
 	</tr>
 	<tr>
-			<td>         Size Kind </td>
-	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
+			<td>         Type Size </td>
+	<td>Type Size operand attribute type – Shows what is used as size or lenght (of number of elements) of an object - e.g., the length of an array object used as limit for traversal over its elements.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>
-	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
+	<td>Actual operand attribute – The real size or length (number of elements) of the allocated memory for an object.</td>
+	</tr>
+	<tr>
+			<td>            Used </td>
+	<td></td>
 	</tr>
 	
 </table>

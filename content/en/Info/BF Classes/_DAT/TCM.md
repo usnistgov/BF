@@ -101,7 +101,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -217,7 +217,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>         Name State </td>
-	<td>Name State operand attribute type – Shows the stage of the entity name.</td>
+	<td>Name State operand attribute type – Shows at what stage the entity name is.</td>
 	</tr>
 	<tr>
 			<td>            Resolved </td>

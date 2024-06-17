@@ -60,12 +60,12 @@ title: "MMN"
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
-			<td>Address </td>
-	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
+			<td>Type </td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
-			<td>Size </td>
-	<td>Size operand – The size of an object – i.e., the amount of memory allocated for an object. Its value is data of another object.</td>
+			<td>Address </td>
+	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -108,6 +108,14 @@ title: "MMN"
 	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object memory (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
+			<td>Type Fault</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
+	</tr>
+	<tr>
 			<td>Address Fault</td>
 	<td>Address Fault/Error type – The object address in use is wrong.</td>
 	</tr>
@@ -117,19 +125,11 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
 	<td>Wrong Position Pointer fault/error – Holds the address of a miscalculated position inside its object bounds.</td>
-	</tr>
-	<tr>
-			<td>Size Fault</td>
-	<td>Size Fault/Error type – The object size in use is wrong.</td>
-	</tr>
-	<tr>
-			<td>   Not Enough Memory </td>
-	<td>Not Enough Memory fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -153,15 +153,15 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
-	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or a returned by a function address of a stack object).</td>
+	<td>Dangling Pointer fault/error – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
 	</tr>
 	<tr>
-			<td>Size Error</td>
-	<td>Size Fault/Error type – The object size in use is wrong.</td>
+			<td>Type Error</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
-			<td>   Not Enough Memory </td>
-	<td>Not Enough Memory fault/error – The allocated memory is too little for the data it should store.</td>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
@@ -240,28 +240,16 @@ title: "MMN"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>         Address State </td>
-	<td>Address State operand attribute type - Shows where the address is in the memory layout.</td>
-	</tr>
-	<tr>
-			<td>            Stack </td>
-	<td>Stack operand attribute – The object is a non-static local variable (defined in a function, a passed parameter, or a function return address).</td>
-	</tr>
-	<tr>
-			<td>            Heap </td>
-	<td>Heap operand attribute – The object is a dynamically allocated data structure (e.g., via malloc() and new).</td>
-	</tr>
-	<tr>
-			<td>            /other/ </td>
-	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
-	</tr>
-	<tr>
-			<td>         Size Kind </td>
-	<td>Size Kind operand attribute type – Shows the object's limit for traversal.</td>
+			<td>         Type Size </td>
+	<td>Type Size operand attribute type – Shows what is used as size or lenght (of number of elements) of an object - e.g., the length of an array object used as limit for traversal over its elements.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>
-	<td>Actual operand attribute – The size of the allocated memory of an object.</td>
+	<td>Actual operand attribute – The real size or length (number of elements) of the allocated memory for an object.</td>
+	</tr>
+	<tr>
+			<td>            Used </td>
+	<td></td>
 	</tr>
 	
 </table>

@@ -97,7 +97,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -141,15 +141,15 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
 	</tr>
 	<tr>
-			<td>   Casted Pointer </td>
-	<td>Casted Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
+			<td>   Cast Pointer </td>
+	<td>Cast Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
-			<td>   Downcasted Pointer </td>
-	<td>Downcasted Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
+			<td>   Downcast Pointer </td>
+	<td>Downcast Pointer fault/error – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -221,7 +221,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>         Name State </td>
-	<td>Name State operand attribute type – Shows the stage of the entity name.</td>
+	<td>Name State operand attribute type – Shows at what stage the entity name is.</td>
 	</tr>
 	<tr>
 			<td>            Resolved </td>
