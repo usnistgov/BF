@@ -245,23 +245,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            Used </td>
-	<td></td>
-	</tr>
-	<tr>
-			<td>         Address Kind </td>
-	<td></td>
-	</tr>
-	<tr>
-			<td>            Huge </td>
-	<td></td>
-	</tr>
-	<tr>
-			<td>            Moderate </td>
-	<td></td>
-	</tr>
-	<tr>
-			<td>            Little </td>
-	<td></td>
+	<td>Used operand attribute – A supplied value to be used as the size or length (number of elements) of an object.</td>
 	</tr>
 	<tr>
 			<td>         Address Location </td>
@@ -278,6 +262,22 @@ title: "MUS"
 	<tr>
 			<td>            /other/ </td>
 	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
+	</tr>
+	<tr>
+			<td>         Address Span </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>            Huge </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>            Moderate </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>            Little </td>
+	<td></td>
 	</tr>
 	
 </table>

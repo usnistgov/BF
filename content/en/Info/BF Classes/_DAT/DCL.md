@@ -265,7 +265,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>            Used </td>
-	<td></td>
+	<td>Used operand attribute – A supplied value to be used as the size or length (number of elements) of an object.</td>
 	</tr>
 	
 </table>
