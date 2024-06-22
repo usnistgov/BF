@@ -13,7 +13,7 @@ To retrieve examplary formal BFCVE specifications use:
 
 The BFCVE API queries the BFCVE specifications by BF taxon values -- e.g., ClassType, Class, Operation, Operand, Cause (bug or fault), Conseqeunce (error or finalError), Operation Attribute, Operand Attribute. 
 Patrameters -- allow filtering by any BF taxon value -- e.g.,:
-To filter the BFCVE use as parameters ClassType, Class, Cause (bug or fault), Conseqeunce (error or finalError), Operation, Operand, Operation Attribute, Operand Attribute, e.g.,:
+To filter the BFCVE use as parameters ClassType, Class, Cause (bug or fault), Conseqeunce (error or finalError), Operation, Operand, Operation Attribute, Operand Attribute, CVE IDe.g.,:
 <!-- site -->
 
 [https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM](https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM)
@@ -23,6 +23,8 @@ To filter the BFCVE use as parameters ClassType, Class, Cause (bug or fault), Co
 [https://samate.nist.gov/services/BF/BFCVE/api?operation=Read](https://samate.nist.gov/services/BF/BFCVE/api?operation=Read)
 
 [https://samate.nist.gov/services/BF/BFCVE/api?failure=ACE](https://samate.nist.gov/services/BF/BFCVE/api?failure=ACE)
+
+[http://localhost:4567/BFCVE/api?id=CVE-2014-0160](http://localhost:4567/BFCVE/api?id=CVE-2014-0160)
 
 BFCVE could be quesried alsby by programming language, CVSS score (//to be added//), ...:
 
