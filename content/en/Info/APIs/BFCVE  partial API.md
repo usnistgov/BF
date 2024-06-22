@@ -9,7 +9,7 @@ BFCVE Partial Version 1.0 comprizes partial BF CVE specifications in XML format.
 
 To retrieve examplary formal BFCVE specifications use:
 
-[https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVE%20Raw%20Data/BFNVD/BFCVE-XSS-partial.xml](https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVE%20Raw%20Data/BFNVD/BFCVE-XSS-partial.xml)
+[https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS)](https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS))
 
 [https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79](https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79)
 
@@ -18,9 +18,10 @@ To retrieve examplary formal BFCVE specifications use:
 ___________________________
 
 See also:
-[https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS)](https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS))
 
 [https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVEDescription%20Template](https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVEDescription%20Template)
+
+[https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVE%20Raw%20Data/BFNVD/BFCVE-XSS-partial.xml](https://github.com/ibojanova/BFCVE-Dataset/blob/main/BFCVE%20Raw%20Data/BFNVD/BFCVE-XSS-partial.xml)
 
 </br>
 CITATION 
