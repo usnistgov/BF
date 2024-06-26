@@ -110,8 +110,14 @@
   url = "/Info/APIs/BFCVE API"
   parent = "APIs"
 [[main]]
-  name = "BFVul API"
+  name = "BFCVEpartial API"
   weight = 4
+  identifier = "BFCVEpartial API"
+  url = "/Info/APIs/BFCVEpartial API"
+  parent = "APIs"
+[[main]]
+  name = "BFVul API"
+  weight = 5
   identifier = "BFVul API"
   url = "/Info/APIs/BFVul API"
   parent = "APIs"

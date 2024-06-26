@@ -24,7 +24,7 @@ To filter the BFCVE use as parameters ClassType, Class, Cause (bug or fault), Co
 
 [https://samate.nist.gov/services/BF/BFCVE/api?failure=ACE](https://samate.nist.gov/services/BF/BFCVE/api?failure=ACE)
 
-[http://localhost:4567/BFCVE/api?id=CVE-2014-0160](http://localhost:4567/BFCVE/api?id=CVE-2014-0160)
+[https://samate.nist.gov/services/BF/BFCVE/api?id=CVE-2014-0160](https://samate.nist.gov/services/BF/BFCVE/api?id=CVE-2014-0160)
 
 BFCVE could be quesried alsby by programming language, CVSS score (//to be added//), ...:
 
