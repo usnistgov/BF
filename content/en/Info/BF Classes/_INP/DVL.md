@@ -2,7 +2,7 @@
 weight: 3
 title: "DVL"
 ---
-## BF Data Validation (DVL) Bugs Class 
+## BF Data Validation (DVL) Class 
 
 #### Definition
 {{< definition >}}Data Validation (DVL) class – Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.{{< /definition >}}

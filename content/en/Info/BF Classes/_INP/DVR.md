@@ -2,7 +2,7 @@
 weight: 3
 title: "DVR"
 ---
-## BF Data Verification (DVR) Bugs Class 
+## BF Data Verification (DVR) Class 
 
 #### Definition
 {{< definition >}}Data Verification (DVR) class – Data are verified (semantics check) or corrected (assign, remove) improperly.{{< /definition >}}
