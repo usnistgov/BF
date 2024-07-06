@@ -2,10 +2,10 @@
 weight: 3
 title: "DVR"
 ---
-## BF Data Verification (DVR) Class 
+## BF Data Verification (DVR) Bugs Class 
 
 #### Definition
-{{< definition >}}Data Verification (DVR) class – Data are verified (semantics check) or corrected (assign, remove) improperly.{{< /definition >}}
+{{< definition >}}Data Verification (DVR) class – Data are verified (i.e., semantics check) or corrected (i.e., assign or remove) improperly.{{< /definition >}}
 
 ####  Taxonomy
 
@@ -49,7 +49,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -61,7 +61,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -73,7 +73,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
@@ -85,7 +85,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Value </td>
@@ -97,7 +97,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -109,7 +109,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Value </td>
@@ -133,7 +133,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -141,7 +141,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -153,7 +153,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -173,7 +173,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Data State operand attribute type – Shows where the data came from.</td>
+	<td>Data State operand attribute type – Shows where the data comes from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>

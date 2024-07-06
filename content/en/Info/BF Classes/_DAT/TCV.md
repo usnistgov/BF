@@ -2,7 +2,7 @@
 weight: 3
 title: "TCV"
 ---
-## BF Type Conversion (TCV) Class 
+## BF Type Conversion (TCV) Bugs Class 
 
 #### Definition
 {{< definition >}}Type Conversion (TCV) class – Data are converted or coerced into other type improperly.{{< /definition >}}
@@ -57,19 +57,19 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
-	</tr>
-	<tr>
-			<td>   Wrong Code </td>
-	<td>Wrong Code bug - An incorrect operator or function is used, or an incorrect data type is specified.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
 	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
+			<td>   Wrong Code </td>
+	<td>Wrong Code bug - An incorrect operator or function is used, or an incorrect data type is specified.</td>
+	</tr>
+	<tr>
 			<td>Name Fault</td>
-	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
@@ -81,7 +81,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Under Range </td>
@@ -97,7 +97,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -117,7 +117,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Value </td>
@@ -141,7 +141,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Cast Pointer </td>
@@ -169,7 +169,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Pass In </td>
@@ -181,7 +181,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -189,7 +189,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -201,7 +201,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -221,7 +221,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>         Name State </td>
-	<td>Name State operand attribute type – Shows at what stage the entity name is.</td>
+	<td>Name State operand attribute type – Shows what the stage of the entity name is.</td>
 	</tr>
 	<tr>
 			<td>            Resolved </td>
@@ -233,7 +233,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows the type or category of data.</td>
+	<td>Data Kind operand attribute type – Shows what the type or category of data is.</td>
 	</tr>
 	<tr>
 			<td>            Numeric </td>

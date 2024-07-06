@@ -2,7 +2,7 @@
 weight: 3
 title: "DCL"
 ---
-## BF Declaration (DCL) Class 
+## BF Declaration (DCL) Bugs Class 
 
 #### Definition
 {{< definition >}}Declaration (DCL) class – An object, a function, a type, or a namespace is declared or defined improperly.{{< /definition >}}
@@ -48,12 +48,16 @@ title: "DCL"
 	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
+			<td>Size </td>
+	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
+	</tr>
+	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -69,7 +73,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>
@@ -89,7 +93,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Name </td>
@@ -97,7 +101,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type Resolved </td>
@@ -109,7 +113,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Name Error</td>
-	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
@@ -121,7 +125,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Type </td>
@@ -132,10 +136,6 @@ title: "DCL"
 	<td>Incomplete Type fault/error – A specific constructor, method, or overloaded function is missing.</td>
 	</tr>
 	<tr>
-			<td>   Insufficient Size </td>
-	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
-	</tr>
-	<tr>
 			<td>   Wrong Generic Type </td>
 	<td>Wrong Generic Type fault/error – A generic object is instantiated via wrong type argument.</td>
 	</tr>
@@ -144,20 +144,28 @@ title: "DCL"
 	<td>Wrong Argument Type fault/error – An argument to an overloaded function is of incorrect data type.</td>
 	</tr>
 	<tr>
+			<td>Size Error</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
+	</tr>
+	<tr>
 			<td>Entity Access Final Error</td>
-	<td></td>
+	<td>Entity Access final error type – An exploitable or undefined system behavior caused by declaration bugs.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Object </td>
-	<td></td>
+	<td>Wrong Access Object final error – An unauthorized access to an object; allows access to sensitive data or to member functions.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Type </td>
-	<td></td>
+	<td>Wrong Access Type final error – An unauthorized access to a data type; allows access to member objects and functions.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Access Function </td>
-	<td></td>
+	<td>Wrong Access Function final error – An unauthorized access to a function; allows its execution.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -165,7 +173,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Simple </td>
@@ -185,7 +193,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -193,7 +201,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -205,7 +213,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -225,7 +233,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Name Kind operand attribute type – Shows the entity with this name.</td>
+	<td>Name Kind operand attribute type – Shows what the entity with this name is.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>
@@ -256,16 +264,16 @@ title: "DCL"
 	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
 	</tr>
 	<tr>
-			<td>         Type Size </td>
-	<td>Type Size operand attribute type – Shows what is used as size or lenght (of number of elements) of an object - e.g., the length of an array object used as limit for traversal over its elements.</td>
+			<td>         Size Kind </td>
+	<td>Size Kind operand attribute type – Shows what is used as the size or length (i.e., the number of elements) of an object - e.g., as the limit for traversal over the elements.</td>
 	</tr>
 	<tr>
 			<td>            Actual </td>
-	<td>Actual operand attribute – The real size or length (number of elements) of the allocated memory for an object.</td>
+	<td>Actual operand attribute – The real size or length (i.e., the number of elements) of the allocated memory for an object.</td>
 	</tr>
 	<tr>
 			<td>            Used </td>
-	<td>Used operand attribute – A supplied value to be used as the size or length (number of elements) of an object.</td>
+	<td>Used operand attribute – A supplied value to be used as the size or length (i.e., the number of elements) of an object.</td>
 	</tr>
 	
 </table>

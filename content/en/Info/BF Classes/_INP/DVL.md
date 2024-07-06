@@ -2,10 +2,10 @@
 weight: 3
 title: "DVL"
 ---
-## BF Data Validation (DVL) Class 
+## BF Data Validation (DVL) Bugs Class 
 
 #### Definition
-{{< definition >}}Data Validation (DVL) class – Data are validated (syntax check) or sanitized (escape, filter, repair) improperly.{{< /definition >}}
+{{< definition >}}Data Validation (DVL) class – Data are validated (i.e., syntax check) or sanitized (i.e., escape, filter, or repair) improperly.{{< /definition >}}
 
 ####  Taxonomy
 
@@ -49,7 +49,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -61,7 +61,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>
@@ -73,7 +73,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
@@ -97,7 +97,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
@@ -105,7 +105,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>Injection final error type – An exploitable or undefined  system behavior caused by 'code separation' data validation bugs.</td>
+	<td>Injection final error type – An exploitable or undefined system behavior caused by validation or sanitization bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
@@ -133,7 +133,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Safelist </td>
@@ -153,7 +153,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -161,7 +161,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -173,7 +173,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -193,7 +193,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Data State operand attribute type – Shows where the data came from.</td>
+	<td>Data State operand attribute type – Shows where the data comes from.</td>
 	</tr>
 	<tr>
 			<td>            Entered </td>

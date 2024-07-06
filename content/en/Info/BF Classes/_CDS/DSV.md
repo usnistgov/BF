@@ -49,7 +49,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -65,7 +65,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Algorithm </td>
@@ -77,7 +77,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Weak Ciphertext </td>
@@ -97,7 +97,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Unverified Data </td>
@@ -129,7 +129,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Hash + RND </td>
@@ -145,7 +145,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -153,7 +153,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -165,7 +165,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -185,7 +185,7 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>         Data Kind </td>
-	<td>Data Kind operand attribute type – Shows the type or category of data.</td>
+	<td>Data Kind operand attribute type – Shows what the type or category of data is.</td>
 	</tr>
 	<tr>
 			<td>            Secret </td>
@@ -201,7 +201,11 @@ title: "DSV"
 	</tr>
 	<tr>
 			<td>         Data State </td>
-	<td>Data State operand attribute type – Shows where the data came from.</td>
+	<td>Data State operand attribute type – Shows where the data comes from.</td>
+	</tr>
+	<tr>
+			<td>            Entered </td>
+	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>

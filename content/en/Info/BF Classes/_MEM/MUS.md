@@ -2,7 +2,7 @@
 weight: 3
 title: "MUS"
 ---
-## BF Memory Use (MUS) Class 
+## BF Memory Use (MUS) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.{{< /definition >}}
@@ -37,7 +37,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Write </td>
-	<td>Write operation – Change the data value of an object stored in memory to another meaningful value.</td>
+	<td>Write operation – Change the data value of an object in memory to another meaningful value.</td>
 	</tr>
 	<tr>
 			<td>Clear </td>
@@ -52,12 +52,12 @@ title: "MUS"
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
-			<td>Type </td>
-	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
-	</tr>
-	<tr>
 			<td>Address </td>
 	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
+	</tr>
+	<tr>
+			<td>Size </td>
+	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
 	</tr>
 	<tr>
 			<td><strong>Causes</strong></td>
@@ -65,7 +65,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -77,11 +77,11 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   NULL Pointer </td>
-	<td>NULL Pointer fault/error – Does not point to a valid object; usually holds the zero memory address.</td>
+	<td>NULL Pointer fault/error – The pointer does not point to a valid object; usually holds the zero memory address.</td>
 	</tr>
 	<tr>
 			<td>   Forbidden Address </td>
@@ -89,23 +89,19 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size does not match the actual size of the object memory (e.g., to restrict pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match an object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Cast Pointer </td>
 	<td>Cast Pointer fault/error – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
-			<td>   Insufficient Size </td>
-	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
-	</tr>
-	<tr>
 			<td>Address Fault</td>
-	<td>Address Fault/Error type – The object address in use is wrong.</td>
+	<td>Address Fault/Error type – The address of an object is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
@@ -120,16 +116,24 @@ title: "MUS"
 	<td>Untrusted Pointer fault/error – The pointer is modified to an improperly checked address.</td>
 	</tr>
 	<tr>
-			<td>   Over Bounds Pointer </td>
-	<td>Over Bounds Pointer fault/error – Holds an address above the upper boundary of its object.</td>
+			<td>   Overbound Pointer </td>
+	<td>Overbound Pointer fault/error – Holds an address that is above the upper boundary of its object.</td>
 	</tr>
 	<tr>
-			<td>   Under Bounds Pointer </td>
-	<td>Under Bounds Pointer fault/error – Holds an address below the lower boundary of its object.</td>
+			<td>   Underbound Pointer </td>
+	<td>Underbound Pointer fault/error – Holds an address that is below the lower boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
 	<td>Wrong Position Pointer fault/error – Holds the address of a miscalculated position inside its object bounds.</td>
+	</tr>
+	<tr>
+			<td>Size Fault</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size fault/error – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -137,7 +141,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The object data has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Uninitialized Object </td>
@@ -145,7 +149,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
-	<td>Memory Corruption/Disclosure final error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, and deallocation bugs.</td>
+	<td>Memory Corruption/Disclosure final error type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, or deallocation bugs.</td>
 	</tr>
 	<tr>
 			<td>   Not Cleared Object </td>
@@ -185,7 +189,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Direct </td>
@@ -197,7 +201,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -205,7 +209,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -217,7 +221,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Userland </td>
@@ -236,36 +240,8 @@ title: "MUS"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>         Type Size </td>
-	<td>Type Size operand attribute type – Shows what is used as size or lenght (of number of elements) of an object - e.g., the length of an array object used as limit for traversal over its elements.</td>
-	</tr>
-	<tr>
-			<td>            Actual </td>
-	<td>Actual operand attribute – The real size or length (number of elements) of the allocated memory for an object.</td>
-	</tr>
-	<tr>
-			<td>            Used </td>
-	<td>Used operand attribute – A supplied value to be used as the size or length (number of elements) of an object.</td>
-	</tr>
-	<tr>
-			<td>         Address Location </td>
-	<td>Address Location operand attribute type - Shows where the address is in the memory layout.</td>
-	</tr>
-	<tr>
-			<td>            Stack </td>
-	<td>Stack operand attribute – The object is a non-static local variable (defined in a function, a passed parameter, or a function return address).</td>
-	</tr>
-	<tr>
-			<td>            Heap </td>
-	<td>Heap operand attribute – The object is a dynamically allocated data structure (e.g., via malloc() and new).</td>
-	</tr>
-	<tr>
-			<td>            /other/ </td>
-	<td>/other/ – Other kinds of memory layout (e.g., Uninitialized Data Segment, Data Segment, and Code Segment could be used for C).</td>
-	</tr>
-	<tr>
-			<td>         Address Span </td>
-	<td></td>
+			<td>         Address Kind </td>
+	<td>Address Kind operand attribute type - Shows how much memory is accessed (i.e., the span) outside the bounds of an object.</td>
 	</tr>
 	<tr>
 			<td>            Huge </td>
@@ -278,6 +254,34 @@ title: "MUS"
 	<tr>
 			<td>            Little </td>
 	<td></td>
+	</tr>
+	<tr>
+			<td>         Address State </td>
+	<td>Address State operand attribute type – Shows where the address is (i.e., its location) in the memory layout.</td>
+	</tr>
+	<tr>
+			<td>            Stack </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>            Heap </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>            /other/ </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>         Size Kind </td>
+	<td>Size Kind operand attribute type – Shows what is used as the size or length (i.e., the number of elements) of an object - e.g., as the limit for traversal over the elements.</td>
+	</tr>
+	<tr>
+			<td>            Actual </td>
+	<td>Actual operand attribute – The real size or length (i.e., the number of elements) of the allocated memory for an object.</td>
+	</tr>
+	<tr>
+			<td>            Used </td>
+	<td>Used operand attribute – A supplied value to be used as the size or length (i.e., the number of elements) of an object.</td>
 	</tr>
 	
 </table>

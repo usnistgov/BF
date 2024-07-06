@@ -2,7 +2,7 @@
 weight: 3
 title: "NRS"
 ---
-## BF Name Resolution (NRS) Class 
+## BF Name Resolution (NRS) Bugs Class 
 
 #### Definition
 {{< definition >}}Name Resolution (NRS) class – The name of an object, a function, or a type is resolved improperly or bound to an improper type or implementation.{{< /definition >}}
@@ -53,7 +53,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – Defect in the implementation of the operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -61,7 +61,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – Defect in the metadata or algorithm of the operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Qualifier </td>
@@ -73,7 +73,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Name Fault</td>
-	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Missing Overridden Function </td>
@@ -85,7 +85,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Fault</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
@@ -109,7 +109,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Name Error</td>
-	<td>Name Fault/Error type – The fully resolved name is wrong.</td>
+	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Resolved </td>
@@ -133,7 +133,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values is wrong or the operations allowed on them are wrong, or the tyep size in use is wrong.</td>
+	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Object Type Resolved </td>
@@ -149,7 +149,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Resolve </td>
@@ -173,7 +173,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Source Code </td>
-	<td>Source Code operation attribute type – Shows where the operation code resides within the software, firmware, or circuit logic code.</td>
+	<td>Source Code operation attribute type – Shows where the code of the operation with a bug or faulty operand resides within the software, firmware, or hardware.</td>
 	</tr>
 	<tr>
 			<td>   Codebase </td>
@@ -181,7 +181,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Third-Party </td>
-	<td>Third-Party operation attribute – The operation code is in a third-party software.</td>
+	<td>Third-Party operation attribute – The operation code is in a third-party source.</td>
 	</tr>
 	<tr>
 			<td>   Standard Library </td>
@@ -193,7 +193,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Execution Space </td>
-	<td>Execution Space operation attribute type – Shows where the operation is executed or the privilege level at which it runs.</td>
+	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
 			<td>   Local </td>
@@ -213,7 +213,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>         Name Kind </td>
-	<td>Name Kind operand attribute type – Shows the entity with this name.</td>
+	<td>Name Kind operand attribute type – Shows what the entity with this name is.</td>
 	</tr>
 	<tr>
 			<td>            Object </td>
