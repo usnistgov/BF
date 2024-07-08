@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: false
 title: "BF Approach and Features"
 ---
-# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# Bugs Framework (BF) Approach<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 ## Current State of the Art
 

@@ -3,7 +3,7 @@ weight: 2
 bookCollapseSection: true
 title: "Overview"
 ---
-# BF Challenges -- Contribute your time and tallent!<br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Challenges -- Contribute your time and tallent!<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 CWE2BF challenge: Create CWE2BF mappings and unambigous BFCWE specifications. Start creating matrices of meaningful (cause, operation, consequence) BF weakness triples.
 BFCVE challenge: Create a comprehensively labeled dataset of software security vulnerability specifications using BF's [formalism (taxonomy and LL(1) formal grammar)](/BF/info/bf-classes/).

@@ -3,7 +3,7 @@ weight: 4
 bookCollapseSection: false
 title: "BFCVEpartial API"
 ---
-# BFCVE Partial API <br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BFCVE Partial API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 BFCVE Partial Version 1.0 comprizes partial BF CVE specifications in XML format. 
 

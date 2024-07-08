@@ -2,7 +2,7 @@
 weight: 1
 title: "Model"
 ---
-# BF Crypto Data Security (\_CDS) Bugs Model<br/>_`Irena Bojanova, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Crypto Data Security (\_CDS) Bugs Model<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 Cryptography comprises techniques for scrambling or disguising data so it is available only to whom can restore them to their original form. Cryptography provides a strong basis for keeping data secret, for verifying data integrity, and for verifying data source. Two main types of cryptographic algorithms are: 
 
