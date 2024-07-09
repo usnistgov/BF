@@ -5,7 +5,9 @@ title: "BFCVEpartial API"
 ---
 # BFCVE Partial API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-BFCVE Partial Version 1.0 comprizes partial BF CVE specifications in XML format. 
+//to be added//
+
+<!-- BFCVE Partial Version 1.0 comprizes partial BF CVE specifications in XML format. 
 
 To retrieve examplary formal BFCVE specifications use:
 
@@ -28,7 +30,10 @@ CITATION
 
 _____________________________________________________________
 
-Bojanova, I., Bugs Framework (BF) -- BFCVE API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
+Bojanova, I., Bugs Framework (BF) -- BFCVE API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api). -->
+
+
+
 
 
 
