@@ -19,7 +19,7 @@ CWE and CVE are widely used, but maybe difficult to use for comprehensive labeli
 
 CWE-502: Deserialization of Untrusted Data: The application deserializes untrusted data without sufficiently verifying that the resulting data will be valid.
 
-It’s not clear here what “sufficiently” means. “Verifying that data is valid” is also confusing. It should say “... without validating and verifying it”, as the validation and verification operations relate to syntax an semantics, correspondingly.
+It’s not clear here what “sufficiently” means. “Verifying that data is valid” is also confusing. It should say “... without validating and verifying it”, as the validation and verification operations relate to syntax and semantics, correspondingly.
 
 *   Gaps and overlaps in CWEs lead to confusion. As an example, if we arrange buffer overflow CWEs by read or write, over or under the bounds, on the stack or heap, the gaps and overlaps can be easily spotted.
 <br/><br/>
