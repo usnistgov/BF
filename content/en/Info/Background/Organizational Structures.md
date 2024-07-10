@@ -4,7 +4,7 @@ title: "Organizational Structures"
 ---
 # Organizational Structures
 
-There have beem many efforts to create organizational structures about software security bugs and weaknesses. Such examples are the [Landwehr et. al. Taxonomy of Computer Program Security Flaws](https://apps.dtic.mil/sti/pdfs/ADA465587.pdf) and the [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/), and the [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/). However, we need more formal approaches to produce precise, machine readable descriptions of all software security vulnerabilities underligned by such weaknesses leading, that eventually lead to software security failures. This would alllow the creation of labeled datasets for diverse related ML and AI research. 
+There have been many efforts to create organizational structures about software security bugs and weaknesses. Such examples are the [Landwehr et. al. Taxonomy of Computer Program Security Flaws](https://apps.dtic.mil/sti/pdfs/ADA465587.pdf) and the [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/), and the [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/). However, we need more formal approaches to produce precise, machine-readable descriptions of all software security vulnerabilities underlined by such weaknesses that eventually lead to software security failures. This would allow the creation of labeled datasets for diverse related ML and AI research. 
 
 Just as the structure of the periodic table reflects the underlying atomic structure, we are developing the Bugs Framework (BF) as a structured, complete, orthogonal, classification systems following the _natural_ organization of software bugs and weaknesses, while verifying it towards widely used bugs/weaknesses enumerations, compendia, and collections. We get out inspiration also from organizational structures in science, such as the Periodic Table of Elements, the Tree of Life, the Geographic Coordinate System, and the Dewey Decimal Classification System.
 
@@ -22,12 +22,12 @@ However obvious the Mendeleev's Periodic Table seems today, it required extensiv
 
 * In the Middle Ages, alchemists made lists of materials, such as alcohol, sulfur, mercury, and salt.
 
-* Lavoisier created a list of 33 elements - e.g. oxygen, nitrogen, hydrogen, phosphorus, mercury, zinc, sulfur, light, and caloric, and distinguished metals from non-metals.
+* Lavoisier created a list of 33 elements - e.g., oxygen, nitrogen, hydrogen, phosphorus, mercury, zinc, sulfur, light, and caloric, and distinguished metals from non-metals.
 * Dalton realized " atoms of same element are identical in all respects, particularly weight."
 
 * In 1800s, several tables of elements were developed:
 
-* De Chancourtois first noticed periodicity of elements.When ordered by their atomic weights, similar elements occur at regular intervals.
+* De Chancourtois first noticed periodicity of elements. When ordered by their atomic weights, similar elements occur at regular intervals.
 * Mendeleev's Periodic Table in 1869 and his forecast of properties of missing elements reflected the century of growth in knowledge that reflects atomic structure: Columns correspond to the number of electrons in the outer shell and the fundamental chemical properties. Rows correspond to the number of electron shells.
 
 {{< customimg src="images/PeriodicTable.png" height="400" >}}

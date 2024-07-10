@@ -5,9 +5,7 @@ title: "BFCVE API"
 ---
 # BF CVE API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-//to be added//
-
-<!-- BFCVE Version 1.0 comprizes the formal BF CVE specifications in XML format. 
+BFCVE Version 1.0 comprizes the formal BF CVE specifications in XML format. 
 
 To retrieve examplary formal BFCVE specifications use:
 
@@ -18,7 +16,7 @@ Patrameters -- allow filtering by any BF taxon value -- e.g.,:
 To filter the BFCVE use as parameters ClassType, Class, Cause (bug or fault), Conseqeunce (error or finalError), Operation, Operand, Operation Attribute, Operand Attribute, CVE IDe.g.,:
 <!-- site -->
 
-<!-- [https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM](https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM)
+[https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM](https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM)
 
 [https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size](https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size)
 
@@ -42,9 +40,6 @@ CITATION
 _____________________________________________________________
 
 Bojanova, I., Bugs Framework (BF) -- BFCVE API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
-  -->
-
-
 
 
 

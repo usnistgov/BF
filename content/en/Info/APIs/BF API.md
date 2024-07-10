@@ -5,9 +5,7 @@ title: "BF API"
 ---
 # BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-//to be added//
-
-<!-- BF Version 1.0 comprizes the BF Data Type (_DAT), Input/Output check(_INP), and Memory Corruption/Dusclosure (_MEM) Class Types and the Failure (_FLR) Class Type.
+BF Version 1.0 comprizes the BF Data Type (_DAT), Input/Output check(_INP), and Memory Corruption/Dusclosure (_MEM) Class Types and the Failure (_FLR) Class Type.
 
 To retrieve all current BF classes use:
 
@@ -16,7 +14,7 @@ To retrieve all current BF classes use:
 To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,:
 <!-- site -->
 
-<!-- [https://samate.nist.gov/services/BF/BFTaxonomy/api?classType=_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/api?ClassType=_MEM)
+[https://samate.nist.gov/services/BF/BFTaxonomy/api?classType=_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/api?ClassType=_MEM)
 
 [https://samate.nist.gov/services/BF/BFTaxonomy/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BFTaxonomy/api?Class=MUS&Class=DVL)
 
@@ -32,12 +30,7 @@ CITATION
 _____________________________________________________________
 
 Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
-</br></br> -->
-
-
-
-
-
+</br></br>
 
 <!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_mem/) -->
 <!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->

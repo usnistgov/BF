@@ -5,9 +5,7 @@ title: "BF Backwards API"
 ---
 # BF Backwards API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-//to be added//
-
-<!-- BF Version 1.0, comprizes the BF Data Type (_DAT), Input/Output check(_INP), and Memory Corruption/Dusclosure (_MEM) Class Types.
+BF Version 1.0, comprizes the BF Data Type (_DAT), Input/Output check(_INP), and Memory Corruption/Dusclosure (_MEM) Class Types.
 
 The BF Backwards API allows quering the BF taxonomy for acyclic graphs with the possible chains from a particular Failure (IEX, DOS, ACE, TPR) and the Final Weakness as (Fault, Operation, Final Error) leading ot the Failure -- e.g.,:
 
@@ -34,4 +32,4 @@ CITATION
 
 _____________________________________________________________
 
-Bojanova, I., Bugs Framework (BF) -- BF Backwards API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-backwards-api](https://usnistgov.github.io/BF/info/apis/bf-backwards-api). -->
+Bojanova, I., Bugs Framework (BF) -- BF Backwards API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-backwards-api](https://usnistgov.github.io/BF/info/apis/bf-backwards-api).
