@@ -8,7 +8,7 @@ BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structure
 
 The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses. The CWEs exhaustive list approach is prone to gaps in coverage: some weakness types may be missing. The CWEs also have overlaps in coverage, including via over detailing (e.g., CWE-118 children’s buffer overflow variations). While by their nature, the BF classes are complete and orthogonal, assuring no gaps and no overlaps in coverage. We map a CWE to a BF class by an operation and/or a consequence from the lists defining the BF class. Through these relationships, the BF classes can be viewed as structured extensions to the memory-related CWEs.
 
-The BF Memory Bugs classes relate to particular CWEs by BF MAD, MMN, and MUS operations and/or consequences. 
+The BF Memory classes relate to particular CWEs by BF MAD, MMN, and MUS operations and/or consequences. 
 
 The generated digraphs (see Figure 1 and Figure 2) of all memory-related CWEs show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
 
@@ -32,7 +32,7 @@ The BF Memory Bugs model reflects the lifecycle of an object. The pillar CWE-664
 
 The clusters of memory CWEs do not strictly correspond to the phases of address formation, allocation, use, and deallocation. CWEs related to a phase appear in more than one cluster. In addition, CWE-118 and CWE-119 are strictly about memory but cover more than one phase.
 
-Viewed as a structured extension, the BF Memory Bugs classes relate to CWEs through particular Memory Error consequences. For BF MAL: Memory Overflow – relates to CWEs: 400*, 770*, and 789; Memory Leak – to CWEs: 401, 404*, and 771*; Double Free – to CWE-415; Object Corruption – to CWEs: 404*, 590, 761, 762, and 763.
+Viewed as a structured extension, the BF Memory classes relate to CWEs through particular Memory Error consequences. For BF MAL: Memory Overflow – relates to CWEs: 400*, 770*, and 789; Memory Leak – to CWEs: 401, 404*, and 771*; Double Free – to CWE-415; Object Corruption – to CWEs: 404*, 590, 761, 762, and 763.
 
 For BF MUS: Uninitialized Object – relates to CWEs: 457, 456, CWE-665*, 908*, and 909*; Not Cleared Object – to CWEs: 226*, 244, and 459*; NULL Pointer Dereference – to CWE-476; Untrusted Pointer Dereference – to CWEs: 119 and 822; Type Confusion – to CWEs: 588 and 843*; Use After Free – to CWEs: 119,416, and 825; Buffer Overflow – to CWEs: 118, 119, 120, 121, 122, 123, 125, 126, 466, 805, 806, 787, and 788; Buffer Underflow – to CWEs: 118, 119, 122, 123, 124, 125, 127, 466, 786, 787, 805, and 806; Unitialized Pointer Dereference – to CWEs: 119 and 824. There are no related CWEs to BF MUS Object Corruption.
 

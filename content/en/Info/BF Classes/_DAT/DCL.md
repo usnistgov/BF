@@ -2,7 +2,7 @@
 weight: 3
 title: "DCL"
 ---
-## BF Declaration (DCL) Bugs Class 
+## BF Declaration (DCL) Class 
 
 #### Definition
 {{< definition >}}Declaration (DCL) class – An object, a function, a type, or a namespace is declared or defined improperly.{{< /definition >}}

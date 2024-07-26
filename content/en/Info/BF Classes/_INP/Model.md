@@ -6,7 +6,7 @@ title: "Model"
 
 Data should be checked to ensure proper results from its processing. It should adhere to object data types acceptable by the software. Bojanova and Galhardo, define an object as a piece of memory with well-defined size that is used to store primitive data or a data structure. As input, primitive data are checked and sanitized on string-of-characters level. A character – e.g., an ASCII (American Standard Code for Information Interchange) character – is a single symbol, such as an alphabet letter, a numeric digit, or a punctuation mark. Data structures in turn are built on primitive data but can also have a higher level of syntax and semantics rules.
 
-The BF Data Check Bugs model (Figure 1) helped us identify the phases and the operations where such bugs could occur. The phases correspond to the BF Data Check Bugs classes: Data Validation Bugs (DVL) and Data Verification Bugs (DVR). All data check operations are grouped by phase. The presented proper flow of operations helps identify bugs/weaknesses caused by a missing operation.
+The BF Data Check Bugs model (Figure 1) helped us identify the phases and the operations where such bugs could occur. The phases correspond to the BF Data Check classes: Data Validation Bugs (DVL) and Data Verification Bugs (DVR). All data check operations are grouped by phase. The presented proper flow of operations helps identify bugs/weaknesses caused by a missing operation.
 <br/><br/>
 
 {{< img src="images/BF Models/_INP Model.svg" height="300" caption="Figure 1. BF Input/Output Check Bugs Model. Comprises phases, corresponding to the BF classes DVL and DVR. Shows the data check operations flow" >}}

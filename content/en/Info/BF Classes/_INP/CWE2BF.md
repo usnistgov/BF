@@ -8,7 +8,7 @@ BF Input/Output Check taxonomy can be used by bug reporting tools, as it is a st
 
 The BF classes ensure precise causal descriptions, as a weakness is described via one cause, one operation, and one consequence, while the CWEs only enumerate weaknesses. The CWEs exhaustive list approach is prone to gaps in coverage: some weakness types may be missing. The CWEs also have overlaps in coverage, including via over detailing (e.g., CWE-23 children’s path traversal variations). While by their nature, the BF classes are complete and orthogonal, assuring no gaps and no overlaps in coverage. We map a CWE to a BF class by an operation and/or a consequence from the lists defining the BF class. Through these relationships, the BF classes can be viewed as structured extensions to the input, output, and injection-related CWEs.
 
-The BF Data Check Bugs classes relate to particular CWEs by BF DVL and DVR operations and/or consequences. 
+The BF Data Check classes relate to particular CWEs by BF DVL and DVR operations and/or consequences. 
 
 The generated digraphs (see Figure 1 and Figure 2) of all input- and output-check-related CWEs, including the injection-related CWEs, show this correspondence both by operation (Figure 1) and by consequence (Figure 2). An edge starts at a child CWE and ends at a parent CWE. Bug reporting tools would use base or variant CWEs, but they may also use higher abstraction level CWEs if there is not enough specific information about the bug or if there is no related base CWE. The outline style of a CWE node indicates the CWE level of abstraction: pillar, class, base, or variant. 
 
@@ -51,6 +51,6 @@ All relationships to input, output, and injection CWEs (Figure 2) by BF DVL and 
     * Wrong Type – CWEs: 1284, and 1287.
 4.  The following CWEs reflect only DVL or DVR causes: 102, 105, 106, 108, 109, 183, 184, 185, 186, 228, 229, 231, 233, 234, 235, 236, 237, 238, 239, 240, 554, 625, 1173, and 1174.
 
-The BF Data Check Bugs classes present a taxonomy with structured cause/consequence relations that is complete and orthogonal. It could be viewed as a structured extension over the CWEs related to Injection Errors, Invalid Data, Wrong Value, Inconsistent Value, and Wrong Type (Figure 2). It is a taxonomy that explains the causal relationships between weaknesses and would be easier to use than the nested hierarchical CWEs.
+The BF Data Check classes present a taxonomy with structured cause/consequence relations that is complete and orthogonal. It could be viewed as a structured extension over the CWEs related to Injection Errors, Invalid Data, Wrong Value, Inconsistent Value, and Wrong Type (Figure 2). It is a taxonomy that explains the causal relationships between weaknesses and would be easier to use than the nested hierarchical CWEs.
 
 Many bug reporting tools use the CWE to describe found bugs/weaknesses. As a structured extension over the input, output, and injection CWEs, the BF Data Check taxonomy can be used to report found data check bugs/weaknesses (including those leading to injection errors). Figure 1 shows how input/output and injection CWEs translate to BF DVL and BF DVR by operation; Figure 2 shows how they translate by consequences.

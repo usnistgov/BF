@@ -2,7 +2,7 @@
 weight: 3
 title: "TCV"
 ---
-## BF Type Conversion (TCV) Bugs Class 
+## BF Type Conversion (TCV) Class 
 
 #### Definition
 {{< definition >}}Type Conversion (TCV) class – Data are converted or coerced into other type improperly.{{< /definition >}}

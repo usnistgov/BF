@@ -2,7 +2,7 @@
 weight: 3
 title: "NRS"
 ---
-## BF Name Resolution (NRS) Bugs Class 
+## BF Name Resolution (NRS) Class 
 
 #### Definition
 {{< definition >}}Name Resolution (NRS) class – The name of an object, a function, or a type is resolved improperly or bound to an improper type or implementation.{{< /definition >}}
