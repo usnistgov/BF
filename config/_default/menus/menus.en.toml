@@ -86,16 +86,28 @@
   weight = 50
   identifier = "APIs"
 [[main]]
-  name = "BF Backwards API"
-  weight = 1
-  identifier = "BF Backwards API"
-  url = "/Info/APIs/BF Backwards API"
-  parent = "APIs"
-[[main]]
   name = "BF API"
   weight = 1
   identifier = "BF API"
   url = "/Info/APIs/BF API"
+  parent = "APIs"
+[[main]]
+  name = "BF Relatons API"
+  weight = 1
+  identifier = "BF Relatons API"
+  url = "/Info/APIs/BF Relatons API"
+  parent = "APIs"
+[[main]]
+  name = "BF Propagatons API"
+  weight = 1
+  identifier = "BF Propagatons API"
+  url = "/Info/APIs/BF Propagatons API"
+  parent = "APIs"
+[[main]]
+  name = "BF Backwards API"
+  weight = 1
+  identifier = "BF Backwards API"
+  url = "/Info/APIs/BF Backwards API"
   parent = "APIs"
 [[main]]
   name = "BFCWE API"
