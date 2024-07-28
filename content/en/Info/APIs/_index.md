@@ -5,6 +5,6 @@ bookCollapseSection: true
 title: "APIs"
 ---
 
-Please us ethe APIs menu.
+Please use the APIs menu on top.
 
 //to be added//
