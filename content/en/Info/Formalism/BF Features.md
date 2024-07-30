@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF Approach and Features"
+title: "BF Features"
 ---
 # Bugs Framework (BF) Features <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 

@@ -11,8 +11,8 @@ url: /
 <!-- Software Developers 'Best Friend' -->
 
 _____________________________________
-Announcement: [NIST Releases SP 800-231, Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final)
-
+July 30, 2024:
+[NIST Releases SP 800-231, Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final)
 [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231)
 _____________________________________
 
