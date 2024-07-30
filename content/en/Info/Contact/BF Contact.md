@@ -5,7 +5,8 @@ title: "BF Contact Us"
 
 # BF Contact <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 </br>
-If you are using or plan to use the Bugs Framewrok (BF), please do not hesitate to reach out for guidance and tool demonstrations. Pleas be encouraged also to provide feedback on BF at any time, especially while utilizing it within your own software security development and research pojects -- having your inputs will be particularly helpful in refining the BF's evolution. 
+If you are interested in the Bugs Framewrok (BF), do not hesitate to reach out for guidance and demonstration. Pleas be encouraged also to provide feedback on BF at any time. 
+<!-- , especially while utilizing it within your own software security development and research pojects -- having your inputs will be particularly helpful in refining the BF's evolution.  -->
 
 
 #### [Irena Bojanova](https://www.nist.gov/people/irena-bojanova)

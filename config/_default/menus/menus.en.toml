@@ -9,18 +9,7 @@
   name = "Models"
   weight = 20
   identifier = "Models"
-[[main]]
-  name = "BF Concepts"
-  weight = 1
-  identifier = "BF Concepts"
-  url = "/Info/Models/BF Concepts"
-  parent = "Models"
-[[main]]
-  name = "BF Concepts Bottom-Up"
-  weight = 1
-  identifier = "BF Concepts Bottom-Up"
-  url = "/Info/Models/BF Concepts Bottom-Up"
-  parent = "Models"
+
 [[main]]
   name = "BF Vulnerability State Model"
   weight = 2
@@ -39,17 +28,17 @@
   name = "Formalism"
   weight = 30
   identifier = "Formalism"
-[[main]]
-  name = "BF Concepts Formalized"
+  [[main]]
+  name = "BF Features"
   weight = 1
-  identifier = "BF Concepts Formalized"
-  url = "/Info/Formalism/BF Concepts Formalized"
-  parent = "Formalism"
+  identifier = "BF Features"
+  url = "/Info/Formalism/BF Features"
+  parent = "Features"
 [[main]]
-  name = "BF Bugs Models Formalized"
-  weight = 2
-  identifier = "BF Bugs Models Formalized"
-  url = "/Info/Formalism/BF Bugs Models Formalized"
+  name = "BF Concepts"
+  weight = 1
+  identifier = "BF Concepts"
+  url = "/Info/Formalism/BF Concepts"
   parent = "Formalism"
 [[main]]
   name = "BF Formal Language"
@@ -60,7 +49,7 @@
 
 [[main]]
   name = "Tools"
-  weight = 40
+  weight = 50
   identifier = "Tools"
 [[main]]
   name = "BF Tool"
@@ -83,25 +72,13 @@
 
 [[main]]
   name = "APIs"
-  weight = 50
+  weight = 40
   identifier = "APIs"
 [[main]]
   name = "BF API"
   weight = 1
   identifier = "BF API"
   url = "/Info/APIs/BF API"
-  parent = "APIs"
-[[main]]
-  name = "BF Relatons API"
-  weight = 1
-  identifier = "BF Relatons API"
-  url = "/Info/APIs/BF Relatons API"
-  parent = "APIs"
-[[main]]
-  name = "BF Propagatons API"
-  weight = 1
-  identifier = "BF Propagatons API"
-  url = "/Info/APIs/BF Propagatons API"
   parent = "APIs"
 [[main]]
   name = "BF Backwards API"
@@ -122,10 +99,10 @@
   url = "/Info/APIs/BFCVE API"
   parent = "APIs"
 [[main]]
-  name = "BFCVEpartial API"
+  name = "BFCVE Partial API"
   weight = 4
-  identifier = "BFCVEpartial API"
-  url = "/Info/APIs/BFCVEpartial API"
+  identifier = "BFCVE Partial API"
+  url = "/Info/APIs/BFCVE Partial API"
   parent = "APIs"
 [[main]]
   name = "BFVul API"
@@ -135,33 +112,21 @@
   parent = "APIs"
   
 [[main]]
-  name = "Approach"
+  name = "Why BF"
   weight = 60
-  identifier = "Approach"
+  identifier = "Why BF"
 [[main]]
-  name = "BF Approach"
+  name = "Why BF"
   weight = 1
-  identifier = "BF Approach"
-  url = "/Info/Approach/BF Approach"
-  parent = "Approach"
-[[main]]
-  name = "BF Methodology"
-  weight = 2
-  identifier = "BF Methodology"
-  url = "/Info/Approach/BF Methodology"
-  parent = "Approach"
-[[main]]
-  name = "Why BF?"
-  weight = 3
-  identifier = "Why BF?"
-  url = "/Info/Approach/Why BF?"
-  parent = "Approach"
+  identifier = "Why BF"
+  url = "/Info/Why BF/Why BF"
+  parent = "Why BF"
 [[main]]
   name = "BF Impact"
-  weight = 4
-  identifier = "BF Impact"
-  url = "/Info/Approach/BF Impact"
-  parent = "Approach"
+  weight = 2
+  identifier = "BF Why BF"
+  url = "/Info/Why BF/BF Impact"
+  parent = "Why BF"
 
 [[main]]
   name = "Background"

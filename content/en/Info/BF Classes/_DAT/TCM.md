@@ -2,7 +2,7 @@
 weight: 3
 title: "TCM"
 ---
-## BF Type Computation (TCM) Class 
+## BF Type Computation (TCM) Bugs Class 
 
 #### Definition
 {{< definition >}}Type Computation (TCM) class – An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly.{{< /definition >}}
@@ -53,7 +53,7 @@ title: "TCM"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Code </td>

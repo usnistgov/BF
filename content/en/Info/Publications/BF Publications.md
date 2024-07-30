@@ -10,6 +10,7 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 ## Papers
 | |
 | --- |
+| Bojanova, I, [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231), doi: [10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231) |
 | Mell, P, Bojanova, I., Galhardo, C., preprint [Measuring the Exploitation of Weaknesses in the Wild](https://arxiv.org/pdf/2405.01289),  in IT Professional, vol. 26, no. 3, pp. xx-xx, May.-Jun. 2024, doi: [xx.xxxx/MITP.2024.xxxxxxx](https://doi.org/10.1109/MITP.2024.3399485) |
 | Bojanova, I., [Comprehensively Labeled Weakness and Vulnerability Datasets via Unambiguous Formal Bugs Framework (BF) Specifications](https://www.nist.gov/publications/comprehensively-labeled-weakness-and-vulnerability-datasets-unambiguous-formal-bugs), in IT Professional, vol. 26, no. 1, pp. 60-68, Jan.-Feb. 2024, doi: [10.1109/MITP.2024.3358970](https://doi.org/10.1109/MITP.2024.3358970) |
 | Bojanova, I. and Guerrerio, J., [Labeling Software Security Vulnerabilities](https://www.nist.gov/publications/labeling-software-security-vulnerabilities), in IT Professional, vol. 25, no. 5, pp. 64-70, Sep.-Oct. 2023, doi: [10.1109/MITP.2023.3314368](https://doi.org/10.1109/MITP.2023.3314368). | 

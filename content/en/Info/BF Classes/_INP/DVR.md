@@ -2,7 +2,7 @@
 weight: 3
 title: "DVR"
 ---
-## BF Data Verification (DVR) Class 
+## BF Data Verification (DVR) Bugs Class 
 
 #### Definition
 {{< definition >}}Data Verification (DVR) class – Data are verified (i.e., semantics check) or corrected (i.e., assign or remove) improperly.{{< /definition >}}
@@ -49,7 +49,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -61,7 +61,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Under-Restrictive Policy </td>

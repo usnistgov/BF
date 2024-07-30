@@ -2,7 +2,7 @@
 weight: 3
 title: "DCL"
 ---
-## BF Declaration (DCL) Class 
+## BF Declaration (DCL) Bugs Class 
 
 #### Definition
 {{< definition >}}Declaration (DCL) class – An object, a function, a type, or a namespace is declared or defined improperly.{{< /definition >}}
@@ -48,16 +48,12 @@ title: "DCL"
 	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
-			<td>Size </td>
-	<td>Size operand – The memory size of an object – the number of bytes allocated for an object in memory. Its value is contained by (is data of) of another object.</td>
-	</tr>
-	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -73,7 +69,7 @@ title: "DCL"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Modifier </td>
@@ -92,12 +88,12 @@ title: "DCL"
 	<td></td>
 	</tr>
 	<tr>
-			<td>Data Fault</td>
-	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
+			<td>Name Fault</td>
+	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Name </td>
-	<td>Wrong Name fault/error – Inaccurate name is constructed dynamically for use at run time.</td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -262,18 +258,6 @@ title: "DCL"
 	<tr>
 			<td>            Structure </td>
 	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
-	</tr>
-	<tr>
-			<td>         Size Kind </td>
-	<td>Size Kind operand attribute type – Shows what is used as the size or length (i.e., the number of elements) of an object - e.g., as the limit for traversal over the elements.</td>
-	</tr>
-	<tr>
-			<td>            Actual </td>
-	<td>Actual operand attribute – The real size or length (i.e., the number of elements) of the allocated memory for an object.</td>
-	</tr>
-	<tr>
-			<td>            Used </td>
-	<td>Used operand attribute – A supplied value to be used as the size or length (i.e., the number of elements) of an object.</td>
 	</tr>
 	
 </table>

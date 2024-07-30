@@ -2,7 +2,7 @@
 weight: 3
 title: "NRS"
 ---
-## BF Name Resolution (NRS) Class 
+## BF Name Resolution (NRS) Bugs Class 
 
 #### Definition
 {{< definition >}}Name Resolution (NRS) class – The name of an object, a function, or a type is resolved improperly or bound to an improper type or implementation.{{< /definition >}}
@@ -53,7 +53,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -61,7 +61,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>Specification Bug</td>
-	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is always the first cause for the chain of weaknesses underlying a software security vulnerability. It must be fixed to resolve the vulnerability.</td>
+	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Qualifier </td>

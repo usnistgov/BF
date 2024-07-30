@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0307169"
-     inkscape:cx="103.32614"
-     inkscape:cy="60.637407"
+     inkscape:cx="225.57116"
+     inkscape:cy="22.799665"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -36,8 +36,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-77.948916,-133.01819)"><g
-       transform="matrix(0.26458333,0,0,0.26458333,89.021986,-347.38736)"
+     transform="translate(-45.70918,-142.99457)"><g
+       transform="matrix(0.26458333,0,0,0.26458333,56.78225,-337.41098)"
        id="g99"><path
          d="m 349.5,2819.5 20.5,-37 20.5,37 z"
          stroke="#7d3368"
@@ -713,7 +713,7 @@
          font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
          font-weight="300"
          font-size="16px"
-         transform="translate(1033.66,2826)"
+         transform="translate(1015.4,2826)"
          id="text98">BF, I. Bojanova</text><path
          d="m 0.0102984,-0.333174 7.2765516,0.224917 7.23945,0.656817 7.1247,1.05986 6.9533,1.4341 13.1569,3.87336 6.1084,2.38771 5.7016,2.64481 5.2473,2.8766 4.7366,3.0804 4.1693,3.2565 3.5454,3.4057 2.8646,3.5285 c 0.0158,0.0195 0.0293,0.0408 0.0404,0.0633 l 2.1761,4.4415 -0.5987,0.2933 -2.1761,-4.4415 0.0405,0.0633 -2.8088,-3.4678 -3.4939,-3.361 -4.1224,-3.223 L 58.498,15.4096 53.2906,12.5532 47.6268,9.92446 41.5728,7.5554 28.4696,3.69543 21.5529,2.26782 14.466,1.2125 7.26625,0.558092 -0.0102984,0.333174 Z M 79.5913,30.4568 77.7177,39.2026 71.8452,32.4562 Z"
          fill="#0037a4"

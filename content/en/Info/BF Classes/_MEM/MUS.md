@@ -2,7 +2,7 @@
 weight: 3
 title: "MUS"
 ---
-## BF Memory Use (MUS) Class 
+## BF Memory Use (MUS) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.{{< /definition >}}
@@ -52,6 +52,10 @@ title: "MUS"
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
+			<td>Type </td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
+	</tr>
+	<tr>
 			<td>Address </td>
 	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
@@ -65,7 +69,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -89,7 +93,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match an object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match the object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -161,7 +165,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Type Confusion </td>
-	<td>Type Confusion final error – A casted pointer and its object have incompatible data types.</td>
+	<td>Type Confusion final error – A cast pointer and its object have incompatible data types.</td>
 	</tr>
 	<tr>
 			<td>   Use After Deallocate </td>
@@ -241,19 +245,19 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>         Address Kind </td>
-	<td>Address Kind operand attribute type - Shows how much memory is accessed (i.e., the span) outside the bounds of an object.</td>
+	<td>Address Kind operand attribute type - Shows how much memory is accessed (i.e., the span) outside of a bound of an object.</td>
 	</tr>
 	<tr>
 			<td>            Huge </td>
-	<td></td>
+	<td>More than 1KB of memory is accessed.</td>
 	</tr>
 	<tr>
 			<td>            Moderate </td>
-	<td></td>
+	<td>Several bytes of memory is accessed.</td>
 	</tr>
 	<tr>
 			<td>            Little </td>
-	<td></td>
+	<td>A few bytes of memory is accessed.</td>
 	</tr>
 	<tr>
 			<td>         Address State </td>
@@ -261,11 +265,11 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>            Stack </td>
-	<td></td>
+	<td>The object is a non-static local variable (defined in a function, a passed parameter, or a function return address).</td>
 	</tr>
 	<tr>
 			<td>            Heap </td>
-	<td></td>
+	<td>The object is a dynamically allocated data structure (e.g., via malloc() and new).</td>
 	</tr>
 	<tr>
 			<td>            /other/ </td>

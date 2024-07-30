@@ -2,7 +2,7 @@
 weight: 3
 title: "MMN"
 ---
-## BF Memory Management (MMN) Class 
+## BF Memory Management (MMN) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Management (MMN) class – An object is allocated, resized, or deallocated improperly.{{< /definition >}}
@@ -73,7 +73,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -105,7 +105,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match an object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match the object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>

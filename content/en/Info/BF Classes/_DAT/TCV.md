@@ -2,7 +2,7 @@
 weight: 3
 title: "TCV"
 ---
-## BF Type Conversion (TCV) Class 
+## BF Type Conversion (TCV) Bugs Class 
 
 #### Definition
 {{< definition >}}Type Conversion (TCV) class – Data are converted or coerced into other type improperly.{{< /definition >}}
@@ -57,7 +57,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -161,7 +161,7 @@ title: "TCV"
 	</tr>
 	<tr>
 			<td>   Subtype Confusion </td>
-	<td>Subtype Confusion final error – A downcasted pointer and its object have incompatible data types.</td>
+	<td>Subtype Confusion final error – A downcast pointer and its object have incompatible data types.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>

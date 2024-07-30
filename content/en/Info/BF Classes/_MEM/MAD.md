@@ -2,7 +2,7 @@
 weight: 3
 title: "MAD"
 ---
-## BF Memory Addressing (MAD) Class 
+## BF Memory Addressing (MAD) Bugs Class 
 
 #### Definition
 {{< definition >}}Memory Addressing (MAD) class – The pointer to an object is initialized, dereferenced, repositioned, or reassigned to an improper memory address.{{< /definition >}}
@@ -52,6 +52,10 @@ title: "MAD"
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
+			<td>Type </td>
+	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
+	</tr>
+	<tr>
 			<td>Address </td>
 	<td>Address operand attribute – The memory address for an object. Its value is data of another object -- the object's pointer, used to reference and traverse it.</td>
 	</tr>
@@ -65,7 +69,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>Code Bug</td>
-	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. A first cause for the chain of weaknesses underlying a software security vulnerability. Must be fixed to resolve the vulnerability.</td>
+	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
@@ -97,7 +101,7 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
-	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match an object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
+	<td>Wrong Size fault/error – The value used as size or length (i.e., the number of elements) does not match the object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -277,11 +281,11 @@ title: "MAD"
 	</tr>
 	<tr>
 			<td>            Stack </td>
-	<td></td>
+	<td>The object is a non-static local variable (defined in a function, a passed parameter, or a function return address).</td>
 	</tr>
 	<tr>
 			<td>            Heap </td>
-	<td></td>
+	<td>The object is a dynamically allocated data structure (e.g., via malloc() and new).</td>
 	</tr>
 	<tr>
 			<td>            /other/ </td>

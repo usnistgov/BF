@@ -1,6 +1,6 @@
 ---
-weight: 1
+weight: 2
 bookHidden: true
 bookCollapseSection: true
-title: "BF Formalism"
+title: "Formalism"
 ---
