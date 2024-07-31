@@ -70,7 +70,8 @@ Parameters:
 
 ## Notes
 
-SFP is an excellent advance. _However, SFP does not tie fault clusters to causes or chains of fault patterns nor to consequences of a particular vulnerability. In addition, since they were derived from CWEs, more work is needed for embedded or mobile concerns, such as, battery drain, physical sensors (e.g. Global Positioning System (GPS) location, gyroscope, microphone, camera) and wireless communications._
+SFP is an excellent advance. _However, SFP does not tie fault clusters to causes or chains of fault patterns nor to consequences of a particular vulnerability. 
+<!-- In addition, since they were derived from CWEs, more work is needed for embedded or mobile concerns, such as, battery drain, physical sensors (e.g. Global Positioning System (GPS) location, gyroscope, microphone, camera) and wireless communications._ -->
 
 ## References
 

@@ -11,10 +11,8 @@ url: /
 <!-- Software Developers 'Best Friend' -->
 
 _____________________________________
-Announcement, July 30, 2024:
-
-[NIST Releases SP 800-231, Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231)
-
+Announcement, July 30, 2024:<br/>
+[NIST Releases SP 800-231, Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231)<br/>
 [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final)
 _____________________________________
 
@@ -22,13 +20,13 @@ The Bugs Framework (BF) is being created as a structured classification system o
 
 <div style="text-indent: 40px">
 
-➢ Software security _[concepts definitions](/BF/info/vulnerability-model/bf-concepts/)_
+➢ Software security _[concepts definitions](/BF/info/formalism/bf-concepts/)_
 
 ➢ A _Bugs model_ with possible flow of operations
 
 ➢ A structured, complete, orthogonal, language and domain independent weakness _[taxonomy](/BF/info/bf-classes)_
 
-➢ A  _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_ of weakness chains leading to failures
+➢ _Vulnerability [Statel](/BF/info/models/bf-vulnerability-state-model/)_ and _[Specification ](/BF/info/models/bf-vulnerability-specification-model/) Models_ of weakness chains leading to failures
 
 ➢ An _LL(1) formal language_ for specification of weaknesses and vulnerabilities
 
@@ -38,7 +36,7 @@ The Bugs Framework (BF) is being created as a structured classification system o
 
 </div>
 
-_Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class (see [BF concepts](/BF/info/vulnerability-model/bf-concepts/)).This assures precise causal descriptions as _(bug, operation, error)_ and _(fault, operation, error)_ triples. _Complete_ means BF has the expressive power to describe precisely any software security bug and weakness. This assures the BF weakness types have no gaps in coverage. _Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures the BF weakness types do not overlap,  as there is no operation with different meanings. _Language and domain independent_ means BF is applicable for source code in any programming language for any platform, operating environment, or application technology. This assures BF is context-free, as an operation cannot have different meanings depending on the context.
+_Structured_ means a weakness is described via one _cause_, one _operation_, one _consequence_, and _attributes_ from the lists defining a BF class (see [BF concepts](/BF/info/formalism/bf-concepts/)).This assures precise causal descriptions as _(bug, operation, error)_ and _(fault, operation, error)_ triples. _Complete_ means BF has the expressive power to describe precisely any software security bug and weakness. This assures the BF weakness types have no gaps in coverage. _Orthogonal_ means the sets of operations of any two BF classes do not overlap. This assures the BF weakness types do not overlap,  as there is no operation with different meanings. _Language and domain independent_ means BF is applicable for source code in any programming language for any platform, operating environment, or application technology. This assures BF is context-free, as an operation cannot have different meanings depending on the context.
 
 The BF _bug model_ combines the _bug models_ of particular BF cluster of classes that reveal possible chains of weaknesses within a particular BF cluster of classes.
 
