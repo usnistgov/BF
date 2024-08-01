@@ -10,7 +10,7 @@ title: "MMN"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MMN.png" >}}
+{{< img src="images/BF Classes/_MEM/MMN.svg" >}}
 
 <table>
 <tr>

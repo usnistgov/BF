@@ -10,7 +10,7 @@ title: "TCM"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/TCM.png" >}}
+{{< img src="images/BF Classes/_DAT/TCM.svg" >}}
 
 <table>
 <tr>

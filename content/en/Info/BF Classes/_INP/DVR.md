@@ -10,7 +10,7 @@ title: "DVR"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVR.png" >}}
+{{< img src="images/BF Classes/_INP/DVR.svg" >}}
 
 <table>
 <tr>

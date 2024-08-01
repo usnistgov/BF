@@ -10,7 +10,7 @@ title: "MUS"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.png" >}}
+{{< img src="images/BF Classes/_MEM/MUS.svg" >}}
 
 <table>
 <tr>
