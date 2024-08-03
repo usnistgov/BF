@@ -15,7 +15,7 @@ The generated digraphs (see Figure 1 and Figure 2) of all input- and output-chec
 The digraphs demonstrate that the DVL and DVR classes cover all input/output check-related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 
 <br/><br/>
-{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Operation.svg" height="800" caption="Figure 1: A digraph of the input- and output-check-related CWEs (including injection-related CWEs), mapped by BF DVL and BF DVR operations. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
+{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Operation.svg" height="800" caption="//to be updated// Figure 1: A digraph of the input- and output-check-related CWEs (including injection-related CWEs), mapped by BF DVL and BF DVR operations. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
 
 Almost all of the 162 CWEs, visualized on the digraph, can be tracked as descendants of the pillar CWE-707; exceptions are CWEs 15, 73 (its child 114), 98, 134, 183, 184, 185 (and its children 186 and 625), 428, 472, 565, and 913.
 
@@ -29,7 +29,7 @@ In Figure 1, the outline color of a CWE node indicates the BF class(es) and oper
 
 The digraph on Figure 2 illustrates how the CWEs map to BF DVL and DVR by consequence.
 <br/>
-{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Consequence.svg" height="800" caption="Figure 2: A digraph of the input- and output-check-related CWEs (including the injection-related CWEs), mapped by BF DVL and BF DVR consequences. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
+{{< svg src="images/CWE2BF/BF _INP - CWE2BF by Consequence.svg" height="800" caption="//to be updated// Figure 2: A digraph of the input- and output-check-related CWEs (including the injection-related CWEs), mapped by BF DVL and BF DVR consequences. Each node represents a CWE by its identifier (ID). Each arrow represent a parent-child relationship" >}}
 
 In Figure 2, the outline color of a CWE node indicates the BF class consequence associated with that CWE: Query Injection, Command Injection, Source Code Injection, Pa- rameter Injection, File Injection, Invalid Data, Wrong Value, Inconsistent Value, or Wrong Type.
 

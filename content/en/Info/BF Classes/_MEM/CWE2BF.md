@@ -15,7 +15,7 @@ The generated digraphs (see Figure 1 and Figure 2) of all memory-related CWEs sh
 The digraphs demonstrate that the MAD, MMN, and MUS classes  cover all memory-related CWEs, and potentially beyond, while providing a better structured way for describing these kinds of bugs/weaknesses.
 
 <br/><br/>
-{{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Operation.svg" height="650" caption="Figure 1. A digraph of memory related CWEs mapped by MAD, MMN, and MUS operations." >}}
+{{< svg src="images/CWE2BF/BF _MEM - CWE2BF by Operation.svg" height="650" caption="//to be updated// Figure 1. A digraph of memory related CWEs mapped by MAD, MMN, and MUS operations." >}}
 <br/>
 
 The digraph helps identify four clusters of memory-related CWEs. Most of these memory-related CWEs can be tracked as children of the pillar CWE-664; exceptions are CWE-476 (NULL Pointer Dereference), CWE-xxx, CWE-596 (Explicit Call to Finalize()), CWE-587(Assignment of a Fixed Address to a Pointer), and CWE-588(Attempt to Access Child of a Non-structure Pointer). The largest cluster comprises the children of CWE-119, which are weaknesses associated with reading and writing outside the boundaries of an object. The second-largest cluster comprises the children of CWE- 400 and CWE-665, which are mainly weaknesses related to memory allocation and object initialization. The children of CWE-404, which are weaknesses associated with improper memory release, form the third cluster. The smallest cluster comprises CWE-704, CWE-588 and CWE-843, which are memory use or deallocation weaknesses due to the mismatch between pointer and object types.
