@@ -1,16 +1,16 @@
 ﻿---
 weight: 3
-title: "DVR"
+title: "DSV"
 ---
-## BF Data Verification (DVR) Bugs Class 
+## BF Data Integrity and Source Verification (DSV) Bugs Class 
 
 #### Definition
-{{< definition >}}Data Verification (DVR) class – Data are verified (i.e., semantics check) or corrected (i.e., assign or remove) improperly.{{< /definition >}}
+{{< definition >}}Data Integrity and Source Verification (DSV) class – Data/Source is crypto verified improperly.{{< /definition >}}
 
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVR.png" >}}
+{{< img src="images/BF Classes/_CDS/DSV.png" >}}
 
 <table>
 <tr>
@@ -28,12 +28,12 @@ title: "DVR"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Verify </td>
-	<td>Verify operation – Check data semantics (e.g., proper value/meaning) in order to accept (and possibly correct) or reject it.</td>
+			<td>Crypto Authenticate </td>
+	<td>Crypto Authenticate is Sing plainttext data digitally with a source private key, or using MAC with a key.</td>
 	</tr>
 	<tr>
-			<td>Correct </td>
-	<td>Correct operation – Modify data (e.g., assign new value, remove) to make it accurate.</td>
+			<td>Crypto Verify </td>
+	<td>Crypto Verify operation – Check signed data are not altered or prove source using source public key or MAC with a key.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -56,6 +56,10 @@ title: "DVR"
 	<td>Missing Code bug - The operation is entirely absent.</td>
 	</tr>
 	<tr>
+			<td>   Added Code </td>
+	<td>Added Code bug - An inappropriate code is added to the implementation of an algorithm.</td>
+	</tr>
+	<tr>
 			<td>   Erroneous Code </td>
 	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
@@ -64,20 +68,28 @@ title: "DVR"
 	<td>Specification Bug type – A defect in the metadata or algorithm of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. It must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
-			<td>   Under-Restrictive Policy </td>
-	<td>Accepts bad data.</td>
+			<td>   Wrong Algorithm </td>
+	<td></td>
 	</tr>
 	<tr>
-			<td>   Over-Restrictive Policy </td>
-	<td>Rejects good data.</td>
+			<td>   Weak Protocol </td>
+	<td></td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
 	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – The data has harmed syntax due to sanitization errors.</td>
+			<td>   Weak Ciphertext </td>
+	<td>Weak Ciphertext fault/error – yyyddd.</td>
+	</tr>
+	<tr>
+			<td>   Weak Key </td>
+	<td>Weak Key fault/error – The key is of an insufficiant length.</td>
+	</tr>
+	<tr>
+			<td>   Weak Random Bits </td>
+	<td>Weak Random Bits fault/error – yyyddd.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -88,20 +100,28 @@ title: "DVR"
 	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Wrong Value </td>
-	<td>Wrong Value fault/error – The data value is not accurate (e.g., outside of a range).</td>
+			<td>   Unverified Data </td>
+	<td>Unverified Data fault/error – yyyddd.</td>
 	</tr>
 	<tr>
-			<td>   Inconsistent Value </td>
-	<td>Inconsistent Value fault/error – The data value does not correspond to related data value (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
+			<td>   Unverified Key </td>
+	<td>Unverified Key fault/error – yyyddd.</td>
 	</tr>
 	<tr>
-			<td>Type Error</td>
-	<td>Type Fault/Error type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
+			<td>Data Security Final Error</td>
+	<td>Data Security final error type – xxx</td>
 	</tr>
 	<tr>
-			<td>   Wrong Type </td>
-	<td>Wrong Type fault/error – A data type range or structure is not correct.</td>
+			<td>   Revealed Key </td>
+	<td>Revealed Key final error – An initialization vectors (IVs) is exposed.</td>
+	</tr>
+	<tr>
+			<td>   Forged Signature </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>   Spoofed Identity </td>
+	<td>Spoofed Identity final error – yyyddd</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -112,24 +132,16 @@ title: "DVR"
 	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
-			<td>   Value </td>
-	<td>Value operation attribute – The operation checks data for a specific value (incl. NULL or list of values).</td>
+			<td>   Hash + RND </td>
+	<td>Hash + RND operation attribute – The operation uses Hash Function + Random Numbers.</td>
 	</tr>
 	<tr>
-			<td>   Quantity </td>
-	<td>Quantity operation attribute – The operation checks data for a specific measurable value (e.g., size, time, rate, frequency).</td>
+			<td>   MAC </td>
+	<td>MAC operation attribute – The operation is via Message Authentication Code.</td>
 	</tr>
 	<tr>
-			<td>   Range </td>
-	<td>Range operation attribute – The operation checks data are within a (min, max) interval.</td>
-	</tr>
-	<tr>
-			<td>   Data Type </td>
-	<td>Data Type operation attribute – The operation checks data for a specific data type.</td>
-	</tr>
-	<tr>
-			<td>   Other Rules </td>
-	<td>Other Rules operation attribute – The operation checks data against other business logic.</td>
+			<td>   Digital Signature </td>
+	<td>Digital Signature operation attribute – The operation is via digital signature.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
@@ -156,12 +168,12 @@ title: "DVR"
 	<td>Execution Space operation attribute type – Shows where the operation with a bug or faulty operand is executed and the privilege level at which it runs.</td>
 	</tr>
 	<tr>
-			<td>   Local </td>
-	<td>Local operation attribute – The bugged code runs in an environment with access control policy with limited (local user) permission.</td>
+			<td>   Userland </td>
+	<td>Userland operation attribute – The bugged code runs in an environment with privilege levels, but in unprivileged mode (e.g., ring 3 in x86 architecture).</td>
 	</tr>
 	<tr>
-			<td>   Admin </td>
-	<td>Admin operation attribute – The bugged code runs in an environment with access control policy with unlimited (admin user) permission.</td>
+			<td>   Kernel </td>
+	<td>Kernel operation attribute – The bugged code runs in an environment with privilege levels with access privileged instructions (e.g., ring 0 in x86 architecture).</td>
 	</tr>
 	<tr>
 			<td>   Bare-Metal </td>
@@ -170,6 +182,22 @@ title: "DVR"
 	<tr>
 			<td><strong>Operands Attributes</strong></td>
 	<td><strong>Definition</strong></td>
+	</tr>
+	<tr>
+			<td>         Data Kind </td>
+	<td>Data Kind operand attribute type – Shows what the type or category of data is.</td>
+	</tr>
+	<tr>
+			<td>            Secret </td>
+	<td>Secret operand attribute – Known only by its more than one owners.</td>
+	</tr>
+	<tr>
+			<td>            Private </td>
+	<td>Private operand attribute – Known only by its only owner.</td>
+	</tr>
+	<tr>
+			<td>            Public </td>
+	<td>Public operand attribute – Published for all the world to see.</td>
 	</tr>
 	<tr>
 			<td>         Data State </td>

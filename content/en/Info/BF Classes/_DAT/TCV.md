@@ -10,7 +10,7 @@ title: "TCV"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/TCV.svg" >}}
+{{< img src="images/BF Classes/_DAT/TCV.png" >}}
 
 <table>
 <tr>

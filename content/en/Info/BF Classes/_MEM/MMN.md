@@ -10,7 +10,7 @@ title: "MMN"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MMN.svg" >}}
+{{< img src="images/BF Classes/_MEM/MMN.png" >}}
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
-	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
+	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine was used.</td>
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
@@ -149,7 +149,7 @@ title: "MMN"
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
-	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
+	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine was used.</td>
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>

@@ -10,7 +10,7 @@ title: "MUS"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.svg" >}}
+{{< img src="images/BF Classes/_MEM/MUS.png" >}}
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Wild Pointer </td>
-	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine is used.</td>
+	<td>Wild Pointer fault/error – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine was used.</td>
 	</tr>
 	<tr>
 			<td>   Dangling Pointer </td>
@@ -165,7 +165,7 @@ title: "MUS"
 	</tr>
 	<tr>
 			<td>   Type Confusion </td>
-	<td>Type Confusion final error – A cast pointer and its object have incompatible data types.</td>
+	<td>Type Confusion final error – A cast pointer and its object have incompatible data types, so the object data will be interpreted via a different data type).</td>
 	</tr>
 	<tr>
 			<td>   Use After Deallocate </td>

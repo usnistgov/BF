@@ -10,7 +10,7 @@ title: "NRS"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/NRS.svg" >}}
+{{< img src="images/BF Classes/_DAT/NRS.png" >}}
 
 <table>
 <tr>
