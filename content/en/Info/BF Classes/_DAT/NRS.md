@@ -77,10 +77,6 @@ title: "NRS"
 	<td>Name Fault/Error type – The fully resolved name of an entity is wrong.</td>
 	</tr>
 	<tr>
-			<td>   Missing Overridden Function </td>
-	<td>Missing Overridden Function fault/error – The function implementation in a particular subclass is absent.</td>
-	</tr>
-	<tr>
 			<td>   Missing Overloaded Function </td>
 	<td>Missing Overloaded Function fault/error – Code for particular function parameters' data types is absent.</td>
 	</tr>
@@ -90,7 +86,7 @@ title: "NRS"
 	</tr>
 	<tr>
 			<td>   Incomplete Type </td>
-	<td>Incomplete Type fault/error – A specific constructor, method, or overloaded function is missing.</td>
+	<td>Incomplete Type fault/error – A specific constructor, method, or overridden function is missing.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Generic Type </td>
