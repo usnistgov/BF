@@ -12,6 +12,7 @@ title: "NRS"
 
 {{< img src="images/BF Classes/_DAT/NRS.svg" >}}
 
+
 <table>
 <tr>
 <td>

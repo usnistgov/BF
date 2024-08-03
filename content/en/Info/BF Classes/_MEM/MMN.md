@@ -12,6 +12,7 @@ title: "MMN"
 
 {{< img src="images/BF Classes/_MEM/MMN.svg" >}}
 
+
 <table>
 <tr>
 <td>

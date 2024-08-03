@@ -12,6 +12,7 @@ title: "DVL"
 
 {{< img src="images/BF Classes/_INP/DVL.svg" >}}
 
+
 <table>
 <tr>
 <td>

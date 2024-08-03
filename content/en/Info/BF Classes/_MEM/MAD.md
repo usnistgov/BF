@@ -12,6 +12,7 @@ title: "MAD"
 
 {{< img src="images/BF Classes/_MEM/MAD.svg" >}}
 
+
 <table>
 <tr>
 <td>
