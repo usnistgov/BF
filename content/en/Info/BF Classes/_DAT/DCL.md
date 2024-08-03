@@ -10,7 +10,7 @@ title: "DCL"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/DCL.png" >}}
+{{< img src="images/BF Classes/_DAT/DCL.svg" >}}
 
 <table>
 <tr>

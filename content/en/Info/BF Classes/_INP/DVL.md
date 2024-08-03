@@ -10,7 +10,7 @@ title: "DVL"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_INP/DVL.png" >}}
+{{< img src="images/BF Classes/_INP/DVL.svg" >}}
 
 <table>
 <tr>

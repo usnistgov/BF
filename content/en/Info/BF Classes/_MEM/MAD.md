@@ -10,7 +10,7 @@ title: "MAD"
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MAD.png" >}}
+{{< img src="images/BF Classes/_MEM/MAD.svg" >}}
 
 <table>
 <tr>
