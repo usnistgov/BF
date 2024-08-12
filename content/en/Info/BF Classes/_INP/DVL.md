@@ -30,11 +30,11 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Validate </td>
-	<td>Validate operation – Check data syntax (e.g., proper form or grammar, including missing symbols or elements) in order to accept (and possibly sanitize) or reject it.</td>
+	<td>Validate operation – Check data syntax (e.g., proper form or grammar, missing symbols or elements) in order to accept or sanitize it.</td>
 	</tr>
 	<tr>
 			<td>Sanitize </td>
-	<td>Sanitize operation – Modify data (e.g., neutralize/escape, filter/remove, repair/add symbols) to make it valid (well-formed).</td>
+	<td>Sanitize operation – Modify data (e.g., neutralize/escape, repair/add, filter/remove symbols or elements) to make it valid (well-formed).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -54,7 +54,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>Missing Code bug - The operation is entirely absent.</td>
+	<td>Missing Code bug - The operation is misplaced entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -102,7 +102,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – The data has harmed syntax due to sanitization errors.</td>
+	<td>Invalid Data fault/error – The data has harmed syntax due to validation or sanitization errors.</td>
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>

@@ -54,7 +54,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Missing Code </td>
-	<td>Missing Code bug - The operation is entirely absent.</td>
+	<td>Missing Code bug - The operation is misplaced entirely absent.</td>
 	</tr>
 	<tr>
 			<td>   Erroneous Code </td>
@@ -78,7 +78,7 @@ title: "DVR"
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – The data has harmed syntax due to sanitization errors.</td>
+	<td>Invalid Data fault/error – The data has harmed syntax due to validation or sanitization errors.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
