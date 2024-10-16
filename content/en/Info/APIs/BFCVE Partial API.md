@@ -11,7 +11,7 @@ To retrieve examplary formal BFCVE specifications use:
 
 <!-- [https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS)](https://samate.nist.gov/services/BF/BFCVEpartial/api?Comment=via+Cross-site+scripting+(XSS)) -->
 
-[https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79](https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79)
+<!-- [https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79](https://samate.nist.gov/services/BF/BFCVEpartial/api?cwe=79) -->
 
 [https://samate.nist.gov/services/BF/BFCVEpartial/api?cve=CVE-2005-10002](https://samate.nist.gov/services/BF/BFCVEpartial/api?cve=CVE-2005-10002)
 
