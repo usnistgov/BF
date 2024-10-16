@@ -7,14 +7,13 @@ title: "BF Tool"
 
 //to be added//
 
-<!-- BF is a classification system of software bugs and weaknesses that allows precise descriptions of security vulnerabilities exploiting such weaknesses.
+BF is a classification system of software and hardware bugs and faults that allows formal speification of security vulnerabilities exploiting such weaknesses.
 
 The BF Tool facilitates the use of the BF taxonomy in describing security vulnerabilities according to the BF [Vulnerability Model](/BF/info/vulnerability-model/bf-vulnerability-model/). It guides the creation of BF vulnerability decryptions and graphical representations (e.g. in [BFCVE](/BF/info/bfcve) on the left). The BF Tool is in C#, and will run on current MS Windows OS. 
 
-To obtain the BF tool, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov). Alternatively, please register here. We ask you only for an email address to which to send you a unique download link.
-<!-- and for the name of your organization to informa our management about the interest in BF. Alternatively, please send a request to Irena Bojanova at [irena.bojanova@nist.gov](irena.bojanova@nist.gov) including the name of your organization. -->
+To obtain the BF tool, please register here. We ask you only for an email address, organization, and purpose.
 
-<!-- <div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Register to Download the BF Tool{{< /button >}}</div> -->
+<div style="text-align:center">{{< button href="https://forms.gle/Uu2jEdHXCNJMZBKu8" >}}Request Form{{< /button >}}</div>
 
 <!-- or directly download it from here: [BF Tool](https://github.com/usnistgov/BF/tree/main/static/BF%20Tool) -->
 
