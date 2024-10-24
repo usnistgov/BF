@@ -7,7 +7,7 @@ title: "BFCVE API"
 
 BFCVE Version 1.0 comprizes the formal BF CVE specifications in XML format. 
 
-To retrieve examplary formal BFCVE specifications use:
+To retrieve an EXCERPT of the formal BFCVE specifications use:
 
 [https://samate.nist.gov/services/BF/BFCVE/api](https://samate.nist.gov/services/BF/BFCVE/api)
 

@@ -1,13 +1,13 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF API"
+title: "BF Taxonomy API"
 ---
-# BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Taxonomy API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-BF Version 1.0 comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the Failure (_FLR) Class Type.
+The BF Taxonomy Version 1.0 comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the Failure (_FLR) Class Type.
 
-To retrieve all current BF classes use:
+To retrieve an EXERPT of the current BF class types use:
 
 [https://samate.nist.gov/services/BF/BFTaxonomy/api](https://samate.nist.gov/services/BF/BFTaxonomy/api)
 
