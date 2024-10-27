@@ -1,28 +1,28 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF Taxonomy API"
+title: "BF API"
 ---
-# BF Taxonomy API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 The BF Taxonomy Version 1.0 comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the Failure (_FLR) Class Type.
 
 To retrieve an EXERPT of the current BF class types use:
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api](https://samate.nist.gov/services/BF/BFTaxonomy/api)
+[https://samate.nist.gov/services/BF/BF/api](https://samate.nist.gov/services/BF/BF/api)
 
 To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,:
 <!-- site -->
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api?classType=_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/api?ClassType=_MEM)
+[https://samate.nist.gov/services/BF/BF/api?classType=_MEM](https://samate.nist.gov/services/BF/BF/api?ClassType=_MEM)
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BFTaxonomy/api?Class=MUS&Class=DVL)
+[https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BF/api?Class=MUS&Class=DVL)
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BFTaxonomy/api?Fault=NULL+Pointer)
+[https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BF/api?Fault=NULL+Pointer)
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BFTaxonomy/api?Attribute=Sequential)
+[https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential)
 
-[https://samate.nist.gov/services/BF/BFTaxonomy/api?classType=_FLR](https://samate.nist.gov/services/BF/BFTaxonomy/api?ClassType=_FLR)
+[https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR)
 
 </br>
 CITATION 

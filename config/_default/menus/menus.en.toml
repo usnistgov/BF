@@ -81,10 +81,10 @@
   url = "/Info/APIs/BF API"
   parent = "APIs"
 [[main]]
-  name = "BF Backwards API"
+  name = "BFCVE Backward API"
   weight = 1
-  identifier = "BF Backwards API"
-  url = "/Info/APIs/BF Backwards API"
+  identifier = "BFCVE Backward API"
+  url = "/Info/APIs/BFCVE Backward API"
   parent = "APIs"
 [[main]]
   name = "BFCWE API"
