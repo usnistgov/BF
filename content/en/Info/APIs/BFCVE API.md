@@ -32,7 +32,7 @@ BFCVE could be quesried alsby by programming language, CVSS score (//to be added
 
 ___________________________
 
-The corresponding .bfcve files are also available at [https://github.com/ibojanova/BFCVE-Dataset/tree/main/BFCVE](https://github.com/ibojanova/BFCVE-Dataset/tree/main/BFCVE). They can be open with the [https://usnistgov.github.io/BF/info/tools/bf-tool](BF Tool).
+<!-- The corresponding .bfcve files are also available at [https://github.com/ibojanova/BFCVE-Dataset/tree/main/BFCVE](https://github.com/ibojanova/BFCVE-Dataset/tree/main/BFCVE). They can be open with the [https://usnistgov.github.io/BF/info/tools/bf-tool](BF Tool). -->
 
 </br>
 CITATION 

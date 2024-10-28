@@ -11,18 +11,21 @@ To retrieve an EXERPT of the current BF class types use:
 
 [https://samate.nist.gov/services/BF/BF/api](https://samate.nist.gov/services/BF/BF/api)
 
-To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,:
+
+//to be added//
+
+<!-- To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,: -->
 <!-- site -->
 
-[https://samate.nist.gov/services/BF/BF/api?classType=_MEM](https://samate.nist.gov/services/BF/BF/api?ClassType=_MEM)
+<!-- [https://samate.nist.gov/services/BF/BF/api?classType=_MEM](https://samate.nist.gov/services/BF/BF/api?ClassType=_MEM) -->
 
-[https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BF/api?Class=MUS&Class=DVL)
+<!-- [https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BF/api?Class=MUS&Class=DVL) -->
 
-[https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BF/api?Fault=NULL+Pointer)
+<!-- [https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BF/api?Fault=NULL+Pointer) -->
 
-[https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential)
+<!-- [https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential) -->
 
-[https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR)
+<!-- [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) -->
 
 </br>
 CITATION 

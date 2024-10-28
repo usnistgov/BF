@@ -11,7 +11,7 @@ The BF BFCVE Backwards API allows quering the BF taxonomy for acyclic graphs wit
 
 [https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX/xml?cause=Over%20Bounds%20Pointer&operation=Read&finalError=Buffer%20Over-Read](https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX/xml?cause=Over%20Bounds%20Pointer&operation=Read&finalError=Buffer%20Over-Read)
 
-Could be only by Failure and Final Operation and Final Error -- e.g.,:
+<!-- Could be only by Failure and Final Operation and Final Error -- e.g.,:
 
 [https://samate.nist.gov/services/BF/BFCVEbackward/api/ACE/xml?operation=Write&finalError=Buffer%20Overflow](https://samate.nist.gov/services/BF/BFCVEbackward/api/ACE/xml?operation=Write&finalError=Buffer%20Overflow)
 
@@ -24,7 +24,7 @@ Could be in JSON format:
 
 [https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX/json?operation=Write&finalError=Buffer%20Overflow](https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX/json?operation=Write&finalError=Buffer%20Overflow)
 
-[https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow](https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow) -- same as above
+[https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow](https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow) -- same as above -->
 
 
 </br>
