@@ -9,7 +9,6 @@ title: "DVL"
 
 ####  Taxonomy
 
-
 {{< img src="images/BF Classes/_INP/DVL.svg" >}}
 
 
