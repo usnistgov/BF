@@ -11,8 +11,8 @@ To retrieve an EXERPT of the current BF class types use:
 
 [https://samate.nist.gov/services/BF/BF/api](https://samate.nist.gov/services/BF/BF/api)
 
-
-//to be added//
+______________________________________
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)._
 
 <!-- To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,: -->
 <!-- site -->
@@ -27,13 +27,14 @@ To retrieve an EXERPT of the current BF class types use:
 
 <!-- [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) -->
 
-</br>
-CITATION 
 
-_____________________________________________________________
+<!-- </br> -->
+<!-- CITATION  -->
 
-Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api).
-</br></br>
+<!-- _____________________________________________________________ -->
+
+<!-- Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api). -->
+<!-- </br></br> -->
 
 <!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_mem/) -->
 <!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->

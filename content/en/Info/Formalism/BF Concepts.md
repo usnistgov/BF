@@ -41,8 +41,4 @@ Fixing the bug or hardware defect-induced fault will resolve the vulnerability, 
 
 _____________________________________
 
-BF WEBSITE CITATION: <br/> 
-<l style="font-size: 15px; color: #7D3368"> Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF](https://usnistgov.github.io/BF).</l>
-
-BF SP CITATION: <br/>
-<l style="font-size: 15px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [htps://doi.org/10.6028/NIST.SP.800-231](htps://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [htps://doi.org/10.6028/NIST.SP.800-231](htps://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

@@ -26,10 +26,5 @@ Could be in JSON format:
 
 [https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow](https://samate.nist.gov/services/BF/BFCVEbackward/api/IEX?operation=Write&finalError=Buffer%20Overflow) -- same as above -->
 
-
-</br>
-CITATION 
-
-_____________________________________________________________
-
-Bojanova, I., Bugs Framework (BF) -- BF BFCVEbackward API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-BFCVEbackward-api](https://usnistgov.github.io/BF/info/apis/bf-BFCVEbackward-api).
+______________________________________
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)._

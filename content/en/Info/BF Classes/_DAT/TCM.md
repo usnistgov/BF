@@ -9,6 +9,5 @@ title: "TCM"
 
 ####  Taxonomy
 
-Provide your indended use of the Bugs Framework (BF):
-
-<div style="text-align:center">{{< button href="https://forms.gle/SRZyva5Vn1i4dQQ2A">}}BF Form{{</button>}}</div>
+_____________________________________
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

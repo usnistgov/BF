@@ -9,6 +9,7 @@ title: "DCL"
 
 ####  Taxonomy
 
-Provide your indended purpose of use to get access:
+_____________________________________
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
 
-<div style="text-align:center">{{< button href="https://forms.gle/SRZyva5Vn1i4dQQ2A">}}BF Form{{</button>}}</div>
+<!-- <div style="text-align:center">{{< button href="https://forms.gle/SRZyva5Vn1i4dQQ2A">}}BF Form{{</button>}}</div> -->
