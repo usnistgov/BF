@@ -85,3 +85,5 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/@hyas/images/layouts"
     target = "layouts"
+
+  googleAnalytics = "G-PJ364XPP9F" 
