@@ -4,6 +4,17 @@ bookCollapseSection: false
 title: "BF Welcome"
 url: /
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
 # Bugs Framework (BF): <l style="color: #0428AE">Formalizing Software Security Weaknesses and Vulnerabilities</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
