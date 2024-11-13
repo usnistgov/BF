@@ -2,6 +2,17 @@
 title: "CVE"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Common Vulnerabilities and Exposures (CVE)
 
 The Common Vulnerabilities and Exposures (CVE) is "a dictionary of publicly known information security vulnerabilities and exposures" [1]. "CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services." [1]

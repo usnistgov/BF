@@ -3,6 +3,16 @@ weight: 1
 bookCollapseSection: false
 title: "BF Concepts"
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
 # BF Security Concepts<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 `A BF _security bug_ or _weakness type_ relates to a distinct software, firmware (including microcode), or hardware circuit logic _execution phase_ defined by a set of BF operations and their input operands and output results.  

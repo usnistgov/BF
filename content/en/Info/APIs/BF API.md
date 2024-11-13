@@ -3,6 +3,17 @@ weight: 2
 bookCollapseSection: false
 title: "BF API"
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 The BF Taxonomy Version 1.0 comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the Failure (_FLR) Class Type.
@@ -12,7 +23,7 @@ To retrieve an EXERPT of the current BF class types use:
 [https://samate.nist.gov/services/BF/BF/api](https://samate.nist.gov/services/BF/BF/api)
 
 ______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)._
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
 
 <!-- To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,: -->
 <!-- site -->

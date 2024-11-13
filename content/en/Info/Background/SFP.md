@@ -2,6 +2,17 @@
 title: "SFP"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Software Fault Patterns (SFP)
 
 The Software Fault Patterns (SFP) [1] are a clustering of CWEs into related weakness categories. Each cluster is factored into formally defined attributes, with sites ("footholds"), conditions, properties, sources, sinks, etc. This work overcomes the problem of combinations of attributes in CWE. For instance, the SFP factored attributes are more clear than the irregular coverage of CWEs.

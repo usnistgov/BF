@@ -2,6 +2,17 @@
 weight: 4
 title: "CWE2BF"
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Input/Output Check CWEs to BF Classes <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 BF Input/Output Check taxonomy can be used by bug reporting tools, as it is a structured extension over input, output, and injection-related CWEs. All Input/Output Check Error consequences from the BF classes relate to one or more CWEs.

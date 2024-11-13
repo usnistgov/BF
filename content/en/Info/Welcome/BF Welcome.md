@@ -25,7 +25,7 @@ _____________________________________
 [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
 [NIST CSRC: NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231); [NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)
 
-`The US Government has filed a patent application for the "Bugs Framework (BF) System and Methods". To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`
+`The US Government has filed a patent application "Bugs Framework (BF): Formalizing Software Security Weaknesses and Vulnerabilities". To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`
 
 <!-- `The US Government has filed a patent application for the "Bugs Framework (BF) System and Methods". For collaboration, research, or implementation options, contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).` -->
 _____________________________________

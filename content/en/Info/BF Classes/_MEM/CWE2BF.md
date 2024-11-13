@@ -2,6 +2,17 @@
 weight: 7
 title: "CWE2BF"
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Memory CWEs to BF Classes <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structured extension over memory-related CWEs. All Memory Error consequences from the BF classes relate to one or more CWEs.

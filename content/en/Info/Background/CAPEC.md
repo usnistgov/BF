@@ -2,6 +2,17 @@
 title: "CAPEC"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Common Attack Pattern Enumeration and Classification (CAPEC)
 
 The Common Attack Pattern Enumeration and Classification (CAPEC) "is a comprehensive dictionary and classification taxonomy of known attacks that can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses" [1].

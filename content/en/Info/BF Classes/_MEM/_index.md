@@ -3,7 +3,16 @@ weight: 3
 bookCollapseSection: true
 title: "_MEM"
 ---
-<!-- !!! content is the same as the _index.md -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
 
 # BF Memory Corruption/Disclosure (_MEM) Class Type <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 

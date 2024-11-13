@@ -3,6 +3,17 @@ weight: 6
 bookCollapseSection: false
 title: BF Publications
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # BF Publications <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 Please, reference BF publications `recent than year 2020`, as some old BF classes are now covered by new more comprehensive classes and some -- are withdrawn. They also start developing my ideas on `BF's formalism` -- originally shared in my 2014/2015 presentations. Please use as source about the BF class taxonomies this website and the publications listed here -- any other publications may provide misleading information. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
@@ -18,7 +29,7 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 | Bojanova, I. and Cardoso Galhardo, C., [Heartbleed Revisited: Is it just a Buffer Over-Read?](https://www.nist.gov/publications/heartbleed-revisited-it-just-buffer-over-read), in IT Professional, vol. 25, no. 2, pp. 83-89, Mar.-Apr. 2023, doi: [10.1109/MITP.2023.3259119](https://doi.org/10.1109/MITP.2023.3259119). |
 | Bojanova, I. and Cardoso Galhardo, C., [Bug, Fault, Error, or Weakness: Demystifying Software Security Vulnerabilities](https://www.nist.gov/publications/bug-fault-error-or-weakness-demystifying-software-security-vulnerabilities), IT Professional, vol. 25, no. 1, pp. 7-12, Jan.-Feb. 2023, doi: [10.1109/MITP.2023.3238631](https://doi.ieeecomputersociety.org/10.1109/MITP.2023.3238631). | 
 | Bojanova, I., Cardoso Galhardo, C. and Moshtari, S., [Data Type Bugs Taxonomy: Integer Overflow, Juggling, and Pointer Arithmetics in Spotlight](https://www.nist.gov/publications/data-type-bugs-taxonomy-integer-overflow-juggling-and-pointer-arithmetics-spotlight), _2022 IEEE 29th Annual Software Technology Conference (STC)_, 2022, pp. 192-205, doi: [10.1109/STC55697.2022.00035](https://doi.org/10.1109/STC55697.2022.00035), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=935220). |
-| Bojanova, I., Cardoso Galhardo, C. and Moshtari, S., [Input/Output Check Bugs Taxonomy: Injection Errors in Spotlight](https://www.nist.gov/publications/inputoutput-check-bugs-taxonomy-injection-errors-spotlight)], _2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)_, 2021, pp. 111-120 , doi: [10.1109/ISSREW53611.2021.00052](https://doi.org/10.1109/ISSREW53611.2021.00052), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933193) |
+| Bojanova, I., Cardoso Galhardo, C. and Moshtari, S., [Input/Output Check Bugs Taxonomy: Injection Errors in Spotlight](https://www.nist.gov/publications/inputoutput-check-bugs-taxonomy-injection-errors-spotlight)], _2021 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)_, 2021, pp. 111-120, doi: [10.1109/ISSREW53611.2021.00052](https://doi.org/10.1109/ISSREW53611.2021.00052), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933193) |
 | Bojanova, I. and Cardoso Galhardo, C., [Classifying Memory Bugs Using Bugs Framework Approach](https://www.nist.gov/publications/classifying-memory-bugs-using-bugs-framework-approach), _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021), pp. 1157-1164, doi: [10.1109/COMPSAC51774.2021.00159](https://doi.org/10.1109/COMPSAC51774.2021.00159), [Local Download (has CWE-BF di-graphs with links)](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930038) | 
 | Gueye, A., Cardoso Galhardo, C., Bojanova, I. and P. Mell, [A Decade of Reoccurring Software Weaknesses](https://www.nist.gov/publications/decade-reoccurring-software-weaknesses), in _IEEE Security & Privacy_, vol. 19, no. 6, pp. 74-82, Nov.-Dec. 2021, doi: [10.1109/MSEC.2021.3082757](https://doi.org/10.1109/MSEC.2021.3082757). |
 | Bojanova, I., [The Bugs Framework (BF)](../../../Presentations/Bugs_Framework-COMPSAC_2021-287--06012021.pdf); [The Bugs Framework (BF) - with notes](../../../Presentations/Bugs_Framework-COMPSAC_2021-287-notes--06012021.pdf), _2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC_, 2021) |

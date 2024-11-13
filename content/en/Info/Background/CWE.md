@@ -2,6 +2,17 @@
 title: "CWE"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Common Weakness Enumeration (CWE)
 
 The Common Weakness Enumeration (CWE) is an "encyclopedia" of over 600 types of software weaknesses [\[1\]](#ref). Some of the classes are buffer overflow, directory traversal, OS injection, race condition, cross-site scripting, hard-coded password and insecure random numbers. CWE is a widely-used compilation, which has gone through many iterations. Many tools and projects are based on it. Each CWE has a variety of information, such as description summary, extended description, white box definition, consequences, examples, background details and other notes, recorded occurrences (Common Vulnerabilities and Exposures or CVE), mitigations, relations to other CWEs, and references.

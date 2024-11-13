@@ -2,6 +2,17 @@
 title: "ISOIECJTCTR"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # ISO/IEC JTC1/SC22/WG23 Technical Report "Guidance to Avoiding Vulnerabilities in Programming Languages
 
 ISO/IEC/JTC 1/SC 22/WG 23 is working on a Technical Report (RT), which includes a "taxonomic hierarchy of vulnerabilities", giving each vulnerability an arbitrary three-letter code [1]. The general part, TR 24772-1, is an and applies to all languages. There are many supplements, one for each language -- for example, TR24772-2 Ada, TR24772-3 C, and TR24772-9 C++.

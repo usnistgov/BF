@@ -2,6 +2,17 @@
 title: "SOAR"
 bookHidden: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Software State-of-the-Art Resources (SOAR) Matrix
 
 The Software State-of-the-Art Resources (SOAR) Matrix defines and describes a process for selecting and using appropriate analysis tools and techniques for evaluating software for software (security) assurance. In particular, it identifies types of tools and techniques available for evaluating software, as well as the following technical objectives those tools and techniques can meet. [1]

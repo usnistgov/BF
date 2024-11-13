@@ -2,6 +2,17 @@
 weight: 1
 title: "Organizational Structures"
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ364XPP9F');
+</script>
+
 # Organizational Structures
 
 There have been many efforts to create organizational structures about software security bugs and weaknesses. Such examples are the [Landwehr et. al. Taxonomy of Computer Program Security Flaws](https://apps.dtic.mil/sti/pdfs/ADA465587.pdf) and the [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/), and the [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/). However, we need more formal approaches to produce precise, machine-readable descriptions of all software security vulnerabilities underlined by such weaknesses that eventually lead to software security failures. This would allow the creation of labeled datasets for diverse related ML and AI research. 
