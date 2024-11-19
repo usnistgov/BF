@@ -27,9 +27,7 @@ The BFCWE API queries the BFCWE specifications by BF taxon values -- e.g., Cause
 To filter the BFCVE use parameters such as CauseType, Cause, Operation, ConseqeunceType, Conseqeunce, Operation Attribute, Operand Attribute -- e.g.,:
 <!-- site -->
 
-[/https://samate.nist.gov/services/BF/BFCWE/api?operation=Sanitize](https://samate.nist.gov/services/BF/BFCWE/api?operation=Sanitize)
-
-[/https://samate.nist.gov/services/BF/BFCWE/api?consequence=Buffer Over-Read](/https://samate.nist.gov/services/BF/BFCWE/api?consequence=Buffer Over-Read)
+[https://samate.nist.gov/services/BF/BFCWE/api?operation=Sanitize](https://samate.nist.gov/services/BF/BFCWE/api?operation=Sanitize)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
