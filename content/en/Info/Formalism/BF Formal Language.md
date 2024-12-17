@@ -33,4 +33,4 @@ The BF LL(1) ACFG adds the *Type* synthesized attribute for the nonterminals *Fa
 
 _____________________________________
 
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [htps://doi.org/10.6028/NIST.SP.800-231](htps://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

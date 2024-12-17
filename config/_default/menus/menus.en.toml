@@ -28,12 +28,6 @@
   name = "Formalism"
   weight = 30
   identifier = "Formalism"
-  [[main]]
-  name = "BF Features"
-  weight = 1
-  identifier = "BF Features"
-  url = "/Info/Formalism/BF Features"
-  parent = "Features"
 [[main]]
   name = "BF Concepts"
   weight = 1
