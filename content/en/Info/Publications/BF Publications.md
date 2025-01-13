@@ -47,7 +47,7 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 | --- |
 | Bojanova, I., [Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/ONCD-Bugs-Framework-(BF)-Irena-Bojanova-04042024.pdf), Office of the National Cyber Director (ONCD), Apr, 4, 2024. |
 | Bojanova, I., [Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/NDIA-T&AC-Bugs-Framework-(BF)-Irena-Bojanova-03282024.pdf), National Defense Industrial Association (NDIA) Trust & Assurance Committee (T&AC), Mar. 28, 2024. |
-| Bojanova, I., [Bugs Framework (BF): Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities](https://www.nist.gov/publications/bugs-framework-bf-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
+| Bojanova, I., [Bugs Framework (BF): Formalizing Cybersecurity Security Bugs, Weaknesses, and Vulnerabilities](https://www.nist.gov/publications/bugs-framework-bf-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
 | Bojanova, I., [BF: Bug, Fault, Error, Weakness, or Vulnerability](https://www.nist.gov/publications/bug-fault-error-weakness-or-vulnerability-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
 | Bojanova, I., [Labeling Software Security Vulnerabilities](https://www.nist.gov/publications/labeling-software-security-vulnerabilities-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
 | Bojanova, I., [Bugs Framework (BF): Overview](../../../Presentations/NIST-INMETRO-Bugs-Framework-Irena-Bojanova-11082023.pdf), NIST - INMETRO Discussion with Brazilian Government officials, Nov. 08, 2023. |
