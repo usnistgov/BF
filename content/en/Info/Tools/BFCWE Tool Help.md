@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BF Tool Help"
+title: "BFCWE Tool Help"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,7 +14,7 @@ title: "BF Tool Help"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Tool Help<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BFCWE Tool Help<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
 //more details to be added//
 
