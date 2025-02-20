@@ -16,7 +16,7 @@ title: "BFCVE API"
 
 # BF CVE API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-BFCVE Version 1.0 comprizes the formal BF CVE specifications in XML format. 
+The BFCVE API generates and filters BF CVE specifications in XML (JSON to be added) format. 
 
 To retrieve an EXCERPT of the formal BFCVE specifications use:
 

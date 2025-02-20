@@ -16,53 +16,54 @@ title: "BF API"
 
 # BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-The BF Taxonomy Version 1.0 comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the Failure (_FLR) Class Type.
+The current BF Taxonomy comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Weakness Class Types and the BF Failure (_FLR) Class Type.
 
-To retrieve an EXERPT of the current BF class types use:
+The BF API generates and filters the BF Taxonomy in XML and JSON formats.
 
-[https://samate.nist.gov/services/BF/BF/api](https://samate.nist.gov/services/BF/BF/api)
+- BF excerpt --- without BF API Key
 
-______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+  [https://samate.nist.gov/services/BF/BF/api/xml](https://samate.nist.gov/services/BF/BF/api/xml) </br>
+  [https://samate.nist.gov/services/BF/BF/api/json](https://samate.nist.gov/services/BF/BF/api/json)
 
-<!-- To filter the BF taxonomy by BF taxon values --- i.e., ClassType, Class, Bug, Fault, Error, FinalError, Operation, Operand, Operation Attribute, Operand Attribute --- use them as parameters, e.g.,: -->
-<!-- site -->
+- BF full  --- with BF API Key &rarr; [Inquiry](https://forms.gle/SRZyva5Vn1i4dQQ2A)
 
-<!-- [https://samate.nist.gov/services/BF/BF/api?classType=_MEM](https://samate.nist.gov/services/BF/BF/api?ClassType=_MEM) -->
+  https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey </br>
+  https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey
 
-<!-- [https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BF/api?Class=MUS&Class=DVL) -->
+  C#
 
-<!-- [https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BF/api?Fault=NULL+Pointer) -->
+      string apiUrl = "https://samate.nist.gov/services/BF/BF/api/xml";
+      string username = "YourName";
+      string apiKey = "YourAPIKey";
 
-<!-- [https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential) -->
+      using (HttpClient client = new HttpClient())
+      {
+          client.DefaultRequestHeaders.Add("usernameH", username);
+          client.DefaultRequestHeaders.Add("apiKeyH", apiKey);
 
-<!-- [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) -->
+          HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+          if (response.IsSuccessStatusCode)
+          {
+              string responseData = await response.Content.ReadAsStringAsync();
+              Console.WriteLine("Response Data: " + responseData);
+          }
+          else
+              Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+      }
 
 
-<!-- </br> -->
-<!-- CITATION  -->
+  BF can be queried by BF taxon values --- e.g., 
 
-<!-- _____________________________________________________________ -->
+  - ClassType: [https://samate.nist.gov/services/BF/BF/api?classType=_MEM](https://samate.nist.gov/services/BF/BF/api?ClassType=_MEM) </br>
 
-<!-- Bojanova, I. Bugs Framework (BF) API, NIST. Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF/info/apis/bf-api](https://usnistgov.github.io/BF/info/apis/bf-api). -->
-<!-- </br></br> -->
+  - Class, Operation, Operand: [https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL](https://samate.nist.gov/services/BF/BF/api?class=MUS&class=DVL) </br>
 
-<!-- The BF _MEM ClassType can be accesses from here: [https://samate.nist.gov/BF/api/_MEM/](https://samate.nist.gov/BF/api/_mem/) -->
-<!-- samate-internal.nist.gov/BF/api/cve/CVE-111 -->
+  - Bug/Fault, Error/FinalError: [https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer](https://samate.nist.gov/services/BF/BF/api?fault=NULL+Pointer) </br>
 
-<!-- [BF%20_MEM.xml] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/XML/BF.xml)
-[BF.xml.sha256] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/XML/BF.xml.sha256)
+  - Attributes: [https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential) </br>
 
-[BF%20_MEM.json] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/JSON/BF%20_MEM.json)
-[BF%20_MEM.json.sha256] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/JSON/BF%20_MEM.json.sha256)
-
-[BF%20_MEM.pdf] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/Graphs/BF%20_MEM.pdf)
-[BF%20_MEM.pdf.sha256] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/Graphs/BF%20_MEM.pdf.sha256)
-
-[BF%20_MEM%20-%20CWE2BF%20by%20Operation%20.pdf] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/CWE2BF/BF%20_MEM%20-%20CWE2BF%20by%20Operation%20.pdf)
-
-[BF%20_MEM%20-%20CWE2BF%20by%20Operation%20.pdf.sha256] (https://data.nist.gov/od/ds/ark:/88434/mds2-3048/BF/CWE2BF/BF%20_MEM%20-%20CWE2BF%20by%20Operation%20.pdf.sha256) -->
-
-<!-- Please register here to download the current versions of the under development BF Classes by Class Type. We ask you only for an email address to which to send you a unique download link and for the name of your organization to informa our management about the interest in BF.
-<br/><br/>
-<div style="text-align:center">{{< button href="xxx" >}}Register Here{{< /button >}}</div> -->
+  - Failure: [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) </br>
+  
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

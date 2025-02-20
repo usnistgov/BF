@@ -51,18 +51,18 @@
   identifier = "BF Tool"
   url = "/Info/Tools/BF Tool"
   parent = "Tools"
-[[main]]
-  name = "BFCWE Tool"
-  weight = 2
-  identifier = "BFCWE Tool"
-  url = "/Info/Tools/BFCWE Tool"
-  parent = "Tools"
-[[main]]
-  name = "BFCVE Tool"
-  weight = 3
-  identifier = "BFCVE Tool"
-  url = "/Info/Tools/BFCVE Tool"
-  parent = "Tools"
+#[[main]]
+#  name = "BFCWE Tool"
+#  weight = 2
+#  identifier = "BFCWE Tool"
+#  url = "/Info/Tools/BFCWE Tool"
+#  parent = "Tools"
+#[[main]]
+#  name = "BFCVE Tool"
+#  weight = 3
+# identifier = "BFCVE Tool"
+#  url = "/Info/Tools/BFCVE Tool"
+#  parent = "Tools"
 
 [[main]]
   name = "APIs"
