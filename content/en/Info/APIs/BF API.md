@@ -30,7 +30,7 @@ The BF API generates and filters the BF Taxonomy in XML and JSON formats.
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey </br>
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey
 
-  C# code:
+  C# code
 
       string apiUrl = "https://samate.nist.gov/services/BF/BF/api/xml";
       string username = "YourName";

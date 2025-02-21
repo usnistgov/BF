@@ -16,7 +16,7 @@ title: "BFCVE API"
 
 # BF CVE API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-The BFCVE API generates and filters BF CVE specifications in XML (JSON to be added) format. 
+<!-- The BFCVE API generates and filters BF CVE specifications in XML (JSON to be added) format. 
 
 To retrieve an EXCERPT of the formal BFCVE specifications use:
 
@@ -37,13 +37,13 @@ To filter the BFCVE use parameters such as Cause (bug or fault), Conseqeunce (er
 
 [https://samate.nist.gov/services/BF/BFCVE/api?id=CVE-2014-0160](https://samate.nist.gov/services/BF/BFCVE/api?id=CVE-2014-0160)
 
-BFCVE could be quesried alsby by programming language, CVSS score (//to be added//), ...:
+BFCVE could be queried alsby by programming language, CVSS score (//to be added//), ...:
 
 [https://samate.nist.gov/services/BF/BFCVE/api?language=C](https://samate.nist.gov/services/BF/BFCVE/api?language=C)
 
 
 ______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A). -->
 
 
 

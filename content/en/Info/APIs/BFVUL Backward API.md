@@ -25,9 +25,9 @@ The CVE Code with Fix can then be examined by security researchers or utilizing 
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey </br>
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey
 
-  C#
+  C# code
 
-      string apiUrl = "https://samate.nist.gov/services/BF/BFCVEBackward/api";
+      string apiUrl = "https://samate.nist.gov/services/BF/BFVULBackward/api";
       string username = "YourName";
       string apiKey = "YourAPIKey";
 
