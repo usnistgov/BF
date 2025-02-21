@@ -26,7 +26,7 @@ The BFCVE API queries the BFCVE specifications by BF taxon values -- e.g., Class
 
 To filter the BFCVE use parameters such as Cause (bug or fault), Conseqeunce (error or finalError), Operation, Operand, Operation Attribute, Operand Attribute, CVE ID -- e.g.,:
 <!-- site -->
-
+<!-- 
 [https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM](https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM)
 
 [https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size](https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size)
@@ -39,7 +39,7 @@ To filter the BFCVE use parameters such as Cause (bug or fault), Conseqeunce (er
 
 BFCVE could be queried alsby by programming language, CVSS score (//to be added//), ...:
 
-[https://samate.nist.gov/services/BF/BFCVE/api?language=C](https://samate.nist.gov/services/BF/BFCVE/api?language=C)
+[https://samate.nist.gov/services/BF/BFCVE/api?language=C](https://samate.nist.gov/services/BF/BFCVE/api?language=C) -->
 
 
 ______________________________________
