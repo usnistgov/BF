@@ -30,7 +30,7 @@ The BF API generates and filters the BF Taxonomy in XML and JSON formats.
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey </br>
   https://samate.nist.gov/services/BF/BF/api/xml?key=yourAPIkey
 
-  C#
+  C# code:
 
       string apiUrl = "https://samate.nist.gov/services/BF/BF/api/xml";
       string username = "YourName";
@@ -64,6 +64,6 @@ The BF API generates and filters the BF Taxonomy in XML and JSON formats.
   - Attributes: [https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential) </br>
 
   - Failure: [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) </br>
-  
+
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
