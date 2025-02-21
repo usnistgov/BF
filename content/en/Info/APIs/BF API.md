@@ -16,7 +16,7 @@ title: "BF API"
 
 # BF API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-The current BF Taxonomy comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Weakness Class Types and the BF Failure (_FLR) Class Type.
+<!-- The current BF Taxonomy comprizes the BF Input/Output check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Weakness Class Types and the BF Failure (_FLR) Class Type.
 
 The BF API generates and filters the BF Taxonomy in XML and JSON formats.
 
@@ -63,7 +63,7 @@ The BF API generates and filters the BF Taxonomy in XML and JSON formats.
 
   - Attributes: [https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential](https://samate.nist.gov/services/BF/BF/api?Attribute=Sequential) </br>
 
-  - Failure: [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) </br>
+  - Failure: [https://samate.nist.gov/services/BF/BF/api?classType=_FLR](https://samate.nist.gov/services/BF/BF/api?ClassType=_FLR) </br> -->
 
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
