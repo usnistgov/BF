@@ -16,5 +16,8 @@ title: "BFVul API"
 
 # BFVul API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+//to be added//
+<!-- _________________________________
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>  -->

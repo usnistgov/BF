@@ -16,9 +16,9 @@ title: "BFVUL Backward API"
 
 # BFVUL Backward API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-Going backward from the failure, the BFVUL tool builds a connected acyclic undirected graph (i.e., a tree whose root is the failure) of all possible weakness chains with type-based backward fault type↤error type match and fault value↤error value propagation or --- for weaknesses of the same BF class type --- direct match. The chains undergo scrutiny to ensure further alignment with the BF formal language semantics, the causation matrices of meaningful <cause, operation>⟶consequence within weakness relations, the graphs of meaningful (operation₁, …, operationₙ) bug or fault state paths, and the matrices of meaningful consequence↷cause between weaknesses propagations. The identified failure and final weakness triple dramatically reduce the number of generated possible paths in the acyclic graph. This is also a good starting point for specifying vulnerabilities that are not recorded in the CVE.
+<!-- The BFVUL Backward API provides the BFVUL Tool backwards bugs identification functionality. 
 
-The CVE Code with Fix can then be examined by security researchers or utilizing AI and compared with the generated chains of weakness triples to pinpoint the unique unambiguous BF vulnerability specification. For that, the BF tool functionality and automated code analysis --- including via large language models (LLMs) --- can be used.
+The BF formalism supports a deeper understanding of vulnerabilites as chains of weaknesses and allows for backward bug identficaton from a failure. It enables the development of new statc and dynamic analysis, simulaton, and emulaton algorithms. AI or formal methods-enabled capabilites could be used to identfy bugs and detect, analyze, prioritze, and resolve or mitgate vulnerabilites (i.e., fix the bug or a fault of each vulnerability, respectvely) to secure critcal infrastructure and supply chains.
 
 - BFVUL Backwards --- with BF API Key &rarr; [Inquiry](https://forms.gle/SRZyva5Vn1i4dQQ2A)
 
@@ -49,7 +49,4 @@ The CVE Code with Fix can then be examined by security researchers or utilizing 
 
 
 BF CITATION: <br/>
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
-
-______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/> -->
