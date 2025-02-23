@@ -28,7 +28,7 @@ The BFCVE API queries the BFCVE specifications by BF taxon values -- e.g., Class
 
 To filter the BFCVE use parameters such as Cause (bug or fault), Conseqeunce (error or finalError), Operation, Operand, Operation Attribute, Operand Attribute, CVE ID -- e.g.,:
 <!-- site -->
-
+<!-- 
 [https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM](https://samate.nist.gov/services/BF/BFCVE/api?classtype=_MEM)
 
 [https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size](https://samate.nist.gov/services/BF/BFCVE/api?cause=Wrong+Size)
@@ -63,4 +63,4 @@ _________________________________
 _________________________________
 
 BF CITATION: <br/>
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/> -->
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/> --> -->

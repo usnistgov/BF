@@ -16,6 +16,8 @@ title: "BFVUL Backward API"
 
 # BFVUL Backward API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
+//to be added//
+
 <!-- The BFVUL Backward API provides the BFVUL Tool backwards bugs identification functionality. 
 
 The BF formalism supports a deeper understanding of vulnerabilites as chains of weaknesses and allows for backward bug identficaton from a failure. It enables the development of new statc and dynamic analysis, simulaton, and emulaton algorithms. AI or formal methods-enabled capabilites could be used to identfy bugs and detect, analyze, prioritze, and resolve or mitgate vulnerabilites (i.e., fix the bug or a fault of each vulnerability, respectvely) to secure critcal infrastructure and supply chains.
