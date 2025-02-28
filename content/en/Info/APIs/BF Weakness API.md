@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BFCWE API"
+title: "BF Weakness API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -16,7 +16,20 @@ title: "BFCWE API"
 
 # BFCWE API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
 
-//to be added//
+The BF Weakness API generates
+
+BFCWE API generates and filters the CWE specifications in XML and JSON formats.
+
+- BFCWE Excerpt
+
+  [https://samate.nist.gov/services/BF/BFCWE/api/xml](https://samate.nist.gov/services/BF/BFCWE/api/xml)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE/api/json](https://samate.nist.gov/services/BFCWE/BF/api/json)
+
+- BFCWE Full &rarr; with [BF API Key](https://forms.gle/SRZyva5Vn1i4dQQ2A)
+
+  https://samate.nist.gov/services/BF/BFCWE/api/xml?key=yourAPIkey </br>
+  https://samate.nist.gov/services/BF/BFCWE/api/json?key=yourAPIkey
+
 
 <!-- The BFCWE API generates and filters the BF CWE specifications in XML (JSON to be added) formats. 
 
