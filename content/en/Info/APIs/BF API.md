@@ -24,20 +24,22 @@ The BF API generates and filters the BF Taxonomy in text (XML, JSON), and graphi
 
   [https://samate.nist.gov/services/BF/BF.xml](https://samate.nist.gov/services/BF/BF.xml)<br/>
   [https://samate.nist.gov/services/BF/BF.json](https://samate.nist.gov/services/BF/BF.json) </br>
-   [https://samate.nist.gov/services/BF/BF/ppt](https://samate.nist.gov/services/BF/BF/ppt) <br/>
+  [https://samate.nist.gov/services/BF/BF/ppt](https://samate.nist.gov/services/BF/BF/ppt) <br/>
 
 - BF Full &rarr; with [BF API Key](https://forms.gle/SRZyva5Vn1i4dQQ2A)
 
-  https://samate.nist.gov/services/BF/BF.xml?key=yourAPIkey </br>
-  https://samate.nist.gov/services/BF/BF.json?key=yourAPIkey </br>
-  https://samate.nist.gov/services/BF/BF/ppt?key=yourAPIkey 
+  [https://samate.nist.gov/services/BF/BF.xml?key=yourKey](https://samate.nist.gov/services/BF/BF.xml?`key=yourKey`) </br>
+  [https://samate.nist.gov/services/BF/BF.json?key=yourKey](https://samate.nist.gov/services/BF/BF.json?`key=yourKey`) </br>
+  [https://samate.nist.gov/services/BF/BF/ppt?key=yourKey](https://samate.nist.gov/services/BF/BF/ppt?`key=yourKey`) 
 
 <table>
 <td>
+
+Programatical access
 Python
     
     headers = { "user": `YourUserName`, "key": `YourKey` }
-    response = requests.get("https://samate.nist.gov/services/BF/BF.xml", headers=headers)
+    response = requests.get("https://samate.nist.gov/services/BF/BF.xml/api", headers=headers)
     response.raise_for_status()
     result = response.text
 </td>
@@ -47,7 +49,7 @@ C#
     using HttpClient client = new HttpClient();
     client.DefaultRequestHeaders.Add("user", `YourUserName`);
     client.DefaultRequestHeaders.Add("key", `YourKey`);
-    HttpResponseMessage response = await client.GetAsync("https://samate.nist.gov/services/BF/BF.xml");
+    HttpResponseMessage response = await client.GetAsync("https://samate.nist.gov/services/BF/BF.xml/api");
     response.EnsureSuccessStatusCode();            
     var result = await response.Content.ReadAsStringAsync();
 </td>
