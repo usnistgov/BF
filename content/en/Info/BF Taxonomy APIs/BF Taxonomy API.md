@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Text API"
+title: "BF Taxonomy API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,11 +14,11 @@ title: "BF Text API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Text API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Taxonomy API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
-The BF Text API generates and queries the BF Taxonomy in machine-readable (XML, JSON) formats.
+The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (XML, JSON) formats.
 
 - BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY) </br>

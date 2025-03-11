@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Graphs API"
+title: "BF Taxonomy Graphs API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,11 +14,11 @@ title: "BF Graphs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Taxonomy Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
-The BF Graphs API generates and filters the BF Taxonomy in graphical formats.
+The BF Taxonomy Graphs API queries and generates the BF Taxonomy in graphical formats.
 
 - BF Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/ppt](https://samate.nist.gov/services/BF/BFTaxonomy/ppt) <br/>
