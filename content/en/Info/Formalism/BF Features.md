@@ -14,7 +14,7 @@ title: "BF Features"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Bugs Framework (BF) Features <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# Bugs Framework (BF) Features <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 ## Current State of the Art
 

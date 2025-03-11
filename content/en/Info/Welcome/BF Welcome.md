@@ -17,8 +17,8 @@ url: /
 
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
-# NIST Bugs Framework (BF): <br> <l style="color: #0428AE">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
-<!-- ## <l style="color: #0428AE">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_</l> -->
+# NIST Bugs Framework (BF): <br> <l style="color: #0428AE">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+<!-- ## <l style="color: #0428AE">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l> -->
 <!-- Software Developers 'Best Friend' -->
 _____________________________________
 

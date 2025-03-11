@@ -14,7 +14,7 @@ title: "BF Impact"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Impact <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Impact <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The Bugs Framework (BF) will allow precise communication about software bugs and weaknesses and will help identify exploit mitigation techniques.
 

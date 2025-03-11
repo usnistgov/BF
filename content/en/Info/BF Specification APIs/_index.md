@@ -1,7 +1,8 @@
 ---
-weight: 1
+weight: 3
+bookHidden: true
 bookCollapseSection: true
-title: "Overview"
+title: "BF Specification APIs"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -12,8 +13,6 @@ title: "Overview"
   gtag('js', new Date());
 
   gtag('config', 'G-PJ364XPP9F');
-</script># BF Specifications of CVEs <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
-
-The following is a growing repository of unambiguous formal BF specifications of software security vulnerabilities from the Common Vulnerabilities and Exposures (CVE).
+</script>
 
 //to be added//

@@ -13,7 +13,7 @@ title: "Model"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Memory (\_MEM) Bugs Model <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Memory (\_MEM) Bugs Model <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Each memory related bug or fault involves one memory operation. Each _operation_ is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has _boundaries_ and it has _size_. This piece of memory, with a well-defined size is called an _object_; It is of a primitive data type or a data structure. The memory address should be held by at least one _pointer_ or determined as an offset on the stack, otherwise the object will be unreachable. The operands to a memory operation relate to the object properties: data (value), data type, address, and size.  
 

@@ -13,7 +13,7 @@ title: "BF Concepts"
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
-# BF Security Concepts<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Security Concepts<br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 `A BF _security bug_ or _weakness type_ relates to a distinct software, firmware (including microcode), or hardware circuit logic _execution phase_ defined by a set of BF operations and their input operands and output results.  
  

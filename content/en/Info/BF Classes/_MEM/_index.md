@@ -14,7 +14,7 @@ title: "_MEM"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Memory Corruption/Disclosure (_MEM) Class Type <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
+# BF Memory Corruption/Disclosure (_MEM) Class Type <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Please use the Taxonomy>_MEM menu on the left or the following links:
 [BF Memory (_MEM) Bugs Model](/BF/info/bf-classes/_mem/model/) 

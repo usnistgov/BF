@@ -1,7 +1,8 @@
 ---
-weight: 2
-bookCollapseSection: false
-title: "BFCWE Tool"
+weight: 3
+bookHidden: true
+bookCollapseSection: true
+title: "BF Taxonomy APIs"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,7 +15,4 @@ title: "BFCWE Tool"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFCWE Tool <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~~`_
-
-_____________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+//to be added//
