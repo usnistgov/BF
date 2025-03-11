@@ -119,8 +119,14 @@
   weight = 70
   identifier = "BF Vulnerability APIs"
 [[main]]
-  name = "BF Validate-Verify API"
+  name = "BF Backward API"
   weight = 1
+  identifier = "BF Backward API"
+  url = "/Info/BF Vulnerability APIs/BF Backward API"
+  parent = "BF Vulnerability APIs"
+[[main]]
+  name = "BF Validate-Verify API"
+  weight = 2
   identifier = "BF Validate-Verify API"
   url = "/Info/BF Vulnerability APIs/BF Validate-Verify API"
   parent = "BF Vulnerability APIs"
@@ -136,17 +142,11 @@
 #  identifier = "BF Types API"
 #  url = "/Info/BF Vulnerability APIs/BF Types API"
 #  parent = "BF Vulnerability APIs"
-[[main]]
-  name = "BF Backward API"
-  weight = 5
-  identifier = "BF Backward API"
-  url = "/Info/BF Vulnerability APIs/BF Backward API"
-  parent = "BF Vulnerability APIs"
 
 [[main]]
   name = "BF Specification APIs"
   weight = 80
-  identifier = "BF Specifications API"
+  identifier = "BF Specification API"
   [[main]]
   name = "BF CWEs API"
   weight = 1
