@@ -67,16 +67,16 @@
   weight = 50
   identifier = "BF Taxonomy APIs"
 [[main]]
-  name = "BF Graphs API"
+  name = "BF Taxonomy Graphs API"
   weight = 1
-  identifier = "BF Graphs API"
-  url = "/Info/BF Taxonomy APIs/BF Graphs API"
+  identifier = "BF Taxonomy Graphs API"
+  url = "/Info/BF Taxonomy APIs/BF Taxonomy Graphs API"
   parent = "BF Taxonomy APIs"
 #[[main]]
 #  name = "BF Text API"
 #  weight = 2
-#  identifier = "BF Text API"
-#  url = "/Info/BF Taxonomy APIs/BF Text API"
+#  identifier = "BF Taxonomy API"
+#  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
 #  parent = "BF Taxonomy APIs"
 #  [[main]]
 #  name = "CWE2BF Graphs API"
@@ -89,8 +89,6 @@
   name = "BF Weakness APIs"
   weight = 60
   identifier = "BF Weakness APIs"
-  url = "/Info/APIs/BF Weakness APIs"
-  parent = "APIs"
 [[main]]
   name = "BF Relations API"
   weight = 1
@@ -111,7 +109,7 @@
   parent = "BF Weakness APIs"
 #[[main]]
 #  name = "BF Types API"
-#  weight = 3
+#  weight = 4
 #  identifier = "BF Types API"
 #  url = "/Info/BF Weakness APIs/BF Types API"
 #  parent = "BF Weakness APIs"
@@ -134,13 +132,13 @@
   parent = "BF Vulnerability APIs"
 #[[main]]
 #  name = "BF Types API"
-#  weight = 3
+#  weight = 4
 #  identifier = "BF Types API"
 #  url = "/Info/BF Vulnerability APIs/BF Types API"
 #  parent = "BF Vulnerability APIs"
 [[main]]
   name = "BF Backward API"
-  weight = 2
+  weight = 5
   identifier = "BF Backward API"
   url = "/Info/BF Vulnerability APIs/BF Backward API"
   parent = "BF Vulnerability APIs"
@@ -149,8 +147,6 @@
   name = "BF Specification APIs"
   weight = 80
   identifier = "BF Specifications API"
-  url = "/Info/APIs/BF Specifications API"
-  parent = "APIs"
   [[main]]
   name = "BF CWEs API"
   weight = 1
@@ -159,13 +155,13 @@
   parent = "BF Specification APIs"
   [[main]]
   name = "BF VULs API"
-  weight = 3
+  weight = 2
   identifier = "BF VULs API"
   url = "/Info/BF Specification APIs/BF VULs API"
   parent = "BF Specification APIs"
   [[main]]
   name = "BF VUL Graphs API"
-  weight = 4
+  weight = 3
   identifier = "BF VUL Graphs API"
   url = "/Info/BF Specification APIs/BF VUL Graphs API"
   parent = "BF Specification APIs"
