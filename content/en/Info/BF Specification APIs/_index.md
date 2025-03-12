@@ -3,6 +3,9 @@ weight: 3
 bookHidden: true
 bookCollapseSection: true
 title: "BF Specification APIs"
+aliases:
+- /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
+- /https://usnistgov.github.io/BF/info/apis/bfcve-api/
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -15,4 +18,4 @@ title: "BF Specification APIs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-//to be added//
+Please use the `BF Specification APIs` menu on top..

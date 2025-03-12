@@ -3,6 +3,8 @@ weight: 3
 bookHidden: true
 bookCollapseSection: true
 title: "BF Taxonomy APIs"
+aliases:
+- /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -15,4 +17,4 @@ title: "BF Taxonomy APIs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-//to be added//
+Please use the `BF Taxonomy APIs` menu on top.

@@ -3,6 +3,8 @@ weight: 3
 bookHidden: true
 bookCollapseSection: true
 title: "BF Weakness APIs"
+aliases:
+- /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -15,4 +17,4 @@ title: "BF Weakness APIs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-//to be added//
+Please use the `BF Weakness APIs` menu on top..
