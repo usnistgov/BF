@@ -16,12 +16,19 @@ title: "BF Safety Rules API"
 
 # BF Safety Rules API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Safety Rules API generates datasets of BF Security Rules with CWE references where applicable.
+The BF Safety Rules API generates datasets of BF Security Rules by CWE where applicable.
 
-- BF Weakness Transitions &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF BF Security Rules &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFWeakness.xml/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.xml/BFSafetyRules?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFWeakness.json/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.json/BFSafetyRules?key=YOUR_KEY)
+
+- BF BF Security Rules by CWE &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+
+  [https://samate.nist.gov/services/BF/BFWeakness.xml/BFSafetyRulesCWE?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.xml/BFSafetyRulesCWE?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFWeakness.json/BFSafetyRulesCWE?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.json/BFSafetyRulesCWE?key=YOUR_KEY)
+
+   Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 
 _________________________________
 
