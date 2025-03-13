@@ -17,4 +17,6 @@ aliases:
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-Please use the `BF Taxonomy APIs` menu on top.
+The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
+
+Please use the `BF Taxonomy APIs` menu on top to explore them.
