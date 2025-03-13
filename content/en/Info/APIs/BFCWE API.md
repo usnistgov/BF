@@ -2,6 +2,8 @@
 weight: 4
 bookCollapseSection: false
 title: "BFCWE API"
+aliases:
+- https://usnistgov.github.io/BF/info/bf-weakness-apis/
 ---
 
 <!-- Google tag (gtag.js) -->
