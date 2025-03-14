@@ -2,6 +2,7 @@
 weight: 3
 bookCollapseSection: false
 title: "BFCVE API"
+aliases: ["/BF/info/bf-vulnerability-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -13,3 +14,5 @@ title: "BFCVE API"
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
+
+Please use the `BF Vulnerability APIs` menu on top.

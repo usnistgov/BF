@@ -114,10 +114,10 @@
   url = "/Info/BF Weakness APIs/BF Relations API"
   parent = "BF Weakness APIs"
 [[main]]
-  name = "BF Transitions  API"
+  name = "BF Transitions API"
   weight = 3
   identifier = "BF Transitions API"
-  url = "/Info/BF Weakness APIs/BF Transitions  API"
+  url = "/Info/BF Weakness APIs/BF Transitions API"
   parent = "BF Weakness APIs"
 #[[main]]
 #  name = "BF Types API"
@@ -137,22 +137,22 @@
   url = "/Info/BF Vulnerability APIs/BF Validate-Verify API"
   parent = "BF Vulnerability APIs"
   [[main]]
-  name = "BF VUL Description API"
+  name = "BF Description API"
   weight = 2
-  identifier = "BF VUL Description API"
-  url = "/Info/BF Vulnerability APIs/BF VUL Description API"
+  identifier = "BF Description API"
+  url = "/Info/BF Vulnerability APIs/BF Description API"
   parent = "BF Vulnerability APIs"
   [[main]]
-  name = "BF VULs Types API"
+  name = "BF Types API"
   weight = 3
-  identifier = "BF VULs Types API"
-  url = "/Info/BF Vulnerability APIs/BF VULs Types API"
+  identifier = "BF Types API"
+  url = "/Info/BF Vulnerability APIs/BF Types API"
   parent = "BF Vulnerability APIs"
   [[main]]
-  name = "BF VUL Graphs API"
+  name = "BF Graphs API"
   weight = 4
-  identifier = "BF VUL Graphs API"
-  url = "/Info/BF Vulnerability APIs/BF VULs Graphs API"
+  identifier = "BF Graphs API"
+  url = "/Info/BF Vulnerability APIs/BF Graphs API"
   parent = "BF Vulnerability APIs"
 [[main]]
   name = "BF Backward API"

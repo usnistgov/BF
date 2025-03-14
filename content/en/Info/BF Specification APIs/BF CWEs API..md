@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Specification API"
+title: "BF CWEs API"
 ---
 
 <!-- Google tag (gtag.js) -->

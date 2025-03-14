@@ -2,6 +2,7 @@
 weight: 2
 bookCollapseSection: false
 title: "BFVUL API"
+aliases: ["/BF/info/bf-vulnerability-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->

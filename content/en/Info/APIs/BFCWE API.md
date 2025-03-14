@@ -2,7 +2,7 @@
 weight: 4
 bookCollapseSection: false
 title: "BFCWE API"
-aliases: ["/bf-weakness-apis/"]
+aliases: ["/BF/info/bf-weakness-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -15,3 +15,4 @@ aliases: ["/bf-weakness-apis/"]
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
+Please use the `BF Weakness APIs` menu on top.

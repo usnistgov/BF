@@ -17,4 +17,4 @@ title: "BF Weakness APIs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-Please use the `BF Weakness APIs` menu on top..
+Please use the `BF Weakness APIs` menu on top.
