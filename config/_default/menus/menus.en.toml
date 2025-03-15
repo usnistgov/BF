@@ -56,10 +56,10 @@
   url = "/Info/BF APIs/BF  Examples"
   parent = "BF APIs"
 [[main]]
-  name = "BF Tool Help"
+  name = "BF Tool Guide"
   weight = 3
-  identifier = "BF Tool Help"
-  url = "/Info/BF APIs/BF Tool Help"
+  identifier = "BF Tool Guide"
+  url = "/Info/BF APIs/BF Tool Guide"
   parent = "BF APIs"
 [[main]]
   name = "BF Safety Rules API"
@@ -115,15 +115,9 @@
   identifier = "BFVUL APIs"
   [[main]]
   name = "BF VULs API"
-  weight = 2
+  weight = 1
   identifier = "BF VULs API"
   url = "/Info/BFVUL APIs/BF VULs API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BF Parser API"
-  weight = 1
-  identifier = "BF Parser API"
-  url = "/Info/BFVUL APIs/BF Parser API"
   parent = "BFVUL APIs"
   [[main]]
   name = "BF Types API"
@@ -131,21 +125,27 @@
   identifier = "BF Types API"
   url = "/Info/BFVUL APIs/BF Types API"
   parent = "BFVUL APIs"
+[[main]]
+  name = "BF Parser API"
+  weight = 3
+  identifier = "BF Parser API"
+  url = "/Info/BFVUL APIs/BF Parser API"
+  parent = "BFVUL APIs"
   [[main]]
   name = "BF Graphs API"
-  weight = 3
+  weight = 4
   identifier = "BF Graphs API"
   url = "/Info/BFVUL APIs/BF Graphs API"
   parent = "BFVUL APIs"
   [[main]]
   name = "BF Description API"
-  weight = 4
+  weight = 5
   identifier = "BF Description API"
   url = "/Info/BFVUL APIs/BF Description API"
   parent = "BFVUL APIs"
 [[main]]
   name = "BF Backward API"
-  weight = 5
+  weight = 6
   identifier = "BF Backward API"
   url = "/Info/BFVUL APIs/BF Backward API"
   parent = "BFVUL APIs"  
@@ -170,8 +170,8 @@
   name = "BF Types API"
   weight = 4
   identifier = "BF Types API"
-  url = "/Info/BF BFCWE APIs/BF Types API"
-  parent = "BF BFCWE APIs"
+  url = "/Info/BFCWE APIs/BF Types API"
+  parent = "BFCWE APIs"
 
 
 [[main]]
