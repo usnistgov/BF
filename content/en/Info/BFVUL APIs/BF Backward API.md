@@ -22,8 +22,8 @@ The BF formalism supports a deeper understanding of vulnerabilites as chains of 
 
 - BF Backward API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVulnerability.xml/BFBackward/IEX?finalError=Query%20Injection&key='YOUR_KEY'](https://samate.nist.gov/services/BF/BFVulnerability.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BFVulnerability.json/BFBackward/IEX?finalError=Query%20Injection&key='YOUR_KEY'](https://samate.nist.gov/services/BFVulnerability.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key='YOUR_KEY'](https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY) </br>
+  [https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key='YOUR_KEY'](https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
@@ -35,7 +35,7 @@ The BF formalism supports a deeper understanding of vulnerabilites as chains of 
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await BFClient.SendRequest("BFVulnerability/BFBackward/IEX/api", HttpMethod.Get, responseType: MediaTypeNames.Application.Xml);
+      var response = await BFClient.SendRequest("BFVUL/BFBackward/IEX/api", HttpMethod.Get, responseType: MediaTypeNames.Application.Xml);
       response.EnsureSuccessStatusCode();
 
       var result = await response.Content.ReadAsStringAsync();

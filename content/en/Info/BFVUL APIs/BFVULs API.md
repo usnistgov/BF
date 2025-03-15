@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF VULs/CVEs API"
+title: "BFVULs API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,14 +14,14 @@ title: "BF VULs/CVEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF VULs/CVEs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVULs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF VULs/CVEs API generates datasets of BF Vulnerability Specifications (including BF CVE Specifications).
+The BFVULs API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
 
 - BF Vulnerability Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFSpecification.xml/BFVULs/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSpecification.xml/BFVULs/api?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFSpecification.json/BFVULs/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSpecification.json/BFVULs/api?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVULs.xml/BFVULss/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVULs.xml/BFVULss/api?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFVULs.json/BFVULss/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVULs.json/BFVULss/api?key=YOUR_KEY)
 
 _________________________________
 

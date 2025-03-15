@@ -1,7 +1,7 @@
 ---
-weight: 2
+weight: 4
 bookCollapseSection: false
-title: "CWE2BF Graphs API"
+title: "BF Graphs API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,18 +14,16 @@ title: "CWE2BF Graphs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# CWE2BF Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
+The BF Graphs API generates and BF Vulnerability Specifications in graphical formats.
 
-- BF CWE2BF Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/CWEBFPPT?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/CWEBFPPT?key=YOUR_KEY)
+- BF Vulnerability Specification Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+  [https://samate.nist.gov/services/BF/BFVUL/ppt?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL/ppt?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-
-//To be added//
         
-  <!-- C#
+  C#
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
@@ -33,24 +31,23 @@ The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      //replace YOUR_CWEBF.xml_FILE_NAME and YOUR_CurrentCWEBF.xml_FILE_NAME 
-
-      XXXXXXXXXXXXXXXXX -- not finished xxxxxxxxxxxxxxxxxxxxxxxxx
+      //replace YOUR_FILES_NAMES
+      string[] fileNames = YOUR_FILES_NAMES;
 
       var fileContent = new MultipartFormDataContent();
       foreach (var fileName in fileNames)
           fileContent.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
 
-      var response = await BFClient.SendRequest("BFSpecification/CWEBFPPT/api", HttpMethod.Post, fileContent);
+      var response = await BFClient.SendRequest("BFVUL/ppt/api", HttpMethod.Post, fileContent);
       response.EnsureSuccessStatusCode();
-      var zipData = await response.Content.ReadAsStreamAsync();  
-   
-      //replace YOUR_FOLDER 
-      zipData.CopyTo(File.Create(Path.Combine(YOUR_FOLDER, "CWEBFppt.zip")));
+      var zipData = await response.Content.ReadAsStreamAsync();
+      
+      //replace YOUR_FOLDER
+      zipData.CopyTo(File.Create(Path.Combine(YOUR_FOLDER, "bfv.zip")));
 
   Python
       
-    //to be added// -->
+    //to be added//
 _________________________________
 
 BF CITATION: <br/>

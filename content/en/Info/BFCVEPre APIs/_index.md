@@ -2,9 +2,7 @@
 weight: 3
 bookHidden: true
 bookCollapseSection: true
-title: "BF Vulnerability APIs"
-aliases:
-- /https://usnistgov.github.io/BF/info/apis/bfcve-api/
+title: "BFCVEPre APIs"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -16,5 +14,3 @@ aliases:
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
-
-Please use the `BF Vulnerability APIs` menu on top.

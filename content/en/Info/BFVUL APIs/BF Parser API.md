@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Validate-Verify API"
+title: "BFParser API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,13 +14,13 @@ title: "BF Validate-Verify API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Validate-Verify API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Parser API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Validate-Verify API provides access to the BF Parser, which validates and verifies BF Vulnerability Specifications in .bfv, .bfvul, and .bff formats. It is also incorporated in the BF GUI Tool.
+The BF Parser API provides performs Validation and Verification of BF Specifications in .bfv, .bfvul, and .bff formats. It is also incorporated in the BF GUI Tool.
 
-- BF Parser APP &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF Validate-Verify APP &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVulnerability.xml/BFValidateVerify?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVulnerability.xml/BFValidateVerify?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFVUL.xml/BFValidateVerify?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL.xml/BFParse?key=YOUR_KEY)<br/>
 
 - BF Parser API Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
@@ -38,7 +38,7 @@ The BF Validate-Verify API provides access to the BF Parser, which validates and
           var file = new StreamContent(fileStream);
           files.Add(file, "files", Path.GetFileName(fileStream.Name));      
 
-      var response = await BFClient.SendRequest("BFVulnerability/BFValidateVerify/api", HttpMethod.Post, files);
+      var response = await BFClient.SendRequest("BFVUL/BFParse/api", HttpMethod.Post, files);
       response.EnsureSuccessStatusCode();
       var result = await response.Content.ReadAsStringAsync();
 

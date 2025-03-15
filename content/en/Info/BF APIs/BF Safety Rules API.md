@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BF Types API"
+title: "BF Safety Rules API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,14 +14,14 @@ title: "BF Types API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF  Types API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Safety Rules API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Types API generates the BF Types for the provided BF Vulnerability Specification(s). 
+The BF Safety Rules API generates datasets of BF Security Rules.
 
-- BF Vulnerability Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF BF Security Rules &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFWeakness.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVulnerability.xml/BFTypes?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFWeakness.json/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BFVulnerability.json/BFTypes?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BF.xml/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BF.xml/BFSafetyRules?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BF.json/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BF.json/BFSafetyRules?key=YOUR_KEY)
 
 _________________________________
 
