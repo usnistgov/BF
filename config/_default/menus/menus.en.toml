@@ -63,7 +63,7 @@
   parent = "BF APIs"
 [[main]]
   name = "BF Safety Rules API"
-  weight = 1
+  weight = 4
   identifier = "BF Safety Rules API"
   url = "/Info/BF APIs/BF Safety Rules API"
   parent = "BF APIs"
@@ -110,8 +110,49 @@
 #  parent = "BF Taxonomy APIs"
 
 [[main]]
-  name = "BFCWE APIs"
+  name = "BFVUL APIs"
   weight = 60
+  identifier = "BFVUL APIs"
+  [[main]]
+  name = "BF VULs API"
+  weight = 2
+  identifier = "BF VULs API"
+  url = "/Info/BFVUL APIs/BF VULs API"
+  parent = "BFVUL APIs"
+[[main]]
+  name = "BF Parser API"
+  weight = 1
+  identifier = "BF Parser API"
+  url = "/Info/BFVUL APIs/BF Parser API"
+  parent = "BFVUL APIs"
+  [[main]]
+  name = "BF Types API"
+  weight = 2
+  identifier = "BF Types API"
+  url = "/Info/BFVUL APIs/BF Types API"
+  parent = "BFVUL APIs"
+  [[main]]
+  name = "BF Graphs API"
+  weight = 3
+  identifier = "BF Graphs API"
+  url = "/Info/BFVUL APIs/BF Graphs API"
+  parent = "BFVUL APIs"
+  [[main]]
+  name = "BF Description API"
+  weight = 4
+  identifier = "BF Description API"
+  url = "/Info/BFVUL APIs/BF Description API"
+  parent = "BFVUL APIs"
+[[main]]
+  name = "BF Backward API"
+  weight = 5
+  identifier = "BF Backward API"
+  url = "/Info/BFVUL APIs/BF Backward API"
+  parent = "BFVUL APIs"  
+
+[[main]]
+  name = "BFCWE APIs"
+  weight = 70
   identifier = "BFCWE APIs"
   [[main]]
   name = "BF CWEs API"
@@ -129,49 +170,9 @@
   name = "BF Types API"
   weight = 4
   identifier = "BF Types API"
-  url = "/Info/BF Weakness APIs/BF Types API"
-  parent = "BF Weakness APIs"
+  url = "/Info/BF BFCWE APIs/BF Types API"
+  parent = "BF BFCWE APIs"
 
-[[main]]
-  name = "BFVUL APIs"
-  weight = 70
-  identifier = "BFVUL APIs"
-  [[main]]
-  name = "BF VULs API"
-  weight = 2
-  identifier = "BF VULs API"
-  url = "/Info/BFVUL APIs/BF VULs API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BF Validate-Verify API"
-  weight = 1
-  identifier = "BF Validate-Verify API"
-  url = "/Info/BFVUL APIs/BF Validate-Verify API"
-  parent = "BFVUL APIs"
-  [[main]]
-  name = "BF Description API"
-  weight = 2
-  identifier = "BF Description API"
-  url = "/Info/BFVUL APIs/BF Description API"
-  parent = "BFVUL APIs"
-  [[main]]
-  name = "BF Types API"
-  weight = 3
-  identifier = "BF Types API"
-  url = "/Info/BFVUL APIs/BF Types API"
-  parent = "BFVUL APIs"
-  [[main]]
-  name = "BF Graphs API"
-  weight = 4
-  identifier = "BF Graphs API"
-  url = "/Info/BFVUL APIs/BF Graphs API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BF Backward API"
-  weight = 5
-  identifier = "BF Backward API"
-  url = "/Info/BFVUL APIs/BF Backward API"
-  parent = "BFVUL APIs"
 
 [[main]]
   name = "BFCVEPre APIs"
