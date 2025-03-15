@@ -26,7 +26,7 @@ The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (X
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
-  C# - simplified <br/>
+  C# <br/>
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 

@@ -25,7 +25,7 @@ The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error
 
 //To be added//
         
-  <!-- C# - simplified
+  <!-- C#
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 

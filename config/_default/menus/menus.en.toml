@@ -62,28 +62,28 @@
   url = "/Info/BF Tool/BF Tool Help"
   parent = "BF Tool"
 
-[[main]]
-  name = "BF Taxonomy APIs"
-  weight = 50
-  identifier = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _INP API"
-  weight = 1
-  identifier = "BF _INP API"
-  url = "/Info/BF Taxonomy APIs/BF _INP API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _MEM API"
-  weight = 2
-  identifier = "BF _MEM API"
-  url = "/Info/BF Taxonomy APIs/BF _MEM API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _DAT API"
-  weight = 3
-  identifier = "BF _DAT API"
-  url = "/Info/BF Taxonomy APIs/BF _DAT API"
-  parent = "BF Taxonomy APIs"
+#[[main]]
+#  name = "BF Taxonomy APIs"
+#  weight = 50
+#  identifier = "BF Taxonomy APIs"
+#[[main]]
+#  name = "BF _INP API"
+#  weight = 1
+#  identifier = "BF _INP API"
+#  url = "/Info/BF Taxonomy APIs/BF _INP API"
+#  parent = "BF Taxonomy APIs"
+#[[main]]
+#  name = "BF _MEM API"
+#  weight = 2
+#  identifier = "BF _MEM API"
+#  url = "/Info/BF Taxonomy APIs/BF _MEM API"
+#  parent = "BF Taxonomy APIs"
+#[[main]]
+#  name = "BF _DAT API"
+#  weight = 3
+#  identifier = "BF _DAT API"
+#  url = "/Info/BF Taxonomy APIs/BF _DAT API"
+#  parent = "BF Taxonomy APIs"
 #[[main]]
 #  name = "BF Text API"
 #  weight = 2

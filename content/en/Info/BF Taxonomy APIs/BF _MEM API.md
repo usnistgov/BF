@@ -32,7 +32,7 @@ The BF _MEM API queries and generates the BF Taxonomy in graphical formats.
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
-  C# - simplified
+  C#
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
