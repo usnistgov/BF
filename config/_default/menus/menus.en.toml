@@ -68,46 +68,46 @@
   url = "/Info/BF APIs/BF Safety Rules API"
   parent = "BF APIs"
 
-#[[main]]
-#  name = "BF Taxonomy APIs"
-#  weight = 50
-#  identifier = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _INP API"
-#  weight = 1
-#  identifier = "BF _INP API"
-#  url = "/Info/BF Taxonomy APIs/BF _INP API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _MEM API"
-#  weight = 2
-#  identifier = "BF _MEM API"
-#  url = "/Info/BF Taxonomy APIs/BF _MEM API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _DAT API"
-#  weight = 3
-#  identifier = "BF _DAT API"
-#  url = "/Info/BF Taxonomy APIs/BF _DAT API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF Text API"
-#  weight = 2
-#  identifier = "BF Taxonomy API"
-#  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF Relations API"
-#  weight = 2
-#  identifier = "BF Relations API"
-#  url = "/Info/BF Taxonomy APIs/BF Relations API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF Transitions API"
-#  weight = 3
-#  identifier = "BF Transitions API"
-#  url = "/Info/BF Taxonomy APIs/BF Transitions API"
-#  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF Formal Language APIs"
+  weight = 50
+  identifier = "BF Formal Language APIs"
+[[main]]
+  name = "BF _INP API"
+  weight = 1
+  identifier = "BF _INP API"
+  url = "/Info/BF Formal Language APIs/BF _INP API"
+  parent = "BF Formal Language APIs"
+[[main]]
+  name = "BF _MEM API"
+  weight = 2
+  identifier = "BF _MEM API"
+  url = "/Info/BF Formal Language APIs/BF _MEM API"
+  parent = "BF Formal Language APIs"
+[[main]]
+  name = "BF _DAT API"
+  weight = 3
+  identifier = "BF _DAT API"
+  url = "/Info/BF Formal Language APIs/BF _DAT API"
+  parent = "BF Formal Language APIs"
+[[main]]
+  name = "BF Taxonomy API"
+  weight = 2
+  identifier = "BF Taxonomy API"
+  url = "/Info/BF Formal Language APIs/BF Taxonomy API"
+  parent = "BF Formal Language APIs"
+[[main]]
+  name = "BF Relations API"
+  weight = 2
+  identifier = "BF Relations API"
+  url = "/Info/BF Formal Language APIs/BF Relations API"
+  parent = "BF Formal Language APIs"
+[[main]]
+  name = "BF Transitions API"
+  weight = 3
+  identifier = "BF Transitions API"
+  url = "/Info/BF Formal Language APIs/BF Transitions API"
+  parent = "BF Formal Language APIs"
 
 [[main]]
   name = "BFVUL APIs"

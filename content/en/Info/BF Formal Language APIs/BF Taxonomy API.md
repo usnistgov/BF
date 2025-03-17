@@ -21,8 +21,8 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (XML, JSON) formats.
 
 - BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY) </br>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
@@ -35,12 +35,12 @@ The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (X
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("BFTaxonomy.xml");
+      var responseXML = await client.GetAsync("BFFormalLanguage/BFTaxonomy.xml");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      HttpResponseMessage responseJSON = await client.GetAsync("BFTaxonomy.json");       
+      HttpResponseMessage responseJSON = await client.GetAsync("BFFormalLanguage/BFTaxonomy.json");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 

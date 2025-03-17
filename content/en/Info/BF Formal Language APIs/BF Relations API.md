@@ -20,13 +20,13 @@ The BF Relations API generates datasets of Meaningful `<cause, operation>→cons
 <!-- 
 - BF Weakness Relations Excerpt &rarr; no Key required: 
 
-  [https://samate.nist.gov/services/BF/BFWeakness.xml/BFRelations](https://samate.nist.gov/services/BF/BFWeakness.xml/Relations)<br/>
-  [https://samate.nist.gov/services/BF/BFWeakness.json/BFRelations](https://samate.nist.gov/services/BFWeakness.json/Relations) -->
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFRelations](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/Relations)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations](https://samate.nist.gov/services/BFFormalLanguage.json/Relations) -->
 
 - BF Meaningful Weakness Triples &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFWeakness.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.jxmlson/BFRelations?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFWeakness.json/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFWeakness.json/BFRelations?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage.jxmlson/BFRelations?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations?key=YOUR_KEY)
 
 _________________________________
 

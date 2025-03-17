@@ -19,16 +19,16 @@ title: "BF _DAT API"
 The BF _DAT API queries and generates the BF Taxonomy in graphical formats.
 
 - BF /_DAT Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT) <br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT) <br/>
 
 - BF /_DAT Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?key=YOUR_KEY)
 
   - With Definitions:<br/>
-      [https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT?ShowDefinitions=true&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_DAT?ShowDefinitions=true&key=YOUR_KEY)
+      [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?ShowDefinitions=true&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?ShowDefinitions=true&key=YOUR_KEY)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/ppt?Fault=NULL%20Pointer&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/ppt?Fault=NULL%20Pointer&key=YOUR_KEY) -->
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/ppt?Fault=NULL%20Pointer&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/ppt?Fault=NULL%20Pointer&key=YOUR_KEY) -->
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
@@ -40,7 +40,7 @@ The BF _DAT API queries and generates the BF Taxonomy in graphical formats.
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await BFClient.SendRequest("BFTaxonomy/ppt/_DAT/api", HttpMethod.Get);
+      var response = await BFClient.SendRequest("BFFormalLanguage/BFTaxonomyPPT/_DAT/api", HttpMethod.Get);
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
 
