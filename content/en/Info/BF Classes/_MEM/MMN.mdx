@@ -1,6 +1,6 @@
 ﻿---
 weight: 3
-title: "MUS"
+title: "MMN"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
@@ -12,15 +12,15 @@ title: "MUS"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Memory Use (MUS) Bugs Class 
+## BF Memory Management (MMN) Bugs Class 
 
 #### Definition
-{{< definition >}}Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.{{< /definition >}}
+{{< definition >}}Memory Management (MMN) class – An object is allocated, resized, or deallocated improperly.{{< /definition >}}
 
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.svg" >}}
+{{< img src="images/BF Classes/_MEM/MMN.svg" >}}
 
 
 <table>
@@ -39,20 +39,28 @@ title: "MUS"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Initialize Object </td>
-	<td>Initialize Object operation – Change the undefined data value of an object to a meaningful one – e.g., after an object is allocated.</td>
+			<td>Allocate </td>
+	<td>Allocate operation – Reserve space in memory for an object; defines its initial boundaries and size.</td>
 	</tr>
 	<tr>
-			<td>Read </td>
-	<td>Read operation – Retrieve the data value of an object from memory.</td>
+			<td>Extend </td>
+	<td>Extend operation – Reserve additional memory for an object in the same space; redefines its boundaries and size.</td>
 	</tr>
 	<tr>
-			<td>Write </td>
-	<td>Write operation – Change the data value of an object in memory to another meaningful value.</td>
+			<td>Reallocate-Extend </td>
+	<td>Reallocate-Extend operation – Reserve a new larger piece of memory for an object at a new address, reassign its pointer, and release the previous piece of memory.</td>
 	</tr>
 	<tr>
-			<td>Clear </td>
-	<td>Clear operation – Change the meaningful data value of an object to a non-meaningful one (e.g., via zeroization) – e.g., before object deallocation.</td>
+			<td>Reallocate-Reduce </td>
+	<td>Reallocate-Reduce operation – Reserve a new smaller space in memory for an object at a new address, reassign the pointer, and release the previous piece of memory.</td>
+	</tr>
+	<tr>
+			<td>Reduce </td>
+	<td>Reduce operation – Release part of the object memory; redefines its boundaries and size.</td>
+	</tr>
+	<tr>
+			<td>Deallocate </td>
+	<td>Deallocate operation – Release the allocated memory of an object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -61,10 +69,6 @@ title: "MUS"
 	<tr>
 			<td>Data </td>
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
-	</tr>
-	<tr>
-			<td>Type </td>
-	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
 	</tr>
 	<tr>
 			<td>Address </td>
@@ -87,32 +91,32 @@ title: "MUS"
 	<td>Missing Code bug - The operation is misplaced entirely absent.</td>
 	</tr>
 	<tr>
+			<td>   Mismatched Operation </td>
+	<td>Mismatched Operation bug - The deallocation function does not match the allocation function used for the same object.</td>
+	</tr>
+	<tr>
 			<td>   Erroneous Code </td>
 	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
+	</tr>
+	<tr>
+			<td>   Hardcoded Address </td>
+	<td>Hardcoded Address bug – A pointer is initialized to a wrong specific address.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
 	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   NULL Pointer </td>
-	<td>NULL Pointer error (or fault) – The pointer does not point to a valid object; usually holds the zero memory address.</td>
-	</tr>
-	<tr>
 			<td>   Forbidden Address </td>
 	<td>Forbidden Address error (or fault) – The pointer holds an OS protected address or a non-existing address.</td>
 	</tr>
 	<tr>
+			<td>   Single Owned Address </td>
+	<td>Single Owned Address error (or fault) – Exactly one pointer owns the object.</td>
+	</tr>
+	<tr>
 			<td>   Wrong Size </td>
 	<td>Wrong Size error (or fault) – The value used as size or length (i.e., the number of elements) does not match the object's memory size or length (e.g., to limit a pointer reposition or index increment/decrement in a repetition statement).</td>
-	</tr>
-	<tr>
-			<td>Type Fault</td>
-	<td>Type error (or fault) type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
-	</tr>
-	<tr>
-			<td>   Cast Pointer </td>
-	<td>Cast Pointer error (or fault) – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -125,18 +129,6 @@ title: "MUS"
 	<tr>
 			<td>   Dangling Pointer </td>
 	<td>Dangling Pointer error (or fault) – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
-	</tr>
-	<tr>
-			<td>   Untrusted Pointer </td>
-	<td>Untrusted Pointer error (or fault) – The pointer is modified to an improperly checked address.</td>
-	</tr>
-	<tr>
-			<td>   Overbound Pointer </td>
-	<td>Overbound Pointer error (or fault) – Holds an address that is above the upper boundary of its object.</td>
-	</tr>
-	<tr>
-			<td>   Underbound Pointer </td>
-	<td>Underbound Pointer error (or fault) – Holds an address that is below the lower boundary of its object.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Position Pointer </td>
@@ -159,44 +151,48 @@ title: "MUS"
 	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Uninitialized Object </td>
-	<td>Uninitialized Object error (or fault) – The object was never assigned a meaningful value.</td>
+			<td>   NULL Pointer </td>
+	<td>NULL Pointer error (or fault) – The pointer does not point to a valid object; usually holds the zero memory address.</td>
+	</tr>
+	<tr>
+			<td>Address Error</td>
+	<td>Address error (or fault) type – The address of an object is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wild Pointer </td>
+	<td>Wild Pointer error (or fault) – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine was used.</td>
+	</tr>
+	<tr>
+			<td>   Dangling Pointer </td>
+	<td>Dangling Pointer error (or fault) – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
+	</tr>
+	<tr>
+			<td>Size Error</td>
+	<td>Type error (or fault) type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
+	</tr>
+	<tr>
+			<td>   Insufficient Size </td>
+	<td>Insufficient Size error (or fault) – The allocated memory is too little for the data it should store.</td>
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
 	<td>Memory Corruption/Disclosure final error/exploit vector type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, or deallocation bugs.</td>
 	</tr>
 	<tr>
-			<td>   Not Cleared Object </td>
-	<td>Not Cleared Object final error – An object's data value is not changed to a non-meaningful one before deallocation.</td>
+			<td>   Memory Overflow </td>
+	<td>Memory Overflow final error – More memory is requested than available.</td>
+	</tr>
+	<tr>
+			<td>   Memory Leak </td>
+	<td>Memory Leak final error – An object has no pointer pointing to it.</td>
+	</tr>
+	<tr>
+			<td>   Double Deallocate </td>
+	<td>Double Deallocate final error – An attempt to deallocate a deallocated (freed) object.</td>
 	</tr>
 	<tr>
 			<td>   Object Corruption </td>
 	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
-	</tr>
-	<tr>
-			<td>   Type Confusion </td>
-	<td>Type Confusion final error – A cast pointer and its object have incompatible data types, so the object data will be interpreted via a different data type).</td>
-	</tr>
-	<tr>
-			<td>   Use After Deallocate </td>
-	<td>use after free or use after return) final error – An attempt to use (dereference, read, write, or clear) a deallocated object (e.g., via a pointer to a freed or reallocated heap object -- use after free) or out of scope object (e.g., via a returned by a function pointer to a stack object -- use after return).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Overflow </td>
-	<td>Buffer Overflow final error – Write data above the upper bound of an object (i.e., buffer over-write).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Underflow </td>
-	<td>Buffer Underflow final error – Write data below the lower bound of an object (i.e., buffer under-write).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Over-Read </td>
-	<td>Buffer Over-Read final error – Read data above the upper bound of an object.</td>
-	</tr>
-	<tr>
-			<td>   Buffer Under-Read </td>
-	<td>Buffer Under-Read final error – Read data below the lower bound of an object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -207,12 +203,12 @@ title: "MUS"
 	<td>Mechanism operation attribute type – Shows how the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
-			<td>   Direct </td>
-	<td>Direct operation attribute – The operation is on a particular object element.</td>
+			<td>   Implicit </td>
+	<td>Implicit operation attribute – The operation is performed without a function/method call.</td>
 	</tr>
 	<tr>
-			<td>   Sequential </td>
-	<td>Sequential operation attribute – The operation is via iterating over the object elements.</td>
+			<td>   Explicit </td>
+	<td>Explicit operation attribute – The operation is via a function/method call.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
@@ -253,38 +249,6 @@ title: "MUS"
 	<tr>
 			<td><strong>Operands Attributes</strong></td>
 	<td><strong>Definition</strong></td>
-	</tr>
-	<tr>
-			<td>         Address Kind </td>
-	<td>Address Kind operand attribute type - Shows how much memory is accessed (i.e., the span) outside of a bound of an object.</td>
-	</tr>
-	<tr>
-			<td>            Huge </td>
-	<td>More than 1KB of memory is accessed.</td>
-	</tr>
-	<tr>
-			<td>            Moderate </td>
-	<td>Several bytes of memory is accessed.</td>
-	</tr>
-	<tr>
-			<td>            Little </td>
-	<td>A few bytes of memory is accessed.</td>
-	</tr>
-	<tr>
-			<td>         Address State </td>
-	<td>Address State operand attribute type – Shows where the address is (i.e., its location) in the memory layout.</td>
-	</tr>
-	<tr>
-			<td>            Stack </td>
-	<td>The object is a non-static local variable (defined in a function, a passed parameter, or a function return address).</td>
-	</tr>
-	<tr>
-			<td>            Heap </td>
-	<td>The object is a dynamically allocated data structure (e.g., via malloc() or new).</td>
-	</tr>
-	<tr>
-			<td>            /other/ </td>
-	<td></td>
 	</tr>
 	<tr>
 			<td>         Size Kind </td>

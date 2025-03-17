@@ -84,23 +84,23 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Data </td>
-	<td>Corrupted Data fault/error – The data is modified unintentionally due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
+	<td>Corrupted Data error (or fault) – The data is modified unintentionally due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Data </td>
-	<td>Tampered Data fault/error – Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation); would lead to injection.</td>
+	<td>Tampered Data error (or fault) – Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation); would lead to injection.</td>
 	</tr>
 	<tr>
 			<td>   Corrupted Policy Data </td>
-	<td>Corrupted Policy Data fault/error –  Policy data is modified unintentionally (the values the policy checks for) due to a previous weakness.</td>
+	<td>Corrupted Policy Data error (or fault) –  Policy data is modified unintentionally (the values the policy checks for) due to a previous weakness.</td>
 	</tr>
 	<tr>
 			<td>   Tampered Policy Data </td>
-	<td>Tampered Policy Data fault/error – Maliciously modified policy data (the values the policy checks for) due to a previous weakness.</td>
+	<td>Tampered Policy Data error (or fault) – Maliciously modified policy data (the values the policy checks for) due to a previous weakness.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -108,15 +108,15 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
 			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – The data has harmed syntax due to validation or sanitization errors.</td>
+	<td>Invalid Data error (or fault) – The data has harmed syntax due to validation or sanitization errors.</td>
 	</tr>
 	<tr>
 			<td>Injection Final Error</td>
-	<td>Injection enabler/final error type – An exploitable or undefined system behavior caused by validation or sanitization bugs.</td>
+	<td>Injection final error/exploit vector type – An exploitable or undefined system behavior caused by validation or sanitization bugs.</td>
 	</tr>
 	<tr>
 			<td>   Query Injection </td>
@@ -144,7 +144,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
 			<td>   Safelist </td>
@@ -208,7 +208,7 @@ title: "DVL"
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
+	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field, dialog or a command prompt).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>

@@ -1,6 +1,6 @@
 ﻿---
 weight: 3
-title: "MUS"
+title: "MAD"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
@@ -12,15 +12,15 @@ title: "MUS"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Memory Use (MUS) Bugs Class 
+## BF Memory Addressing (MAD) Bugs Class 
 
 #### Definition
-{{< definition >}}Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.{{< /definition >}}
+{{< definition >}}Memory Addressing (MAD) class – The pointer to an object is initialized, dereferenced, repositioned, or reassigned to an improper memory address.{{< /definition >}}
 
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_MEM/MUS.svg" >}}
+{{< img src="images/BF Classes/_MEM/MAD.svg" >}}
 
 
 <table>
@@ -39,20 +39,20 @@ title: "MUS"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Initialize Object </td>
-	<td>Initialize Object operation – Change the undefined data value of an object to a meaningful one – e.g., after an object is allocated.</td>
+			<td>Initialize Pointer </td>
+	<td>Initialize Pointer operation – Change the undefined data value of a pointer to a meaningful object address; and position the pointer at the start of the object.</td>
 	</tr>
 	<tr>
-			<td>Read </td>
-	<td>Read operation – Retrieve the data value of an object from memory.</td>
+			<td>Dereference </td>
+	<td>Dereference operation – Interpret a pointer value as memory address and access that memory location. The pointer datatype determines the data type of the values to be read or written.</td>
 	</tr>
 	<tr>
-			<td>Write </td>
-	<td>Write operation – Change the data value of an object in memory to another meaningful value.</td>
+			<td>Reposition </td>
+	<td>Reposition operation – Change the pointer to another position inside its object.</td>
 	</tr>
 	<tr>
-			<td>Clear </td>
-	<td>Clear operation – Change the meaningful data value of an object to a non-meaningful one (e.g., via zeroization) – e.g., before object deallocation.</td>
+			<td>Reassign </td>
+	<td>Reassign operation – Direct the pointer to a different object.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -99,8 +99,16 @@ title: "MUS"
 	<td>NULL Pointer error (or fault) – The pointer does not point to a valid object; usually holds the zero memory address.</td>
 	</tr>
 	<tr>
-			<td>   Forbidden Address </td>
-	<td>Forbidden Address error (or fault) – The pointer holds an OS protected address or a non-existing address.</td>
+			<td>   Hardcoded Address </td>
+	<td></td>
+	</tr>
+	<tr>
+			<td>   Single Owned Address </td>
+	<td>Single Owned Address error (or fault) – Exactly one pointer owns the object.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Index </td>
+	<td>Wrong Index error (or fault) – Incorrect index position – hardcoded or from computation.</td>
 	</tr>
 	<tr>
 			<td>   Wrong Size </td>
@@ -113,6 +121,14 @@ title: "MUS"
 	<tr>
 			<td>   Cast Pointer </td>
 	<td>Cast Pointer error (or fault) – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Type </td>
+	<td>Wrong Type error (or fault) – A data type range or structure is not correct.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Index Type </td>
+	<td>Wrong Index Type error (or fault) – An index is of incorrect data type.</td>
 	</tr>
 	<tr>
 			<td>Address Fault</td>
@@ -159,44 +175,60 @@ title: "MUS"
 	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Uninitialized Object </td>
-	<td>Uninitialized Object error (or fault) – The object was never assigned a meaningful value.</td>
+			<td>   NULL Pointer </td>
+	<td>NULL Pointer error (or fault) – The pointer does not point to a valid object; usually holds the zero memory address.</td>
+	</tr>
+	<tr>
+			<td>   Forbidden Address </td>
+	<td>Forbidden Address error (or fault) – The pointer holds an OS protected address or a non-existing address.</td>
+	</tr>
+	<tr>
+			<td>Address Error</td>
+	<td>Address error (or fault) type – The address of an object is wrong.</td>
+	</tr>
+	<tr>
+			<td>   Wild Pointer </td>
+	<td>Wild Pointer error (or fault) – Holds an arbitrary address, because it has not been initialized or an erroneous allocation routine was used.</td>
+	</tr>
+	<tr>
+			<td>   Dangling Pointer </td>
+	<td>Dangling Pointer error (or fault) – Still holds the address of its successfully deallocated object (e.g., a pointer to a freed heap object or address of a stack object returned by a function).</td>
+	</tr>
+	<tr>
+			<td>   Untrusted Pointer </td>
+	<td>Untrusted Pointer error (or fault) – The pointer is modified to an improperly checked address.</td>
+	</tr>
+	<tr>
+			<td>   Overbound Pointer </td>
+	<td>Overbound Pointer error (or fault) – Holds an address that is above the upper boundary of its object.</td>
+	</tr>
+	<tr>
+			<td>   Underbound Pointer </td>
+	<td>Underbound Pointer error (or fault) – Holds an address that is below the lower boundary of its object.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Position Pointer </td>
+	<td>Wrong Position Pointer error (or fault) – Holds the address of a miscalculated position inside its object bounds.</td>
 	</tr>
 	<tr>
 			<td>Memory Corruption/Disclosure Final Error</td>
 	<td>Memory Corruption/Disclosure final error/exploit vector type – An exploitable or undefined system behavior caused by memory addressing, allocation, use, or deallocation bugs.</td>
 	</tr>
 	<tr>
-			<td>   Not Cleared Object </td>
-	<td>Not Cleared Object final error – An object's data value is not changed to a non-meaningful one before deallocation.</td>
+			<td>   NULL Pointer Dereference </td>
+	<td>NULL Pointer Dereference final error – An attempt to access an object for reading or writing via a NULL pointer.</td>
 	</tr>
 	<tr>
-			<td>   Object Corruption </td>
-	<td>Object Corruption final error – An object's data value is unintentionally altered.</td>
+			<td>   Untrusted Pointer Dereference </td>
+	<td>Untrusted Pointer Dereference final error – An attempt to access an object via an altered pointer (non-legitimate dereference of a tainted pointer).</td>
 	</tr>
 	<tr>
-			<td>   Type Confusion </td>
-	<td>Type Confusion final error – A cast pointer and its object have incompatible data types, so the object data will be interpreted via a different data type).</td>
+			<td>   Uninitialized Pointer Dereference </td>
+	<td>Uninitialized Pointer Dereference final error – An attempt to access an object for reading or writing via an uninitialized pointer.</td>
 	</tr>
 	<tr>
-			<td>   Use After Deallocate </td>
-	<td>use after free or use after return) final error – An attempt to use (dereference, read, write, or clear) a deallocated object (e.g., via a pointer to a freed or reallocated heap object -- use after free) or out of scope object (e.g., via a returned by a function pointer to a stack object -- use after return).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Overflow </td>
-	<td>Buffer Overflow final error – Write data above the upper bound of an object (i.e., buffer over-write).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Underflow </td>
-	<td>Buffer Underflow final error – Write data below the lower bound of an object (i.e., buffer under-write).</td>
-	</tr>
-	<tr>
-			<td>   Buffer Over-Read </td>
-	<td>Buffer Over-Read final error – Read data above the upper bound of an object.</td>
-	</tr>
-	<tr>
-			<td>   Buffer Under-Read </td>
-	<td>Buffer Under-Read final error – Read data below the lower bound of an object.</td>
+			<td>   Memory Leak </td>
+	<td>Memory Leak final error – An object has no pointer pointing to it.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -253,22 +285,6 @@ title: "MUS"
 	<tr>
 			<td><strong>Operands Attributes</strong></td>
 	<td><strong>Definition</strong></td>
-	</tr>
-	<tr>
-			<td>         Address Kind </td>
-	<td>Address Kind operand attribute type - Shows how much memory is accessed (i.e., the span) outside of a bound of an object.</td>
-	</tr>
-	<tr>
-			<td>            Huge </td>
-	<td>More than 1KB of memory is accessed.</td>
-	</tr>
-	<tr>
-			<td>            Moderate </td>
-	<td>Several bytes of memory is accessed.</td>
-	</tr>
-	<tr>
-			<td>            Little </td>
-	<td>A few bytes of memory is accessed.</td>
 	</tr>
 	<tr>
 			<td>         Address State </td>

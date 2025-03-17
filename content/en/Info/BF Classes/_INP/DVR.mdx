@@ -1,7 +1,27 @@
-﻿
+﻿---
+weight: 3
+title: "DVR"
+---
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-PJ364XPP9F');
+</script>
+
+## BF Data Verification (DVR) Bugs Class 
+
+#### Definition
+{{< definition >}}Data Verification (DVR) class – Data are verified (i.e., semantics check) or corrected (i.e., assign or remove) improperly.{{< /definition >}}
+
 ####  Taxonomy
 
-<img src="c:\_BF\BF Website\static\images\BF Classes\DVL.svg" alt="xxx"/>
+
+{{< img src="images/BF Classes/_INP/DVR.svg" >}}
+
 
 <table>
 <tr>
@@ -19,12 +39,12 @@
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Validate </td>
-	<td>Validate operation – Check data syntax (e.g., proper form or grammar, missing symbols or elements) in order to accept or sanitize it.</td>
+			<td>Verify </td>
+	<td>Verify operation – Check data semantics (e.g., proper value/meaning) in order to accept (and possibly correct) or reject it.</td>
 	</tr>
 	<tr>
-			<td>Sanitize </td>
-	<td>Sanitize operation – Modify data (e.g., neutralize/escape, repair/add, filter/remove symbols or elements) to make it valid (well-formed).</td>
+			<td>Correct </td>
+	<td>Correct operation – Modify data (e.g., assign new value or remove) to make it accurate.</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -64,23 +84,11 @@
 	</tr>
 	<tr>
 			<td>Data Fault</td>
-	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Corrupted Data </td>
-	<td>Corrupted Data fault/error – The data is modified unintentionally due to a previous weakness (e.g., with a decompress or a decrypt operation); would lead to invalid data for next weakness.</td>
-	</tr>
-	<tr>
-			<td>   Tampered Data </td>
-	<td>Tampered Data fault/error – Maliciously modified data due to a previous weakness (e.g., with a deserialize, authorize, or crypto verify operation); would lead to injection.</td>
-	</tr>
-	<tr>
-			<td>   Corrupted Policy Data </td>
-	<td>Corrupted Policy Data fault/error –  Policy data is modified unintentionally (the values the policy checks for) due to a previous weakness.</td>
-	</tr>
-	<tr>
-			<td>   Tampered Policy Data </td>
-	<td>Tampered Policy Data fault/error – Maliciously modified policy data (the values the policy checks for) due to a previous weakness.</td>
+			<td>   Invalid Data </td>
+	<td>Invalid Data error (or fault) – The data has harmed syntax due to validation or sanitization errors.</td>
 	</tr>
 	<tr>
 			<td><strong>Consequences</strong></td>
@@ -88,35 +96,23 @@
 	</tr>
 	<tr>
 			<td>Data Error</td>
-	<td>Data Fault/Error type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
+	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Invalid Data </td>
-	<td>Invalid Data fault/error – The data has harmed syntax due to validation or sanitization errors.</td>
+			<td>   Wrong Value </td>
+	<td>Wrong Value error (or fault) – The data value is not accurate (e.g., outside of a range).</td>
 	</tr>
 	<tr>
-			<td>Injection Final Error</td>
-	<td>Injection final error type – An exploitable or undefined system behavior caused by validation or sanitization bugs.</td>
+			<td>   Inconsistent Value </td>
+	<td>Inconsistent Value error (or fault) – The data value does not correspond to related data value (e.g., inconstancy between the value of a size variable and the actual buffer size).</td>
 	</tr>
 	<tr>
-			<td>   Query Injection </td>
-	<td>Query Injection final error – Maliciously inserted condition parts (e.g., or 1==1) or entire commands (e.g., drop table) into an input used to construct a query.</td>
+			<td>Type Error</td>
+	<td>Type error (or fault) type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
 	</tr>
 	<tr>
-			<td>   Command Injection </td>
-	<td>Command Injection final error – Maliciously inserted new commands into the input to a command sent to an OS or a server.</td>
-	</tr>
-	<tr>
-			<td>   Source Code Injection </td>
-	<td>Source Code Injection final error – Maliciously inserted new code (incl. with <> elements) into an input used as a part of an executing application code.</td>
-	</tr>
-	<tr>
-			<td>   Parameter Injection </td>
-	<td>Parameter Injection final error – Maliciously inserted data (e.g., with & parameter separator) into an input used as a parameter/argument in other parts of the code.</td>
-	</tr>
-	<tr>
-			<td>   File Injection </td>
-	<td>File Injection final error – Maliciously inserted data (e.g., with .. and / or with file entries) into an input used to access/modify files or as a file content.</td>
+			<td>   Wrong Type </td>
+	<td>Wrong Type error (or fault) – A data type range or structure is not correct.</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -124,23 +120,27 @@
 	</tr>
 	<tr>
 			<td>Mechanism </td>
-	<td>Mechanism operation attribute type – Shows how the operation the operation with a bug or faulty operand is performed.</td>
+	<td>Mechanism operation attribute type – Shows how the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
-			<td>   Safelist </td>
-	<td>Safelist operation attribute – The operation is via a policy based on a set of known good content.</td>
+			<td>   Value </td>
+	<td>Value operation attribute – The operation checks data for a specific value (incl. NULL or list of values).</td>
 	</tr>
 	<tr>
-			<td>   Denylist </td>
-	<td>Denylist operation attribute – The operation is via a policy based on a set of known bad content; helps reject outright maliciously malformed data.</td>
+			<td>   Quantity </td>
+	<td>Quantity operation attribute – The operation checks data for a specific measurable value (e.g., size, time, rate, frequency).</td>
 	</tr>
 	<tr>
-			<td>   Format </td>
-	<td>Format operation attribute – The operation is via a policy based on syntax format (e.g., defined via regular expression).</td>
+			<td>   Range </td>
+	<td>Range operation attribute – The operation checks data are within a (min, max) interval.</td>
 	</tr>
 	<tr>
-			<td>   Length </td>
-	<td>Length operation attribute – The operation uses a policy based on allowed number of characters in data. Note that this is not about the data value as size of an object.</td>
+			<td>   Data Type </td>
+	<td>Data Type operation attribute – The operation checks data for a specific data type.</td>
+	</tr>
+	<tr>
+			<td>   Other Rules </td>
+	<td>Other Rules operation attribute – The operation checks data against other business logic.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
@@ -188,7 +188,7 @@
 	</tr>
 	<tr>
 			<td>            Entered </td>
-	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field of a dialog or a command prompt).</td>
+	<td>Entered operand attribute – Data are from a user via a user interface (e.g., input field, dialog or a command prompt).</td>
 	</tr>
 	<tr>
 			<td>            Stored </td>
@@ -206,8 +206,4 @@
 </table>
 </div>
 {{< /rawhtml >}}
-
-_____________________________________
-
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
 

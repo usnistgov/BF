@@ -1,6 +1,6 @@
 ﻿---
 weight: 3
-title: "TCV"
+title: "TCM"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
@@ -12,15 +12,15 @@ title: "TCV"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Type Conversion (TCV) Bugs Class 
+## BF Type Computation (TCM) Bugs Class 
 
 #### Definition
-{{< definition >}}Type Conversion (TCV) class – Data are converted or coerced into other type improperly.{{< /definition >}}
+{{< definition >}}Type Computation (TCM) class – An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly.{{< /definition >}}
 
 ####  Taxonomy
 
 
-{{< img src="images/BF Classes/_DAT/TCV.svg" >}}
+{{< img src="images/BF Classes/_DAT/TCM.svg" >}}
 
 
 <table>
@@ -39,12 +39,12 @@ title: "TCV"
 	<td><strong>Definition</strong></td>
 	</tr>
 	<tr>
-			<td>Cast </td>
-	<td>Cast operation – Explicitly convert the value of an object to another data type.</td>
+			<td>Calculate </td>
+	<td>Calculate operation – Find the result of a numeric, pointer, or string operation.</td>
 	</tr>
 	<tr>
-			<td>Coerce </td>
-	<td>Coerce operation – Implicitly (forced by the Type System) convert the value of a passed in/out argument or the return into the corresponding parameter or return data type. (Type Coercion is known also as Type Juggling.)</td>
+			<td>Evaluate </td>
+	<td>Evaluate operation – Find the result of a Boolean condition (incl. comparison).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>
@@ -59,10 +59,6 @@ title: "TCV"
 	<td>Data operand – The data value of an object – i.e., the actual value that is stored in memory.</td>
 	</tr>
 	<tr>
-			<td>Type </td>
-	<td>Type operand – The data type of an object – i.e., the set of allowed values (e.g., char is within [-128, 127]) and operations over them (e.g., +, *, mod).</td>
-	</tr>
-	<tr>
 			<td><strong>Causes</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -71,12 +67,12 @@ title: "TCV"
 	<td>Code Bug type – An error in the implementation of an operation – proper operands over an improper operation. It is the roor cause of a security vulnerability. Must be fixed to resolve the vulnerability.</td>
 	</tr>
 	<tr>
-			<td>   Missing Code </td>
-	<td>Missing Code bug - The operation is misplaced entirely absent.</td>
-	</tr>
-	<tr>
 			<td>   Wrong Code </td>
 	<td>Wrong Code bug - An incorrect operator or function is used, or an incorrect data type is specified.</td>
+	</tr>
+	<tr>
+			<td>   Erroneous Code </td>
+	<td>Erroneous Code bug - There is a coding error in the implementation of the operation.</td>
 	</tr>
 	<tr>
 			<td>Name Fault</td>
@@ -87,24 +83,32 @@ title: "TCV"
 	<td>Wrong Object Resolved error (or fault) – The object is resolved from wrong scope.</td>
 	</tr>
 	<tr>
-			<td>   Missing Overloaded Function </td>
-	<td>Missing Overloaded Function error (or fault) – Code for particular function parameters' data types is absent.</td>
+			<td>   Wrong Function Resolved </td>
+	<td>Wrong Function Resolved error (or fault) – The function is resolved from wrong scope.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Generic Function Bound </td>
+	<td>Wrong Generic Function Bound error (or fault) – Code for a wrong data type is bound due to wrong generic type arguments.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Overridden Function Bound </td>
+	<td>Wrong Overridden Function Bound error (or fault) – Code from wrong subtype is bound due to a wrong invoking subtype object.</td>
+	</tr>
+	<tr>
+			<td>   Wrong Overloaded Function Bound </td>
+	<td>Wrong Overloaded Function Bound error (or fault) – Wrong overloaded implementation is bound due to wrong function arguments.</td>
 	</tr>
 	<tr>
 			<td>Data Fault</td>
 	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Under Range </td>
-	<td>Under Range error (or fault) – The data value is smaller than the lower range of its type.</td>
+			<td>   Wrong Argument </td>
+	<td>Wrong Argument error (or fault) – Inaccurate input data value, i.e., non-verified for harmed semantics.</td>
 	</tr>
 	<tr>
-			<td>   Over Range </td>
-	<td>Over Range error (or fault) – The data value is larger than the upper range of its type.</td>
-	</tr>
-	<tr>
-			<td>   Flipped Sign </td>
-	<td>Flipped Sign error (or fault) – Sign bit is overwritten from type related calculation.</td>
+			<td>   Reference vs. Dereference </td>
+	<td>Reference vs. Dereference error (or fault) – Using the address of an entity instead of its data value.</td>
 	</tr>
 	<tr>
 			<td>Type Fault</td>
@@ -119,10 +123,6 @@ title: "TCV"
 	<td>Wrong Object Type Resolved error (or fault) – An object is resolved from a wrong scope, so its data type might be wrong (e.g., a parent vs a child data type).</td>
 	</tr>
 	<tr>
-			<td>   Mismatched Argument </td>
-	<td>Mismatched Argument error (or fault) – An argument is not of the parameter data type.</td>
-	</tr>
-	<tr>
 			<td><strong>Consequences</strong></td>
 	<td><strong>Definition</strong></td>
 	</tr>
@@ -131,48 +131,32 @@ title: "TCV"
 	<td>Data error (or fault) type – The data of an object has harmed semantics or inconsistent or wrong value.</td>
 	</tr>
 	<tr>
-			<td>   Wrong Value </td>
-	<td>Wrong Value error (or fault) – The data value is not accurate (e.g., outside of a range).</td>
+			<td>   Wrong Result </td>
+	<td>Wrong Result error (or fault) – Incorrect value – from type conversion or computation.</td>
+	</tr>
+	<tr>
+			<td>   Under Range </td>
+	<td>Under Range error (or fault) – The data value is smaller than the lower range of its type.</td>
+	</tr>
+	<tr>
+			<td>   Over Range </td>
+	<td>Over Range error (or fault) – The data value is larger than the upper range of its type.</td>
 	</tr>
 	<tr>
 			<td>   Flipped Sign </td>
 	<td>Flipped Sign error (or fault) – Sign bit is overwritten from type related calculation.</td>
 	</tr>
 	<tr>
-			<td>   Truncated Value </td>
-	<td>Truncated Value error (or fault) – The rightmost bits of a data value that won’t fit the data type size are cut off.</td>
+			<td>   Wrap Around </td>
+	<td>Wrap Around error (or fault) – A moved around-the-clock value over its data type upper or lower range, as it exceeds that range. (Integer Over-/Under-flow is a wrapped-around the upper/lower range integer value; may become very small/large and change to the opposite sign.)</td>
 	</tr>
 	<tr>
-			<td>   Distorted Value </td>
-	<td>Distorted Value error (or fault) – The data value is incorrect (although is fits the type size) due to a sign flip or signed/unsigned or unsigned/signed cast.</td>
+			<td>Type Computation Final Error</td>
+	<td>Type Computation final error/exploit vector type – An exploitable or undefined system behavior caused by type computation bugs.</td>
 	</tr>
 	<tr>
-			<td>   Rounded Value </td>
-	<td>Rounded Value error (or fault) – Precision loss of a real number.</td>
-	</tr>
-	<tr>
-			<td>Type Error</td>
-	<td>Type error (or fault) type – The set or range of allowed values of an entity is wrong or the operations allowed on them are wrong.</td>
-	</tr>
-	<tr>
-			<td>   Cast Pointer </td>
-	<td>Cast Pointer error (or fault) – A pointer is type cast to a data type that is incompatible with its object's data type.</td>
-	</tr>
-	<tr>
-			<td>   Downcast Pointer </td>
-	<td>Downcast Pointer error (or fault) – A pointer is cast to a subtype (base to subclass or subclass to subclass) that is incompatible with its object's data type. The object may invoke an overridden function is of a wrong subtype.</td>
-	</tr>
-	<tr>
-			<td>   Wrong Type </td>
-	<td>Wrong Type error (or fault) – A data type range or structure is not correct.</td>
-	</tr>
-	<tr>
-			<td>Type Conversion Final Error</td>
-	<td></td>
-	</tr>
-	<tr>
-			<td>   Subtype Confusion </td>
-	<td>Subtype Confusion final error – A downcast pointer and its object have incompatible data types.</td>
+			<td>   Undefined </td>
+	<td>Undefined final error – The Type System cannon represent the calculated result (e.g., division by 0).</td>
 	</tr>
 	<tr>
 			<td><strong>Operations Attributes</strong></td>
@@ -183,12 +167,24 @@ title: "TCV"
 	<td>Mechanism operation attribute type – Shows how the operation with a bug or faulty operand is performed.</td>
 	</tr>
 	<tr>
-			<td>   Pass In </td>
-	<td>Pass In operation attribute – The operation is via in arguments' values to a function/ operator.</td>
+			<td>   Function </td>
+	<td>Function operation attribute – The operation is via a function.</td>
 	</tr>
 	<tr>
-			<td>   Pass Out </td>
-	<td>Pass Out operation attribute – The operation is via out or in/out arguments' values or a return value to a function/ operator.</td>
+			<td>   Operator </td>
+	<td>Operator operation attribute – The operation is via a function with a symbolic name that implements a mathematical, relational or logical operation.</td>
+	</tr>
+	<tr>
+			<td>   Method </td>
+	<td>Method operation attribute – The operation is via a member function of an OOP class.</td>
+	</tr>
+	<tr>
+			<td>   Lambda Expression </td>
+	<td>Lambda Expression operation attribute – The operation is performed via an anonymous function, implemented within another function.</td>
+	</tr>
+	<tr>
+			<td>   Procedure </td>
+	<td>Procedure operation attribute – The operation is via a function with a void return type.</td>
 	</tr>
 	<tr>
 			<td>Source Code </td>
@@ -261,18 +257,6 @@ title: "TCV"
 	<tr>
 			<td>            Boolean </td>
 	<td>Boolean operand attribute – A truth/falsity value – true or false; 1 or 0.</td>
-	</tr>
-	<tr>
-			<td>         Type Kind </td>
-	<td>Type Kind operand attribute type – Shows what the data type composition is.</td>
-	</tr>
-	<tr>
-			<td>            Primitive </td>
-	<td>Primitive operand attribute – A scalar data type that mimics the hardware units - e.g., int (long, short, signed), float, double, string, Boolean. A primitive data type is only language defined and is not built from other data types.</td>
-	</tr>
-	<tr>
-			<td>            Structure </td>
-	<td>Structure operand attribute – A composite data type - e.g., array, list, map, class. A structured data type is built from other data types and has primitive or structured members.</td>
 	</tr>
 	
 </table>
