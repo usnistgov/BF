@@ -20,8 +20,8 @@ The BF Types API generates the BF Types for the provided BF Vulnerability Specif
 
 - BF Vulnerability Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL.xml/BFTypes?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFVUL.json/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BFVUL.json/BFTypes?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL.xml/BFRelations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.xml/BFTypes?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFVUL.json/BFRelations?key=YOUR_KEY](https://samate.nist.gov/services/BFVUL.json/BFTypes?key=YOUR_KEY)
 
 _________________________________
 

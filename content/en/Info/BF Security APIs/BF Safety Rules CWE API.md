@@ -20,8 +20,8 @@ The BF Safety Rules  with CWEs API generates datasets of BF Security Rules by CW
 
 - BF BF Security Rules by CWE &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=YOUR_KEY)
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 

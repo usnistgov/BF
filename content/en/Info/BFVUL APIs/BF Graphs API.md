@@ -19,7 +19,7 @@ title: "BF Graphs API"
 The BF Graphs API generates and BF Vulnerability Specifications in graphical formats.
 
 - BF Vulnerability Specification Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFVUL/BFGraphsPPT?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL/BFGraphsPPT?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL/BFGraphsPPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/BFGraphsPPT?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         

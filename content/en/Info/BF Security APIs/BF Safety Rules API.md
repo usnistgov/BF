@@ -20,8 +20,8 @@ The BF Safety Rules API generates datasets of BF Security Rules.
 
 - BF BF Security Rules &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRules?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRules?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRules?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRules?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRules?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRules?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRules?key=YOUR_KEY)
 
 _________________________________
 

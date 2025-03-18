@@ -20,8 +20,8 @@ The BF_INPCVEs Pre API generates datasets of partial BFCVE Specifications based 
 
 - Partial BFCVE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial/api?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial/api?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial/api?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial/api?key=YOUR_KEY)
 
 _________________________________
 

@@ -20,7 +20,7 @@ The BF Tool guides the specification of a security vulnerability as a chain of u
 
 - BFToolExamples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool/BFExamples?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY)
 
 Open the BF Formal Specifications of Security Vulnerabilities using the BF GUI Tool. Use the BF Tool to navigate the chains of BF Weaknesses, generate graphocal representations, and save in extended or bare-bone formal BF specification formats. 
 

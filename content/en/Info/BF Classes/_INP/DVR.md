@@ -23,7 +23,7 @@ ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)
 
 - BF _INP>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&key=YOUR_KEY)
 
 - BF _INP>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&ShowDefinitions=true&key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&ShowDefinitions=true&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/ppt/_INP?class=DVR&ShowDefinitions=true&key=YOUR_KEY)

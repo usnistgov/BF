@@ -20,8 +20,8 @@ The BFCWE API generates datasets of BF CWE Specifications as `<cause, operation>
 
 - BF CWE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=YOUR_KEY)
 
 _________________________________
 

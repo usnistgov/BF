@@ -20,8 +20,8 @@ The BFVUL API generates datasets of BF Vulnerability Specifications, including B
 
 - BF Vulnerability Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL.xml/BFVulnerability/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL.xml/BFVulnerability/api?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFVUL.json/BFVulnerability/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFVUL.json/BFVulnerability/api?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL.xml/BFVulnerability/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.xml/BFVulnerability/api?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFVUL.json/BFVulnerability/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.json/BFVulnerability/api?key=YOUR_KEY)
 
 _________________________________
 

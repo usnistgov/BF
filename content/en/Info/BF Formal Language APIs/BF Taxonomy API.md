@@ -21,8 +21,8 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (XML, JSON) formats.
 
 - BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY) </br>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
