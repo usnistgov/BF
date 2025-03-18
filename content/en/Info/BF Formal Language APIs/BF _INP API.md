@@ -14,7 +14,7 @@ title: "BF _INP API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _INP API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF _INP API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF _INP API queries and generates the BF Taxonomy in graphical formats.
 

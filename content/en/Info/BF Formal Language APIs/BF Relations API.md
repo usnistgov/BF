@@ -14,7 +14,7 @@ title: "BF Relations API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Relations API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Relations API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Relations API generates datasets of Meaningful `<cause, operation>→consequence` BF Weakness Triples 
 <!-- 

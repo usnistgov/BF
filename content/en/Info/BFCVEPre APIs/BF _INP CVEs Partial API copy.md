@@ -14,7 +14,7 @@ title: "BF_INPCVEs Pre API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF_INPCVEs Pre API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF_INPCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF_INPCVEs Pre API generates datasets of partial BFCVE Specifications based on the NVD CVE-to-CWE and CWE2BF mappings.
 

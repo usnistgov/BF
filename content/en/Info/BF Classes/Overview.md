@@ -14,7 +14,7 @@ title: "Overview"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Bugs Framework (BF) Taxonomy <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# Bugs Framework (BF) Taxonomy <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Please use the menu on the left to browse the BF Class Types: [_INP](/BF/info/bf-classes/_inp/), [_MEM](/BF/info/bf-classes/_mem/), [_DAT](/BF/info/bf-classes/_dat/), ...
 <!-- [_CDS](/BF/info/bf-classes/_cds/), ... -->

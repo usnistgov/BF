@@ -14,7 +14,7 @@ title: "BF Description API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Description API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Description API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Description API generates a BF Description from the BF Tokens of provided BF Vulnerability Specification. 
 

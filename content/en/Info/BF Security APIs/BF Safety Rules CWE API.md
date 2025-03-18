@@ -14,7 +14,7 @@ title: "BF Safety Rules with CWEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Safety Rules API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Safety Rules API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Safety Rules  with CWEs API generates datasets of BF Security Rules by CWE where applicable.
 

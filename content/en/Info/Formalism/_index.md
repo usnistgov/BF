@@ -1,6 +1,6 @@
 ---
 weight: 2
-bookHidden: true
+#bookHidden: true
 bookCollapseSection: true
 title: "Formalism"
 ---

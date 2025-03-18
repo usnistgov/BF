@@ -14,7 +14,7 @@ title: "BFCVE Pre API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFCVE Pre API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCVE Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BFCVE Pre API generates datasets of partial BFCVE Specifications based on the NVD CVE-to-CWE and CWE2BF mappings.
 

@@ -14,7 +14,7 @@ title: BF Publications
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Publications <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Publications <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Please, reference BF publications `recent than year 2020`, as some old BF classes are now covered by new more comprehensive classes and some -- are withdrawn. They also start developing my ideas on `BF's formalism` -- originally shared in my 2014/2015 presentations. Please use as source about the BF class taxonomies this website and the publications listed here -- any other publications may provide misleading information. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).
 

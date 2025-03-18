@@ -44,16 +44,16 @@
   weight = 40
   identifier = "BF Tool APIs"
 [[main]]
-  name = "BF GUI"
+  name = "BF GUI API"
   weight = 1
-  identifier = "BF GUI"
-  url = "/Info/BF Tool APIs/BF GUI"
+  identifier = "BF GUI API"
+  url = "/Info/BF Tool APIs/BF GUI API"
   parent = "BF Tool APIs"
 [[main]]
-  name = "BF Examples"
+  name = "BF Examples API"
   weight = 2
-  identifier = "BF Examples"
-  url = "/Info/BF Tool APIs/BF  Examples"
+  identifier = "BF Examples API"
+  url = "/Info/BF Tool APIs/BF Examples API"
   parent = "BF Tool APIs"
 [[main]]
   name = "BF Tool Guide"
@@ -106,8 +106,8 @@
   name = "BF Parser API"
   weight = 7
   identifier = "BF Parser API"
-  url = "/Info/Formal Language APIs/BF Parser API"
-  parent = "Formal Language APIs"
+  url = "/Info/BF Formal Language APIs/BF Parser API"
+  parent = "BF Formal Language APIs"
 
 [[main]]
   name = "BFCWE APIs"

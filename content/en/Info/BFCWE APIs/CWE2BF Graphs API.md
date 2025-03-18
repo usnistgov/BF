@@ -14,7 +14,7 @@ title: "CWE2BF Graphs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# CWE2BF Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# CWE2BF Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
 

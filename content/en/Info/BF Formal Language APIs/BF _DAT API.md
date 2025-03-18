@@ -14,14 +14,14 @@ title: "BF _DAT API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _DAT API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF _DAT API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF _DAT API queries and generates the BF Taxonomy in graphical formats.
 
-- BF /_DAT Excerpt  &rarr; no Key required: <br/>
+- BF _DAT Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT) <br/>
 
-- BF /_DAT Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+- BF _DAT Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?key=YOUR_KEY)
 
   - With Definitions:<br/>

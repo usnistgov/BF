@@ -14,7 +14,7 @@ title: "BF Types API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Types API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Types API generates the BF Types for the provided BF Vulnerability Specification(s). 
 

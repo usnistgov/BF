@@ -14,7 +14,7 @@ title: "BF Safety Rules API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Safety Rules API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Safety Rules API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Safety Rules API generates datasets of BF Security Rules.
 

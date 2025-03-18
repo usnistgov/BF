@@ -14,7 +14,7 @@ title: "BF Backward API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Backward API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Backward API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Backward API provides the BFVUL Tool backwards bugs identification functionality. 
 

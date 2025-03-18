@@ -14,7 +14,7 @@ title: "BF Graphs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Graphs API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF Graphs API generates and BF Vulnerability Specifications in graphical formats.
 

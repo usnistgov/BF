@@ -14,7 +14,7 @@ title: "BFVUL API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFVUL API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVUL API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BFVUL API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
 

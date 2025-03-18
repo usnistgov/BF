@@ -14,7 +14,7 @@ title: "BF _MEM API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _MEM API <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF _MEM API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BF _MEM API queries and generates the BF Taxonomy in graphical formats.
 
