@@ -25,7 +25,7 @@ The BF Relations API generates datasets of Meaningful `<cause, operation>→cons
 
 - BF Meaningful Weakness Triples &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage.jxmlson/BFRelations?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFRelations?key=YOUR_KEY)
 
 _________________________________

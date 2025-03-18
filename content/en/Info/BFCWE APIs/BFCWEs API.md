@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BFCWEs API"
+title: "BFCWE API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,14 +14,14 @@ title: "BFCWEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFCWEs API. <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCWE API. <br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF CWEs API generates datasets of BF CWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
+The BFCWE API generates datasets of BF CWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
 
 - BF CWE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE.xml/BFCWEs/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.xml/BFCWEs/api?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCWE.json/BFCWEs/api?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.json/BFCWEs/api?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.xml/BFWeakness?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFCWE.json/BFWeakness?key=YOUR_KEY)
 
 _________________________________
 

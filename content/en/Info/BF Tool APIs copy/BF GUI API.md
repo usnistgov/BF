@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Tool"
+title: "BF Tool API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -20,7 +20,7 @@ The BF GUI Tool guides the specification of a security vulnerability as a chain 
 
 - BFTool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BF/BFTool?key=?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BF/BFTool?key=?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTool/BFGUI?key=?key=`YOUR_KEY`](https://samate.nist.gov/services/BF/BFTool/BFGUI?key=?key=YOUR_KEY)
 
 The BF tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFCVE tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 
