@@ -192,7 +192,7 @@
   name = "BF Safety Rules API"
   weight = 2
   identifier = "BF Safety Rules CWE API"
-  url = "/Info/BF Security APIs/BF Safety Rules API"
+  url = "/Info/BF Security APIs/BF Safety Rules CWE API"
   parent = "BF Security APIs"
 
 [[main]]

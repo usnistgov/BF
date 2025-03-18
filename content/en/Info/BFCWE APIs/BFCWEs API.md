@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BFCWE API"
+title: "BFCWEs API"
 ---
 
 <!-- Google tag (gtag.js) -->
