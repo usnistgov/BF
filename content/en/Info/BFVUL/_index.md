@@ -1,7 +1,7 @@
 ---
 weight: 4
 bookCollapseSection: true
-title: "BF CVE"
+title: "BFVUL/BFCVE"
 ---
 
 <!-- Google tag (gtag.js) -->
