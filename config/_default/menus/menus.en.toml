@@ -5,39 +5,39 @@
   url = "/Info/Welcome/BF Welcome"
   parent = "Welcome"
 
-#[[main]]
-#  name = "Models"
-#  weight = 20
-#  identifier = "Models"
-#[[main]]
-#  name = "BF Vulnerability State Model"
-#  weight = 1
-#  identifier = "BF Vulnerability State Model"
-#  url = "/Info/Models/BF Vulnerability State Model"
-#  parent = "Models"
-#[[main]]
-#  name = "BF Vulnerability Specification Model"
-#  weight = 2
-#  identifier = "BF Vulnerability Specification Model"
-#  url = "/Info/Models/BF Vulnerability Specification Model"
-#  parent = "Models"
+[[main]]
+  name = "Models"
+  weight = 20
+  identifier = "Models"
+[[main]]
+  name = "BF Vulnerability State Model"
+  weight = 1
+  identifier = "BF Vulnerability State Model"
+  url = "/Info/Models/BF Vulnerability State Model"
+  parent = "Models"
+[[main]]
+  name = "BF Vulnerability Specification Model"
+  weight = 2
+  identifier = "BF Vulnerability Specification Model"
+  url = "/Info/Models/BF Vulnerability Specification Model"
+  parent = "Models"
 
-#[[main]]
-#  name = "Formalism"
-#  weight = 30
-#  identifier = "Formalism"
-#[[main]]
-#  name = "BF Concepts"
-#  weight = 1
-#  identifier = "BF Concepts"
-#  url = "/Info/Formalism/BF Concepts"
-#  parent = "Formalism"
-#[[main]]
-#  name = "BF Formal Language"
-#  weight = 2
-#  identifier = "BF Formal Language"
-#  url = "/Info/Formalism/BF Formal Language"
-#  parent = "Formalism"
+[[main]]
+  name = "Formalism"
+  weight = 30
+  identifier = "Formalism"
+[[main]]
+  name = "BF Concepts"
+  weight = 1
+  identifier = "BF Concepts"
+  url = "/Info/Formalism/BF Concepts"
+  parent = "Formalism"
+[[main]]
+  name = "BF Formal Language"
+  weight = 2
+  identifier = "BF Formal Language"
+  url = "/Info/Formalism/BF Formal Language"
+  parent = "Formalism"
 
 [[main]]
   name = "BF Tool APIs"
@@ -212,22 +212,22 @@
   url = "/Info/Background/Other Classifications"
   parent = "BackgroundMenu"
 
-[[main]]
-  name = "Why BF"
-  weight = 110
-  identifier = "Why BF"
-[[main]]
-  name = "Why BF"
-  weight = 1
-  identifier = "Why BF"
-  url = "/Info/Why BF/Why BF"
-  parent = "Why BF"
-[[main]]
-  name = "BF Impact"
-  weight = 2
-  identifier = "BF Why BF"
-  url = "/Info/Why BF/BF Impact"
-  parent = "Why BF"
+#[[main]]
+#  name = "Why BF"
+#  weight = 110
+#  identifier = "Why BF"
+#[[main]]
+#  name = "Why BF"
+#  weight = 1
+#  identifier = "Why BF"
+#  url = "/Info/Why BF/Why BF"
+#  parent = "Why BF"
+#[[main]]
+#  name = "BF Impact"
+#  weight = 2
+#  identifier = "BF Why BF"
+#  url = "/Info/Why BF/BF Impact"
+#  parent = "Why BF"
 
 [[main]]
   name = "Publications"
