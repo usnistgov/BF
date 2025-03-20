@@ -1,6 +1,6 @@
 ---
-weight: 3
-#bookHidden: true
+weight: 2
+bookHidden: true
 bookCollapseSection: true
 title: "Models"
 ---

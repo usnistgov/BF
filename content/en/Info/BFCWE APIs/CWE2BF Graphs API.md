@@ -18,10 +18,10 @@ title: "CWE2BF Graphs API"
 
 The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
 
-- BF CWE2BF Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+<!-- - BF CWE2BF Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT?key=YOUR_KEY)
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/> -->
 
 //To be added//
         
