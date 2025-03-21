@@ -16,8 +16,14 @@
   url = "/Info/Formalism/BF Concepts"
   parent = "Formalism"
 [[main]]
-  name = "BF Formal Language"
+  name = "BF Features"
   weight = 2
+  identifier = "BF Features"
+  url = "/Info/Formalism/BF Features"
+  parent = "Formalism"
+[[main]]
+  name = "BF Formal Language"
+  weight = 3
   identifier = "BF Formal Language"
   url = "/Info/Formalism/BF Formal Language"
   parent = "Formalism"
@@ -40,31 +46,8 @@
   parent = "Models"
 
 [[main]]
-  name = "BF Tool APIs"
-  weight = 40
-  identifier = "BF Tool APIs"
-[[main]]
-  name = "BF GUI API"
-  weight = 1
-  identifier = "BF GUI API"
-  url = "/Info/BF Tool APIs/BF GUI API"
-  parent = "BF Tool APIs"
-[[main]]
-  name = "BF Examples API"
-  weight = 2
-  identifier = "BF Examples API"
-  url = "/Info/BF Tool APIs/BF Examples API"
-  parent = "BF Tool APIs"
-[[main]]
-  name = "BF Tool Guide"
-  weight = 3
-  identifier = "BF Tool Guide"
-  url = "/Info/BF Tool APIs/BF Tool Guide"
-  parent = "BF Tool APIs"
-
-[[main]]
   name = "BF Formal Language APIs"
-  weight = 50
+  weight = 40
   identifier = "BF Formal Language APIs"
 [[main]]
   name = "BF _INP API"
@@ -104,16 +87,39 @@
   parent = "BF Formal Language APIs"
 [[main]]
   name = "BF Operations Flow API"
-  weight = 6
+  weight = 7
   identifier = "BF Operations Flow API"
   url = "/Info/BF Formal Language APIs/BF Operations Flow API"
   parent = "BF Formal Language APIs"
 [[main]]
   name = "BF Parser API"
-  weight = 7
+  weight = 8
   identifier = "BF Parser API"
   url = "/Info/BF Formal Language APIs/BF Parser API"
   parent = "BF Formal Language APIs"
+
+[[main]]
+  name = "BF Tool APIs"
+  weight = 50
+  identifier = "BF Tool APIs"
+[[main]]
+  name = "BF GUI API"
+  weight = 1
+  identifier = "BF GUI API"
+  url = "/Info/BF Tool APIs/BF GUI API"
+  parent = "BF Tool APIs"
+[[main]]
+  name = "BF Examples API"
+  weight = 2
+  identifier = "BF Examples API"
+  url = "/Info/BF Tool APIs/BF Examples API"
+  parent = "BF Tool APIs"
+[[main]]
+  name = "BF Tool Guide"
+  weight = 3
+  identifier = "BF Tool Guide"
+  url = "/Info/BF Tool APIs/BF Tool Guide"
+  parent = "BF Tool APIs"
 
 [[main]]
   name = "BFVUL APIs"

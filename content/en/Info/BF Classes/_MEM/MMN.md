@@ -19,5 +19,11 @@ title: "MMN"
 
 ####  Taxonomy
 
+- BF _MEM>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+[https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?class=MMN&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?class=MMN&key=YOUR_KEY)
+
+- BF _MEM>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
+[https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?class=MMN&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?class=MMN&ShowDefinitions=true&key=YOUR_KEY)
+
 ______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)
