@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "BF Tool API"
+title: "BF GUI Tool API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -18,11 +18,11 @@ title: "BF Tool API"
 
 The BF GUI Tool guides the specification of a security vulnerability as a chain of underlying weaknesses. A security bug causes the first weakness, which leads to an error. This error becomes the cause (i.e., the fault) of the next weakness and propagates through subsequent weaknesses until a final error is reached, enabling a security failure. The causation within a weakness is by a meaningful <cause, operation>→consequence relation. The causation between weaknesses is by error type to fault type match and operation flow or error↷fault by value propagation.
 
-- BFTool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool/BFGUI?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool/BFGUI?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTool?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool?key=YOUR_KEY)
 
-The BF tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFCVE tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
+The BF GUI Tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 
 _______________________________
 BF CITATION: <br/>

@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 5
 bookCollapseSection: false
 title: "BF Relations API"
 ---

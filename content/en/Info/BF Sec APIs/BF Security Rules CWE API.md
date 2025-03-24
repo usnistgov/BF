@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BF Safety Rules with CWEs API"
+title: "BF Security Rules CWE API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,14 +14,14 @@ title: "BF Safety Rules with CWEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Safety Rules API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Security Rules CWE API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Safety Rules  with CWEs API generates datasets of BF Security Rules by CWE where applicable.
+The BF Security Rules  with CWEs API generates datasets of BF Security Rules by CWE where applicable.
 
 - BF BF Security Rules by CWE &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.xml/BFSafetyRulesCWE?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurity.json/BFSafetyRulesCWE?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE?key=YOUR_KEY)
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 

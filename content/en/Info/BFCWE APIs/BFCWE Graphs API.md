@@ -1,7 +1,7 @@
 ---
 weight: 4
 bookCollapseSection: false
-title: "BFVUL Graphs API"
+title: "BFCWE Graphs API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,12 +14,12 @@ title: "BFVUL Graphs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFVUL Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCWE Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVUL Graphs API generates and BF Vulnerability Specifications in graphical formats.
+The BFCWE Graphs API generates and BF Vulnerability Specifications in graphical formats.
 
 - BF Vulnerability Specification Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCWE/PPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/PPT?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
@@ -38,7 +38,7 @@ The BFVUL Graphs API generates and BF Vulnerability Specifications in graphical 
       foreach (var fileName in fileNames)
           fileContent.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
 
-      var response = await BFClient.SendRequest("BFVUL/PPT/api", HttpMethod.Post, fileContent);
+      var response = await BFClient.SendRequest("BFCWE/PPT/api", HttpMethod.Post, fileContent);
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
       

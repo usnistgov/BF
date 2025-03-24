@@ -22,10 +22,10 @@
   url = "/Info/Formalism/BF Features"
   parent = "Formalism"
 [[main]]
-  name = "BF Formal Language"
+  name = "BF FL"
   weight = 3
-  identifier = "BF Formal Language"
-  url = "/Info/Formalism/BF Formal Language"
+  identifier = "BF FL"
+  url = "/Info/Formalism/BF FL"
   parent = "Formalism"
 
 [[main]]
@@ -46,67 +46,14 @@
   parent = "Models"
 
 [[main]]
-  name = "BF Formal Language APIs"
-  weight = 40
-  identifier = "BF Formal Language APIs"
-[[main]]
-  name = "BF _INP API"
-  weight = 1
-  identifier = "BF _INP API"
-  url = "/Info/BF Formal Language APIs/BF _INP API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF _MEM API"
-  weight = 2
-  identifier = "BF _MEM API"
-  url = "/Info/BF Formal Language APIs/BF _MEM API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF _DAT API"
-  weight = 3
-  identifier = "BF _DAT API"
-  url = "/Info/BF Formal Language APIs/BF _DAT API"
-  parent = "BF Formal Language APIs"
-#[[main]]
-#  name = "BF Taxonomy API"
-#  weight = 4
-#  identifier = "BF Taxonomy API"
-#  url = "/Info/BF Formal Language APIs/BF Taxonomy API"
-#  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Relations API"
-  weight = 5
-  identifier = "BF Relations API"
-  url = "/Info/BF Formal Language APIs/BF Relations API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Transitions API"
-  weight = 6
-  identifier = "BF Transitions API"
-  url = "/Info/BF Formal Language APIs/BF Transitions API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Operations Flow API"
-  weight = 7
-  identifier = "BF Operations Flow API"
-  url = "/Info/BF Formal Language APIs/BF Operations Flow API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Parser API"
-  weight = 8
-  identifier = "BF Parser API"
-  url = "/Info/BF Formal Language APIs/BF Parser API"
-  parent = "BF Formal Language APIs"
-
-[[main]]
   name = "BF Tool APIs"
-  weight = 50
+  weight = 35
   identifier = "BF Tool APIs"
 [[main]]
-  name = "BF GUI API"
+  name = "BF GUI Tool API"
   weight = 1
-  identifier = "BF GUI API"
-  url = "/Info/BF Tool APIs/BF GUI API"
+  identifier = "BF GUI Tool API"
+  url = "/Info/BF Tool APIs/BF GUI Tool API"
   parent = "BF Tool APIs"
 [[main]]
   name = "BF Examples API"
@@ -120,6 +67,70 @@
   identifier = "BF Tool Guide"
   url = "/Info/BF Tool APIs/BF Tool Guide"
   parent = "BF Tool APIs"
+
+[[main]]
+  name = "BF Taxonomy APIs"
+  weight = 40
+  identifier = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _INP API"
+  weight = 1
+  identifier = "BF _INP API"
+  url = "/Info/BF Taxonomy APIs/BF _INP API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _MEM API"
+  weight = 2
+  identifier = "BF _MEM API"
+  url = "/Info/BF Taxonomy APIs/BF _MEM API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _DAT API"
+  weight = 3
+  identifier = "BF _DAT API"
+  url = "/Info/BF Taxonomy APIs/BF _DAT API"
+  parent = "BF Taxonomy APIs"
+#[[main]]
+#  name = "BF Taxonomy API"
+#  weight = 4
+#  identifier = "BF Taxonomy API"
+#  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
+#  parent = "BF Taxonomy APIs"
+
+[[main]]
+  name = "BF FL APIs"
+  weight = 45
+  identifier = "BF FL APIs"
+[[main]]
+  name = "BFLL1 API"
+  weight = 1
+  identifier = "BFLL1 API"
+  url = "/Info/BF FL APIs/BFLL1 API"
+  parent = "BF FL APIs"
+#[[main]]
+#  name = "BF Relations API"
+#  weight = 2
+#  identifier = "BF Relations API"
+#  url = "/Info/BF FL APIs/BF Relations API"
+#  parent = "BF FL APIs"
+#[[main]]
+#  name = "BF Transitions API"
+#  weight = 3
+#  identifier = "BF Transitions API"
+#  url = "/Info/BF FL APIs/BF Transitions API"
+#  parent = "BF FL APIs"
+#[[main]]
+#  name = "BF Operations Flow API"
+#  weight = 4
+#  identifier = "BF Operations Flow API"
+#  url = "/Info/BF FL APIs/BF Operations Flow API"
+#  parent = "BF FL APIs"
+[[main]]
+  name = "BF Parser API"
+  weight = 5
+  identifier = "BF Parser API"
+  url = "/Info/BF FL APIs/BF Parser API"
+  parent = "BF FL APIs"
 
 [[main]]
   name = "BFVUL APIs"
@@ -137,7 +148,7 @@
   identifier = "BFVUL Graphs API"
   url = "/Info/BFVUL APIs/BFVUL Graphs API"
   parent = "BFVUL APIs"
-  [[main]]
+[[main]]
   name = "BF Types API"
   weight = 3
   identifier = "BF Types API"
@@ -167,6 +178,12 @@
   url = "/Info/BFCWE APIs/BF CWEs API"
   parent = "BFCWE APIs"
 [[main]]
+  name = "BFCWE Graphs API"
+  weight = 2
+  identifier = "BFCWE Graphs API"
+  url = "/Info/BFCWE APIs/BFCWE Graphs API"
+  parent = "BFCWE APIs"
+[[main]]
   name = "CWE2BF Graphs API"
   weight = 2
   identifier = "CWE2BF Graphs API"
@@ -191,21 +208,21 @@
   parent = "BFCVEPre APIs"
 
 [[main]]
-  name = "BF Security APIs"
+  name = "BF Sec APIs"
   weight = 90
-  identifier = "BF Security APIs"
+  identifier = "BF Sec APIs"
 [[main]]
-  name = "BF Safety Rules API"
+  name = "BF Security Rules API"
   weight = 1
-  identifier = "BF Safety Rules API"
-  url = "/Info/BF Security APIs/BF Safety Rules API"
-  parent = "BF Security APIs"
+  identifier = "BF Security Rules API"
+  url = "/Info/BF Sec APIs/BF Security Rules API"
+  parent = "BF Sec APIs"
 [[main]]
-  name = "BF Safety Rules API"
+  name = "BF Security Rules API"
   weight = 2
-  identifier = "BF Safety Rules CWE API"
-  url = "/Info/BF Security APIs/BF Safety Rules CWE API"
-  parent = "BF Security APIs"
+  identifier = "BF Security Rules CWE API"
+  url = "/Info/BF Sec APIs/BF Security Rules CWE API"
+  parent = "BF Sec APIs"
 
 [[main]]
   name = "Background"

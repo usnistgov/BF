@@ -2,7 +2,7 @@
 weight: 3
 bookHidden: true
 bookCollapseSection: true
-title: "BF Formal Language APIs"
+title: "BF FL APIs"
 aliases:
 - /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
 ---
@@ -16,8 +16,7 @@ aliases:
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
-
-The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
+<!-- The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type. -->
 
 //to be added/
 

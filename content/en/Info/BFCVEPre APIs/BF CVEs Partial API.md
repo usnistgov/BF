@@ -20,13 +20,13 @@ The BFCVE Pre API generates datasets of partial BFCVE Specifications based on th
 
 - Partial BFCVE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json?key=YOUR_KEY)
 
 - Queried by CVE ID, CWE ID, CVSS; or BF Class taxon values: Class Tyoe, Class, Operation, Cause, and Conseqeunce-- e.g., :<br/>
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml/BFCVEsPartial?class=MUS&key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json/BFCVEsPartial?class=MUS&key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY)
 
 _________________________________
 

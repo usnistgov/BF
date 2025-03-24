@@ -18,11 +18,11 @@ title: "BF Taxonomy API"
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
-The BF Taxonomy API queries and generates the BF Taxonomy in machine-readable (XML, JSON) formats.
+The BF Taxonomy API queries BF and generates the corresponding BF Bug/Weakness Classes in machine-readable (XML, JSON) formats.
 
-- BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomy.json?key=YOUR_KEY)
+- BF Classes &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY) </br>
+  [https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY)
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

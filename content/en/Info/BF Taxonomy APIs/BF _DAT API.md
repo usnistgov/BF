@@ -1,7 +1,7 @@
 ---
-weight: 2
+weight: 3
 bookCollapseSection: false
-title: "BF _MEM API"
+title: "BF _DAT API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,21 +14,21 @@ title: "BF _MEM API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _MEM API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF _DAT API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF _MEM API queries and generates the BF Taxonomy in graphical formats.
+The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Taxonomy in graphical format.
 
-- BF /_MEM Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM) <br/>
+- BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/>
 
-- BF /_MEM Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?key=YOUR_KEY)
+- BF _DAT Taxonomy &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY)
 
   - With Definitions:<br/>
-      [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_MEM?ShowDefinitions=true&key=YOUR_KEY)
+      [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?ShowDefinitions=true&key=YOUR_KEY)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT?Fault=NULL%20Pointer&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT?Fault=NULL%20Pointer&key=YOUR_KEY) -->
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY) -->
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
@@ -40,7 +40,7 @@ The BF _MEM API queries and generates the BF Taxonomy in graphical formats.
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await BFClient.SendRequest("BFFormalLanguage/BFTaxonomyPPT/_MEM/api", HttpMethod.Get);
+      var response = await BFClient.SendRequest("BFTaxonomy/PPT/_DAT/api", HttpMethod.Get);
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
 
