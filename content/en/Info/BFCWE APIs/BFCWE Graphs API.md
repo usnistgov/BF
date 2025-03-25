@@ -16,7 +16,9 @@ title: "BFCWE Graphs API"
 
 # BFCWE Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFCWE Graphs API generates and BF Vulnerability Specifications in graphical formats.
+//To be added//
+
+<!-- The BFCWE Graphs API generates and BF Vulnerability Specifications in graphical formats.
 
 - BF Vulnerability Specification Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFCWE/PPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/PPT?key=YOUR_KEY)
@@ -47,7 +49,7 @@ The BFCWE Graphs API generates and BF Vulnerability Specifications in graphical 
 
   Python
       
-    //to be added//
+    //to be added// -->
 _________________________________
 
 BF CITATION: <br/>

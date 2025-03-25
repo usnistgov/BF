@@ -177,12 +177,12 @@
   identifier = "BFCWEs API"
   url = "/Info/BFCWE APIs/BFCWEs API"
   parent = "BFCWE APIs"
-[[main]]
-  name = "BFCWE Graphs API"
-  weight = 2
-  identifier = "BFCWE Graphs API"
-  url = "/Info/BFCWE APIs/BFCWE Graphs API"
-  parent = "BFCWE APIs"
+##[[main]]
+##  name = "BFCWE Graphs API"
+##  weight = 2
+##  identifier = "BFCWE Graphs API"
+##  url = "/Info/BFCWE APIs/BFCWE Graphs API"
+##  parent = "BFCWE APIs"
 [[main]]
   name = "CWE2BF Graphs API"
   weight = 2
