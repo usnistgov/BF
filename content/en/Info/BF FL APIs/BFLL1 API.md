@@ -21,8 +21,7 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 The BFLL1 API queries BF and generates the corresponding (i.e., filtered) BF LL1 CFG in EBNF format.
 
 - BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY) </br>
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
