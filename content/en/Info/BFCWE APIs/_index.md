@@ -2,7 +2,7 @@
 weight: 3
 bookHidden: true
 bookCollapseSection: true
-title: "BF Weakness APIs"
+title: "BFCWE APIs"
 # aliases:
 # - /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
 ---
