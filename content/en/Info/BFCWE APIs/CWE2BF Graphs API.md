@@ -41,7 +41,7 @@ The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error
       foreach (var fileName in fileNames)
           fileContent.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
 
-      var response = await BFClient.SendRequest("BFSpecification/CWEBFPPT/api", HttpMethod.Post, fileContent);
+      //xxx var response = await BFClient.SendRequest("BFSpecification/CWEBFPPT/api", HttpMethod.Post, fileContent);
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();  
    

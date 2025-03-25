@@ -40,7 +40,7 @@ The BF _INP API queries the BF _INP Class Type queries BF and generates the corr
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await BFClient.SendRequest("BFTaxonomy/PPT/_INP/api", HttpMethod.Get);
+      var response = await client.GetAsync("BFTaxonomy/PPT/_INP/api");
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
 

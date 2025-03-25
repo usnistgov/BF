@@ -35,9 +35,12 @@ The BF formalism supports a deeper understanding of vulnerabilites as chains of 
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await BFClient.SendRequest("BFVUL/BFBackward/IEX/api", HttpMethod.Get, responseType: MediaTypeNames.Application.Xml);
-      response.EnsureSuccessStatusCode();
+      using var request = new HttpRequestMessage(HttpMethod.Post, "BFVUL/BFBackward/IEX/api") { Content = content };
+      request.Headers.Accept.Add(MediaTypeNames.Application.Xml); //for XML
+      //request.Headers.Accept.Add(MediaTypeNames.Application.Json); //for JSON
 
+      var response = await client.SendAsync(request);
+      response.EnsureSuccessStatusCode();
       var result = await response.Content.ReadAsStringAsync();
 
   Python

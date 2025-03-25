@@ -20,7 +20,7 @@ The BF Parser API provides performs Validation and Verification of BF Specificat
 
 - BF Validate-Verify APP &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFParser?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFParse?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFParse?key=YOUR_KEY)<br/>
 
 - BF Parser API Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
@@ -32,15 +32,14 @@ The BF Parser API provides performs Validation and Verification of BF Specificat
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var files = new MultipartFormDataContent();
+      using var content = new MultipartFormDataContent();
       // loop over your .bfv files --> fileName
-          var fileStream = File.OpenRead(fileName);
-          var file = new StreamContent(fileStream);
-          files.Add(file, "files", Path.GetFileName(fileStream.Name));      
+        var file = new StreamContent(File.OpenRead(fileName));
+        content.Add(file, "files", Path.GetFileName(fileName));      
 
-      var response = await BFClient.SendRequest("BFFormalLanguage/BFParser/api", HttpMethod.Post, files);
+      using var response = await client.PostAsync("BFFormalLanguage/BFParser/api", content);        
       response.EnsureSuccessStatusCode();
-      var result = await response.Content.ReadAsStringAsync();
+      var result = bool.Parse(await response.Content.ReadAsStringAsync());
 
   Python
       

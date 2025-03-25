@@ -35,7 +35,7 @@ The BFLL1 API queries BF and generates the corresponding (i.e., filtered) BF LL1
 
       var responseEBNF = await client.GetAsync("BFFormalLanguage");
       responseEBNF.EnsureSuccessStatusCode();        
-      var resultXML = await responseEBNF.Content.ReadAsStringAsync();
+      var result = await responseEBNF.Content.ReadAsStringAsync();
 
    Python
       

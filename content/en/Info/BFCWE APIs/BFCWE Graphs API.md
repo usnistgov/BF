@@ -34,11 +34,11 @@ The BFCWE Graphs API generates and BF Vulnerability Specifications in graphical 
       //replace YOUR_FILES_NAMES
       string[] fileNames = YOUR_FILES_NAMES;
 
-      var fileContent = new MultipartFormDataContent();
+      var content = new MultipartFormDataContent();
       foreach (var fileName in fileNames)
-          fileContent.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
+          content.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
 
-      var response = await BFClient.SendRequest("BFCWE/PPT/api", HttpMethod.Post, fileContent);
+      var response = await client.PostAsync("BFCWE/PPT/api", content);
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
       
