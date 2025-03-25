@@ -23,6 +23,27 @@ The BFCWEs API generates datasets of BFCWE Specifications as `<cause, operation>
   [https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY)
 
+  C# <br/>
+        
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+
+      //replace YOUR_USER_NAME and YOUR_KEY
+      client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
+      client.DefaultRequestHeaders.Add("key", YOUR_KEY);
+
+      //result in XML
+      var responseXML = await client.GetAsync("BFCWE.xml/api");
+      responseXML.EnsureSuccessStatusCode();        
+      var resultXML = await responseXML.Content.ReadAsStringAsync();
+
+      //result in JSON
+      var responseJSON = await client.GetAsync("BFCWE.xml.json/api");       
+      responseJSON.EnsureSuccessStatusCode();         
+      var resulJSON = await responseJSON.Content.ReadAsStringAsync();
+
+   Python
+      
+    //to be added//
 _________________________________
 
 BF CITATION: <br/>

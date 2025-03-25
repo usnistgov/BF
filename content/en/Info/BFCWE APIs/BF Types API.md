@@ -16,11 +16,13 @@ title: "BF Types API"
 
 # BF Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Types API generates the BF Types for the provided BF Specification(s). 
+//To be added//
+
+<!-- The BF Types API generates the BF Types for the provided BF Specification(s). 
 
 - BF Weakness Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE/BFRelations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/BFTypes?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE/BFRelations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/BFTypes?key=YOUR_KEY)<br/> -->
 
 _________________________________
 

@@ -35,12 +35,12 @@ The BF Taxonomy API queries BF and generates the corresponding BF Bug/Weakness C
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("BFFormalLanguage/BFTaxonomy.xml");
+      var responseXML = await client.GetAsync("BFTaxonomy.xml/api");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("BFFormalLanguage/BFTaxonomy.json");       
+      var responseJSON = await client.GetAsync("BFTaxonomy.json/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 
