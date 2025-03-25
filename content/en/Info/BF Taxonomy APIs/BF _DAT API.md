@@ -18,8 +18,8 @@ title: "BF _DAT API"
 
 The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Taxonomy in graphical format.
 
-- BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/>
+<!-- - BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/> -->
 
 - BF _DAT Taxonomy &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY)

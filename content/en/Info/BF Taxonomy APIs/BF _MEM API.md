@@ -18,8 +18,8 @@ title: "BF _MEM API"
 
 The BF _MEM API queries the BF _MEM Class Type queries BF and generates the corresponding BF Taxonomy in graphical format.
 
-- BF /_MEM Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM) <br/>
+<!-- - BF /_MEM Taxonomy Excerpt  &rarr; no Key required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM) <br/> -->
 
 - BF /_MEM Taxonomy &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?key=YOUR_KEY)

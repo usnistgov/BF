@@ -18,8 +18,8 @@ title: "BF _INP API"
 
 The BF _INP API queries the BF _INP Class Type queries BF and generates the corresponding BF Taxonomy in graphical format.
 
-- BF /_INP Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP) <br/>
+<!-- - BF /_INP Taxonomy Excerpt  &rarr; no Key required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP) <br/> -->
 
 - BF /_INP Taxonomy &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?key=YOUR_KEY)
