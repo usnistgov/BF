@@ -24,7 +24,7 @@ title: "BF Tool Guide"
 
 4. Start the BF Tool (run BFTool.exe).
 
-5. Open a BF Tool Example or create a new BF Vulnerability Specification.
+5. Open a BFVUL Example or create a new BF Vulnerability Specification.
 
 {{< img src="images/Tools/BFTool.svg" caption="Figure 1. BF GUI Tool" >}}
 

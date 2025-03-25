@@ -20,7 +20,7 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 
 The BFLL1 API queries BF and generates the corresponding (i.e., filtered) BF LL1 CFG in EBNF format.
 
-- BF Full &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- BF LL1 CFG &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
   [https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY) </br>
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
@@ -33,15 +33,9 @@ The BFLL1 API queries BF and generates the corresponding (i.e., filtered) BF LL1
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      //result in XML
-      var responseXML = await client.GetAsync("BFFormalLanguage.xml");
-      responseXML.EnsureSuccessStatusCode();        
-      var resultXML = await responseXML.Content.ReadAsStringAsync();
-
-      //result in JSON
-      HttpResponseMessage responseJSON = await client.GetAsync("BFFormalLanguage.json");       
-      responseJSON.EnsureSuccessStatusCode();         
-      var resulJSON = await responseJSON.Content.ReadAsStringAsync();
+      var responseEBNF = await client.GetAsync("BFFormalLanguage");
+      responseEBNF.EnsureSuccessStatusCode();        
+      var resultXML = await responseEBNF.Content.ReadAsStringAsync();
 
    Python
       
