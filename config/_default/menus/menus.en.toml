@@ -68,45 +68,45 @@
   url = "/Info/BF Tool APIs/BF Tool Guide"
   parent = "BF Tool APIs"
 
-#[[main]]
-#  name = "BF Taxonomy APIs"
-#  weight = 40
-#  identifier = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _INP API"
-#  weight = 1
-#  identifier = "BF _INP API"
-#  url = "/Info/BF Taxonomy APIs/BF _INP API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _MEM API"
-#  weight = 2
-#  identifier = "BF _MEM API"
-#  url = "/Info/BF Taxonomy APIs/BF _MEM API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF _DAT API"
-#  weight = 3
-#  identifier = "BF _DAT API"
-#  url = "/Info/BF Taxonomy APIs/BF _DAT API"
-#  parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF Taxonomy API"
-#  weight = 4
-#  identifier = "BF Taxonomy API"
-#  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
-#  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF Taxonomy APIs"
+  weight = 40
+  identifier = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _INP API"
+  weight = 1
+  identifier = "BF _INP API"
+  url = "/Info/BF Taxonomy APIs/BF _INP API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _MEM API"
+  weight = 2
+  identifier = "BF _MEM API"
+  url = "/Info/BF Taxonomy APIs/BF _MEM API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF _DAT API"
+  weight = 3
+  identifier = "BF _DAT API"
+  url = "/Info/BF Taxonomy APIs/BF _DAT API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF Taxonomy API"
+  weight = 4
+  identifier = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
+  parent = "BF Taxonomy APIs"
 
-#[[main]]
-#  name = "BF FL APIs"
-#  weight = 45
-#  identifier = "BF FL APIs"
-#[[main]]
-#  name = "BFLL1 API"
-#  weight = 1
-#  identifier = "BFLL1 API"
-#  url = "/Info/BF FL APIs/BFLL1 API"
-#  parent = "BF FL APIs"
+[[main]]
+  name = "BF FL APIs"
+  weight = 45
+  identifier = "BF FL APIs"
+[[main]]
+  name = "BFLL1 API"
+  weight = 1
+  identifier = "BFLL1 API"
+  url = "/Info/BF FL APIs/BFLL1 API"
+  parent = "BF FL APIs"
 #[[main]]
 #  name = "BF Relations API"
 #  weight = 2
@@ -142,33 +142,33 @@
   identifier = "BFVULs API"
   url = "/Info/BFVUL APIs/BFVULs API"
   parent = "BFVUL APIs"
-#[[main]]
-#  name = "BFVUL Graphs API"
-#  weight = 2
-#  identifier = "BFVUL Graphs API"
-#  url = "/Info/BFVUL APIs/BFVUL Graphs API"
-#  parent = "BFVUL APIs"
 [[main]]
-  name = "BFVULs Files API"
-  weight = 1
-  identifier = "BFVULs Files API"
-  url = "/Info/BFVUL APIs/BFVULs Files API"
+  name = "BFVUL Files API"
+  weight = 2
+  identifier = "BFVUL Files API"
+  url = "/Info/BFVUL APIs/BFVUL Files API"
   parent = "BFVUL APIs"
 [[main]]
   name = "BF Types API"
-  weight = 3
+  weight = 4
   identifier = "BF Types API"
   url = "/Info/BFVUL APIs/BF Types API"
   parent = "BFVUL APIs"
-  [[main]]
+[[main]]
+  name = "BFVUL Graphs API"
+  weight = 3
+  identifier = "BFVUL Graphs API"
+  url = "/Info/BFVUL APIs/BFVUL Graphs API"
+  parent = "BFVUL APIs"
+[[main]]
   name = "BF Description API"
-  weight = 4
+  weight = 5
   identifier = "BF Description API"
   url = "/Info/BFVUL APIs/BF Description API"
   parent = "BFVUL APIs"
 [[main]]
   name = "BF Backward API"
-  weight = 5
+  weight = 6
   identifier = "BF Backward API"
   url = "/Info/BFVUL APIs/BF Backward API"
   parent = "BFVUL APIs"  
@@ -195,12 +195,12 @@
   identifier = "CWE2BF Graphs API"
   url = "/Info/BFCWE APIs/CWE2BF Graphs API"
   parent = "BFCWE APIs"
-#[[main]]
-#  name = "BF Types API"
-#  weight = 3
-#  identifier = "BF Types API"
-#  url = "/Info/BFCWE APIs/BF Types API"
-#  parent = "BFCWE APIs"
+##[[main]]
+##  name = "BF Types API"
+##  weight = 3
+##  identifier = "BF Types API"
+##  url = "/Info/BFCWE APIs/BF Types API"
+##  parent = "BFCWE APIs"
 
 [[main]]
   name = "BFCVEPre APIs"
