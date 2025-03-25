@@ -20,10 +20,10 @@ title: "DCL"
 ####  Taxonomy
 
 - BF _DAT>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-[https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?class=DCL&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?class=DCL&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&key=YOUR_KEY)
 
 - BF _DAT>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
-[https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?class=DCL&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFTaxonomyPPT/_DAT?class=DCL&ShowDefinitions=true&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true&key=YOUR_KEY)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)

@@ -22,6 +22,33 @@ The BF Types API generates the BF Types for the provided BF Vulnerability Specif
 
   [https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY)<br/>
 
+- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+        
+  C#
+        
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+
+      //replace YOUR_USER_NAME and YOUR_KEY
+      client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
+      client.DefaultRequestHeaders.Add("key", YOUR_KEY);
+
+      //replace YOUR_FILES_NAMES
+      string[] fileNames = YOUR_FILES_NAMES;
+
+      var content = new MultipartFormDataContent();
+      foreach (var fileName in fileNames)
+          content.Add(new StreamContent(File.OpenRead(fileName)), "files", Path.GetFileName(fileName));
+
+      var response = await client.PostAsync("BFVUL/BFTypes/api", content);
+      response.EnsureSuccessStatusCode();
+      var zipData = await response.Content.ReadAsStreamAsync();
+      
+      //replace YOUR_FOLDER
+      zipData.CopyTo(File.Create(Path.Combine(YOUR_FOLDER, "bfv.zip")));
+
+  Python
+      
+    //to be added//
 _________________________________
 
 BF CITATION: <br/>

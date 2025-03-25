@@ -41,11 +41,14 @@ The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Ta
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       var response = await client.GetAsync("BFTaxonomy/PPT/_DAT/api");
+      //var response = await client.GetAsync("BFTaxonomy/PPT/_DAT/api?ShowDefinitions=true");
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
 
 
-  Python //to be added//
+  Python 
+  
+  //to be added//
 _______________________________
 
 BF CITATION: <br/>

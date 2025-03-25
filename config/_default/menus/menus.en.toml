@@ -149,6 +149,12 @@
 #  url = "/Info/BFVUL APIs/BFVUL Graphs API"
 #  parent = "BFVUL APIs"
 [[main]]
+  name = "BFVULs Files API"
+  weight = 1
+  identifier = "BFVULs Files API"
+  url = "/Info/BFVUL APIs/BFVULs Files API"
+  parent = "BFVUL APIs"
+[[main]]
   name = "BF Types API"
   weight = 3
   identifier = "BF Types API"

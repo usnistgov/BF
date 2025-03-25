@@ -25,6 +25,29 @@ The BF Security Rules  with CWEs API generates datasets of BF Security Rules by 
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 
+- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+
+  C# <br/>
+        
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+
+      //replace YOUR_USER_NAME and YOUR_KEY
+      client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
+      client.DefaultRequestHeaders.Add("key", YOUR_KEY);
+
+      //result in XML
+      var responseXML = await client.GetAsync("BFSecurityRules.xml/CWE/api");
+      responseXML.EnsureSuccessStatusCode();        
+      var resultXML = await responseXML.Content.ReadAsStringAsync();
+
+      //result in JSON
+      var responseJSON = await client.GetAsync("BFSecurityRules.json/CWE/api");       
+      responseJSON.EnsureSuccessStatusCode();         
+      var resulJSON = await responseJSON.Content.ReadAsStringAsync();
+
+   Python
+      
+    //to be added//
 _________________________________
 
 BF CITATION: <br/>
