@@ -20,13 +20,10 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 
 The BF Taxons API queries BF and generates the BF Taxon Definitions.
 
-//To be added//
+- BF Taxon Definitions &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons?key=YOUR_KEY)
 
-<!-- - BF Classes &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY) -->
-
-<!-- - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         
@@ -36,19 +33,13 @@ The BF Taxons API queries BF and generates the BF Taxon Definitions.
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      //result in XML
-      var responseXML = await client.GetAsync("BFTaxonomy.xml/api");
-      responseXML.EnsureSuccessStatusCode();        
-      var resultXML = await responseXML.Content.ReadAsStringAsync();
-
-      //result in JSON
-      var responseJSON = await client.GetAsync("BFTaxonomy.json/api");       
-      responseJSON.EnsureSuccessStatusCode();         
-      var resulJSON = await responseJSON.Content.ReadAsStringAsync();
+      var responseCSV = await client.GetAsync("BFTaxonomy/BFTaxons/api");
+      responseCSV.EnsureSuccessStatusCode();        
+      var result = await responseCSV.Content.ReadAsStringAsync();
 
    Python
       
-    //to be added// -->
+    //to be added//
  _______________________________
 
 BF CITATION: <br/>
