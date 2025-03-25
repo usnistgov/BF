@@ -172,10 +172,10 @@
   weight = 70
   identifier = "BFCWE APIs"
   [[main]]
-  name = "BF CWEs API"
+  name = "BFCWEs API"
   weight = 1
-  identifier = "BF CWEs API"
-  url = "/Info/BFCWE APIs/BF CWEs API"
+  identifier = "BFCWEs API"
+  url = "/Info/BFCWE APIs/BFCWEs API"
   parent = "BFCWE APIs"
 [[main]]
   name = "BFCWE Graphs API"
