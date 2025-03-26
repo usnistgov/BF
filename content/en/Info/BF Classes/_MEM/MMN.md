@@ -26,4 +26,4 @@ title: "MMN"
 [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true&key=YOUR_KEY)
 
 ______________________________________
-Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A)
+Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
