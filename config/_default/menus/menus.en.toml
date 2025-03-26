@@ -112,7 +112,7 @@
   url = "/Info/BF Tool APIs/BF Tool Guide"
   parent = "BF Tool APIs"
 
-[[secondary]]
+[[main]]
   name = "BF Taxonomy APIs"
   weight = 40
   identifier = "BF Taxonomy APIs"
