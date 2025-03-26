@@ -79,12 +79,12 @@
   url = "/Info/Why BF/BF Impact"
   parent = "Why BF"
   
-[[secondary]]
+[[main]]
   name = "Publications"
   weight = 33
   url = "/Info/Publications/BF Publications"
   
-[[secondary]]
+[[main]]
   name = "Contact"
   weight = 34
   url = "/Info/Contact/BF Contact"
@@ -112,7 +112,7 @@
   url = "/Info/BF Tool APIs/BF Tool Guide"
   parent = "BF Tool APIs"
 
-[[main]]
+[[secondary]]
   name = "BF Taxonomy APIs"
   weight = 40
   identifier = "BF Taxonomy APIs"
