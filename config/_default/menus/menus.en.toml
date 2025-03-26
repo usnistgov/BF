@@ -25,7 +25,7 @@
   name = "BF Formal Language"
   weight = 3
   identifier = "BF Formal Language"
-  url = "/Info/Formalism/BBF Formal Language"
+  url = "/Info/Formalism/BF Formal Language"
   parent = "Formalism"
 
 [[main]]
