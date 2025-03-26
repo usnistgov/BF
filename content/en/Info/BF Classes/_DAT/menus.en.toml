@@ -79,12 +79,12 @@
   url = "/Info/Why BF/BF Impact"
   parent = "Why BF"
   
-[[secondary]]
+[[main]]
   name = "Publications"
   weight = 33
   url = "/Info/Publications/BF Publications"
   
-[[secondary]]
+[[main]]
   name = "Contact"
   weight = 34
   url = "/Info/Contact/BF Contact"
