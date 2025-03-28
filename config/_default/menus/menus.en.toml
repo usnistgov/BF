@@ -274,7 +274,7 @@
   url = "/Info/BF Sec APIs/BF Security Rules API"
   parent = "BF Sec APIs"
 [[main]]
-  name = "BF Security Rules API"
+  name = "BF Security Rules CWE API"
   weight = 2
   identifier = "BF Security Rules CWE API"
   url = "/Info/BF Sec APIs/BF Security Rules CWE API"

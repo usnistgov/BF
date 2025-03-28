@@ -42,7 +42,7 @@ The BFCVE Pre API generates datasets of partial BFCVE Specifications based on th
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("BFCVEPre.xml.json/api");       
+      var responseJSON = await client.GetAsync("BFCVEPre.json/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 
