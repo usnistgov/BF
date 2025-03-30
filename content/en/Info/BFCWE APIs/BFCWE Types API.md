@@ -1,7 +1,7 @@
 ---
 weight: 4
 bookCollapseSection: false
-title: "BF Types API"
+title: "BFCWE Types API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,7 +14,7 @@ title: "BF Types API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCWE Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 //To be added//
 

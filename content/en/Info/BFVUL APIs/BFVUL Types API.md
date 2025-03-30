@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BF Types API"
+title: "BFVUL Types API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BF Types API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVUL Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Types API generates the BF Types for the provided BF Vulnerability Specification(s). 
+The BFVUL Types API generates the BF Types for the provided BF Vulnerability Specification(s). 
 
 - BF Vulnerability Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

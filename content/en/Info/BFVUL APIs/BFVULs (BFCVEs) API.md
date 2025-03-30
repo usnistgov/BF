@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BFVULs/BVCVEs API"
+title: "BFVULs (BVCVEs) API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BFVULs/BVCVEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFVULs/BVCVEs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVULs (BVCVEs) API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVULs/BVCVEs API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
+The BFVULs (BVCVEs) API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
 
 - BF Vulnerability Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
