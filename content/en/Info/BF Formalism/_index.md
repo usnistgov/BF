@@ -2,7 +2,7 @@
 weight: 1
 bookHidden: true
 bookCollapseSection: true
-title: "Formalism"
+title: "BF Formalism"
 ---
 
 <!-- Google tag (gtag.js) -->

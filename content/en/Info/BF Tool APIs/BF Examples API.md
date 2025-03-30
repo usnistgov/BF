@@ -16,13 +16,13 @@ title: "BF Examples API"
 
 # BF Tool Examples <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Tool guides the specification of a security vulnerability as a chain of underlying weaknesses. A security bug causes the first weakness, which leads to an error. This error becomes the cause (i.e., the fault) of the next weakness and propagates through subsequent weaknesses until a final error is reached, enabling a security failure. The causation within a weakness is by a meaningful <cause, operation>→consequence relation. The causation between weaknesses is by error type to fault type match and operation flow or error↷fault by value propagation.
+The BF Examples API provides BF Vulnerability specifications in the formats supported by the BF GUI Tool: .bfv, .bfvul, and .bff.
 
-- BFToolExamples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF Tool Examples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY)
 
-Open the BF Formal Specifications of Security Vulnerabilities using the BF GUI Tool. Use the BF Tool to navigate the chains of BF Weaknesses, generate graphocal representations, and save in extended or bare-bone formal BF specification formats. 
+Open the BF Formal Specifications of Security Vulnerabilities using the BF GUI Tool. Use the BF Tool to navigate the chains of BF Weaknesses, generate graphical representations, and save in extended or bare-bone formal BF specification formats. 
 
 _______________________________
 BF CITATION: <br/>

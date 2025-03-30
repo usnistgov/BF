@@ -16,7 +16,9 @@ title: "BF GUI Tool API"
 
 # BF Tool for Formal Specification of Security Vulnerabilities<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF GUI Tool guides the specification of a security vulnerability as a chain of underlying weaknesses. A security bug causes the first weakness, which leads to an error. This error becomes the cause (i.e., the fault) of the next weakness and propagates through subsequent weaknesses until a final error is reached, enabling a security failure. The causation within a weakness is by a meaningful <cause, operation>→consequence relation. The causation between weaknesses is by error type to fault type match and operation flow or error↷fault by value propagation.
+The BF tool is a GUI application that works with both the BF relational database and the BF in XML or JSON format; the latter is useful when the database is unavailable \cite{BFTool}. It allows users to create a new BF CVE specification, save it as a machine-readable {\fontfamily{pcr}\selectfont \small .bfcve} file, and open and browse previously created {\fontfamily{pcr}\selectfont \small .bfcve} specifications \cite{labelingDatasets}. 
+
+The BF Tool APIs allow downloas of the BF GUI Tool 
 
 - BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

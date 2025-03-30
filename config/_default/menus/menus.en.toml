@@ -6,44 +6,44 @@
   parent = "Welcome"
 
 [[main]]
-  name = "Formalism"
+  name = "BF Formalism"
   weight = 20
-  identifier = "Formalism"
+  identifier = "BF Formalism"
 [[main]]
   name = "BF Concepts"
   weight = 1
   identifier = "BF Concepts"
-  url = "/Info/Formalism/BF Concepts"
-  parent = "Formalism"
+  url = "/Info/BF Formalism/BF Concepts"
+  parent = "BF Formalism"
 [[main]]
   name = "BF Features"
   weight = 2
   identifier = "BF Features"
-  url = "/Info/Formalism/BF Features"
-  parent = "Formalism"
+  url = "/Info/BF Formalism/BF Features"
+  parent = "BF Formalism"
 [[main]]
   name = "BF Formal Language"
   weight = 3
   identifier = "BF Formal Language"
-  url = "/Info/Formalism/BF Formal Language"
-  parent = "Formalism"
+  url = "/Info/BF Formalism/BF Formal Language"
+  parent = "BF Formalism"
 
 [[main]]
-  name = "Models"
+  name = "BF Models"
   weight = 30
-  identifier = "Models"
+  identifier = "BF Models"
 [[main]]
   name = "BF Vulnerability State Model"
   weight = 1
   identifier = "BF Vulnerability State Model"
-  url = "/Info/Models/BF Vulnerability State Model"
-  parent = "Models"
+  url = "/Info/BF Models/BF Vulnerability State Model"
+  parent = "BF Models"
 [[main]]
   name = "BF Vulnerability Specification Model"
   weight = 2
   identifier = "BF Vulnerability Specification Model"
-  url = "/Info/Models/BF Vulnerability Specification Model"
-  parent = "Models"
+  url = "/Info/BF Models/BF Vulnerability Specification Model"
+  parent = "BF Models"
 
 [[main]]
   name = "Background"
