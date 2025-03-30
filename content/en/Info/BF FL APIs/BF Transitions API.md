@@ -16,7 +16,7 @@ title: "BF Transitions API"
 
 # BF Transitions API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-//Only with BF Exclusive Rights//
+//Exclusive Rights Only//
 
 The BF Transitions API generates datasets of Meaningful `consequence↷cause` Propagations between weaknesses of the same BF Class Type, but with different corresponding BF Conseqeunce and BF Cause values
 <!-- 

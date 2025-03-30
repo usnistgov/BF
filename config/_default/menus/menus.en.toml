@@ -147,8 +147,8 @@
   url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
   parent = "BF Taxonomy APIs"
   #xxx
-  [main.params]
-  class = "disabled-menu-item"
+  #[main.params]
+  #class = "disabled-menu-item"
 
 [[main]]
   name = "BF FL APIs"

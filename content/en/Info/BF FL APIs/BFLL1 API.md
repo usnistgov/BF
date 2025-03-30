@@ -18,6 +18,8 @@ title: "BFLL1 API"
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
+//Exclusive Rights Only//
+
 The BFLL1 API queries BF and generates the corresponding (i.e., filtered) BF LL1 CFG in EBNF format.
 
 - BF LL1 CFG &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>

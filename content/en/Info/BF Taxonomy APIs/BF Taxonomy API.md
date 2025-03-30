@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 bookCollapseSection: false
 title: "BF Taxonomy API"
 ---
@@ -16,7 +16,7 @@ title: "BF Taxonomy API"
 
 # BF Taxonomy API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-//Only with BF Exclusive Rights//
+//Exclusive Rights Only//
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
