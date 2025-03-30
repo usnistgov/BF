@@ -197,10 +197,10 @@
   weight = 60
   identifier = "BFVUL APIs"
   [[main]]
-  name = "BFVULs API"
+  name = "BFVULs-BFCVEs API"
   weight = 1
-  identifier = "BFVULs API"
-  url = "/Info/BFVUL APIs/BFVULs API"
+  identifier = "BFVULs-BFCVEs API"
+  url = "/Info/BFVUL APIs/BFVULs-BFCVEs API"
   parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Files API"
@@ -267,10 +267,16 @@
   weight = 80
   identifier = "BFCVEPre APIs"
 [[main]]
-  name = "BF CVEs Partial API"
+  name = "BFCVEs Partial API"
   weight = 3
-  identifier = "BF CVEs Partial API"
-  url = "/Info/BFCVEPre APIs/BF CVEs Partial API"
+  identifier = "BFCVEs Partial API"
+  url = "/Info/BFCVEPre APIs/BFCVEs Partial API"
+  parent = "BFCVEPre APIs"
+[[main]]
+  name = "BFInjectionCVEs Partial API"
+  weight = 3
+  identifier = "BFInjectionCVEs Partial API"
+  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Partial API"
   parent = "BFCVEPre APIs"
 
 [[main]]
