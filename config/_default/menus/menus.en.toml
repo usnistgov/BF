@@ -134,12 +134,22 @@
   identifier = "BF _DAT API"
   url = "/Info/BF Taxonomy APIs/BF _DAT API"
   parent = "BF Taxonomy APIs"
-#[[main]]
-#  name = "BF Taxonomy API"
-#  weight = 4
-#  identifier = "BF Taxonomy API"
-#  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
-#  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF Taxonomy API"
+  weight = 4
+  identifier = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
+  parent = "BF Taxonomy APIs"
+  #xxx
+  [main.params]
+  class = "disabled-menu-item"
+[[main]]
+    identifier = "docs"
+    name = "Documentation"
+    url = "/docs/"
+    weight = 10
+    [main.params]
+        class = "disabled-menu-item"
 [[main]]
   name = "BF Taxons API"
   weight = 5
