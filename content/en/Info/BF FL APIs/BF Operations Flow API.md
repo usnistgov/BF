@@ -16,7 +16,8 @@ title: "BF Operations Flow API"
 
 # BF Operations Flow API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
      
-    //to be added//
+//Only with BF Exclusive Rights//
+//to be added//
  _______________________________
 
 BF CITATION: <br/>
