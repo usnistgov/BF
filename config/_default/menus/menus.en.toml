@@ -135,36 +135,36 @@
   url = "/Info/BF Taxonomy APIs/BF _DAT API"
   parent = "BF Taxonomy APIs"
 [[main]]
-  name = "BF Taxonomy API"
+  name = "BF Taxons API"
   weight = 5
+  identifier = "BF Taxons API"
+  url = "/Info/BF Taxonomy APIs/BF Taxons API"
+  parent = "BF Taxonomy APIs"
+[[main]]
+  name = "BF Taxonomy API"
+  weight = 6
   identifier = "BF Taxonomy API"
   url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
   parent = "BF Taxonomy APIs"
   #xxx
   [main.params]
   class = "disabled-menu-item"
-[[main]]
-  name = "BF Taxons API"
-  weight = 6
-  identifier = "BF Taxons API"
-  url = "/Info/BF Taxonomy APIs/BF Taxons API"
-  parent = "BF Taxonomy APIs"
 
 [[main]]
   name = "BF FL APIs"
   weight = 45
   identifier = "BF FL APIs"
 [[main]]
-  name = "BFLL1 API"
-  weight = 1
-  identifier = "BFLL1 API"
-  url = "/Info/BF FL APIs/BFLL1 API"
-  parent = "BF FL APIs"
 [[main]]
   name = "BF Parser API"
-  weight = 2
+  weight = 1
   identifier = "BF Parser API"
   url = "/Info/BF FL APIs/BF Parser API"
+  parent = "BF FL APIs"
+  name = "BFLL1 API"
+  weight = 2
+  identifier = "BFLL1 API"
+  url = "/Info/BF FL APIs/BFLL1 API"
   parent = "BF FL APIs"
 [[main]]
   name = "BF Relations API"
