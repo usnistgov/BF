@@ -14,15 +14,15 @@ title: "BF LL1 ACFG API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFLL1 API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF LL1 ACFG API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
 //Exclusive Rights Only//
 
-The BFLL1 ACFG API queries BF and generates the corresponding (i.e., filtered) BF LL1 ACFG in EBNF format.
+The BF LL1 ACFG API queries BF and generates the corresponding (i.e., filtered) BF LL1 ACFG in EBNF format.
 
-- BF LL1 CFG &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- BF LL1 ACFG &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
   [https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage?key=YOUR_KEY) </br>
 
 - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>

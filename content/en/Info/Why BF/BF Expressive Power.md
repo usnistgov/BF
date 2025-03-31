@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookCollapseSection: false
-title: "Why BF"
+title: "BF Expressive Power"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,7 +14,7 @@ title: "Why BF"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Why BF? <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF Expressive Power <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Once fully developed, the Bugs Framework will have the expressive power to clearly describe any software or hardware bug/weakness, underlying any vulnerability. It is being built as a formal classification system that aims to augment the current state or the art weakness and vulnerability repositories:
 
