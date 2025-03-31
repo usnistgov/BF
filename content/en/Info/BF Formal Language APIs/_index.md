@@ -1,8 +1,10 @@
 ---
-weight: 4
+weight: 3
 bookHidden: true
 bookCollapseSection: true
-title: "BF Sec APIs"
+title: "BF Formal Language APIs"
+aliases:
+- /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,3 +16,5 @@ title: "BF Sec APIs"
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
+
+Please use the `BF Formal Language APIs` menu on top.

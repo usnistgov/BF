@@ -1,10 +1,8 @@
 ---
-weight: 3
+weight: 4
 bookHidden: true
 bookCollapseSection: true
-title: "BF Taxonomy APIs"
-aliases:
-- /https://usnistgov.github.io/BF/info/apis/bfcwe-api/
+title: "BF Security Rules APIs"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -16,5 +14,3 @@ aliases:
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
-
-Please use the `BF Taxonomy APIs` menu on top.
