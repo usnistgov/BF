@@ -154,8 +154,25 @@
   parent = "BFVUL APIs"  
 
 [[main]]
-  name = "BFCWE APIs"
+  name = "BFCVEPre APIs"
   weight = 120
+  identifier = "BFCVEPre APIs"
+[[main]]
+  name = "BFCVEs Partial API"
+  weight = 3
+  identifier = "BFCVEs Partial API"
+  url = "/Info/BFCVEPre APIs/BFCVEs Partial API"
+  parent = "BFCVEPre APIs"
+[[main]]
+  name = "BFInjectionCVEs Partial API"
+  weight = 3
+  identifier = "BFInjectionCVEs Partial API"
+  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Partial API"
+  parent = "BFCVEPre APIs"
+
+[[main]]
+  name = "BFCWE APIs"
+  weight = 130
   identifier = "BFCWE APIs"
   [[main]]
   name = "BFCWEs API"
@@ -181,23 +198,6 @@
   identifier = "BFCWE Types API"
   url = "/Info/BFCWE APIs/BFCWE Types API"
   parent = "BFCWE APIs"
-
-[[main]]
-  name = "BFCVEPre APIs"
-  weight = 130
-  identifier = "BFCVEPre APIs"
-[[main]]
-  name = "BFCVEs Partial API"
-  weight = 3
-  identifier = "BFCVEs Partial API"
-  url = "/Info/BFCVEPre APIs/BFCVEs Partial API"
-  parent = "BFCVEPre APIs"
-[[main]]
-  name = "BFInjectionCVEs Partial API"
-  weight = 3
-  identifier = "BFInjectionCVEs Partial API"
-  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Partial API"
-  parent = "BFCVEPre APIs"
 
 [[main]]
   name = "BF Security APIs"
