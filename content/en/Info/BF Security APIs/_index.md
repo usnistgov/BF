@@ -2,7 +2,7 @@
 weight: 4
 bookHidden: true
 bookCollapseSection: true
-title: "BF Security Rules APIs"
+title: "BF Security APIs"
 ---
 
 <!-- Google tag (gtag.js) -->

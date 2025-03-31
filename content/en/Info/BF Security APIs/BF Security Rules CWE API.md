@@ -16,7 +16,7 @@ title: "BF Security Rules CWE API"
 
 # BF Security Rules CWE API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Security Rules  with CWEs API generates datasets of BF Security Rules by CWE where applicable.
+The BF Security Rules CWE API generates datasets of BF Security Rules by CWE where applicable.
 
 - BF BF Security Rules by CWE &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
