@@ -16,6 +16,8 @@ title: "BF Security Rules API"
 
 # BF Security Rules API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
+//Exclusive Rights Only//
+
 The BF Security Rules API generates datasets of BF Security Rules.
 
 - BF BF Security Rules &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
