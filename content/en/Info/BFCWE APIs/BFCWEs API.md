@@ -14,7 +14,7 @@ title: "BFCWEs API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFCWEs API. <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCWEs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 The BFCWEs API generates datasets of BFCWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
 
