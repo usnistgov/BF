@@ -155,12 +155,12 @@
   weight = 45
   identifier = "BF FL APIs"
 [[main]]
-[[main]]
   name = "BF Parser API"
   weight = 1
   identifier = "BF Parser API"
   url = "/Info/BF FL APIs/BF Parser API"
   parent = "BF FL APIs"
+[[main]]
   name = "BFLL1 API"
   weight = 2
   identifier = "BFLL1 API"
