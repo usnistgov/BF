@@ -2,7 +2,7 @@
 weight: 2
 bookCollapseSection: false
 title: "BFVUL API"
-aliases: ["/BF/info/bf-vulnerability-apis/"]
+aliases: ["/BF/info/bfvul-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,3 +14,5 @@ aliases: ["/BF/info/bf-vulnerability-apis/"]
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
+
+Please use the BFVUL APIs menu on top.

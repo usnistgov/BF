@@ -1,8 +1,8 @@
 ---
-weight: 4
+weight: 1
 bookCollapseSection: false
-title: "BFCWE API"
-aliases: ["/BF/info/bfcwe-apis/"]
+title: "BF Relations API"
+aliases: ["/BF/info/bf-formal-language-apis/bf-relations-api/"]
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -15,4 +15,5 @@ aliases: ["/BF/info/bfcwe-apis/"]
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-Please use the `BFCWE APIs` menu on top.
+
+Please use the `BF Formal Language APIs > BF Relations API` menu.
