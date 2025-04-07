@@ -21,7 +21,7 @@ The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Ta
 <!-- - BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/> -->
 
-- BF _DAT Taxonomy &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?key=YOUR_KEY)
 
   - With Definitions:<br/>
@@ -30,7 +30,7 @@ The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Ta
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY) -->
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
   C#
         

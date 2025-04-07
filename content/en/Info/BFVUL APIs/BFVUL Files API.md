@@ -23,7 +23,7 @@ The BFVUL Files API generates .bfv Specifications.
   [https://samate.nist.gov/services/BF/BFVUL/Files?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/Files?key=YOUR_KEY)<br/>
   <!-- [https://samate.nist.gov/services/BF/Files.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/Files.json?key=YOUR_KEY) -->
 
-<!-- - Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+<!-- - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         

@@ -20,12 +20,12 @@ The BF Backward API provides the BFVUL Tool backwards bugs identification functi
 
 The BF formalism supports a deeper understanding of vulnerabilites as chains of weaknesses and allows for backward bug identficaton from a failure. It enables the development of new statc and dynamic analysis, simulaton, and emulaton algorithms. AI or formal methods-enabled capabilites could be used to identfy bugs and detect, analyze, prioritze, and resolve or mitgate vulnerabilites (i.e., fix the bug or a fault of each vulnerability, respectvely) to secure critcal infrastructure and supply chains.
 
-- BF Backward API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY) </br>
   [https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY)
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C#
 

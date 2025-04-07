@@ -18,11 +18,11 @@ title: "BF Description API"
 
 The BF Description API generates a BF Description from the BF Tokens of provided BF Vulnerability Specification. 
 
-- BF Vulnerability Specifications with Generated Description &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFVUL/BFDescription?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/BFDescription?key=YOUR_KEY)<br/>
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         

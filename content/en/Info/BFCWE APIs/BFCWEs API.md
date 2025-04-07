@@ -20,10 +20,12 @@ title: "BFCWEs API"
 
 The BFCWEs API generates datasets of BFCWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
 
-- BFCWE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY)
+
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         

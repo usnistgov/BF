@@ -18,11 +18,14 @@ title: "BFInjectionCVEs Partial API"
 
 The BFInjectionCVEs Partial API generates datasets of partial BFCVE Specifications of BF _INP related CVEs based on the NVD CVE-to-CWE and CWE2BF mappings.
 
-- Partial BFCVE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFCVEPre.xml/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml/api?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFCVEPre.json/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json/api?key=YOUR_KEY)
 
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+
+  //to be added//
 _________________________________
 
 BF CITATION: <br/>

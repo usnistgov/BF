@@ -156,10 +156,10 @@ body {
   }
 }
 
-//iii IB: left menu width -- vertical line -- was 320px
+//iii IB: left menu sidebar width -- vertical line -- was 320px
 @include media-breakpoint-up(xl) {
   .docs-sidebar {
-    flex: 0 1 180px;
+    flex: 0 1 200px;
   }
 }
 

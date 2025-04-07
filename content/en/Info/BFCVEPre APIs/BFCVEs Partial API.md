@@ -18,15 +18,17 @@ title: "BFCVEs Partial API"
 
 The BFCVEs Partial API generates datasets of partial BFCVE Specifications based on the NVD CVE-to-CWE and CWE2BF mappings.
 
-- Partial BFCVE Specifications &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFCVEPre.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFCVEPre.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json?key=YOUR_KEY)
 
-- Queried by CVE ID, CWE ID, CVSS; or BF Class taxon values: Class Tyoe, Class, Operation, Cause, and Conseqeunce-- e.g., :<br/>
+  - Queried by CVE ID, CWE ID, CVSS; or BF Class taxon values: Class Tyoe, Class, Operation, Cause, and Conseqeunce-- e.g., :<br/>
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY)
+    [https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS&key=YOUR_KEY)<br/>
+    [https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS&key=YOUR_KEY)
+
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         

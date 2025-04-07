@@ -18,11 +18,11 @@ title: "BF Parser API"
 
 The BF Parser API provides performs Validation and Verification of BF Specifications in .bfv, .bfvul, and .bff formats. It is also incorporated in the BF GUI Tool.
 
-- BF Validate-Verify APP &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser?key=YOUR_KEY)<br/>
 
-- BF Parser API Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
   C#
         

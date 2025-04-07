@@ -16,13 +16,13 @@ title: "BFVUL Types API"
 
 # BFVUL Types API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVUL Types API generates the BF Types for the provided BF Vulnerability Specification(s). 
+The BFVUL Types API generates the BF Types -- BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable -- for the provided BF Vulnerability Specification(s). 
 
-- BF Vulnerability Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY)<br/>
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
   C#
         
