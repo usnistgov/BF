@@ -32,7 +32,7 @@ carousel: true
 <div >
 
 </div>
-<div style="text-align: right;"><button class="btn btn-secondary" type="button" style="width: 260px;" data-bs-toggle="collapse" data-bs-target="#collapseDescr" aria-expanded="false" aria-controls="collapseDescr">Show/Hide Generated Description</button>
+<div style="text-align: right;"><button class="btn btn-secondary" type="button" style="width: 200px;" data-bs-toggle="collapse" data-bs-target="#collapseDescr" aria-expanded="false" aria-controls="collapseDescr">Generated Description</button>
 </div>
 <div class="collapse" id="collapseDescr">
 Wrong Code to Cast ((char *)(p + 1) instead of (char *)p + 1) of Pointer data of Primitive type using Pass In mechanism in Codebase source code (CWE-468-Example-1) in Local execution space leads to Wrong Type (int instead of char) error, which propagates to
