@@ -18,14 +18,14 @@ title: "BF Security Rules API"
 
 //Exclusive Rights Only//
 
-The BF Security Rules API generates datasets of BF Security Rules.
+The BF Security Rules API generates datasets of BF Improper States that should not be present during code execution to assure code safety.
 
-- BF BF Security Rules &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFSecurityRules.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.xml?key=YOUR_KEY)<br/>
   [https://samate.nist.gov/services/BF/BFSecurityRules.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.json?key=YOUR_KEY)
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
   C# <br/>
         
