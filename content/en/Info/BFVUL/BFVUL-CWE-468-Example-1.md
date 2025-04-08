@@ -135,9 +135,6 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 </td><td>
 
 <br/>[Code with Bug](https://cwe.mitre.org/data/definitions/468.html)
-</td><td>
-
-<br/>[NVD Entry](https://nvd.nist.gov/vuln/detail/)
 </td>
 </tr>
 </table>
