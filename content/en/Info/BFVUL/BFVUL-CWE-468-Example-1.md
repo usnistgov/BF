@@ -23,22 +23,26 @@ carousel: true
 <div>
 <div style="text-align:center">
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png"/> 
-		</div>
+</div>
 </div>
 
 </div>
 <div class="col">
 <div class="row">
 <div >
-//generated//
-Wrong Code to Cast (char *)(p + 1) instead of (char *)p + 1 via Pass In Pointer Primitive in Codebase Local leads to Wrong Type (int instead of char) 
-, which propagates to Wrong Argument Type Ad-hoc Bind Call (+ operator) Object Primitive Codebase in Local  that results in Wrong Overloaded Function Bound (+(int*,int) instead of  +(char*,int)) 
-, which propagates to Wrong Overloaded Function Bound Operator Calculate Pointer Bound Codebase in Local  that results in Wrong Result (( Pointer position )) 
-, which propagates to Wrong Index Direct Reposition Stack Actual Codebase in Userland  that results in Overbound Pointer 
-, which propagates to Overbound Pointer Direct Read Litle Stack Actual Codebase in Userland  that results in Buffer Over-Read , which can be exploited toward Information Exposure (IEX) (confidentiality loss) security failure.
-</div>
-</div>
 
+</div>
+<div style="text-align: right;"><button class="btn btn-secondary" type="button" style="width: 260px;" data-bs-toggle="collapse" data-bs-target="#collapseDescr" aria-expanded="false" aria-controls="collapseDescr">Show/Hide Generated Description</button>
+</div>
+<div class="collapse" id="collapseDescr">
+Wrong Code to Cast ((char *)(p + 1) instead of (char *)p + 1) of Pointer data of Primitive type using Pass In mechanism in Codebase source code (CWE-468-Example-1) in Local execution space leads to Wrong Type (int instead of char) error, which propagates to
+Wrong Argument Type to Call (+ operator) of Object name of Primitive type using Ad-hoc Bind mechanism in Codebase source code (CWE-468-Example-1) in Local execution space that results in Wrong Overloaded Function Bound (+(int*,int) instead of  +(char*,int)) error, which propagates to
+Wrong Overloaded Function Bound to Calculate of Bound name of Pointer data using Operator mechanism in Codebase source code (CWE-468-Example-1) in Local execution space that results in Wrong Result (Pointer position) error, which propagates to
+Wrong Index to Reposition on Stack with Actual size using Direct mechanism in Codebase source code (CWE-468-Example-1) in Userland execution space that results in Overbound Pointer error, which propagates to
+Overbound Pointer to Read on Stack with Actual size using Direct mechanism in Codebase source code (CWE-468-Example-1) in Userland execution space that results in Buffer Over-Read final error, which can be exploited toward
+Information Exposure (IEX)  (confidentiality loss) security failure.
+</div>
+</div>
 <div class ="row">
 <div>
 <div id="carouselControls" class="carousel slide" data-interval="false" data-wrap="false">
@@ -47,26 +51,51 @@ Wrong Code to Cast (char *)(p + 1) instead of (char *)p + 1 via Pass In Pointer 
 <div class="carousel-item active" style="text-align:center">
 				
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-1.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-1.png"/> 
+<td>
+
+<br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
+</td>
+			
 </div>
 			
 <div class="carousel-item" style="text-align:center">
 				
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-2.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-2.png"/> 
+<td>
+
+<br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
+</td>
+			
 </div>
 			
 <div class="carousel-item" style="text-align:center">
 				
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-3.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-3.png"/> 
+<td>
+
+<br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
+</td>
+			
 </div>
 			
 <div class="carousel-item" style="text-align:center">
 				
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-4.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-4.png"/> 
+<td>
+
+<br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
+</td>
+			
 </div>
 			
 <div class="carousel-item" style="text-align:center">
 				
 <img src="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-5.png" alt="../../../../BF/images/BFVUL/BFVUL-CWE-468-Example-1-5.png"/> 
+<td>
+
+<br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
+</td>
+			
 </div>
 			
 <div class="carousel-item" style="text-align:center">
@@ -89,7 +118,6 @@ Wrong Code to Cast (char *)(p + 1) instead of (char *)p + 1 via Pass In Pointer 
 </div>
 </div>
 </div>
-
 <table>
 <tr>
 <td>
@@ -340,14 +368,6 @@ Wrong Code to Cast (char *)(p + 1) instead of (char *)p + 1 via Pass In Pointer 
 	<tr>
 		<td>   Actual</td>
 	<td>Actual operand attribute – The real size or length (i.e., the number of elements) of the allocated memory for an object.</td>
-	</tr>
-	<tr>
-		<td>Address </td>
-	<td></td>
-	</tr>
-	<tr>
-		<td>   Litle</td>
-	<td></td>
 	</tr>
 	<tr>
 		<td>
