@@ -1,7 +1,7 @@
 ---
 weight: 6
 bookCollapseSection: false
-title: "BF Propagations API"
+title: "BF BFTransitions API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,21 +14,21 @@ title: "BF Propagations API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Propagations API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF BFTransitions API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 //Exclusive Rights Only//
 
-The BF Propagations API generates datasets of Meaningful `consequence↷cause` Propagations between weaknesses of the same BF Class Type, but with different corresponding BF Conseqeunce and BF Cause values
+The BF BFTransitions API generates datasets of Meaningful `consequence↷cause` BFTransitions between weaknesses of the same BF Class Type, but with different corresponding BF Conseqeunce and BF Cause values
 <!-- 
-- BF Weakness Propagations Excerpt &rarr; no Key required: 
+- BF Weakness BFTransitions Excerpt &rarr; no Key required: 
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFPropagations](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/Propagations)<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFPropagations](https://samate.nist.gov/services/BFFormalLanguage.json/Propagations) -->
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFTransitions)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions](https://samate.nist.gov/services/BFFormalLanguage.json/BFTransitions) -->
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFPropagations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFPropagations?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFPropagations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFPropagations?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions?key=YOUR_KEY)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
@@ -41,12 +41,12 @@ The BF Propagations API generates datasets of Meaningful `consequence↷cause` P
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("BFFormalLanguage.xml/BFPropagations/api");
+      var responseXML = await client.GetAsync("BFFormalLanguage.xml/BFBFTransitions/api");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("BFFormalLanguage.json/BFPropagations/api");       
+      var responseJSON = await client.GetAsync("BFFormalLanguage.json/BFBFTransitions/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 

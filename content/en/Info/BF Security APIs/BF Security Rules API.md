@@ -18,7 +18,7 @@ title: "BF Security Rules API"
 
 //Exclusive Rights Only//
 
-The BF Security Rules API generates datasets of BF Improper States that should not be present during code execution to assure code safety.
+The BF Security Rules API generates datasets of BF Improper States that should not be present at code execution to assure code safety.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

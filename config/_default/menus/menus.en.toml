@@ -277,10 +277,10 @@
   url = "/Info/BF Formal Language APIs/BF Relations API"
   parent = "BF Formal Language APIs"
 [[main]]
-  name = "BF Propagations API"
+  name = "BF BFTransitions API"
   weight = 4
-  identifier = "BF Propagations API"
-  url = "/Info/BF Formal Language APIs/BF Propagations API"
+  identifier = "BF BFTransitions API"
+  url = "/Info/BF Formal Language APIs/BF BFTransitions API"
   parent = "BF Formal Language APIs"
 [[main]]
   name = "BF Operations Flow API"
