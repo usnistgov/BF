@@ -16,7 +16,7 @@ title: "BFVUL Graphs API"
 
 # BFVUL Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVUL Graphs API generates and BF Vulnerability Specifications in graphical formats.
+The BFVUL Graphs API generates BF Vulnerability Specifications in graphical formats.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY)

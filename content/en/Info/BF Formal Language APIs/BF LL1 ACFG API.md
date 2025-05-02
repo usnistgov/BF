@@ -16,7 +16,7 @@ title: "BF LL1 ACFG API"
 
 # BF LL1 ACFG API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
+The current BF Taxonomy comprises the BF Input/Output Check(_INP), Memory Corruption/Disclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
 //Exclusive Rights Only//
 

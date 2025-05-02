@@ -16,7 +16,7 @@ title: "BFVUL Files API"
 
 # BFVUL Files API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVUL Files API generates .bfv Specifications.
+The BFVUL Files API generates .bfvul BF Vulnerability Specifications in .bfv format.
 
 - BF .bfv Specifications Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

@@ -16,7 +16,7 @@ title: "BFCVEs Partial API"
 
 # BFCVEs Partial API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFCVEs Partial API generates datasets of partial BFCVE Specifications based on the NVD CVE-to-CWE and CWE2BF mappings.
+The BFCVEs Partial API generates datasets of partial BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

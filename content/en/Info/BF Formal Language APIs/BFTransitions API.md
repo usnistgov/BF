@@ -18,7 +18,7 @@ title: "BF BFTransitions API"
 
 //Exclusive Rights Only//
 
-The BF BFTransitions API generates datasets of Meaningful `consequence↷cause` BFTransitions between weaknesses of the same BF Class Type, but with different corresponding BF Conseqeunce and BF Cause values
+The BF BFTransitions API generates datasets of Meaningful `consequence↷cause` BFTransitions between weaknesses of the same BF Class Type, but with different corresponding BF Consequence and BF Cause values
 <!-- 
 - BF Weakness BFTransitions Excerpt &rarr; no Key required: 
 
