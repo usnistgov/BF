@@ -22,7 +22,7 @@ title: "BFCWE Types API"
 
 - BF Weakness Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE/BFRelations?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE/BFTypes?key=YOUR_KEY)<br/> -->
+  [https://samate.nist.gov/services/BF/BFCWE/BFRelations](https://samate.nist.gov/services/BF/BFCWE/BFTypes)<br/> -->
 
 _________________________________
 

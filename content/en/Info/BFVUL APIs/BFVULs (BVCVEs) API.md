@@ -20,8 +20,8 @@ The BFVULs (BVCVEs) API generates datasets of BF Vulnerability Specifications, i
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.xml?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFVUL.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL.xml](https://samate.nist.gov/services/BF/BFVUL.xml)<br/>
+  [https://samate.nist.gov/services/BF/BFVUL.json](https://samate.nist.gov/services/BF/BFVUL.json)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

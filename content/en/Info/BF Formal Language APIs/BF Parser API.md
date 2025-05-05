@@ -20,7 +20,7 @@ The BF Parser API performs Validation and Verification of BF Specifications in .
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser](https://samate.nist.gov/services/BF/BFFormalLanguage/BFParser)<br/>
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         

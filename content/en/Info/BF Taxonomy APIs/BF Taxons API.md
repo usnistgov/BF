@@ -21,7 +21,7 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 The BF Taxons API queries the BF Taxonomy and generates the BF Taxon Definitions.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons](https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

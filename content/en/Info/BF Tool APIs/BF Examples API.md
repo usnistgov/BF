@@ -20,7 +20,7 @@ The BF Examples API provides BF Vulnerability specifications in the formats supp
 
 - BF Tool Examples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool/BFExamples?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTool/BFExamples](https://samate.nist.gov/services/BF/BFTool/BFExamples)
 
 Open the BF Formal Specifications of Security Vulnerabilities using the BF GUI Tool. Use the BF Tool to navigate the chains of BF Weaknesses, generate graphical representations, and save in extended or bare-bone formal BF specification formats. 
 

@@ -22,13 +22,13 @@ The BF _INP API queries the BF _INP Class Type queries BF and generates the corr
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP) <br/> -->
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP)
 
   - With Definitions:<br/>
-      [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true&key=YOUR_KEY)
+      [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer&key=YOUR_KEY) -->
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         

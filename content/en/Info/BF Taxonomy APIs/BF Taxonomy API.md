@@ -23,8 +23,8 @@ The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corrup
 The BF Taxonomy API queries the BF Taxonomy and generates the corresponding BF Bug/Weakness Classes in machine-readable (XML, JSON) formats.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.xml?key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTaxonomy.xml](https://samate.nist.gov/services/BF/BFTaxonomy.xml) </br>
+  [https://samate.nist.gov/services/BF/BFTaxonomy.json](https://samate.nist.gov/services/BF/BFTaxonomy.json)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

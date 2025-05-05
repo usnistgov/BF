@@ -22,8 +22,8 @@ The BF formalism supports a deeper understanding of vulnerabilites as chains of 
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY) </br>
-  [https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection&key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection](https://samate.nist.gov/services/BF/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection) </br>
+  [https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection](https://samate.nist.gov/services/BF/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

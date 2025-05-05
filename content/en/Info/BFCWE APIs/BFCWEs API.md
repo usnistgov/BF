@@ -22,8 +22,8 @@ The BFCWEs API generates datasets of BFCWE Specifications as `<cause, operation>
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.xml?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCWE.json?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCWE.xml](https://samate.nist.gov/services/BF/BFCWE.xml)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE.json](https://samate.nist.gov/services/BF/BFCWE.json)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

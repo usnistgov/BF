@@ -22,7 +22,7 @@ The BF Tool API allow download of the BF GUI Tool.
 
 - BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTool?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFTool](https://samate.nist.gov/services/BF/BFTool)
 
 The BF GUI Tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 

@@ -20,8 +20,8 @@ The BFInjectionCVEs Partial API generates datasets of partial BFCVE Specificatio
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.xml/api?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json/api?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFCVEPre.json/api?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml/api](https://samate.nist.gov/services/BF/BFCVEPre.xml/api)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json/api](https://samate.nist.gov/services/BF/BFCVEPre.json/api)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

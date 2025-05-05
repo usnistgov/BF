@@ -19,7 +19,7 @@ title: "BFVUL Graphs API"
 The BFVUL Graphs API generates BF Vulnerability Specifications in graphical formats.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/PPT?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFVUL/PPT](https://samate.nist.gov/services/BF/BFVUL/PPT)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         

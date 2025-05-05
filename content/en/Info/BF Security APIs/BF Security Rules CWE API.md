@@ -22,8 +22,8 @@ The BF Security Rules CWE API generates datasets of BF Improper States (by CWE w
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE?key=YOUR_KEY)<br/>
-  [https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE?key=YOUR_KEY)
+  [https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE](https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE)<br/>
+  [https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE](https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE)
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 

@@ -20,10 +20,10 @@ title: "NRS"
 ####  Taxonomy
 
 - BF _DAT>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS)
 
 - BF _DAT>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true&key=YOUR_KEY](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true&key=YOUR_KEY)
+[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

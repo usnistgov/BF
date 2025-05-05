@@ -20,7 +20,7 @@ The BFVUL Types API generates the BF Types -- BF Class, Bug, Fault, Error, Final
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY](https://samate.nist.gov/services/BF/BFVUL/BFTypes?key=YOUR_KEY)<br/>
+  [https://samate.nist.gov/services/BF/BFVUL/BFTypes](https://samate.nist.gov/services/BF/BFVUL/BFTypes)<br/>
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
         
