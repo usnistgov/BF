@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BFInjectionCVEs Partial API"
+title: "BFInjectionCVEs Pre API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BFInjectionCVEs Partial API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFInjectionCVEs Partial API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFInjectionCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFInjectionCVEs Partial API generates datasets of partial BFCVE Specifications of BF _INP related CVEs based on the NVD CVE-to-CWE and CWE2BF mappings.
+The BFInjectionCVEs Pre API generates datasets of preliminary BFCVE Specifications of BF _INP related CVEs based on the NVD CVE-to-CWE and CWE2BF mappings.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

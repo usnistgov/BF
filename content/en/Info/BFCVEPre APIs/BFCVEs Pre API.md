@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BFCVEs Partial API"
+title: "BFCVEs Pre API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BFCVEs Partial API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFCVEs Partial API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFCVEs Partial API generates datasets of partial BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings.
+The BFCVEs Pre API generates datasets of preliminary BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

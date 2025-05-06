@@ -158,16 +158,16 @@
   weight = 120
   identifier = "BFCVEPre APIs"
 [[main]]
-  name = "BFCVEs Partial API"
+  name = "BFCVEs Pre API"
   weight = 3
-  identifier = "BFCVEs Partial API"
-  url = "/Info/BFCVEPre APIs/BFCVEs Partial API"
+  identifier = "BFCVEs Pre API"
+  url = "/Info/BFCVEPre APIs/BFCVEs Pre API"
   parent = "BFCVEPre APIs"
 [[main]]
-  name = "BFInjectionCVEs Partial API"
+  name = "BFInjectionCVEs Pre API"
   weight = 3
-  identifier = "BFInjectionCVEs Partial API"
-  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Partial API"
+  identifier = "BFInjectionCVEs Pre API"
+  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Pre API"
   parent = "BFCVEPre APIs"
 
 [[main]]
