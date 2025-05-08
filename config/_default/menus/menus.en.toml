@@ -4,17 +4,20 @@
   identifier = "Welcome"
   url = "/Info/Welcome/BF Welcome"
   parent = "Welcome"
+  row = 1
 
 [[main]]
   name = "BF Formalism"
   weight = 20
   identifier = "BF Formalism"
+  row = 1
 [[main]]
   name = "BF Concepts"
   weight = 1
   identifier = "BF Concepts"
   url = "/Info/BF Formalism/BF Concepts"
   parent = "BF Formalism"
+  row = 1
 [[main]]
   name = "BF Features"
   weight = 2
@@ -93,24 +96,28 @@
   name = "BF Tool APIs"
   weight = 100
   identifier = "BF Tool APIs"
+  row = 2
 [[main]]
   name = "BF GUI Tool API"
   weight = 1
   identifier = "BF GUI Tool API"
   url = "/Info/BF Tool APIs/BF GUI Tool API"
   parent = "BF Tool APIs"
+  row = 2
 [[main]]
   name = "BF Examples API"
   weight = 2
   identifier = "BF Examples API"
   url = "/Info/BF Tool APIs/BF Examples API"
   parent = "BF Tool APIs"
+  row = 2
 [[main]]
   name = "BF Tool Guide"
   weight = 3
   identifier = "BF Tool Guide"
   url = "/Info/BF Tool APIs/BF Tool Guide"
   parent = "BF Tool APIs"
+  row = 2
 
 [[main]]
   name = "BFVUL APIs"
