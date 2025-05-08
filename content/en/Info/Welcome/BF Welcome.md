@@ -41,9 +41,9 @@ The BF is a formal system that comprises:
 
 - Structured, multidimensional, orthogonal, and context-free _[weakness taxonomies](/BF/info/bf-classes)_ as weakness class types and a _failure taxonomy_ as a failure class type 
 
-- A _[vulnerability state model](/BF/info/models/bf-vulnerability-state-model/)_ as a chain of improper-state (operation, operand₁, …, operandₙ) tuples with a bug in the operation or a fault of an operand that enables a failure 
+- A _[vulnerability state model](/BF/info/bf-models/bf-vulnerability-state-model/)_ as a chain of improper-state (operation, operand₁, …, operandₙ) tuples with a bug in the operation or a fault of an operand that enables a failure 
 
-- A _[vulnerability specification model](/BF/info/models/bf-vulnerability-specification-model/)_ as a chain of ⟨cause, operation⟩→consequence instances of BF weakness classes that ends with an instance of a BF failure class 
+- A _[vulnerability specification model](/BF/info/bf-models/bf-vulnerability-specification-model/)_ as a chain of ⟨cause, operation⟩→consequence instances of BF weakness classes that ends with an instance of a BF failure class 
 
 - A _formal language_ for the unambiguous causal specification of security weaknesses and vulnerabilities
 
