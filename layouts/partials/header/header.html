@@ -208,7 +208,7 @@
   {{ end }}
 </nav> -->
 
-<div class="menu-row row1">
+<!-- <div class="menu-row row1">
   {{ range where .Site.Menus.main "Params.row" "!=" 2 }}
     {{ partial "header/nav-item" (dict "page" .) }}
   {{ end }}
@@ -218,6 +218,6 @@
   {{ range where .Site.Menus.main "Params.row" "==" 2 }}
     {{ partial "header/nav-item" (dict "page" .) }}
   {{ end }}
-</div>
+</div> -->
 
 {{ end -}}
