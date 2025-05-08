@@ -35,7 +35,7 @@ The Bugs Framework (BF) is a classification of security bugs and related faults 
 
 The BF is a formal system that comprises:
 
-- _[Definitions](/BF/info/formalism/bf-concepts/)_ of bug, fault, error, final error, weakness, vulnerability, exploit vector, and failure in the context of cybersecurity to elucidate causation and propagation rules
+- _[Definitions](/BF/info/bf-formalism/bf-concepts/)_ of bug, fault, error, final error, weakness, vulnerability, exploit vector, and failure in the context of cybersecurity to elucidate causation and propagation rules
 
 - _Bugs models_ that define distinct execution phases with orthogonal sets of operations in which specific bugs and faults could occur and the proper flow of operations 
 
