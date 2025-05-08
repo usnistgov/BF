@@ -37,9 +37,9 @@ The taxonomy of a particular bug or weakness is based on one BF class. Its descr
 So, each BF class is a taxonomic  category  of  a  weakness type, defined by:
 
 *   A set of operations
-*   Cause→consequence relations
+*   ⟨Cause, Operation⟩→Consequence relations
 *   A set of attributes
-*   Sites.
+*   A set of sites
 
 It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations. Operations or operands improperness define the causes. 
 
@@ -50,37 +50,33 @@ BF describes a _bug_ or a _weakness_ as an improper state and its transition. Th
 The initial state (depicted in blue on Figure 1) is always caused by a bug; a code or specification defect within the operation, which if fixed will resolve the vulnerability. A propagation (intermediate) state (in light purple) is caused by at least one faulty (ill-formed) operand. The final state results in a final exploitable error (usually directly relates to a CWE) that leads to a failure. An error is the result of an improper state from the operation over the operands. It propagates to an improper operand for a next improper state. For example, on Figure 1, Operation 1 from Improper State 1 is improper, due to a Bug, and results in Improper Operand 2i, leading to Improper State 2. The last operation results in an Exploitable Error, leading to a failure.
 
 <br/>
- {{<img src="images/BF Models/BF Causation.svg" caption="Figure 1. BF Causality -- a bug or a weakness relates to an improper state and its transition. The transition is to another weakness or to a failure." >}}
+ {{<img src="images/BF Models/BF Weakness.svg" caption="Figure 1. BF Causality -- a bug or a weakness relates to an improper state and its transition. The transition is to another weakness or to a failure." >}}
 <br/>
 
-A consequence is the result of the operation over the operands (see figure 2). It becomes the cause for a next weakness or is a final error, leading to a failure. The attributes describe the operations and the operands. They help us understand the severity of the bug or the weakness. The BF description of a weakness is an instance of a taxonomic BF class with one operation, one cause, one consequence, and their attributes. Any vulnerability then can be described as a chain of such instances and their consequence–cause transitions.
-
-<br/>
- {{<img src="images/BF Models/BF Cause-Consequence-Cause.svg" caption="Figure 2. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or is a final exploitable error, leading to a failure." >}}
-<br/>
+A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or is a final error, leading to a failure. The attributes describe the operations and the operands. They help us understand the severity of the bug or the weakness. The BF description of a weakness is an instance of a taxonomic BF class with one operation, one cause, one consequence, and their attributes. Any vulnerability then can be described as a chain of such instances and their consequence–cause transitions.
 
 ### Propagation 
 
-BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 3). Each improper state corresponds to an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state. I other words, the transition from the initial state is by improper operation (an operation that has a bug) over proper operands; the transitions from intermediate states are by proper operations with at least one improper operand (the operand is at fault).
+BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 2). Each improper state corresponds to an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state. I other words, the transition from the initial state is by improper operation (an operation that has a bug) over proper operands; the transitions from intermediate states are by proper operations with at least one improper operand (the operand is at fault).
 
 <br/><br/>
-{{<img src="images/BF Models/BF Chaining.svg" caption="Figure 3. BF features: Chaining weaknesses – A vulnerability as a chain of improper states and their transitions" >}}
+{{<img src="images/BF Models/BF Vulnerability.svg" caption="Figure 2. BF features: Chaining weaknesses – A vulnerability as a chain of improper states and their transitions" >}}
 <br/>
 
 ### Converging
 
-In some cases, several vulnerabilities must be present for an exploit to be harmful. The final errors resulting from different chains converge to cause a failure (see  Figure 4). The bug in at least one of the chains must be fixed to avoid that failure. Operations or operands improperness define the causes. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or a failure. 
+In some cases, several vulnerabilities must be present for an exploit to be harmful. The final errors resulting from different chains converge to cause a failure (see  Figure 3). The bug in at least one of the chains must be fixed to avoid that failure. Operations or operands improperness define the causes. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or a failure. 
 
 <br/>
- {{<img src="images/BF Models/BF Converging.svg" caption="Figure 4. Converging software security vulnerabilities, leading to a security failure." >}}
+ {{<img src="images/BF Models/BF Converging.svg" caption="Figure 3. Converging software security vulnerabilities, leading to a security failure." >}}
 <br/>
 
 ### Backtracking
 
-The improper operation or improper operand is the cause for that weakness. The improper result from an operation over its operands is the consequence from that weakness, and it becomes a cause for a next weakness or a failure. Knowing the failure and all the transitions at execution, we should be able to find the bug (see Figure 5) – simply go backwards by operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability.
+The improper operation or improper operand is the cause for that weakness. The improper result from an operation over its operands is the consequence from that weakness, and it becomes a cause for a next weakness or a failure. Knowing the failure and all the transitions at execution, we should be able to find the bug (see Figure 4) – simply go backwards by operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability.
 
 <br/>
- {{<img src="images/BF Models/BF Backtracking.svg" caption="Figure 5. BF features: Backtracking from a failure to the bug – knowing the failure, go backwards by improper operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability." >}}
+ {{<img src="images/BF Models/BF Bug Identification.svg" caption="Figure 4. BF features: Backtracking from a failure to the bug – knowing the failure, go backwards by improper operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability." >}}
 <br/>
 
 <!-- The Bugs Framework (BF) is being created as a classification system of software security bugs, faults, and weaknesses that allows unambiguous formal specification of the software security vulnerabilities that exploit them. Please visit the appropriate webpages to see details on the following BF components:
