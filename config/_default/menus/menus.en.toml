@@ -177,22 +177,22 @@
   weight = 150
   identifier = "BF Taxonomy APIs"
 [[main]]
-  name = "BF _INP API"
+  name = "BF _INP Graph API"
   weight = 1
-  identifier = "BF _INP API"
-  url = "/Info/BF Taxonomy APIs/BF _INP API"
+  identifier = "BF _INP Graph API"
+  url = "/Info/BF Taxonomy APIs/BF _INP Graph API"
   parent = "BF Taxonomy APIs"
 [[main]]
-  name = "BF _MEM API"
+  name = "BF _MEM Graph API"
   weight = 2
-  identifier = "BF _MEM API"
-  url = "/Info/BF Taxonomy APIs/BF _MEM API"
+  identifier = "BF _MEM Graph API"
+  url = "/Info/BF Taxonomy APIs/BF _MEM Graph API"
   parent = "BF Taxonomy APIs"
 [[main]]
-  name = "BF _DAT API"
+  name = "BF _DAT Graph API"
   weight = 3
-  identifier = "BF _DAT API"
-  url = "/Info/BF Taxonomy APIs/BF _DAT API"
+  identifier = "BF _DAT Graph API"
+  url = "/Info/BF Taxonomy APIs/BF _DAT Graph API"
   parent = "BF Taxonomy APIs"
 [[main]]
   name = "BF Taxons API"
