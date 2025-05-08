@@ -23,19 +23,19 @@
   parent = "BF Formalism"
   [[main]]
   name = "BF Vulnerability State Model"
-  weight = 1
+  weight = 3
   identifier = "BF Vulnerability State Model"
   url = "/Info/BF Formalism/BF Vulnerability State Model"
   parent = "BF Formalism"
 [[main]]
   name = "BF Vulnerability Specification Model"
-  weight = 2
+  weight = 24
   identifier = "BF Vulnerability Specification Model"
   url = "/Info/BF Formalism/BF Vulnerability Specification Model"
   parent = "BF Formalism"
 [[main]]
   name = "BF Formal Language"
-  weight = 3
+  weight = 5
   identifier = "BF Formal Language"
   url = "/Info/BF Formalism/BF Formal Language"
   parent = "BF Formalism"
