@@ -29,7 +29,7 @@
   parent = "BF Formalism"
 [[main]]
   name = "BF Vulnerability Specification Model"
-  weight = 24
+  weight = 4
   identifier = "BF Vulnerability Specification Model"
   url = "/Info/BF Formalism/BF Vulnerability Specification Model"
   parent = "BF Formalism"
