@@ -21,6 +21,18 @@
   identifier = "BF Features"
   url = "/Info/BF Formalism/BF Features"
   parent = "BF Formalism"
+  [[main]]
+  name = "BF Vulnerability State Model"
+  weight = 1
+  identifier = "BF Vulnerability State Model"
+  url = "/Info/BF Formalism/BF Vulnerability State Model"
+  parent = "BF Formalism"
+[[main]]
+  name = "BF Vulnerability Specification Model"
+  weight = 2
+  identifier = "BF Vulnerability Specification Model"
+  url = "/Info/BF Formalism/BF Vulnerability Specification Model"
+  parent = "BF Formalism"
 [[main]]
   name = "BF Formal Language"
   weight = 3
@@ -28,22 +40,22 @@
   url = "/Info/BF Formalism/BF Formal Language"
   parent = "BF Formalism"
 
-[[main]]
-  name = "BF Models"
-  weight = 30
-  identifier = "BF Models"
-[[main]]
-  name = "BF Vulnerability State Model"
-  weight = 1
-  identifier = "BF Vulnerability State Model"
-  url = "/Info/BF Models/BF Vulnerability State Model"
-  parent = "BF Models"
-[[main]]
-  name = "BF Vulnerability Specification Model"
-  weight = 2
-  identifier = "BF Vulnerability Specification Model"
-  url = "/Info/BF Models/BF Vulnerability Specification Model"
-  parent = "BF Models"
+#[[main]]
+#  name = "BF Models"
+#  weight = 30
+#  identifier = "BF Models"
+#[[main]]
+#  name = "BF Vulnerability State Model"
+#  weight = 1
+#  identifier = "BF Vulnerability State Model"
+#  url = "/Info/BF Models/BF Vulnerability State Model"
+#  parent = "BF Models"
+#[[main]]
+#  name = "BF Vulnerability Specification Model"
+#  weight = 2
+#  identifier = "BF Vulnerability Specification Model"
+#  url = "/Info/BF Models/BF Vulnerability Specification Model"
+#  parent = "BF Models"
 
 [[main]]
   name = "BF Tool APIs"
