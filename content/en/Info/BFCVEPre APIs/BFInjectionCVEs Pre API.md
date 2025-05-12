@@ -20,8 +20,8 @@ The BFInjectionCVEs Pre API generates datasets of preliminary BFCVE Specificatio
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml/api](https://samate.nist.gov/services/BF/BFCVEPre.xml/api)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json/api](https://samate.nist.gov/services/BF/BFCVEPre.json/api)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml/INJ](https://samate.nist.gov/services/BF/BBFCVEPre.xml/INJ)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json/INJ](https://samate.nist.gov/services/BF/BFCVEPre.json/INJ)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

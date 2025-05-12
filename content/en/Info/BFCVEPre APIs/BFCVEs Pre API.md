@@ -16,17 +16,17 @@ title: "BFCVEs Pre API"
 
 # BFCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFCVEs Pre API generates datasets of preliminary BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings.
+The BFCVEs Pre API generates datasets of preliminary BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings per BF Class Type.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCVEPre.xml](https://samate.nist.gov/services/BF/BFCVEPre.xml)<br/>
-  [https://samate.nist.gov/services/BF/BFCVEPre.json](https://samate.nist.gov/services/BF/BFCVEPre.json)
+  [https://samate.nist.gov/services/BF/BFCVEPre.xml/_MEM](https://samate.nist.gov/services/BF/BFCVEPre.xml/_MEM)<br/>
+  [https://samate.nist.gov/services/BF/BFCVEPre.json/_MEM](https://samate.nist.gov/services/BF/BFCVEPre.json/_MEM)
 
   - Queried by CVE ID, CWE ID, CVSS; or BF Class taxon values: Class Tyoe, Class, Operation, Cause, and Conseqeunce-- e.g., :<br/>
 
-    [https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS](https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS)<br/>
-    [https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS](https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS)
+    [https://samate.nist.gov/services/BF/BFCVEPre.xml?class=MUS](https://samate.nist.gov/services/BF/BFCVEPre.xml/_MEM?class=MUS)<br/>
+    [https://samate.nist.gov/services/BF/BFCVEPre.json?class=MUS](https://samate.nist.gov/services/BF/BFCVEPre.json/_MEM?class=MUS)
 
 - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 
