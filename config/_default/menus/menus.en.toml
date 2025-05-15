@@ -167,22 +167,22 @@
   url = "/Info/BFCWE APIs/BFCWE Types API"
   parent = "BFCWE APIs"
 
-[[main]]
-  name = "BF Security APIs"
-  weight = 140
-  identifier = "BF Security APIs"
-[[main]]
-  name = "BF Security Rules API"
-  weight = 1
-  identifier = "BF Security Rules API"
-  url = "/Info/BF Security APIs/BF Security Rules API"
-  parent = "BF Security APIs"
-[[main]]
-  name = "BF Security Rules CWE API"
-  weight = 2
-  identifier = "BF Security Rules CWE API"
-  url = "/Info/BF Security APIs/BF Security Rules CWE API"
-  parent = "BF Security APIs"
+#[[main]]
+#  name = "BF Security APIs"
+#  weight = 140
+#  identifier = "BF Security APIs"
+#[[main]]
+#  name = "BF Security Rules API"
+#  weight = 1
+#  identifier = "BF Security Rules API"
+#  url = "/Info/BF Security APIs/BF Security Rules API"
+#  parent = "BF Security APIs"
+#[[main]]
+#  name = "BF Security Rules CWE API"
+#  weight = 2
+#  identifier = "BF Security Rules CWE API"
+#  url = "/Info/BF Security APIs/BF Security Rules CWE API"
+#  parent = "BF Security APIs"
 
   [[main]]
   name = "BF Taxonomy APIs"
