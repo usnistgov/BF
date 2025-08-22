@@ -16,7 +16,7 @@ title: "BFInjectionCVEs Pre API"
 
 # BFInjectionCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFInjectionCVEs Pre API generates datasets of preliminary BFCVE Specifications of BF _INP related CVEs based on the NVD CVE-to-CWE and CWE2BF mappings.
+The BFInjectionCVEs Pre APP/API generates a dataset of preliminary BFCVE Specifications of BF _INP related CVEs based on the NVD CVE-to-CWE and CWE2BF mappings.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

@@ -1,7 +1,7 @@
 ---
-weight: 1
+weight: 2
 bookCollapseSection: false
-title: "BF GUI Tool API"
+title: "BF GUI Tool"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,15 +14,15 @@ title: "BF GUI Tool API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Tool for Formal Specification of Security Vulnerabilities<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF GUI Tool for Formal Specification of Security Vulnerabilities<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF tool is a GUI application that works with both the BF relational database and the BF in XML or JSON format; the latter is useful when the database is unavailable. It allows users to create a new BF CVE specification, save it as a machine-readable .bfv, .bff, or .bfvul file, and open and browse previously created specifications. 
+The BF GUI Tool is a graphical user interface application that works with both the BF relational database and the BF in XML or JSON format; the latter is useful when the database is unavailable. It allows users to create a new BF Vulnerability specification, save it as a machine-readable base (.bfv), full (.bfvul), or core (.bff) XML or JSON file format, and open and browse previously created BF specifications. 
 
-The BF Tool API allow download of the BF GUI Tool.
+The BF Tool APP allows download of the BF GUI Tool.
 
 - BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool](https://samate.nist.gov/services/BF/BFTool)
+  [https://samate.nist.gov/services/BF/BFTool/BFGUI](https://samate.nist.gov/services/BF/BFTool/BFGUI)
 
 The BF GUI Tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 

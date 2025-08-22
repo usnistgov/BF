@@ -16,7 +16,7 @@ title: "BF _DAT API"
 
 # BF _DAT API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF _DAT API queries BF _DAT Class Type and generates the corresponding BF Taxonomy in graphical format.
+The BF _DAT APP/API queries BF _DAT Class Type and generates the BF _DAT Taxonomy in graphical format.
 
 <!-- - BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/> -->

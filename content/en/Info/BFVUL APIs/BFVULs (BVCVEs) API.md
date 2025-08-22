@@ -16,7 +16,7 @@ title: "BFVULs (BVCVEs) API"
 
 # BFVULs (BVCVEs) API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVULs (BVCVEs) API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
+The BFVULs (BVCVEs) APP/API generates datasets of BF Vulnerability Specifications, including BF CVE Specifications.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

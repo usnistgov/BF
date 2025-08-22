@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF Description API"
+title: "BFVUL Description API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BF Description API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Description API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVUL Description API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Description API generates a BF Description from the BF Tokens of provided BF Vulnerability Specification. 
+The BFVUL Description APP/API generates a BF Description from the BF Tokens for provided BF Vulnerability Specification. 
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

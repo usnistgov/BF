@@ -16,7 +16,10 @@ title: "BFCVEs Pre API"
 
 # BFCVEs Pre API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFCVEs Pre API generates datasets of preliminary BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings per BF Class Type.
+The BFCVEs Pre APP/API generates datasets of preliminary BFCVE Specifications based on the BF Taxonomy and the NVD CVE-to-CWE and CWE2BF mappings per BF Class Type.<br/>
+_INP BFCVEs Pre APP/API covers CVEs related to the BF Input/Output Check (_INP) Class Type.<br/>
+_MEM BFCVEs Pre APP/API covers CVEs related to the BF Memory Corruption/Disclosure (_MEM) Class Type.<br/>
+_DAT BFCVEs Pre APP/API covers CVEs related to the BF Data Type (_DAT) Class Type.<br/>
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

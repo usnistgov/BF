@@ -18,7 +18,7 @@ title: "BFCWEs API"
 
 //Exclusive Rights Only//
 
-The BFCWEs API generates datasets of BFCWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
+The BFCWEs APP/API generates datasets of BFCWE Specifications as `<cause, operation>→consequence` BF Weaknesses. Depending on the level of abstraction, some CWEs may be covered by more than one BF Weakness Triple.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

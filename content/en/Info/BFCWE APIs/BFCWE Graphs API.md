@@ -18,7 +18,7 @@ title: "BFCWE Graphs API"
 
 //To be added//
 
-<!-- The BFCWE Graphs API generates BF Weakness Specifications in graphical formats.
+<!-- The BFCWE Graphs APP/API generates graphical representations of BF Weakness Specifications.
 
 - BF Vulnerability Specification Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFCWE/PPT](https://samate.nist.gov/services/BF/BFCWE/PPT)

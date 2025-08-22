@@ -16,7 +16,7 @@ title: "CWE2BF Graphs API"
 
 # CWE2BF Graphs API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The CWE2BF Graphs API generates CWE-to-BF Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
+The CWE2BF Graphs APP/API generates CWE-to-BF Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
 
 <!-- - BF CWE2BF Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
   [https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT](https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT)

@@ -58,27 +58,33 @@
 #  parent = "BF Models"
 
 [[main]]
-  name = "BF Tool APIs"
+  name = "BF Tool"
   weight = 100
-  identifier = "BF Tool APIs"
+  identifier = "BF Tool"
 [[main]]
-  name = "BF GUI Tool API"
+  name = "BF Tool APP"
   weight = 1
-  identifier = "BF GUI Tool API"
-  url = "/Info/BF Tool APIs/BF GUI Tool API"
-  parent = "BF Tool APIs"
+  identifier = "BF Tool APP"
+  url = "/Info/BF Tool/BF Tool APP"
+  parent = "BF Tool"
 [[main]]
-  name = "BF Examples API"
+  name = "BF GUI Tool"
   weight = 2
-  identifier = "BF Examples API"
-  url = "/Info/BF Tool APIs/BF Examples API"
-  parent = "BF Tool APIs"
+  identifier = "BF GUI Tool"
+  url = "/Info/BF Tool/BF GUI Tool"
+  parent = "BF Tool"
+[[main]]
+  name = "BFVUL Examples"
+  weight = 2
+  identifier = "BFVUL Examples"
+  url = "/Info/BF Tool/BFVUL Examples"
+  parent = "BF Tool"
 [[main]]
   name = "BF Tool Guide"
   weight = 3
   identifier = "BF Tool Guide"
-  url = "/Info/BF Tool APIs/BF Tool Guide"
-  parent = "BF Tool APIs"
+  url = "/Info/BF Tool/BF Tool Guide"
+  parent = "BF Tool"
 
 [[main]]
   name = "BFVUL APIs"
@@ -109,16 +115,16 @@
   url = "/Info/BFVUL APIs/BFVUL Graphs API"
   parent = "BFVUL APIs"
 [[main]]
-  name = "BF Description API"
+  name = "BFVUL Description API"
   weight = 5
-  identifier = "BF Description API"
-  url = "/Info/BFVUL APIs/BF Description API"
+  identifier = "BFVUL Description API"
+  url = "/Info/BFVUL APIs/BFVUL Description API"
   parent = "BFVUL APIs"
 [[main]]
-  name = "BF Backward API"
+  name = "BFVUL Backward API"
   weight = 6
-  identifier = "BF Backward API"
-  url = "/Info/BFVUL APIs/BF Backward API"
+  identifier = "BFVUL Backward API"
+  url = "/Info/BFVUL APIs/BFVUL Backward API"
   parent = "BFVUL APIs"  
 
 [[main]]
@@ -135,7 +141,7 @@
   name = "BFInjectionCVEs Pre API"
   weight = 3
   identifier = "BFInjectionCVEs Pre API"
-  url = "/Info/BFCVEPre APIs/BFInjectionCVEs Pre API"
+  url = "/Info/BFCVEPre APIs/BF Injection CVEs Pre API"
   parent = "BFCVEPre APIs"
 
 [[main]]

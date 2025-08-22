@@ -18,7 +18,7 @@ title: "BF Relations API"
 
 //Exclusive Rights Only//
 
-The BF Relations API generates datasets of Meaningful `<cause, operation>→consequence` BF Weakness Triples 
+The BF Relations APP/API generates datasets of Meaningful `<cause, operation>→consequence` BF Weakness Triples.
 <!-- 
 - BF Weakness Relations Excerpt &rarr; no Key required: 
 

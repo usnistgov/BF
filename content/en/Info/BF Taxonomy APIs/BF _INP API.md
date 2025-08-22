@@ -16,7 +16,7 @@ title: "BF _INP API"
 
 # BF _INP API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF _INP API queries the BF _INP Class Type queries BF and generates the corresponding BF Taxonomy in graphical format.
+The BF _INP APP/API queries the BF _INP Class Type queries BF and generates the BF _INP Taxonomy in graphical format.
 
 <!-- - BF /_INP Taxonomy Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP) <br/> -->

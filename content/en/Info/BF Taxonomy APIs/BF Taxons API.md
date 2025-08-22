@@ -16,9 +16,9 @@ title: "BF Taxons API"
 
 # BF Taxons API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
+The current BF Taxonomy comprizes the BF Input/Output Check (_INP), Memory Corruption/Disclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
-The BF Taxons API queries the BF Taxonomy and generates the BF Taxon Definitions.
+The BF Taxons APP/API queries the BF Taxonomy and generates the BF Taxon Definitions.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons](https://samate.nist.gov/services/BF/BFTaxonomy/BFTaxons)

@@ -18,7 +18,7 @@ title: "BFCWE Types API"
 
 //To be added//
 
-<!-- The BF Types API generates the BF Types for the provided BF Specification(s). 
+<!-- The BFCWE Types APP/API generates the BF Types for the provided BF Specifications. 
 
 - BF Weakness Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 

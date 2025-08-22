@@ -18,9 +18,9 @@ title: "BF Taxonomy API"
 
 //Exclusive Rights Only//
 
-The current BF Taxonomy comprizes the BF Input/Output Check(_INP), Memory Corruption/Dusclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
+The current BF Taxonomy comprizes the BF Input/Output Check (_INP), Memory Corruption/Disclosure (_MEM), and Data Type (_DAT) Class Types and the BF Failure (_FLR) Class Type.
 
-The BF Taxonomy API queries the BF Taxonomy and generates the corresponding BF Bug/Weakness Classes in machine-readable (XML, JSON) formats.
+The BF Taxonomy APP/API queries the BF Taxonomy and generates the corresponding BF Bug/Weakness Classes in machine-readable (XML, JSON) formats.
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy.xml](https://samate.nist.gov/services/BF/BFTaxonomy.xml) </br>
