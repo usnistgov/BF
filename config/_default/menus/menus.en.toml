@@ -148,29 +148,35 @@
   name = "BFCWE APIs"
   weight = 130
   identifier = "BFCWE APIs"
-  [[main]]
+[[main]]
   name = "BFCWEs API"
   weight = 1
   identifier = "BFCWEs API"
   url = "/Info/BFCWE APIs/BFCWEs API"
   parent = "BFCWE APIs"
-#[[main]]
-#  name = "BFCWE Graphs API"
-#  weight = 2
-#  identifier = "BFCWE Graphs API"
-#  url = "/Info/BFCWE APIs/BFCWE Graphs API"
-#  parent = "BFCWE APIs"
 [[main]]
-  name = "CWE2BF Graphs API"
+  name = "BFCWE Files API"
   weight = 2
-  identifier = "CWE2BF Graphs API"
-  url = "/Info/BFCWE APIs/CWE2BF Graphs API"
+  identifier = "BFCWE Files API"
+  url = "/Info/BFCWE APIs/BFCWE Files API"
   parent = "BFCWE APIs"
 [[main]]
   name = "BFCWE Types API"
   weight = 3
   identifier = "BFCWE Types API"
   url = "/Info/BFCWE APIs/BFCWE Types API"
+  parent = "BFCWE APIs"
+[[main]]
+  name = "BFCWE Graphs API"
+  weight = 4
+  identifier = "BFCWE Graphs API"
+  url = "/Info/BFCWE APIs/BFCWE Graphs API"
+  parent = "BFCWE APIs"
+[[main]]
+  name = "CWE2BF Graphs API"
+  weight = 5
+  identifier = "CWE2BF Graphs API"
+  url = "/Info/BFCWE APIs/CWE2BF Graphs API"
   parent = "BFCWE APIs"
 
 [[main]]
