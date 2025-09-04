@@ -34,12 +34,12 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("Files.xml/api");
+      var responseXML = await client.GetAsync("BFVUL/Files.xml/api");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("Files.xml.json/api");       
+      var responseJSON = await client.GetAsync("BFVUL/Files.xml.json/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 

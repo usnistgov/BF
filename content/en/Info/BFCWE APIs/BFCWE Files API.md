@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BFVUL Files API"
+title: "BFCWE Files API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,13 +14,13 @@ title: "BFVUL Files API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BFVUL Files API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFCWE Files API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format.
+The BFCWE Files APP/API generates BF Weakness Specifications in .bfw format.
 
 - BF .bfv Specifications Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL/Files](https://samate.nist.gov/services/BF/BFVUL/Files)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE/BFCWEFiles](https://samate.nist.gov/services/BF/BFCWE/BFCWEFiles)<br/>
   <!-- [https://samate.nist.gov/services/BF/Files.json](https://samate.nist.gov/services/BF/Files.json) -->
 
 <!-- - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
@@ -34,12 +34,12 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("Files.xml/api");
+      var responseXML = await client.GetAsync("BFCWE/BFCWEFiles.xml/api");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("Files.xml.json/api");       
+      var responseJSON = await client.GetAsync("BFCWE/BFCWEFiles.xml.json/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 
@@ -49,4 +49,4 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
 _________________________________
 
 BF CITATION: <br/>
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and CWEnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

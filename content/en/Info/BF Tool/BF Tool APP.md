@@ -18,9 +18,7 @@ title: "BF Tool APP"
 
 The BF Tool APP is a Web application allows users to create a new BF Vulnerability specification, save it in the BF database, download it as a machine-readable base (.bfv), full (.bfvul), or core (.bff) XML or JSON file format, and open or upload and browse previously created BF specifications. 
 
-The BF Tool APP allows download of the BF GUI Tool.
-
-- BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF Tool APP &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
   [https://samate.nist.gov/services/BF/BFTool/BFApp](https://samate.nist.gov/services/BF/BFTool/BFApp)
 

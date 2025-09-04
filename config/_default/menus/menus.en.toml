@@ -79,12 +79,12 @@
   identifier = "BFVUL Examples"
   url = "/Info/BF Tool/BFVUL Examples"
   parent = "BF Tool"
-[[main]]
-  name = "BF Tool Guide"
-  weight = 3
-  identifier = "BF Tool Guide"
-  url = "/Info/BF Tool/BF Tool Guide"
-  parent = "BF Tool"
+# [[main]]
+# name = "BF Tool Guide"
+# weight = 3
+# identifier = "BF Tool Guide"
+# url = "/Info/BF Tool/BF Tool Guide"
+# parent = "BF Tool"
 
 [[main]]
   name = "BFVUL APIs"
