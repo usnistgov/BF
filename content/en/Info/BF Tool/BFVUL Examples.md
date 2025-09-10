@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: false
-title: "BF Examples"
+title: "BFVUL Examples"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,13 +14,13 @@ title: "BF Examples"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Tool Examples <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BFVUL Examples <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF Examples UI provides download of Formal BF Vulnerability Specifications in the formats supported by the BF GUI Tool: .bfv, .bfvul, and .bff.
+The BFVUL Examples UI provides download of Formal BF Vulnerability Specifications in the formats supported by the BF GUI Tool: .bfv, .bfvul, and .bff.
 
-- BF Tool Examples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BFVUL Examples Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFTool/BFExamples](https://samate.nist.gov/services/BF/BFTool/BFExamples)
+  [https://samate.nist.gov/services/BF/BFTool/BFVULExamples](https://samate.nist.gov/services/BF/BFTool/BFVULExamples)
 
 Open or Upload the BF Specifications of Security Vulnerabilities using the BF Tool App or the BF GUI Tool. Use the BF Tools to navigate the chains of BF Weaknesses, generate graphical representations, and save or download in extended (.bfvul), standard (.bfv) or bare-bone (.bff) formal BF specification formats. 
 

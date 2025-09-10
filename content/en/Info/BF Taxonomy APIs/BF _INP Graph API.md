@@ -1,7 +1,7 @@
 ---
-weight: 3
+weight: 1
 bookCollapseSection: false
-title: "BF _DAT API"
+title: "BF _INP Graph API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,18 +14,18 @@ title: "BF _DAT API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _DAT API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF \_INP Graph API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF _DAT APP/API queries BF _DAT Class Type and generates the BF _DAT Taxonomy in graphical format.
+The BF \_INP APP/API queries the BF \_INP Class Type queries BF and generates the BF \_INP Taxonomy in graphical format.
 
-<!-- - BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT) <br/> -->
+<!-- - BF /_INP Taxonomy Excerpt  &rarr; no Key required: <br/>
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP) <br/> -->
 
 - UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT)
+  [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP)
 
   - With Definitions:<br/>
-      [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?ShowDefinitions=true)
+      [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_INP?ShowDefinitions=true)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://samate.nist.gov/services/BF/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
@@ -40,8 +40,7 @@ The BF _DAT APP/API queries BF _DAT Class Type and generates the BF _DAT Taxonom
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
-      var response = await client.GetAsync("BFTaxonomy/PPT/_DAT/api");
-      //var response = await client.GetAsync("BFTaxonomy/PPT/_DAT/api?ShowDefinitions=true");
+      var response = await client.GetAsync("BFTaxonomy/PPT/_INP/api");
       response.EnsureSuccessStatusCode();
       var zipData = await response.Content.ReadAsStreamAsync();
 

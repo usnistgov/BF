@@ -20,8 +20,8 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
 
 - BF .bfv Specifications Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFVUL/Files](https://samate.nist.gov/services/BF/BFVUL/Files)<br/>
-  <!-- [https://samate.nist.gov/services/BF/Files.json](https://samate.nist.gov/services/BF/Files.json) -->
+  [https://samate.nist.gov/services/BF/BFVUL/BFFiles](https://samate.nist.gov/services/BF/BFVUL/BFFiles)<br/>
+  <!-- [https://samate.nist.gov/services/BF/BFFiles.json](https://samate.nist.gov/services/BF/BFFiles.json) -->
 
 <!-- - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
 

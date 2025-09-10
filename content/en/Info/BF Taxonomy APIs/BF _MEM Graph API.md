@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookCollapseSection: false
-title: "BF _MEM API"
+title: "BF _MEM Graph API"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -14,9 +14,9 @@ title: "BF _MEM API"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF _MEM API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# BF \_MEM Graph API <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The BF _MEM APP/API queries the BF _MEM Class Type queries BF and generates the BF _MEM Taxonomy in graphical format.
+The BF \_MEM Graph APP/API queries the BF \_MEM Class Type queries BF and generates the BF _MEM Taxonomy in graphical format.
 
 <!-- - BF /_MEM Taxonomy Excerpt  &rarr; no Key required: <br/>
   [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM) <br/> -->
