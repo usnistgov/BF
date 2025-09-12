@@ -58,216 +58,216 @@
 #  parent = "BF Models"
 
 [[main]]
-  name = "BF Tools"
+  name = "BF Tool"
   weight = 100
-  identifier = "BF Tools"
+  identifier = "BF Tool"
 [[main]]
-  name = "BF Tools APP"
+  name = "BF Tool APP"
   weight = 1
-  identifier = "BF Tools APP"
-  url = "/Info/BF Tools/BF Tools APP"
-  parent = "BF Tools"
+  identifier = "BF Tool APP"
+  url = "/Info/BF Tool/BF Tool APP"
+  parent = "BF Tool"
 [[main]]
   name = "BF GUI Tool"
   weight = 2
   identifier = "BF GUI Tool"
-  url = "/Info/BF Tools/BF GUI Tool"
-  parent = "BF Tools"
+  url = "/Info/BF Tool/BF GUI Tool"
+  parent = "BF Tool"
 [[main]]
   name = "BFVUL Examples"
   weight = 3
   identifier = "BFVUL Examples"
-  url = "/Info/BF Tools/BFVUL Examples"
-  parent = "BF Tools"
+  url = "/Info/BF Tool/BFVUL Examples"
+  parent = "BF Tool"
 # [[main]]
-# name = "BF Tools Guide"
+# name = "BF Tool Guide"
 # weight = 4
-# identifier = "BF Tools Guide"
-# url = "/Info/BF Tools/BF Tools Guide"
-# parent = "BF Tools"
+# identifier = "BF Tool Guide"
+# url = "/Info/BF Tool/BF Tool Guide"
+# parent = "BF Tool"
 
 [[main]]
-  name = "BFVUL API"
+  name = "BFVUL APIs"
   weight = 110
-  identifier = "BFVUL API"
+  identifier = "BFVUL APIs"
   [[main]]
   name = "BFVULs (BVCVEs) API"
   weight = 1
   identifier = "BFVULs (BVCVEs) API"
-  url = "/Info/BFVUL API/BFVULs (BVCVEs) API"
-  parent = "BFVUL API"
+  url = "/Info/BFVUL APIs/BFVULs (BVCVEs) API"
+  parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Files API"
   weight = 2
   identifier = "BFVUL Files API"
-  url = "/Info/BFVUL API/BFVUL Files API"
-  parent = "BFVUL API"
+  url = "/Info/BFVUL APIs/BFVUL Files API"
+  parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Types API"
   weight = 4
   identifier = "BFVUL Types API"
-  url = "/Info/BFVUL API/BFVUL Types API"
-  parent = "BFVUL API"
+  url = "/Info/BFVUL APIs/BFVUL Types API"
+  parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Graphs API"
   weight = 3
   identifier = "BFVUL Graphs API"
-  url = "/Info/BFVUL API/BFVUL Graphs API"
-  parent = "BFVUL API"
+  url = "/Info/BFVUL APIs/BFVUL Graphs API"
+  parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Description API"
   weight = 5
   identifier = "BFVUL Description API"
-  url = "/Info/BFVUL API/BFVUL Description API"
-  parent = "BFVUL API"
+  url = "/Info/BFVUL APIs/BFVUL Description API"
+  parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Backward API"
   weight = 6
   identifier = "BFVUL Backward API"
-  url = "/Info/BFVUL API/BFVUL Backward API"
-  parent = "BFVUL API"  
+  url = "/Info/BFVUL APIs/BFVUL Backward API"
+  parent = "BFVUL APIs"  
 
 [[main]]
-  name = "BFCVEPre API"
+  name = "BFCVEPre APIs"
   weight = 120
-  identifier = "BFCVEPre API"
+  identifier = "BFCVEPre APIs"
 [[main]]
   name = "BFCVEs Pre API"
   weight = 3
   identifier = "BFCVEs Pre API"
-  url = "/Info/BFCVEPre API/BFCVEs Pre API"
-  parent = "BFCVEPre API"
+  url = "/Info/BFCVEPre APIs/BFCVEs Pre API"
+  parent = "BFCVEPre APIs"
 [[main]]
   name = "BFInjectionCVEs Pre API"
   weight = 3
   identifier = "BFInjectionCVEs Pre API"
-  url = "/Info/BFCVEPre API/BF Injection CVEs Pre API"
-  parent = "BFCVEPre API"
+  url = "/Info/BFCVEPre APIs/BF Injection CVEs Pre API"
+  parent = "BFCVEPre APIs"
 
 [[main]]
-  name = "BFCWE API"
+  name = "BFCWE APIs"
   weight = 130
-  identifier = "BFCWE API"
+  identifier = "BFCWE APIs"
 [[main]]
   name = "BFCWEs API"
   weight = 1
   identifier = "BFCWEs API"
-  url = "/Info/BFCWE API/BFCWEs API"
-  parent = "BFCWE API"
+  url = "/Info/BFCWE APIs/BFCWEs API"
+  parent = "BFCWE APIs"
 [[main]]
   name = "BFCWE Files API"
   weight = 2
   identifier = "BFCWE Files API"
-  url = "/Info/BFCWE API/BFCWE Files API"
-  parent = "BFCWE API"
+  url = "/Info/BFCWE APIs/BFCWE Files API"
+  parent = "BFCWE APIs"
 [[main]]
   name = "BFCWE Types API"
   weight = 3
   identifier = "BFCWE Types API"
-  url = "/Info/BFCWE API/BFCWE Types API"
-  parent = "BFCWE API"
+  url = "/Info/BFCWE APIs/BFCWE Types API"
+  parent = "BFCWE APIs"
 [[main]]
   name = "BFCWE Graphs API"
   weight = 4
   identifier = "BFCWE Graphs API"
-  url = "/Info/BFCWE API/BFCWE Graphs API"
-  parent = "BFCWE API"
+  url = "/Info/BFCWE APIs/BFCWE Graphs API"
+  parent = "BFCWE APIs"
 [[main]]
   name = "CWE2BF Graphs API"
   weight = 5
   identifier = "CWE2BF Graphs API"
-  url = "/Info/BFCWE API/CWE2BF Graphs API"
-  parent = "BFCWE API"
+  url = "/Info/BFCWE APIs/CWE2BF Graphs API"
+  parent = "BFCWE APIs"
 
 [[main]]
-  name = "BF Security API"
+  name = "BF Security APIs"
   weight = 140
-  identifier = "BF Security API"
+  identifier = "BF Security APIs"
 [[main]]
   name = "BF Security Rules API"
   weight = 1
   identifier = "BF Security Rules API"
-  url = "/Info/BF Security API/BF Security Rules API"
-  parent = "BF Security API"
+  url = "/Info/BF Security APIs/BF Security Rules API"
+  parent = "BF Security APIs"
 [[main]]
   name = "BF Security Rules CWE API"
   weight = 2
   identifier = "BF Security Rules CWE API"
-  url = "/Info/BF Security API/BF Security Rules CWE API"
-  parent = "BF Security API"
+  url = "/Info/BF Security APIs/BF Security Rules CWE API"
+  parent = "BF Security APIs"
 
   [[main]]
-  name = "BF Taxonomy API"
+  name = "BF Taxonomy APIs"
   weight = 150
-  identifier = "BF Taxonomy API"
+  identifier = "BF Taxonomy APIs"
 [[main]]
   name = "BF _INP Graph API"
   weight = 1
   identifier = "BF _INP Graph API"
-  url = "/Info/BF Taxonomy API/BF _INP Graph API"
-  parent = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF _INP Graph API"
+  parent = "BF Taxonomy APIs"
 [[main]]
   name = "BF _MEM Graph API"
   weight = 2
   identifier = "BF _MEM Graph API"
-  url = "/Info/BF Taxonomy API/BF _MEM Graph API"
-  parent = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF _MEM Graph API"
+  parent = "BF Taxonomy APIs"
 [[main]]
   name = "BF _DAT Graph API"
   weight = 3
   identifier = "BF _DAT Graph API"
-  url = "/Info/BF Taxonomy API/BF _DAT Graph API"
-  parent = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF _DAT Graph API"
+  parent = "BF Taxonomy APIs"
 [[main]]
   name = "BF Taxons API"
   weight = 5
   identifier = "BF Taxons API"
-  url = "/Info/BF Taxonomy API/BF Taxons API"
-  parent = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF Taxons API"
+  parent = "BF Taxonomy APIs"
 [[main]]
   name = "BF Taxonomy API"
   weight = 6
   identifier = "BF Taxonomy API"
-  url = "/Info/BF Taxonomy API/BF Taxonomy API"
-  parent = "BF Taxonomy API"
+  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
+  parent = "BF Taxonomy APIs"
   #xxx
   #[main.params]
   #class = "disabled-menu-item"
 
 [[main]]
-  name = "BF Formal Language API"
+  name = "BF Formal Language APIs"
   weight = 160
-  identifier = "BF Formal Language API"
+  identifier = "BF Formal Language APIs"
 [[main]]
   name = "BF Parser API"
   weight = 1
   identifier = "BF Parser API"
-  url = "/Info/BF Formal Language API/BF Parser API"
-  parent = "BF Formal Language API"
+  url = "/Info/BF Formal Language APIs/BF Parser API"
+  parent = "BF Formal Language APIs"
 [[main]]
   name = "BF LL1 ACFG API"
   weight = 2
   identifier = "BF LL1 ACFG API"
-  url = "/Info/BF Formal Language API/BF LL1 ACFG API"
-  parent = "BF Formal Language API"
+  url = "/Info/BF Formal Language APIs/BF LL1 ACFG API"
+  parent = "BF Formal Language APIs"
 [[main]]
   name = "BF Relations API"
   weight = 3
   identifier = "BF Relations API"
-  url = "/Info/BF Formal Language API/BF Relations API"
-  parent = "BF Formal Language API"
+  url = "/Info/BF Formal Language APIs/BF Relations API"
+  parent = "BF Formal Language APIs"
 [[main]]
   name = "BF BFTransitions API"
   weight = 4
   identifier = "BF BFTransitions API"
-  url = "/Info/BF Formal Language API/BF BFTransitions API"
-  parent = "BF Formal Language API"
+  url = "/Info/BF Formal Language APIs/BF BFTransitions API"
+  parent = "BF Formal Language APIs"
 [[main]]
   name = "BF Operations Flow API"
   weight = 5
   identifier = "BF Operations Flow API"
-  url = "/Info/BF Formal Language API/BF Operations Flow API"
-  parent = "BF Formal Language API"
+  url = "/Info/BF Formal Language APIs/BF Operations Flow API"
+  parent = "BF Formal Language APIs"
 
 
 [[main]]
