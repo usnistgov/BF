@@ -58,33 +58,33 @@
 #  parent = "BF Models"
 
 [[main]]
-  name = "BF Tool"
+  name = "BF Toolxxx"
   weight = 100
-  identifier = "BF Tool"
+  identifier = "BF Toolxxx"
 [[main]]
-  name = "BF Tool APP"
+  name = "BF Toolxxx APP"
   weight = 1
-  identifier = "BF Tool APP"
-  url = "/Info/BF Tool/BF Tool APP"
-  parent = "BF Tool"
+  identifier = "BF Toolxxx APP"
+  url = "/Info/BF Toolxxx/BF Toolxxx APP"
+  parent = "BF Toolxxx"
 [[main]]
   name = "BF GUI Tool"
   weight = 2
   identifier = "BF GUI Tool"
-  url = "/Info/BF Tool/BF GUI Tool"
-  parent = "BF Tool"
+  url = "/Info/BF Toolxxx/BF GUI Tool"
+  parent = "BF Toolxxx"
 [[main]]
   name = "BFVUL Examples"
   weight = 3
   identifier = "BFVUL Examples"
-  url = "/Info/BF Tool/BFVUL Examples"
-  parent = "BF Tool"
+  url = "/Info/BF Toolxxx/BFVUL Examples"
+  parent = "BF Toolxxx"
 # [[main]]
-# name = "BF Tool Guide"
+# name = "BF Toolxxx Guide"
 # weight = 4
-# identifier = "BF Tool Guide"
-# url = "/Info/BF Tool/BF Tool Guide"
-# parent = "BF Tool"
+# identifier = "BF Toolxxx Guide"
+# url = "/Info/BF Toolxxx/BF Toolxxx Guide"
+# parent = "BF Toolxxx"
 
 [[main]]
   name = "BFVUL APIs"
