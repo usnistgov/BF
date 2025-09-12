@@ -20,7 +20,7 @@ The BFCWE Files APP/API generates BF Weakness Specifications in .bfw format.
 
 - BF .bfv Specifications Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
 
-  [https://samate.nist.gov/services/BF/BFCWE/BFCWEFiles](https://samate.nist.gov/services/BF/BFCWE/BFCWEFiles)<br/>
+  [https://samate.nist.gov/services/BF/BFCWE/BFFiles](https://samate.nist.gov/services/BF/BFCWE/BFFiles)<br/>
   <!-- [https://samate.nist.gov/services/BF/Files.json](https://samate.nist.gov/services/BF/Files.json) -->
 
 <!-- - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
@@ -34,12 +34,12 @@ The BFCWE Files APP/API generates BF Weakness Specifications in .bfw format.
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
       //result in XML
-      var responseXML = await client.GetAsync("BFCWE/BFCWEFiles.xml/api");
+      var responseXML = await client.GetAsync("BFCWE/BFFiles.xml/api");
       responseXML.EnsureSuccessStatusCode();        
       var resultXML = await responseXML.Content.ReadAsStringAsync();
 
       //result in JSON
-      var responseJSON = await client.GetAsync("BFCWE/BFCWEFiles.xml.json/api");       
+      var responseJSON = await client.GetAsync("BFCWE/BFFiles.xml.json/api");       
       responseJSON.EnsureSuccessStatusCode();         
       var resulJSON = await responseJSON.Content.ReadAsStringAsync();
 
