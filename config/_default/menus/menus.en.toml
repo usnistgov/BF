@@ -104,13 +104,13 @@
   parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Types API"
-  weight = 4
+  weight = 3
   identifier = "BFVUL Types API"
   url = "/Info/BFVUL APIs/BFVUL Types API"
   parent = "BFVUL APIs"
 [[main]]
   name = "BFVUL Graphs API"
-  weight = 3
+  weight = 4
   identifier = "BFVUL Graphs API"
   url = "/Info/BFVUL APIs/BFVUL Graphs API"
   parent = "BFVUL APIs"
@@ -133,13 +133,13 @@
   identifier = "BFCVEPre APIs"
 [[main]]
   name = "BFCVEs Pre API"
-  weight = 3
+  weight = 1
   identifier = "BFCVEs Pre API"
   url = "/Info/BFCVEPre APIs/BFCVEs Pre API"
   parent = "BFCVEPre APIs"
 [[main]]
   name = "BFInjectionCVEs Pre API"
-  weight = 3
+  weight = 2
   identifier = "BFInjectionCVEs Pre API"
   url = "/Info/BFCVEPre APIs/BF Injection CVEs Pre API"
   parent = "BFCVEPre APIs"
