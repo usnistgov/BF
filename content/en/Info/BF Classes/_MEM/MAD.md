@@ -19,10 +19,10 @@ title: "MAD"
 
 ####  Taxonomy
 
-- BF _MEM>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+- BF _MEM>MAD &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
 [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MAD](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MAD)
 
-- BF _MEM>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
+- BF _MEM>MAD with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
 [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MAD&ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MAD&ShowDefinitions=true)
 
 ______________________________________

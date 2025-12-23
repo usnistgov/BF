@@ -19,10 +19,10 @@ title: "MMN"
 
 ####  Taxonomy
 
-- BF _MEM>DVR &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
+- BF _MEM>MMN &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
 [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN)
 
-- BF _MEM>DVR with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
+- BF _MEM>MMN with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
 [https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true)
 
 ______________________________________
