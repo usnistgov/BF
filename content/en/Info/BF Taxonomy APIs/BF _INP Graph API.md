@@ -36,7 +36,7 @@ The BF \_INP APP/API queries the BF \_INP Class Type queries BF and generates th
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
-      //replace YOUR_USER_NAME and YOUR_KEY
+      //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 

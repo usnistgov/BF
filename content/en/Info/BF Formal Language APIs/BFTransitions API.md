@@ -36,7 +36,7 @@ The BF BFTransitions APP/API generates datasets of Meaningful `consequence↷cau
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
-      //replace YOUR_USER_NAME and YOUR_KEY
+      //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 

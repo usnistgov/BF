@@ -36,7 +36,7 @@ The BF \_MEM Graph APP/API queries the BF \_MEM Class Type queries BF and genera
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
-      //replace YOUR_USER_NAME and YOUR_KEY
+      //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 

@@ -31,7 +31,7 @@ The BF Security Rules APP/API generates datasets of BF Improper States that shou
         
       HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
 
-      //replace YOUR_USER_NAME and YOUR_KEY
+      //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
       client.DefaultRequestHeaders.Add("key", YOUR_KEY);
 
