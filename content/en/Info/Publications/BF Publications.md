@@ -45,8 +45,8 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 ## Presentations
 | |
 | --- |
-| Bojanova, I., [NVD–BF (or NVDBF) Formal Vulnerability Classifications Platform](https://www.nist.gov/publications/nvd-bf-poster), NIST ITL Science Day 2025, Mar. 26, 2026. |
-| Bojanova, I., [BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification](https://www.nist.gov/publications/bf-ai-systems-poster), AI@NIST Day 2025, Feb. 26, 2026. |
+| Bojanova, I., [NVD–BF (or NVDBF) Formal Vulnerability Classifications Platform](../../../Presentations/ITL-Science-Day-2025-NVD-BF-Irena Bojanova-03261026.pdf), NIST ITL Science Day 2025, Mar. 26, 2026. |
+| Bojanova, I., [BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification](../../../Presentations/AI@NIST-Day-2025-BF-AI-Systems-Irena Bojanova-02-26-2026pdf), AI@NIST Day 2025, Feb. 26, 2026. |
 | Bojanova, I., [Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/ONCD-Bugs-Framework-(BF)-Irena-Bojanova-04042024.pdf), Office of the National Cyber Director (ONCD), Apr, 4, 2024. |
 | Bojanova, I., [Bugs Framework: Formalizing Cybersecurity Weaknesses and Vulnerabilities](../../../Presentations/NDIA-T&AC-Bugs-Framework-(BF)-Irena-Bojanova-03282024.pdf), National Defense Industrial Association (NDIA) Trust & Assurance Committee (T&AC), Mar. 28, 2024. |
 | Bojanova, I., [Bugs Framework (BF): Formalizing Cybersecurity Security Bugs, Weaknesses, and Vulnerabilities](https://www.nist.gov/publications/bugs-framework-bf-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
