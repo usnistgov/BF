@@ -84,8 +84,8 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 ## Posters
 ||
 | --- | 
-| Bojanova, I., <a href="/Presentations/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf">NVD–BF (or NVDBF) Formal Vulnerability Classifications Platform</a>, <a href="/Presentations/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf" download>Download</a>, NIST ITL Science Day 2025, Mar. 26, 2026. |
-| Bojanova, I., <a href="/Presentations/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf" download>BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification</a>, <a href="/Presentations/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf" download>Download</a>, AI@NIST Day 2025, Feb. 26, 2026. |
+| Bojanova, I., <a href="/Posters/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf">NVD–BF (or NVDBF) Formal Vulnerability Classifications Platform</a>, <a href="/Posters/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf" download>Download</a>, NIST ITL Science Day 2025, Mar. 26, 2026. |
+| Bojanova, I., <a href="/Posters/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf">BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification</a>, <a href="/Posters/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf" download>Download</a>, AI@NIST Day 2025, Feb. 26, 2026. |
 | Bojanova, I., [Bugs Framework (BF): Formalizing Cybersecurity Security Bugs, Weaknesses, and Vulnerabilities](https://www.nist.gov/publications/bugs-framework-bf-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
 | Bojanova, I., [BF: Bug, Fault, Error, Weakness, or Vulnerability](https://www.nist.gov/publications/bug-fault-error-weakness-or-vulnerability-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
 | Bojanova, I., [Labeling Software Security Vulnerabilities](https://www.nist.gov/publications/labeling-software-security-vulnerabilities-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
