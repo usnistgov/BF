@@ -1,6 +1,6 @@
 ---
-weight: 7
-title: "CWE2BF"
+weight: 2
+title: "Memory CWEs to BF Classes"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -48,3 +48,11 @@ Viewed as a structured extension, the BF Memory classes relate to CWEs through p
 For BF MUS: Uninitialized Object – relates to CWEs: 457, 456, CWE-665*, 908*, and 909*; Not Cleared Object – to CWEs: 226*, 244, and 459*; NULL Pointer Dereference – to CWE-476; Untrusted Pointer Dereference – to CWEs: 119 and 822; Type Confusion – to CWEs: 588 and 843*; Use After Free – to CWEs: 119,416, and 825; Buffer Overflow – to CWEs: 118, 119, 120, 121, 122, 123, 125, 126, 466, 805, 806, 787, and 788; Buffer Underflow – to CWEs: 118, 119, 122, 123, 124, 125, 127, 466, 786, 787, 805, and 806; Unitialized Pointer Dereference – to CWEs: 119 and 824. There are no related CWEs to BF MUS Object Corruption.
 
 For BF MDL: Memory Leak – relates to CWEs: 401, 404*, and 771*; Double Free – to CWE-415; Object Corruption – to CWEs: 404*, 761, 762, and 763.
+
+_______________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

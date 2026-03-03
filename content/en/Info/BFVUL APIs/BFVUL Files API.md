@@ -18,16 +18,16 @@ title: "BFVUL Files API"
 
 The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format.
 
-- BF .bfv Specifications Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF .bfv Specifications Download 
 
-  [https://samate.nist.gov/services/BF/BFVUL/BFFiles](https://samate.nist.gov/services/BF/BFVUL/BFFiles)<br/>
-  <!-- [https://samate.nist.gov/services/BF/BFFiles.json](https://samate.nist.gov/services/BF/BFFiles.json) -->
+  [https://<<coming soon>>/BFVUL/BFFiles](https://<<coming soon>>/BFVUL/BFFiles)<br/>
+  <!-- [https://<<coming soon>>/BFFiles.json](https://<<coming soon>>/BFFiles.json) -->
 
-<!-- - API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+<!-- - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
@@ -47,6 +47,9 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
       
     //to be added// -->
 _________________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

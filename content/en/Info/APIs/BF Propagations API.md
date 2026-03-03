@@ -2,7 +2,7 @@
 weight: 1
 bookCollapseSection: false
 title: "BF Propagations API"
-aliases: ["/BF/info/bf-formal-language-apis/bf-transitions-api/"]
+aliases: ["/info/bf-formal-language-apis/bf-transitions-api/"]
 ---
 
 <!-- Google tag (gtag.js) -->

@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Model"
+title: "Input/Output Check Bugs Model"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -38,4 +38,12 @@ Data check bugs could be introduced at any of the _data validation_ and _data ve
 
 The BF Input/Output (_INP) Bugs Model addresses temporal input/output safety by defining the proper flow of operations along the x-axis. For example, input data must be validated and sanitized to aviod injection. 
 
-The[Data Validation (DVL)](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.
+The [Data Validation (DVL)](/info/bf-classes/_inp/dvl) and [DVR](/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.
+
+_______________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

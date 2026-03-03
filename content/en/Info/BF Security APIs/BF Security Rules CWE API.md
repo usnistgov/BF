@@ -20,18 +20,18 @@ title: "BF Security Rules CWE API"
 
 The BF Security Rules CWE APP/API generates datasets of BF Improper States by CWE (where applicable) that should not be present at code execution to assure code safety.
 
-- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI 
 
-  [https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE](https://samate.nist.gov/services/BF/BFSecurityRules.xml/CWE)<br/>
-  [https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE](https://samate.nist.gov/services/BF/BFSecurityRules.json/CWE)
+  [https://<<coming soon>>/BFSecurityRules.xml/CWE](https://<<coming soon>>/BFSecurityRules.xml/CWE)<br/>
+  [https://<<coming soon>>/BFSecurityRules.json/CWE](https://<<coming soon>>/BFSecurityRules.json/CWE)
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 
-- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
@@ -51,6 +51,9 @@ The BF Security Rules CWE APP/API generates datasets of BF Improper States by CW
       
     //to be added//
 _________________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

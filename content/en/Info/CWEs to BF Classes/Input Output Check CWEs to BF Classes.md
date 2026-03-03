@@ -1,6 +1,6 @@
 ---
-weight: 4
-title: "CWE2BF"
+weight: 1
+title: "Input/Output Check CWEs to BF Classes"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -65,3 +65,11 @@ All relationships to input, output, and injection CWEs (Figure 2) by BF DVL and 
 The BF Data Check classes present a taxonomy with structured cause/consequence relations that is complete and orthogonal. It could be viewed as a structured extension over the CWEs related to Injection Errors, Invalid Data, Wrong Value, Inconsistent Value, and Wrong Type (Figure 2). It is a taxonomy that explains the causal relationships between weaknesses and would be easier to use than the nested hierarchical CWEs.
 
 Many bug reporting tools use the CWE to describe found bugs/weaknesses. As a structured extension over the input, output, and injection CWEs, the BF Data Check taxonomy can be used to report found data check bugs/weaknesses (including those leading to injection errors). Figure 1 shows how input/output and injection CWEs translate to BF DVL and BF DVR by operation; Figure 2 shows how they translate by consequences.
+
+_______________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

@@ -19,11 +19,11 @@ title: "MMN"
 
 ####  Taxonomy
 
-- BF _MEM>MMN &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN)
+- BF _MEM>MMN 
+[https://<<coming soon>>/BFTaxonomy/PPT/_MEM?class=MMN](https://<<coming soon>>/BFTaxonomy/PPT/_MEM?class=MMN)
 
-- BF _MEM>MMN with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true)
+- BF _MEM>MMN with Definitions: 
+[https://<<coming soon>>/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true](https://<<coming soon>>/BFTaxonomy/PPT/_MEM?class=MMN&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

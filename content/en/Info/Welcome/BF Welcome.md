@@ -23,27 +23,25 @@ url: /
 _____________________________________
 
 [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
-[NIST CSRC: NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231) <br>
-[NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)
+[NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231) [NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)
 
-`The US Government has filed a patent application "Bugs Framework (BF): Formalizing Software Security Weaknesses and Vulnerabilities". To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`
+`The US Government has filed Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST. To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`
 
-<!-- `The US Government has filed a patent application for the "Bugs Framework (BF) System and Methods". For collaboration, research, or implementation options, contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).` -->
 _____________________________________
 
 The Bugs Framework (BF) is a classification of security bugs and related faults that features a formal language for the unambiguous specification of software and hardware security weaknesses and vulnerabilities. BF bugs models, multidimensional weakness and failure taxonomies, and vulnerability models define the lexis, syntax, and semantics of the BF formal language and form the basis for the definition of secure coding principles. The BF formalism supports a deeper understanding of vulnerabilities as chains of weaknesses that adhere to strict causation, propagation, and composition rules. It enables the generation of comprehensively labeled weakness and vulnerability datasets and multidimensional vulnerability classifications. It also enables the development of new algorithms for code analysis and the use of AI models and formal methods to identify bugs and detect, analyze, prioritize, and resolve or mitigate vulnerabilities. 
 
 The BF is a formal system that comprises:
 
-- _[Definitions](/BF/info/bf-formalism/bf-concepts/)_ of bug, fault, error, final error, weakness, vulnerability, exploit vector, and failure in the context of cybersecurity to elucidate causation and propagation rules
+- _[Definitions](/info/bf-formalism/bf-concepts/)_ of bug, fault, error, final error, weakness, vulnerability, exploit vector, and failure in the context of cybersecurity to elucidate causation and propagation rules
 
 - _Bugs models_ that define distinct execution phases with orthogonal sets of operations in which specific bugs and faults could occur and the proper flow of operations 
 
-- Structured, multidimensional, orthogonal, and context-free _[weakness taxonomies](/BF/info/bf-classes)_ as weakness class types and a _failure taxonomy_ as a failure class type 
+- Structured, multidimensional, orthogonal, and context-free _[weakness taxonomies](/info/bf-classes)_ as weakness class types and a _failure taxonomy_ as a failure class type 
 
-- A _[vulnerability state model](/BF/info/bf-models/bf-vulnerability-state-model/)_ as a chain of improper-state (operation, operand₁, …, operandₙ) tuples with a bug in the operation or a fault of an operand that enables a failure 
+- A _[vulnerability state model](/info/bf-models/bf-vulnerability-state-model/)_ as a chain of improper-state (operation, operand₁, …, operandₙ) tuples with a bug in the operation or a fault of an operand that enables a failure 
 
-- A _[vulnerability specification model](/BF/info/bf-models/bf-vulnerability-specification-model/)_ as a chain of ⟨cause, operation⟩→consequence instances of BF weakness classes that ends with an instance of a BF failure class 
+- A _[vulnerability specification model](/info/bf-models/bf-vulnerability-specification-model/)_ as a chain of ⟨cause, operation⟩→consequence instances of BF weakness classes that ends with an instance of a BF failure class 
 
 - A _formal language_ for the unambiguous causal specification of security weaknesses and vulnerabilities
 
@@ -128,10 +126,13 @@ BF Hands On and Potential Impacts <br/>
 
 _____________________________________
 
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
 
 BF WEBSITE CITATION: <br/> 
 <l style="font-size: 16px; color: #7D3368"> Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://usnistgov.github.io/BF](https://usnistgov.github.io/BF).</l>
 
-<!-- <l style="font-size: 15px; color: #7D3368">Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).  -->
+<!-- <l style="font-size: 15px; color: #7D3368">Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/info/contact/bf-contact).  -->

@@ -20,12 +20,15 @@ The BF GUI Tool is a graphical user interface application that works with both t
 
 The BF Tool APP allows download of the BF GUI Tool.
 
-- BF GUI Tool Download &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- BF GUI Tool Download 
 
-  [https://samate.nist.gov/services/BF/BFTool/BFGUI](https://samate.nist.gov/services/BF/BFTool/BFGUI)
+  [https://<<coming soon>>/BFTool/BFGUI](https://<<coming soon>>/BFTool/BFGUI)
 
 The BF GUI Tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 
 _______________________________
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

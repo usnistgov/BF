@@ -2,7 +2,7 @@
 weight: 1
 bookCollapseSection: false
 title: "BF API"
-aliases: ["/BF/info/bf-taxonomy-apis/"]
+aliases: ["/info/bf-taxonomy-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->

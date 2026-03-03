@@ -4,7 +4,7 @@ bookHidden: true
 bookCollapseSection: true
 title: "BFVUL APIs"
 aliases:
-- /https://usnistgov.github.io/BF/info/apis/bfcve-api/
+- /https://usnistgov.github.io/info/apis/bfcve-api/
 ---
 
 <!-- Google tag (gtag.js) -->

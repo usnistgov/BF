@@ -1,6 +1,6 @@
 ---
-weight: 1
-title: "Model"
+weight: 12
+title: "Memory Bugs Model"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -43,7 +43,7 @@ If an object is owned by more than one pointer, MMN Reallocate (i.e., MAL Reallo
 
 ## BF Memory Safety
 
-The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. The BF [Memory Addressing Bugs (MAD)](/BF/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/BF/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/BF/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
+The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. The BF [Memory Addressing Bugs (MAD)](/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
 
 For example, a pointer may be initialized before or after allocation of its object but must be initialized before it is used, repositioned after reallocation of its object, and reassigned after deallocation of its object. These correspond to the Wild Pointer and  Dangling Pointer errors.
 
@@ -51,4 +51,10 @@ An object must be allocated before use and deallocated before its pointer is rea
 
 The size of the object is always strictly defined, and the pointer must not exceed its boundaries. This corresponds to Buffer Overflow, Buffer Underflow, Buffer Over-Read, and Buffer Under-Read  final errors. But there is also more that relates to type safety and the corresponding to it BF Bugs Model and Classes.
 
+_______________________________
 
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

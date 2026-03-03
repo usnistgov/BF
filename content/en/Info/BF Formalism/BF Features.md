@@ -85,9 +85,9 @@ The improper operation or improper operand is the cause for that weakness. The i
 
 ➢ _Bugs models_ with possible flow of operations
 
-➢ A structured, complete, orthogonal, language and domain independent weakness _[taxonomy](/BF/info/bf-classes)_
+➢ A structured, complete, orthogonal, language and domain independent weakness _[taxonomy](/info/bf-classes)_
 
-➢ A  _[vulnerability model](/BF/info/vulnerability-model/bf-vulnerability-model/)_ of weakness chains leading to failures
+➢ A  _[vulnerability model](/info/vulnerability-model/bf-vulnerability-model/)_ of weakness chains leading to failures
 
 ➢ An _LL(1) formal language_ for specification of weaknesses and vulnerabilities
 

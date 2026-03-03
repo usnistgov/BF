@@ -2,7 +2,7 @@
 weight: 2
 bookCollapseSection: false
 title: "BFVUL API"
-aliases: ["/BF/info/bfvul-apis/"]
+aliases: ["/info/bfvul-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->

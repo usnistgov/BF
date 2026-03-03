@@ -2,7 +2,7 @@
 weight: 4
 bookCollapseSection: false
 title: "BFCWE API"
-aliases: ["/BF/info/bfcwe-apis/"]
+aliases: ["/info/bfcwe-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->

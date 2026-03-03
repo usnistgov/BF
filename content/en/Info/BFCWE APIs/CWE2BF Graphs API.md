@@ -18,16 +18,16 @@ title: "CWE2BF Graphs API"
 
 The CWE2BF Graphs APP/API generates CWE-to-BF Di-Graph Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
 
-<!-- - BF CWE2BF Graphs &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-  [https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT](https://samate.nist.gov/services/BF/BFCWE/CWEBFPPT)
+<!-- - BF CWE2BF Graphs 
+  [https://<<coming soon>>/BFCWE/CWEBFPPT](https://<<coming soon>>/BFCWE/CWEBFPPT)
 
-- Programatically &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/> -->
+- Programatically  <br/> -->
 
 //To be added//
         
   <!-- C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
@@ -52,6 +52,9 @@ The CWE2BF Graphs APP/API generates CWE-to-BF Di-Graph Mappings by BF Class, Ope
       
     //to be added// -->
 _________________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

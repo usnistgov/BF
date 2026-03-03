@@ -1,6 +1,6 @@
 ---
-weight: 1
-title: "Model"
+weight: 3
+title: "Data Type Bugs Model"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -37,5 +37,12 @@ The possible flow between operations from different phases is depicted with arro
 
 The BF Data Type (_DAT)  Bugs Model addresses temporal type safety by defining the proper flow of operations along the x-axis. For example, data must declared propely to aviod wrap-around (e.g., integer overflow). 
 
-The[Data Validation (DVL)](/BF/info/bf-classes/_inp/dvl) and [DVR](/BF/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.
+The[Data Validation (DVL)](/info/bf-classes/_inp/dvl) and [DVR](/info/bf-classes/_inp/dvr) BF classes define the list of possible consequences when these temporal rules are not followed.
 
+_______________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

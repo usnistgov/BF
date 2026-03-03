@@ -2,7 +2,7 @@
 weight: 1
 bookCollapseSection: false
 title: "BF Relations API"
-aliases: ["/BF/info/bf-formal-language-apis/bf-relations-api/"]
+aliases: ["/info/bf-formal-language-apis/bf-relations-api/"]
 ---
 
 <!-- Google tag (gtag.js) -->

@@ -19,11 +19,11 @@ title: "DCL"
 
 ####  Taxonomy
 
-- BF _DAT>DCL &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL)
+- BF _DAT>DCL 
+[https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=DCL](https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=DCL)
 
-- BF _DAT>DCL with Definitions: &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:<br/><br/>
-[https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true](https://samate.nist.gov/services/BF/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true)
+- BF _DAT>DCL with Definitions: 
+[https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true](https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

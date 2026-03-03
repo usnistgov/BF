@@ -1,4 +1,4 @@
-baseurl = "https://usnistgov.github.io/BF/"
+baseurl = "https://usnistgov.github.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

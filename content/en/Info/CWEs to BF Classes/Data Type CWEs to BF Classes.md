@@ -1,6 +1,6 @@
 ---
-weight: 6
-title: "CWE2BF"
+weight: 3
+title: "Data Type CWEs to BF Classes"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -52,3 +52,10 @@ The BF Data Type classes present a taxonomy with structured cause→consequence 
 
 Many bug reporting tools use the CWE to describe detected bugs/weaknesses. As a structured extension over the data type related CWEs, the BF Data Type taxonomy can be used to report identified data type related bugs/weaknesses (including those leading to integers overflow, juggling, and pointer arithmetic errors). Figure 1 shows how data type related CWEs translate to BF DCL, NRS, TCV, TCM by operation; Figure 2 shows how they translate by consequences.
 
+_______________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
+<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

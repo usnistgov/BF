@@ -31,4 +31,4 @@ National Institute of Standards and Technology (NIST)</br>
 </br></br>
 
 
-<!-- <l style="font-size: 15px; color: #7D3368">Important Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/BF/info/contact/bf-contact).  -->
+<!-- <l style="font-size: 15px; color: #7D3368">Important Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/info/contact/bf-contact).  -->

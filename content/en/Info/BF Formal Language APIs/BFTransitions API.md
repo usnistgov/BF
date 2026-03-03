@@ -22,19 +22,19 @@ The BF BFTransitions APP/API generates datasets of Meaningful `consequence↷cau
 <!-- 
 - BF Weakness BFTransitions Excerpt &rarr; no Key required: 
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFTransitions)<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions](https://samate.nist.gov/services/BFFormalLanguage.json/BFTransitions) -->
+  [https://<<coming soon>>/BFFormalLanguage.xml/BFBFTransitions](https://<<coming soon>>/BFFormalLanguage.xml/BFTransitions)<br/>
+  [https://<<coming soon>>/BFFormalLanguage.json/BFBFTransitions](https://<<coming soon>>FormalLanguage.json/BFTransitions) -->
 
-- UI &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required:
+- UI 
 
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions](https://samate.nist.gov/services/BF/BFFormalLanguage.xml/BFBFTransitions)<br/>
-  [https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions](https://samate.nist.gov/services/BF/BFFormalLanguage.json/BFBFTransitions)
+  [https://<<coming soon>>/BFFormalLanguage.xml/BFBFTransitions](https://<<coming soon>>/BFFormalLanguage.xml/BFBFTransitions)<br/>
+  [https://<<coming soon>>/BFFormalLanguage.json/BFBFTransitions](https://<<coming soon>>/BFFormalLanguage.json/BFBFTransitions)
 
-- API &rarr; [Key](https://forms.gle/SRZyva5Vn1i4dQQ2A) required: <br/>
+- API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://samate.nist.gov/services/BF") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
@@ -55,6 +55,9 @@ The BF BFTransitions APP/API generates datasets of Meaningful `consequence↷cau
     //to be added//
     
 _________________________________
+
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
 BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

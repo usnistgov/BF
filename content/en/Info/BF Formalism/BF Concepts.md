@@ -49,6 +49,10 @@ The BF security concept definitions are contextually visualized in Figure 1. Fol
 
 Fixing the bug or hardware defect-induced fault will resolve the vulnerability, as well as any other vulnerability with the same root cause. Fixing a propagated fault, including the cause of the final error at the sink, will only mitigate the vulnerability. Occasionally, several vulnerabilities must converge at their final errors for an exploit to be harmful. Fixing the bug or starting fault of at least one of the chains would avoid the failure. An exploit of a vulnerability may result in a fault starting a new faults-only vulnerability. Fixing the bug or starting fault of the first vulnerability will resolve the entire chain of vulnerabilities.
 
-_____________________________________
+_______________________________
 
+BF PATENT PENDING<br/>
+<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+
+BF CITATION: <br/>
 <l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>

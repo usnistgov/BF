@@ -2,7 +2,7 @@
 weight: 3
 bookCollapseSection: false
 title: "BFCVE API"
-aliases: ["/BF/info/bfvul-apis/"]
+aliases: ["/info/bfvul-apis/"]
 ---
 
 <!-- Google tag (gtag.js) -->

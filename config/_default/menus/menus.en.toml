@@ -21,18 +21,6 @@
   identifier = "BF Features"
   url = "/Info/BF Formalism/BF Features"
   parent = "BF Formalism"
-  [[main]]
-  name = "BF Vulnerability State Model"
-  weight = 3
-  identifier = "BF Vulnerability State Model"
-  url = "/Info/BF Formalism/BF Vulnerability State Model"
-  parent = "BF Formalism"
-[[main]]
-  name = "BF Vulnerability Specification Model"
-  weight = 4
-  identifier = "BF Vulnerability Specification Model"
-  url = "/Info/BF Formalism/BF Vulnerability Specification Model"
-  parent = "BF Formalism"
 [[main]]
   name = "BF Formal Language"
   weight = 5
@@ -40,239 +28,95 @@
   url = "/Info/BF Formalism/BF Formal Language"
   parent = "BF Formalism"
 
-#[[main]]
-#  name = "BF Models"
-#  weight = 30
-#  identifier = "BF Models"
-#[[main]]
-#  name = "BF Vulnerability State Model"
-#  weight = 1
-#  identifier = "BF Vulnerability State Model"
-#  url = "/Info/BF Models/BF Vulnerability State Model"
-#  parent = "BF Models"
-#[[main]]
-#  name = "BF Vulnerability Specification Model"
-#  weight = 2
-#  identifier = "BF Vulnerability Specification Model"
-#  url = "/Info/BF Models/BF Vulnerability Specification Model"
-#  parent = "BF Models"
+[[main]]
+  name = "BF Bugs Models"
+  weight = 30
+  identifier = "BF Bugs Models"
+[[main]]
+  name = "BF Input Output Check Bugs Model"
+  weight = 1
+  identifier = "BF Input Output Check Bugs Model"
+  url = "/Info/BF Bugs Models/BF Input Output Check Bugs Model"
+  parent = "BF Bugs Models"
+[[main]]
+  name = "BF Memory Bugs Model"
+  weight = 2
+  identifier = "BF Memory Bugs Model"
+  url = "/Info/BF Bugs Models/BF Memory Bugs Model"
+  parent = "BF Bugs Models"
+[[main]]
+  name = "BF Data Type Bugs Model"
+  weight = 3
+  identifier = "BF Data Type Bugs Model"
+  url = "/Info/BF Bugs Models/BF Data Type Bugs Model"
+  parent = "BF Bugs Models"  
 
 [[main]]
-  name = "BF Tool"
-  weight = 100
-  identifier = "BF Tool"
+  name = "BF Vulnerability Models"
+  weight = 40
+  identifier = "BF Vulnerability Models"
+[[main]]
+  name = "BF Vulnerability State Model"
+  weight = 1
+  identifier = "BF Vulnerability State Model"
+  url = "/Info/BF Vulnerability Models/BF Vulnerability State Model"
+  parent = "BF Vulnerability Models"
+[[main]]
+  name = "BF Vulnerability Specification Model"
+  weight = 2
+  identifier = "BF Vulnerability Specification Model"
+  url = "/Info/BF Vulnerability Models/BF Vulnerability Specification Model"
+  parent = "BF Vulnerability Models"
+
+[[main]]
+  name = "CWEs to BF Classes"
+  weight = 50
+  identifier = "CWEs to BF Classes"
+[[main]]
+  name = "Input Output Check CWEs to BF Classes"
+  weight = 1
+  identifier = "Input Output Check CWEs to BF Classes"
+  url = "/Info/CWEs to BF Classes/Input Output Check CWEs to BF Classes"
+  parent = "CWEs to BF Classes"
+[[main]]
+  name = "Memory CWEs to BF Classes"
+  weight = 2
+  identifier = "Memory CWEs to BF Classes"
+  url = "/Info/CWEs to BF Classes/Memory CWEs to BF Classes"
+  parent = "CWEs to BF Classes"
+[[main]]
+  name = "Data Type CWEs to BF Classes"
+  weight = 3
+  identifier = "Data Type CWEs to BF Classes"
+  url = "/Info/CWEs to BF Classes/Data Type CWEs to BF Classes"
+  parent = "CWEs to BF Classes"  
+[[main]]
+  name = "... CWEs to BF Classes"
+  weight = 4
+  identifier = "... CWEs to BF Classes"
+  url = "/Info/CWEs to BF Classes/... Bug Model"
+  parent = "CWEs to BF Classes"
+
+[[main]]
+  name = "BF Service"
+  weight = 60
+  identifier = "BF Service"
 [[main]]
   name = "BF Tool APP"
   weight = 1
   identifier = "BF Tool APP"
-  url = "/Info/BF Tool/BF Tool APP"
-  parent = "BF Tool"
+  url = "/Info/BF Service/BF Tool APP"
+  parent = "BF Service"
 [[main]]
-  name = "BF GUI Tool"
+  name = "BF Dashboard"
   weight = 2
-  identifier = "BF GUI Tool"
-  url = "/Info/BF Tool/BF GUI Tool"
-  parent = "BF Tool"
-[[main]]
-  name = "BFVUL Examples"
-  weight = 3
-  identifier = "BFVUL Examples"
-  url = "/Info/BF Tool/BFVUL Examples"
-  parent = "BF Tool"
-# [[main]]
-# name = "BF Tool Guide"
-# weight = 4
-# identifier = "BF Tool Guide"
-# url = "/Info/BF Tool/BF Tool Guide"
-# parent = "BF Tool"
-
-[[main]]
-  name = "BFVUL APIs"
-  weight = 110
-  identifier = "BFVUL APIs"
-  [[main]]
-  name = "BFVULs (BVCVEs) API"
-  weight = 1
-  identifier = "BFVULs (BVCVEs) API"
-  url = "/Info/BFVUL APIs/BFVULs (BVCVEs) API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BFVUL Files API"
-  weight = 2
-  identifier = "BFVUL Files API"
-  url = "/Info/BFVUL APIs/BFVUL Files API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BFVUL Types API"
-  weight = 3
-  identifier = "BFVUL Types API"
-  url = "/Info/BFVUL APIs/BFVUL Types API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BFVUL Graphs API"
-  weight = 4
-  identifier = "BFVUL Graphs API"
-  url = "/Info/BFVUL APIs/BFVUL Graphs API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BFVUL Description API"
-  weight = 5
-  identifier = "BFVUL Description API"
-  url = "/Info/BFVUL APIs/BFVUL Description API"
-  parent = "BFVUL APIs"
-[[main]]
-  name = "BFVUL Backward API"
-  weight = 6
-  identifier = "BFVUL Backward API"
-  url = "/Info/BFVUL APIs/BFVUL Backward API"
-  parent = "BFVUL APIs"  
-
-[[main]]
-  name = "BFCVEPre APIs"
-  weight = 120
-  identifier = "BFCVEPre APIs"
-[[main]]
-  name = "BFCVEs Pre API"
-  weight = 1
-  identifier = "BFCVEs Pre API"
-  url = "/Info/BFCVEPre APIs/BFCVEs Pre API"
-  parent = "BFCVEPre APIs"
-[[main]]
-  name = "BFInjectionCVEs Pre API"
-  weight = 2
-  identifier = "BFInjectionCVEs Pre API"
-  url = "/Info/BFCVEPre APIs/BF Injection CVEs Pre API"
-  parent = "BFCVEPre APIs"
-
-[[main]]
-  name = "BFCWE APIs"
-  weight = 130
-  identifier = "BFCWE APIs"
-[[main]]
-  name = "BFCWEs API"
-  weight = 1
-  identifier = "BFCWEs API"
-  url = "/Info/BFCWE APIs/BFCWEs API"
-  parent = "BFCWE APIs"
-[[main]]
-  name = "BFCWE Files API"
-  weight = 2
-  identifier = "BFCWE Files API"
-  url = "/Info/BFCWE APIs/BFCWE Files API"
-  parent = "BFCWE APIs"
-[[main]]
-  name = "BFCWE Types API"
-  weight = 3
-  identifier = "BFCWE Types API"
-  url = "/Info/BFCWE APIs/BFCWE Types API"
-  parent = "BFCWE APIs"
-[[main]]
-  name = "BFCWE Graphs API"
-  weight = 4
-  identifier = "BFCWE Graphs API"
-  url = "/Info/BFCWE APIs/BFCWE Graphs API"
-  parent = "BFCWE APIs"
-[[main]]
-  name = "CWE2BF Graphs API"
-  weight = 5
-  identifier = "CWE2BF Graphs API"
-  url = "/Info/BFCWE APIs/CWE2BF Graphs API"
-  parent = "BFCWE APIs"
-
-[[main]]
-  name = "BF Security APIs"
-  weight = 140
-  identifier = "BF Security APIs"
-[[main]]
-  name = "BF Security Rules API"
-  weight = 1
-  identifier = "BF Security Rules API"
-  url = "/Info/BF Security APIs/BF Security Rules API"
-  parent = "BF Security APIs"
-[[main]]
-  name = "BF Security Rules CWE API"
-  weight = 2
-  identifier = "BF Security Rules CWE API"
-  url = "/Info/BF Security APIs/BF Security Rules CWE API"
-  parent = "BF Security APIs"
-
-  [[main]]
-  name = "BF Taxonomy APIs"
-  weight = 150
-  identifier = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _INP Graph API"
-  weight = 1
-  identifier = "BF _INP Graph API"
-  url = "/Info/BF Taxonomy APIs/BF _INP Graph API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _MEM Graph API"
-  weight = 2
-  identifier = "BF _MEM Graph API"
-  url = "/Info/BF Taxonomy APIs/BF _MEM Graph API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF _DAT Graph API"
-  weight = 3
-  identifier = "BF _DAT Graph API"
-  url = "/Info/BF Taxonomy APIs/BF _DAT Graph API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF Taxons API"
-  weight = 5
-  identifier = "BF Taxons API"
-  url = "/Info/BF Taxonomy APIs/BF Taxons API"
-  parent = "BF Taxonomy APIs"
-[[main]]
-  name = "BF Taxonomy API"
-  weight = 6
-  identifier = "BF Taxonomy API"
-  url = "/Info/BF Taxonomy APIs/BF Taxonomy API"
-  parent = "BF Taxonomy APIs"
-  #xxx
-  #[main.params]
-  #class = "disabled-menu-item"
-
-[[main]]
-  name = "BF Formal Language APIs"
-  weight = 160
-  identifier = "BF Formal Language APIs"
-[[main]]
-  name = "BF Parser API"
-  weight = 1
-  identifier = "BF Parser API"
-  url = "/Info/BF Formal Language APIs/BF Parser API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF LL1 ACFG API"
-  weight = 2
-  identifier = "BF LL1 ACFG API"
-  url = "/Info/BF Formal Language APIs/BF LL1 ACFG API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Relations API"
-  weight = 3
-  identifier = "BF Relations API"
-  url = "/Info/BF Formal Language APIs/BF Relations API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF BFTransitions API"
-  weight = 4
-  identifier = "BF BFTransitions API"
-  url = "/Info/BF Formal Language APIs/BF BFTransitions API"
-  parent = "BF Formal Language APIs"
-[[main]]
-  name = "BF Operations Flow API"
-  weight = 5
-  identifier = "BF Operations Flow API"
-  url = "/Info/BF Formal Language APIs/BF Operations Flow API"
-  parent = "BF Formal Language APIs"
-
+  identifier = "BF Dashboard"
+  url = "/Info/BF Service/BF Dashboard"
+  parent = "BF Service"
 
 [[main]]
   name = "Background"
-  weight = 240
+  weight = 70
   identifier = "BackgroundMenu"
 [[main]]
   name = "Organizational Structures"
@@ -289,7 +133,7 @@
 
 [[main]]
   name = "Why BF"
-  weight = 250
+  weight = 80
   identifier = "Why BF"
 [[main]]
   name = "BF Expressive Power"
@@ -306,12 +150,12 @@
   
 [[main]]
   name = "Publications"
-  weight = 260
+  weight = 90
   url = "/Info/Publications/BF Publications"
   
 [[main]]
   name = "Contact"
-  weight = 270
+  weight = 100
   url = "/Info/Contact/BF Contact"
 # [[social]]
 #   name = "GitHub"
@@ -319,6 +163,7 @@
 #   url = "https://github.com/usnistgov/BF"
 #   post = "v0.1.0"
 #   weight = 10
+
 
 [[footer]]
    name = "NIST"
@@ -340,10 +185,10 @@
    url = "https://www.nist.gov/privacy"
    weight = 3
 
-[[footer]]
-   name = "Copyrights"
-   url = "https://www.nist.gov/oism/copyrights"
-   weight = 3
+#[[footer]]
+#   name = "Copyrights"
+#   url = "https://www.nist.gov/oism/copyrights"
+#   weight = 3
 
 [[footer]]
    name = "Vulnerability Disclosure"
