@@ -330,8 +330,8 @@ padding-left: 4px;}
    text-overflow: ellipsis; }
 
 @media (min-width: 992px) {
- #mainNav .navbar-brand {
-   width: 250px; }
+ #mainNav .navbar-brand { 
+   width: 250px; } /* iii - "BF Welcome!" width */
  #mainNav .navbar-collapse {
    overflow: visible;
    max-height: none; }
