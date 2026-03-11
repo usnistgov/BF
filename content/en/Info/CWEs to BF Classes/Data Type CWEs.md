@@ -1,6 +1,6 @@
 ---
 weight: 3
-title: "Data Type CWEs to BF Classes"
+title: "Data Type CWEs"
 ---
 
 <!-- Google tag (gtag.js) -->

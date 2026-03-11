@@ -73,28 +73,28 @@
   weight = 50
   identifier = "CWEs to BF Classes"
 [[main]]
-  name = "Input Output Check CWEs to BF Classes"
+  name = "Input Output Check CWEs"
   weight = 1
-  identifier = "Input Output Check CWEs to BF Classes"
-  url = "/Info/CWEs to BF Classes/Input Output Check CWEs to BF Classes"
+  identifier = "Input Output Check CWEs"
+  url = "/Info/CWEs to BF Classes/Input-Output Check CWEs"
   parent = "CWEs to BF Classes"
 [[main]]
-  name = "Memory CWEs to BF Classes"
+  name = "Memory CWEs"
   weight = 2
-  identifier = "Memory CWEs to BF Classes"
-  url = "/Info/CWEs to BF Classes/Memory CWEs to BF Classes"
+  identifier = "Memory CWEs"
+  url = "/Info/CWEs to BF Classes/Memory CWEs"
   parent = "CWEs to BF Classes"
 [[main]]
-  name = "Data Type CWEs to BF Classes"
+  name = "Data Type CWEs"
   weight = 3
-  identifier = "Data Type CWEs to BF Classes"
-  url = "/Info/CWEs to BF Classes/Data Type CWEs to BF Classes"
+  identifier = "Data Type CWEs"
+  url = "/Info/CWEs to BF Classes/Data Type CWEs"
   parent = "CWEs to BF Classes"  
 [[main]]
-  name = "... CWEs to BF Classes"
+  name = "... CWEs"
   weight = 4
-  identifier = "... CWEs to BF Classes"
-  url = "/Info/CWEs to BF Classes/... Bug Model"
+  identifier = "... CWEs"
+  url = "/Info/CWEs to BF Classes/... CWEsl"
   parent = "CWEs to BF Classes"
 
 [[main]]

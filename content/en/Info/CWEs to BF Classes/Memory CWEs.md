@@ -1,6 +1,6 @@
 ---
 weight: 2
-title: "Memory CWEs to BF Classes"
+title: "Memory CWEs"
 ---
 
 <!-- Google tag (gtag.js) -->

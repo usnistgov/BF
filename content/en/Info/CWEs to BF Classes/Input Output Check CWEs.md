@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Input/Output Check CWEs to BF Classes"
+title: "Input/Output Check CWEs"
 ---
 
 <!-- Google tag (gtag.js) -->
