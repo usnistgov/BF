@@ -209,10 +209,10 @@
    url = "https://www.nist.gov/privacy"
    weight = 3
 
-#[[footer]]
-#   name = "Copyrights"
-#   url = "https://www.nist.gov/oism/copyrights"
-#   weight = 3
+[[footer]]
+   name = "Copyrights"
+   url = "https://www.nist.gov/oism/copyrights"
+   weight = 3
 
 [[footer]]
    name = "Vulnerability Disclosure"
