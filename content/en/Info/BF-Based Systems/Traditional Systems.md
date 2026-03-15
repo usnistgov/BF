@@ -18,7 +18,7 @@ title: "Traditional Systems"
 
 A traditional BF-based vulnerability system identifies a vulnerability in code (e.g., via static and dynamic analysis, or simulation/emulation) and specifies it as a chain of BF Weaknesses (see Figure 1). 
 
-{{< img src="images/BF-Based-Traditional-Vulnerability-System.svg" height="750" caption="Figure 1. BF-Based Traditional Vulnerability System" >}}
+{{< img src="images/BF-Based-Traditional-Vulnerability-System.svg" height="1600" caption="Figure 1. BF-Based Traditional Vulnerability System" >}}
 
 The steps from the dashed rectangle are BF specific.
 

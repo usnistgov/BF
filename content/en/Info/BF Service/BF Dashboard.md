@@ -20,7 +20,7 @@ The BF Services Dashboard provides access to the BF Services, as well as to the 
 
   [https://xxx/BFBFDashboardApp](https://x/BFDashboard) //Okta and Login.gov Authentocation -- coming soon//
 
-{{< img src="images/Tools/BFDashboard.svg" style="width:600;" caption="Figure 1. BF Services Dashboard" >}}
+{{< img src="images/Tools/BFDashboard.svg" height="3000" caption="Figure 1. BF Services Dashboard" >}}
 
 _______________________________
 BF PATENT PENDING<br/>

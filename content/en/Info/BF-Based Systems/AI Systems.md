@@ -30,14 +30,14 @@ A BF-Based AI Vulnerability System utilizes ML/AI-enabled capabilities to identi
 
 A BF Vulnerability AI Model is trained (see Figure 1) via BF data, vulnerable code, and ready BF vulnerability specifications. The steps from the dashed rectangle are BF specific.
 <br/>
-{{< img src="images/Construct-Adapt-a-BF-Based-Vulnerability-AI-Model.svg" height="750" caption="Figure 1. Construct/Adapt a BF-Based Vulnerability AI Model">}}
+{{< img src="images/Construct-Adapt-a-BF-Based-Vulnerability-AI-Model.svg" height="600" caption="Figure 1. Construct/Adapt a BF-Based Vulnerability AI Model">}}
 
 * BF Context Data is formed by the BF Security Concepts Definitions, BF Taxonomy, BF Taxon Definitions, and BF Semantic Graphs and Matrices.
 * BF Training Dataset is formed by vulnerability source code and preliminary developed BF Vulnerability Specifications
 
 BF-based AI systems (see Figure 2) utilize BF AI Models to generate BF Specifications, which are then validated and verified by the BF Parser, and then validated against the generated BF Partial CVE specifications and Backward State Tree. The rest of the steps on Figure 2 are the same as for BF-based traditional systems (see Figure 1 in BF–Based Traditional Systems). The steps from the dashed rectangle are BF specific.
 <br/>
-{{< img src="images/BF-Based-ML-AI-Vulnerability-System.svg" height="750" caption="Figure 2. BF-Based ML/AI Vulnerability System" >}}
+{{< img src="images/BF-Based-ML-AI-Vulnerability-System.svg" height="1100" caption="Figure 2. BF-Based ML/AI Vulnerability System" >}}
 
 <hr />
 

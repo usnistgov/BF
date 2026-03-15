@@ -21,7 +21,7 @@ title: "FM Systems"
 A BF-Based Formal Methods (FM) Vulnerability System utilizes FM-enabled capabilities to identify bugs and detect, analyze, prioritize, and resolve or mitigate vulnerabilities (i.e., fix the bug or a fault of each vulnerability). Automated analysis via formal methods requires formal definitions of the weakness and vulnerability concepts. Given the formal specification of code and the BF definitions of weakness and vulnerability, formal methods could be applied to Prove Correctness or Prove the Existence of Bugs/
 Weaknesses and related Vulnerabilities.
 
-{{< img src="images/BF-and-Secure-Coding-Principles-Based-FM-Vulnerability-System.svg" height="750" caption="Figure 1. BF- and Secure Coding Principles-Based FM Vulnerability System" >}}
+{{< img src="images/BF-and-Secure-Coding-Principles-Based-FM-Vulnerability-System.svg" height="800" caption="Figure 1. BF- and Secure Coding Principles-Based FM Vulnerability System" >}}
 
 The steps from the dashed rectangle are BF specific.
 

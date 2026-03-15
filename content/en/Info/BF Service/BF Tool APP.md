@@ -23,7 +23,7 @@ The BF Tool APP is a Web application allows users to create a new BF Vulnerabili
   [https://xxx/BFApp](https://xxx/BFApp) //Okta and Login.gov Authentocation -- coming soon//
 
 
-{{< img src="images/Tools/BFApp.svg" caption="Figure 1. BF Tool App" >}}
+{{< img src="images/Tools/BFApp.svg" height="3000" caption="Figure 1. BF Tool App" >}}
 
 The BF Tool APP demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 
