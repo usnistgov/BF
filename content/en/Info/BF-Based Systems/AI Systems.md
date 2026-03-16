@@ -41,11 +41,14 @@ BF-based AI systems (see Figure 2) utilize BF AI Models to generate BF Specifica
 
 <hr />
 
-See also:
+See also:<br />
+Bojanova, I., <a href="/BF/Posters/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf">NVD–BF (or NVD<sup>BF</sup>) Formal Vulnerability Classifications Platform</a>, NIST ITL Science Day 2025, Mar. 26, 2026.<br />
+Bojanova, I., 
+<a href="/BF/Posters/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf">BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification</a>, AI@NIST Day 2025, Feb. 26, 2026.
 
-{{< img src="images/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.svg" caption="Figure 3. BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification" >}}
+<!-- {{< img src="images/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.svg" caption="Figure 3. BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification" >}}
 
-{{< img src="images/NVD-BF-ITL-Science-Day-2025-Irena Bojanova-03-26-2026.svg" caption="Figure 4. NVD–BF (or NVD<sup>BF</sup>) Formal Vulnerability Classifications Platform" >}}
+{{< img src="images/NVD-BF-ITL-Science-Day-2025-Irena Bojanova-03-26-2026.svg" caption="Figure 4. NVD–BF (or NVD<sup>BF</sup>) Formal Vulnerability Classifications Platform" >}} -->
 
 _______________________________
 
