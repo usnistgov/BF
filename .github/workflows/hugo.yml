@@ -60,7 +60,26 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
+     
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Build Hugo site
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      
+      - name: Push Hugo HTML to NIST-Pages branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B NIST-Pages
+          git rm -rf .
+          cp -r public/* .
+          git add .
+          git commit -m "Deploy Hugo HTML [ci skip]" || echo "No changes to commit."
+          git push origin NIST-Pages --force
+    
   # Deployment job
   deploy:
     environment:
@@ -72,14 +91,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
-      - name: Push Hugo HTML to NIST-Pages branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B NIST-Pages
-          git rm -rf .
-          cp -r public/* .
-          git add .
-          git commit -m "Deploy Hugo HTML [ci skip]" || echo "No changes to commit."
-          git push origin NIST-Pages --force
