@@ -31,21 +31,19 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build Hugo site for GitHub Pages
-        id: hugo_github
+      # Build Hugo for GitHub Pages
+      - name: Build Hugo for GitHub Pages
         env:
           HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
           BASE_URL: "https://usnistgov.github.io/BF/"
         run: |
           hugo --minify --baseURL "$BASE_URL" -d ./public/github
 
-      - name: Build Hugo site for NIST-Pages
-        id: hugo_nist
+      # Build Hugo for NIST-Pages
+      - name: Build Hugo for NIST-Pages
         env:
           HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-          BASE_URL: "https://pages.nist.gov/BF/"  
+          BASE_URL: "https://pages.nist.gov/BF/"
         run: |
           hugo --minify --baseURL "$BASE_URL" -d ./public/nist
 
@@ -66,7 +64,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to NIST-Pages
+      - name: Deploy to NIST-Pages branch
         uses: usnistgov/nist-pages-deploy@v1
         with:
           folder: ./public/nist
