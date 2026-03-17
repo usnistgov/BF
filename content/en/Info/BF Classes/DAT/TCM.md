@@ -1,6 +1,7 @@
 ﻿---
 weight: 3
 title: "TCM"
+slug: "_dat/tcm"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">

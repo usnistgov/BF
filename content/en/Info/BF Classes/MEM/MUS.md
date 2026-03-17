@@ -1,6 +1,7 @@
 ﻿---
 weight: 3
 title: "MUS"
+slug: "_mem/mus"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
