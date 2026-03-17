@@ -55,7 +55,8 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            #--baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "/BF/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -72,3 +73,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Deploy to NIST-Pages branch
+        uses: usnistgov/nist-pages-deploy@v1
+        with:
+          folder: ./public
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: NIST-Pages
