@@ -90,3 +90,37 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy_github_redirect:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout repository (GitHub Pages)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+  
+      - name: Create redirect index.html
+        run: |
+          cat > index.html <<EOF
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <title>Redirecting to NIST-Pages…</title>
+            <meta http-equiv="refresh" content="0; url=https://pages.nist.gov/BF/">
+            <link rel="canonical" href="https://pages.nist.gov/BF/">
+          </head>
+          <body>
+            <p>If you are not redirected automatically, <a href="https://pages.nist.gov/BF/">click here</a>.</p>
+          </body>
+          </html>
+          EOF
+  
+      - name: Commit and push redirect
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Add redirect to NIST-Pages [ci skip]" || echo "No changes to commit."
+          git push origin main  
