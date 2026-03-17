@@ -68,12 +68,12 @@ jobs:
         with:
           path: ./public
 
-      # 8️⃣ Push HTML to NIST-Pages branch
-      - name: Push Hugo HTML to NIST-Pages branch
+      # 8️⃣ Push HTML to nist-pages branch
+      - name: Push Hugo HTML to nist-pages branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B NIST-Pages
+          git checkout -B nist-pages
           git rm -rf .
           cp -r public/* .
           git add .
