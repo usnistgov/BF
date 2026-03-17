@@ -44,7 +44,7 @@ footer = ""
 
 # Edit Page
 repoHost = "GitHub"
-docsRepo = "https://github.com/usnistgov/BF"
+docsRepo = "https://pages.nist.gov/BF/"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
