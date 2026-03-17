@@ -18,5 +18,5 @@ slug: "_INP"
 # BF Input/Output Check (_INP) Class Type <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
 Please use the Taxonomy>_INP menu on the left or the following links:
-[BF Data Validation (DVL) Class](/info/bf-classes/_inp/dvl) 
-[BF Data Verification (DVR) Class](/info/bf-classes/_inp/dvr)
+[BF Data Validation (DVL) Class](/BF/info/bf-classes/_inp/dvl) 
+[BF Data Verification (DVR) Class](/BF/info/bf-classes/_inp/dvr)
