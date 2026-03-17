@@ -78,7 +78,7 @@ jobs:
           cp -r public/* .
           git add .
           git commit -m "Deploy Hugo HTML [ci skip]" || echo "No changes to commit"
-          git push origin NIST-Pages --force
+          git push origin nist-pages --force
 
   deploy:
     environment:
