@@ -20,7 +20,7 @@ The BF Tool APP is a Web application allows users to create a new BF Vulnerabili
 
 - BF Tool APP 
 
-  [https://xxx/BFApp](https://xxx/BFApp) //Okta and Login.gov Authentocation -- coming soon//
+  [https://xxx/BFApp](https://xxx/BFApp) //Okta and Login.gov Authentication -- coming soon//
 
 
 {{< img src="images/Tools/BFApp.svg" height="3000" caption="Figure 1. BF Tool App" >}}
