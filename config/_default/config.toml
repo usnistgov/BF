@@ -1,4 +1,5 @@
-baseurl = "https://usnistgov.github.io/"
+baseurl = "https://pages.nist.gov/"
+//baseurl = "https://pages.nist.gov/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

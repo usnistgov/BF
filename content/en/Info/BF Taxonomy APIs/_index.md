@@ -4,7 +4,7 @@ bookHidden: true
 bookCollapseSection: true
 title: "BF Taxonomy APIs"
 aliases:
-- /https://usnistgov.github.io/info/apis/bfcwe-api/
+- /https://pages.nist.gov/info/apis/bfcwe-api/
 ---
 
 <!-- Google tag (gtag.js) -->
