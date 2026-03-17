@@ -1,7 +1,6 @@
 ﻿---
 weight: 3
 title: "DVL"
-slug: "_inp/dvl"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">

@@ -1,7 +1,6 @@
 ﻿---
 weight: 3
 title: "NRS"
-slug: "_dat/nrs"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">

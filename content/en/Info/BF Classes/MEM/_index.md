@@ -2,6 +2,7 @@
 weight: 3
 bookCollapseSection: true
 title: "_MEM"
+slug: "_MEM"
 ---
 
 <!-- Google tag (gtag.js) -->

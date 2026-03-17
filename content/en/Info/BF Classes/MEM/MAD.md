@@ -1,7 +1,6 @@
 ﻿---
 weight: 3
 title: "MAD"
-slug: "_mem/mad"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">

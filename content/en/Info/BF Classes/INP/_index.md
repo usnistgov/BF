@@ -2,6 +2,7 @@
 weight: 2
 bookCollapseSection: true
 title: "_INP"
+slug: "_INP"
 ---
 
 <!-- Google tag (gtag.js) -->

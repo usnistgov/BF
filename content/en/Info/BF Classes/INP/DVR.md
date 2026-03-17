@@ -1,7 +1,6 @@
 ﻿---
 weight: 3
 title: "DVR"
-slug: "_inp/dvr"
 ---
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F">
