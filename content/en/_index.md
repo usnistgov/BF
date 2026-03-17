@@ -1,5 +1,5 @@
 ---
-title : "Bugs Framework"
+title : "Bugs Framework (BF)"
 description: ""
 lead: ""
 
