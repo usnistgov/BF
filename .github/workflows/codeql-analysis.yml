@@ -1,4 +1,4 @@
-name: "CodeQL Analysis"
+name: "CodeQL"
 
 on:
   push:
@@ -22,22 +22,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
 
-    # Initialize CodeQL with explicit queries (self-contained advanced config)
+    # Initialize CodeQL — fully self-contained with explicit queries
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v4
       with:
         languages: ${{ matrix.language }}
-        queries: security-and-quality  # default queries, fully managed here
-        # optional: limit to specific paths to speed up scan
-        # paths: src/
+        queries: security-and-quality  # explicitly specified to avoid default setup conflict
 
-    # Autobuild (optional for JS, kept for completeness)
+    # Autobuild — optional for JS but included for completeness
     - name: Autobuild
       uses: github/codeql-action/autobuild@v4
 
-    # Perform analysis
+    # Perform CodeQL Analysis
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4
       with:
-        # upload all results automatically
-        category: "/language:javascript"
+        category: "/language:javascript"  # ensures SARIF results are properly categorized
