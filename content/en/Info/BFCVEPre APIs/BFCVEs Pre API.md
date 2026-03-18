@@ -23,19 +23,19 @@ _DAT BFCVEs Pre APP/API covers CVEs related to the BF Data Type (_DAT) Class Typ
 
 - UI 
 
-  [https://BFservice.coming.soon/BFCVEPre.xml/_MEM](https://BFservice.coming.soon/BFCVEPre.xml/_MEM)<br/>
-  [https://BFservice.coming.soon/BFCVEPre.json/_MEM](https://BFservice.coming.soon/BFCVEPre.json/_MEM)
+  [https://10.210.91.216:7654/BFCVEPre.xml/_MEM](https://10.210.91.216:7654/BFCVEPre.xml/_MEM)<br/>
+  [https://10.210.91.216:7654/BFCVEPre.json/_MEM](https://10.210.91.216:7654/BFCVEPre.json/_MEM)
 
   - Queried by CVE ID, CWE ID, CVSS; or BF Class taxon values: Class Tyoe, Class, Operation, Cause, and Conseqeunce-- e.g., :<br/>
 
-    [https://BFservice.coming.soon/BFCVEPre.xml?class=MUS](https://BFservice.coming.soon/BFCVEPre.xml/_MEM?class=MUS)<br/>
-    [https://BFservice.coming.soon/BFCVEPre.json?class=MUS](https://BFservice.coming.soon/BFCVEPre.json/_MEM?class=MUS)
+    [https://10.210.91.216:7654/BFCVEPre.xml?class=MUS](https://10.210.91.216:7654/BFCVEPre.xml/_MEM?class=MUS)<br/>
+    [https://10.210.91.216:7654/BFCVEPre.json?class=MUS](https://10.210.91.216:7654/BFCVEPre.json/_MEM?class=MUS)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

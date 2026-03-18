@@ -20,10 +20,10 @@ title: "DCL"
 ####  Taxonomy
 
 - BF _DAT>DCL 
-[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=DCL](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=DCL)
+[https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL)
 
 - BF _DAT>DCL with Definitions: 
-[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true)
+[https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

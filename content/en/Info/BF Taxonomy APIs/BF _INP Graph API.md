@@ -19,22 +19,22 @@ title: "BF _INP Graph API"
 The BF \_INP APP/API queries the BF \_INP Class Type queries BF and generates the BF \_INP Taxonomy in graphical format.
 
 <!-- - BF /_INP Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://BFservice.coming.soon/BFTaxonomy/PPT/_INP](https://BFservice.coming.soon/BFTaxonomy/PPT/_INP) <br/> -->
+  [https://10.210.91.216:7654/BFTaxonomy/PPT/_INP](https://10.210.91.216:7654/BFTaxonomy/PPT/_INP) <br/> -->
 
 - UI 
-  [https://BFservice.coming.soon/BFTaxonomy/PPT/_INP](https://BFservice.coming.soon/BFTaxonomy/PPT/_INP)
+  [https://10.210.91.216:7654/BFTaxonomy/PPT/_INP](https://10.210.91.216:7654/BFTaxonomy/PPT/_INP)
 
   - With Definitions:<br/>
-      [https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?ShowDefinitions=true)
+      [https://10.210.91.216:7654/BFTaxonomy/PPT/_INP?ShowDefinitions=true](https://10.210.91.216:7654/BFTaxonomy/PPT/_INP?ShowDefinitions=true)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
+  [https://10.210.91.216:7654/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://10.210.91.216:7654/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

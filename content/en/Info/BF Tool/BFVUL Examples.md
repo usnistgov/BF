@@ -20,7 +20,7 @@ The BFVUL Examples UI provides download of Formal BF Vulnerability Specification
 
 - BFVUL Examples Download 
 
-  [https://BFservice.coming.soon/BFTool/BFVULExamples](https://BFservice.coming.soon/BFTool/BFVULExamples)
+  [https://10.210.91.216:7654/BFTool/BFVULExamples](https://10.210.91.216:7654/BFTool/BFVULExamples)
 
 Open or Upload the BF Specifications of Security Vulnerabilities using the BF Tool App or the BF GUI Tool. Use the BF Tools to navigate the chains of BF Weaknesses, generate graphical representations, and save or download in extended (.bfvul), standard (.bfv) or bare-bone (.bff) formal BF specification formats. 
 

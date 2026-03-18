@@ -21,13 +21,13 @@ The current BF Taxonomy comprizes the BF Input/Output Check (_INP), Memory Corru
 The BF Taxons APP/API queries the BF Taxonomy and generates the BF Taxon Definitions.
 
 - UI  <br/>
-  [https://BFservice.coming.soon/BFTaxonomy/BFTaxons](https://BFservice.coming.soon/BFTaxonomy/BFTaxons)
+  [https://10.210.91.216:7654/BFTaxonomy/BFTaxons](https://10.210.91.216:7654/BFTaxonomy/BFTaxons)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

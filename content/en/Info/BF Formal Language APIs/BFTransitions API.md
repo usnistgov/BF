@@ -22,19 +22,19 @@ The BF BFTransitions APP/API generates datasets of Meaningful `consequence↷cau
 <!-- 
 - BF Weakness BFTransitions Excerpt &rarr; no Key required: 
 
-  [https://BFservice.coming.soon/BFFormalLanguage.xml/BFBFTransitions](https://BFservice.coming.soon/BFFormalLanguage.xml/BFTransitions)<br/>
-  [https://BFservice.coming.soon/BFFormalLanguage.json/BFBFTransitions](https://BFservice.coming.soonFormalLanguage.json/BFTransitions) -->
+  [https://10.210.91.216:7654/BFFormalLanguage.xml/BFBFTransitions](https://10.210.91.216:7654/BFFormalLanguage.xml/BFTransitions)<br/>
+  [https://10.210.91.216:7654/BFFormalLanguage.json/BFBFTransitions](https://10.210.91.216:7654FormalLanguage.json/BFTransitions) -->
 
 - UI 
 
-  [https://BFservice.coming.soon/BFFormalLanguage.xml/BFBFTransitions](https://BFservice.coming.soon/BFFormalLanguage.xml/BFBFTransitions)<br/>
-  [https://BFservice.coming.soon/BFFormalLanguage.json/BFBFTransitions](https://BFservice.coming.soon/BFFormalLanguage.json/BFBFTransitions)
+  [https://10.210.91.216:7654/BFFormalLanguage.xml/BFBFTransitions](https://10.210.91.216:7654/BFFormalLanguage.xml/BFBFTransitions)<br/>
+  [https://10.210.91.216:7654/BFFormalLanguage.json/BFBFTransitions](https://10.210.91.216:7654/BFFormalLanguage.json/BFBFTransitions)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

@@ -21,13 +21,13 @@ title: "BFCWE Graphs API"
 <!-- The BFCWE Graphs APP/API generates graphical representations of BF Weakness Specifications.
 
 - BF Vulnerability Specification Graphs 
-  [https://BFservice.coming.soon/BFCWE/PPT](https://BFservice.coming.soon/BFCWE/PPT)
+  [https://10.210.91.216:7654/BFCWE/PPT](https://10.210.91.216:7654/BFCWE/PPT)
 
 - Programatically  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

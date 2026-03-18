@@ -20,14 +20,14 @@ The BFVUL Files APP/API generates BF Vulnerability Specifications in .bfv format
 
 - BF .bfv Specifications Download 
 
-  [https://BFservice.coming.soon/BFVUL/BFFiles](https://BFservice.coming.soon/BFVUL/BFFiles)<br/>
-  <!-- [https://BFservice.coming.soon/BFFiles.json](https://BFservice.coming.soon/BFFiles.json) -->
+  [https://10.210.91.216:7654/BFVUL/BFFiles](https://10.210.91.216:7654/BFVUL/BFFiles)<br/>
+  <!-- [https://10.210.91.216:7654/BFFiles.json](https://10.210.91.216:7654/BFFiles.json) -->
 
 <!-- - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

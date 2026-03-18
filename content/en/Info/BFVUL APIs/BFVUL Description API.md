@@ -20,13 +20,13 @@ The BFVUL Description APP/API generates a BF Description from the BF Tokens for 
 
 - UI 
 
-  [https://BFservice.coming.soon/BFVUL/BFDescription](https://BFservice.coming.soon/BFVUL/BFDescription)<br/>
+  [https://10.210.91.216:7654/BFVUL/BFDescription](https://10.210.91.216:7654/BFVUL/BFDescription)<br/>
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

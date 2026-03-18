@@ -19,22 +19,22 @@ title: "BF _DAT Graph API"
 The BF \_DAT APP/API queries BF \_DAT Class Type and generates the BF \_DAT Taxonomy in graphical format.
 
 <!-- - BF _DAT Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT) <br/> -->
+  [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT) <br/> -->
 
 - UI 
-  [https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT)
+  [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT)
 
   - With Definitions:<br/>
-      [https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?ShowDefinitions=true)
+      [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?ShowDefinitions=true](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?ShowDefinitions=true)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
+  [https://10.210.91.216:7654/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://10.210.91.216:7654/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

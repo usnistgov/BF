@@ -22,7 +22,7 @@ The BF Tool APP allows download of the BF GUI Tool.
 
 - BF GUI Tool Download 
 
-  [https://BFservice.coming.soon/BFTool/BFGUI](https://BFservice.coming.soon/BFTool/BFGUI)
+  [https://10.210.91.216:7654/BFTool/BFGUI](https://10.210.91.216:7654/BFTool/BFGUI)
 
 The BF GUI Tool demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 

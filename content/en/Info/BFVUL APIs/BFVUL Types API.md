@@ -20,13 +20,13 @@ The BFVUL Types APP/API generates/adds the BF Types (BF Class, Bug, Fault, Error
 
 - UI 
 
-  [https://BFservice.coming.soon/BFVUL/BFTypes](https://BFservice.coming.soon/BFVUL/BFTypes)<br/>
+  [https://10.210.91.216:7654/BFVUL/BFTypes](https://10.210.91.216:7654/BFVUL/BFTypes)<br/>
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

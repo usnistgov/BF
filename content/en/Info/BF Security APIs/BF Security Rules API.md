@@ -22,14 +22,14 @@ The BF Security Rules APP/API generates datasets of BF Improper States that shou
 
 - UI 
 
-  [https://BFservice.coming.soon/BFSecurityRules.xml](https://BFservice.coming.soon/BFSecurityRules.xml)<br/>
-  [https://BFservice.coming.soon/BFSecurityRules.json](https://BFservice.coming.soon/BFSecurityRules.json)
+  [https://10.210.91.216:7654/BFSecurityRules.xml](https://10.210.91.216:7654/BFSecurityRules.xml)<br/>
+  [https://10.210.91.216:7654/BFSecurityRules.json](https://10.210.91.216:7654/BFSecurityRules.json)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

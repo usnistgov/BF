@@ -22,8 +22,8 @@ The BF Security Rules CWE APP/API generates datasets of BF Improper States by CW
 
 - UI 
 
-  [https://BFservice.coming.soon/BFSecurityRules.xml/CWE](https://BFservice.coming.soon/BFSecurityRules.xml/CWE)<br/>
-  [https://BFservice.coming.soon/BFSecurityRules.json/CWE](https://BFservice.coming.soon/BFSecurityRules.json/CWE)
+  [https://10.210.91.216:7654/BFSecurityRules.xml/CWE](https://10.210.91.216:7654/BFSecurityRules.xml/CWE)<br/>
+  [https://10.210.91.216:7654/BFSecurityRules.json/CWE](https://10.210.91.216:7654/BFSecurityRules.json/CWE)
 
    Note: ID="-1" if no CWE corresponds to that BF Wwakness Triple.
 
@@ -31,7 +31,7 @@ The BF Security Rules CWE APP/API generates datasets of BF Improper States by CW
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://10.210.91.216:7654") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

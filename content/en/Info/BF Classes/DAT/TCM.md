@@ -20,10 +20,10 @@ title: "TCM"
 ####  Taxonomy
 
 - BF _DAT>TCM 
-[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=TCM](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=TCM)
+[https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM)
 
 - BF _DAT>TCM with Definitions: 
-[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=TCM&ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=TCM&ShowDefinitions=true)
+[https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM&ShowDefinitions=true](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
