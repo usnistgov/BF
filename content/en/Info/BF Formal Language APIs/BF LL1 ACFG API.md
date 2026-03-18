@@ -23,13 +23,13 @@ The current BF Taxonomy comprises the BF Input/Output Check(_INP), Memory Corrup
 The BF LL1 ACFG APP/API queries BF and generates the corresponding (i.e., filtered) BF LL1 ACFG in EBNF format.
 
 - UI  <br/>
-  [https://<<coming soon>>/BFFormalLanguage](https://<<coming soon>>/BFFormalLanguage) </br>
+  [https://BFservice.coming.soon/BFFormalLanguage](https://BFservice.coming.soon/BFFormalLanguage) </br>
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

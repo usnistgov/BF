@@ -22,14 +22,14 @@ The BF formalism supports a deeper understanding of vulnerabilites as chains of 
 
 - UI 
 
-  [https://<<coming soon>>/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection](https://<<coming soon>>/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection) </br>
-  [https://<<coming soon>>/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection](https://<<coming soon>>/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection)
+  [https://BFservice.coming.soon/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection](https://BFservice.coming.soon/BFVUL.xml/BFBackward/IEX?finalError=Query%20Injection) </br>
+  [https://BFservice.coming.soon/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection](https://BFservice.coming.soon/BFVUL.json/BFBackward/IEX?finalError=Query%20Injection)
 
 - API  <br/>
 
   C#
 
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

@@ -22,7 +22,7 @@ title: "BFCWE Types API"
 
 - BF Weakness Specifications with added BF Class, Bug, Fault, Error, Final Error, and Attribute Types as applicable 
 
-  [https://<<coming soon>>/BFCWE/BFRelations](https://<<coming soon>>/BFCWE/BFTypes)<br/> -->
+  [https://BFservice.coming.soon/BFCWE/BFRelations](https://BFservice.coming.soon/BFCWE/BFTypes)<br/> -->
 
 _________________________________
 

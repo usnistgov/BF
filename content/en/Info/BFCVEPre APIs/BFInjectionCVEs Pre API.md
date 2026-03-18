@@ -20,8 +20,8 @@ The BFInjectionCVEs Pre APP/API generates a dataset of preliminary BFCVE Specifi
 
 - UI 
 
-  [https://<<coming soon>>/BFCVEPre.xml/INJ](https://<<coming soon>>/BBFCVEPre.xml/INJ)<br/>
-  [https://<<coming soon>>/BFCVEPre.json/INJ](https://<<coming soon>>/BFCVEPre.json/INJ)
+  [https://BFservice.coming.soon/BFCVEPre.xml/INJ](https://BFservice.coming.soon/BBFCVEPre.xml/INJ)<br/>
+  [https://BFservice.coming.soon/BFCVEPre.json/INJ](https://BFservice.coming.soon/BFCVEPre.json/INJ)
 
 - API  <br/>
 

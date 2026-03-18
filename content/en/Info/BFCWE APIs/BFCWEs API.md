@@ -22,14 +22,14 @@ The BFCWEs APP/API generates datasets of BFCWE Specifications as `<cause, operat
 
 - UI 
 
-  [https://<<coming soon>>/BFCWE.xml](https://<<coming soon>>/BFCWE.xml)<br/>
-  [https://<<coming soon>>/BFCWE.json](https://<<coming soon>>/BFCWE.json)
+  [https://BFservice.coming.soon/BFCWE.xml](https://BFservice.coming.soon/BFCWE.xml)<br/>
+  [https://BFservice.coming.soon/BFCWE.json](https://BFservice.coming.soon/BFCWE.json)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

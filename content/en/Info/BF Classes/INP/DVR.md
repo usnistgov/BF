@@ -20,10 +20,10 @@ title: "DVR"
 ####  Taxonomy
 
 - BF _INP>DVR 
-[https://<<coming soon>>/BFTaxonomy/PPT/_INP?class=DVR](https://<<coming soon>>/BFTaxonomy/PPT/_INP?class=DVR)
+[https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?class=DVR](https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?class=DVR)
 
 - BF _INP>DVR with Definitions: 
-[https://<<coming soon>>/BFTaxonomy/PPT/_INP?class=DVR&ShowDefinitions=true](https://<<coming soon>>/BFTaxonomy/PPT/_INP?class=DVR&ShowDefinitions=true)
+[https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?class=DVR&ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_INP?class=DVR&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

@@ -20,14 +20,14 @@ The BFVULs (BVCVEs) APP/API generates datasets of BF Vulnerability Specification
 
 - UI 
 
-  [https://<<coming soon>>/BFVUL.xml](https://<<coming soon>>/BFVUL.xml)<br/>
-  [https://<<coming soon>>/BFVUL.json](https://<<coming soon>>/BFVUL.json)
+  [https://BFservice.coming.soon/BFVUL.xml](https://BFservice.coming.soon/BFVUL.xml)<br/>
+  [https://BFservice.coming.soon/BFVUL.json](https://BFservice.coming.soon/BFVUL.json)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

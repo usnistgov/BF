@@ -20,10 +20,10 @@ title: "NRS"
 ####  Taxonomy
 
 - BF _DAT>NRS 
-[https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=NRS](https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=NRS)
+[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=NRS](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=NRS)
 
 - BF _DAT>NRS with Definitions: 
-[https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true](https://<<coming soon>>/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true)
+[https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_DAT?class=NRS&ShowDefinitions=true)
 
 ______________________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

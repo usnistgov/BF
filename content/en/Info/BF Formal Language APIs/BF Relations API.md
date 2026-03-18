@@ -22,19 +22,19 @@ The BF Relations APP/API generates datasets of Meaningful `<cause, operation>→
 <!-- 
 - BF Weakness Relations Excerpt &rarr; no Key required: 
 
-  [https://<<coming soon>>/BFFormalLanguage.xml/BFRelations](https://<<coming soon>>/BFFormalLanguage.xml/Relations)<br/>
-  [https://<<coming soon>>/BFFormalLanguage.json/BFRelations](https://<<coming soon>>FormalLanguage.json/Relations) -->
+  [https://BFservice.coming.soon/BFFormalLanguage.xml/BFRelations](https://BFservice.coming.soon/BFFormalLanguage.xml/Relations)<br/>
+  [https://BFservice.coming.soon/BFFormalLanguage.json/BFRelations](https://BFservice.coming.soonFormalLanguage.json/Relations) -->
 
 - UI 
 
-  [https://<<coming soon>>/BFFormalLanguage.xml/BFRelations](https://<<coming soon>>/BFFormalLanguage.json/BFRelations)<br/>
-  [https://<<coming soon>>/BFFormalLanguage.json/BFRelations](https://<<coming soon>>/BFFormalLanguage.json/BFRelations)
+  [https://BFservice.coming.soon/BFFormalLanguage.xml/BFRelations](https://BFservice.coming.soon/BFFormalLanguage.json/BFRelations)<br/>
+  [https://BFservice.coming.soon/BFFormalLanguage.json/BFRelations](https://BFservice.coming.soon/BFFormalLanguage.json/BFRelations)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

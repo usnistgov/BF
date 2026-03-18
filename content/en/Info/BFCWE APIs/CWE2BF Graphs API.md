@@ -19,7 +19,7 @@ title: "CWE2BF Graphs API"
 The CWE2BF Graphs APP/API generates CWE-to-BF Di-Graph Mappings by BF Class, Operation, Error, of Final Error in graphical formats.
 
 <!-- - BF CWE2BF Graphs 
-  [https://<<coming soon>>/BFCWE/CWEBFPPT](https://<<coming soon>>/BFCWE/CWEBFPPT)
+  [https://BFservice.coming.soon/BFCWE/CWEBFPPT](https://BFservice.coming.soon/BFCWE/CWEBFPPT)
 
 - Programatically  <br/> -->
 
@@ -27,7 +27,7 @@ The CWE2BF Graphs APP/API generates CWE-to-BF Di-Graph Mappings by BF Class, Ope
         
   <!-- C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

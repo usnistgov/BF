@@ -20,13 +20,13 @@ The BF Parser API performs Validation and Verification of BF Specifications in .
 
 - UI 
 
-  [https://<<coming soon>>/BFFormalLanguage/BFParser](https://<<coming soon>>/BFFormalLanguage/BFParser)<br/>
+  [https://BFservice.coming.soon/BFFormalLanguage/BFParser](https://BFservice.coming.soon/BFFormalLanguage/BFParser)<br/>
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

@@ -19,13 +19,13 @@ title: "BFVUL Graphs API"
 The BFVUL Graphs APP/API generates graphical representations of BF Vulnerability Specifications.
 
 - UI 
-  [https://<<coming soon>>/BFVUL/PPT](https://<<coming soon>>/BFVUL/PPT)
+  [https://BFservice.coming.soon/BFVUL/PPT](https://BFservice.coming.soon/BFVUL/PPT)
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

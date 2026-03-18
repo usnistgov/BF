@@ -19,22 +19,22 @@ title: "BF _MEM Graph API"
 The BF \_MEM Graph APP/API queries the BF \_MEM Class Type queries BF and generates the BF _MEM Taxonomy in graphical format.
 
 <!-- - BF /_MEM Taxonomy Excerpt  &rarr; no Key required: <br/>
-  [https://<<coming soon>>/BFTaxonomy/PPT/_MEM](https://<<coming soon>>/BFTaxonomy/PPT/_MEM) <br/> -->
+  [https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM](https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM) <br/> -->
 
 - UI 
-  [https://<<coming soon>>/BFTaxonomy/PPT/_MEM](https://<<coming soon>>/BFTaxonomy/PPT/_MEM)
+  [https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM](https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM)
 
   - With Definitions:<br/>
-      [https://<<coming soon>>/BFTaxonomy/PPT/_MEM?ShowDefinitions=true](https://<<coming soon>>/BFTaxonomy/PPT/_MEM?ShowDefinitions=true)
+      [https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM?ShowDefinitions=true](https://BFservice.coming.soon/BFTaxonomy/PPT/_MEM?ShowDefinitions=true)
 
   <!-- - Queried by BF Class taxon values: Class, Operation, Operand, Bug, Fault, Error, FinalError, and Attribute -- e.g., :<br/>
-  [https://<<coming soon>>/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://<<coming soon>>/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
+  [https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer](https://BFservice.coming.soon/BFTaxonomy/PPT?Fault=NULL%20Pointer) -->
 
 - API  <br/>
         
   C#
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

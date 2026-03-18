@@ -20,7 +20,7 @@ The BF Tool APP is a Web application allows users to create a new BF Vulnerabili
 
 - BF Tool APP 
 
-  [https://<<coming soon>>/BFTool/BFApp](https://<<coming soon>>/BFTool/BFApp)
+  [https://BFservice.coming.soon/BFTool/BFApp](https://BFservice.coming.soon/BFTool/BFApp)
 
 The BF Tool APP demonstrates how the BF taxonomy and causation and propagation rules tie together into the strict BF formal language. It uses the BFVUL tool functionality to generate graphical representations of the BF formal specifications to enhance understanding. 
 

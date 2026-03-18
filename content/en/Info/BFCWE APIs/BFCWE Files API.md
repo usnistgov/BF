@@ -20,14 +20,14 @@ The BFCWE Files APP/API generates BF Weakness Specifications in .bfw format.
 
 - BF .bfv Specifications Download 
 
-  [https://<<coming soon>>/BFCWE/BFFiles](https://<<coming soon>>/BFCWE/BFFiles)<br/>
-  <!-- [https://<<coming soon>>/Files.json](https://<<coming soon>>/Files.json) -->
+  [https://BFservice.coming.soon/BFCWE/BFFiles](https://BFservice.coming.soon/BFCWE/BFFiles)<br/>
+  <!-- [https://BFservice.coming.soon/Files.json](https://BFservice.coming.soon/Files.json) -->
 
 <!-- - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);

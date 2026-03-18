@@ -23,14 +23,14 @@ The current BF Taxonomy comprizes the BF Input/Output Check (_INP), Memory Corru
 The BF Taxonomy APP/API queries the BF Taxonomy and generates the corresponding BF Bug/Weakness Classes in machine-readable (XML, JSON) formats.
 
 - UI  <br/>
-  [https://<<coming soon>>/BFTaxonomy.xml](https://<<coming soon>>/BFTaxonomy.xml) </br>
-  [https://<<coming soon>>/BFTaxonomy.json](https://<<coming soon>>/BFTaxonomy.json)
+  [https://BFservice.coming.soon/BFTaxonomy.xml](https://BFservice.coming.soon/BFTaxonomy.xml) </br>
+  [https://BFservice.coming.soon/BFTaxonomy.json](https://BFservice.coming.soon/BFTaxonomy.json)
 
 - API  <br/>
 
   C# <br/>
         
-      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://<<coming soon>>") };
+      HttpClient client = new HttpClient() { BaseAddress = new Uri("https://BFservice.coming.soon") };
 
       //to be updated <-- replace YOUR_USER_NAME and YOUR_KEY
       client.DefaultRequestHeaders.Add("user", YOUR_USER_NAME);
