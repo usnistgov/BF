@@ -22,19 +22,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
 
-    # Initialize CodeQL — fully self-contained with explicit queries
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v4
       with:
         languages: ${{ matrix.language }}
-        queries: security-and-quality  # explicitly specified to avoid default setup conflict
+        queries: security-and-quality
 
-    # Autobuild — optional for JS but included for completeness
     - name: Autobuild
       uses: github/codeql-action/autobuild@v4
 
-    # Perform CodeQL Analysis
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4
       with:
-        category: "/language:javascript"  # ensures SARIF results are properly categorized
+        category: "/language:javascript"
