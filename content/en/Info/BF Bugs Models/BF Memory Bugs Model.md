@@ -23,7 +23,7 @@ The Memory (_MEM) Bugs Model (Figure 1) represents the execution phases with ort
 <br/><br/>
 <br/><br/>
 
-{{< img src="images/BF Models/_MEM Model.svg" caption="Figure 1. BF Memory Bugs Model. Comprises the MAD, MAL, MUS, and MDL phases, corresponding to the BF classes MAD, MMN (combining the MAL and MDL phases), and MUS. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation." >}}
+{{< img src="images/BF Models/BF_MEM Model.svg" caption="Figure 1. BF Memory Bugs Model. Comprises the MAD, MAL, MUS, and MDL phases, corresponding to the BF classes MAD, MMN (combining the MAL and MDL phases), and MUS. Shows the memory operations flow: blue arrows – the main flow; green arrows – flow for allocation at a specific address; red – extra flow in case of reallocation." >}}
 
 _`For simplicity, BF combines the MAL and MDL execution phases in one Memory Management Bugs (MMN) class.`_ 
 <br/><br/>

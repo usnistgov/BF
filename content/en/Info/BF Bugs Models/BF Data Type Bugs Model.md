@@ -19,13 +19,13 @@ Data Type bugs could be introduced at any of the _declaration_, _name resolution
 
 The BF Data Type Bugs model (Figure 1) helped us identify the phases and the operations where such bugs could occur. The phases correspond to the BF Data Type classes: _Declaration Bugs (DCL)_, _Name Resolution (NRS)_, _Type Conversion Bugs (TCV)_, and _Type Computation Bugs (TCM)_. All data type operations are grouped by phase. The presented proper flow of operations helps bugs/weaknesses caused by a missing operation.
 <br/><br/>
-{{< img src="images/BF Models/_DAT Model.svg" caption="Figure 1. BF Data Type Bugs Model. Comprises phases, corresponding to the BF classes DCL, NRS, TCV, and TCM. Shows the data type operations flow: blue arrows – the main flow; purple arrows – flow when resolved data types get bound to objects, functions, or generic data types according to their declarations; blue arrows – flow when casting (explicit conversion) is expected before the call; green arrows – flow when the value will get coerced (implicitly converted) to the parameter data type or the return data type, correspondingly" >}}
+{{< img src="images/BF Models/BF_DAT Model.svg" caption="Figure 1. BF Data Type Bugs Model. Comprises phases, corresponding to the BF classes DCL, NRS, TCV, and TCM. Shows the data type operations flow: blue arrows – the main flow; purple arrows – flow when resolved data types get bound to objects, functions, or generic data types according to their declarations; blue arrows – flow when casting (explicit conversion) is expected before the call; green arrows – flow when the value will get coerced (implicitly converted) to the parameter data type or the return data type, correspondingly" >}}
 <br/>
 The operations under DCL are on declaring entities and on defining objects data and functions implementations: _Declare_ and _Define_.
 
 The operations under NRS are on resolving referred names and on binding their data types and the objects data, and on resolving called functions and binding their implementations: _Refer_ and _Call_.The NRS operations are tied to the name resolution and binding that the Type System performs. Figure 2 shows the corresponding sub-model. Note that the object data value is bound via the _Initialize_ and _Write_ operations of the BF Memory Use Bugs (MUS) class.
 <br/><br/>
-{{< img src="images/BF Models/_DAT 2 Model.svg" caption="Figure 2. Name Resolution and Biding" >}}
+{{< img src="images/BF Models/BF_DAT 2 Model.svg" caption="Figure 2. Name Resolution and Biding" >}}
 <br/>
 The operations under TCV are on explicit conversion and on implicit conversion into a different data type of a passed in/out of a function data value: _Cast_ and _Coerce_.
 
