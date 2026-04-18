@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="159.73445mm"
+   height="79.484169mm"
+   viewBox="0 0 159.73445 79.484169"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="BF_INP Model.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.2502642"
+     inkscape:cx="138.77067"
+     inkscape:cy="149.9683"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="859"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.40347,-132.98295)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-147.00382,-35.748735)"
+       id="g19">
+      <path
+         d="m 736.5,733.592 c 0,-8.887 7.205,-16.092 16.092,-16.092 h 128.816 c 8.888,0 16.092,7.205 16.092,16.092 v 85.816 c 0,8.888 -7.204,16.092 -16.092,16.092 H 752.592 c -8.887,0 -16.092,-7.204 -16.092,-16.092 z"
+         stroke="#7b7b7b"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path1" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(805.881,734)"
+         id="text1">DVL</text>
+      <path
+         d="m 749.5,753.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 58.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -58.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path2" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         id="text2"
+         x="761.83356"
+         y="766">Validate</text>
+      <path
+         d="m 816.5,798.667 c 0,-2.301 1.866,-4.167 4.167,-4.167 h 59.666 c 2.302,0 4.167,1.866 4.167,4.167 v 16.666 c 0,2.302 -1.865,4.167 -4.167,4.167 h -59.666 c -2.301,0 -4.167,-1.865 -4.167,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path3" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         id="text3"
+         x="830.76782"
+         y="811">Sanitize</text>
+      <path
+         d="M 0.0675118,-0.326425 0.999586,-0.133652 C 1.0369,-0.125935 1.0726,-0.11188 1.10517,-0.0920959 L 2.02995,0.469818 C 2.06081,0.488566 2.08841,0.512201 2.11168,0.539802 L 3.91022,2.67261 c 0.01655,0.01964 0.0308,0.04114 0.04242,0.06404 l 1.68187,3.31406 1.52421,4.33899 1.28235,5.1153 0.98701,5.7007 0.63502,6.0926 0.2252,6.2898 0.2236,6.2672 0.6303,6.0477 0.9788,5.6542 1.2685,5.0618 1.4981,4.2692 L 16.22,63.5073 15.6255,63.809 14.2584,61.1087 12.7428,56.781 11.4641,51.6709 10.4791,45.972 9.84563,39.8791 9.62203,33.6119 9.40001,27.3673 8.77117,21.3193 7.79437,15.6669 6.52959,10.6103 5.04002,6.35241 3.35815,3.03835 3.40057,3.10239 1.60203,0.969573 1.68377,1.03956 0.758983,0.477643 0.864563,0.519198 -0.0675118,0.326425 Z M 15.9228,63.6582 16.5854,58.8966 19.9102,67.2 11.2727,64.8778 Z"
+         transform="matrix(0,1,1,0,783.5,774.5)"
+         id="path4" />
+      <path
+         d="m 702.506,682.167 10.68,0.198 10.609,0.579 20.626,2.195 9.861,1.568 9.439,1.846 8.938,2.099 8.354,2.328 7.687,2.532 6.938,2.711 6.105,2.865 5.191,2.996 4.195,3.106 c 0.015,0.01 0.028,0.022 0.041,0.035 l 3.077,3.16 c 0.018,0.019 0.034,0.04 0.048,0.062 l 0.833,1.402 -0.573,0.341 -0.833,-1.402 0.047,0.062 -3.077,-3.16 0.041,0.035 -4.132,-3.063 -5.141,-2.97 -6.065,-2.848 -6.903,-2.698 -7.658,-2.523 -8.328,-2.322 -8.913,-2.094 -9.415,-1.842 -9.828,-1.563 -20.591,-2.193 -10.585,-0.577 -10.68,-0.199 z m 112.335,29.853 2.919,-3.82 -1.19,8.865 -6.377,-6.271 z"
+         id="path5" />
+      <path
+         d="m 987.5,733.592 c 0,-8.887 7.205,-16.092 16.09,-16.092 h 127.82 c 8.89,0 16.09,7.205 16.09,16.092 v 85.816 c 0,8.888 -7.2,16.092 -16.09,16.092 h -127.82 c -8.885,0 -16.09,-7.204 -16.09,-16.092 z"
+         stroke="#7b7b7b"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#f2f2f2"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1055.59,734)"
+         id="text6">DVR</text>
+      <path
+         d="m 1000.5,754.5 c 0,-2.209 1.79,-4 4,-4 h 59 c 2.21,0 4,1.791 4,4 v 16 c 0,2.209 -1.79,4 -4,4 h -59 c -2.21,0 -4,-1.791 -4,-4 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path7" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         id="text7"
+         x="1018.6514"
+         y="766">Verify</text>
+      <path
+         d="m 1067.5,799.667 c 0,-2.301 1.87,-4.167 4.17,-4.167 h 58.66 c 2.3,0 4.17,1.866 4.17,4.167 v 16.666 c 0,2.302 -1.87,4.167 -4.17,4.167 h -58.66 c -2.3,0 -4.17,-1.865 -4.17,-4.167 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path8" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         id="text8"
+         x="1080.7042"
+         y="811.80713">Correct</text>
+      <path
+         d="m 0.066402,-0.326652 0.948318,0.192773 c 0.03687,0.007495 0.0722,0.021178 0.1045,0.04047 l 0.9409,0.561914 C 2.09103,0.486966 2.11875,0.510312 2.14219,0.537638 L 3.97206,2.67045 C 3.9889,2.69007 4.0034,2.71159 4.01526,2.73457 l 1.71118,3.31406 1.55091,4.33937 1.30481,5.1156 1.00429,5.7011 0.64615,6.093 0.2291,6.2902 0.2275,6.2672 0.6413,6.0473 0.9958,5.6539 1.2905,5.0614 1.524,4.2688 1.3813,2.6686 -0.5924,0.3058 -1.4168,-2.7505 -1.5422,-4.3281 -1.301,-5.1105 L 10.6675,45.9726 10.023,39.8793 9.79548,33.6121 9.56962,27.3679 8.92987,21.3203 7.93613,15.6682 6.64943,10.612 5.13407,6.35449 3.4229,3.04043 3.46609,3.10455 1.63623,0.971737 1.7183,1.04087 0.777402,0.478956 0.881911,0.519426 -0.066402,0.326652 Z M 16.2259,63.708 16.8293,58.9386 20.2571,67.2 11.5913,64.9854 Z"
+         transform="matrix(0,1,1,0,1033.5,774.5)"
+         id="path9" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(638.843,678)"
+         id="text9">Unchecked</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(656.256,694)"
+         id="text10">Data</text>
+      <path
+         d="m 1183.86,875.805 -29.56,-0.194 -34.63,-0.669 -34.08,-1.08 -33.26,-1.46 -32.17,-1.812 -15.59,-1.029 -15.214,-1.106 -14.805,-1.179 -14.362,-1.248 -13.884,-1.315 -13.372,-1.377 -12.827,-1.435 -12.247,-1.491 -11.633,-1.541 -10.985,-1.59 -10.304,-1.634 -9.587,-1.674 -8.838,-1.711 -8.054,-1.744 -7.237,-1.774 -6.386,-1.801 -5.502,-1.824 -4.586,-1.846 -3.639,-1.865 c -0.014,-0.007 -0.028,-0.015 -0.041,-0.025 l -2.622,-1.864 c -0.022,-0.015 -0.042,-0.034 -0.06,-0.055 l -1.598,-1.871 c -0.031,-0.036 -0.054,-0.078 -0.067,-0.124 l -0.54,-1.875 0.64,-0.184 0.541,1.874 -0.067,-0.124 1.598,1.871 -0.06,-0.055 2.621,1.864 -0.041,-0.025 3.584,1.84 4.547,1.831 5.473,1.815 6.364,1.795 7.219,1.77 8.04,1.742 8.825,1.709 9.578,1.672 10.294,1.632 10.977,1.589 11.626,1.541 12.241,1.489 12.821,1.435 13.367,1.377 13.879,1.314 14.357,1.248 14.801,1.179 15.205,1.105 15.59,1.028 32.16,1.812 33.25,1.46 34.07,1.079 34.62,0.669 29.56,0.195 z m 0,-0.333 -2.64,-4.017 7.97,4.052 -8.02,3.947 z"
+         id="path10" />
+      <path
+         d="m 897.5,776.167 h 84.364 v 0.666 H 897.5 Z m 84.364,0.333 -2.667,-4 8,4 -8,4 z"
+         id="path11" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1192.73,871)"
+         id="text11">Checked</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1203.14,887)"
+         id="text12">Data</text>
+      <path
+         d="m 702.502,682.167 34.13,0.198 33.867,0.578 33.333,0.933 32.531,1.261 31.464,1.566 15.249,0.889 14.881,0.955 14.481,1.019 14.047,1.078 13.579,1.136 13.08,1.19 12.545,1.24 11.979,1.288 11.378,1.332 10.744,1.373 10.08,1.411 9.37,1.447 8.65,1.478 7.87,1.507 7.08,1.532 6.25,1.556 5.38,1.576 4.48,1.594 3.56,1.611 1.26,0.788 -0.35,0.564 -1.18,-0.745 -3.51,-1.59 -4.45,-1.582 -5.35,-1.569 -6.23,-1.551 -7.06,-1.529 -7.86,-1.505 -8.64,-1.476 -9.37,-1.445 -10.065,-1.411 -10.737,-1.372 -11.372,-1.332 -11.972,-1.287 -12.541,-1.239 -13.074,-1.19 -13.575,-1.135 -14.043,-1.078 -14.476,-1.019 -14.878,-0.955 -15.243,-0.888 -31.456,-1.565 -32.525,-1.262 -33.325,-0.932 -33.86,-0.578 -34.13,-0.199 z m 361.088,30.818 1.35,-4.616 2.09,8.696 -8.21,-3.544 z"
+         id="path12" />
+      <path
+         d="m 1184.4,875.733 -6.12,-0.122 -11.36,-0.67 -11.19,-1.08 -10.92,-1.462 -10.56,-1.813 -10.12,-2.137 -9.58,-2.43 -8.95,-2.695 -8.23,-2.93 -7.44,-3.138 -6.54,-3.316 -5.56,-3.467 -4.5,-3.593 c -0.01,-0.011 -0.02,-0.023 -0.03,-0.037 l -3.3,-3.658 c -0.02,-0.019 -0.03,-0.04 -0.05,-0.062 l -2.04,-3.717 c -0.02,-0.031 -0.03,-0.064 -0.04,-0.099 l -0.7,-3.746 0.66,-0.122 0.7,3.745 -0.04,-0.099 2.05,3.717 -0.05,-0.063 3.3,3.658 -0.04,-0.037 4.43,3.547 5.51,3.439 6.5,3.296 7.4,3.124 8.2,2.92 8.93,2.687 9.55,2.424 10.09,2.132 10.54,1.81 10.89,1.458 11.17,1.079 11.34,0.668 6.11,0.123 z m 0,-0.333 -2.58,-4.053 7.92,4.16 -8.08,3.839 z"
+         id="path13" />
+      <path
+         d="m 636.5,920.167 h 547.52 v 0.666 H 636.5 Z m 547.52,0.333 -2.66,-4 8,4 -8,4 z"
+         id="path14" />
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1198.75,918)"
+         id="text14">Data</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1198.75,934)"
+         id="text15">L</text>
+      <text
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(1204.42,934)"
+         id="text16">ifetime</text>
+      <text
+         fill="#1d2d35"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="13px"
+         transform="translate(825.542,647)"
+         id="text17">BF Input/Output Check (_INP) Bugs Model</text>
+      <text
+         fill="#7f7f7f"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="12px"
+         transform="translate(638.401,936)"
+         id="text18">BF,</text>
+      <text
+         fill="#7f7f7f"
+         font-family="'Calibri Light', 'Calibri Light_MSFontService', sans-serif"
+         font-weight="300"
+         font-size="12px"
+         transform="translate(656.068,936)"
+         id="text19">I. Bojanova</text>
+    </g>
+  </g>
+</svg>
