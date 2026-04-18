@@ -22,7 +22,7 @@ carousel: true
 <div class="col-5">
 <div>
 <div style="text-align:center">
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1(simple)-0.png"/> 
 </div>
 </div>
 
@@ -50,7 +50,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 
 <div class="carousel-item active" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-1.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-1.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-1.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-1.png"/> 
 <td>
 
 <br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
@@ -60,7 +60,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 			
 <div class="carousel-item" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-2.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-2.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-2.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-2.png"/> 
 <td>
 
 <br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
@@ -70,7 +70,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 			
 <div class="carousel-item" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-3.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-3.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-3.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-3.png"/> 
 <td>
 
 <br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
@@ -80,7 +80,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 			
 <div class="carousel-item" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-4.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-4.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-4.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-4.png"/> 
 <td>
 
 <br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
@@ -90,7 +90,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 			
 <div class="carousel-item" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-5.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-5.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-5.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-5.png"/> 
 <td>
 
 <br/>[CWE-468-Example-1](https://cwe.mitre.org/data/definitions/468.html)
@@ -100,7 +100,7 @@ Information Exposure (IEX)  (confidentiality loss) security failure.
 			
 <div class="carousel-item" style="text-align:center">
 				
-<img src="/images/BFVUL/BFVUL-CWE-468-Example-1-6.png" alt="/images/BFVUL/BFVUL-CWE-468-Example-1-6.png"/> 
+<img src="images/BFVUL/BFVUL-CWE-468-Example-1-6.png" alt="images/BFVUL/BFVUL-CWE-468-Example-1-6.png"/> 
 </div>
 			
 </div>
