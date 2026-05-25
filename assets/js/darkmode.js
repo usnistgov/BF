@@ -1,3 +1,5 @@
+//xxx uncomment -- for dark mode
+
 const mode = document.getElementById('mode');
 
 if (mode !== null) {

@@ -81,6 +81,10 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 */
 
+.dark-mode svg {
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.4));
+}
+
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
   background-color: rgba(33, 37, 41, 0.95);

@@ -1,3 +1,5 @@
+//xxx uncomment -- for dark mode
+
 const globalDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 const localMode = localStorage.getItem('theme');
 
