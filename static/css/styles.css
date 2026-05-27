@@ -584,20 +584,9 @@ a.text-info:focus, a.text-info:hover {
   width: 25% !important;
 }
 
-:root {
-  --text-primary: #3b82f6;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-primary: #60a5fa;
-  }
-}
-
 .text-primary {
-  color: var(--text-primary);
+  color: #3b82f6 !important;
 }
-
 .col {
   -ms-flex-preferred-size: 0;
       flex-basis: 0;
