@@ -17,8 +17,8 @@ url: /
 
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
-# NIST Bugs Framework (BF): <br> <l style="color: #0428AE">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
-<!-- ## <l style="color: #0428AE">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l> -->
+# NIST Bugs Framework (BF): <br> <l style="color: #6366f1">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+<!-- ## <l style="color: #6366f1">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l> -->
 <!-- Software Developers 'Best Friend' -->
 _____________________________________
 
@@ -126,13 +126,13 @@ BF Hands On and Potential Impacts <br/>
 
 _____________________________________
 
-BF PATENT PENDING<br/>
-<l style="font-size: 16px;>U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+<l style="font-size: 16px; color: #6366f1">BF PATENT PENDING</l><br/>
+<l style="font-size: 16px;">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
-BF CITATION: <br/>
-<l style="font-size: 16px;>Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+<l style="font-size: 16px; color: #6366f1">BF CITATION</l><br/>
+<l style="font-size: 16px;">Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
 
-BF WEBSITE CITATION: <br/> 
-<l style="font-size: 16px;>Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://pages.nist.gov/BF](https://pages.nist.gov/BF).</l>
+<l style="font-size: 16px; color: #6366f1">BF WEBSITE CITATION</l> <br/> 
+<l style="font-size: 16px;">Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://pages.nist.gov/BF](https://pages.nist.gov/BF).</l>
 
 <!-- <l style="font-size: 15px;">Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/info/contact/bf-contact).  -->
