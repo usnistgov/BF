@@ -127,12 +127,12 @@ BF Hands On and Potential Impacts <br/>
 _____________________________________
 
 BF PATENT PENDING<br/>
-<l style="font-size: 16px; color: #7D3368">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+<l style="font-size: 16px; color: #6366f1">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
 BF CITATION: <br/>
-<l style="font-size: 16px; color: #7D3368"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+<l style="font-size: 16px; color: #6366f1"> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
 
 BF WEBSITE CITATION: <br/> 
-<l style="font-size: 16px; color: #7D3368"> Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://pages.nist.gov/BF](https://pages.nist.gov/BF).</l>
+<l style="font-size: 16px; color: #6366f1"> Bojanova I, NIST Bugs Framework (BF), Accessed: <span id="currentDate"></span>. [Online]. Available: [https://pages.nist.gov/BF](https://pages.nist.gov/BF).</l>
 
-<!-- <l style="font-size: 15px; color: #7D3368">Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/info/contact/bf-contact).  -->
+<!-- <l style="font-size: 15px;">Note: Any BF-application publication that lists classes not featured on this website is a misrepresentation of BF. If in doubt, please [seek guidance from the BF PI](/info/contact/bf-contact).  -->
