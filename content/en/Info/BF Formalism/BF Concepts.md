@@ -44,7 +44,7 @@ The BF defines the concepts of bug, fault, error, final error, weakness, vulnera
 
 The BF security concept definitions are contextually visualized in Figure 1. Following the blue solid initial arrow, a security vulnerability may start with a software or firmware _security bug_ (i.e., a code or specification defect within an operation). Following the green dashed arrow, a vulnerability chain may also start from a hardware defect-induced _fault_.
 
-{{< img src="images/BF Models/BF Security Concepts.svg" height="750" caption="Figure 1. BF security concepts." >}}
+{{< img src="images/BF Models/BF Security Concepts.svg" height="750" caption="Figure 1. BF security concepts" >}}
 
 Fixing the bug or hardware defect-induced fault will resolve the vulnerability, as well as any other vulnerability with the same root cause. Fixing a propagated fault, including the cause of the final error at the sink, will only mitigate the vulnerability. Occasionally, several vulnerabilities must converge at their final errors for an exploit to be harmful. Fixing the bug or starting fault of at least one of the chains would avoid the failure. An exploit of a vulnerability may result in a fault starting a new faults-only vulnerability. Fixing the bug or starting fault of the first vulnerability will resolve the entire chain of vulnerabilities.
 
