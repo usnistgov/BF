@@ -585,8 +585,9 @@ a.text-info:focus, a.text-info:hover {
 }
 
 .text-primary {
-  color: #3b82f6 !important;
+  color: #6366f1 !important;
 }
+
 .col {
   -ms-flex-preferred-size: 0;
       flex-basis: 0;
