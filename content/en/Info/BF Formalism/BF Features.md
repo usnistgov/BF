@@ -14,9 +14,9 @@ title: "BF Features"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Bugs Framework (BF) Features <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">Bugs Framework (BF) Features <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
-## Current State of the Art
+## <l style="color: #6366f1">Current State of the Art</l>
 
 The current state of the art in describing and linking software security weaknesses and vulnerabilities are the Common Weakness Enumeration (CWE), the Common Vulnerabilities and Exposures (CVE), and the National Vulnerabilities Database (NVD). CWE is community-developed list of software and hardware weaknesses types, CVE is a catalog of publicly disclosed cybersecurity vulnerabilities, and NVD links CVEs to CWEs and assigns 'Common Vulnerability Scoring System' (SVCC) severity scores.
 
@@ -24,11 +24,11 @@ CWE, CVE, and NVD are widely used, but they have some problems. Many CWEs and CV
 
 The Bugs Framework (BF) aims to address all these CWE and CVE problems. It has the expressiveness power to clearly describe any software bug or weakness, underlying any vulnerability.
 
-## BF Features
+## <l style="color: #6366f1">BF Features</l>
 
 To solve the CWE and CVE problems of imprecise descriptions and unclear causality, BF is being developed as a formal  classification system. The BF description of a vulnerability provides causal relationships – forming a chain of underlying weaknesses, leading to a failure. To avoid CWEs gaps and overlaps, BF is being developed as a complete, orthogonal taxonomy with strict causation and propagation rules. The BF Formal Language and tools guide streight frward weakness and vulnerability specification or backtracking based generation of pre-labeled datasets of vulnerability specifications.
 
-### Classification
+### <l style="color: #6366f1">Classification</l>
 
 The Bugs Framework (BF) approach is different from the CWE exhaustive list approach. BF is a classification system! 
 
@@ -43,7 +43,7 @@ So, each BF class is a taxonomic  category  of  a  weakness type, defined by:
 
 It relates to a distinct phase of software execution, the operations specific for that phase and the operands required as input to those operations. Operations or operands improperness define the causes. 
 
-### Causation
+### <l style="color: #6366f1">Causation</l>
 
 BF describes a _bug_ or a _weakness_ as an improper state and its transition. The transitions is to another weakness or to a failure. An improper state is defined by an (`operation`, `operand{{< sub "1" >}}`, `···`, `operand{{< sub "n" >}}`) tuple, for which at least one element is improper. 
 
@@ -55,7 +55,7 @@ The initial state (depicted in blue on Figure 1) is always caused by a bug; a co
 
 A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or is a final error, leading to a failure. The attributes describe the operations and the operands. They help us understand the severity of the bug or the weakness. The BF description of a weakness is an instance of a taxonomic BF class with one operation, one cause, one consequence, and their attributes. Any vulnerability then can be described as a chain of such instances and their consequence–cause transitions.
 
-### Propagation 
+### <l style="color: #6366f1">Propagation</l> 
 
 BF describes a _vulnerability_ as a chain of improper states and their transitions (see Figure 2). Each improper state corresponds to an instance of a BF class. The initial state has an improper operation over proper operands. The transition states have proper operations with at least one improper operand. All improper states propagate by the error from one state becoming the fault for the next state. I other words, the transition from the initial state is by improper operation (an operation that has a bug) over proper operands; the transitions from intermediate states are by proper operations with at least one improper operand (the operand is at fault).
 
@@ -63,7 +63,7 @@ BF describes a _vulnerability_ as a chain of improper states and their transitio
 {{<img src="images/BF Models/BF Vulnerability.svg" caption="Figure 2. BF features: Chaining weaknesses – A vulnerability as a chain of improper states and their transitions" >}}
 <br/>
 
-### Converging
+### <l style="color: #6366f1">Converging</l>
 
 In some cases, several vulnerabilities must be present for an exploit to be harmful. The final errors resulting from different chains converge to cause a failure (see  Figure 3). The bug in at least one of the chains must be fixed to avoid that failure. Operations or operands improperness define the causes. A consequence is the result of the operation over the operands. It becomes the cause for a next weakness or a failure. 
 
@@ -71,7 +71,7 @@ In some cases, several vulnerabilities must be present for an exploit to be harm
  {{<img src="images/BF Models/BF Converging.svg" caption="Figure 3. Converging software security vulnerabilities, leading to a security failure" >}}
 <br/>
 
-### Backtracking
+### <l style="color: #6366f1">Backtracking</l>
 
 The improper operation or improper operand is the cause for that weakness. The improper result from an operation over its operands is the consequence from that weakness, and it becomes a cause for a next weakness or a failure. Knowing the failure and all the transitions at execution, we should be able to find the bug (see Figure 4) – simply go backwards by operand until an operation is improper – fixing the bug within that operation will resolve the vulnerability.
 

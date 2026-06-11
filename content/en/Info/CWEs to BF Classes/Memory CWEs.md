@@ -13,7 +13,7 @@ title: "Memory CWEs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Memory CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">Memory CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 BF Memory Bugs taxonomy can be used by bug reporting tools, as it is a structured extension over memory-related CWEs. All Memory Error consequences from the BF classes relate to one or more CWEs.
 

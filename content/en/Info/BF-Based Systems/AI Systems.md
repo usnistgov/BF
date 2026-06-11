@@ -14,7 +14,7 @@ title: "BF for AI"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF–Based ML/AI Systems <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF–Based ML/AI Systems <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 > From AI@NIST Day 2025:
 > * AI can reinvent Cybersecurity R&D — but only if we do it right.

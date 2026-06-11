@@ -12,12 +12,12 @@ title: "MAD"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Memory Addressing (MAD) Bugs Class 
+## <l style="color: #6366f1">Memory Addressing (MAD) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Memory Addressing (MAD) class – The pointer to an object is initialized, dereferenced, repositioned, or reassigned to an improper memory address.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _MEM>MAD 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_MEM?class=MAD](https://10.210.91.216:7654/BFTaxonomy/PPT/_MEM?class=MAD)

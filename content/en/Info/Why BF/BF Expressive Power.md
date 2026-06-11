@@ -14,7 +14,7 @@ title: "BF Expressive Power"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Expressive Power <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Expressive Power <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 Once fully developed, the Bugs Framework will have the expressive power to clearly describe any software or hardware bug/weakness, underlying any vulnerability. It is being built as a formal classification system that aims to augment the current state or the art weakness and vulnerability repositories:
 
@@ -22,7 +22,7 @@ Once fully developed, the Bugs Framework will have the expressive power to clear
 *   [Common Vulnerabilities and Exposures (CVE)](https://cve.mitre.org/) – a catalog of publicly disclosed cybersecurity vulnerabilities. Over 25,000 were documented in 2022 only.
 *   [National Vulnerabilities Database (NVD)](https://nvd.nist.gov/) – the US government repository that links all CVEs to CWEs.
 
-## Repository Problems
+## <l style="color: #6366f1">Repository Problems</l>
 
 The current state of the art in describing security weaknesses and vulnerabilities are the CWE and CVE. The current state of the art in labeling security weaknesses and vulnerabilities is the NVD, which assigns to a CVE the CWE weakness type that most closely matches the vulnerability. The Known Exploited Vulnerabilities (KEV) catalog is also closely related to the CVE. 
 

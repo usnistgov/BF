@@ -12,12 +12,12 @@ title: "DVL"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Data Validation (DVL) Bugs Class 
+## <l style="color: #6366f1">Data Validation (DVL) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Data Validation (DVL) class – Data are validated (i.e., syntax check) or sanitized (i.e., escape, filter, or repair) improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 
 {{< img src="images/BF Classes/INP/DVL.svg" >}}
@@ -26,7 +26,7 @@ Data Validation (DVL) class – Data are validated (i.e., syntax check) or sanit
 <table>
 <tr>
 <td>
-<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+<button class="btn btn-primary " style="background-color:#6366f1; border-color:#6366f1; color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
 </td>
 </tr>
 </table>

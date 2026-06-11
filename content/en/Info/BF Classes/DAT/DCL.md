@@ -12,12 +12,12 @@ title: "DCL"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Declaration (DCL) Bugs Class 
+## <l style="color: #6366f1">Declaration (DCL) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Declaration (DCL) class – An object, a function, a type, or a namespace is declared or defined improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _DAT>DCL 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=DCL)

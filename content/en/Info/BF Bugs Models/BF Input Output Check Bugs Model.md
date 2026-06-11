@@ -13,7 +13,7 @@ title: "Input/Output Check Bugs Model"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Input/Output Check (\_INP) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Input/Output Check (\_INP) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 Data should be checked to ensure proper results from its processing. It should adhere to object data types acceptable by the software. Bojanova and Galhardo, define an object as a piece of memory with well-defined size that is used to store primitive data or a data structure. As input, primitive data are checked and sanitized on string-of-characters level. A character – e.g., an ASCII (American Standard Code for Information Interchange) character – is a single symbol, such as an alphabet letter, a numeric digit, or a punctuation mark. Data structures in turn are built on primitive data but can also have a higher level of syntax and semantics rules.
 
@@ -34,7 +34,7 @@ Verification is about accepting or rejecting data based on its semantics: it che
 
 Data check bugs could be introduced at any of the _data validation_ and _data verification_ phases. Each bug or weakness involves one data check operation: validate, sanitize, verify, or correct. Each operation is over already-canonicalized1 data and the policy (the rules) against which it gets checked.
 
-## BF Input/Output Safety
+## <l style="color: #6366f1">BF Input/Output Safety</l>
 
 The BF Input/Output (_INP) Bugs Model addresses temporal input/output safety by defining the proper flow of operations along the x-axis. For example, input data must be validated and sanitized to aviod injection. 
 

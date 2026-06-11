@@ -12,12 +12,12 @@ title: "TCM"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Type Computation (TCM) Bugs Class 
+## <l style="color: #6366f1">Type Computation (TCM) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Type Computation (TCM) class – An arithmetic expression (over numbers, strings, or pointers) is calculated improperly, or a boolean condition is evaluated improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _DAT>TCM 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=TCM)

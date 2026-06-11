@@ -12,12 +12,12 @@ title: "MUS"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Memory Use (MUS) Bugs Class 
+## <l style="color: #6366f1">BF Memory Use (MUS) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Memory Use (MUS) class – An object is initialized, read, written, or cleared improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 
 <!-- {{< img src="images/BF Classes/MEM/MUS.svg" >}} -->
@@ -27,7 +27,7 @@ Memory Use (MUS) class – An object is initialized, read, written, or cleared i
 <table>
 <tr>
 <td>
-<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+<button class="btn btn-primary " style="background-color:#6366f1; border-color:#6366f1; color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
 </td>
 </tr>
 </table>

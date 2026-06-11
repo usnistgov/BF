@@ -13,7 +13,7 @@ title: "Data Type Bugs Model"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Data Type (\_DAT) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Data Type (\_DAT) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 Data Type bugs could be introduced at any of the _declaration_, _name resolution_, _data type conversion_, or _data type related computation" phases. Each data type related bug or weakness involves one data type operation: _Declare_, _Define_, _Refer_, _Call_, _Cast_, _Coerce_, _Calculate_, or _Evaluate_.
 
@@ -33,7 +33,7 @@ The operations under TCM are on calculating (an arithmetic operation – part of
 
 The possible flow between operations from different phases is depicted with arrows in Figure 1. A declared and defined entity is referred in source code via its name. Names, referred to in remote scopes, get resolved via resolved names- paces; resolved data types get bound to objects, functions, or generic data types according to their declarations (see the purple arrow flow). A resolved and bound object may be converted to another data type and used in computations as an argument or as a return of a called function, or to call a member function. A passed in argument is expected to be of the declared parameter data type and the passed out result is expected to be of the return data type. Otherwise, casting (explicit conversion) is expected before the call (see the blue arrows flow) or the value will get coerced (implicitly converted) to the parameter data type or the return data type, correspondingly (see the green arrows flow). Note that the green arrows flow is about passed in/out objects – it starts only from NRS Call, it never starts from DCL Declare. The presented operations flow helps in identifying possible chains of bugs and weaknesses.
 
-## BF Type Safety
+## <l style="color: #6366f1">BF Type Safety</l>
 
 The BF Data Type (_DAT)  Bugs Model addresses temporal type safety by defining the proper flow of operations along the x-axis. For example, data must declared propely to aviod wrap-around (e.g., integer overflow). 
 

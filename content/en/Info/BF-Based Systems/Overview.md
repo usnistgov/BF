@@ -14,7 +14,7 @@ title: "Overview"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF–Based Systems<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF–Based Systems<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 The BF supports the development of BF-based systems that solve specific cybersecurity-related problems – bug identification and triaging, vulnerability detection, analysis, prioritization, reporting, and resolution or mitigation. 
 

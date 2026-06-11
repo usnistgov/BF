@@ -13,7 +13,7 @@ title: "Input/Output Check CWEs"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# Input/Output Check CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">Input/Output Check CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 BF Input/Output Check taxonomy can be used by bug reporting tools, as it is a structured extension over input, output, and injection-related CWEs. All Input/Output Check Error consequences from the BF classes relate to one or more CWEs.
 

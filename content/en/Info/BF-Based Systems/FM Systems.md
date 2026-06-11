@@ -14,7 +14,7 @@ title: "FM Systems"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF–Based Formal Methods (FM) Systems <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF–Based Formal Methods (FM) Systems <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 * FM can reinvent Secure Programming R&D — but only if we do it right.
 

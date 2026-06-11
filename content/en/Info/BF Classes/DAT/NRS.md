@@ -12,12 +12,12 @@ title: "NRS"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Name Resolution (NRS) Bugs Class 
+## <l style="color: #6366f1">Name Resolution (NRS) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Name Resolution (NRS) class – The name of an object, a function, or a type is resolved improperly or bound to an improper type or implementation.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _DAT>NRS 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=NRS](https://10.210.91.216:7654/BFTaxonomy/PPT/_DAT?class=NRS)
@@ -27,11 +27,11 @@ Name Resolution (NRS) class – The name of an object, a function, or a type is 
 
 ______________________________________
 
-<l style="font-size: 16px; color: #6366f1">BF PATENT PENDING</l><br/>
-<l style="font-size: 16px;">U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
+BF PATENT PENDING<br/>
+<l style="font-size: 16px;>U.S. Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.</l>  <br/>
 
-<l style="font-size: 16px; color: #6366f1">BF CITATION</l><br/>
-<l style="font-size: 16px;">Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
+BF CITATION: <br/>
+<l style="font-size: 16px;> Bojanova I (2024) Bugs Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP), NIST SP 800-231. [https://doi.org/10.6028/NIST.SP.800-231](https://doi.org/10.6028/NIST.SP.800-231)</l>  <br/>
 
 _______________________________
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).

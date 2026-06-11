@@ -14,7 +14,7 @@ title: "BF Impact"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Impact <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Impact <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 The Bugs Framework (BF) comprises a systematic approach and methodologies for the classification of bugs and faults per orthogonal by operation execution phases, formal specification of weaknesses and vulnerabilities, definition of secure coding principles, generation of comprehensively labeled weakness and vulnerability datasets and vulnerability classifications, and development of BF-based algorithms and systems. 
 

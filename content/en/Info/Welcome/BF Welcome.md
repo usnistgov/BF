@@ -17,13 +17,14 @@ url: /
 
 <!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
 <!-- <div style="text-indent: 40px"> </div>-->
-# NIST Bugs Framework (BF): <br> <l style="color: #6366f1">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">NIST Bugs Framework (BF) ~ Software developers’ and testers’ "Best Friend" ~ <br> Formalizing Cybersecurity Security Weaknesses and Vulnerabilities</l> <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+
 <!-- ## <l style="color: #6366f1">Formalizing Software Security Bugs, Weaknesses, and Vulnerabilities</l><l style="color: black">!<l/><br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l> -->
 <!-- Software Developers 'Best Friend' -->
 _____________________________________
 
-[NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
 [NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231) [NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)
+[NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
 
 `The US Government has filed Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST. To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`
 

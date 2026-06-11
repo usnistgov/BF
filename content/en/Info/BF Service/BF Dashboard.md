@@ -14,7 +14,7 @@ title: "BF Services Dashboard"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Dashboard<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Dashboard<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 The BF Services Dashboard provides access to the BF Services, as well as to the BF Tool App.
 

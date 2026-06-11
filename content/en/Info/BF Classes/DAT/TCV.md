@@ -12,12 +12,12 @@ title: "TCV"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Type Conversion (TCV) Bugs Class 
+## <l style="color: #6366f1">Type Conversion (TCV) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Type Conversion (TCV) class – Data are converted or coerced into other type improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 
 {{< img src="images/BF Classes/DAT/TCV.svg" >}}
@@ -26,7 +26,7 @@ Type Conversion (TCV) class – Data are converted or coerced into other type im
 <table>
 <tr>
 <td>
-<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
+<button class="btn btn-primary " style="background-color:#6366f1; border-color:#6366f1; color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTable" aria-expanded="false" aria-controls="collapseTable">Show/Hide Definitions</button>
 </td>
 </tr>
 </table>

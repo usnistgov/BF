@@ -14,7 +14,7 @@ title: "BF Tool APP"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Tool APP for Formal Specification of Security Vulnerabilities<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Tool APP for Formal Specification of Security Vulnerabilities<br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 The BF Tool APP is a Web application allows users to create a new BF Vulnerability specification, save it in the BF database, download it as a machine-readable base (.bfv), full (.bfvul), or core (.bff) XML or JSON file format, and open or upload and browse previously created BF specifications. 
 

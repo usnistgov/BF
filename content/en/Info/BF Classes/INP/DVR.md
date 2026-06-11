@@ -12,12 +12,12 @@ title: "DVR"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Data Verification (DVR) Bugs Class 
+## <l style="color: #6366f1">Data Verification (DVR) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Data Verification (DVR) class – Data are verified (i.e., semantics check) or corrected (i.e., assign or remove) improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _INP>DVR 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_INP?class=DVR](https://10.210.91.216:7654/BFTaxonomy/PPT/_INP?class=DVR)

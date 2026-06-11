@@ -13,7 +13,7 @@ title: "BF Contact Us"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Contact <br/> _`Irena Bojanova, Ph.D., Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Contact <br/> _`Irena Bojanova, Ph.D., Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 </br>
 Do not hesitate to reach out for guidance and demonstrations on the Bugs Framewrok (BF) Taxonomy, Formal Language, Tools, and Sevices. 
 

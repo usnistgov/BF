@@ -13,7 +13,7 @@ title: "Memory Bugs Model"
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# BF Memory (\_MEM) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
+# <l style="color: #6366f1">BF Memory (\_MEM) Bugs Model <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 Each memory related bug or fault involves one memory operation. Each _operation_ is over a region of memory or over the address needed to reach it. That memory is used for storing data and has an important property: it is finite. It has _boundaries_ and it has _size_. This piece of memory, with a well-defined size is called an _object_; It is of a primitive data type or a data structure. The memory address should be held by at least one _pointer_ or determined as an offset on the stack, otherwise the object will be unreachable. The operands to a memory operation relate to the object properties: data (value), data type, address, and size.  
 
@@ -41,7 +41,7 @@ After an object is allocated and its pointer is initialized, it can be used via 
 
 If an object is owned by more than one pointer, MMN Reallocate (i.e., MAL Reallocate and MDL Reallocate) should be followed by MAD Reposition over all these owners. A MMN Deallocate (i.e., MDL Deallocate) an object operation should properly be followed by MAD Reassign of all its pointers to either `NULL` or another object.
 
-## BF Memory Safety
+## <l style="color: #6366f1">BF Memory Safety</l>
 
 The BF Memory (_MEM) Bugs Model addresses temporal memory safety along the x-axis via the flow of operations over the owner (pointer) or the object. It also addresses spatial memory safety along the y-axis via the operations that affect the object boundaries. The BF [Memory Addressing Bugs (MAD)](/info/bf-classes/_mem/mad/), [Memory Management Bugs (MMN)](/info/bf-classes/_mem/mmn/), and [Memory Use Bugs (MUS)](/info/bf-classes/_mem/mus/) classes define the sets of all possible causes (bugs and faults) and consequences (errors and final errors).
 

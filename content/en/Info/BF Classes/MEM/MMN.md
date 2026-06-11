@@ -12,12 +12,12 @@ title: "MMN"
 	gtag('config', 'G-PJ364XPP9F');
 </script>
 
-## BF Memory Management (MMN) Bugs Class 
+## <l style="color: #6366f1">BF Memory Management (MMN) Bugs Class </l>
 
-#### Definition
+#### <l style="color: #6366f1">Definition</l>
 Memory Management (MMN) class – An object is allocated, resized, or deallocated improperly.
 
-####  Taxonomy
+#### <l style="color: #6366f1">Taxonomy</l>
 
 - BF _MEM>MMN 
 [https://10.210.91.216:7654/BFTaxonomy/PPT/_MEM?class=MMN](https://10.210.91.216:7654/BFTaxonomy/PPT/_MEM?class=MMN)
