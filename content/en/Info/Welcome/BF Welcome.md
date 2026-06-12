@@ -14,17 +14,10 @@ url: /
 
   gtag('config', 'G-PJ364XPP9F');
 </script>
-
-<!-- <l style="color: #7D3368; font-size:32px">xxx</> -->
-<!-- <div style="text-indent: 40px"> </div>-->
 # <l style="color: #6366f1">NIST Bugs Framework (BF)</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_ 
-#### <l style="color: #6366f1">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities, BF aims to become Developers’ and Testers’ "Best Friend")</l> 
-    [NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231) [NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)
-    [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
-
     The US Government has filed Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. 
     Inventor: Irena Bojanova, NIST. To obtainin a license, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).
-
+#### <l style="color: #6366f1">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities, BF aims to become Developers’ and Testers’ "Best Friend")</l> 
 The Bugs Framework (BF) is a classification of security bugs and related faults that features a formal language for the unambiguous specification of software and hardware security weaknesses and vulnerabilities. BF bugs models, multidimensional weakness and failure taxonomies, and vulnerability models define the lexis, syntax, and semantics of the BF formal language and form the basis for the definition of secure coding principles. The BF formalism supports a deeper understanding of vulnerabilities as chains of weaknesses that adhere to strict causation, propagation, and composition rules. It enables the generation of comprehensively labeled weakness and vulnerability datasets and multidimensional vulnerability classifications. It also enables the development of new algorithms for code analysis and the use of AI models and formal methods to identify bugs and detect, analyze, prioritize, and resolve or mitigate vulnerabilities. 
 
 The BF is a formal system that comprises:
@@ -64,6 +57,9 @@ The BF bugs models and weakness taxonomies are developed iteratively according t
 The BF formalism guarantees precise descriptions with clear causality of weaknesses (including [CWE](https://cwe.mitre.org/) and vulnerabilities (including [CVE](https://cve.mitre.org/)) and complete, orthogonal, and context-free weakness-type coverage. It forms the basis for the formal definition of secure coding principles, such as memory safety. It also enables the creation of comprehensively labeled weakness and vulnerability datasets, vulnerability classifications, and BF-based systems for bug identification and vulnerability detection, analysis, and resolution or mitigation.
 
 _____________________________________
+    [NIST Releases SP 800-231](https://csrc.nist.gov/News/2024/bugs-framework-nist-publishes-sp-800231) [NIST CSRC Publications: SP 800-231](https://csrc.nist.gov/pubs/sp/800/231/final)    
+    [NIST SP 800-231 Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://doi.org/10.6028/NIST.SP.800-231) <br>
+
 
 IN THE NEWS: <br>
 [NIST Launches Bugs Framework’ to promote precision in cyber vulnerability classification](https://insidecybersecurity.com/share/16087), Inside Cybersecurity, acob Livesay, July 31, 2024 <br>
