@@ -152,13 +152,7 @@
 [[main]]
   name = "BF Process"
   weight = 80
-  identifier = "BF Process"
-[[main]]
-  name = "BF Process"
-  weight = 1
-  identifier = "BF Process"
   url = "/Info/BF Process/BF Process"
-  parent = "BF Process"
 
 [[main]]
   name = "Why BF"
