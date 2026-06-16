@@ -1,5 +1,5 @@
 ---
-weight: 7
+weight: 12
 bookHidden: true
 bookCollapseSection: true
 title: "Contact"

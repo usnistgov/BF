@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 2
 bookCollapseSection: false
 title: "BF Formal Language"
 ---

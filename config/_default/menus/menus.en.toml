@@ -98,25 +98,8 @@
   parent = "CWEs to BF Classes"
 
 [[main]]
-  name = "BF Service"
-  weight = 60
-  identifier = "BF Service"
-[[main]]
-  name = "BF Tool APP"
-  weight = 1
-  identifier = "BF Tool APP"
-  url = "/Info/BF Service/BF Tool APP"
-  parent = "BF Service"
-[[main]]
-  name = "BF Dashboard"
-  weight = 2
-  identifier = "BF Dashboard"
-  url = "/Info/BF Service/BF Dashboard"
-  parent = "BF Service"
-
-[[main]]
   name = "BF-Based Systems"
-  weight = 66
+  weight = 60
   identifier = "BF-Based Systems"
 [[main]]
   name = "Overview"
@@ -150,8 +133,36 @@
   parent = "BF-Based Systems"
 
 [[main]]
+  name = "BF Service"
+  weight = 70
+  identifier = "BF Service"
+[[main]]
+  name = "BF Tool APP"
+  weight = 1
+  identifier = "BF Tool APP"
+  url = "/Info/BF Service/BF Tool APP"
+  parent = "BF Service"
+[[main]]
+  name = "BF Dashboard"
+  weight = 2
+  identifier = "BF Dashboard"
+  url = "/Info/BF Service/BF Dashboard"
+  parent = "BF Service"
+
+[[main]]
+  name = "BF Process"
+  weight = 80
+  identifier = "BF Process"
+[[main]]
+  name = "BF Process"
+  weight = 1
+  identifier = "BF Process"
+  url = "/Info/BF Process/BF Process"
+  parent = "BF Process"
+
+[[main]]
   name = "Why BF"
-  weight = 67
+  weight = 90
   identifier = "Why BF"
 [[main]]
   name = "BF Expressive Power"
@@ -168,11 +179,11 @@
 
 [[main]]
   name = "Background"
-  weight = 80
+  weight = 100
   identifier = "BackgroundMenu"
 [[main]]
   name = "Organizational Structures"
-  weight = 2
+  weight = 1
   identifier = "Organizational Structures"
   url = "/Info/Background/Organizational Structures"
   parent = "BackgroundMenu"
@@ -185,12 +196,12 @@
   
 [[main]]
   name = "Publications"
-  weight = 90
+  weight = 110
   url = "/Info/Publications/BF Publications"
   
 [[main]]
   name = "Contact"
-  weight = 100
+  weight = 120
   url = "/Info/Contact/BF Contact"
 # [[social]]
 #   name = "GitHub"

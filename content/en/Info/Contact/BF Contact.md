@@ -1,5 +1,6 @@
 ---
 weight: 7
+bookCollapseSection: false
 title: "BF Contact Us"
 ---
 
