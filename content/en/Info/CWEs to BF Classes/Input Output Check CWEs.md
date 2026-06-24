@@ -77,4 +77,4 @@ _______________________________
 
 D3 script DEMO
 <div id="container"></div>
-<script type="module" src="./js/forcedirectedgraph.js"></script>
+<script type="module" src="/BF/js/forcedirectedgraph.js"></script>
