@@ -31,17 +31,17 @@ const svg = d3.create("svg")
     .attr("style", "max-width: 100%; height: auto;");
 
 // --- NEW: Define the arrowhead marker ---
-    svg.append("defs").append("marker")
-    .attr("id", "arrowhead")
-    .attr("viewBox", "0 -5 10 10")
-    .attr("refX", 5)            // Control point inside the marker
-    .attr("refY", 0)
-    .attr("markerWidth", 6)     // Scales the overall width
-    .attr("markerHeight", 6)    // Scales the overall height
-    .attr("orient", "auto")     // Ensures the arrow rotates to match the line angle
-    .append("path")
-    .attr("d", "M0,-5L10,0L0,5") // Draws the triangle path
-    .attr("fill", "#999");
+    // svg.append("defs").append("marker")
+    // .attr("id", "arrowhead")
+    // .attr("viewBox", "0 -5 10 10")
+    // .attr("refX", 5)            // Control point inside the marker
+    // .attr("refY", 0)
+    // .attr("markerWidth", 6)     // Scales the overall width
+    // .attr("markerHeight", 6)    // Scales the overall height
+    // .attr("orient", "auto")     // Ensures the arrow rotates to match the line angle
+    // .append("path")
+    // .attr("d", "M0,-5L10,0L0,5") // Draws the triangle path
+    // .attr("fill", "#999");
 
 // Add a line for each link, and a circle for each node.
 const link = svg.append("g")
@@ -52,7 +52,7 @@ const link = svg.append("g")
 .join("line")
     .attr("stroke-width", d => Math.sqrt(d.value))
     // --- NEW: Attach the arrowhead to the end of the line ---
-    .attr("marker-end", "url(#arrowhead)");
+    //.attr("marker-end", "url(#arrowhead)");
 
 const node = svg.append("g")
     .selectAll("g")
