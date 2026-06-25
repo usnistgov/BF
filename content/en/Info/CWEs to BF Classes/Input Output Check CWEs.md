@@ -4,14 +4,14 @@ title: "Input/Output Check CWEs"
 ---
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ364XPP9F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-PJ364XPP9F');
-</script>
+</script> -->
 
 # <l style="color: #6366f1">Input/Output Check CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
@@ -77,4 +77,12 @@ _______________________________
 
 D3 DEMO
 <div id="container"></div>
-<script type="module" src="/BF/js/forcedirectedgraph.js"></script>
+<!-- <script type="module" src="/BF/js/forcedirectedgraph.js"></script> -->
+
+<script type="module">
+  const isNist = window.location.hostname.includes('nist.gov');
+  const scriptPath = isNist ? '/BF/js/forcedirectedgraph.js' : '/js/forcedirectedgraph.js';
+  
+  // Dynamically import the module directly into memory
+  import(scriptPath).catch(err => console.error("Failed to load D3 graph script:", err));
+</script>
