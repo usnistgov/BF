@@ -17,8 +17,7 @@ const nodes = data.nodes.map(d => ({...d}));
 
 // Create a simulation with several forces.
 const simulation = d3.forceSimulation(nodes)
-    //.force("link", d3.forceLink(links).id(d => d.id))
-    .force("link", d3.forceLink(links).id(d => d.id).distance(60))
+    .force("link", d3.forceLink(links).id(d => d.id))
     .force("charge", d3.forceManyBody())
     .force("x", d3.forceX())
     .force("y", d3.forceY());
@@ -37,7 +36,7 @@ const link = svg.append("g")
 .selectAll("line")
 .data(links)
 .join("line")
-    .attr("stroke-width", d => Math.sqrt(d.value))
+    .attr("stroke-width", d => Math.sqrt(d.value));
 
 const node = svg.append("g")
     .selectAll("g")
@@ -62,7 +61,7 @@ node.append("text")
     .attr("font-family", "sans-serif")
     .attr("pointer-events", "none")
     .attr("text-anchor", "middle")
-    .attr("dy", "0.5em");
+    .attr("dy", "0.35em");
 
 // Add a drag behavior.
 // node.call(d3.drag()
@@ -98,9 +97,8 @@ event.subject.fy = event.y;
 // Unfix the subject position now that it’s no longer being dragged.
 function dragended(event) {
 if (!event.active) simulation.alphaTarget(0);
-//NEW: By commenting these two lines, the dragged nodes stay in place
-event.subject.fx = null;
-event.subject.fy = null;
+//event.subject.fx = null;
+//event.subject.fy = null;
 }
 
 // When this cell is re-run, stop the previous simulation. (This doesn’t
