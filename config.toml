@@ -6,6 +6,5 @@ title = "BF Website"
 author = "Irena Bojanova"
 description = "My Invention, the Bugs Framework (BF)"
 
-#xxx suppress dark mode -- but doe not work
 #defaultTheme = "light"
 #disableThemeToggle = true

@@ -1,14 +1,14 @@
 <footer class="footer text-muted">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
     <div class="row">
-      
       <div class="col-lg-16 order-first order-lg-last text-lg-end ">
         <ul class="list-inline">
           {{ range .Site.Menus.footer }}
-            <!-- <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li> -->
-              <a href="{{ .URL }}" class="footer-link">
-              {{ if eq .Name "NIST" }}<img src="/BF/images/125-NIST-logo-color.png" alt="NIST logo" style="height:80px; width:auto;">
-              {{ else }}{{ .Name }}
+            <a href="{{ .URL }}" class="footer-link">
+              {{ if eq .Name "NIST" }}
+                <img id="nist-logo" src="/images/125-NIST-logo-color.png" alt="NIST logo" style="height:80px; width:auto;">
+              {{ else }}
+                {{ .Name }}
               {{ end }}
             </a>
           {{ end }}
@@ -17,3 +17,14 @@
     </div>
   </div>
 </footer>
+
+<script>
+  // Dynamic path swapping for the image
+  (function() {
+    const isNist = window.location.hostname.includes('nist.gov');
+    const logoImg = document.getElementById('nist-logo');
+    if (logoImg) {
+      logoImg.src = isNist ? '/BF/images/125-NIST-logo-color.png' : '/images/125-NIST-logo-color.png';
+    }
+  })();
+</script>

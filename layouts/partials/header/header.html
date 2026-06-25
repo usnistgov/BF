@@ -13,7 +13,7 @@
     <div style="text-align:center;">
         <!-- <a class="site-logo" href="https://www.nist.gov"> -->
         <a class="site-logo" href="{{ .Site.BaseURL | relLangURL }}">
-            <img src="/BF/images/125-NIST-logo-color1.png" alt="NIST logo" style="height:80px; width:auto;">
+            <img id="nist-logo1" src="/images/125-NIST-logo-color1.png" alt="NIST logo" style="height:80px; width:auto;">
         </a><br />
         <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
             {{ .Site.Params.Title }}
@@ -214,3 +214,15 @@
 </nav> -->
 
 {{ end -}}
+
+
+<script>
+  // Dynamic path swapping for the image
+  (function() {
+    const isNist = window.location.hostname.includes('nist.gov');
+    const logoImg = document.getElementById('nist-logo1');
+    if (logoImg) {
+      logoImg.src = isNist ? '/BF/images/125-NIST-logo-color1.png' : '/images/125-NIST-logo-color1.png';
+    }
+  })();
+</script>
