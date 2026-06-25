@@ -30,19 +30,6 @@ const svg = d3.create("svg")
     .attr("viewBox", [-width / 2, -height / 2, width, height])
     .attr("style", "max-width: 100%; height: auto;");
 
-// --- NEW: Define the arrowhead marker ---
-    // svg.append("defs").append("marker")
-    // .attr("id", "arrowhead")
-    // .attr("viewBox", "0 -5 10 10")
-    // .attr("refX", 5)            // Control point inside the marker
-    // .attr("refY", 0)
-    // .attr("markerWidth", 6)     // Scales the overall width
-    // .attr("markerHeight", 6)    // Scales the overall height
-    // .attr("orient", "auto")     // Ensures the arrow rotates to match the line angle
-    // .append("path")
-    // .attr("d", "M0,-5L10,0L0,5") // Draws the triangle path
-    // .attr("fill", "#999");
-
 // Add a line for each link, and a circle for each node.
 const link = svg.append("g")
     .attr("stroke", "#999")
@@ -51,8 +38,6 @@ const link = svg.append("g")
 .data(links)
 .join("line")
     .attr("stroke-width", d => Math.sqrt(d.value))
-    // --- NEW: Attach the arrowhead to the end of the line ---
-    //.attr("marker-end", "url(#arrowhead)");
 
 const node = svg.append("g")
     .selectAll("g")
@@ -114,8 +99,8 @@ event.subject.fy = event.y;
 function dragended(event) {
 if (!event.active) simulation.alphaTarget(0);
 //NEW: By commenting these two lines, the dragged nodes stay in place
-// event.subject.fx = null;
-// event.subject.fy = null;
+event.subject.fx = null;
+event.subject.fy = null;
 }
 
 // When this cell is re-run, stop the previous simulation. (This doesn’t
