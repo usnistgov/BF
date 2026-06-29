@@ -76,12 +76,14 @@ _______________________________
 
 
 D3 DEMO
+
+<button id = "save-btn" style="position: fixed; top: 20px; left: 20px; z-index: 10;">Save SVG</button>
+<button id = "reload-btn" style="position: fixed; top: 50px; left: 20px; z-index: 11;">Reset Simulation</button>
 <div id="container"></div>
-<!-- <script type="module" src="/BF/js/forcedirectedgraph.js"></script> -->
 
 <script type="module">
   const isNist = window.location.hostname.includes('nist.gov');
-  const scriptPath = isNist ? '/BF/js/forcedirectedgraph.js' : '/js/forcedirectedgraph.js';
+  const scriptPath = isNist ? '/BF/js/CWEBF_INP-Same-Chains.js' : '/js/CWEBF_INP-Same-Chains.js';
   
   // Dynamically import the module directly into memory
   import(scriptPath).catch(err => console.error("Failed to load D3 graph script:", err));
