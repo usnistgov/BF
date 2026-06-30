@@ -1,4 +1,17 @@
-﻿import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+<!DOCTYPE html>
+<button id = "save-btn" style="position: fixed; top: 20px; left: 20px; z-index: 10;">Save SVG</button>
+<button id = "reload-btn" style="position: fixed; top: 50px; left: 20px; z-index: 10;">Reset Simulation</button>
+<button id = "unpin-btn" style="position: fixed; top: 80px; left: 20px; z-index: 10;">Unpin All Nodes</button>
+<div id="container"></div>
+<script type="module">
+
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+// const data = {
+//             nodes: [{id: "41", color: "#926eae"}, {id: "42", color: "#926eae"}, {id: "43", color: "#926eae"}, {id: "44", color: "#926eae"}, {id: "45", color: "#926eae"}, {id: "46", color: "#926eae"}, {id: "47", color: "#926eae"}, {id: "48", color: "#926eae"}, {id: "49", color: "#926eae"}, {id: "50", color: "#926eae"}, {id: "51", color: "#926eae"}, {id: "52", color: "#926eae"}, {id: "53", color: "#926eae"}, {id: "54", color: "#926eae"}, {id: "55", color: "#926eae"}, {id: "56", color: "#926eae"}, {id: "57", color: "#926eae"}, {id: "58", color: "#926eae"}, {id: "160", color: "#ff5349"}, {id: "161", color: "#ff5349"}, {id: "162", color: "#ff5349"}, {id: "163", color: "#ff5349"}, {id: "164", color: "#ff5349"}, {id: "165", color: "#ff5349"}, {id: "37", color: "#1cac78"}, {id: "38", color: "#1cac78"}], 
+//             links: [{source: "41", target: "42", value: 2}, {source: "42", target: "43", value: 2}, {source: "41", target: "44", value: 2}, {source: "44", target: "45", value: 2}, {source: "41", target: "46", value: 2}, {source: "41", target: "47", value: 2}, {source: "41", target: "48", value: 2}, {source: "41", target: "49", value: 2}, {source: "41", target: "50", value: 2}, {source: "41", target: "51", value: 2}, {source: "41", target: "52", value: 2}, {source: "41", target: "53", value: 2}, {source: "41", target: "54", value: 2}, {source: "41", target: "55", value: 2}, {source: "41", target: "56", value: 2}, {source: "41", target: "57", value: 2}, {source: "41", target: "58", value: 2}, {source: "160", target: "161", value: 2}, {source: "161", target: "50", value: 2}, {source: "164", target: "165", value: 2}, {source: "165", target: "45", value: 2}, {source: "165", target: "53", value: 2}, {source: "162", target: "46", value: 2}, {source: "162", target: "54", value: 2}, {source: "162", target: "49", value: 2}, {source: "162", target: "42", value: 2}, {source: "162", target: "163", value: 2}, {source: "163", target: "43", value: 2}, {source: "163", target: "52", value: 2}, {source: "160", target: "37", value: 2}]
+// };
+//const data = await d3.json("bfcwes.json");
 const data = {
 	nodes: [
 	
@@ -298,6 +311,7 @@ const data = {
 	]
 };
 	
+
 // Specify the dimensions of the chart.
 const width = 1000;
 const height = 1000;
@@ -321,7 +335,7 @@ const svg = d3.create("svg")
     .attr("viewBox", [-width / 2, -height / 2, width, height])
     .attr("style", "max-width: 100%; max-height: auto;");
 
-//appending little triangles, path object, as arrowhead
+ //appending little triangles, path object, as arrowhead
 //The <defs> element is used to store graphical objects that will be used at a later time
 //The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.
 svg.append('defs').append('marker')
@@ -448,7 +462,6 @@ if (!event.active) simulation.alphaTarget(0);
 //event.subject.fy = null;
 }
 
-//ToDo: Make it toggle
 //double click node to make it affected by physics again
 node.on("dblclick", (event, d) => {
     d.fx = null;
@@ -534,3 +547,5 @@ if (savedLayout) {
 
 // Append the SVG element.
 container.append(svg.node());
+
+</script>

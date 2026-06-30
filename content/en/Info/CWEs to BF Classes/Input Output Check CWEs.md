@@ -77,8 +77,10 @@ _______________________________
 
 D3 DEMO
 
-<button id = "save-btn" style="position: fixed; top: 20px; left: 20px; z-index: 10;">Save SVG</button>
-<button id = "reload-btn" style="position: fixed; top: 50px; left: 20px; z-index: 11;">Reset Simulation</button>
+<div style="text-align: right;"><button id="save-btn" type="button" style="width: 160px;">Save SVG</button></div>
+
+<div style="text-align: right; margin-top: 10px;"><button id="reload-btn" type="button" style="width: 160px;">Reset Simulation</button></div>
+
 <div id="container"></div>
 
 <script type="module">
@@ -87,4 +89,5 @@ D3 DEMO
   
   // Dynamically import the module directly into memory
   import(scriptPath).catch(err => console.error("Failed to load D3 graph script:", err));
+
 </script>
