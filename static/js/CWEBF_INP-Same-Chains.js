@@ -1,4 +1,5 @@
 ﻿import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
 const data = {
 	nodes: [
 	
@@ -298,6 +299,7 @@ const data = {
 	]
 };
 	
+
 // Specify the dimensions of the chart.
 const width = 1000;
 const height = 1000;
@@ -321,7 +323,7 @@ const svg = d3.create("svg")
     .attr("viewBox", [-width / 2, -height / 2, width, height])
     .attr("style", "max-width: 100%; max-height: auto;");
 
-//appending little triangles, path object, as arrowhead
+ //appending little triangles, path object, as arrowhead
 //The <defs> element is used to store graphical objects that will be used at a later time
 //The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.
 svg.append('defs').append('marker')
@@ -448,7 +450,6 @@ if (!event.active) simulation.alphaTarget(0);
 //event.subject.fy = null;
 }
 
-//ToDo: Make it toggle
 //double click node to make it affected by physics again
 node.on("dblclick", (event, d) => {
     d.fx = null;

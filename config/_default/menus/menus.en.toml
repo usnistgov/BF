@@ -76,23 +76,29 @@
   name = "Input Output Check CWEs"
   weight = 1
   identifier = "Input Output Check CWEs"
-  url = "/Info/CWEs to BF Classes/Input-Output Check CWEs"
+  url = "/Info/CWEs to BF Classes/Input Output Check CWEs"
+  parent = "CWEs to BF Classes"
+[[main]]
+  name = "D3 Input Output Check CWEs"
+  weight = 2
+  identifier = "D3 Input Output Check CWEs"
+  url = "/Info/CWEs to BF Classes/D3 Input Output Check CWEs"
   parent = "CWEs to BF Classes"
 [[main]]
   name = "Memory CWEs"
-  weight = 2
+  weight = 3
   identifier = "Memory CWEs"
   url = "/Info/CWEs to BF Classes/Memory CWEs"
   parent = "CWEs to BF Classes"
 [[main]]
   name = "Data Type CWEs"
-  weight = 3
+  weight = 4
   identifier = "Data Type CWEs"
   url = "/Info/CWEs to BF Classes/Data Type CWEs"
   parent = "CWEs to BF Classes"  
 [[main]]
   name = "... CWEs"
-  weight = 4
+  weight = 5
   identifier = "... CWEs"
   url = "/Info/CWEs to BF Classes/... CWEsl"
   parent = "CWEs to BF Classes"
@@ -142,12 +148,12 @@
   identifier = "BF Tool APP"
   url = "/Info/BF Service/BF Tool APP"
   parent = "BF Service"
-[[main]]
-  name = "BF Tool APP Tutorial"
-  weight = 2
-  identifier = "BF Tool APP Tutorial"
-  url = "/Info/BF Service/BF Tool APP Tutorial"
-  parent = "BF Service"
+#[[main]]
+#  name = "BF Tool APP Tutorial"
+#  weight = 2
+#  identifier = "BF Tool APP Tutorial"
+#  url = "/Info/BF Service/BF Tool APP Tutorial"
+#  parent = "BF Service"
 [[main]]
   name = "BF Dashboard"
   weight = 3
