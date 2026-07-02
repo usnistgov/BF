@@ -78,12 +78,12 @@
   identifier = "Input Output Check CWEs"
   url = "/Info/CWEs to BF Classes/Input Output Check CWEs"
   parent = "CWEs to BF Classes"
-[[main]]
-  name = "D3 Input Output Check CWEs"
-  weight = 2
-  identifier = "D3 Input Output Check CWEs"
-  url = "/Info/CWEs to BF Classes/D3 Input Output Check CWEs"
-  parent = "CWEs to BF Classes"
+#[[main]]
+#  name = "D3 Input Output Check CWEs"
+#  weight = 2
+#  identifier = "D3 Input Output Check CWEs"
+#  url = "/Info/CWEs to BF Classes/D3 Input Output Check CWEs"
+#  parent = "CWEs to BF Classes"
 [[main]]
   name = "Memory CWEs"
   weight = 3
@@ -101,7 +101,13 @@
   weight = 5
   identifier = "... CWEs"
   url = "/Info/CWEs to BF Classes/... CWEsl"
-  parent = "CWEs to BF Classes"
+  parent = "CWEs to BF Classes"  
+#[[main]]
+#  name = "CWEs to BF Classes Tutorial"
+#  weight = 6
+#  identifier = "CWEs to BF Classes Tutorial"
+#  url = "/Info/BF Service/CWEs to BF Classes Tutorial"
+#  parent = "CWEs to BF Classes"
 
 [[main]]
   name = "BF-Based Systems"

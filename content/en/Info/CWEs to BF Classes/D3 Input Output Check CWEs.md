@@ -20,17 +20,15 @@ title: "D3 Input/Output Check CWEs"
 <div style="text-align: right;">
     <button id="save-btn" type="button" style="width: 160px;">Save SVG</button>
 </div>
-
 <div style="text-align: right; margin-top: 10px;">
     <button id="reload-btn" type="button" style="width: 160px;">Reset Simulation</button>
 </div>
-
 <div style="text-align: right; margin-top: 10px;">
     <button id="unpin-btn" type="button" style="width: 160px;">Unpin All Nodes</button>
 </div>
-
 <div id="container"></div>
-<script type="module">
+
+<script type="module" src="force-graph.js" defer></script>
   const isNist = window.location.hostname.includes('nist.gov');
   const scriptPath = isNist ? '/BF/js/CWEBF_INP-Same-Chains.js' : '/js/CWEBF_INP-Same-Chains.js';  
   // Dynamically import the module directly into memory

@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg10"
+   xml:space="preserve"
+   width="666.95294"
+   height="880.88"
+   viewBox="0 0 666.95294 880.88"
+   sodipodi:docname="BF HB code.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+     id="metadata16"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs14" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     id="namedview12"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.3282148"
+     inkscape:cx="333.47705"
+     inkscape:cy="440.43921"
+     inkscape:window-x="-8"
+     inkscape:window-y="985"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g18" /><g
+     id="g18"
+     inkscape:groupmode="layer"
+     inkscape:label="BF HB code"
+     transform="matrix(1.3333333,0,0,1.3333333,-3.9374999e-6,1.309375e-5)"><g
+       id="g20"><text
+         transform="translate(-0.801999,7.058706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text24"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076"
+           y="0"
+           sodipodi:role="line"
+           id="tspan22">typedef struct ssl3_record_st</tspan></text>
+<text
+         transform="translate(8.348001,20.558706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text28"><tspan
+           x="0"
+           y="0"
+           id="tspan26">{</tspan></text>
+<text
+         transform="translate(17.198001,33.308706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text32"><tspan
+           x="0 6.7510986 13.502197"
+           y="0"
+           sodipodi:role="line"
+           id="tspan30">int</tspan></text>
+<text
+         transform="translate(43.6985,33.308706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text36"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan34">type</tspan></text>
+<text
+         transform="translate(70.19825,33.308706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text40"><tspan
+           x="0"
+           y="0"
+           id="tspan38">;</tspan></text>
+<text
+         transform="translate(188.4485,33.308706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text44"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087"
+           y="0"
+           sodipodi:role="line"
+           id="tspan42">/* type of record */</tspan></text>
+<text
+         transform="translate(17.198001,46.808706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text48"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan46">unsigned int</tspan></text>
+<text
+         transform="translate(103.3235,46.808706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text52"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan50">length</tspan></text>
+<text
+         transform="translate(143.0735,46.808706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text56"><tspan
+           x="0"
+           y="0"
+           id="tspan54">;</tspan></text>
+<text
+         transform="translate(188.4485,46.808706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text60"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186"
+           y="0"
+           sodipodi:role="line"
+           id="tspan58">/* How many bytes available */</tspan></text>
+<text
+         transform="translate(17.198001,59.558706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text64"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan62">unsigned int</tspan></text>
+<text
+         transform="translate(103.3235,59.558706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text68"><tspan
+           x="0 6.7510986 13.502197"
+           y="0"
+           sodipodi:role="line"
+           id="tspan66">off</tspan></text>
+<text
+         transform="translate(123.1985,59.558706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text72"><tspan
+           x="0"
+           y="0"
+           id="tspan70">;</tspan></text>
+<text
+         transform="translate(188.4485,59.558706)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text76"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 178.87091 185.62201 192.37311 198.75296 205.50406 212.25516 219.00626"
+           y="0"
+           sodipodi:role="line"
+           id="tspan74">/* read/write offset into 'buf' */</tspan></text>
+<text
+         transform="translate(17.198001,73.058705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text80"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan78">unsigned char</tspan></text>
+<text
+         transform="translate(109.94825,73.058705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text84"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395"
+           y="0"
+           sodipodi:role="line"
+           id="tspan82">*data</tspan></text>
+<text
+         transform="translate(143.0735,73.058705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text88"><tspan
+           x="0"
+           y="0"
+           id="tspan86">;</tspan></text>
+<text
+         transform="translate(188.4485,73.058705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text92"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076"
+           y="0"
+           sodipodi:role="line"
+           id="tspan90">/* pointer to the record data</tspan></text>
+<text
+         transform="translate(387.1985,73.058705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#006400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text96"><tspan
+           x="0 6.7510986"
+           y="0"
+           sodipodi:role="line"
+           id="tspan94">*/</tspan></text>
+<text
+         transform="translate(17.198001,86.558705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text100"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan98">unsigned char</tspan></text>
+<text
+         transform="translate(109.94825,86.558705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text104"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan102">*input</tspan></text>
+<text
+         transform="translate(149.69825,86.558705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text108"><tspan
+           x="0"
+           y="0"
+           id="tspan106">;</tspan></text>
+<text
+         transform="translate(188.4485,86.558705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text112"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406"
+           y="0"
+           sodipodi:role="line"
+           id="tspan110">/* where the decode bytes are */</tspan></text>
+<text
+         transform="translate(17.198001,99.308705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text116"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan114">unsigned char</tspan></text>
+<text
+         transform="translate(109.94825,99.308705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text120"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395"
+           y="0"
+           sodipodi:role="line"
+           id="tspan118">*comp</tspan></text>
+<text
+         transform="translate(143.0735,99.308705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text124"><tspan
+           x="0"
+           y="0"
+           id="tspan122">;</tspan></text>
+<text
+         transform="translate(188.4485,99.308705)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text128"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 211.9953 225.2489 232 238.7511 245.5022 252.2533 259.00439 265.75549 272.50659 279.25769 286.00879 292.75989 299.51099 306.26208"
+           y="0"
+           sodipodi:role="line"
+           id="tspan126">/* only used with decompression-malloc()ed */</tspan></text>
+<text
+         transform="translate(17.198001,112.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text132"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan130">unsigned lon</tspan></text>
+<text
+         transform="translate(96.698,112.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text136"><tspan
+           x="0"
+           y="0"
+           id="tspan134">g</tspan></text>
+<text
+         transform="translate(109.94825,112.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text140"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395"
+           y="0"
+           sodipodi:role="line"
+           id="tspan138">epoch</tspan></text>
+<text
+         transform="translate(143.0735,112.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text144"><tspan
+           x="0"
+           y="0"
+           id="tspan142">;</tspan></text>
+<text
+         transform="translate(188.4485,112.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text148"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735"
+           y="0"
+           sodipodi:role="line"
+           id="tspan146">/* epoch number, needed by DTLS1 */</tspan></text>
+<text
+         transform="translate(17.198001,125.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text152"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan150">unsigned char</tspan></text>
+<text
+         transform="translate(109.94825,125.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text156"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592"
+           y="0"
+           sodipodi:role="line"
+           id="tspan154">seq_num</tspan></text>
+<text
+         transform="translate(156.323,125.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text160"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan158">[8];</tspan></text>
+<text
+         transform="translate(189.44825,125.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text164"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735 236.28845 243.03955 249.79065"
+           y="0"
+           sodipodi:role="line"
+           id="tspan162">/* sequence number, needed by DTLS1 */</tspan></text>
+<text
+         transform="translate(8.348001,139.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text168"><tspan
+           x="0"
+           y="0"
+           id="tspan166">}</tspan></text>
+<text
+         transform="translate(21.598251,139.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text172"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986"
+           y="0"
+           sodipodi:role="line"
+           id="tspan170">SSL3_RECORD</tspan></text>
+<text
+         transform="translate(94.4735,139.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text176"><tspan
+           x="0"
+           y="0"
+           id="tspan174">;</tspan></text>
+<text
+         transform="translate(-0.802749,178.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text180"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan178">1448</tspan></text>
+<text
+         transform="translate(32.32175,178.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text184"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan182">dtls1_process_heartbeat(SSL *s)</tspan></text>
+<text
+         transform="translate(-0.802749,191.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text188"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan186">1449</tspan></text>
+<text
+         transform="translate(44.34725,191.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text192"><tspan
+           x="0"
+           y="0"
+           id="tspan190">{</tspan></text>
+<text
+         transform="translate(-0.802749,204.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text196"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan194">1450</tspan></text>
+<text
+         transform="translate(44.34725,204.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text200"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan198">unsigned char</tspan></text>
+<text
+         transform="translate(137.09675,204.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text204"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 46.380192 52.996288 59.747387 66.498489 72.878334 79.494431 86.12178 92.872879 99.623978 106.37508 113.12617 119.87727 126.62837 133.37947 140.13057 145.74542 152.49652 159.24762 165.99872 172.74982 179.50092 186.25201 193.00311 199.75421"
+           y="0"
+           sodipodi:role="line"
+           id="tspan202">*p = &amp;s-&gt;s3-&gt;rrec.data[0], *pl;</tspan></text>
+<text
+         transform="translate(-0.802749,217.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text208"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan206">1451</tspan></text>
+<text
+         transform="translate(44.34725,217.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text212"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282"
+           y="0"
+           sodipodi:role="line"
+           id="tspan210">unsigned short</tspan></text>
+<text
+         transform="translate(143.72225,217.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text216"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 39.752842"
+           y="0"
+           sodipodi:role="line"
+           id="tspan214">hbtype;</tspan></text>
+<text
+         transform="translate(-0.802749,230.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text220"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan218">1452</tspan></text>
+<text
+         transform="translate(44.34725,230.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text224"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan222">unsigned int</tspan></text>
+<text
+         transform="translate(130.472,230.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text228"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769"
+           y="0"
+           sodipodi:role="line"
+           id="tspan226">payload;</tspan></text>
+<text
+         transform="translate(-0.802749,244.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text232"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan230">1453</tspan></text>
+<text
+         transform="translate(44.34725,244.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#2f2fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text236"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan234">unsigned int</tspan></text>
+<text
+         transform="translate(130.472,244.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text240"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan238">padding = 16;</tspan></text>
+<text
+         transform="translate(223.22225,244.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text244"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637"
+           y="0"
+           sodipodi:role="line"
+           id="tspan242">/* Use minimum padding */</tspan></text>
+<text
+         transform="translate(-0.802749,257.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text250"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan246">1454</tspan><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="12.749996"
+           sodipodi:role="line"
+           id="tspan248">1455</tspan></text>
+<text
+         transform="translate(44.34725,270.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text254"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735 236.28845 243.03955 249.79065 256.54175 263.29285"
+           y="0"
+           sodipodi:role="line"
+           id="tspan252">/* Read type and payload length first */</tspan></text>
+<text
+         transform="translate(-0.802749,283.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text258"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan256">1456</tspan></text>
+<text
+         transform="translate(44.34725,283.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text262"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 46.379093 53.130192 59.88129 66.632385 73.383484 80.134583 86.885681"
+           y="0"
+           sodipodi:role="line"
+           id="tspan260">hbtype= *p++;</tspan></text>
+<text
+         transform="translate(-0.802749,296.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text266"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan264">1457</tspan></text>
+<text
+         transform="translate(44.34725,296.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text270"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648"
+           y="0"
+           sodipodi:role="line"
+           id="tspan268">n2s(p, payload);</tspan></text>
+<text
+         transform="translate(-0.802749,310.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text274"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan272">1458</tspan></text>
+<text
+         transform="translate(44.34725,310.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text278"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592"
+           y="0"
+           sodipodi:role="line"
+           id="tspan276">pl = p;</tspan></text>
+<text
+         transform="translate(-0.802749,323.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text284"><tspan
+           x="0 6.6273484 13.378448"
+           y="0"
+           sodipodi:role="line"
+           id="tspan280">...</tspan><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="12.749996"
+           sodipodi:role="line"
+           id="tspan282">1465</tspan></text>
+<text
+         transform="translate(44.34725,336.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text288"><tspan
+           x="0 6.7510986 19.869698 26.497046 33.248146 39.999245 46.750343 53.501442 60.252541 72.876137 79.627235 92.745834 99.496933 106.24803 112.99913 119.75023 126.50133 133.25243 140.00352 146.75462 153.50572 160.25682 167.00792 173.75902 180.51012 187.26122 194.01231"
+           y="0"
+           sodipodi:role="line"
+           id="tspan286">if(hbtype==TLS1_HB_REQUEST)</tspan></text>
+<text
+         transform="translate(-0.802749,349.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text292"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan290">1466</tspan></text>
+<text
+         transform="translate(62.09675,349.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text296"><tspan
+           x="0"
+           y="0"
+           id="tspan294">{</tspan></text>
+<text
+         transform="translate(-0.802749,362.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text300"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan298">1467</tspan></text>
+<text
+         transform="translate(62.09675,362.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text304"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 59.62254 66.373634 73.124733 79.875832 92.746933 99.498032 106.24913 113.00023 119.75133 126.50243 133.25352 140.00462 152.38072 159.13182 165.88292 172.63402"
+           y="0"
+           sodipodi:role="line"
+           id="tspan302">unsignedchar*buffer,*bp;</tspan></text>
+<text
+         transform="translate(-0.802749,376.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text310"><tspan
+           x="0 6.7510986 13.502197"
+           y="0"
+           sodipodi:role="line"
+           id="tspan306">...</tspan><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="13.5"
+           sodipodi:role="line"
+           id="tspan308">1470</tspan></text>
+<text
+         transform="translate(62.09675,389.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text314"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735 236.28845 243.03955 249.79065 256.54175 263.29285 270.04395 276.79504 283.54614 290.29724 297.04834 303.79944 310.55054 317.30164 324.05273 330.80383 337.55493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan312">/* Allocate memory for the response, size is 1 byte</tspan></text>
+<text
+         transform="translate(-0.802749,402.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text318"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan316">1471</tspan></text>
+<text
+         transform="translate(62.09675,402.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text322"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735 236.28845 243.03955 249.79065 256.54175 263.29285 270.04395 276.79504"
+           y="0"
+           sodipodi:role="line"
+           id="tspan320">* message type, plus 2 bytes payload, plus</tspan></text>
+<text
+         transform="translate(-0.802749,415.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text326"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan324">1472</tspan></text>
+<text
+         transform="translate(62.09675,415.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text330"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417"
+           y="0"
+           sodipodi:role="line"
+           id="tspan328">* payload, plus padding</tspan></text>
+<text
+         transform="translate(-0.802749,428.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text334"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan332">1473</tspan></text>
+<text
+         transform="translate(62.09675,428.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text338"><tspan
+           x="0 6.7510986"
+           y="0"
+           sodipodi:role="line"
+           id="tspan336">*/</tspan></text>
+<text
+         transform="translate(-0.802749,442.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text342"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan340">1474</tspan></text>
+<text
+         transform="translate(62.09675,442.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text346"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 59.62254 66.373634 73.124733 79.875832 86.62693 93.378029 100.12913 106.88023 113.63132 120.38242 127.13352 133.88463 140.63573 147.38683 152.37167 159.12277 165.87387 172.62497 179.37607 186.12717 192.87827 199.62936 212.00546 218.75656 225.50766 232.25876 239.00986 245.76096 252.51205 265.00064 271.75174 278.50284 285.25394 292.00504 298.75613 305.50723 312.25833 319.00943 325.76053 332.51163"
+           y="0"
+           sodipodi:role="line"
+           id="tspan344">buffer =OPENSSL_malloc(1 + 2 +payload+ padding);</tspan></text>
+<text
+         transform="translate(-0.802749,455.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text350"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan348">1475</tspan></text>
+<text
+         transform="translate(62.09675,455.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text354"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085"
+           y="0"
+           sodipodi:role="line"
+           id="tspan352">bp = buffer;</tspan></text>
+<text
+         transform="translate(-0.802749,468.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text360"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan356">1476</tspan><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="13.5"
+           sodipodi:role="line"
+           id="tspan358">1477</tspan></text>
+<text
+         transform="translate(62.09675,481.8087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text364"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 175.52856 182.27966 189.03076 195.78186 202.53296 209.28406 216.03516 222.78625 229.53735 236.28845 243.03955 249.79065 256.54175 265.00284 271.75394 278.50504 285.25613 292.00723 298.75833 305.50943 317.99805 324.74915"
+           y="0"
+           sodipodi:role="line"
+           id="tspan362">/* Enter response type, length and copypayload*/</tspan></text>
+<text
+         transform="translate(-0.802749,494.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text368"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan366">1478</tspan></text>
+<text
+         transform="translate(62.09675,494.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text372"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637"
+           y="0"
+           sodipodi:role="line"
+           id="tspan370">*bp++ = TLS1_HB_RESPONSE;</tspan></text>
+<text
+         transform="translate(-0.802749,508.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text376"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan374">1479</tspan></text>
+<text
+         transform="translate(62.09675,508.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text380"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758"
+           y="0"
+           sodipodi:role="line"
+           id="tspan378">s2n(payload, bp);</tspan></text>
+<text
+         transform="translate(-0.802749,521.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text384"><tspan
+           x="0 6.7510986 13.502197 20.253296"
+           y="0"
+           sodipodi:role="line"
+           id="tspan382">1480</tspan></text>
+<text
+         transform="translate(62.09675,521.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text388"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 39.752842 46.503941 53.255039 60.006138 66.757233 73.508331 80.25943 87.010529 93.761627 100.51273 107.26382 114.01492 120.76602 127.51712 134.26822 141.01932 147.77042 154.52151"
+           y="0"
+           sodipodi:role="line"
+           id="tspan386">memcpy(bp, pl, payload);</tspan></text>
+<g
+         id="g390"><path
+           d="m 35.098,429.684 h 396 v 28.5 h -396 z"
+           style="fill:none;stroke:#9999ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path392"
+           inkscape:connector-curvature="0" /></g><g
+         id="g394"><path
+           d="m 35.098,287.184 h 396 v 28.5 h -396 z"
+           style="fill:none;stroke:#9999ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path396"
+           inkscape:connector-curvature="0" /></g><g
+         id="g398"><path
+           d="m 35.098,497.934 h 396 v 28.5 h -396 z"
+           style="fill:none;stroke:#9999ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path400"
+           inkscape:connector-curvature="0" /></g><text
+         transform="translate(4.345251,566.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text404"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 40.506592 47.25769 54.008789 60.759888 67.510986 74.262085 81.013184 87.764282 94.515381 101.26648 108.01758 114.76868 121.51978 128.27087 135.02197 141.77307 148.52417 155.27527 162.02637 168.77747 178.86981 185.62091 192.37201 199.12311 205.87421 212.62531 218.62265 225.37375"
+           y="0"
+           sodipodi:role="line"
+           id="tspan402">/* Naive implementation ofmemcpy()</tspan></text>
+<text
+         transform="translate(4.345251,580.0587)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text410"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493 39.752842 46.503941 53.255039 60.006138 66.757233 73.508331 86.120682 92.87178 99.622879 106.37398 113.12508 119.87617 126.62727 132.50087 139.25197 146.00307 152.37167 159.12277 165.87387 172.62497 179.37607 186.12717 192.87827 199.62936 206.38046 213.13156 219.88266 226.63376 233.38486 240.13596 245.1208 251.8719 258.62299 265.00284 278.24521 284.99631 291.74741 298.4985 305.2496 312.0007 324.6243 331.3754"
+           y="0"
+           sodipodi:role="line"
+           id="tspan406">void *memcpy(void *dst, const void *src,size_tn)</tspan><tspan
+           x="0"
+           y="12.749996"
+           id="tspan408">{</tspan></text>
+<text
+         transform="translate(31.345251,606.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text414"><tspan
+           x="0 6.7510986 13.502197 20.253296 27.004395 33.755493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan412">size_t</tspan></text>
+<text
+         transform="translate(77.72,606.3087)"
+         style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text426"><tspan
+           x="0 6.7510986"
+           y="0"
+           sodipodi:role="line"
+           id="tspan416">i;</tspan><tspan
+           x="-46.374748 -39.62365 -32.872551 -26.121454 -19.370356 -12.619257 -5.8681583 0.88294041 7.6340389 14.385138 21.136236 27.887335 34.638435 41.389534 48.140633 54.891731 61.64283 68.393929 75.145027"
+           y="12.749996"
+           sodipodi:role="line"
+           id="tspan418">for (i=0; i&lt;n; i++)</tspan><tspan
+           x="-19.37475 -12.623652 -5.8725529 0.87854588 7.6296444 14.380743 21.131842 27.88294 34.634041 46.875137 53.626236 60.377335 66.745934 73.497032 80.248131 86.999229 93.750328 100.50143 107.25253 114.00362 120.75472 127.50582 134.25691 141.00801 147.75911 154.51021 166.12131 172.87241 179.6235 186.00336 192.75446 199.50555"
+           y="26.249996"
+           sodipodi:role="line"
+           id="tspan420">*(char *)dst++ = *(char *)src++;</tspan><tspan
+           x="-46.374748 -39.62365 -32.872551 -26.121454 -19.370356 -12.619257 0.0043417802 6.7554402 13.506539 19.875137"
+           y="39.749996"
+           sodipodi:role="line"
+           id="tspan422">returndst;</tspan><tspan
+           x="-73.374748"
+           y="52.499992"
+           id="tspan424">}</tspan></text>
+<path
+         d="m 131.105,319.082 -13.242,-14.609 0.188,-0.168 13.238,14.613 z m -14.699,-11.937 -1.808,-6.461 6.254,2.429 z"
+         style="fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path428"
+         inkscape:connector-curvature="0" /><path
+         d="m 313.102,463.32 -14.223,-13.59 0.172,-0.187 14.226,13.59 z m -15.489,-10.82 -2.265,-6.316 6.414,1.972 z"
+         style="fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path430"
+         inkscape:connector-curvature="0" /><path
+         d="m 203.141,497.852 -11.836,13.46 0.191,0.165 11.832,-13.461 z m -13.332,10.812 -1.711,6.488 6.214,-2.527 z"
+         style="fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path432"
+         inkscape:connector-curvature="0" /><path
+         d="m 131.566,590.105 -13.144,16.047 0.191,0.16 13.149,-16.05 z m -14.734,13.454 -1.484,6.543 6.125,-2.743 z"
+         style="fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path434"
+         inkscape:connector-curvature="0" /><path
+         d="m 149.73,660.113 -10.863,-17.609 0.215,-0.129 10.859,17.605 z m -12.785,-15.246 -0.597,-6.683 5.707,3.531 z"
+         style="fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path436"
+         inkscape:connector-curvature="0" /><path
+         d="m 267.371,660.66 -10.902,-18.066 0.429,-0.254 10.903,18.058 z m -12.742,-15.785 -0.531,-6.691 5.668,3.586 z"
+         style="fill:#9999ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path438"
+         inkscape:connector-curvature="0" /><text
+         transform="translate(266.78225,653.5587)"
+         style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text446"><tspan
+           x="0 5.8509521"
+           y="0"
+           sodipodi:role="line"
+           id="tspan440">pl</tspan><tspan
+           x="-117.951 -112.10004"
+           y="0.75000024"
+           sodipodi:role="line"
+           id="tspan442">bp</tspan><tspan
+           x="-136.13774 -130.28679 -124.43584 -118.58489 -112.73394 -106.88299 -101.03204"
+           y="-52.499996"
+           sodipodi:role="line"
+           id="tspan444">payload</tspan></text>
+<g
+         id="g448"><path
+           d="m 14.098,37.434 h 387 v 12.75 h -387 z"
+           style="fill:none;stroke:#9999ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path450"
+           inkscape:connector-curvature="0" /></g><path
+         d="m 140.891,20.102 -11.836,13.46 0.191,0.165 11.832,-13.461 z m -13.332,10.812 -1.711,6.488 6.214,-2.527 z"
+         style="fill:#715aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path452"
+         inkscape:connector-curvature="0" /></g></g></svg>
