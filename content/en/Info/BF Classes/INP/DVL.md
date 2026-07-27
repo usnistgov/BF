@@ -44,7 +44,7 @@ Data Validation (DVL) class – Data are validated (i.e., syntax check) or sanit
 	</tr>
 	<tr>
 			<td>Sanitize </td>
-	<td>Sanitize operation – Modify data (e.g., escape/neutralize, filter/remove, or repair/add symbols or elements) to make it valid (well-formed).</td>
+	<td>Sanitize operation – Modify data (e.g., escape, filter/remove, or repair/add symbols or elements) to make it valid (well-formed).</td>
 	</tr>
 	<tr>
 			<td><strong>Operands</strong></td>

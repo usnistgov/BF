@@ -15,22 +15,39 @@ title: "D3 Input/Output Check CWEs"
 
 # <l style="color: #6366f1">Input/Output Check CWEs to BF Classes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
-### Same Chains
+##### Force-Directed Graph Instructions
+- `Drag a node to rearrange the graph.`
+- `Click a node to pin it.`
+- `Double click a node to remove the pin and let the node rearrange the graph.`
+- `Ctrl+Right click and drag to zoom/unzoom.`
 
-<div style="text-align: right;">
-    <button id="save-btn" type="button" style="width: 160px;">Save SVG</button>
-</div>
-<div style="text-align: right; margin-top: 10px;">
-    <button id="reload-btn" type="button" style="width: 160px;">Reset Simulation</button>
-</div>
-<div style="text-align: right; margin-top: 10px;">
-    <button id="unpin-btn" type="button" style="width: 160px;">Unpin All Nodes</button>
-</div>
-<div id="container"></div>
+<script type="module">
 
-<script type="module" src="force-graph.js" defer></script>
-  const isNist = window.location.hostname.includes('nist.gov');
-  const scriptPath = isNist ? '/BF/js/CWEBF_INP-Same-Chains.js' : '/js/CWEBF_INP-Same-Chains.js';  
-  // Dynamically import the module directly into memory
-  import(scriptPath).catch(err => console.error("Failed to load D3 graph script:", err));
+  window.loadForceGraph = function(model, containerId = 'container') {
+    const isNist = window.location.hostname.includes('nist.gov');
+    const basePath = isNist ? '/BF' : '';
+    const fullmodel = `${basePath}/js/Force Graph/Models/${model}`;
+    const scriptUrl = `${basePath}/js/Force Graph/Controlers/FG_Controler.js?data=${encodeURIComponent(fullmodel)}&container=${containerId}`;
+
+    return import(scriptUrl).catch(err => console.error(`Failed to load D3 graph script for model: ${model}`, err)
+    );
+  };
 </script>
+
+#### Same Operation
+<div id="container"></div> 
+<script type="module" defer>
+  loadForceGraph('_INP_Operations.js');
+</script>
+
+<!-- #### Same Final Error
+<div id="container"></div> 
+<script type="module" defer>
+  loadForceGraph('_INP_Final_Errors.js');
+</script>-->
+
+#### Same Triple
+<div id="container"></div> 
+<script type="module" defer>
+  loadForceGraph('_INP_Same_Chains.js');
+</script>  
