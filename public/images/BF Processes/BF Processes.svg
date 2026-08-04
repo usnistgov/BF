@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="398.7933mm"
+   height="503.7515mm"
+   viewBox="0 0 398.7933 503.7515"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="BF Process.svg">
+  <defs
+     id="defs2" />
+     <rect width="100%" height="100%" fill="white" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="310.10746"
+     inkscape:cy="452.51411"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="985"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.784063,204.95239)">
+    <g
+       id="g5319"
+       transform="matrix(0.26458333,0,0,0.26458333,-47.278522,-207.3047)">
+      <rect
+         id="rect4681"
+         stroke-miterlimit="8"
+         height="305"
+         width="1110"
+         y="753.5"
+         x="317.5"
+         style="fill:#f9f9f9;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4683"
+         transform="translate(723.011,776)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Create BF Weakness Class per Execution Phase</text>
+      <path
+         id="path4685"
+         stroke-miterlimit="10"
+         d="m 1539.38,1593.5 v 57 m 173.24,-57 v 57"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4687"
+         stroke-miterlimit="10"
+         height="57"
+         width="231"
+         y="1593.5"
+         x="1510.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4689"
+         transform="translate(1543.44,1608)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Generate BF Specification</text>
+      <text
+         id="text4691"
+         transform="translate(1557.97,1627)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">in Machine</text>
+      <text
+         id="text4693"
+         transform="translate(1629.3,1627)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">-</text>
+      <text
+         id="text4695"
+         transform="translate(1634.13,1627)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Readable</text>
+      <text
+         id="text4697"
+         transform="translate(1553.32,1646)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">and Graphical Formats</text>
+      <path
+         id="path4699"
+         stroke-miterlimit="8"
+         d="m 785.5,798.5 h 176 l -35.2,49 H 820.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4701"
+         stroke-miterlimit="8"
+         d="m 990.5,799.5 h 174 l -34.8,49 h -104.4 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4703"
+         stroke-miterlimit="8"
+         d="m 1195.5,799.5 h 212 l -42.4,49 h -127.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4705"
+         stroke-miterlimit="8"
+         d="m 335.5,934.5 h 176 l -35.2,49 H 370.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4707"
+         stroke-miterlimit="8"
+         d="m 423.5,799.5 h 176 l -35.2,49 H 458.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4709"
+         stroke-miterlimit="8"
+         d="m 1033.5,348.5 h 215 l -43,49 h -129 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4711"
+         transform="translate(1109.91,368)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text4713"
+         transform="translate(1083.2,387)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Security Concepts</text>
+      <path
+         id="path4715"
+         stroke-miterlimit="8"
+         d="m 1116.76,54.5001 h 47.48 c 6.22,0 11.26,5.5964 11.26,12.5 0,6.9035 -5.04,12.5 -11.26,12.5 h -47.48 c -6.22,0 -11.26,-5.5965 -11.26,-12.5 0,-6.9036 5.04,-12.5 11.26,-12.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4717"
+         transform="translate(1125.09,72)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Start</text>
+      <path
+         id="path4719"
+         stroke-miterlimit="8"
+         d="m 678.5,627.5 h 241 l -48.2,49 H 726.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4721"
+         transform="translate(754.697,648)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine</text>
+      <text
+         id="text4723"
+         transform="translate(751.137,667)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Bugs Model</text>
+      <path
+         id="path4725"
+         d="m 799.833,462.5 v 67.451 h -0.666 V 462.5 Z m 3.667,66.117 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4727"
+         stroke-miterlimit="8"
+         d="m 1352.5,424.5 h 241 l -48.2,64 h -144.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4729"
+         transform="translate(1440.29,442)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text4731"
+         transform="translate(1411.57,461)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Vulnerability State/</text>
+      <text
+         id="text4733"
+         transform="translate(1406.37,480)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Specification Models</text>
+      <path
+         id="path4735"
+         d="m 1473.83,488.5 v 25.565 h -0.66 V 488.5 Z m 3.67,24.232 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4737"
+         stroke-miterlimit="8"
+         d="m 1367.5,348.5 h 212 l -42.4,49 h -127.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4739"
+         transform="translate(1414.54,368)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF Security</text>
+      <text
+         id="text4741"
+         transform="translate(1420.42,387)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Concepts Model</text>
+      <path
+         id="path4743"
+         d="m 1226.5,372.167 154.76,0.26 v 0.667 l -154.76,-0.261 z m 153.43,-3.409 8,4.014 -8.01,3.986 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4745"
+         stroke-miterlimit="8"
+         d="m 1621.5,472.5 h 154 v 32.88 c -77,0 -77,12.528 -154,5.409 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4747"
+         transform="translate(1622.52,494)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Vulnerability Models</text>
+      <path
+         id="path4749"
+         d="m 1569.5,456.167 h 129.32 v 9.405 h -0.66 V 456.5 l 0.33,0.333 H 1569.5 Z m 132.99,8.072 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4751"
+         stroke-miterlimit="8"
+         d="m 1620.5,386.5 h 155 v 33.682 c -77.5,0 -77.5,12.833 -155,5.541 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4753"
+         transform="translate(1635.47,408)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Concepts Model</text>
+      <path
+         id="path4755"
+         d="m 1558.5,373.167 h 140.17 v 7.525 h -0.66 V 373.5 l 0.33,0.333 H 1558.5 Z m 143.84,6.191 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4757"
+         stroke-miterlimit="8"
+         d="m 523.5,674.5 h 155 v 31.276 c -77.5,0 -77.5,11.917 -155,5.146 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4759"
+         transform="translate(552.969,695)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Bugs Model</text>
+      <path
+         id="path4761"
+         stroke-miterlimit="8"
+         d="m 1034.5,118.5 h 213 l -42.6,49 h -127.8 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4763"
+         transform="translate(1109.71,139)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text4765"
+         transform="translate(1108.04,158)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Operation</text>
+      <path
+         id="path4767"
+         stroke-miterlimit="8"
+         d="m 1367.5,118.5 h 212 l -42.4,49 h -127.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4769"
+         transform="translate(1442.12,138)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text4771"
+         transform="translate(1417.86,157)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Operation Model</text>
+      <path
+         id="path4773"
+         transform="matrix(1,0,0,-1,1225.5,143.646)"
+         d="M 3.00345e-4,-0.333333 155.76,-0.192988 155.759,0.473678 -3.00345e-4,0.333333 Z M 154.43,-3.86085 l 7.996,4.007202 -8.003,3.992788 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4775"
+         stroke-miterlimit="8"
+         d="m 1621.5,158.5 h 154 v 33.682 c -77,0 -77,12.833 -154,5.541 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4777"
+         transform="translate(1630.34,180)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Operation Models</text>
+      <path
+         id="path4779"
+         d="m 1558.5,143.167 h 140.68 v 9.276 h -0.66 V 143.5 l 0.33,0.333 H 1558.5 Z m 144.35,7.943 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4781"
+         d="m 1140.83,79.4984 0.16,31.0656 -0.67,0.003 -0.15,-31.0653 z m 3.82,29.7136 -3.96,8.02 -4.04,-7.98 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4783"
+         transform="matrix(-1,0,0,1,703.284,652.5)"
+         d="M 0,-0.333333 H 102.117 V 15.5934 H 101.45 V 0 l 0.334,0.333333 H 0 Z m 105.784,14.593433 -4,8 -4.0003,-8 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect4785"
+         stroke-miterlimit="8"
+         height="49"
+         width="176"
+         y="799.5"
+         x="423.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4787"
+         transform="translate(448.741,819)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine possible</text>
+      <text
+         id="text4789"
+         transform="translate(465.121,838)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Bugs per Class</text>
+      <rect
+         id="rect4791"
+         stroke-miterlimit="8"
+         height="49"
+         width="176"
+         y="798.5"
+         x="785.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4793"
+         transform="translate(810.59,818)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine possible</text>
+      <text
+         id="text4795"
+         transform="translate(823.35,837)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Faults per Class</text>
+      <rect
+         id="rect4797"
+         stroke-miterlimit="8"
+         height="49"
+         width="176"
+         y="799.5"
+         x="990.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4799"
+         transform="translate(1015.69,819)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine possible</text>
+      <text
+         id="text4801"
+         transform="translate(1028.23,838)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Errors per Class</text>
+      <rect
+         id="rect4803"
+         stroke-miterlimit="8"
+         height="49"
+         width="212"
+         y="799.5"
+         x="1195.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4805"
+         transform="translate(1238.77,819)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine possible</text>
+      <text
+         id="text4807"
+         transform="translate(1234.39,838)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Final Errors per Class</text>
+      <rect
+         id="rect4809"
+         stroke-miterlimit="8"
+         height="49"
+         width="176"
+         y="934.5"
+         x="1230.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4811"
+         transform="translate(1254.23,954)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine Operand</text>
+      <text
+         id="text4813"
+         transform="translate(1286.24,973)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Attributes</text>
+      <rect
+         id="rect4815"
+         stroke-miterlimit="8"
+         height="48.999901"
+         width="175"
+         y="989.5"
+         x="574.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4817"
+         stroke-miterlimit="8"
+         d="m 1230.5,934.5 h 176 l -35.2,49 h -105.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path4819"
+         stroke-miterlimit="8"
+         d="m 574.5,989.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4821"
+         transform="translate(610.591,1009)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine Sites</text>
+      <text
+         id="text4823"
+         transform="translate(637.231,1028)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">in Code</text>
+      <path
+         id="path4825"
+         transform="matrix(0,1,1,0,511.5,848.5)"
+         d="M 0,-0.333333 H 70.7124 V 396.404 l -0.3333,-0.334 h 63.7119 v 0.667 H 70.0457 V 0 l 0.3334,0.333333 H 0 Z M 132.758,392.404 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4827"
+         transform="matrix(0,1,1,0,873.5,847.5)"
+         d="M 0,-0.333333 H 71.2644 V 34.5547 l -0.3333,-0.3333 h 64.2639 v 0.6667 H 70.5977 V 0 l 0.3334,0.333333 H 0 Z m 133.862,30.888133 8,3.9999 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect4829"
+         stroke-miterlimit="8"
+         height="49"
+         width="176"
+         y="934.5"
+         x="335.5"
+         style="fill:#f1f8ee;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4831"
+         transform="translate(354.927,954)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine Operation</text>
+      <text
+         id="text4833"
+         transform="translate(391.28,973)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Attributes</text>
+      <path
+         id="path4835"
+         d="m 511.381,848.5 v 43.276 H 423.5 l 0.333,-0.334 v 36.276 h -0.666 v -36.609 h 87.88 l -0.333,0.333 V 848.5 Z m -83.881,77.885 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4837"
+         transform="matrix(0,1,1,0,873.5,847.5)"
+         d="M 0,-0.333333 H 43.8276 V 445.564 l -0.3333,-0.333 h 36.8276 v 0.666 H 43.1609 V 0 l 0.3334,0.333333 H 0 Z M 78.9886,441.564 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4839"
+         transform="matrix(0,1,1,0,511.5,848.5)"
+         d="M 0,-0.333333 H 70.6931 V 150.69 l -0.3334,-0.333 h 63.6933 v 0.667 H 70.0264 V 0 l 0.3333,0.333333 H 0 Z M 132.719,146.69 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4841"
+         d="m 872.992,847.5 v 71.245 H 661.5 l 0.333,-0.333 v 64.245 h -0.666 v -64.578 h 211.492 l -0.333,0.333 V 847.5 Z M 665.5,981.324 l -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4843"
+         stroke-miterlimit="8"
+         d="m 678.5,413.5 h 241 l -48.2,49 H 726.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#e5ecf7;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4845"
+         transform="translate(744.943,433)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine BF</text>
+      <text
+         id="text4847"
+         transform="translate(734.763,452)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Taxonomy Structure</text>
+      <path
+         id="path4849"
+         stroke-miterlimit="8"
+         d="m 696.762,1887.5 h 47.476 c 6.22,0 11.262,5.6 11.262,12.5 0,6.9 -5.042,12.5 -11.262,12.5 h -47.476 c -6.22,0 -11.262,-5.6 -11.262,-12.5 0,-6.9 5.042,-12.5 11.262,-12.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4851"
+         transform="translate(708.183,1905)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">End</text>
+      <path
+         id="path4853"
+         d="m 720.833,1849.5 0.3,31.52 h -0.667 l -0.299,-31.52 z m 3.954,30.15 -3.924,8.04 -4.076,-7.97 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4855"
+         transform="translate(546.586,1816)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">No</text>
+      <text
+         id="text4857"
+         transform="translate(728.648,1871)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Yes</text>
+      <path
+         id="path4859"
+         stroke-miterlimit="8"
+         d="m 583.5,1823 137,-26.5 137,26.5 -137,26.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4861"
+         transform="translate(678.164,1818)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Taxonomy</text>
+      <text
+         id="text4863"
+         transform="translate(687.104,1837)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Compete?</text>
+      <path
+         id="path4865"
+         d="m 720.833,1583.5 v 29.85 h -0.666 v -29.85 z m 3.667,28.51 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4867"
+         stroke-miterlimit="8"
+         d="m 1056.5,987.5 h 155 v 42.5 c -77.5,0 -77.5,16.2 -155,7 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4869"
+         transform="translate(1094.48,1004)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Semantic</text>
+      <text
+         id="text4871"
+         transform="translate(1081.72,1023)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Relations Matrix</text>
+      <path
+         id="path4873"
+         d="m 808.5,1473.17 h 126.641 v 9.18 h -0.667 v -8.85 l 0.333,0.33 H 808.5 Z m 130.307,7.85 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4875"
+         transform="translate(552.067,1366)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">No</text>
+      <text
+         id="text4877"
+         transform="translate(737.92,1433)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Yes</text>
+      <path
+         id="path4879"
+         stroke-miterlimit="8"
+         d="M 582.5,1382 721,1355.5 859.5,1382 721,1408.5 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4881"
+         transform="translate(677.947,1377)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Class Type</text>
+      <text
+         id="text4883"
+         transform="translate(687.466,1396)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Compete?</text>
+      <path
+         id="path4885"
+         d="m 720.833,1408.5 v 33.49 h -0.666 v -33.49 z m 3.667,32.15 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4887"
+         transform="matrix(1,0,0,-1,582.5,1381.76)"
+         d="M 0,0.333333 H -289.324 L -288.991,0 v 652.258 l -0.333,-0.334 h 579.152 l -0.333,0.334 v -17.333 h 0.667 v 17.666 H -289.657 V -0.333333 H 0 Z M 285.828,636.258 l 4,-8 4,8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4889"
+         stroke-miterlimit="8"
+         d="m 523.5,536.5 h 552 l -110.4,49 H 633.9 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4891"
+         transform="translate(668.947,556)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine Related Execution Phases per</text>
+      <text
+         id="text4893"
+         transform="translate(634.74,575)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Bugs/Faults and their BF Operations with Operands</text>
+      <path
+         id="path4895"
+         d="m 799.833,585.5 v 35.692 h -0.666 V 585.5 Z m 3.667,34.359 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4897"
+         transform="matrix(1,0,0,-1,583.5,1823.17)"
+         d="M 0,0.333333 H -314.584 L -314.251,0 v 1310.67 l -0.333,-0.34 h 530.498 l -0.334,0.34 v -17.33 h 0.667 V 1311 H -314.917 V -0.333333 H 0 Z M 211.914,1294.67 l 4,-8 4,8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4899"
+         stroke-miterlimit="8"
+         d="m 1211.5,674.5 h 155 v 42.503 c -77.5,0 -77.5,16.195 -155,6.993 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4901"
+         transform="translate(1249.01,691)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Semantic</text>
+      <text
+         id="text4903"
+         transform="translate(1214.36,710)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Operation Flow Graphs</text>
+      <path
+         id="path4905"
+         stroke-miterlimit="8"
+         d="m 857.5,1488.5 h 155 v 42.5 c -77.5,0 -77.5,16.2 -155,7 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4907"
+         transform="translate(895.32,1505)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Semantic</text>
+      <text
+         id="text4909"
+         transform="translate(877.36,1524)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Transitions Matrix</text>
+      <path
+         id="path4911"
+         stroke-miterlimit="10"
+         d="m 655.375,1098.5 v 49 m 131.25,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4913"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1098.5"
+         x="633.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4915"
+         transform="translate(676.386,1118)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine</text>
+      <text
+         id="text4917"
+         transform="translate(671.512,1137)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Class</text>
+      <text
+         id="text4919"
+         transform="translate(726.512,1137)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Taxons</text>
+      <path
+         id="path4921"
+         d="m 1473.83,397.5 v 20.153 h -0.66 V 397.5 Z m 3.67,18.819 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4923"
+         stroke-miterlimit="10"
+         d="m 655.375,1183.5 v 49 m 131.25,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4925"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1183.5"
+         x="633.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4927"
+         transform="translate(685.096,1203)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Validate BF</text>
+      <text
+         id="text4929"
+         transform="translate(687.676,1222)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Class Type</text>
+      <path
+         id="path4931"
+         stroke-miterlimit="8"
+         d="m 858.5,1311.5 h 154 v 31.28 c -77,0 -77,11.91 -154,5.14 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4933"
+         transform="translate(875.385,1332)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Class Taxonomy</text>
+      <path
+         id="path4935"
+         d="m 797.5,1294.17 h 138.21 v 9.83 h -0.666 v -9.5 l 0.333,0.33 H 797.5 Z m 141.877,8.5 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect4937"
+         height="49"
+         width="225"
+         y="1689.5"
+         x="795.5"
+         style="fill:#fff2cc" />
+      <path
+         id="path4939"
+         stroke-miterlimit="10"
+         d="m 823.625,1689.5 v 49 m 168.75,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4941"
+         stroke-miterlimit="10"
+         height="49"
+         width="225"
+         y="1689.5"
+         x="795.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4943"
+         transform="translate(867.671,1709)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Generate BF</text>
+      <text
+         id="text4945"
+         transform="translate(852.538,1728)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Formal Language</text>
+      <path
+         id="path4947"
+         d="m 779.5,1646.17 h 128.216 v 36.67 h -0.667 v -36.34 l 0.333,0.33 H 779.5 Z m 131.882,35.34 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4949"
+         stroke-miterlimit="10"
+         d="m 624.5,1270.5 h 192 l -38.4,49 H 662.9 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1f8ee;fill-rule:evenodd;stroke:#660066;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4951"
+         transform="translate(666.636,1290)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine BF</text>
+      <text
+         id="text4953"
+         transform="translate(670.502,1309)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Class Taxonomy</text>
+      <path
+         id="path4955"
+         d="m 720.833,1232.5 v 31.41 h -0.666 v -31.41 z m 3.667,30.08 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4957"
+         d="m 720.833,1147.5 v 29.53 h -0.666 v -29.53 z m 3.667,28.2 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4959"
+         d="m 720.833,1319.5 0.02,29.54 h -0.667 l -0.019,-29.54 z m 3.686,28.2 -3.995,8 -4.005,-7.99 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4961"
+         stroke-miterlimit="8"
+         d="m 532.5,457.5 h 155 v 31.276 c -77.5,0 -77.5,11.917 -155,5.146 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4963"
+         transform="translate(535.641,478)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Taxonomy Structure</text>
+      <path
+         id="path4965"
+         transform="matrix(-1,0,0,1,702.488,437.5)"
+         d="M 0,-0.333333 H 93.3214 V 12.8955 H 92.6547 V 0 L 92.988,0.333333 H 0 Z m 96.988,11.895533 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4967"
+         stroke-miterlimit="10"
+         d="m 455.5,1689.5 v 49 m 168,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4969"
+         stroke-miterlimit="10"
+         height="49"
+         width="224"
+         y="1689.5"
+         x="427.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4971"
+         transform="translate(462.058,1710)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Generate BF in Machine</text>
+      <text
+         id="text4973"
+         transform="translate(466.845,1729)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">and Graphical Formats</text>
+      <rect
+         id="rect4975"
+         height="49"
+         width="176"
+         y="627.5"
+         x="1012.5"
+         style="fill:#f1f8ee" />
+      <path
+         id="path4977"
+         stroke-miterlimit="10"
+         d="m 1034.5,627.5 v 49 m 132,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect4979"
+         stroke-miterlimit="10"
+         height="49"
+         width="176"
+         y="627.5"
+         x="1012.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text4981"
+         transform="translate(1051.78,648)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF Valid</text>
+      <text
+         id="text4983"
+         transform="translate(1050.36,667)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Operation Flow</text>
+      <text
+         id="text4985"
+         transform="translate(979.623,19)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Processes</text>
+      <path
+         id="path4987"
+         stroke-miterlimit="8"
+         d="m 1620.5,569.5 h 155 v 41.701 c -77.5,0 -77.5,15.889 -155,6.861 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4989"
+         transform="translate(1647.06,586)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Specification</text>
+      <text
+         id="text4991"
+         transform="translate(1664.53,605)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Structures</text>
+      <path
+         id="path4993"
+         d="m 1575.5,553.167 h 122.67 v 9.462 h -0.67 V 553.5 l 0.34,0.333 H 1575.5 Z m 126.34,8.129 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4995"
+         stroke-miterlimit="8"
+         d="m 1345.5,521.5 h 256 l -51.2,64 h -153.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e5ecf7;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text4997"
+         transform="translate(1428.77,539)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine</text>
+      <text
+         id="text4999"
+         transform="translate(1422.88,558)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Vulnerability</text>
+      <text
+         id="text5001"
+         transform="translate(1397.15,577)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Specification Structures</text>
+      <path
+         id="path5003"
+         stroke-miterlimit="10"
+         d="m 655.375,1534.5 v 49 m 131.25,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5005"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1534.5"
+         x="633.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5007"
+         transform="translate(666.656,1555)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define/Refine BF</text>
+      <text
+         id="text5009"
+         transform="translate(665.023,1574)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Failure Taxonomy</text>
+      <path
+         id="path5011"
+         d="m 720.833,1497.5 v 30.59 h -0.666 v -30.59 z m 3.667,29.25 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5013"
+         stroke-miterlimit="8"
+         d="m 423.5,799.5 h 176 l -35.2,49 H 458.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5015"
+         stroke-miterlimit="8"
+         d="m 335.5,934.5 h 176 l -35.2,49 H 370.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5017"
+         stroke-miterlimit="8"
+         d="m 785.5,798.5 h 176 l -35.2,49 H 820.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5019"
+         stroke-miterlimit="8"
+         d="m 990.5,799.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5021"
+         stroke-miterlimit="8"
+         d="m 1195.5,800.5 h 212 l -42.4,49 h -127.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <rect
+         id="rect5023"
+         stroke-miterlimit="10"
+         height="49"
+         width="176"
+         y="1122.5"
+         x="1038.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5025"
+         transform="translate(1048.55,1142)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Create/Refine BF Secure</text>
+      <text
+         id="text5027"
+         transform="translate(1071.01,1161)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Coding Principles</text>
+      <rect
+         id="rect5029"
+         stroke-miterlimit="10"
+         height="48"
+         width="176"
+         y="1213.5"
+         x="1038.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5031"
+         transform="translate(1070.19,1233)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Create /Refine BF</text>
+      <text
+         id="text5033"
+         transform="translate(1081.1,1252)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Security Rules</text>
+      <path
+         id="path5035"
+         transform="matrix(0,1,1,0,907.5,1038.5)"
+         d="M 0,-0.333333 H 42.5434 V 218.656 L 42.21,218.323 h 35.5432 v 0.667 H 41.8767 V 0 L 42.21,0.333333 H 0 Z M 76.4198,214.656 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5037"
+         d="m 1126.83,1171.5 v 35.39 h -0.66 v -35.39 z m 3.67,34.06 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5039"
+         stroke-miterlimit="8"
+         d="m 1034.5,196.5 h 213 l -42.6,49 h -127.8 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5041"
+         transform="translate(1109.72,216)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text5043"
+         transform="translate(1108.18,235)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Weakness</text>
+      <path
+         id="path5045"
+         stroke-miterlimit="8"
+         d="m 1353.5,196.5 h 240 l -48,49 h -144 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5047"
+         transform="translate(1442.12,216)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text5049"
+         transform="translate(1414.92,235)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Weakness Models</text>
+      <path
+         id="path5051"
+         d="m 1140.83,322.498 0.14,18.815 -0.66,0.005 -0.14,-18.815 z m 3.8,17.454 -3.94,8.03 -4.06,-7.97 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5053"
+         d="m 1140.83,167.5 v 21.622 h -0.66 V 167.5 Z m 3.67,20.288 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5055"
+         d="m 1225.5,220.167 144.73,0.271 v 0.667 l -144.73,-0.272 z m 143.41,-3.398 7.99,4.015 -8.01,3.985 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5057"
+         stroke-miterlimit="8"
+         d="m 1620.5,235.5 h 155 v 32.88 c -77.5,0 -77.5,12.528 -155,5.409 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5059"
+         transform="translate(1629.98,257)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Weakness Models</text>
+      <path
+         id="path5061"
+         d="m 1569.5,220.167 h 129.15 v 8.373 h -0.67 v -8.04 l 0.33,0.333 H 1569.5 Z m 132.81,7.039 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5063"
+         d="m 895.5,652.167 h 110.06 v 0.666 H 895.5 Z m 108.72,-3.667 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5065"
+         d="m 1188.5,652.167 h 101.09 v 15.812 h -0.66 V 652.5 l 0.33,0.333 H 1188.5 Z m 104.76,14.478 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5067"
+         stroke-miterlimit="8"
+         d="m 1241.5,1168.5 h 155 v 42.5 c -77.5,0 -77.5,16.2 -155,7 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5069"
+         transform="translate(1262.74,1185)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5071"
+         transform="translate(1282.24,1185)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Secure Coding</text>
+      <text
+         id="text5073"
+         transform="translate(1287.45,1204)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Principles</text>
+      <path
+         id="path5075"
+         d="m 1214.5,1147.17 h 104.85 v 15.36 h -0.67 v -15.03 l 0.33,0.33 H 1214.5 Z m 108.51,14.03 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5077"
+         stroke-miterlimit="8"
+         d="m 1241.5,1258.5 h 155 v 31.28 c -77.5,0 -77.5,11.91 -155,5.14 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5079"
+         transform="translate(1263.7,1279)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5081"
+         transform="translate(1283.2,1279)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Security Rules</text>
+      <path
+         id="path5083"
+         d="m 1214.5,1237.17 h 104.85 v 14.04 h -0.67 v -13.71 l 0.33,0.33 H 1214.5 Z m 108.51,12.7 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5085"
+         stroke-miterlimit="8"
+         d="m 779.5,1629.33 c 0,4.88 -26.191,8.84 -58.5,8.84 -32.309,0 -58.5,-3.96 -58.5,-8.84"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5087"
+         stroke-miterlimit="8"
+         d="m 662.5,1629.33 c 0,-4.88 26.191,-8.83 58.5,-8.83 32.309,0 58.5,3.95 58.5,8.83 v 35.34 c 0,4.88 -26.191,8.83 -58.5,8.83 -32.309,0 -58.5,-3.95 -58.5,-8.83 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5089"
+         transform="translate(670.933,1651)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Import BF Class</text>
+      <text
+         id="text5091"
+         transform="translate(672.78,1670)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Type in BF RDB</text>
+      <rect
+         id="rect5093"
+         stroke-miterlimit="8"
+         height="708"
+         width="239"
+         y="753.5"
+         x="1507.5"
+         style="fill:#f9f9f9;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5095"
+         transform="translate(1595.64,776)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Create BF</text>
+      <text
+         id="text5097"
+         transform="translate(1543.61,795)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Vulnerability Specification</text>
+      <text
+         id="text5099"
+         transform="translate(1677.63,1894)"
+         font-size="14"
+         font-weight="300"
+         style="font-weight:300;font-size:14px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif;fill:#7f7f7f">BF, I. Bojanova</text>
+      <rect
+         id="rect5101"
+         stroke-miterlimit="10"
+         height="49"
+         width="187"
+         y="818.5"
+         x="1532.5"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5103"
+         transform="translate(1559.09,838)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Analyze Vulnerability</text>
+      <text
+         id="text5105"
+         transform="translate(1553.6,857)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Descriptions and Code</text>
+      <rect
+         id="rect5107"
+         height="49"
+         width="175"
+         y="1205.5"
+         x="1538.5"
+         style="fill:#ffe5e5" />
+      <path
+         id="path5109"
+         stroke-miterlimit="10"
+         d="m 1560.38,1205.5 v 49 m 131.24,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5111"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1205.5"
+         x="1538.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5113"
+         transform="translate(1568.6,1225)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Identify the Chain</text>
+      <text
+         id="text5115"
+         transform="translate(1568.19,1244)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">of BF Weaknesses</text>
+      <rect
+         id="rect5117"
+         height="48.999901"
+         width="175"
+         y="1010.5"
+         x="1538.5"
+         style="fill:#ffe5e5" />
+      <path
+         id="path5119"
+         stroke-miterlimit="10"
+         d="m 1560.38,1010.5 v 49 m 131.24,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5121"
+         stroke-miterlimit="10"
+         height="48.999901"
+         width="175"
+         y="1010.5"
+         x="1538.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5123"
+         transform="translate(1573.63,1030)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Generate Partial</text>
+      <text
+         id="text5125"
+         transform="translate(1571.96,1049)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF Specifications</text>
+      <rect
+         id="rect5127"
+         height="49"
+         width="185"
+         y="916.5"
+         x="1533.5"
+         style="fill:#ffffff" />
+      <path
+         id="path5129"
+         stroke-miterlimit="10"
+         d="m 1556.62,916.5 v 49 m 138.76,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5131"
+         stroke-miterlimit="10"
+         height="49"
+         width="185"
+         y="916.5"
+         x="1533.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5133"
+         transform="translate(1559.01,937)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Identify Failure, Final</text>
+      <text
+         id="text5135"
+         transform="translate(1574.17,956)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Error, Weakness</text>
+      <path
+         id="path5137"
+         d="m 1626.83,867.5 v 42.601 h -0.66 V 867.5 Z m 3.67,41.267 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect5139"
+         height="48"
+         width="190"
+         y="1108.5"
+         x="1531.5"
+         style="fill:#ffe5e5" />
+      <path
+         id="path5141"
+         stroke-miterlimit="10"
+         d="m 1555.25,1108.5 v 48 m 142.5,-48 v 48"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5143"
+         stroke-miterlimit="10"
+         height="48"
+         width="190"
+         y="1108.5"
+         x="1531.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5145"
+         transform="translate(1586.04,1128)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Generate BF</text>
+      <text
+         id="text5147"
+         transform="translate(1560.87,1147)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Backward State Tree</text>
+      <path
+         id="path5149"
+         d="m 1626.83,1741.5 v 30.6 h -0.66 v -30.6 z m 3.67,29.27 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text5151"
+         transform="translate(1632.83,1762)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Yes</text>
+      <text
+         id="text5153"
+         transform="translate(1733.93,1698)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">No</text>
+      <path
+         id="path5155"
+         stroke-miterlimit="8"
+         d="m 1510.5,1715 115.5,-26.5 115.5,26.5 -115.5,26.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5157"
+         transform="translate(1578.54,1710)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BFVUL Dataset</text>
+      <text
+         id="text5159"
+         transform="translate(1590.84,1729)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Complete?</text>
+      <path
+         id="path5161"
+         d="m 1740.93,1714.06 h 29.33 l -0.33,0.34 V 729.496 l 0.33,0.334 H 1626.5 l 0.33,-0.334 v 17.337 h -0.66 v -17.67 h 144.42 v 985.567 h -29.66 z M 1630.5,745.5 l -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5163"
+         d="m 1626.83,1555.5 v 31.32 h -0.66 v -31.32 z m 3.67,29.98 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5165"
+         d="m 1626.83,1650.5 v 31.45 h -0.66 v -31.45 z m 3.67,30.12 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5167"
+         stroke-miterlimit="8"
+         d="m 1701.5,1511.33 c 0,4.88 -33.8,8.84 -75.5,8.84 -41.7,0 -75.5,-3.96 -75.5,-8.84"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5169"
+         stroke-miterlimit="8"
+         d="m 1550.5,1511.33 c 0,-4.88 33.8,-8.83 75.5,-8.83 41.7,0 75.5,3.95 75.5,8.83 v 35.34 c 0,4.88 -33.8,8.83 -75.5,8.83 -41.7,0 -75.5,-3.95 -75.5,-8.83 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5171"
+         transform="translate(1551.21,1534)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Import BF Specification</text>
+      <text
+         id="text5173"
+         transform="translate(1594.73,1553)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">in BF RDB</text>
+      <path
+         id="path5175"
+         stroke-miterlimit="8"
+         d="m 1602.76,1778.5 h 47.48 c 6.22,0 11.26,5.6 11.26,12.5 0,6.9 -5.04,12.5 -11.26,12.5 h -47.48 c -6.22,0 -11.26,-5.6 -11.26,-12.5 0,-6.9 5.04,-12.5 11.26,-12.5 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5177"
+         transform="translate(1613.31,1796)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">End</text>
+      <rect
+         id="rect5179"
+         height="49"
+         width="175"
+         y="1391.5"
+         x="1538.5"
+         style="fill:#ffffff" />
+      <path
+         id="path5181"
+         stroke-miterlimit="10"
+         d="m 1560.38,1391.5 v 49 m 131.24,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5183"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1391.5"
+         x="1538.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5185"
+         transform="translate(1578.68,1411)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Validate/Verify</text>
+      <text
+         id="text5187"
+         transform="translate(1575.05,1430)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5189"
+         transform="translate(1594.55,1430)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Specification</text>
+      <rect
+         id="rect5191"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1299.5"
+         x="1538.5"
+         style="fill:#ffe5e5;stroke:#660066;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5193"
+         transform="translate(1581.48,1319)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Create/Refine</text>
+      <text
+         id="text5195"
+         transform="translate(1575.05,1338)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5197"
+         transform="translate(1594.55,1338)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Specification</text>
+      <path
+         id="path5199"
+         d="m 1626.83,965.5 v 38.32 h -0.66 V 965.5 Z m 3.67,36.98 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5201"
+         d="m 1626.83,1059.5 v 41.71 h -0.66 v -41.71 z m 3.67,40.38 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5203"
+         d="m 1626.83,1156.5 v 41.73 h -0.66 v -41.73 z m 3.67,40.4 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5205"
+         d="m 1626.83,1254.5 v 38.82 h -0.66 v -38.82 z m 3.67,37.49 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5207"
+         d="m 1626.83,1348.5 v 36.51 h -0.66 v -36.51 z m 3.67,35.17 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5209"
+         d="m 1626.83,1440.5 v 55.58 h -0.66 v -55.58 z m 3.67,54.24 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5211"
+         transform="matrix(0,1,1,0,1473.5,585.5)"
+         d="M 0,-0.333333 H 84.5152 V 153.575 l -0.3334,-0.333 h 77.5152 v 0.666 H 83.8485 V 0 l 0.3333,0.333333 H 0 Z M 160.364,149.575 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5213"
+         d="m 995.5,1013.17 54.79,0.07 v 0.66 l -54.79,-0.07 z m 53.46,-3.6 8,4.01 -8.01,3.99 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5215"
+         d="m 872.576,1058.5 v 20.07 H 720.5 l 0.333,-0.34 v 13.07 h -0.666 v -13.4 h 152.075 l -0.333,0.33 v -19.73 z m -148.076,31.47 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5217"
+         transform="matrix(0,1,1,0,799.5,676.5)"
+         d="M 0,-0.333333 H 38.8824 V 73.4312 L 38.549,73.0978 h 31.8824 v 0.6667 H 38.2157 V 0 L 38.549,0.333333 H 0 Z m 69.0981,69.764533 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5219"
+         stroke-miterlimit="8"
+         d="m 1034.5,273.5 h 213 l -42.6,49 h -127.8 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5221"
+         transform="translate(1109.72,294)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text5223"
+         transform="translate(1100.22,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Vulnerability</text>
+      <path
+         id="path5225"
+         stroke-miterlimit="8"
+         d="m 1353.5,274.5 h 240 l -48,49 h -144 z"
+         inkscape:connector-curvature="0"
+         style="fill:#f1e8f8;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5227"
+         transform="translate(1442.12,294)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Define BF</text>
+      <text
+         id="text5229"
+         transform="translate(1406.96,313)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Vulnerability Models</text>
+      <path
+         id="path5231"
+         d="m 1140.83,245.5 v 22.108 h -0.66 V 245.5 Z m 3.67,20.775 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5233"
+         stroke-miterlimit="8"
+         d="m 1620.5,313.5 h 155 v 32.88 c -77.5,0 -77.5,12.528 -155,5.409 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <text
+         id="text5235"
+         transform="translate(1625.1,335)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5237"
+         transform="translate(1644.6,335)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Vulnerability</text>
+      <text
+         id="text5239"
+         transform="translate(1728.6,335)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Model</text>
+      <path
+         id="path5241"
+         d="m 1569.5,298.167 h 129.15 v 8.373 h -0.67 v -8.04 l 0.33,0.333 H 1569.5 Z m 132.81,7.039 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5243"
+         d="m 1225.5,298.167 144.73,0.271 v 0.667 l -144.73,-0.272 z m 143.41,-3.398 7.99,4.015 -8.01,3.985 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5245"
+         d="m 1473.83,167.5 v 22.052 h -0.66 V 167.5 Z m 3.67,20.719 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5247"
+         d="m 1473.83,245.5 v 22.108 h -0.66 V 245.5 Z m 3.67,20.775 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5249"
+         d="m 1473.83,323.5 v 18.803 h -0.66 V 323.5 Z m 3.67,17.469 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5251"
+         transform="matrix(-1,0,0,1,1055.53,372.5)"
+         d="M 0,-0.333333 H 256.365 V 33.9715 h -0.666 V 0 l 0.333,0.333333 H 0 Z m 260.032,32.971533 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5253"
+         stroke-miterlimit="8"
+         d="m 633.5,1098.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5255"
+         stroke-miterlimit="8"
+         d="m 633.5,1183.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5257"
+         stroke-miterlimit="8"
+         d="m 633.5,1534.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5259"
+         stroke-miterlimit="8"
+         d="m 1038.5,1122.5 h 176 l -35.2,49 h -105.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5261"
+         stroke-miterlimit="8"
+         d="m 1038.5,1213.5 h 176 l -35.2,49 h -105.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5263"
+         stroke-miterlimit="8"
+         d="m 1532.5,818.5 h 187 l -37.4,49 h -112.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5265"
+         stroke-miterlimit="8"
+         d="m 1538.5,916.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5267"
+         stroke-miterlimit="8"
+         d="m 1538.5,1205.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5269"
+         stroke-miterlimit="8"
+         d="m 1538.5,1299.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5271"
+         stroke-miterlimit="8"
+         d="m 1012.5,627.5 h 176 l -35.2,49 h -105.6 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <rect
+         id="rect5273"
+         height="48.999901"
+         width="176"
+         y="989.5"
+         x="819.5"
+         style="fill:#f1f8ee" />
+      <path
+         id="path5275"
+         stroke-miterlimit="10"
+         d="m 841.5,989.5 v 49 m 132,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5277"
+         stroke-miterlimit="10"
+         height="48.999901"
+         width="176"
+         y="989.5"
+         x="819.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5279"
+         transform="translate(863.311,1009)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine BF</text>
+      <text
+         id="text5281"
+         transform="translate(860.711,1028)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Valid Relations</text>
+      <path
+         id="path5283"
+         stroke-miterlimit="8"
+         d="m 819.5,989.5 h 176 l -35.2,49 H 854.7 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <rect
+         id="rect5285"
+         height="49"
+         width="175"
+         y="1448.5"
+         x="633.5"
+         style="fill:#f1f8ee" />
+      <path
+         id="path5287"
+         stroke-miterlimit="10"
+         d="m 655.375,1448.5 v 49 m 131.25,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5289"
+         stroke-miterlimit="10"
+         height="49"
+         width="175"
+         y="1448.5"
+         x="633.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5291"
+         transform="translate(676.546,1469)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Determine BF</text>
+      <text
+         id="text5293"
+         transform="translate(668.753,1488)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Valid Transitions</text>
+      <path
+         id="path5295"
+         stroke-miterlimit="8"
+         d="m 633.5,1448.5 h 175 l -35,49 h -105 z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#7b7b7b;stroke-width:0.66666698;stroke-miterlimit:8" />
+      <path
+         id="path5297"
+         transform="matrix(-1,0,0,1,661.973,1646.5)"
+         d="M 0,-0.333333 H 122.806 V 36.3408 H 122.14 V 0 l 0.333,0.333333 H 0 Z m 126.473,35.340833 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5299"
+         transform="matrix(0,1,1,0,539.5,1738.5)"
+         d="M 0,-0.333333 H 29.2154 V 180.989 l -0.3334,-0.333 h 22.2154 v 0.666 H 28.5487 V 0 L 28.882,0.333333 H 0 Z M 49.7641,176.989 l 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5301"
+         d="m 907.958,1738.5 v 29.44 H 720.5 l 0.333,-0.33 v 22.44 h -0.666 v -22.77 h 187.457 l -0.333,0.33 v -29.11 z m -183.458,50.22 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5303"
+         transform="matrix(0,1,1,0,1126.5,1262.5)"
+         d="M 0,-0.333333 H 281.674 V 64.157 h -0.666 V 0 l 0.333,0.333333 H 0 Z m 285.341,63.156933 -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5305"
+         stroke-miterlimit="10"
+         d="m 1225.5,1518.5 v 49 m 168,-49 v 49"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <rect
+         id="rect5307"
+         stroke-miterlimit="10"
+         height="49"
+         width="224"
+         y="1518.5"
+         x="1197.5"
+         style="fill:none;stroke:#000000;stroke-width:0.66666698;stroke-linejoin:round;stroke-miterlimit:10" />
+      <text
+         id="text5309"
+         transform="translate(1251.86,1548)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">BF</text>
+      <text
+         id="text5311"
+         transform="translate(1267.69,1548)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">-</text>
+      <text
+         id="text5313"
+         transform="translate(1272.53,1548)"
+         font-size="16"
+         font-weight="300"
+         style="font-weight:300;font-size:16px;font-family:'Calibri Light', 'Calibri Light_MSFontService', sans-serif">Based Systems</text>
+      <path
+         id="path5315"
+         transform="matrix(1,0,0,-1,1421.5,1543.1)"
+         d="M 6.66667,-0.333333 H 42.9814 V 435.598 l -0.3333,-0.334 h 35.9814 v 0.667 H 42.3148 V 0 l 0.3333,0.333333 H 6.66667 Z M 8,4 0,0 8,-4 Z m 69.2962,427.598 8,4 -8,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5317"
+         transform="matrix(1,0,0,-1,1020.5,1713.75)"
+         d="M 0,-0.333333 H 289.814 V 139.582 h -0.667 V 0 l 0.333,0.333333 H 0 Z M 293.48,138.248 l -4,8 -4,-8 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
