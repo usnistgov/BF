@@ -86,7 +86,7 @@ The BF Tool can enforce that the initial weakness starts with a bug and the rest
 5. Under **Operation**, select `Verify`.
 6. Under **Error**, as conseqeunce select `Inconsistent Value` (the consequence of not verifying the input data).
 7. In the text box beneath the controls, enter appropriate comments.
-8. Select **Operation Attributes** and **Operand Attributes** -- coul be don eo a next pass
+8. Select **Operation Attributes** and **Operand Attributes** -- could be done on a next pass
 
 {{< img src="images/BF API Tool Tutorial/BF Tool App Weakness 1 - 2.svg" caption="Figure 4: BF Tool App - Heartbleed Weakness 1" >}}
 
