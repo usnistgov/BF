@@ -47,7 +47,13 @@
      id="g18"
      inkscape:groupmode="layer"
      inkscape:label="BF HB code"
-     transform="matrix(1.3333333,0,0,1.3333333,-3.9374999e-6,1.309375e-5)"><g
+     transform="matrix(1.3333333,0,0,1.3333333,-3.9374999e-6,1.309375e-5)"><rect
+   style="fill:#ffffff;stroke-width:0.750728"
+   id="rect1"
+   width="666.95294"
+   height="880.88"
+   x="0.41831025"
+   y="13.80422" /><g
        id="g20"><text
          transform="translate(-0.801999,7.058706)"
          style="font-variant:normal;font-weight:normal;font-size:11.25px;font-family:'Courier New';-inkscape-font-specification:CourierNewPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"

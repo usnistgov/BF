@@ -154,12 +154,12 @@
   identifier = "BF Tool APP"
   url = "/Info/BF Service/BF Tool APP"
   parent = "BF Service"
-#[[main]]
-#  name = "BF Tool APP Tutorial"
-#  weight = 2
-#  identifier = "BF Tool APP Tutorial"
-#  url = "/Info/BF Service/BF Tool APP Tutorial"
-#  parent = "BF Service"
+[[main]]
+  name = "BF Tool APP Tutorial"
+  weight = 2
+  identifier = "BF Tool APP Tutorial"
+  url = "/Info/BF Service/BF Tool APP Tutorial"
+  parent = "BF Service"
 [[main]]
   name = "BF Dashboard"
   weight = 3
