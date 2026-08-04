@@ -168,9 +168,9 @@
   parent = "BF Service"
 
 [[main]]
-  name = "BF Process"
+  name = "BF Processes"
   weight = 80
-  url = "/Info/BF Process/BF Process"
+  url = "/Info/BF Processes" 
 
 [[main]]
   name = "Why BF"

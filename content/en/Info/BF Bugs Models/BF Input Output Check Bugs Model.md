@@ -22,8 +22,16 @@ The BF Data Check Bugs model (Figure 1) helped us identify the phases and the op
 
 {{< img src="images/BF Models/BF_INP Model.svg" caption="Figure 1. BF Input/Output Check Bugs Model. Comprises phases, corresponding to the BF classes DVL and DVR. Shows the data check operations flow" >}}
 <br/>
-The operations under DVL (Figure 1) are on checking data syntax: Validate and Sanitize. The operations under DVR (Figure 1) are on checking data semantics: Verify and Correct.
+The operations under DVL (Figure 1 and  and Table 1) are on checking data syntax: Validate and Sanitize. The operations under DVR (Figure 1 and  and Table 1) are on checking data semantics: Verify and Correct.
 
+<!-- Table 1. BF_INP Operations
+| BF Operation | Focus On | Action Taken on Success/Failure |
+|--------------|----------|---------------------------------|
+| **Validate** | Syntax (Is it shaped right?) | Accepts, passes to **Sanitize**, or rejects. |
+| **Sanitize** | Format (Is it clean?) | Modifies via escaping, filtering, or repairing. |
+| **Verify** | Semantics (Does it make sense?) | Accepts, passes to **Correct**, or rejects. |
+| **Correct** | Accuracy/Logic (Is it true?) | Modifies by assigning a new value. | -->
+{{< img src="images/BF Models/BF_INP Operations.svg" caption="Table 2. BF Input/Output Check Operations" >}}
 The possible flow between operations from different phases is depicted on Figure 1 with arrows. Data could be validated and verified or only directly verified. The pre- sented operations flow helps in identifying possible chains of bugs/weaknesses.
 
 Data check comprises data validation, where data syntax gets checked for being well-formed, and data verification, where data semantics gets verified for being accurate. The BF model separates data semantics check as data verification, although OWASP (Open Web Application Security Project) puts it under input validation.
