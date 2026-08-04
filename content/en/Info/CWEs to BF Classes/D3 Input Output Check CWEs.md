@@ -34,20 +34,20 @@ title: "D3 Input/Output Check CWEs"
   };
 </script>
 
-#### Same Operation
+<!-- #### Same Operation
 <div id="container"></div> 
 <script type="module" defer>
   loadForceGraph('_INP_Operations.js');
-</script>
+</script> -->
 
-<!-- #### Same Final Error
+#### Same Final Error
 <div id="container"></div> 
 <script type="module" defer>
   loadForceGraph('_INP_Final_Errors.js');
-</script>-->
+</script>
 
-#### Same Triple
+<!-- #### Same Triple
 <div id="container"></div> 
 <script type="module" defer>
   loadForceGraph('_INP_Same_Chains.js');
-</script>  
+</script>   -->

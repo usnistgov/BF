@@ -1,7 +1,7 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-import { floating_node_legend, floating_link_legend, resize } from "./FG_Legend_Controler.js";
+                        //import { floating_node_legend, floating_link_legend, resize } from "./FG_Legend_Controler.js";
 
-// URL parameter from script path
+// URL parameter from script svg
 const urlParams = new URLSearchParams(import.meta.url.split('?')[1]);
 const dataFile = urlParams.get('data');
 
@@ -121,15 +121,15 @@ node.on("dblclick", (event, d) => {
     // Right-click
     .on("contextmenu", (event, d) => {window.open("https://cwe.mitre.org/data/definitions/" + d.id + ".html"); })
     // Hoover
-    .on("mouseover", function(event, d) { d3.select(this).selectChild("#info") .text(legendNodeID(d.id)) .style("visibility", "visible"); })
-    .on("mouseout", function(event, d) { d3.select(this) .selectChild("#info") .style("visibility", "hidden"); });
+                            // .on("mouseover", function(event, d) { d3.select(this).selectChild("#info") .text(legendNodeID(d.id)) .style("visibility", "visible"); })
+                            // .on("mouseout", function(event, d) { d3.select(this) .selectChild("#info") .style("visibility", "hidden"); });
     //.on("mouseover", (event, d) => { d3.select(this).selectChild("#info") .style("visibility", "visible"); })
     //.on("mouseout", (event, d) => { d3.select(this).select("#info") .style("visibility", "hidden"); });
 
-function legendNodeID(nodeId) {
-  const match = legendNodes[0].items.find(item => item.stroke === nodeStrokeById(nodeId));
-  return match ? match.id : null;
-}
+                            // function legendNodeID(nodeId) {
+                            //   const match = legendNodes[0].items.find(item => item.stroke === nodeStrokeById(nodeId));
+                            //   return match ? match.id : null;
+                            // }
 
 function nodeStrokeById(id) {
   const node = nodes.find(n => n.id === id);
@@ -272,33 +272,33 @@ if (savedLayout) {
     });
 }
 
-//ABSTRACTION/RELATIONSHIP LEGEND
+                                // //ABSTRACTION/RELATIONSHIP LEGEND
 
-// Legend Data
-const legendNodes = data.legendNodes.map(d => ({...d}));
-const legendLinks = data.legendLnks.map(d => ({...d}));
-//const legendTable = data.legendTable.map(d => ({...d}));
+                                // // Legend Data
+                                // const legendNodes = data.legendNodes.map(d => ({...d}));
+                                // const legendLinks = data.legendLnks.map(d => ({...d}));
+                                // //const legendTable = data.legendTable.map(d => ({...d}));
 
-const legendWrapper = document.createElement('div');
-    legendWrapper.style.position = 'relative';
-    legendWrapper.style.zIndex = '100';
-    legendWrapper.style.display = 'flex';
-    legendWrapper.style.flexDirection = 'column';
-    legendWrapper.style.border = 'none';
+                                // const legendWrapper = document.createElement('div');
+                                //     legendWrapper.style.position = 'relative';
+                                //     legendWrapper.style.zIndex = '100';
+                                //     legendWrapper.style.display = 'flex';
+                                //     legendWrapper.style.flexDirection = 'column';
+                                //     legendWrapper.style.border = 'none';
 
-// Nodes Legends
-legendNodes.forEach((legend) =>{
-        const legendsvg = floating_node_legend(legend).node()
-        legendWrapper.appendChild(legendsvg);
-        container.appendChild(legendWrapper);
-})
+                                // // Nodes Legends
+                                // legendNodes.forEach((legend) =>{
+                                //         const legendsvg = floating_node_legend(legend).node()
+                                //         legendWrapper.appendChild(legendsvg);
+                                //         container.appendChild(legendWrapper);
+                                // })
 
-// Links Legend
-legendLinks.forEach((legend) =>{
-    const lsvg = floating_link_legend(legend).node();
-    legendWrapper.appendChild(lsvg);
-    container.appendChild(legendWrapper);
-})
+                                // // Links Legend
+                                // legendLinks.forEach((legend) =>{
+                                //     const lsvg = floating_link_legend(legend).node();
+                                //     legendWrapper.appendChild(lsvg);
+                                //     container.appendChild(legendWrapper);
+                                // })
 
 // const arWrapper = document.createElement('div');
 // arWrapper.style.position = 'absolute';
@@ -342,7 +342,7 @@ legendLinks.forEach((legend) =>{
 
 // Append SVG elements
 container.append(svg.node());
-container.appendChild(legendWrapper);
+                        //container.appendChild(legendWrapper);
 
 
 
@@ -350,63 +350,63 @@ container.appendChild(legendWrapper);
 
 
 
-// Sample Data
-const tableData = [
-  { Name: "Alice", Role: "Developer", Status: "Active" },
-  { Name: "Bob", Role: "Designer", Status: "Pending" },
-  { Name: "Charlie", Role: "Manager", Status: "Active" }
-];
+// // Sample Data
+// const tableData = [
+//   { Name: "Alice", Role: "Developer", Status: "Active" },
+//   { Name: "Bob", Role: "Designer", Status: "Pending" },
+//   { Name: "Charlie", Role: "Manager", Status: "Active" }
+// ];
 
-// 1. Create SVG container
-const svg = d3.select("#container")
-  .append("svg")
-  .attr("width", 500)
-  .attr("height", 300);
+// // 1. Create SVG container
+// const svg = d3.select("#container")
+//   .append("svg")
+//   .attr("width", 500)
+//   .attr("height", 300);
 
-// 2. Add foreignObject container
-const fo = svg.append("foreignObject")
-  .attr("x", 20)
-  .attr("y", 20)
-  .attr("width", 460)
-  .attr("height", 260);
+// // 2. Add foreignObject container
+// const fo = svg.append("foreignObject")
+//   .attr("x", 20)
+//   .attr("y", 20)
+//   .attr("width", 460)
+//   .attr("height", 260);
 
-// 3. Add XHTML Table
-const table = fo.append("xhtml:table")
-  .style("width", "100%")
-  .style("border-collapse", "collapse")
-  .style("font-family", "Aptos, sans-serif")
-  .style("font-size", "14px");
+// // 3. Add XHTML Table
+// const table = fo.append("xhtml:table")
+//   .style("width", "100%")
+//   .style("border-collapse", "collapse")
+//   .style("font-family", "Aptos, sans-serif")
+//   .style("font-size", "14px");
 
-// Extract column headers dynamically from the first data object
-const columns = Object.keys(tableData[0]);
+// // Extract column headers dynamically from the first data object
+// const columns = Object.keys(tableData[0]);
 
-// 4. Render Table Header (thead)
-table.append("xhtml:thead")
-  .append("xhtml:tr")
-  .selectAll("th")
-  .data(columns)
-  .enter()
-  .append("xhtml:th")
-  .text(col => col)
-  .style("border", "1px solid #ccc")
-  .style("background-color", "#f4f4f4")
-  .style("padding", "8px")
-  .style("text-align", "left");
+// // 4. Render Table Header (thead)
+// table.append("xhtml:thead")
+//   .append("xhtml:tr")
+//   .selectAll("th")
+//   .data(columns)
+//   .enter()
+//   .append("xhtml:th")
+//   .text(col => col)
+//   .style("border", "1px solid #ccc")
+//   .style("background-color", "#f4f4f4")
+//   .style("padding", "8px")
+//   .style("text-align", "left");
 
-// 5. Render Table Body (tbody)
-const tbody = table.append("xhtml:tbody");
+// // 5. Render Table Body (tbody)
+// const tbody = table.append("xhtml:tbody");
 
-// Create a row (tr) for each object in the array
-const rows = tbody.selectAll("tr")
-  .data(tableData)
-  .enter()
-  .append("xhtml:tr");
+// // Create a row (tr) for each object in the array
+// const rows = tbody.selectAll("tr")
+//   .data(tableData)
+//   .enter()
+//   .append("xhtml:tr");
 
-// Create cells (td) within each row
-rows.selectAll("td")
-  .data(row => columns.map(col => row[col])) // Map values for each column
-  .enter()
-  .append("xhtml:td")
-  .text(d => d)
-  .style("border", "1px solid #ccc")
-  .style("padding", "8px");
+// // Create cells (td) within each row
+// rows.selectAll("td")
+//   .data(row => columns.map(col => row[col])) // Map values for each column
+//   .enter()
+//   .append("xhtml:td")
+//   .text(d => d)
+//   .style("border", "1px solid #ccc")
+//   .style("padding", "8px");

@@ -25,19 +25,19 @@ const tree = d3.tree().nodeSize([dx, dy]);
 const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
 // Create the SVG container, a layer for the links and a layer for the nodes.
-const svg = d3.create("svg")
+const svgC = d3.create("svg")
     .attr("width", width)
     .attr("height", dx)
     .attr("viewBox", [-marginLeft, -marginTop, width, dx])
     .attr("style", "max-width: 100%; height: auto; font: 10px sans-serif; user-select: none;");
 
-const gLink = svg.append("g")
+const gLink = svgC.append("g")
     .attr("fill", "none")
     .attr("stroke", "#555")
     .attr("stroke-opacity", 0.4)
     .attr("stroke-width", 1.5);
 
-const gNode = svg.append("g")
+const gNode = svgC.append("g")
     .attr("cursor", "pointer")
     .attr("pointer-events", "all");
 
@@ -58,11 +58,11 @@ root.eachBefore(node => {
 
 const height = right.x - left.x + marginTop + marginBottom;
 
-const transition = svg.transition()
+const transition = svgC.transition()
     .duration(duration)
     .attr("height", height)
     .attr("viewBox", [-marginLeft, left.x - marginTop, width, height])
-    .tween("resize", window.ResizeObserver ? null : () => () => svg.dispatch("toggle"));
+    .tween("resize", window.ResizeObserver ? null : () => () => svgC.dispatch("toggle"));
 
 // Update the nodes…
 const node = gNode.selectAll("g")
@@ -147,5 +147,5 @@ if (d.depth && d.data.name.length !== 7) d.children = null;
 update(null, root);
 
 // Append the SVG element.
-container.append(svg.node());
+container.append(svgC.node());
 // </script>

@@ -1,18 +1,18 @@
 {
 		"nodes": [
 		
-			{ "id": "134", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "dbl", "dash": "sysDot" },,,,
+			{ "id": "134", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "22", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "41", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "428", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },
-			{ "id": "428", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },,
+			{ "id": "428", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "646", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "707", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "dbl", "dash": "solid" },
 			{ "id": "707", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "dbl", "dash": "solid" },
 			{ "id": "707", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "solid" },
 			{ "id": "707", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "dbl", "dash": "solid" },
 			{ "id": "707", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "solid" },
-			{ "id": "794", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,,
+			{ "id": "794", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "23", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "36", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "44", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
@@ -23,7 +23,7 @@
 			{ "id": "57", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "58", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "138", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "sysDot" },
-			{ "id": "138", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },,
+			{ "id": "138", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "74", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "sysDot" },
 			{ "id": "74", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "74", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "sng", "dash": "sysDot" },
@@ -57,13 +57,13 @@
 			{ "id": "153", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "solid" },
 			{ "id": "154", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
 			{ "id": "155", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "solid" },
-			{ "id": "155", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,,
+			{ "id": "155", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "158", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
-			{ "id": "159", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "sysDot" },,,,
-			{ "id": "790", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },,,,
+			{ "id": "159", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "sysDot" },
+			{ "id": "790", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "116", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "116", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "sysDot" },
-			{ "id": "1236", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },,
+			{ "id": "1236", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "75", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "sysDot" },
 			{ "id": "75", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "75", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },
@@ -78,21 +78,21 @@
 			{ "id": "146", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
 			{ "id": "626", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "solid" },
 			{ "id": "626", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
-			{ "id": "56", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,,,,
-			{ "id": "37", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,
+			{ "id": "56", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
+			{ "id": "37", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "42", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "46", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "49", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
-			{ "id": "54", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,
-			{ "id": "791", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },,,,
-			{ "id": "234", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },,,,,,
+			{ "id": "54", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
+			{ "id": "791", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
+			{ "id": "234", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
 			{ "id": "117", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "644", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "sng", "dash": "solid" },
 			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "dbl", "dash": "sysDot" },
-			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },,,,,,,
+			{ "id": "1173", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "76", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "76", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "624", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "dbl", "dash": "sysDot" },
@@ -120,33 +120,32 @@
 			{ "id": "52", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "43", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "45", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
-			{ "id": "53", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,,
+			{ "id": "53", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "93", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "93", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "dbl", "dash": "sysDot" },
-			{ "id": "93", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },,,,,,
+			{ "id": "93", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "solid" },
 			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "solid" },
 			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "sng", "dash": "solid" },
 			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
-			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },,,,,
+			{ "id": "1174", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "solid" },
 			{ "id": "112", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "78", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "82", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "sng", "dash": "solid" },
 			{ "id": "97", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "sng", "dash": "solid" },
 			{ "id": "73", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" },
-			{ "id": "564", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "solid" },,,
+			{ "id": "564", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "sng", "dash": "solid" },
 			{ "id": "113", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
 			{ "id": "144", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
-			{ "id": "145", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },,
+			{ "id": "145", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "sng", "dash": "solid" },
 			{ "id": "114", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "sng", "dash": "sysDot" },
-			{ "id": "99", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },,
+			{ "id": "99", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "sng", "dash": "sysDot" },
 			{ "id": "692", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "thickThin", "dash": "solid" },
 			{ "id": "641", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "dbl", "dash": "sysDot" },
 			{ "id": "641", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "dbl", "dash": "sysDot" }
 		],
 		"links": [
 			
-		{ "source": "185", "target": "625", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "22", "target": "23", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "22", "target": "36", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "41", "target": "44", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
@@ -322,51 +321,10 @@
 		{ "source": "73", "target": "114", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "74", "target": "99", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "73", "target": "99", "stroke": "#", "dash": "dot", "head": "none", "tail": "none" },
-		{ "source": "185", "target": "186", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "184", "target": "186", "stroke": "#", "dash": "dot", "head": "none", "tail": "none" },
 		{ "source": "183", "target": "186", "stroke": "#", "dash": "dot", "head": "none", "tail": "none" },
 		{ "source": "184", "target": "692", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" },
 		{ "source": "99", "target": "641", "stroke": "#", "dash": "solid", "head": "none", "tail": "stealth" }
-		],
-		"legendNodes": [
-			
-		{
-		"caption": "CWEs by DVL Injection Error:",
-		"items": [
-		
-			{ "id": "DVL Query Injection", "fill": "#FFFFFF", "stroke": "#99FF66", "compound": "", "dash": "" },
-			{ "id": "DVL Command Injection", "fill": "#FFFFFF", "stroke": "#6699FF", "compound": "", "dash": "" },
-			{ "id": "DVL Source Code Injection", "fill": "#FFFFFF", "stroke": "#FF9966", "compound": "", "dash": "" },
-			{ "id": "DVL Parameter Injection", "fill": "#FFFFFF", "stroke": "#66FFCC", "compound": "", "dash": "" },
-			{ "id": "DVL File Injection", "fill": "#FFFFFF", "stroke": "#CC99FF", "compound": "", "dash": "" },
-			{ "id": "No consequence", "fill": "#F3F3F3", "stroke": "#C8C8DA", "compound": "", "dash": "" }
 		]
-		},
-		{
-		"caption": "CWEs by Abstraction:",
-		"items": [
-		
-			{ "id": "Pillar", "fill": "#", "stroke": "#7F7F7F", "compound": "dbl", "dash": "solid" },
-			{ "id": "Class", "fill": "#", "stroke": "#7F7F7F", "compound": "sng", "dash": "sysDot" },
-			{ "id": "Base", "fill": "#", "stroke": "#7F7F7F", "compound": "dbl", "dash": "sysDot" },
-			{ "id": "Variant", "fill": "#", "stroke": "#7F7F7F", "compound": "sng", "dash": "solid" },
-			{ "id": "Compound", "fill": "#", "stroke": "#7F7F7F", "compound": "thickThin", "dash": "solid" }
-		]
-		}
-		],
-		"legendLnks": [
-		
-		{
-		"caption": "CWEs Relation by Nature:",
-		"items": [
-		
-			{ "id": "ChildOf", "head": "#none", "tail": "#stealth", "dash": "solid" },
-			{ "id": "CanPrecede", "head": "#none", "tail": "#stealth", "dash": "dash" },
-			{ "id": "CanFollow", "head": "#none", "tail": "#stealth", "dash": "dash" },
-			{ "id": "CanAlsoBe", "head": "#none", "tail": "#none", "dash": "dot" },
-			{ "id": "PeerOf", "head": "#stealth", "tail": "#stealth", "dash": "dot" }
-		]
-		}
-	]
 }
 	
