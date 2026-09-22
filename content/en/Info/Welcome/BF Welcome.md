@@ -15,13 +15,15 @@ url: /
   gtag('config', 'G-PJ364XPP9F');
 </script>
 # <l style="color: #6366f1">NIST Bugs Framework (BF) – the "Periodic Table of Bugs"</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_ 
-_`The US Government has filed Patent Application No. PCT/US2025/038662 Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST. 
 
-If you plan on a Bugs Framewrok (BF) based Research, please contact Irena Bojanova at: [irena.bojanova@nist.gov](irena.bojanova@nist.gov) for guidance and demonstrations on the current BF Taxonomy, Formal Language, Tools, and Sevices. 
 
-To obtainin a license for BF-based research, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).`_
+>>> For access to the current BF Taxonomy (including its full taxon definitions), Formal Language, Tools, and Services, contact Irena Bojanova at [irena.bojanova@nist.gov](mailto\:irena.bojanova@nist.gov). Reconstructing BF from older publications may lead to an incomplete or inaccurate characterization of BF.
+</br></br>
+>>> To obtain a free research license, contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](mailto:tpo@nist.gov). The US Government has filed Patent Application No. PCT/US2025/038662, Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST.
 
+</br>
 The Bugs Framework (BF) is a classification of security bugs and related faults that features a formal language for the unambiguous specification of software and hardware security weaknesses and vulnerabilities. BF bugs models, multidimensional weakness and failure taxonomies, and vulnerability models define the lexis, syntax, and semantics of the BF formal language and form the basis for the definition of secure coding principles. The BF formalism supports a deeper understanding of vulnerabilities as chains of weaknesses that adhere to strict causation, propagation, and composition rules. It enables the generation of comprehensively labeled weakness and vulnerability datasets and multidimensional vulnerability classifications. It also enables the development of new algorithms for code analysis and the use of AI models and formal methods to identify bugs and detect, analyze, prioritize, and resolve or mitigate vulnerabilities. 
+
 ##### <l style="color: #6366f1">Formalizing Cybersecurity Security Weaknesses and Vulnerabilities, BF aims to become Developers’ and Testers’ "Best Friend"</l> 
 
 The BF is a formal system that comprises:
