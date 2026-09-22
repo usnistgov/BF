@@ -14,6 +14,6 @@ title: "Overview"
   gtag('config', 'G-PJ364XPP9F');
 </script># BF Specifications of CVEs <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_
 
-The following is a growing repository of unambiguous formal BF specifications of software security vulnerabilities from the Common Vulnerabilities and Exposures (CVE).
+The BFVUL/BFCVE menu provides a growing repository of unambiguous formal BF specifications of software security vulnerabilities from the Common Vulnerabilities and Exposures (CVE).
 
-//to be added//
+Please click on any of the listed BF specifications on the left. 

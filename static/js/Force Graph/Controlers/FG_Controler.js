@@ -30,8 +30,8 @@ data.nodes.forEach(d => {
     } else {
         // ID already exists! Merge the data
         nodeMap[d.id].compound = "dbl";
-        nodeMap[d.id].stroke2 = d.stroke; // Store the second classification color
-        // You might also want to merge other properties here if necessary
+        nodeMap[d.id].stroke2 = d.stroke; // second node color
+        // merge other properties here if needed
     }
 });
 
@@ -90,7 +90,7 @@ node.append("circle")
 // Compound strokes as a slightly larger circle
 node.filter(d => d.compound === "dbl")
     .append("circle")
-    .attr("r", 11.5)
+    .attr("r", 11)
     .attr("fill", "transparent")
     .attr("stroke", d => d.stroke2) // <--- Use stroke2 here!
     .attr("stroke-dasharray", (d) => {

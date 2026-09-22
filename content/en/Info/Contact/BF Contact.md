@@ -16,9 +16,11 @@ title: "BF Contact Us"
 
 # <l style="color: #6366f1">BF Contact <br/> _`Irena Bojanova, Ph.D., Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 </br>
-Do not hesitate to reach out for guidance and demonstrations on the Bugs Framewrok (BF) Taxonomy, Formal Language, Tools, and Sevices. 
+If you plan on a Bugs Framewrok (BF) based Research, please contact Irena Bojanova at: [irena.bojanova@nist.gov](irena.bojanova@nist.gov) for guidance and demonstrations on the current BF Taxonomy, Formal Language, Tools, and Sevices. 
 
 Provide your indended BF use via the [BF Form](https://forms.gle/SRZyva5Vn1i4dQQ2A).
+
+To obtainin a license for BF-based research, please contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](tpo@nist.gov).
 
 <!-- Please be encouraged also to provide feedback on BF at any time.  -->
 <!-- , especially while utilizing it within your own software security development and research pojects -- having your inputs will be particularly helpful in refining the BF's evolution.  -->
