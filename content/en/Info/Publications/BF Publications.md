@@ -87,7 +87,7 @@ Please, reference BF publications `recent than year 2020`, as some old BF classe
 ## Posters
 ||
 | --- | 
-| Bojanova, I., <a href="NIST Cloud Computing Day 2026-Irena-Bojanova--08132026.pdf">BF Service on NIST AWS</a>, NIST Cloud Computing Day 2026, Aug. 13, 2026. |
+| Bojanova, I., <a href="NIST-Cloud-Computing-Day-2026-Irena-Bojanova--08132026.pdf">BF Service on NIST AWS</a>, NIST Cloud Computing Day 2026, Aug. 13, 2026. |
 | Bojanova, I., <a href="/BF/Posters/ITL-Science-Day-2025-NVD-BF-Irena-Bojanova-03261026.pdf">NVD–BF (or NVD<sup>BF</sup>) Formal Vulnerability Classifications Platform</a>, NIST ITL Science Day 2025, Mar. 26, 2026. |
 | Bojanova, I., [BF–Based ML/AI Systems for Formal Hardware & Software Vulnerability Specification](/BF/Posters/AI@NIST-Day-2025-BF-AI-Systems-Irena-Bojanova-02-26-2026.pdf) & [AI@NIST Day - Poster #21](https://ai-day-proceedings.ipages.nist.gov/2026/poster_21.html), AI@NIST Day 2025, Feb. 26, 2026. |
 | Bojanova, I., [Bugs Framework (BF): Formalizing Cybersecurity Security Bugs, Weaknesses, and Vulnerabilities](https://www.nist.gov/publications/bugs-framework-bf-poster), NIST ITL Science Day 2023, Nov. 8, 2023. |
