@@ -69,7 +69,7 @@ IN THE NEWS: <br>
 [NIST Launches Bugs Framework’ to promote precision in cyber vulnerability classification](https://insidecybersecurity.com/share/16087), Inside Cybersecurity, acob Livesay, July 31, 2024 <br>
 [NIST official details efforts to improve automation for vulnerability management through new framework](https://insidecybersecurity.com/share/16091), Inside Cybersecurity, Jacob Livesay, July 31, 2024 <br>
 
-_____________________________________
+<!-- _____________________________________
 
 ## BF Intro Presentations
 
@@ -105,7 +105,7 @@ BF Hands On and Potential Impacts <br/>
 
 {{< /rawhtml >}}
 
-<br/><br/>
+<br/><br/> -->
 
 
 <script>
