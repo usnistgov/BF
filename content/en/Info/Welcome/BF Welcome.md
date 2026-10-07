@@ -73,6 +73,8 @@ IN THE NEWS: <br>
 
 ## BF Intro Presentations
 
+>> For current BF Taxonomy, Formal Language, Tools, and Services, contact Irena Bojanova at [irena.bojanova@nist.gov](mailto\:irena.bojanova@nist.gov).  
+
 <br/>
 {{< rawhtml >}} 
 BF Terminology and Existing Repositories:
