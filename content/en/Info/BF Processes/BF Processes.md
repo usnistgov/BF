@@ -14,7 +14,7 @@ title: BF Processes
   gtag('config', 'G-PJ364XPP9F');
 </script>
 
-# <l style="color: #6366f1">BF Process <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
+# <l style="color: #6366f1">BF Processes <br/> _`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_</l>
 
 The BF Processes are presented on Figure 1.
 
