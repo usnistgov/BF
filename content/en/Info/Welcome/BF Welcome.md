@@ -16,7 +16,7 @@ url: /
 </script>
 # <l style="color: #6366f1">NIST Bugs Framework (BF) – the "Periodic Table of Bugs"</l><br/>_`Irena Bojanova, Inventor/Creator, PI & Lead, NIST Bugs Framework (BF), 2014 – ~~~`_ 
 
->> For current BF Taxonomy, Formal Language, Tools, and Services, contact Irena Bojanova at [irena.bojanova@nist.gov](mailto\:irena.bojanova@nist.gov). Reconstructing BF from older publications may lead to an incomplete or inaccurate characterization of BF.
+>> For the current BF Taxonomy, Formal Language, Tools, and Services, contact Irena Bojanova at [irena.bojanova@nist.gov](mailto\:irena.bojanova@nist.gov). Reconstructing BF from older publications may lead to an incomplete or inaccurate characterization of BF.
 
 >>The US Government has filed Patent Application No. PCT/US2025/038662, Bugs Framework (BF): A System for Formal Specification of Cybersecurity Weaknesses and Vulnerabilities, Definition of Secure Coding Principles, and Generation of Weakness and Vulnerability Datasets and Vulnerability Classifications. Inventor: Irena Bojanova, NIST. To obtain a free research license, contact the NIST Technology Partnerships Office (TPO) at: [tpo@nist.gov](mailto:tpo@nist.gov).
 
